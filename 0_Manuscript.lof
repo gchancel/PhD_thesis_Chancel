@@ -5,33 +5,34 @@
 \contentsline {xchapter}{}{xi}{section*.6}%
 \contentsline {xchapter}{}{xiii}{section*.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 17:39:34+02:00}}{1}{chapter.1}%
+\contentsline {xchapter}{Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Body Biasing Injection good practices \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 17:39:34+02:00}}{3}{chapter.2}%
+\contentsline {xchapter}{Body Biasing Injection good practices \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{3}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view \textcolor {orange}{ARRANGER MISE EN PAGE FIGURES}\relax }}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ChipSHOUTER\textregistered -PicoEMP from NewAE Technology Inc.\relax }}{6}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Integrated circuits modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 17:39:34+02:00}}{7}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view.\relax }}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Surface subdivision improvement.\relax }}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Three-dimensional Dual-Well and Triple-Well IC comprehensive standard-cell electrical schematic.\relax }}{12}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Elementary substrate 3D netlist\relax }}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Elementary substrate SPICE netlist\relax }}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces SCS substrate layer SPICE netlist\relax }}{16}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Three-dimensional standard-cell segments interconnection example.\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mixed substrates operating point.\relax }}{21}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Dual-well and triple-well cross-sectional current distribution view at the apex of the voltage pulse\relax }}{23}{figure.caption.19}%
+\contentsline {xchapter}{Integrated circuits modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{9}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view.\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Surface subdivision improvement.\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Three-dimensional Dual-Well and Triple-Well IC comprehensive standard-cell electrical schematic.\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Elementary substrate 3D netlist\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Elementary substrate SPICE netlist\relax }}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SCS substrate layer SPICE netlist\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Three-dimensional standard-cell segments interconnection example.\relax }}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mixed substrates operating point.\relax }}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Dual-well and triple-well cross-sectional current distribution view at the apex of the voltage pulse\relax }}{25}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 17:39:34+02:00}}{27}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{33}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{34}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Fault susceptibility maps\relax }}{36}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{36}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{36}{figure.caption.25}%
+\contentsline {xchapter}{Substrate thinning analysis \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{29}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{32}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Fault susceptibility maps\relax }}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{38}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Fault model}{39}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces D Flip-Flop logic schematic\relax }}{41}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces BBI sampling fault susceptibility\relax }}{42}{figure.caption.27}%
+\contentsline {xchapter}{Fault model}{41}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces D Flip-Flop logic schematic\relax }}{43}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces BBI sampling fault susceptibility\relax }}{44}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{43}{chapter.6}%
-\contentsline {xchapter}{}{45}{section*.28}%
+\contentsline {xchapter}{Conclusion}{45}{chapter.6}%
+\contentsline {xchapter}{}{47}{section*.29}%
