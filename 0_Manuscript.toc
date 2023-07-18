@@ -1,43 +1,43 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{List of Figures}{vii}{section*.4}%
-\contentsline {xchapter}{}{vii}{section*.4}%
+\contentsline {xchapter}{}{viii}{section*.4}%
 \contentsline {chapter}{List of Tables}{ix}{section*.5}%
 \contentsline {xchapter}{}{ix}{section*.5}%
 \contentsline {chapter}{listofalgorithms}{xi}{section*.6}%
 \contentsline {xchapter}{}{xi}{section*.6}%
 \contentsline {chapter}{List of Acronyms}{xiii}{section*.8}%
 \contentsline {xchapter}{}{xiii}{section*.8}%
-\contentsline {chapter}{\numberline {1}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Context \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Contribution \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{2}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Body Biasing Injection good practices \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Platform equipment}{4}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Body Biasing Injection enhanced practice \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Giraud's differential fault attack \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{7}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Electrical models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Standard-cell segment models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{15}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Preliminary model validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{21}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Voltage pulse generator model and further validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{23}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Early generator models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{24}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Further generator models and verification \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{24}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Experimental comparisons \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{26}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Conclusion \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{26}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{30}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{35}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Models validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{37}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{38}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Conclusion \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:15:13+02:00}}{40}{section.4.5}%
+\contentsline {chapter}{\numberline {1}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contribution \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Body Biasing Injection good practices \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Platform equipment \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{4}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Body Biasing Injection enhanced practice \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Giraud's differential fault attack \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Electrical models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Standard-cell segment models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{15}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Preliminary model validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Voltage pulse generator model and further validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{23}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Early generator models \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{24}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Further generator models and verification \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{24}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Experimental comparisons \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{26}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusion \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{26}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{30}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{31}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{35}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Models validation \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{37}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{37}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{38}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusion \textcolor {purple}{\footnotesize COMPILATION DATE: 2023-07-18 19:45:27+02:00}}{40}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Fault model}{41}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Summary}{42}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Introduction}{42}{section.5.2}%
@@ -45,5 +45,5 @@
 \contentsline {subsection}{\numberline {5.3.1}Logic considerations}{43}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Charge extortion}{44}{subsection.5.3.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}%
-\contentsline {chapter}{Bibliography}{47}{section*.29}%
-\contentsline {xchapter}{}{47}{section*.29}%
+\contentsline {chapter}{Bibliography}{47}{section*.30}%
+\contentsline {xchapter}{}{47}{section*.30}%
