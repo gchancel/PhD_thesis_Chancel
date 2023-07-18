@@ -1,0 +1,42 @@
+\section{Voltage pulse generator model and further validation \DDC}
+\label{section:genModel}
+
+Introducing the generator did not come without major problems.
+Indeed, the latter inevitably interacts with the target IC, and depending on the real generator output stage architecture, this interaction can drastically vary from one to another.
+
+For example, when using ESD guns as in \cite{japbbi, japbbi2}, their output stages are usually AC-coupled, while on our works, we mostly use DC-coupled generators.
+These subtle differences in practice become major issues in simulation when not treated correctly.
+Indeed, even considering the transmission line as it has been recommended in Chapter \ref{chap:2goodPractices}, most DC-coupled high voltage generators use a high-impedance mode to disconnect the load from the generator before and after the generated pulses.
+Therefore, one has to consider this specific aspect when designing a proper BBI electrical model, as we will explain in this section.
+
+\subsection{Early generator models \DDC}
+\label{subsection:earlyGenModel}
+
+The first models consisted in a PWL voltage source directly connected to the substrate of the IC, and we quickly observed abnormal operating point values.
+\textcolor{orange}{Je dois rajouter des valeurs chiffrées.}
+Indeed, in this setup, at rest, the generator is equivalent a DC voltage source applying 0 V to the backside of the simulated IC.
+Therefore, it applies an undesired bias to the substrate and thus changes the operating point, inducing a high amount of charges flowing between power sources, thus disturbing the power delivery network.
+To circumvent this issue, we chose to mimic the behavior of an actual high voltage pulse generator and to switch between a high impedance mode and a voltage pulse mode as a function of the pulse time.
+This allowed to observe correct operating points with the generator connected, as it is the case in a real experiment.
+\textcolor{orange}{Je rajouterai les figures.}
+
+\subsection{Further generator models and verification \DDC}
+\label{subsection:furtherGenModel}
+
+Because the previously explained generator model is electrically perfect and does not include any impedance mismatching effects, we extended the model to include the generator output impedance and the transmission line.
+\textcolor{orange}{Peut-être faire un schéma ?}
+It allowed us to observe impedance mismatch effects, which are of great importance when performing BBI (Chapter \ref{chap:1intro}), as the injected pulses are very fast and of high amplitude.
+Thus, impedance mismatch greatly changes the effective applied voltage pulse and injected currents, while also modifying unpredictably the induced disturbances, as we will observe further in this manuscript.
+
+\input{3_modeling/figures/simuCurrentMaps/coupeCourant.tex}
+In order to verify more thoroughly the soundness of the proposed models, a circuit under BBI is simulated in order to analyze the current distribution and amplitude, specifically at the peak of the voltage pulse.
+Fig. \ref{fig:coupeCourantDwTw} presents the results for both dual-well and triple-well ICs.
+The substrate being a resistive environment, it is natural to observe isotropic hemispheric current distributions.
+However, it is interesting to notice that the results show a lower amount of current concerning the triple-well IC compared to the dual-well one.
+It can be explained thanks to the coupling between the probe/substrate and the logic gates.
+On one hand, as shown in Fig. \ref{fig:dualTripleIvx}, in the dual-well IC, the charges do not have to cross any silicon junction in order to reach the NMOS transistors, while there is one junction between the probe and the PMOS transistors.
+On the other hand, concerning the triple-well IC, there is always at least one silicon junction to cross in order to reach the transistors.
+Because of this, and because the voltage pulse will inevitably bias the diode, it will change the coupling whether the diode is conducting or blocking.
+When the diode is conducting, the transistors are DC-coupled to the probe, whereas when the diode is blocking, the transistors are AC-coupled.
+In the second case, it means that charges can flow only on the edge of the pulse.
+Thus, during the pulse's plateau, there is no charge flow.

@@ -1,0 +1,105 @@
+
+\section{Electrical models \DDC}
+\label{sect:elecModels}
+\input{3_modeling/figures/dualTripleCoupe}
+On one hand, when performing EMFI (usually on the front side of the IC), air is the physical support to convey energy through electromagnetic waves.
+It is achieved by coupling the loop wire probe to the power delivery network loops.
+On the other hand, when working with BBI, the context is different.
+Indeed, the energy is conveyed through electrical charges through the silicon substrate.
+Therefore, the carriers have to go through the metallic probe and the whole substrate to reach the logic gates and the power delivery network in order to disturb the IC operation.
+Thus, the substrate type and design could have a significant impact on BBI efficiency.
+As a result, we explored and studied BBI in two specific scenarios depending on the substrate types: dual-well and triple-well.
+Fig. \ref{fig:dualTripleIvx} shows the sectional views of two inverters manufactured in a dual-well and a triple-well substrate respectively.
+These simple schematics are helpful in understanding the reasoning behind the design of the electrical models.
+
+Fig. \ref{subfig:dualIvx} depicts the cross-sectional view of a dual-well CMOS inverter.
+The P-doped silicon substrate is colored in gray, with $RC_{GND}$ being the access resistance from the epitaxy layer to the NMOS bulk.
+This physical environment is the conducting support of electrical charges which flow up to the NMOS transistor.
+The orange region is the N-doped silicon well, located inside the P-substrate to manufacture the PMOS transistors.
+$RC_{VDD}$ is the access resistance from the epitaxy to the PMOS bulk inside the $N_{WELL}$.
+In addition to the P-substrate, the N-well is the last environment electrical charges have to go through before reaching the PMOS transistor.
+
+Fig. \ref{subfig:tripleIvx} shows the cross-sectional view of a triple-well CMOS inverter.
+As before, gray areas represent P-doped silicon, and orange areas N-doped silicon.
+$R_{NW}$ is the $N_{WELL}$ access resistance from the epitaxy to the PMOS bulk, and $R_{PW}$ is the $P_{WELL}$ access resistance from the $N_{WELL} - P_{WELL}$ junction to the NMOS bulk.
+In this case, two silicon junctions are present, represented by two independent diodes.
+In order to reach the PMOS transistors, charges have to go through the exact same environments as before.
+However, concerning NMOS transistors, they have to pass through two silicon junctions instead of none.
+As discussed in Chapter \ref{chap:5faultModel}, this has a significant impact on BBI induced effects.
+However, these schematics are incomplete and do not allow simulating ICs behaviors under BBI.
+
+Therefore, as it has been done in \cite{mathieuEMFI}, ICs are spatially split in elementary sections called standard-cells segments (SCS).
+However, in addition to the improvement of the dual-well proposed model proposed in \cite{mathieuEMFI}, we also introduce a triple-well model in order to fully appreciate the behavioral differences of BBI applied to both substrate types.
+
+\input{3_modeling/figures/substrateSubdivid}
+\input{3_modeling/figures/dualTripleScs}
+The main improvement over the dual-well model proposed in \cite{mathieuEMFI} concerns the substrate resistive network, as shown in Fig. \ref{fig:surfaceSubDivid}.
+In \cite{mathieuEMFI}, the substrate network is coarse and only consists of six electrical resistances for each SCS.
+It means that they represent the entire SCS substrate thickness, width, and height (on the left in Fig \ref{fig:surfaceSubDivid}).
+Even though it is sufficient to appreciate the injection method effects while studying EMFI, mainly because the substrate is almost transparent when it comes to electromagnetic waves, but also because EMFI is mostly performed at the IC front side, it is not precise enough to model the spreading of he voltage pulse from the IC backside to the transistors.
+
+To that end, we decided to split as much as possible these resistors, as shown in Fig. \ref{fig:surfaceSubDivid}, to provide a precise enough substrate sub-model while keeping realistic computational workload.
+For the final models, it was decided to use an editable elementary thickness of $10 \; \mu m$, and fixed width and depth of $5 \; \mu m$ for each elementary six-resistors substrate models, according to the footprint of an SCS on the XY plane ($5 \; \mu m \; \times \; (6 \; \mu m \; \times \; 5 \; \mu m)$), resulting in a $30 \; \mu m$ wide and $5 \; \mu m$ deep SCS.
+One can remark that in Fig \ref{fig:dualTripleScs}, no number is given concerning the substrate thickness, as similar to LFI, it is an important parameter which does not have a fixed value.
+Indeed, an attacker may want to thin the substrate or not before performing BBI.
+
+Furthermore, as shown in Fig. \ref{fig:dualTripleScs}, both SCS models contain various electrical components describing the IC structure, roughly composed of:
+\begin{itemize}
+    \item Its substrate
+    \item Its silicon junction(s)
+    \item Its logic gates
+    \item Its power supply rails
+\end{itemize}
+These two models, while being close to each other, allow, thanks to their subtle differences, to properly consider the different behaviors each substrate type exhibits.
+In the next section, dual-well SCS model and triple-well SCS model are consecutively considered and analyzed.
+
+\subsection{Standard-cell segment models \DDC}
+\label{subSect:dualTripleWellScs}
+Historically, IC substrate was manufactured using an exclusive dual-well structure.
+However, nowadays, it is common to find on relatively modern ICs a mix of dual-well and triple-well structures on a monolithic die.
+Triple-well substrate structures bring significant advantages over dual-well substrates.
+In digital ICs, it is mainly used to body bias transistors to optimize their performance under power constraints.
+When used in analog or mixed designs, it gives two main advantages: substrate cross-talk and noise reduction, in addition to power supply decoupling thanks to the additional P-N junction capacitance \cite{tripleWellDecoupling}.
+This is why we decided to cover dual-well and triple-well structures in our models.
+
+Fig. \ref{subfig:dualScs} depicts an SCS dual-well model.
+Each significant section of the SCS is gray-framed and numbered:
+\begin{itemize}
+    \item The section \ovalbox{1} represents the substrate environment: resistive and isotropic.
+    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $RC-VDD$, being the N-well electrical resistance.
+    \item The section \ovalbox{3} is the substrate access resistance.
+    \item The sections \ovalbox{4P} and \ovalbox{4N} contain the average non-logical model of a hundred of logic gates.
+    \item The sections \ovalbox{5} and \ovalbox{5'} are the two levels of the power delivery network, which are low resistive metals.
+    \item The section \ovalbox{6} is the decoupling between both $GND$ and $V_{DD}$ power networks.
+\end{itemize}
+
+Fig. \ref{subfig:tripleScs} depicts the SCS triple-well model as follows:
+\begin{itemize}
+    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $R_{NW}$, being the N-well electrical resistance.
+    \item The section \ovalbox{3} is the $N-P$ silicon junction between the N-well and the P-well, represented once again by a diode and its junction capacitance, in addition to an access resistance $R_{PW}$, being the P-well electrical resistance.
+    \item The sections \ovalbox{1}, \ovalbox{4P}, \ovalbox{4N}, \ovalbox{5'} and \ovalbox{6} being the same as before.
+\end{itemize}
+
+\input{3_modeling/algorithms/figureHspiceGen}
+\input{3_modeling/algorithms/hspiceGen}
+Each area of the elementary SCS models were automatically generated using  a custom algorithm, shown in Alg. \ref{alg:icGen}.
+It was mainly designed in order to reduce as much as possible any human intervention to limit difficult to debug errors and inconsistencies.
+\textcolor{teal}{Ce qui suit doit être revu.}\textcolor{orange}{In addition to that, it offers flexibility tanks to easy user modifications directly in the generation algorithm parameters instead of netlist editing, which reduces further errors.
+Furthermore, because these models only represent a section of an integrated circuit, it is required, in order to use and verify these models effectively, to replicate and interconnect them spatially as much as needed.
+This was achieved using custom Python scripts using procedural generation.
+The IC generation algorithm allows multiple settings to be modified in order to produce the required results, while also having some structural limitations.
+The two main limitations are the fixed width and depth of the elementary SCS models, and the fixed number of metal levels of the power delivery network.
+On the other hand, next is a non-exhaustive list of user modifiable settings:}
+\begin{itemize}
+	\item Global IC size.
+	\item Probe position.
+	\item IC global substrate thickness.
+	\item IC elementary substrate thickness.
+	\item Substrate type (dual-well, triple-well, or mixed).
+	\item Voltage pulse amplitude.
+	\item Voltage pulse width.
+	\item Voltage pulse rise and fall times.
+	\item Simulation time and step.
+\end{itemize}
+Eventually, the generator script incorporates a visual inspection tool in order to quickly verify the correctness of the generated netlist.
+%Alg. \ref{alg:icGen} presents the IC generation algorithm, alongside Fig. \ref{fig:algo}.

@@ -1,0 +1,87 @@
+% !TeX root = ./0_Manuscript.tex
+\begin{comment}
+\chapter{Conclusion and Perspectives}
+\label{chap:conclusion}
+\minitoc
+\newpage
+
+%\latexComment{
+The memory has always been a major component of computing systems.
+The main memory, implemented using the DRAM technology, is used to store run-time data, including open files, temporary variables, and sensitive information such as encryption keys.
+To keep up with the ever-increasing capability of modern computers, DRAM manufacturers have increased the memory density to improve the capacity and speed while maintaining a relatively low manufacturing cost.
+However, as its density increased, the memory became vulnerable to Rowhammer attacks, which exploits cell-to-cell disturbance to cause bit-flips.
+When properly exploited, this attack can be used to crash systems, reveal sensitive information or take control of the system.
+
+Numerous mitigation techniques were proposed, using various methods to detect aggressors or to prevent corruption on vulnerable data, using mechanisms implemented in software, in the memory controller or in the memory devices themselves, using probabilistic or counter-based algorithms.
+Despite nearly a decade of research to stop the attacks from harming the systems, the issue has only gotten worse over the years, with an increasing vulnerability as the technology scaled down.
+%}
+
+%In this thesis, we explore the problematic of the mitigation of Rowhammer attacks.
+%We 
+%The lack of tools to evaluate mitigation proposals and simulate their integration into computer architectures 
+
+\section{Contributions}
+
+\subsection{Rowhammer simulation in gem5}
+To make the development of Rowhammer countermeasures easier and faster, we improved the architecture simulator gem5 with a memory-corruption module, capable of simulating the memory corruption from Rowhammer attacks.
+This tool allows countermeasure designers to easily evaluate their countermeasure in a realistic computer architecture, using existing components or future technologies with different vulnerabilities to the attack.
+
+\subsection{Improvement of Rowhammer mitigations}
+The most efficient Rowhammer mitigation techniques use activation counters to detect the aggressors, with a bank-level counting granularity.
+The most important drawback of counter-based mitigation techniques is the addition memory required to store all the counters
+As the memory bandwidth at rank level is not limited by the memory bandwidth at bank level, we pointed out that moving from bank-level counting granularity to rank-level counting granularity would greatly reduce the size of this additional memory.
+However, the reduced delay between ACT commands at rank-level could prevent some mitigations from working properly.
+
+\subsection{Mitigation proposals}
+We proposed two Rowhammer detection mechanisms.
+First, we used a machine learning algorithm to categorise hardware event traces as depicting an attack or a normal behaviour.
+While this solution shows encouraging results, it does not guarantee protection, and its hardware implementation is heavy compared to state-of-the-art counter-based detection mechanisms.
+Our second proposal is F-CoRD, a counter-based detection mechanism that evaluates the activation frequency of DRAM rows to keep track of only frequently-activated rows and their activation count to detect aggressor rows, with an adaptive usage of the counters.
+
+\subsection{Experiments on MRAM}
+Finally, as a line of research, we evaluated the vulnerability of recent Toggle-MRAM and STT-MRAM memory module against Rowhammer attacks.
+A few publications claimed that this technology might be vulnerable to variations of the Rowhammer attack, but did not verify it using physical memory modules.
+For this purpose, we developed two platforms to attack commercial memory modules following various access patterns.
+We were unable to witness any corruption of the memory, but this does not prove that the memory is not vulnerable. Future memory modules might become vulnerable to attacks as the density of the memory increases.
+However, our experiments showed that a current analysis during the operation of the memory can be used to discover various information about the internal layout of the memory, and the nature, location and value of an operation on the memory.
+An aggressor might be able to use it to discover sensitive information.
+
+\section{Future work}
+
+Multiple points can be improved in future work.
+
+Regarding the Rowhammer simulation, the modifications we made on Ramulator can be ported on the integrated memory simulator of gem5.
+We initially chose Ramulator as the main memory simulator. Recently, gem5 integrated the cycle-accurate DRAM simulator DRAMSim3.
+Porting the modifications on the integrated memory simulator of gem5 could prove useful to extend the usage of our memory-corruption module.
+Additionally, the simulation can be made more accurate: we can add the disturbance of not-immediate neighbours of aggressor rows, that is not integrated yet because of its complexity; the corruption models of new memory technologies like MRAM can be integrated to the simulator to allow the development of specific countermeasures.
+
+For our second contribution, we proposed to reduce the memory overhead of counter-based Rowhammer mitigations by changing their counting granularity to rank level.
+This improvement faced the issue of the increased ACT frequency that the mechanism may not be able to withstand: at rank level, the delay between two consecutive ACTs can be one order of magnitude lower than at bank level.
+Specifically, mitigation techniques based on Content-Addressable Memories (CAM) may not be able to process the ACTs fast enough.
+To fix this issue, specialised CAM could be developed, based on pipelined CAM which can more easily withstand the higher ACT frequency.
+%Improving Rowhammer mitigations by changing their counting granularity faced the issue of an increased frequency of ACTs to process, especially for CAM-based solutions for which the increased memory size and ACT frequency is an important issue.
+%To fix this issue, specialised CAMs can be developed, based on pipelined CAM which can withstand a higher access frequency.
+
+Concerning the two mitigation proposals, while the first ML-based proposal calls for several improvements, recent publications have already improved this solution with better-designed ML models and better hardware integration~\cite{joardar2022learning}.
+This solution could be explored further by evaluating other machine-learning models, and by optimising the event counters in the architecture.
+The second proposal, however, is to this day still in development.
+It necessitates the creation of specialised CAMs to implement the necessary operations, and we believe it can be further improved to reduce the amount of memory it needs, to make it comparable to other state-of-the-art mitigation proposals.
+
+Finally, the experimentation on MRAM memories is far from complete.
+Failing to witness corruption does not mean that the technology is not vulnerable to Rowhammer attacks.
+Our platforms can be improved on multiple points, including the automatic control of the temperature of the memory to put more constraints on the memory.
+Moreover, the power supply voltage of the memory can be lowered and the access timings can be shorten in order to reduce the retention time and therefore increase the vulnerability of these memories to disturbance.
+Future publications on the subject of Rowhammer attacks on MRAM could be used to improve the attack pattern and try to trigger bit-flips in the memory.
+A collaboration with MRAM manufacturers could further improve the platform, with a precisely-known memory architecture, and evaluation of state-of-the-art memory technologies.
+
+\section{Concluding remarks}
+
+In this thesis, we presented a tool to facilitate the development and evaluation of Rowhammer countermeasures, proposed some improvement on existing countermeasures and built new detection mechanisms that could be used as a base for mitigation techniques.
+We hope that our work will help DRAM manufacturers and countermeasure designers be able to develop new mechanisms, and integrate appropriate functionalities in their products to protect future DRAM modules against Rowhammer attacks.
+However, with the introduction of new memory technologies as non-volatile replacements for the DRAM technology, other vulnerabilities will certainly be discovered on these new technologies, which will require appropriate countermeasures, and tools to develop to develop them.
+
+%As the root cause of the Rowhammer attack remained unknown until recently, the proposed mitigation techniques only tried to prevent the cell-to-cell disturbance from corrupting the memory, while the vulnerability of the systems to this disturbance only worsen over the years.
+%With the recent discovery of the root cause of this disturbance and methods to reduce it considerably during the manufacturing process, the less-vulnerable memories will require much lighter mitigation mechanisms.
+%Therefore, this issue is bound to disappear on future DRAMS.
+%However, with the introduction of new memory technologies as non-volatile replacements for the DRAM technology, other vulnerabilities will certainly be discovered on these new technologies, which will require appropriate countermeasures, and tools to develop them.
+\end{comment}

@@ -1,0 +1,103 @@
+% !TeX root = ./0_Manuscript.tex
+
+\tikzset{
+    fc-term/.style={ draw, align=center, rounded rectangle },
+    fc-proc/.style={ draw, align=center, rectangle },
+    fc-dec/.style={ draw, align=center, diamond, aspect=1.65 },
+    %fc-subproc/.style={ draw, rectangle },
+    fc-loop-start/.style={ draw, align=center, signal, signal to=south },
+    fc-loop-end/.style={ draw, align=center, signal, signal to=north },
+    fc-yes/.style={-latex},
+    fc-no/.style={{Circle[open, length=5pt]}-latex}
+}
+
+\newcommand{\tochap}[1]{\hyperref[#1]{Chapter~\ref{#1}}}
+\newcommand{\tosec}[1]{\hyperref[#1]{Section~\ref{#1}}}
+\newcommand{\totab}[1]{\hyperref[#1]{Table~\ref{#1}}}
+\newcommand{\tofig}[1]{\hyperref[#1]{Figure~\ref{#1}}}
+\newcommand{\tofigs}[0]{Figures~}
+
+\newcommand{\todo}[1]{{\color{red}\textbf{[TODO: #1]}}}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+\newcommand*\fillcircled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle, fill=black, text=white, draw=black, inner sep=0.1em] (char) {#1};}}
+
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}       % "top" strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}} % "bottom" strut
+\newcommand{\TBstrut}{\Tstrut\Bstrut}       % top&bottom struts
+
+\DeclareUnicodeCharacter{24EA}{\circled{0}}
+\DeclareUnicodeCharacter{2460}{\circled{1}}
+\DeclareUnicodeCharacter{2461}{\circled{2}}
+\DeclareUnicodeCharacter{2462}{\circled{3}}
+\DeclareUnicodeCharacter{2463}{\circled{4}}
+\DeclareUnicodeCharacter{2464}{\circled{5}}
+\DeclareUnicodeCharacter{2465}{\circled{6}}
+\DeclareUnicodeCharacter{2466}{\circled{7}}
+\DeclareUnicodeCharacter{2467}{\circled{8}}
+\DeclareUnicodeCharacter{2468}{\circled{9}}
+\DeclareUnicodeCharacter{24B6}{\circled{A}}
+\DeclareUnicodeCharacter{24B7}{\circled{B}}
+\DeclareUnicodeCharacter{24B8}{\circled{C}}
+\DeclareUnicodeCharacter{24B9}{\circled{D}}
+\DeclareUnicodeCharacter{24BA}{\circled{E}}
+\DeclareUnicodeCharacter{24BB}{\circled{F}}
+
+\DeclareUnicodeCharacter{24FF}{\fillcircled{0}}
+\DeclareUnicodeCharacter{2776}{\fillcircled{1}}
+\DeclareUnicodeCharacter{2777}{\fillcircled{2}}
+\DeclareUnicodeCharacter{2778}{\fillcircled{3}}
+\DeclareUnicodeCharacter{2779}{\fillcircled{4}}
+\DeclareUnicodeCharacter{2780}{\fillcircled{5}}
+\DeclareUnicodeCharacter{2781}{\fillcircled{6}}
+\DeclareUnicodeCharacter{2782}{\fillcircled{7}}
+\DeclareUnicodeCharacter{2783}{\fillcircled{8}}
+\DeclareUnicodeCharacter{2784}{\fillcircled{9}}
+\DeclareUnicodeCharacter{215}{\ensuremath{\times}}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{394}{\ensuremath{\Delta}}
+
+\newcommand*\floor[1]{\left\lfloor{#1}\right\rfloor}
+\newcommand*\ceil[1]{\left\lceil{#1}\right\rceil}
+
+\newcommand*{\Vdd}{\ensuremath{V_{DD}}\xspace}
+\newcommand*{\GND}{\ensuremath{GND}\xspace}
+\newcommand*{\halfVdd}{\ensuremath{\frac{1}{2}\Vdd}\xspace}
+\newcommand*{\tRC}{\ensuremath{t_{RC}}\xspace}
+\newcommand*{\tREFW}{\ensuremath{t_{REFW}}\xspace}
+\newcommand*{\tREFI}{\ensuremath{t_{REFI}}\xspace}
+\newcommand*{\tRFC}{\ensuremath{t_{RFC}}\xspace}
+\newcommand*{\tRRDS}{\ensuremath{t_{RRD\_S}}\xspace}
+\newcommand*{\tRRDL}{\ensuremath{t_{RRD\_L}}\xspace}
+\newcommand*{\tFAW}{\ensuremath{t_{FAW}}\xspace}
+\newcommand*{\TRH}{\ensuremath{T_{RH}}\xspace}
+\newcommand*{\Nbank}{\ensuremath{N_{bank}}\xspace}
+\newcommand*{\HCfirst}{\ensuremath{HC_{first}}\xspace}
+\newcommand*{\ie}{\textit{i.e.}\xspace}
+\newcommand*{\eg}{\textit{e.g.}\xspace}
+\newcommand*{\electron}{{\fontsize{3pt}{3pt} \textbf{\fillcircled{$-$}}}}
+\newcommand*{\bigElectron}{{\small \textbf{\fillcircled{$-$}}}}
+
+\newcommand*{\hex}[1]{\ensuremath{\text{\texttt{#1}}_\text{h}}\xspace}
+\newcommand*{\bin}[1]{\ensuremath{\text{\texttt{#1}}_\text{2}}\xspace}
+
+
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+
+\newcommand{\latexComment}[1]{}
+
+\newcommand{\head}[1]{{\noindent\textbf{#1.}\xspace}} % for heading of a paragraph
+
+\newcommand\mycommfont[1]{\small\textcolor{blue}{#1}}
+%\SetCommentSty{mycommfont}
+
+
+\hyphenation{
+    aca-demia
+    Row-hammer
+    Program-mable
+}

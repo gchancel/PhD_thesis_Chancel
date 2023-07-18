@@ -1,0 +1,161 @@
+% !TeX root = ./0_Manuscript.tex
+
+%%% Path
+\RequirePackage{etoolbox}
+\csdef{input@path}{%
+ {sty/}% cls, sty files
+ {img/}% eps files
+ {bib/}% eps files
+}%
+\csgdef{bibdir}{bib/}% bst, bib files
+
+\documentclass[12pt]{book}
+\pdfoutput=1
+
+%%% Styles
+\usepackage{manuscriptLayout}
+\usepackage{manuscriptCover}
+
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+%\usepackage[onelanguage,english,ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{a4wide}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancybox}
+\usepackage{comment}% Diff
+\usepackage{color}
+%\usepackage{enumitem} % Pour changer le style des listes d'items
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{tocloft}
+\usepackage{minitoc}
+\usepackage{natbib}
+\usepackage{palatino}
+\usepackage{placeins}
+\usepackage{pgf}
+\usepackage{subfloat}
+%\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage[european, noarrowmos]{circuitikz}
+\usepackage{svg}
+\usepackage{import}
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{glossaries}
+\usepackage{fancyvrb}
+\usepackage[inline]{showlabels}
+\usepackage{datetime2}
+
+\newcommand{\DDC}{\textcolor{purple}{\footnotesize COMPILATION DATE: \DTMnow}}
+
+%custom adac
+
+%\usepackage[export]{adjustbox}
+%\usepackage[all]{hypcap}
+%\usepackage{textcomp, textgreek}
+%\usepackage{color, soul}
+%\usepackage{booktabs}
+%\usepackage{array}
+%\usepackage{multirow}
+%\usepackage{makecell}
+%\usepackage[newfloat]{minted}
+%\usepackage{xfrac}
+
+%\usepackage[nottoc]{tocbibind}
+%\usepackage{etoolbox}
+
+\usetikzlibrary{
+    positioning,
+    backgrounds,
+    shapes,
+    arrows.meta,
+    calc
+}
+
+%\usepackage{subcaption}
+
+%\usepackage{yhmath}
+
+%\SetKwInput{KwInput}{Entrées}                % Set the Input
+%\SetKwInput{KwOutput}{Sorties}              % set the Output
+%\SetKwInput{KwInit}{Initialisations}
+
+
+%%% Options packages
+%\frenchbsetup{StandardLists=true}
+\selectcolormodel{RGB}
+\geometry{%
+  a4paper, %body={150mm,220mm},
+  left=25mm,top=30mm,
+  headheight=7mm,
+  headsep=14mm,
+  marginparsep=4mm, marginparwidth=27mm
+}
+
+\setstretch{1.5}
+
+\setcounter{minitocdepth}{2}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{4}
+
+%\makeatletter
+%\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-5\p@}}}{}{}
+%\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{-10\p@}}}{}{}
+%\pretocmd{\subsection}{\addtocontents{toc}{\protect\addvspace{-10\p@}}}{}{}
+%%\pretocmd{\figure}{\addtocontents{tof}{\protect\addvspace{-10\p@}}}{}{}
+%\makeatother
+
+%\renewcommand\cftbeforechapskip{\vskip7pt}
+%\renewcommand\cftbeforesecskip{\vskip5pt}
+%\renewcommand\cftbeforefigskip{\vskip5pt}
+%\renewcommand\cftchapafterpnum{\vskip5pt}
+%\renewcommand\cftsecafterpnum{\vskip7pt}
+%\renewcommand\cftsubsecafterpnum{\vskip2pt}
+%\renewcommand\cftfigafterpnum{\vskip5pt}
+%\renewcommand\cfttabafterpnum{\vskip5pt}
+
+% ============================================================================
+% Custom commands
+
+\input{custom_cmds}
+
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}\thispagestyle{empty}\renewcommand{\headrulewidth}{0pt}}
+{\vspace*{\fill}}
+%\endlocaldefs
+
+\pagestyle{fancy}
+\makeatletter
+\DeclareRobustCommand{\format@sec@number}[2]{{\normalfont\upshape#1}#2}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\format@sec@number{\ifnum\c@secnumdepth>\m@ne\@chapapp\ \thechapter. \fi}{#1}}{}}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\format@sec@number{\ifnum\c@secnumdepth>\z@\thesection. \fi}{#1}}}
+\makeatother
+
+\fancyhf{}
+\fancyhead[RE]{\itshape\nouppercase{\leftmark}}
+\fancyhead[LO]{\itshape\nouppercase{\rightmark}}
+\fancyhead[LE,RO]{\thepage}
+
+\fancypagestyle{default}{%
+    \fancyhead[RE]{\itshape\nouppercase{\leftmark}}
+    \fancyhead[LO]{\itshape\nouppercase{\rightmark}}
+    \fancyhead[LE,RO]{\thepage}
+}
+
+\fancypagestyle{listofacronyms}{%
+    \fancyhead[RE]{\itshape\nouppercase{List of Acronyms}}
+    \fancyhead[LO]{\itshape\nouppercase{\rightmark}}
+    \fancyhead[LE,RO]{\thepage}
+}%
+
+%\addto\captionsfrench{
+%    \renewcommand{\mtctitle}{Table of content}
+%    \renewcommand{\listfigurename}{List of the Figures}
+%    \renewcommand{\listalgorithmcfname}{List of the Algorithms}
+%}

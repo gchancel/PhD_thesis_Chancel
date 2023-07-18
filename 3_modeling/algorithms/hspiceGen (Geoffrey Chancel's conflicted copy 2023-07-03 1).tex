@@ -1,0 +1,38 @@
+\begin{algorithm}[ht!]
+\caption[ic algo]{Integrated circuit generation algorithm.}
+\label{alg:icGen}
+\begin{algorithmic}
+%    \REQUIRE jooj \COMMENT {jaaj}
+%    \Require SUBTYPE, TSUB, ESUB, VPUU, PW, TFR, SIMTIME, SIMSTEP, TEX, TEY
+%    \Comment{Yo.}
+    \Function{subRHcalc}{ESUB, RH, RL} \Comment{Function to calculate elementary substrate resistors}
+    \State $RH \gets RH \times (ESUB \div 10)$
+    \State $RL \gets RL \times (ESUB \div 10)$
+    \State \Return RH, RL
+    \EndFunction
+
+    \Function{subX6gen}{ESUB, RH, RL} \Comment{Function to generate elementary substrate models}
+    \State $RH \gets RH \times (ESUB \div 10)$
+    \State $RL \gets RL \times (ESUB \div 10)$
+    \State \Return RH, RL
+    \EndFunction
+
+    \Require SUBTYPE \Comment{IC substrate type: Dual-well, Triple-well, Mixed}
+    \Require TSUB \Comment{IC substrate thickness}
+    \Require ESUB \Comment{Elementary substrate block thickness}
+    \Require VPUU \Comment{Voltage pulse amplitude}
+    \Require PW \Comment{Voltage pulse width}
+    \Require TFR \Comment{Voltage pulse rise and fall times}
+    \Require SIMTIME \Comment{Simulation duration}
+    \Require SIMSTEP \Comment{Simulation time step}
+    \Require TEX \Comment{Desired X size (µm)}
+    \Require TEY \Comment{Desired Y size (µm)}
+    \State $RH \gets 2000$
+    \State $RL \gets 500$
+    \State $nC \gets TEX \div 30$ \Comment{Number of column}
+    \State $nL \gets TEX \div 5$ \Comment{Number of lines}
+    \State $nH \gets TSUB \div ESUB$ \Comment{Number of substrate layers}
+    \Ensure nC, nL and nH are integers
+    \State \Call{subRHcalc}{ESUB, RH, RL}
+\end{algorithmic}
+\end{algorithm}

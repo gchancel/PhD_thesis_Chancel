@@ -1,0 +1,27 @@
+
+\section{Introduction \DDC}
+%As it was stated in the previous Chapter, when performing body biasing injection, the silicon substrates of integrated circuits is the main physical environment used to convey electrical charges.
+%In addition to this, because there are different IC manufacturing processes, depending on the purpose of the IC and the silicon wafer size, it is common to find various ICs with various substrate thicknesses.
+%For example, for 300 mm wafers, it is frequent to find 700 µm thick substrates, whereas in specific applications like SmartCards or SoCs where vertical stacking is used, it is not rare to observe smaller values (200 µm and less).
+%Furthermore, concerning SmartCards and ID cards for example, security is an unavoidable constraint.
+
+When working with integrated circuits in a fault injection context, several physical parameters of the considered IC are of great importance.
+For example, as we have seen in the previous Chapter, the type of substrate used to manufacture the IC has a significant impact on BBI efficiency and behavior.
+In addition to this, the transistor's size, power supply voltage, the IC package or the IC substrate thickness can drastically change fault injections results.
+Among these examples, one of great interest in this chapter is the substrate thickness.
+
+Indeed, as there are different manufacturing processes depending on the purpose of ICs, it is common to find various substrate thicknesses depending on ICs targeted application.
+On one hand, it is not rare to find 700 µm thick wafers with 300 mm diameters for generic applications.
+On the other hand, in other specific applications like SoCs, where vertical stacking is commonly used, or in Smart-cards and ID cards, typical substrate thicknesses value are lower, around 200 µm.
+In addition to these differences one can find in commercial products, the practice of thinning the substrate of ICs is widespread in a context of fault injection.
+Specifically, substrate thinning has been widely studied concerning Laser Fault Injection (LFI) \cite{lfiThinning}, and has proven to greatly enhance LFI efficiency in terms of fault creation, in addition to drastically reducing the power required to create faults.
+However, it had not been studied for Body Biasing Injection at the beginning of this work.
+
+In this context, this work was first done in order to assess whether substrate thinning has similar effects as LFI.
+Second, because thin ICs commonly found in Smart-cards have unavoidable security constraints, third because BBI is performed using the silicon substrate as the physical environment to carry energy through electrical charges.
+Therefore, this Chapter will evaluate the interests of substrate thinning on BBI efficiency.
+In other words, we will analyze the electrical and behavioral differences between identical ICs with different substrate thicknesses.
+This analysis will take place using multiple approaches.
+In the first place, we will address the question using a geometric approach to appreciate the effects of substrate thinning on voltage propagation inside the substrate.
+Then, the geometric approach will be completed with an electrical simulation analysis of two identical ICs with different substrate thickness thanks to the models proposed in Chapter \ref{chap:3icModeling}.
+Eventually, experimental results will be analyzed in order to verify the correctness of the previous approaches, in addition to studying the actual effects of substrate thinning concerning faults creation.

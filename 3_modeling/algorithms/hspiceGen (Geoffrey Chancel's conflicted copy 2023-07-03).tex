@@ -1,0 +1,55 @@
+\begin{algorithm}[ht!]
+\caption[ic algo]{Integrated circuit generation algorithm.}
+\label{alg:icGen}
+\begin{algorithmic}
+%    \REQUIRE jooj \COMMENT {jaaj}
+%    \Require SUBTYPE, TSUB, ESUB, VPUU, PW, TFR, SIMTIME, SIMSTEP, TEX, TEY
+%    \Comment{Yo.}
+    \Require SUBTYPE \Comment{IC substrate type: Dual-well, Triple-well, Mixed}
+    \Require TSUB \Comment{IC substrate thickness}
+    \Require ESUB \Comment{Elementary substrate block thickness}
+    \Require VPUU \Comment{Voltage pulse amplitude}
+    \Require PW \Comment{Voltage pulse width}
+    \Require TFR \Comment{Voltage pulse rise and fall times}
+    \Require SIMTIME \Comment{Simulation duration}
+    \Require SIMSTEP \Comment{Simulation time step}
+    \Require TEX \Comment{Desired X size (µm)}
+    \Require TEY \Comment{Desired Y size (µm)}
+    \State $nC \gets TEX \div 30$ \Comment{Number of column}
+    \State $nL \gets TEX \div 5$ \Comment{Number of lines}
+    \State $nH \gets TSUB \div ESUB$ \Comment{Number of substrate layers}
+    \Ensure nC, nL and nH are integers.
+\end{algorithmic}
+\end{algorithm}
+
+%    \For{x in xSize}
+%    {
+%        \For{y in ySize}
+%
+%            \textcolor{orange}{Je dois encore compléter l'algorithme.}
+%
+%        \EndFor
+%    }
+%    \If{Substrate type == Mixed}{jaaj}
+%	\SetKwFunction{w}{write}
+%	\SetKw{KwBy}{by}
+%	\DontPrintSemicolon
+
+%	read $n_{loop}$\;
+%	read $n_{rep}$\;
+%	\For{$r \gets 0$ \KwTo $N_{rows}-1$}{
+%		\For{$c \gets 0$ \KwTo $N_{cols}-1$}{
+%			\w{$r$, $c$, \hex{AAAA}}\;
+%		}
+%	}
+%
+%	\For{$r \gets 0$ \KwTo $N_{rows}-2$ \KwBy $2$}{
+%		\For{$c \gets 0$ \KwTo $N_{cols}-1$}{
+%			\For{$i \gets 0$ \KwTo $n_{rep}$} {
+%				\w{$r$, $c$, \hex{0000}}\;
+%				\w{$r+2$, $c$, \hex{0000}}\;
+%				\w{$r$, $c$, \hex{FFFF}}\;
+%				\w{$r+2$, $c$, \hex{FFFF}}\;
+%			}
+%		}
+%	}

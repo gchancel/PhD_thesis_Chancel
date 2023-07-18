@@ -1,0 +1,51 @@
+%Fig. \ref{fig:geomCrossView} illustrates the geometrical cross-sectional view of two ICs under BBI.
+%Fig. \ref{fig:geomCrossView;subfig:geomThick} presents a non-thinned IC, while Fig. \ref{fig:geomCrossView;subfig:geomThin} presents a thinned IC.
+
+%When considering the silicon substrate alone, as it is an isotropic resistive environment, one could assume that when injecting electrical charges, they would flow and spread evenly into its volume at any given time during the injection.
+%In addition to this, let us assume that to induce a fault at point $P$ in the CMOS logic gates (IC frontside) in Fig. \ref{fig:geomCrossView}, a voltage $V_F$ is required to be present.
+%The point $P_U$ being the injection probe location, the charge distribution in the substrate from this point is even.
+%Therefore, as shown in Fig \ref{fig:geomCrossView}, $V_F$ equipotentials form truncated half spheres of radius:
+%\begin{equation}
+%    %\[ x^n + y^n = z^n \]
+%    r = \frac{V_{PU} - V_F}{\rho_{SUB} \cdot I_{GEN}} \; (FORMULE \; à \; RÉ-ÉVALUER)
+%\end{equation}
+%$V_{PU}$ being the voltage pulse amplitude, $V_F$ the voltage threshold to induce faults in the CMOS gates, $\rho_{SUB}$ the silicon substrate resistivity, and $I_{GEN}$ the current delivered by the voltage pulse generator.
+%Thus, to induce a fault at point $P$, an attacker must place the BBI probe within a disc, called the susceptibility area, on the IC backside, of diameter:
+%\begin{equation}
+%    \phi = 2 \cdot \sqrt{r^2 - t^2_{SUB}}
+%\end{equation}
+%with $t_{SUB}$ being the IC substrate thickness.
+%As it is shown when comparing Fig. \ref{fig:geomCrossView;subfig:geomThick} and Fig. \ref{fig:geomCrossView;subfig:geomThin}, thinning an IC substrate from $t_{THICK}$ to $t_{THIN}$ enlarges the BBI susceptibility area if the applied voltage pulse amplitude is constant in both cases, with an evolution factor of:
+%\begin{equation}
+%    \frac{\phi_{THIN}}{\phi_{THICK}} = \sqrt{\frac{r^2 - t_{THIN}^2}{r^2 - t_{THICK}^2}} \land \frac{\phi_{THIN}}{\phi_{THICK}} > 1
+%\end{equation}
+%Therefore, in order to get the same susceptibility area in both cases, it is thus possible to reduce the voltage pulse amplitude from $V_{PU}$ to $V_{PU}^*$, thanks to the following relation:
+%\begin{equation}
+%    V_{PU}^* = \frac{t_{THIN}}{t_{THICK}} \cdot V_{PU} + V_F \cdot (1 - \frac{t_{THIN}}{t_{THICK}})
+%\end{equation}
+%
+%\subsection{Electrical approach}
+%\input{4_thinning/figures/simuSubCoupe}
+%In order to verify the soundness of the geometrical approach, it is required to complete it with further electrical simulations.
+%Thanks to the previously proposed models in the Chapter \ref{chap:3icModeling}, we can simulate and evaluate multiple IC substrate thicknesses.
+%As it has been done in Chapter \ref{chap:3icModeling}, the same IC is used, with an 550 µm width, an 450 µm depth.
+%However, two substrate thicknesses are analyzed, 50 µm and 140 µm.
+%Instead of looking at operating points, a real BBI scenario is replicated.
+%The simulation parameters are the following:
+%\begin{itemize}
+%    \item Triple-well substrate
+%    \item Voltage pulse: -300 V
+%    \item Pulse width: 20 ns
+%    \item Rise and fall times: 8 ns
+%\end{itemize}
+%Fig. \ref{fig:simuSubCoupe} presents the cross-sectional view of the simulated IC substrate.
+%Each sub-figure show the injected bias through the substrate at the apex of the voltage pulse disturbance.
+%As it was predicted thanks to the geometrical approach, due to the isotropic nature of the silicon substrate, equipotentials form half-spheres with a center located at the probe location.
+%Fig. \ref{fig:simuSubCoupe;subfig:thick} shows the results for a non-thinned IC with a substrate thickness of 140 µm.
+%
+%The previous geometric approach lead to three main conclusions:
+%\begin{itemize}
+%    \item Conclusion 1: when working at a constant voltage pulse amplitude $V_{PU}$, thinning the substrate of an IC increases the BBI susceptibility area.
+%    \item Conclusion 2: BBI spatial resolution not only depends on the IC substrate thickness, but rather on the couple ($t_{SUB}$, $V_{PU}$).
+%    \item Conclusion 3:
+%\end{itemize}
