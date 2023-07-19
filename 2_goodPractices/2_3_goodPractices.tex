@@ -4,5 +4,24 @@
 \label{chap2:goodPractices}
 With the platform thoroughly introduced,we can now discuss the BBI practice in the state of the art compared to the enhancements we propose.
 \subsection{BBI practice in the state of the art \ddc}
-\input{/2_goodPractices/figures/bbiPracticeBadGnd}
+\input{2_goodPractices/figures/bbiPracticeBadGnd}
 First and foremost, in order to introduce the proposed enhancements, we will explain the limitations of state of the art BBI practices.
+Fig. \ref{fig:bbiPracticeBadGnd} presents an example BBI platform as it is performed in the state of the art.
+This schematic only represents the main pieces of equipment, roughly composed of:
+\begin{itemize}
+    \item A voltage pulse generator
+    \item A transmission line
+    \item A BBI probe
+    \item An IC target
+    \item A grounding setup
+\end{itemize}
+In that case, we want to bring forward two limitations of the platform as it stands.
+The first one is that most high voltage generator commercially available require a very specific load impedance to be used in order to meet their specifications, thus the \mbox{50 \textOmega} transmission line.
+However, the vast majority of integrated circuits substrates do not present at all times and in every location the exact required impedance for a specific generator.
+\input{2_goodPractices/figures/bbiPracticeBadGndSignals}
+Therefore, there will inevitably be impedance mismatch effects, such as bounces in the transmission line.
+These effects are illustrated in Fig. \ref{fig:bbiPracticeBadGndSignals}.
+As one can notice, due to the bounces, there is a 25 \% undershoot on the pulse received by the target (green signal), in addition to a 100 V overshoot.
+It is directly echoed on the IC ground current measurement (purple signal).
+However, one might wonder why this can be a problem for the practice of BBI.
+In fact, because an attacker has to achieve precise timing when injecting faults into an IC
