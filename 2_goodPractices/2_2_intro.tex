@@ -25,8 +25,9 @@
 This section is dedicated in presenting the different piece of equipment which allowed us to perform this work.
 The hardware platform, as well as the different software used are introduced.
 
+\subsection{The hardware \DDC}
+\label{chap2:intro:platEquip:hardware}
 \input{2_goodPractices/figures/pointBBI}
-
 The main piece of equipment when working with BBI is the electrical probe.
 It is commonly made with a metal tip, a connector of any sort and a mechanical support to hold everything together.
 For the purpose of this work, a custom probe was designed around three simple parts, an SMA connector, in order to have a low-cost, small and standard interconnection, a spring-loaded metallic probe soldered onto the SMA connector, and a custom 3D printed support to hold the structure together.
@@ -64,4 +65,10 @@ Its main specifications are the following:
 Then, the central piece of equipment of any fault injection method is the IC target.
 In our work, the focus was made on an STM32F439VIT6 LQFP100 micro-controller.
 It is a moderately modern IC commonly used nowadays.
-It was chosen because it embeds a dedicated cryptographic core, able to do RSA or AES not to cite them all.
+It was chosen because it embeds a dedicated cryptographic core, able to do DES or AES not to cite them all.
+The IC is manufactured with a bulk 90 nm process.
+Its core clock frequency goes up to 180 MHz, and it embeds 256 kB of RAM and 2 MB of Flash memory in two separate banks.
+
+\subsection{The software \DDC}
+\label{chap2:intro:platEquip:software}
+Because several simulations are performed for the purpose of this work, different piece of software are used.

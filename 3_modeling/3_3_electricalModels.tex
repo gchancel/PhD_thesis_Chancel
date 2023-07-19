@@ -84,10 +84,10 @@ Fig. \ref{subfig:tripleScs} depicts the SCS triple-well model as follows:
 \input{3_modeling/algorithms/hspiceGen}
 Each area of the elementary SCS models were automatically generated using  a custom algorithm, shown in Alg. \ref{alg:icGen}.
 It was mainly designed in order to reduce as much as possible any human intervention to limit difficult to debug errors and inconsistencies.
-\textcolor{teal}{Ce qui suit doit être revu.}\textcolor{orange}{In addition to that, it offers flexibility tanks to easy user modifications directly in the generation algorithm parameters instead of netlist editing, which reduces further errors.
+\textcolor{teal}{Ce qui suit doit être revu.}\textcolor{orange}{In addition to that, it offers flexibility thanks to easy user modifications directly into the generation algorithm parameters instead of netlist editing, which further reduces errors.
 Furthermore, because these models only represent a section of an integrated circuit, it is required, in order to use and verify these models effectively, to replicate and interconnect them spatially as much as needed.
-This was achieved using custom Python scripts using procedural generation.
-The IC generation algorithm allows multiple settings to be modified in order to produce the required results, while also having some structural limitations.
+This was achieved using custom Python scripts with procedural generation.
+The IC generation algorithm allows multiple settings to be modified in order to produce the required results, while also having some intrinsic structural limitations.
 The two main limitations are the fixed width and depth of the elementary SCS models, and the fixed number of metal levels of the power delivery network.
 On the other hand, next is a non-exhaustive list of user modifiable settings:}
 \begin{itemize}
