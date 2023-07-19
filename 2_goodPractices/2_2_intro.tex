@@ -72,3 +72,16 @@ Its core clock frequency goes up to 180 MHz, and it embeds 256 kB of RAM and 2 M
 \subsection{The software \DDC}
 \label{chap2:intro:platEquip:software}
 Because several simulations are performed for the purpose of this work, different piece of software are used.
+In order to perform every electrical simulations, we used \mbox{Synopsys\textregistered's PrimeSim HSPICE}.
+It allows fast simulations with parallel calculation of large netlists.
+The computer used for these simulations is made around a 48 cores, 96 threads CPU, alongside 420 GB of usable system memory.
+As we will study further in Chapter \ref{chap:3icModeling}, the considered netlists are procedurally generated.
+To that end, we developed an algorithm, implemented in Python.
+It allows automatic generation of every netlist, minimizing user intervention, therefore drastically reducing errors, especially when considering the size of the simulated netlists.
+Indeed, they are not complex in their structure, as they are composed of resistors, capacitors and diodes, but the amount of components ranges from one million for the smallest, to 4.7 millions for the biggest.
+The main limitation in simulating these netlists lies in the available system memory, as it is the first bottleneck to appear.
+In fact, simulating the smallest ICs takes up to 76 GB of memory during the transient simulation.
+As the memory usage scales linearly with the number of components, and because when doubling the width and height, the IC surface quadruples, the same applies for the components count.
+Therefore, simulating the biggest ones takes up to 420 GB of system memory, which represents an IC size of 1.1 mm by 1.2 mm.
+In addition to the memory consumption, the time required is also an important factor.
+Effectively, the smallest ICs take up to four hours and ten minutes with 8 CPU threads (which is close to the maximum HSPICE can do for our netlists).
