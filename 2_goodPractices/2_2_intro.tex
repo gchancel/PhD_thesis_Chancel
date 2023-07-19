@@ -1,5 +1,6 @@
+% !TeX root = ../0_Manuscript.tex
 
-\section{Introduction \DDC}
+\section{Introduction \ddc}
 \label{chap2:intro}
 %\textcolor{orange}{
 %In the past few years, Body Biasing Injection has been getting more and more attention.
@@ -20,12 +21,12 @@
 %It simply consists in a metallic tip soldered to an SMA connector.
 %However,
 
-\subsection{Platform equipment \DDC}
+\subsection{Platform equipment \ddc}
 \label{chap2:intro:platEquip}
 This section is dedicated in presenting the different piece of equipment which allowed us to perform this work.
 The hardware platform, as well as the different software used are introduced.
 
-\subsection{The hardware \DDC}
+\subsection{The hardware \ddc}
 \label{chap2:intro:platEquip:hardware}
 \input{2_goodPractices/figures/pointBBI}
 The main piece of equipment when working with BBI is the electrical probe.
@@ -69,7 +70,7 @@ It was chosen because it embeds a dedicated cryptographic core, able to do DES o
 The IC is manufactured with a bulk 90 nm process.
 Its core clock frequency goes up to 180 MHz, and it embeds 256 kB of RAM and 2 MB of Flash memory in two separate banks.
 
-\subsection{The software \DDC}
+\subsection{The software \ddc}
 \label{chap2:intro:platEquip:software}
 Because several simulations are performed for the purpose of this work, different piece of software are used.
 In order to perform every electrical simulations, we used \mbox{Synopsys\textregistered's PrimeSim HSPICE}.
@@ -85,3 +86,4 @@ As the memory usage scales linearly with the number of components, and because w
 Therefore, simulating the biggest ones takes up to 420 GB of system memory, which represents an IC size of 1.1 mm by 1.2 mm.
 In addition to the memory consumption, the time required is also an important factor.
 Effectively, the smallest ICs take up to four hours and ten minutes with 8 CPU threads (which is close to the maximum HSPICE can do for our netlists).
+Then, because simulation time scales linearly with components count, the biggest IC takes up to 17 hours to be completed.
