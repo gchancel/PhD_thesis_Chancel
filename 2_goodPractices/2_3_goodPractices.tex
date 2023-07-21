@@ -16,7 +16,7 @@ This schematic only represents the main pieces of equipment, roughly composed of
     \item A grounding setup
 \end{itemize}
 In that case, we want to bring forward two limitations of the platform as it stands.
-The first one is that most high voltage generator commercially available require a very specific load impedance to be used in order to meet their specifications, thus the \mbox{50 \textOmega} transmission line.
+The first one is that most commercially available high voltage generator require a very specific load impedance to be used in order to meet their specifications, thus the \mbox{50 \textOmega} transmission line.
 However, the vast majority of integrated circuits substrates do not present at all times and in every location the exact required impedance for a specific generator.
 \input{2_goodPractices/figures/bbiPracticeBadGndSignals}
 Therefore, there will inevitably be impedance mismatch effects, such as bounces in the transmission line.
@@ -24,4 +24,13 @@ These effects are illustrated in Fig. \ref{fig:bbiPracticeBadGndSignals}.
 As one can notice, due to the bounces, there is a 25 \% undershoot on the pulse received by the target (green signal), in addition to a 100 V overshoot.
 It is directly echoed on the IC ground current measurement (purple signal).
 However, one might wonder why this can be a problem for the practice of BBI.
-In fact, because an attacker has to achieve precise timing when injecting faults into an IC
+The bounces in the transmission line, reflected in the IC current, are then propagated through the IC.
+Therefore, because the IC does not present in every substrate location a constant impedance, it is impossible to predict the bounces' shape.
+Thus, because an attacker has to achieve precise timing when injecting faults into an IC, and because of this impossibility to reach a certain degree of precision, it is highly problematic in a fault injection context.
+
+The second limitation concerns the platform grounding.
+The example platform of Fig. \ref{fig:bbiPracticeBadGnd}
+Contrary to impedance mismatching, it is a less predictable issue, as each platform will have extremely different grounding installation.
+
+%The first noticeable one is the imperfect electrical grounding.
+%Indeed, on the example platform, one can note the 150 \textOmega ground impedance between each piece of equipment ground and the reference ground.
