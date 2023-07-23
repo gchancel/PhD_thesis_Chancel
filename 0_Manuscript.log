@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.16)  23 JUL 2023 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.16)  23 JUL 2023 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2231,7 +2231,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 Overfull \hbox (24.51782pt too wide) in paragraph at lines 27--27
  [][] [][][]\T1/ppl/m/n/12 Standard-cell seg-ment mod-els []\T1/ppl/m/n/10 COM-
-PI-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+PI-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 
@@ -2243,7 +2243,7 @@ da-tion []\T1/ppl/m/n/10 COM-PI-LA-TION DATE:
 
 Overfull \hbox (8.93759pt too wide) in paragraph at lines 37--37
  [][] [][][]\T1/ppl/m/n/12 Geometric and elec-tri-cal mod-el-ing []\T1/ppl/m/n/
-10 COM-PI-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+10 COM-PI-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 )
@@ -2324,13 +2324,13 @@ Chapter 2.
 (0_Manuscript.mtc6
 Overfull \hbox (9.28331pt too wide) in paragraph at lines 3--3
  [][] [][][]\T1/ppl/m/n/10.95 Platform equip-ment []\T1/ppl/m/n/10 COM-PI-LA-TI
-ON DATE: 2023-07-23 14:09:18+02:00[][][] []  
+ON DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 
 Overfull \hbox (27.9989pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Giraud's dif-fer-en-tial fault at-tack []\T1/ppl/
-m/n/10 COM-PI-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+m/n/10 COM-PI-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 ) [3
@@ -2424,7 +2424,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7]
 Overfull \hbox (24.72835pt too wide) in paragraph at lines 6--6
 []\T1/ppl/b/n/14.4 BBI prac-tice in the state of the art []\T1/ppl/b/n/10 COM-P
-I-LA-TION DATE: 2023-07-23 14:09:56+02:00[] 
+I-LA-TION DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 (2_goodPractices/figures/bbiPracticeBadGnd.tex
@@ -2473,13 +2473,13 @@ Chapter 3.
 (0_Manuscript.mtc7
 Overfull \hbox (16.2499pt too wide) in paragraph at lines 5--5
  [][] [][][]\T1/ppl/m/n/10.95 Preliminary model val-i-da-tion []\T1/ppl/m/n/10 
-COM-PI-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+COM-PI-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 
 Overfull \hbox (24.09874pt too wide) in paragraph at lines 7--7
  [][] [][][]\T1/ppl/m/n/10.95 Early gen-er-a-tor mod-els []\T1/ppl/m/n/10 COM-P
-I-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+I-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 
@@ -2491,7 +2491,7 @@ Overfull \hbox (9.5035pt too wide) in paragraph at lines 8--8
 
 Overfull \hbox (3.52621pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10.95 Experimental com-par-isons []\T1/ppl/m/n/10 COM-P
-I-LA-TION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+I-LA-TION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 ) [11
@@ -2550,7 +2550,7 @@ PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Overfull \hbox (9.45105pt too wide) in paragraph at lines 56--56
 []\T1/ppl/b/n/14.4 Standard-cell seg-ment mod-els []\T1/ppl/b/n/10 COM-PI-LA-TI
-ON DATE: 2023-07-23 14:09:56+02:00[] 
+ON DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 [17{C:/Users/geoff/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
@@ -2582,7 +2582,7 @@ Underfull \vbox (badness 2221) has occurred while \output is active []
 (3_modeling/3_4_preliminaryValidation.tex
 Overfull \hbox (40.23503pt too wide) in paragraph at lines 1--1
 []\T1/ppl/b/n/17.28 Preliminary model val-i-da-tion []\T1/ppl/b/n/10 COM-PI-LA-
-TION DATE: 2023-07-23 14:09:56+02:00[] 
+TION DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 (3_modeling/figures/surfaceSplitScs.tex
@@ -2667,7 +2667,7 @@ Package fancyhdr Warning: \headheight is too small (19.91692pt):
 res/simuCurrentMaps/tripleWellCross.pdf>]
 Overfull \hbox (17.73663pt too wide) in paragraph at lines 1--1
 []\T1/ppl/b/n/17.28 Experimental com-par-isons []\T1/ppl/b/n/10 COM-PI-LA-TION 
-DATE: 2023-07-23 14:09:56+02:00[] 
+DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 ) (3_modeling/3_6_conclusion.tex
@@ -2693,13 +2693,13 @@ Chapter 4.
 (0_Manuscript.mtc8
 Overfull \hbox (11.06813pt too wide) in paragraph at lines 4--4
  [][] [][][]\T1/ppl/m/n/10.95 Geometric mod-el-ing []\T1/ppl/m/n/10 COM-PI-LA-T
-ION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+ION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 
 Overfull \hbox (4.25737pt too wide) in paragraph at lines 5--5
  [][] [][][]\T1/ppl/m/n/10.95 Electrical ap-proach []\T1/ppl/m/n/10 COM-PI-LA-T
-ION DATE: 2023-07-23 14:09:18+02:00[][][] []  
+ION DATE: 2023-07-23 14:32:14+02:00[][][] []  
  []
 
 ) [31] (4_thinning/4_1_abstract.tex) (4_thinning/4_2_introduction.tex)
@@ -2791,13 +2791,13 @@ igures/simuSubCoupeVoltageTripleWellApex60um.pdf> <./4_thinning/figures/simuSub
 BottomVoltageTripleWellApex60um.pdf>]) (4_thinning/4_4_validation.tex
 Overfull \hbox (24.51247pt too wide) in paragraph at lines 4--4
 []\T1/ppl/b/n/14.4 IC sub-strate thin-ning quick look []\T1/ppl/b/n/10 COM-PI-L
-A-TION DATE: 2023-07-23 14:09:56+02:00[] 
+A-TION DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 
 Overfull \hbox (33.74364pt too wide) in paragraph at lines 15--15
 []\T1/ppl/b/n/14.4 Experiments with thinned cir-cuits []\T1/ppl/b/n/10 COM-PI-L
-A-TION DATE: 2023-07-23 14:09:56+02:00[] 
+A-TION DATE: 2023-07-23 14:35:09+02:00[] 
  []
 
 (4_thinning/figures/cartosFautes.tex
@@ -2927,8 +2927,8 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 49789742D703C11646C0B04BFF60F639;14777
-(rerunfilecheck)             After:  48CCE6D1E9BA15AA804798A05C8783F7;14777.
+(rerunfilecheck)             Before: CD0D94B4C45F2E8282AB6A8FF60FD16B;14777
+(rerunfilecheck)             After:  C0320996BBBCB9E81B0579B044B9EA5B;14777.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
 (rerunfilecheck)             Checksum: 1DC76D954B7F1A3A289E7B0A2F5C9653;816.
  ) 
@@ -2955,7 +2955,7 @@ urw/courier/ucrr8a.pfb><C:/Users/geoff/AppData/Local/Programs/MiKTeX/fonts/type
 ype1/urw/palatino/uplr8a.pfb><C:/Users/geoff/AppData/Local/Programs/MiKTeX/font
 s/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (64 pages, 54411977 bytes).
+Output written on 0_Manuscript.pdf (64 pages, 54411982 bytes).
 PDF statistics:
  1580 PDF objects out of 1728 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
