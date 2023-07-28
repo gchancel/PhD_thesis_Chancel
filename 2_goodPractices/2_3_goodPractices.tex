@@ -46,8 +46,33 @@ Then, the effective injected current stays the same between both scenarios, whic
 First because reducing the grounding impedance allows an increase in current, second because the approximate impedance matching reduces the injected current over time due to bounces' reduction.
 
 \subsection{BBI practices: a simple actual comparisons \ddc}
-Evaluating the effects of the proposed enhancements through simulations is the first step.
-In order to verify their soundness, we will analyze in the first place the same scenario as before with real components.
+\input{2_goodPractices/figures/bbiRealXp}
+Evaluating the effects of the proposed enhancements through coarse platform simulations is the first step.
+However, in order to verify the models' soundness, we will analyze here practical experiments studying both cases.
+The equipment used is the one described in section \ref{chap2:intro:platEquip:hardware}.
+Fig. \ref{fig:bbiRealXp} displays the experimental results.
+Each signal is labeled in red starting with the letter S, followed by a number indicating the scenario (1 for the state-of-the-art and 2 for the enhanced practice), eventually followed by a letter indicating the signal type (P for the voltage pulse, G for the IC ground current).
+At the top of the Figure are shown the state-of-the-art signals, while at the bottom are shown the enhanced practice signals.
+The voltage pulse generator settings are the following:
+\begin{itemize}
+    \item Required voltage set-point: -140 V
+    \item Required pulse width: 20 ns
+    \item Rise and fall times: 4 ns
+\end{itemize}
+The first interesting thing to notice here is that contrary to the voltage pulse generator, which is specified to deliver 4 ns rise and fall times, in both presented scenarios these measurements never reach the generator specifications.
+
+Concerning the state-of-the-art practice, it is easily explained thanks to the bounces due to impedance mismatch between the generator and the IC, which can be observed on S1P and S1G.
+It results in a longer pulse than expected, whose width may vary depending on the injection location due to IC impedance variations.
+Therefore, the voltage pulse width is wider than requested.
+In addition to that, the maximum absolute voltage undershoots by 108 \% compared to the requested set-point.
+Similar to the pulse width, voltage undershoot will greatly vary depending on the injection location.
+Eventually, when analyzing the current flowing out of the IC ground, it shows that the charges are going back and forth to between the IC and the generator, once again because of the bounces, which is an undesirable behavior when an attacker wants to create fast, short and precise disturbances into an IC.
+
+Concerning the proposed enhanced platform, the first remarkable information concerns the voltage pulse undershoot, which is reduced from 108 \% to 31 \%.
+It is mainly due to the approximate impedance matching, allowing the generator to work closer to its specifications.
+Then, even if the rise and fall times do not match the generator specifications, they are of equal length of 16 ns, which is more desirable than asymmetrical rise and fall times to produce precise pulses.
+The higher than expected value is mainly explained by the fact that the transmission line and the IC represent a far more complex impedance than a simple \fiftyOhms{50} termination resistor, especially when the IC impedance presents a large capacitive component.
+The IC ground current is sharper with fewer bounces and fewer overshoots while the amount of charges transferred stays roughly the same (going from $25.5 \; mA_{RMS}$ to $23 \; mA_{RMS}$).
 
 %The first noticeable one is the imperfect electrical grounding.
 %Indeed, on the example platform, one can note the 150 \textOmega ground impedance between each piece of equipment ground and the reference ground.
