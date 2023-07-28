@@ -37,10 +37,11 @@ In addition to worsening impedance mismatching, it can lead to a non-negligible 
 Alleviating this limitation is simpler than matching the load impedance, as it only requires low-length, low-resistance ground interconnections to be made on top of the existing ones.
 
 \subsection{Enhanced BBI practice \ddc}
-\input{2_goodPractices/figures/bbiBestPractice}
-\input{2_goodPractices/figures/bbiBestPracticeSignals}
-Fig. \ref{fig:bbiBestPractice} and Fig .\ref{fig:bbiBestPracticeSignals} both illustrate the proposed improvements.
-The red nets on the schematic indicate the enhancements, and on the simulation results are shown the observed signals in the state of the art on top of the new improved signals.
+\input{2_goodPractices/figures/bbiBestPracticeDual}
+%\input{2_goodPractices/figures/bbiBestPractice}
+%\input{2_goodPractices/figures/bbiBestPracticeSignals}
+Fig. \ref{fig:bbiBestPracticeDual} illustrates the proposed improvements.
+The red nets on the schematic indicate the enhancements, and on the simulation results are shown in dotted lines the observed signals in the state of the art on top of the new signals in solid lines.
 What is important to remark here is first the significant bounces' reduction both on the IC received voltage pulse waveform and on the IC ground current waveform (which is an image of the received voltage due to the purely resistive nature of the simulated IC).
 Then, the effective injected current stays the same between both scenarios, which is expected.
 First because reducing the grounding impedance allows an increase in current, second because the approximate impedance matching reduces the injected current over time due to bounces' reduction.

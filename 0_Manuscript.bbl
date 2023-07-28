@@ -59,6 +59,13 @@ Breier et~al.
 \newblock Extensive laser fault injection profiling of 65 nm fpga.
 \newblock {\em J Hardw Syst Secur 1}, pages 237--251, 2017.
 
+\bibitem{lfiThinning2}
+Jakub Breier and Chien-Ning Chen.
+\newblock On determining optimal parameters for testing devices against laser
+  fault attacks.
+\newblock In {\em 2016 International Symposium on Integrated Circuits (ISIC)},
+  pages 1--4, 2016.
+
 \bibitem{FIBthinning}
 C.~Boit, R.~Schlangen, A.~Glowacki, U.~Kindereit, T.~Kiyan, U.~Kerst,
   T.~Lundquist, S.~Kasapi, and H.~Suzuki.
