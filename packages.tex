@@ -57,20 +57,23 @@
 \usepackage{textcomp}
 %\usepackage{layouts}
 \usepackage[export]{adjustbox}
+%\usepackage[dvipsnames]{xcolor}
 %\showboxes
 %\showframe
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%----------------------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Comment the three next lines before compiling final build %
-\usepackage[inline]{showlabels}
-\newcommand{\DDC}{\textcolor{purple}{\footnotesize COMPILATION DATE: \DTMnow}}
-\newcommand{\ddc}{\textcolor{purple}{\footnotesize COMPILATION DATE: \DTMnow}}
-
+\definecolor{myCyan}{RGB}{59, 204, 255}
+\definecolor{myViolet}{RGB}{169, 0, 173}
+\newcommand{\cRef}[2]{\hyperref[#1]{\textcolor{myViolet}{#2}}}
 \newcommand{\fiftyOhms}[1]{\mbox{#1 \textOmega}}
 
-\newcommand{\cRef}[1]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%----------------------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Uncomment the two next lines before compiling final build %
+%% Comment the three next lines before compiling final build %%
+\usepackage[inline]{showlabels}
+\newcommand{\DDC}{\textcolor{myCyan}{\footnotesize COMPILATION DATE: \DTMnow}}
+\newcommand{\ddc}{\textcolor{myCyan}{\footnotesize COMPILATION DATE: \DTMnow}}
+
+%% Uncomment the three next lines before compiling final build %%
 %\usepackage[final]{showlabels}
 %\newcommand{\DDC}{}
 %\newcommand{\ddc}{}
