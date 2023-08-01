@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{securityInIcs}
+Prasanna Ravi, Zakaria Najm, Shivam Bhasin, Mustafa Khairallah, Sourav~Sen
+  Gupta, and Anupam Chattopadhyay.
+\newblock Security is an architectural design constraint.
+\newblock {\em Microprocessors and Microsystems}, 68:17--27, 2019.
+
 \bibitem{giraudDfa}
 Christophe Giraud.
 \newblock Dfa on aes.
