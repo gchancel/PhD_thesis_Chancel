@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  1 AUG 2023 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  2 AUG 2023 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2101,12 +2101,12 @@ Package minitoc(hints) Info: I0047
 (minitoc(hints))             --- The tocloft package is loaded. 
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
-<img/logo_um_these_back.pdf, id=194, 597.50786pt x 845.04686pt>
+<img/logo_um_these_back.pdf, id=206, 597.50786pt x 845.04686pt>
 File: img/logo_um_these_back.pdf Graphic file (type pdf)
 <use img/logo_um_these_back.pdf>
 Package pdftex.def Info: img/logo_um_these_back.pdf  used on input line 28.
 (pdftex.def)             Requested size: 597.50787pt x 845.0448pt.
-<img/logo_um_2020_rouge_CMJN.pdf, id=195, 194.90115pt x 71.13185pt>
+<img/logo_um_2020_rouge_CMJN.pdf, id=207, 194.90115pt x 71.13185pt>
 File: img/logo_um_2020_rouge_CMJN.pdf Graphic file (type pdf)
 <use img/logo_um_2020_rouge_CMJN.pdf>
 Package pdftex.def Info: img/logo_um_2020_rouge_CMJN.pdf  used on input line 28
@@ -2237,6 +2237,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing 0_Manuscript.mtc11.
 \openout7 = `0_Manuscript.mtc11'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing 0_Manuscript.mtc12.
+\openout7 = `0_Manuscript.mtc12'.
+
  (0_Manuscript.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
@@ -2244,49 +2248,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
-
-Underfull \vbox (badness 4556) has occurred while \output is active []
-
  [5
 
 
 
 ]
-Overfull \hbox (24.51782pt too wide) in paragraph at lines 29--29
- [][] [][][]\T1/ppl/m/n/12 Standard-cell seg-ment mod-els []\T1/ppl/m/n/10 COM-
-PI-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Overfull \hbox (5.02873pt too wide) in paragraph at lines 31--31
+Overfull \hbox (1.08994pt too wide) in paragraph at lines 33--33
  [][] [][][]\T1/ppl/m/n/12 Voltage pulse gen-er-a-tor model and fur-ther val-i-
-da-tion []\T1/ppl/m/n/10 COM-PI-LA-TION DATE: 
+da-tion []\T1/ppl/m/n/10 2023-08-02 19:38:06+02:00[][][] []  
  []
 
-
-Overfull \hbox (8.93759pt too wide) in paragraph at lines 39--39
- [][] [][][]\T1/ppl/m/n/12 Geometric and elec-tri-cal mod-el-ing []\T1/ppl/m/n/
-10 COM-PI-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
- [6])
+)
 \tf@toc=\write11
 \openout11 = `0_Manuscript.toc'.
 
-
-[7] [8
-
-] (0_Manuscript.lof
+ [6] (0_Manuscript.lof
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
-2.
+3.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (10.8408pt too wide) in paragraph at lines 22--22
+Overfull \hbox (10.8408pt too wide) in paragraph at lines 23--23
  [][] [][][]\T1/ppl/m/n/12 Three-dimensional Dual-Well and Triple-Well IC com-p
 re-hen-sive standard- 
  []
@@ -2294,47 +2277,45 @@ re-hen-sive standard-
 
 Underfull \vbox (badness 5563) has occurred while \output is active []
 
- [9])
+ [7
+
+])
 \tf@lof=\write12
 \openout12 = `0_Manuscript.lof'.
 
 
-[10] (0_Manuscript.lot)
+[8] (0_Manuscript.lot)
 \tf@lot=\write13
 \openout13 = `0_Manuscript.lot'.
 
- [11
+ [9
 
-] [12
+] [10
 
 ] (0_Manuscript.loa)
 \tf@loa=\write14
 \openout14 = `0_Manuscript.loa'.
 
- [13
+ [11
 
-] [14
+] [12
 
 ] (glossary.tex
-[15]) (generalIntro.tex
-Overfull \hbox (9.88596pt too wide) in paragraph at lines 3--3
-[][]\T1/ppl/b/n/24.88 General in-tro-duc-tion []\T1/ppl/b/n/10 COM-PI-LA-TION D
-ATE: 2023-08-01 19:26:50+02:00[] 
- []
+[13]) [14
 
 
-LaTeX Warning: Hyper reference `chap:1_intro' on page xvi undefined on input li
-ne 14.
+] (generalIntro.tex
+
+LaTeX Warning: Hyper reference `chap:1_intro' on page xv undefined on input lin
+e 15.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16
+ [15
 
 ])
-[17] [18
-
-]
+[16]
 \openout2 = `1_intro/1_main.aux'.
 
  (1_intro/1_main.tex
@@ -2351,7 +2332,8 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 6.
 
-(0_Manuscript.mtc5) [1
+(0_Manuscript.mtc6) [1
+
 
 
 ] (1_intro/1_2_stateOfTheArt.tex) (1_intro/1_3_intro.tex)) [2] [3]
@@ -2368,39 +2350,21 @@ Chapter 2.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc6
-Overfull \hbox (9.28331pt too wide) in paragraph at lines 3--3
- [][] [][][]\T1/ppl/m/n/10.95 Platform equip-ment []\T1/ppl/m/n/10 COM-PI-LA-TI
-ON DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Overfull \hbox (19.554pt too wide) in paragraph at lines 8--8
- [][] [][][]\T1/ppl/m/n/10.95 Enhanced BBI prac-tice []\T1/ppl/m/n/10 COM-PI-LA
--TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Overfull \hbox (11.87921pt too wide) in paragraph at lines 9--9
+(0_Manuscript.mtc7
+Overfull \hbox (8.99042pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10.95 BBI prac-tices: a sim-ple ac-tual com-par-isons [
-]\T1/ppl/m/n/10 COM-PI-LA-TION DATE: 
- []
-
-
-Overfull \hbox (27.9989pt too wide) in paragraph at lines 10--10
- [][] [][][]\T1/ppl/m/n/10.95 Giraud's dif-fer-en-tial fault at-tack []\T1/ppl/
-m/n/10 COM-PI-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
+]\T1/ppl/m/n/10 2023-08-02 19:38:06+02:00[][][] []  
  []
 
 ) [5] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_intro.tex
 (2_goodPractices/figures/pointBBI.tex
-<2_goodPractices/figures/sondeBBI2.pdf, id=452, 1397.22pt x 1254.18562pt>
+<2_goodPractices/figures/sondeBBI2.pdf, id=446, 1397.22pt x 1254.18562pt>
 File: 2_goodPractices/figures/sondeBBI2.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/sondeBBI2.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/sondeBBI2.pdf  used on input l
 ine 21.
 (pdftex.def)             Requested size: 204.85846pt x 183.87125pt.
-<2_goodPractices/figures/pointeBBI.pdf, id=453, 862.72313pt x 773.82288pt>
+<2_goodPractices/figures/pointeBBI.pdf, id=447, 862.72313pt x 773.82288pt>
 File: 2_goodPractices/figures/pointeBBI.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/pointeBBI.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/pointeBBI.pdf  used on input l
@@ -2421,22 +2385,13 @@ LaTeX Font Warning: Font shape `LGR/ppl/m/n' undefined
 (Font)              using `LGR/cmr/m/n' instead on input line 36.
 
 (2_goodPractices/figures/newAeChipShouter.tex
-<2_goodPractices/figures/picoemp-red.pdf, id=457, 240.9pt x 92.0238pt>
+<2_goodPractices/figures/picoemp-red.pdf, id=451, 240.9pt x 92.0238pt>
 File: 2_goodPractices/figures/picoemp-red.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/picoemp-red.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/picoemp-red.pdf  used on input
  line 4.
 (pdftex.def)             Requested size: 455.24411pt x 173.92027pt.
-
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
-[6])
+ [6])
 Underfull \vbox (badness 2197) has occurred while \output is active []
 
  [7 <./2_goodPractices/figures/sondeBBI2.pdf> <./2_goodPractices/figures/pointe
@@ -2449,65 +2404,49 @@ F inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./2_goodPractices/figures/picoemp-red.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >] (2_goodPractices/figures/avrk4b.tex
-<2_goodPractices/figures/avrk4b.pdf, id=484, 1532.72626pt x 359.09157pt>
+<2_goodPractices/figures/avrk4b.pdf, id=477, 1532.72626pt x 359.09157pt>
 File: 2_goodPractices/figures/avrk4b.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/avrk4b.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/avrk4b.pdf  used on input line
  4.
 (pdftex.def)             Requested size: 455.24411pt x 106.65436pt.
-)
+) [8 <./2_goodPractices/figures/avrk4b.pdf>]) (2_goodPractices/2_3_goodPractice
+s.tex
+Overfull \hbox (21.23961pt too wide) in paragraph at lines 3--3
+[]\T1/ppl/b/n/17.28 Body Bi-as-ing In-jec-tion en-hanced prac-tice []\T1/ppl/b/
+n/10 2023-08-02 19:38:18+02:00[] 
+ []
 
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
-[8 <./2_goodPractices/figures/avrk4b.pdf>])
-(2_goodPractices/2_3_goodPractices.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Overfull \hbox (24.72835pt too wide) in paragraph at lines 6--6
-[]\T1/ppl/b/n/14.4 BBI prac-tice in the state of the art []\T1/ppl/b/n/10 COM-P
-I-LA-TION DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
 (2_goodPractices/figures/bbiPracticeBadGnd.tex
-<2_goodPractices/figures/model0Probe.pdf, id=499, 369.88583pt x 199.1693pt>
+<2_goodPractices/figures/model0Probe.pdf, id=493, 369.88583pt x 199.1693pt>
 File: 2_goodPractices/figures/model0Probe.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/model0Probe.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/model0Probe.pdf  used on input
  line 5.
 (pdftex.def)             Requested size: 455.24411pt x 245.13783pt.
 )
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
-[10 <./2_goodPractices/figures/model0Probe.pdf>]
-(2_goodPractices/figures/bbiPracticeBadGndSignals.tex
-<2_goodPractices/figures/SIMPLE_BBI_0.pdf, id=527, 505.89pt x 462.52798pt>
+(2_goodPractices/figures/bbiPracticeBadGndSignals.tex [10 <./2_goodPractices/fi
+gures/model0Probe.pdf>]
+<2_goodPractices/figures/SIMPLE_BBI_0.pdf, id=521, 505.89pt x 462.52798pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_0.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_0.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_0.pdf  used on inpu
 t line 5.
 (pdftex.def)             Requested size: 455.24411pt x 416.22897pt.
-) [11 <./2_goodPractices/figures/SIMPLE_BBI_0.pdf>] (2_goodPractices/figures/bb
-iBestPracticeDual.tex
-<2_goodPractices/figures/model2ProbeManuscrit.pdf, id=581, 369.88583pt x 199.16
+) [11 <./2_goodPractices/figures/SIMPLE_BBI_0.pdf>]
+(2_goodPractices/figures/bbiBestPracticeDual.tex
+<2_goodPractices/figures/model2ProbeManuscrit.pdf, id=575, 369.88583pt x 199.16
 93pt>
 File: 2_goodPractices/figures/model2ProbeManuscrit.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/model2ProbeManuscrit.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/model2ProbeManuscrit.pdf  used
  on input line 7.
 (pdftex.def)             Requested size: 409.71692pt x 220.62161pt.
-<2_goodPractices/figures/SIMPLE_BBI_2.pdf, id=582, 505.89pt x 462.52798pt>
+<2_goodPractices/figures/SIMPLE_BBI_2.pdf, id=576, 505.89pt x 462.52798pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_2.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_2.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_2.pdf  used on inpu
@@ -2516,21 +2455,12 @@ t line 12.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
-[12]
+ [12]
 Underfull \vbox (badness 1565) has occurred while \output is active []
 
  [13 <./2_goodPractices/figures/model2ProbeManuscrit.pdf> <./2_goodPractices/fi
 gures/SIMPLE_BBI_2.pdf>] (2_goodPractices/figures/bbiRealXp.tex
-<2_goodPractices/figures/realPulsesComparisons.pdf, id=665, 867.24pt x 505.89pt
+<2_goodPractices/figures/realPulsesComparisons.pdf, id=658, 867.24pt x 505.89pt
 >
 File: 2_goodPractices/figures/realPulsesComparisons.pdf Graphic file (type pdf)
 
@@ -2543,27 +2473,10 @@ d on input line 5.
 LaTeX Warning: Reference `chap2:intro:platEquip:hardware' on page 14 undefined 
 on input line 55.
 
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
 [14 <./2_goodPractices/figures/realPulsesComparisons.pdf>] [15])
-(2_goodPractices/2_4_dfaGiraud.tex))
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.53194pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.53194pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.61502pt}.
-
-[16{C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
-{C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc
-}]
+(2_goodPractices/2_4_dfaGiraud.tex)) [16{C:/Users/geoff2/AppData/Local/Programs
+/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/geoff2/AppData/Local/Programs/Mi
+KTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 \openout2 = `3_modeling/3_main.aux'.
 
  (3_modeling/3_main.tex
@@ -2572,28 +2485,16 @@ Chapter 3.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc7
-Overfull \hbox (16.2499pt too wide) in paragraph at lines 5--5
- [][] [][][]\T1/ppl/m/n/10.95 Preliminary model val-i-da-tion []\T1/ppl/m/n/10 
-COM-PI-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
+(0_Manuscript.mtc8
+Overfull \hbox (22.87758pt too wide) in paragraph at lines 6--6
+ [][] [][][]\T1/ppl/m/n/10.95 Voltage pulse gen-er-a-tor model and fur-ther val
+-i-da-tion []\T1/ppl/m/n/10 2023-08-02 19:38:06+02:00[][][] []  
  []
 
 
-Overfull \hbox (24.09874pt too wide) in paragraph at lines 7--7
- [][] [][][]\T1/ppl/m/n/10.95 Early gen-er-a-tor mod-els []\T1/ppl/m/n/10 COM-P
-I-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Overfull \hbox (9.5035pt too wide) in paragraph at lines 8--8
+Overfull \hbox (6.6147pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Further gen-er-a-tor mod-els and ver-i-fi-ca-tion
- []\T1/ppl/m/n/10 COM-PI-LA-TION DATE: 
- []
-
-
-Overfull \hbox (3.52621pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/ppl/m/n/10.95 Experimental com-par-isons []\T1/ppl/m/n/10 COM-P
-I-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []  
+ []\T1/ppl/m/n/10 2023-08-02 19:38:06+02:00[][][] []  
  []
 
 ) [17
@@ -2603,12 +2504,12 @@ I-LA-TION DATE: 2023-08-01 19:26:42+02:00[][][] []
 
 ] (3_modeling/3_1_abstract.tex) (3_modeling/3_2_introduction.tex [18])
 (3_modeling/3_3_electricalModels.tex (3_modeling/figures/dualTripleCoupe.tex
-<3_modeling/figures/DUAL.pdf, id=786, 364.19528pt x 250.38426pt>
+<3_modeling/figures/DUAL.pdf, id=777, 364.19528pt x 250.38426pt>
 File: 3_modeling/figures/DUAL.pdf Graphic file (type pdf)
 <use 3_modeling/figures/DUAL.pdf>
 Package pdftex.def Info: 3_modeling/figures/DUAL.pdf  used on input line 7.
 (pdftex.def)             Requested size: 223.07211pt x 153.36455pt.
-<3_modeling/figures/TRIPLE.pdf, id=787, 364.19528pt x 250.38426pt>
+<3_modeling/figures/TRIPLE.pdf, id=778, 364.19528pt x 250.38426pt>
 File: 3_modeling/figures/TRIPLE.pdf Graphic file (type pdf)
 <use 3_modeling/figures/TRIPLE.pdf>
 Package pdftex.def Info: 3_modeling/figures/TRIPLE.pdf  used on input line 13.
@@ -2620,7 +2521,7 @@ thsy.enc} <./3_modeling/figures/DUAL.pdf> <./3_modeling/figures/TRIPLE.pdf
 pdfTeX warning: pdflatex.exe (file ./3_modeling/figures/TRIPLE.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >] (3_modeling/figures/substrateSubdivid.tex
-<3_modeling/figures/substrateSubdivision.pdf, id=873, 1806.75pt x 1156.32pt>
+<3_modeling/figures/substrateSubdivision.pdf, id=863, 1806.75pt x 1156.32pt>
 File: 3_modeling/figures/substrateSubdivision.pdf Graphic file (type pdf)
 <use 3_modeling/figures/substrateSubdivision.pdf>
 Package pdftex.def Info: 3_modeling/figures/substrateSubdivision.pdf  used on i
@@ -2628,13 +2529,13 @@ nput line 3.
 (pdftex.def)             Requested size: 341.43307pt x 218.5033pt.
 )
 (3_modeling/figures/dualTripleScs.tex
-<3_modeling/figures/dualWell_no_5e.pdf, id=874, 1445.4pt x 1706.37512pt>
+<3_modeling/figures/dualWell_no_5e.pdf, id=864, 1445.4pt x 1706.37512pt>
 File: 3_modeling/figures/dualWell_no_5e.pdf Graphic file (type pdf)
 <use 3_modeling/figures/dualWell_no_5e.pdf>
 Package pdftex.def Info: 3_modeling/figures/dualWell_no_5e.pdf  used on input l
 ine 7.
 (pdftex.def)             Requested size: 227.62206pt x 268.70343pt.
-<3_modeling/figures/tripleWell_no_5e.pdf, id=875, 1445.4pt x 1706.37512pt>
+<3_modeling/figures/tripleWell_no_5e.pdf, id=865, 1445.4pt x 1706.37512pt>
 File: 3_modeling/figures/tripleWell_no_5e.pdf Graphic file (type pdf)
 <use 3_modeling/figures/tripleWell_no_5e.pdf>
 Package pdftex.def Info: 3_modeling/figures/tripleWell_no_5e.pdf  used on input
@@ -2651,14 +2552,8 @@ _no_5e.pdf
 
 pdfTeX warning: pdflatex.exe (file ./3_modeling/figures/tripleWell_no_5e.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->]
-Overfull \hbox (9.45105pt too wide) in paragraph at lines 56--56
-[]\T1/ppl/b/n/14.4 Standard-cell seg-ment mod-els []\T1/ppl/b/n/10 COM-PI-LA-TI
-ON DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
-[23] (3_modeling/algorithms/figureHspiceGen.tex
-<3_modeling/figures/algoFigure5.png, id=916, 1606.0pt x 1806.75pt>
+>] [23] (3_modeling/algorithms/figureHspiceGen.tex
+<3_modeling/figures/algoFigure5.png, id=907, 1606.0pt x 1806.75pt>
 File: 3_modeling/figures/algoFigure5.png Graphic file (type png)
 <use 3_modeling/figures/algoFigure5.png>
 Package pdftex.def Info: 3_modeling/figures/algoFigure5.png  used on input line
@@ -2686,13 +2581,8 @@ Underfull \vbox (badness 2221) has occurred while \output is active []
 
  [28])
 (3_modeling/3_4_preliminaryValidation.tex
-Overfull \hbox (40.23503pt too wide) in paragraph at lines 1--1
-[]\T1/ppl/b/n/17.28 Preliminary model val-i-da-tion []\T1/ppl/b/n/10 COM-PI-LA-
-TION DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
 (3_modeling/figures/surfaceSplitScs.tex
-<3_modeling/figures/IC_split.pdf, id=942, 301.59921pt x 284.52756pt>
+<3_modeling/figures/IC_split.pdf, id=933, 301.59921pt x 284.52756pt>
 File: 3_modeling/figures/IC_split.pdf Graphic file (type pdf)
 <use 3_modeling/figures/IC_split.pdf>
 Package pdftex.def Info: 3_modeling/figures/IC_split.pdf  used on input line 3.
@@ -2704,7 +2594,7 @@ Overfull \hbox (10.86699pt too wide) in paragraph at lines 26--34
  []
 
 (3_modeling/figures/simuCurrentMaps/vddGndMixed.tex
-<3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf, id=951, 794.97pt x 650.43pt
+<3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf, id=942, 794.97pt x 650.43pt
 >
 File: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf Graphic file (type pdf)
 
@@ -2712,7 +2602,7 @@ File: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf Graphic file (type pdf)
 Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf  use
 d on input line 8.
 (pdftex.def)             Requested size: 223.07211pt x 137.80524pt.
-<3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf, id=953, 794.97pt x 650.43pt
+<3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf, id=944, 794.97pt x 650.43pt
 >
 File: 3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf Graphic file (type pdf)
 
@@ -2726,21 +2616,13 @@ dFurtherValidation.tex
 LaTeX Warning: Reference `chap:2goodPractices' on page 31 undefined on input li
 ne 9.
 
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.52pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.52pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.60309pt}.
-
 [31 <./3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf> <./3_modeling/figures
 /simuCurrentMaps/vddMixedOp.pdf>]
 
 LaTeX Warning: Reference `chap:1intro' on page 32 undefined on input line 28.
 
 (3_modeling/figures/simuCurrentMaps/coupeCourant.tex
-<3_modeling/figures/simuCurrentMaps/dualWellCross.pdf, id=1086, 1156.32pt x 433
+<3_modeling/figures/simuCurrentMaps/dualWellCross.pdf, id=1076, 1156.32pt x 433
 .62pt>
 File: 3_modeling/figures/simuCurrentMaps/dualWellCross.pdf Graphic file (type p
 df)
@@ -2748,7 +2630,7 @@ df)
 Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/dualWellCross.pdf  
 used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 129.71286pt.
-<3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf, id=1088, 1156.32pt x 4
+<3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf, id=1078, 1156.32pt x 4
 33.62pt>
 File: 3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf Graphic file (type
  pdf)
@@ -2757,13 +2639,7 @@ Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf
   used on input line 16.
 (pdftex.def)             Requested size: 455.24411pt x 129.71286pt.
 ))
-(3_modeling/3_5_5_XPvalidCartoCurrent.tex [32]
-Overfull \hbox (17.73663pt too wide) in paragraph at lines 1--1
-[]\T1/ppl/b/n/17.28 Experimental com-par-isons []\T1/ppl/b/n/10 COM-PI-LA-TION 
-DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
-) (3_modeling/3_6_conclusion.tex
+(3_modeling/3_5_5_XPvalidCartoCurrent.tex [32]) (3_modeling/3_6_conclusion.tex
 Overfull \hbox (21.27893pt too wide) in paragraph at lines 2--1
 []\T1/ppl/m/n/12 CREUSER PLUS EN DÉ-TAILS DANS LES SEC-TIONS PRÉCÉ-DENTES LES D
 IF-FÉRENCES
@@ -2772,17 +2648,8 @@ IF-FÉRENCES
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package fancyhdr Warning: \headheight is too small (19.91692pt): 
-(fancyhdr)                Make it at least 27.52pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.52pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-7.60309pt}.
-
-[33 <./3_modeling/figures/simuCurrentMaps/dualWellCross.pdf> <./3_modeling/figu
-res/simuCurrentMaps/tripleWellCross.pdf>])) [34]
+ [33 <./3_modeling/figures/simuCurrentMaps/dualWellCross.pdf> <./3_modeling/fig
+ures/simuCurrentMaps/tripleWellCross.pdf>])) [34]
 \openout2 = `4_thinning/4_main.aux'.
 
  (4_thinning/4_main.tex
@@ -2791,32 +2658,21 @@ Chapter 4.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc8
-Overfull \hbox (11.06813pt too wide) in paragraph at lines 4--4
- [][] [][][]\T1/ppl/m/n/10.95 Geometric mod-el-ing []\T1/ppl/m/n/10 COM-PI-LA-T
-ION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-
-Overfull \hbox (4.25737pt too wide) in paragraph at lines 5--5
- [][] [][][]\T1/ppl/m/n/10.95 Electrical ap-proach []\T1/ppl/m/n/10 COM-PI-LA-T
-ION DATE: 2023-08-01 19:26:42+02:00[][][] []  
- []
-
-) [35
+(0_Manuscript.mtc9) [35
 
 
 
 
-] (4_thinning/4_1_abstract.tex) (4_thinning/4_2_introduction.tex [36])
-(4_thinning/4_3_geomModel.tex (4_thinning/figures/geomCrossView.tex
-<4_thinning/figures/geomCrossViewNew.pdf, id=1211, 569.05513pt x 256.0748pt>
+] (4_thinning/4_1_abstract.tex)
+(4_thinning/4_2_introduction.tex [36]) (4_thinning/4_3_geomModel.tex
+(4_thinning/figures/geomCrossView.tex
+<4_thinning/figures/geomCrossViewNew.pdf, id=1199, 569.05513pt x 256.0748pt>
 File: 4_thinning/figures/geomCrossViewNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/geomCrossViewNew.pdf  used on input
  line 11.
 (pdftex.def)             Requested size: 455.24411pt x 204.86792pt.
-<4_thinning/figures/geomCrossViewThinNew.pdf, id=1212, 569.05513pt x 256.0748pt
+<4_thinning/figures/geomCrossViewThinNew.pdf, id=1200, 569.05513pt x 256.0748pt
 >
 File: 4_thinning/figures/geomCrossViewThinNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewThinNew.pdf>
@@ -2846,7 +2702,7 @@ e thick-ness de-creases while
  []
 
 [40] (4_thinning/figures/simuSubCoupe.tex
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=1332, 1156.3
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=1320, 1156.3
 2pt x 433.62pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf Graphic fil
 e (type pdf)
@@ -2854,7 +2710,7 @@ e (type pdf)
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex14
 0um.pdf  used on input line 14.
 (pdftex.def)             Requested size: 455.24411pt x 125.30052pt.
-<4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf, id=1334, 794.9
+<4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf, id=1322, 794.9
 7pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf Graphic fi
 le (type pdf)
@@ -2862,7 +2718,7 @@ le (type pdf)
 Package pdftex.def Info: 4_thinning/figures/simuSubBottomVoltageTripleWellApex1
 40um.pdf  used on input line 20.
 (pdftex.def)             Requested size: 455.24411pt x 292.8797pt.
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=1336, 1156.32
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=1324, 1156.32
 pt x 433.62pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
  (type pdf)
@@ -2870,7 +2726,7 @@ File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60
 um.pdf  used on input line 33.
 (pdftex.def)             Requested size: 455.24411pt x 59.74754pt.
-<4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf, id=1338, 794.97
+<4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf, id=1326, 794.97
 pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf Graphic fil
 e (type pdf)
@@ -2885,20 +2741,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 nning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>])
 (4_thinning/4_4_validation.tex [42 <./4_thinning/figures/simuSubCoupeVoltageTri
 pleWellApex60um.pdf> <./4_thinning/figures/simuSubBottomVoltageTripleWellApex60
-um.pdf>]
-Overfull \hbox (24.51247pt too wide) in paragraph at lines 4--4
-[]\T1/ppl/b/n/14.4 IC sub-strate thin-ning quick look []\T1/ppl/b/n/10 COM-PI-L
-A-TION DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
-
-Overfull \hbox (33.74364pt too wide) in paragraph at lines 15--15
-[]\T1/ppl/b/n/14.4 Experiments with thinned cir-cuits []\T1/ppl/b/n/10 COM-PI-L
-A-TION DATE: 2023-08-01 19:26:50+02:00[] 
- []
-
-(4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=1539, 1350.00356pt x 404.712pt>
+um.pdf>] (4_thinning/figures/cartosFautes.tex
+<4_thinning/figures/cartosFautesNew.pdf, id=1527, 1350.00356pt x 404.712pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -2906,7 +2750,7 @@ line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 )
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=1540, 1350.00356pt x 404.712p
+<4_thinning/figures/cartosFautesSpreading.pdf, id=1528, 1350.00356pt x 404.712p
 t>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
@@ -2914,11 +2758,11 @@ Package pdftex.def Info: 4_thinning/figures/cartosFautesSpreading.pdf  used on
 input line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4303) has occurred while \output is active []
 
  [43])
 (4_thinning/figures/cartosFautesCouples.tex
-<4_thinning/figures/cartosCouples.pdf, id=1547, 1350.00356pt x 435.0654pt>
+<4_thinning/figures/cartosCouples.pdf, id=1534, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosCouples.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosCouples.pdf  used on input li
@@ -2938,54 +2782,40 @@ Chapter 5.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc9) [47
+(0_Manuscript.mtc10) [47
 
 
 
 
 ] (5_faultModel/5_1_summary.tex)
 (5_faultModel/5_2_introduction.tex) (5_faultModel/5_3_chargeExtortion.tex
-(5_faultModel/figures/dffLogicSchematic.tex
-<5_faultModel/figures/dffLogic.pdf, id=1760, 347.12363pt x 233.3126pt>
-File: 5_faultModel/figures/dffLogic.pdf Graphic file (type pdf)
-<use 5_faultModel/figures/dffLogic.pdf>
-Package pdftex.def Info: 5_faultModel/figures/dffLogic.pdf  used on input line 
-3.
-(pdftex.def)             Requested size: 455.24411pt x 306.00842pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1122) has occurred while \output is active []
 
  [48]
-Overfull \hbox (2.31883pt too wide) in paragraph at lines 23--24
-[][]\T1/ppl/m/n/12 Parler du fait que les cir-cuits séquen-tiels échan-til-lon-
-nent péri-odique-ment les valeurs
- []
-
 (5_faultModel/figures/bbiFaultSusceptibility.tex
-<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=1767, 150.5625pt x 75.2812
-5pt>
+<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=1754, 150.5625pt x 70.7643
+7pt>
 File: 5_faultModel/figures/bbiFaultSusceptibility.pdf Graphic file (type pdf)
 <use 5_faultModel/figures/bbiFaultSusceptibility.pdf>
 Package pdftex.def Info: 5_faultModel/figures/bbiFaultSusceptibility.pdf  used 
 on input line 3.
-(pdftex.def)             Requested size: 455.24411pt x 227.66843pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49 <./5_faultModel/figures/dffLogic.pdf>])) [50 <./5_faultModel/figures/bbiFa
-ultSusceptibility.pdf>]
+(pdftex.def)             Requested size: 409.71692pt x 192.6061pt.
+))
+(5_faultModel/5_4_subEpiCurrentSim.tex) (5_faultModel/5_5_simuLogicGates.tex))
+[49 <./5_faultModel/figures/bbiFaultSusceptibility.pdf>]
 \openout2 = `6_conclusion/6_main.aux'.
 
- (6_conclusion/6_main.tex
+
+(6_conclusion/6_main.tex [50
+
+
+
+
+]
 Chapter 6.
 Package minitoc Info: I0006
-(minitoc)             0_Manuscript.mtc10 is empty on input line 6.
-[51
-
-
-
-
-]) [52
+(minitoc)             0_Manuscript.mtc11 is empty on input line 6.
+[51]) [52
 
 
 
@@ -3027,16 +2857,16 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: BDC1CCA4F541D1EAFF6B9A2DBC2A8BA0;15821
-(rerunfilecheck)             After:  08FF1ADA608F1D9040E49166EFEFB009;15821.
+(rerunfilecheck)             Before: 9EA60485C1D090795B1FB94EA66FFAC5;14250
+(rerunfilecheck)             After:  5257E26C3B26C661A92FFDB88475C035;14250.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
-(rerunfilecheck)             Checksum: D9D03A22520F07AFD5ACB299C601C1F5;960.
+(rerunfilecheck)             Checksum: D9A84D72A3A171DBE8C9D0E933C488C1;960.
  ) 
 Here is how much of TeX's memory you used:
- 59905 strings out of 476411
- 1364408 string characters out of 5788662
- 1984943 words of memory out of 5000000
- 78653 multiletter control sequences out of 15000+600000
+ 59919 strings out of 476411
+ 1364678 string characters out of 5788662
+ 1983024 words of memory out of 5000000
+ 78662 multiletter control sequences out of 15000+600000
  603210 words of font info for 146 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  130i,13n,123p,2281b,717s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3055,9 +2885,9 @@ nts/type1/urw/courier/ucrr8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX
 KTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/AppData/Local/Program
 s/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (72 pages, 54733228 bytes).
+Output written on 0_Manuscript.pdf (70 pages, 54709050 bytes).
 PDF statistics:
- 1991 PDF objects out of 2073 (max. 8388607)
+ 1916 PDF objects out of 2073 (max. 8388607)
  173 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 621 words of extra memory for PDF output out of 10000 (max. 10000000)
 
