@@ -28,7 +28,7 @@ The voltage pulse generator, at each edge of its pulse, injects and then extorts
 Sequential logic is implemented everywhere in modern integrated circuits.
 It consists of logic gates fulfilling a function, followed by sample elements, the Edge-Triggered D Flip-Flop (DFF).
 DFFs are governed by a clock, and as their name implies, at each rising-edge or falling-edge (depending on the design) of the clock, they sample their input and replicate it on their output.
-Therefore, if an attacker manages to disturb the input of one or several DFFs at a specific time, located around the triggering edge, it enables the possibility to induce faulty behavior in the logic.
+Therefore, if an attacker manages to disturb the input of one or several DFFs at a specific time, located around the triggering edge, it enables the possibility of inducing faulty behavior in the logic.
 
 \input{5_faultModel/figures/bbiFaultSusceptibility}
 Sequential logic basic principle of operation is depicted in Fig. \ref{chap:5;fig:bbiSusc}, alongside a BBI timing susceptibility fault model.
