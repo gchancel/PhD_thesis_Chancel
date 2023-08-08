@@ -23,15 +23,15 @@
 
 \subsection{Platform equipment \ddc}
 \label{chap:2_goodPractices;sect:intro;subsect:platEquip}
-This section is dedicated in presenting the different piece of equipment which allowed us to perform this work.
-The hardware platform, as well as the different software used are introduced.
+This section is dedicated to presenting the different pieces of equipment which allowed us to perform this work.
+The hardware platform, as well as the different software used, are introduced.
 
 \subsection{The hardware \ddc}
 \label{chap:2_goodPractices;sect:intro;subsect:platEquip,hardware}
 \input{2_goodPractices/figures/pointBBI}
 The main piece of equipment when working with BBI is the electrical probe.
 It is commonly made with a metal tip, a connector of any sort and a mechanical support to hold everything together.
-For the purpose of this work, a custom probe was designed around three simple parts, an SMA connector, in order to have a low-cost, small and standard interconnection, a spring-loaded metallic probe soldered onto the SMA connector, and a custom 3D printed support to hold the structure together.
+For this work, a custom probe was designed around three simple parts, an SMA connector, to have a low-cost, small and standard interconnection, a spring-loaded metallic probe soldered onto the SMA connector, and a custom 3D-printed support to hold the structure together.
 Fig. \ref{fig:sondePointeBBI} shows detailed pictures of the designed BBI metallic probe, with a global view in operation on Fig.\ref{subfig:sondeBBI}, and a photograph under a microscope of the probe's tip-end on Fig. \ref{subfig:pointeBBI}, allowing to measure its actual size before the first usage.
 The metallic probe used has a 0.635 mm diameter and is 16.35 mm long. The specified maximum nominal current of the probe is of 1.5 A, and the electrical contact resistance measures 70 m\textOmega.
 
@@ -64,26 +64,26 @@ Its main specifications are the following:
 \end{itemize}
 
 Then, the central piece of equipment of any fault injection method is the IC target.
-In our work, the focus was made on an STM32F439VIT6 LQFP100 micro-controller.
+In our work, the focus was made on an STM32F439VIT6 LQFP100 microcontroller.
 It is a moderately modern IC commonly used nowadays.
-It was chosen because it embeds a dedicated cryptographic core, able to do DES or AES not to cite them all.
+It was chosen because it embeds a dedicated cryptographic core, able to do DES or AES, not to cite them all.
 The IC is manufactured with a bulk 90 nm process.
 Its core clock frequency goes up to 180 MHz, and it embeds 256 kB of RAM and 2 MB of Flash memory in two separate banks.
 
 \subsection{The software \ddc}
 \label{chap:2_goodPractices;sect:intro;subsect:platEquip,software}
-Because several simulations are performed for the purpose of this work, different piece of software are used.
-In order to perform every electrical simulations, we used \mbox{Synopsys\textregistered's PrimeSim HSPICE}.
+Because several simulations are performed for this work, different pieces of software are used.
+To perform every electrical simulations, we used \mbox{Synopsys\textregistered's PrimeSim HSPICE}.
 It allows fast simulations with parallel calculation of large netlists.
-The computer used for these simulations is made around a 48 cores, 96 threads CPU, alongside 420 GB of usable system memory.
+The computer used for these simulations is made around 48 cores, 96 threads CPU, alongside 420 GB of usable system memory.
 As we will study further in Chapter \ref{chap:3icModeling}, the considered netlists are procedurally generated.
 To that end, we developed an algorithm, implemented in Python.
 It allows automatic generation of every netlist, minimizing user intervention, therefore drastically reducing errors, especially when considering the size of the simulated netlists.
-Indeed, they are not complex in their structure, as they are composed of resistors, capacitors and diodes, but the amount of components ranges from one million for the smallest, to 4.7 millions for the biggest.
+Indeed, they are not complex in their structure, as they are composed of resistors, capacitors and diodes, but the number of components ranges from one million for the smallest, to 4.7 millions for the biggest.
 The main limitation in simulating these netlists lies in the available system memory, as it is the first bottleneck to appear.
 In fact, simulating the smallest ICs takes up to 76 GB of memory during the transient simulation.
 As the memory usage scales linearly with the number of components, and because when doubling the width and height, the IC surface quadruples, the same applies for the components count.
 Therefore, simulating the biggest ones takes up to 420 GB of system memory, which represents an IC size of 1.1 mm by 1.2 mm.
 In addition to the memory consumption, the time required is also an important factor.
 Effectively, the smallest ICs take up to four hours and ten minutes with 8 CPU threads (which is close to the maximum HSPICE can do for our netlists).
-Then, because simulation time scales linearly with components count, the biggest IC takes up to 17 hours to be completed.
+Then, because simulation time scales linearly with components count, the biggest IC takes up to 17 hours to be achieved.
