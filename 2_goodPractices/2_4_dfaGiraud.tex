@@ -6,5 +6,53 @@ Now that we have seen the benefits of the proposed practice with a simple experi
 To that end, we propose to compare the conduct and outcome of a differential fault attack, specifically the mono-bit Giraud's DFA as defined in the third section of \cite{giraudDfa}.
 
 \input{2_goodPractices/figures/giraudDFA_0}
+To finely analyze how the IC behave to BBI, we performed experiments called Fault Analysis Mapping (FAM).
+Fig. \ref{fig:fam} shows the FAM results for two scenarios: BBI in the state-of-the-art, and the proposed enhancements.
+For these experiments, the goal was to identify at each location the minimum set-point voltage required to induce a fault if possible, and the IC response to the disturbance.
+More specifically, these maps allow identifying in detail the AES response by detecting the nature of induced faults, if there are any.
+We can identify seven fault cases, described in Table \ref{table:faultType}.
+\begin{table}[H]
+    \centering
+    \begin{tabu}{|[2pt]l|[2pt]l|[2pt]}
+        \tabucline[2pt]{-}
+        Fault type           &  Description                                                 \\ \tabucline[2pt]{-}
+        Correct              &  The AES outputs a correct result                            \\ \hline
+        Mono-bit Mono-byte   &  The fault is located on a single bit on a single byte       \\ \hline
+        Multi-bit Mono-byte  &  The faults are located multiple bits on a single byte       \\ \hline
+        Mono-bit Multi-byte  &  The faults are located multiple bytes and are single bit    \\ \hline
+        Multi-bit Multi-byte &  The faults are located multiple bytes and multiple bits     \\ \hline
+        Crash                &  The microcontroller did not respond correctly               \\ \hline
+        Timeout              &  The microcontroller was unresponsive                        \\ \tabucline[2pt]{-}
+    \end{tabu}
+%    \label{table:faultType}
+    \caption{FAM faults description}
+    \label{table:faultType}
+\end{table}
+Over the seven outcomes, only two can potentially lead to an exploitable fault according to Giraud's criterion: both single-bit scenarios.
+What is interesting to remark here is that these responses are either non-existent in Fig. \ref{fig:gndFSM}, or very rare in Fig. \ref{fig:giraudFSM}.
+In addition to that, it is important to note that conducting such experiments take about 16 hours at best, up to 36 hours at worst.
+Therefore, to conduct the Giraud's attack, we decided, thanks to the second FAM including every proposed platform's enhancements, to linger on IC locations where Giraud's criterion was met and to dig further what could be achieved.
+This choice allowed us to perform the attack faster by only analyzing locations of interest.
 
-\textcolor{orange}{CARTOS À FAIRE...}
+For each valid location, a parameter sweep was performed, consisting in finding, for each set of parameters, as much single bit faults as possible.
+The following platform parameters were tested:
+\begin{itemize}
+    \item The voltage pulse set-point: from -300 V to -600 V
+    \item The pulse width: from 4.5 ns to 5.5 ns
+    \item The injection time: $\pm \; 10 \; ns$ before and after the penultimate AES round
+\end{itemize}
+For each set of parameters, we looked for at least one hundred single bit faults.
+However, in some cases, this goal was not achievable.
+To that end, we set a limit of ten thousand tests per set of parameters, allowing the algorithm to be finite.
+
+As one can note, Fig. \ref{fig:giraudFSM} shows five locations where valid faults were discovered.
+Then, five sweeps were performed, and allowed to retrieve 14 bytes out of 16 bytes of the last round key.
+As stated in \cite{giraudDfa}, for a 128 bits AES, having the last round key means having the key.
+The attack results are shown in Table \ref{table:dfaResults}.
+\begin{table}[H]
+    \centering
+    \includegraphics[width=\textwidth, center]{2_goodPractices/figures/giraud__6N.pdf}
+    \caption{Giraud's DFA results}
+    \label{table:dfaResults}
+\end{table}
+The first row indicates the bytes numbers, the second the value of $K^{10}$ bytes, and the last one contains the AES key in order to be able to compare the attack results.
