@@ -118,59 +118,59 @@
 %    \label{fig:SCStripleUp}
 %\end{figure}
 
-\begin{algorithm}[H]
-    \caption[ic algo func]{Generation algorithm classes and function}
-    \label{alg:genFuncClass}
-    \begin{algorithmic}
-        \Class{NetlistTextFile} \Comment{Object defining the netlist to be generated}
-        \State \textbf{text}: String content of the class
-        \State $write(value : String)$: Write characters into the parent class "\textbf{text}" attribute
-        \EndClass\\
-
-        \Class{DualWellSCS} \Comment{Dual-well standard-cell netlist}
-        \State \textbf{text}: String content of the class
-        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
-        \EndClass\\
-
-        \Class{TripleWellSCS} \Comment{Triple-well standard-cell netlist}
-        \State \textbf{text}: String content of the class
-        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
-        \EndClass\\
-
-        \Function{createNets}{X : float, Y : float, NET : String}
-        \State \Comment{Create nets to connect SCS together}
-        \State $NetArray \gets ???$
-        \State \Return NetArray
-        \EndFunction\\
-
-        \Function{writeInMainNetlist}{value : String}
-        \State \Comment{Write generated results into main netlist}
-        \State NetlistTextFile.write(value)
-        \EndFunction\\
-
-        \Function{subRHcalc}{ESUB : int, RH : float, RL : float}
-        \State \Comment{Calculate elementary substrate resistors}
-        \State $RH \gets RH \times (ESUB \div 10)$
-        \State $RL \gets RL \times (ESUB \div 10)$
-        \State \Return RH, RL
-        \EndFunction\\
-
-        \Function{SCSelemGen}{SUBTYPE} \Comment{Generate Standard Cell Segment Model}
-        \If{$SUBTYPE = DualWell$}
-        \State $SCSNetlistDW = DualWellSCS$
-        \State $SCSNetlistTW = None$
-        \ElsIf{$SUBTYPE = TripleWell$}
-        \State $SCSNetlistDW = None$
-        \State $SCSNetlistTW = TriplelWellSCS$
-        \ElsIf{$SUBTYPE = Mixed$}
-        \State $SCSNetlistDW = DualWellSCS$
-        \State $SCSNetlistTW = TriplelWellSCS$
-        \EndIf
-        \State $SCSNetlistArray \gets {SCSNetlistDW, SCSNetlistTW}$
-        \State \Return SCSNetlistArray
-        \EndFunction\\
-    \end{algorithmic}
-\end{algorithm}
+%\begin{algorithm}[H]
+%    \caption[ic algo func]{Generation algorithm classes and function}
+%    \label{alg:genFuncClass}
+%    \begin{algorithmic}
+%        \Class{NetlistTextFile} \Comment{Object defining the netlist to be generated}
+%        \State \textbf{text}: String content of the class
+%        \State $write(value : String)$: Write characters into the parent class "\textbf{text}" attribute
+%        \EndClass\\
+%
+%        \Class{DualWellSCS} \Comment{Dual-well standard-cell netlist}
+%        \State \textbf{text}: String content of the class
+%        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
+%        \EndClass\\
+%
+%        \Class{TripleWellSCS} \Comment{Triple-well standard-cell netlist}
+%        \State \textbf{text}: String content of the class
+%        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
+%        \EndClass\\
+%
+%        \Function{createNets}{X : float, Y : float, NET : String}
+%        \State \Comment{Create nets to connect SCS together}
+%        \State $NetArray \gets ???$
+%        \State \Return NetArray
+%        \EndFunction\\
+%
+%        \Function{writeInMainNetlist}{value : String}
+%        \State \Comment{Write generated results into main netlist}
+%        \State NetlistTextFile.write(value)
+%        \EndFunction\\
+%
+%        \Function{subRHcalc}{ESUB : int, RH : float, RL : float}
+%        \State \Comment{Calculate elementary substrate resistors}
+%        \State $RH \gets RH \times (ESUB \div 10)$
+%        \State $RL \gets RL \times (ESUB \div 10)$
+%        \State \Return RH, RL
+%        \EndFunction\\
+%
+%        \Function{SCSelemGen}{SUBTYPE} \Comment{Generate Standard Cell Segment Model}
+%        \If{$SUBTYPE = DualWell$}
+%        \State $SCSNetlistDW = DualWellSCS$
+%        \State $SCSNetlistTW = None$
+%        \ElsIf{$SUBTYPE = TripleWell$}
+%        \State $SCSNetlistDW = None$
+%        \State $SCSNetlistTW = TriplelWellSCS$
+%        \ElsIf{$SUBTYPE = Mixed$}
+%        \State $SCSNetlistDW = DualWellSCS$
+%        \State $SCSNetlistTW = TriplelWellSCS$
+%        \EndIf
+%        \State $SCSNetlistArray \gets {SCSNetlistDW, SCSNetlistTW}$
+%        \State \Return SCSNetlistArray
+%        \EndFunction\\
+%    \end{algorithmic}
+%\end{algorithm}
 
 \begin{algorithm}[H]
 \caption[ic algo]{Integrated circuit SPICE netlist generation algorithm.}
@@ -186,14 +186,39 @@
     \Require SIMSTEP \Comment{Simulation time step}
     \Require TEX \Comment{Desired X size (µm)}
     \Require TEY \Comment{Desired Y size (µm)}
-    \State $RH \gets 2000$
-    \State $RL \gets 500$
-    \State $nC \gets TEX \div 30$ \Comment{Number of column}
-    \State $nL \gets TEY \div 5$ \Comment{Number of lines}
+    \State $RH \gets 2000$ \Comment{Elementary substrate up-down/front-rear resistor value}
+    \State $RL \gets 500$ \Comment{Elementary substrate left-right resistor value}
+    \State $WSEG \gets 30$
+    \State $HSEG \gets 5$
+    \State $W6SEG \gets 30 \div 6$
+    \State $nC \gets TEX \div WSEG$ \Comment{Number of column}
+    \State $nL \gets TEY \div HSEG$ \Comment{Number of lines}
     \State $nH \gets TSUB \div ESUB$ \Comment{Number of substrate layers}
     \Ensure nC, nL and nH are integers
-    \State $RH, RL \gets \Call{subRHcalc}{ESUB, RH, RL}$
-    \ForAll{cX in }
+%    \State $RH, RL \gets \Call{subRHcalc}{ESUB, RH, RL}$
+    \State $RH \gets RH \times (ESUB \div 10)$ \Comment{Adjust RH value according to user defined variable}
+    \State $RL \gets RL \times (ESUB \div 10)$ \Comment{Adjust RL value according to user defined variable}
+    \ForAll{cY in [0; nL[}
+        \ForAll{cX in [0; nH[}
+        \State $\overrightarrow{X} \gets
+        \left[\begin{array}{r}
+                    cX \times WSEG\\
+                    cX \times WSEG + 1 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 3 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 5 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 7 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 9 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 11 \times (W6SEG \div 2)\\
+                    cX \times WSEG + 12 \times (W6SEG \div 2)\\
+            \end{array}\right]$
+        $;\overrightarrow{Y} \gets
+        \left[\begin{array}{r}
+                    cY \times HSEG\\
+                    (cY + \frac{1}{2}) \times HSEG\\
+                    (cY + 1) \times HSEG\\
+            \end{array}\right]$
+        \State
+        \EndFor
     \EndFor
     \State \textcolor{orange}{TO FINISH.}
 \end{algorithmic}

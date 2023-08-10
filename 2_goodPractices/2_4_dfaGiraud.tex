@@ -46,8 +46,11 @@ However, in some cases, this goal was not achievable.
 To that end, we set a limit of ten thousand tests per set of parameters, allowing the algorithm to be finite.
 
 As one can note, Fig. \ref{fig:giraudFSM} shows five locations where valid faults were discovered.
-Then, five sweeps were performed, and allowed to retrieve 14 bytes out of 16 bytes of the last round key.
-As stated in \cite{giraudDfa}, for a 128 bits AES, having the last round key means having the key.
+These points, only discovered thanks to an approximate experiment, do not represent the only interesting locations where the attack could be performed.
+If we put aside the FAM duration, performing the attack in itself is a fairly quick process.
+Indeed, in about 20 minutes, five sweeps were performed and 100 single-bit faults were obtained and analyzed for each interesting location.
+This allowed us to retrieve 14 bytes out of 16 bytes of the last round key.
+As stated in \cite{giraudDfa}, for a 128 bits AES, finding the last round key means finding the key.
 The attack results are shown in Table \ref{table:dfaResults}.
 \begin{table}[H]
     \centering
@@ -55,4 +58,10 @@ The attack results are shown in Table \ref{table:dfaResults}.
     \caption{Giraud's DFA results}
     \label{table:dfaResults}
 \end{table}
-The first row indicates the bytes numbers, the second the value of $K^{10}$ bytes, and the last one contains the AES key in order to be able to compare the attack results.
+The first row indicates the bytes numbers, the second the value of $K^{10}$ bytes, and the last one contains the AES key in order to be able to compare the attack results to the encryption key.
+
+Because only 14 bytes were found, we decided to perform other FAM to find other interesting locations.
+However, despite these additional experiments, we did not manage to find the two remaining bytes.
+Nevertheless, it is not interesting to try to find the two remaining bytes thanks to the Giraud's DFA.
+Indeed, we need to find 16 bits of the last round key, which are only 65536 combinations in the worst case.
+Considering our platform computer being able to perform $188 \cdot 10^3$ encryptions per second, it would take $\frac{2^{16}}{188 \cdot 10^3} \approxeq 349 \cdot 10^{-3}$ seconds to perform the required calculation in the worst scenario.
