@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  11 AUG 2023 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  11 AUG 2023 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2288,7 +2288,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 Overfull \hbox (1.08994pt too wide) in paragraph at lines 34--34
  [][] [][][]\T1/ppl/m/n/12 Voltage pulse gen-er-a-tor model and fur-ther val-i-
-da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
+da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:52+02:00[][][] []  
  []
 
 )
@@ -2386,7 +2386,7 @@ Chapter 2.
 (0_Manuscript.mtc7
 Overfull \hbox (8.99042pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10.95 BBI prac-tices: a sim-ple ac-tual com-par-isons [
-]\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
+]\T1/ppl/m/n/10 2023-08-11 15:28:52+02:00[][][] []  
  []
 
 ) [5] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_intro.tex
@@ -2445,7 +2445,7 @@ d [].
 
 Overfull \hbox (21.23961pt too wide) in paragraph at lines 3--3
 []\T1/ppl/b/n/17.28 Body Bi-as-ing In-jec-tion en-hanced prac-tice []\T1/ppl/b/
-n/10 2023-08-11 15:28:52+02:00[] 
+n/10 2023-08-11 15:35:23+02:00[] 
  []
 
 
@@ -2551,13 +2551,13 @@ Chapter 3.
 (0_Manuscript.mtc8
 Overfull \hbox (22.87758pt too wide) in paragraph at lines 6--6
  [][] [][][]\T1/ppl/m/n/10.95 Voltage pulse gen-er-a-tor model and fur-ther val
--i-da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
+-i-da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:52+02:00[][][] []  
  []
 
 
 Overfull \hbox (6.6147pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Further gen-er-a-tor mod-els and ver-i-fi-ca-tion
- []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
+ []\T1/ppl/m/n/10 2023-08-11 15:28:52+02:00[][][] []  
  []
 
 ) [21] (3_modeling/3_1_abstract.tex) (3_modeling/3_2_introduction.tex [22])
@@ -2798,9 +2798,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [45 <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf> <./4_thi
 nning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>] [46 <./4_thinning/f
 igures/simuSubCoupeVoltageTripleWellApex60um.pdf> <./4_thinning/figures/simuSub
-BottomVoltageTripleWellApex60um.pdf>]) (4_thinning/4_4_validation.tex
+BottomVoltageTripleWellApex60um.pdf>]) (4_thinning/4_4_validation.tex [47]
 (4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=1887, 1350.00356pt x 404.712pt>
+<4_thinning/figures/cartosFautesNew.pdf, id=1892, 1350.00356pt x 404.712pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -2808,14 +2808,14 @@ line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 )
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=1888, 1350.00356pt x 404.712p
+<4_thinning/figures/cartosFautesSpreading.pdf, id=1893, 1350.00356pt x 404.712p
 t>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesSpreading.pdf  used on 
 input line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
- [47])
+)
 (4_thinning/figures/cartosFautesCouples.tex
 <4_thinning/figures/cartosCouples.pdf, id=1894, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
@@ -2912,8 +2912,8 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 5F4AC7A7F1881465C9B11A0DE125FA00;14491
-(rerunfilecheck)             After:  A3B9C2B1273DE3EEE04E48C8C82325CA;14491.
+(rerunfilecheck)             Before: A3B9C2B1273DE3EEE04E48C8C82325CA;14491
+(rerunfilecheck)             After:  0E6F61F34BA1C567486F0496C67DC76F;14491.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
 (rerunfilecheck)             Checksum: D37F57498EF2C9E7EC4C5BB644500B41;1011.
  ) 
@@ -2942,7 +2942,7 @@ rograms/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/geoff2/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/AppData
 /Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (74 pages, 20132202 bytes).
+Output written on 0_Manuscript.pdf (74 pages, 20132302 bytes).
 PDF statistics:
  2291 PDF objects out of 2487 (max. 8388607)
  1274 compressed objects within 13 object streams
