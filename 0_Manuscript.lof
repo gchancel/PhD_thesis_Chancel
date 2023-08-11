@@ -6,9 +6,9 @@
 \contentsline {xchapter}{}{xiii}{section*.8}%
 \contentsline {xchapter}{}{xv}{chapter*.10}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-08-10 13:05:51+02:00}}{1}{chapter.1}%
+\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-08-11 15:28:52+02:00}}{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-08-10 13:05:51+02:00}}{5}{chapter.2}%
+\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-08-11 15:28:52+02:00}}{5}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view\relax }}{7}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces ChipSHOUTER\textregistered -PicoEMP from NewAE Technology Inc.\relax }}{7}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Front side of the Avtech Electrosystems Ltd. AVRK-4-B High Voltage Pulser\relax }}{8}{figure.caption.13}%
@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces BBI enhancements with actual measurements\relax }}{14}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Fault analysis mapping\relax }}{16}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-08-10 13:05:51+02:00}}{21}{chapter.3}%
+\contentsline {xchapter}{Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-08-11 15:28:52+02:00}}{21}{chapter.3}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view\relax }}{24}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Surface subdivision improvement.\relax }}{25}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Three-dimensional Dual-Well and Triple-Well IC comprehensive standard-cell electrical schematic.\relax }}{26}{figure.caption.23}%
@@ -29,7 +29,7 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Mixed substrates operating point.\relax }}{34}{figure.caption.29}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Dual-well and triple-well cross-sectional current distribution view at the apex of the voltage pulse\relax }}{36}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-08-10 13:05:51+02:00}}{39}{chapter.4}%
+\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-08-11 15:28:52+02:00}}{39}{chapter.4}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{42}{figure.caption.31}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{45}{figure.caption.32}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{46}{figure.caption.33}%
@@ -37,7 +37,7 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{48}{figure.caption.35}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{48}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-08-10 13:05:51+02:00}}{51}{chapter.5}%
+\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-08-11 15:28:52+02:00}}{51}{chapter.5}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Sequential logic operation and BBI sampling fault susceptibility\relax }}{53}{figure.caption.37}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusion}{55}{chapter.6}%

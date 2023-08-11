@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  10 AUG 2023 13:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  11 AUG 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2288,7 +2288,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 Overfull \hbox (1.08994pt too wide) in paragraph at lines 34--34
  [][] [][][]\T1/ppl/m/n/12 Voltage pulse gen-er-a-tor model and fur-ther val-i-
-da-tion []\T1/ppl/m/n/10 2023-08-10 13:05:19+02:00[][][] []  
+da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
  []
 
 )
@@ -2386,7 +2386,7 @@ Chapter 2.
 (0_Manuscript.mtc7
 Overfull \hbox (8.99042pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10.95 BBI prac-tices: a sim-ple ac-tual com-par-isons [
-]\T1/ppl/m/n/10 2023-08-10 13:05:19+02:00[][][] []  
+]\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
  []
 
 ) [5] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_intro.tex
@@ -2445,7 +2445,7 @@ d [].
 
 Overfull \hbox (21.23961pt too wide) in paragraph at lines 3--3
 []\T1/ppl/b/n/17.28 Body Bi-as-ing In-jec-tion en-hanced prac-tice []\T1/ppl/b/
-n/10 2023-08-10 13:05:51+02:00[] 
+n/10 2023-08-11 15:28:52+02:00[] 
  []
 
 
@@ -2551,13 +2551,13 @@ Chapter 3.
 (0_Manuscript.mtc8
 Overfull \hbox (22.87758pt too wide) in paragraph at lines 6--6
  [][] [][][]\T1/ppl/m/n/10.95 Voltage pulse gen-er-a-tor model and fur-ther val
--i-da-tion []\T1/ppl/m/n/10 2023-08-10 13:05:19+02:00[][][] []  
+-i-da-tion []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
  []
 
 
 Overfull \hbox (6.6147pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Further gen-er-a-tor mod-els and ver-i-fi-ca-tion
- []\T1/ppl/m/n/10 2023-08-10 13:05:19+02:00[][][] []  
+ []\T1/ppl/m/n/10 2023-08-11 15:28:38+02:00[][][] []  
  []
 
 ) [21] (3_modeling/3_1_abstract.tex) (3_modeling/3_2_introduction.tex [22])
@@ -2630,7 +2630,7 @@ put line 176.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-Overfull \vbox (41.51411pt too high) has occurred while \output is active []
+Overfull \vbox (108.51476pt too high) has occurred while \output is active []
 
 
 [31{C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.
@@ -2760,14 +2760,14 @@ e thick-ness de-creases while
  []
 
 [44] (4_thinning/figures/simuSubCoupe.tex
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=1677, 1156.3
-2pt x 433.62pt>
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=1677, 794.97
+pt x 650.43pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf Graphic fil
 e (type pdf)
 <use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf>
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex14
 0um.pdf  used on input line 14.
-(pdftex.def)             Requested size: 455.24411pt x 125.30052pt.
+(pdftex.def)             Requested size: 455.24411pt x 129.0499pt.
 <4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf, id=1679, 794.9
 7pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf Graphic fi
@@ -2775,15 +2775,15 @@ le (type pdf)
 <use 4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>
 Package pdftex.def Info: 4_thinning/figures/simuSubBottomVoltageTripleWellApex1
 40um.pdf  used on input line 20.
-(pdftex.def)             Requested size: 455.24411pt x 292.8797pt.
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=1681, 1156.32
-pt x 433.62pt>
+(pdftex.def)             Requested size: 455.24411pt x 311.91382pt.
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=1681, 794.97p
+t x 650.43pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
  (type pdf)
 <use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf>
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60
 um.pdf  used on input line 33.
-(pdftex.def)             Requested size: 455.24411pt x 59.74754pt.
+(pdftex.def)             Requested size: 455.24411pt x 65.30862pt.
 <4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf, id=1683, 794.97
 pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf Graphic fil
@@ -2796,11 +2796,11 @@ Package pdftex.def Info: 4_thinning/figures/simuSubBottomVoltageTripleWellApex6
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf> <./4_thi
-nning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>])
-(4_thinning/4_4_validation.tex [46 <./4_thinning/figures/simuSubCoupeVoltageTri
-pleWellApex60um.pdf> <./4_thinning/figures/simuSubBottomVoltageTripleWellApex60
-um.pdf>] (4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=1885, 1350.00356pt x 404.712pt>
+nning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>] [46 <./4_thinning/f
+igures/simuSubCoupeVoltageTripleWellApex60um.pdf> <./4_thinning/figures/simuSub
+BottomVoltageTripleWellApex60um.pdf>]) (4_thinning/4_4_validation.tex
+(4_thinning/figures/cartosFautes.tex
+<4_thinning/figures/cartosFautesNew.pdf, id=1887, 1350.00356pt x 404.712pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -2808,19 +2808,16 @@ line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 )
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=1886, 1350.00356pt x 404.712p
+<4_thinning/figures/cartosFautesSpreading.pdf, id=1888, 1350.00356pt x 404.712p
 t>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesSpreading.pdf  used on 
 input line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
-
-Underfull \vbox (badness 4303) has occurred while \output is active []
-
  [47])
 (4_thinning/figures/cartosFautesCouples.tex
-<4_thinning/figures/cartosCouples.pdf, id=1892, 1350.00356pt x 435.0654pt>
+<4_thinning/figures/cartosCouples.pdf, id=1894, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosCouples.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosCouples.pdf  used on input li
@@ -2851,7 +2848,7 @@ Underfull \vbox (badness 1122) has occurred while \output is active []
 
  [52]
 (5_faultModel/figures/bbiFaultSusceptibility.tex
-<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=2113, 150.5625pt x 70.7643
+<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=2115, 150.5625pt x 70.7643
 7pt>
 File: 5_faultModel/figures/bbiFaultSusceptibility.pdf Graphic file (type pdf)
 <use 5_faultModel/figures/bbiFaultSusceptibility.pdf>
@@ -2915,15 +2912,15 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 0ADAC07C7CADA8740CB846DDE36C266C;14491
-(rerunfilecheck)             After:  E1C8C963F2E2B8E2CCDD2948AC045943;14491.
+(rerunfilecheck)             Before: 5F4AC7A7F1881465C9B11A0DE125FA00;14491
+(rerunfilecheck)             After:  A3B9C2B1273DE3EEE04E48C8C82325CA;14491.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
 (rerunfilecheck)             Checksum: D37F57498EF2C9E7EC4C5BB644500B41;1011.
  ) 
 Here is how much of TeX's memory you used:
  60717 strings out of 476411
  1378106 string characters out of 5788662
- 2000495 words of memory out of 5000000
+ 2002495 words of memory out of 5000000
  79434 multiletter control sequences out of 15000+600000
  595948 words of font info for 140 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2945,9 +2942,9 @@ rograms/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/geoff2/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/AppData
 /Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (74 pages, 20132439 bytes).
+Output written on 0_Manuscript.pdf (74 pages, 20132202 bytes).
 PDF statistics:
- 2289 PDF objects out of 2487 (max. 8388607)
+ 2291 PDF objects out of 2487 (max. 8388607)
  1274 compressed objects within 13 object streams
  180 named destinations out of 1000 (max. 500000)
  656 words of extra memory for PDF output out of 10000 (max. 10000000)

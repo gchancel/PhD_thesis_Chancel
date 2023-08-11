@@ -200,24 +200,29 @@
     \State $RL \gets RL \times (ESUB \div 10)$ \Comment{Adjust RL value according to user defined variable}
     \ForAll{cY in [0; nL[}
         \ForAll{cX in [0; nH[}
-        \State $\overrightarrow{X} \gets
-        \left[\begin{array}{r}
-                    cX \times WSEG\\
-                    cX \times WSEG + 1 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 3 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 5 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 7 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 9 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 11 \times (W6SEG \div 2)\\
-                    cX \times WSEG + 12 \times (W6SEG \div 2)\\
+            \State $\overrightarrow{X} \gets
+            \left[\begin{array}{r}
+                        cX \times WSEG\\
+                        cX \times WSEG + 1 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 3 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 5 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 7 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 9 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 11 \times (W6SEG \div 2)\\
+                        cX \times WSEG + 12 \times (W6SEG \div 2)\\
+                \end{array}\right]$
+            $;\overrightarrow{Y} \gets
+            \left[\begin{array}{r}
+                        cY \times HSEG\\
+                        (cY + \frac{1}{2}) \times HSEG\\
+                        (cY + 1) \times HSEG\\
+                \end{array}\right]$
+            \State $;\overrightarrow{P} \gets
+            \left[\begin{array}{r}
+                cY \times HSEG\\
+                (cY + \frac{1}{2}) \times HSEG\\
+                (cY + 1) \times HSEG\\
             \end{array}\right]$
-        $;\overrightarrow{Y} \gets
-        \left[\begin{array}{r}
-                    cY \times HSEG\\
-                    (cY + \frac{1}{2}) \times HSEG\\
-                    (cY + 1) \times HSEG\\
-            \end{array}\right]$
-        \State
         \EndFor
     \EndFor
     \State \textcolor{orange}{TO FINISH.}
