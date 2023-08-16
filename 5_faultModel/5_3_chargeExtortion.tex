@@ -23,17 +23,34 @@ The voltage pulse generator, at each edge of its pulse, injects and then extorts
 %
 %\textcolor{magenta}{Parler du fait que les circuits séquentiels échantillonnent périodiquement les valeurs des DFFs (registres). Du coup, si on change un niveau logique suffisamment longtemps pour qu'il perdure pendant l'échantillonnage, c'est gagné ! Faute !, sinon Non.}
 
-\subsection{Sequential logic operation \ddc}
+\subsection{Sequential logic operation and simple fault model \ddc}
 \label{chap5:sect:chargeExtortion:subsect:seqLogic}
-Sequential logic is implemented everywhere in modern integrated circuits.
-It consists of logic gates fulfilling a function, followed by sample elements, the Edge-Triggered D Flip-Flop (DFF).
-DFFs are governed by a clock, and as their name implies, at each rising-edge or falling-edge (depending on the design) of the clock, they sample their input and replicate it on their output.
-Therefore, if an attacker manages to disturb the input of one or several DFFs at a specific time, located around the triggering edge, it enables the possibility of inducing faulty behavior in the logic.
+As sequential logic is ubiquitous in contemporary integrated circuits, we shall examine its fundamental workings in greater detail.
+Sequential logic relies on a core element: the edge-triggered D flip-flop (DFF).
+They are a memory component that is governed by a clock.
+At each rising-edge or falling-edge (depending on the design) of the clock, DFFs sample their input and replicate it at their output.
+Between DFFs are placed the logic gates, which fulfill a specific logical function.
+Because of this, values in sequential logic circuits can only be changed at the clock edges.
+Hence, in the event that an adversary is able to alter a logical value for an extended period of time at the input of a DFF, the subsequent combinatorial logic will yield an incorrect value, which will propagate to the subsequent DFFs.
+
+%Because sequential logic is implemented everywhere in modern integrated circuits, we are going to take a closer look at how it works coarsely.
+%Sequential logic relies on a core element: the edge-triggered D flip-flop (DFF).
+%They are a memory element, governed by a clock.
+%At each rising-edge or falling-edge (depending on the design) of the clock, DFFs sample their input and replicate it at their output.
+%Between DFFs are placed the logic gates, fulfilling a specific logical function.
+%Therefore, values in sequential logic circuits can only change on clock edges.
+%Thus, if an attacker manages to change a logical value long enough at the input of a DFF, the following combinatory logic will output a wrong result, which will propagate to the following DFFs.
+
+%It consists of logic gates fulfilling a function, followed by sample elements, the Edge-Triggered D Flip-Flop (DFF).
+%DFFs are governed by a clock, and as their name implies, at each rising-edge or falling-edge (depending on the design) of the clock, they sample their input and replicate it on their output.
+%Therefore, if an attacker manages to disturb the input of one or several DFFs at a specific time, located around the triggering edge, it enables the possibility of inducing faulty behavior in the logic.
 
 \input{5_faultModel/figures/bbiFaultSusceptibility}
-Sequential logic basic principle of operation is depicted in Fig. \ref{chap:5;fig:bbiSusc}, alongside a BBI timing susceptibility fault model.
-This fault model was first introduced in \cite{emfiFF} for EMFI.
-It states that to maximize fault creation with electromagnetic disturbances, the latter have to appear during a specific period of time in order to be successful.
+This fault model we described previously is depicted in Fig. \ref{chap:5;fig:bbiSusc} and was first introduced in \cite{emfiFF} for EMFI.
+
+%Sequential logic basic principle of operation is depicted in Fig. \ref{chap:5;fig:bbiSusc}, alongside a BBI timing susceptibility fault model.
+%This fault model was first introduced in \cite{emfiFF} for EMFI.
+%It states that to maximize fault creation with electromagnetic disturbances, the latter have to appear during a specific period of time in order to be successful.
 
 %
 %%This fault model has been proposed in \cite{emfiFF} for EMFI.

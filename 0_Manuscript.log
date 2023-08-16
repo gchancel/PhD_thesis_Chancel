@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  11 AUG 2023 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  16 AUG 2023 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2288,7 +2288,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 Overfull \hbox (1.08994pt too wide) in paragraph at lines 34--34
  [][] [][][]\T1/ppl/m/n/12 Voltage pulse gen-er-a-tor model and fur-ther val-i-
-da-tion []\T1/ppl/m/n/10 2023-08-11 16:04:01+02:00[][][] []  
+da-tion []\T1/ppl/m/n/10 2023-08-16 14:23:24+02:00[][][] []  
+ []
+
+
+Overfull \hbox (20.34148pt too wide) in paragraph at lines 53--53
+ [][] [][][]\T1/ppl/m/n/12 Sequential logic op-er-a-tion and sim-ple fault mode
+l []\T1/ppl/m/n/10 2023-08-16 14:23:24+02:00[][][] []  
  []
 
 )
@@ -2386,7 +2392,7 @@ Chapter 2.
 (0_Manuscript.mtc7
 Overfull \hbox (8.99042pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10.95 BBI prac-tices: a sim-ple ac-tual com-par-isons [
-]\T1/ppl/m/n/10 2023-08-11 16:04:01+02:00[][][] []  
+]\T1/ppl/m/n/10 2023-08-16 14:23:24+02:00[][][] []  
  []
 
 ) [5] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_intro.tex
@@ -2445,7 +2451,7 @@ d [].
 
 Overfull \hbox (21.23961pt too wide) in paragraph at lines 3--3
 []\T1/ppl/b/n/17.28 Body Bi-as-ing In-jec-tion en-hanced prac-tice []\T1/ppl/b/
-n/10 2023-08-11 16:04:11+02:00[] 
+n/10 2023-08-16 14:23:51+02:00[] 
  []
 
 
@@ -2551,13 +2557,13 @@ Chapter 3.
 (0_Manuscript.mtc8
 Overfull \hbox (22.87758pt too wide) in paragraph at lines 6--6
  [][] [][][]\T1/ppl/m/n/10.95 Voltage pulse gen-er-a-tor model and fur-ther val
--i-da-tion []\T1/ppl/m/n/10 2023-08-11 16:04:01+02:00[][][] []  
+-i-da-tion []\T1/ppl/m/n/10 2023-08-16 14:23:24+02:00[][][] []  
  []
 
 
 Overfull \hbox (6.6147pt too wide) in paragraph at lines 8--8
  [][] [][][]\T1/ppl/m/n/10.95 Further gen-er-a-tor mod-els and ver-i-fi-ca-tion
- []\T1/ppl/m/n/10 2023-08-11 16:04:01+02:00[][][] []  
+ []\T1/ppl/m/n/10 2023-08-16 14:23:24+02:00[][][] []  
  []
 
 ) [21] (3_modeling/3_1_abstract.tex) (3_modeling/3_2_introduction.tex [22])
@@ -2847,8 +2853,13 @@ Chapter 5.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52]
+Overfull \hbox (27.9759pt too wide) in paragraph at lines 26--26
+[]\T1/ppl/b/n/14.4 Sequential logic op-er-a-tion and sim-ple fault model []\T1/
+ppl/b/n/10 2023-08-16 14:23:51+02:00[] 
+ []
+
 (5_faultModel/figures/bbiFaultSusceptibility.tex
-<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=2115, 150.5625pt x 70.7643
+<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=2116, 150.5625pt x 70.7643
 7pt>
 File: 5_faultModel/figures/bbiFaultSusceptibility.pdf Graphic file (type pdf)
 <use 5_faultModel/figures/bbiFaultSusceptibility.pdf>
@@ -2912,15 +2923,15 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 044D89FF669ACE90EC7771814DDE6544;14491
-(rerunfilecheck)             After:  12E2522987512060287C4FB3A8740373;14491.
+(rerunfilecheck)             Before: 5478644C359306A33AB33102DC814C99;14618
+(rerunfilecheck)             After:  D6B027A976FAC124953E56D7696A34A5;14618.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
 (rerunfilecheck)             Checksum: D37F57498EF2C9E7EC4C5BB644500B41;1011.
  ) 
 Here is how much of TeX's memory you used:
  60717 strings out of 476411
  1378106 string characters out of 5788662
- 2002495 words of memory out of 5000000
+ 2002518 words of memory out of 5000000
  79434 multiletter control sequences out of 15000+600000
  595948 words of font info for 140 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2942,10 +2953,10 @@ rograms/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/geoff2/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/AppData
 /Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/geoff2/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (74 pages, 20132921 bytes).
+Output written on 0_Manuscript.pdf (74 pages, 20133123 bytes).
 PDF statistics:
- 2291 PDF objects out of 2487 (max. 8388607)
- 1274 compressed objects within 13 object streams
+ 2292 PDF objects out of 2487 (max. 8388607)
+ 1275 compressed objects within 13 object streams
  180 named destinations out of 1000 (max. 500000)
  656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
