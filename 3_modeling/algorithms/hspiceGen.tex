@@ -14,7 +14,7 @@
 {\textbf{method} \textsc{#1}}% typesetting of the start of a struct
 {\textbf{end method}}% typesetting the end of the struct
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \begin{Verbatim}[frame=single]
         .subckt elementary_bloc D F L R Re U
         R1 U N001 RH
@@ -29,7 +29,7 @@
     \label{fig:subSpiceNetlist}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \begin{Verbatim}[frame=single]
     .subckt elementary_blocx6 D1 D2 D3 D4 D5 D6
     +F1 F2 F3 F4 F5 F6 L R RE1 RE2 RE3 RE4 RE5 RE6
@@ -46,185 +46,65 @@
     \label{fig:subSpiceSCS}
 \end{figure}
 
-%\begin{figure}[!h]
-%    \begin{Verbatim}[frame=single]
-%    R1 vic vlt Rmup/4
-%    R2 vlt vi1c Rmup/4
-%    RM1 vddc vlt RM1/4
-%    Ra_TL1 vddc N001 Ra
-%    Cdecp_L1 N001 gndc Cdecp
-%    Cdecp_R1 vddc N002 Cdecp
-%    Ra_BR1 N002 gndc Ra
-%    RM2 gndc glb RM1/4
-%    R3 gic glb Rmup/4
-%    R4 glb gi1c Rmup/4
-%    RM3 grb gndc RM1/4
-%    RM4 vrt vddc RM1/4
-%    R5 gic1 grb Rmup/4
-%    R6 grb gi1c1 Rmup/4
-%    R7 vrt vi1c1 Rmup/4
-%    R8 vic1 vrt Rmup/4
-%    vepi_curr vepi vepi_meas dc=0
-%    Rn1 gndc ncgnmos RN
-%    Rp1 vddc ncgpmos RP
-%    cgp_n1 ncgnmos vgp cgp
-%    cgn_n1 ncgnmos vepi_meas cgn
-%    cgn_p1 ncgpmos vepi_meas cgn
-%    cgp_p1 ncgpmos vgp cgp
-%    RCVDD vddc vgp RcontactDW
-%    CNWPS vgp vepi_meas cnw
-%    RCGND gndc vepi_meas RcontactDW
-%    xDNWPS vepi_meas vgp dnwps AREA=31.43u PJ=70u
-%    \end{Verbatim}
-%    \caption{Dual-well standard-cell upper section netlist}
-%    \label{fig:SCSdualUp}
-%\end{figure}
-%
-%\begin{figure}[!h]
-%    \begin{Verbatim}[frame=single]
-%    R1 vic vlt Rmup/4
-%    R2 vlt vi1c Rmup/4
-%    RM1 vddc vlt RM1/4
-%    Ra_TL1 vddc N001 Ra
-%    Cdecp_L1 N001 gndc Cdecp
-%    Cdecp_R1 vddc N002 Cdecp
-%    Ra_BR1 N002 gndc Ra
-%    RM2 gndc glb RM1/4
-%    R3 gic glb Rmup/4
-%    R4 glb gi1c Rmup/4
-%    RM3 grb gndc RM1/4
-%    RM4 vrt vddc RM1/4
-%    R5 gic1 grb Rmup/4
-%    R6 grb gi1c1 Rmup/4
-%    R7 vrt vi1c1 Rmup/4
-%    R8 vic1 vrt Rmup/4
-%    vepi_curr vepi vepi_meas dc=0
-%    Rn1 gndc RNCN RN
-%    Rp1 vddc RPCP RP
-%    cgp_n1 VPsNw RNCN cgp
-%    cgn_n1 RNCN VNwPw cgn
-%    cgn_p1 RPCP VNwPw cgn
-%    cgp_p1 VPsNw RPCP cgp
-%    RNW1 VPsNw vddc RcontactTW
-%    cnw1 VPsNw vepi_meas cnw
-%    RPW1 gndc VNwPw RcontactTW
-%    xdpsnw1 vepi_meas VPsNw dnwps AREA=15.72u PJ=40u
-%    xdnwpw1 VNwPw VPsNw dnwps AREA=31.43u PJ=70u
-%    cnw2 VNwPw VPsNw cnw
-%    cnw3 VPsNw vepi_meas cnw
-%    xdpsnw2 vepi_meas VPsNw dnwps AREA=15.72u PJ=40u
-%    \end{Verbatim}
-%    \caption{Dual-well standard-cell upper section netlist}
-%    \label{fig:SCStripleUp}
-%\end{figure}
-
-%\begin{algorithm}[H]
-%    \caption[ic algo func]{Generation algorithm classes and function}
-%    \label{alg:genFuncClass}
-%    \begin{algorithmic}
-%        \Class{NetlistTextFile} \Comment{Object defining the netlist to be generated}
-%        \State \textbf{text}: String content of the class
-%        \State $write(value : String)$: Write characters into the parent class "\textbf{text}" attribute
-%        \EndClass\\
-%
-%        \Class{DualWellSCS} \Comment{Dual-well standard-cell netlist}
-%        \State \textbf{text}: String content of the class
-%        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
-%        \EndClass\\
-%
-%        \Class{TripleWellSCS} \Comment{Triple-well standard-cell netlist}
-%        \State \textbf{text}: String content of the class
-%        \State $read()$: Read characters into the parent class "\textbf{text}" attribute
-%        \EndClass\\
-%
-%        \Function{createNets}{X : float, Y : float, NET : String}
-%        \State \Comment{Create nets to connect SCS together}
-%        \State $NetArray \gets ???$
-%        \State \Return NetArray
-%        \EndFunction\\
-%
-%        \Function{writeInMainNetlist}{value : String}
-%        \State \Comment{Write generated results into main netlist}
-%        \State NetlistTextFile.write(value)
-%        \EndFunction\\
-%
-%        \Function{subRHcalc}{ESUB : int, RH : float, RL : float}
-%        \State \Comment{Calculate elementary substrate resistors}
-%        \State $RH \gets RH \times (ESUB \div 10)$
-%        \State $RL \gets RL \times (ESUB \div 10)$
-%        \State \Return RH, RL
-%        \EndFunction\\
-%
-%        \Function{SCSelemGen}{SUBTYPE} \Comment{Generate Standard Cell Segment Model}
-%        \If{$SUBTYPE = DualWell$}
-%        \State $SCSNetlistDW = DualWellSCS$
-%        \State $SCSNetlistTW = None$
-%        \ElsIf{$SUBTYPE = TripleWell$}
-%        \State $SCSNetlistDW = None$
-%        \State $SCSNetlistTW = TriplelWellSCS$
-%        \ElsIf{$SUBTYPE = Mixed$}
-%        \State $SCSNetlistDW = DualWellSCS$
-%        \State $SCSNetlistTW = TriplelWellSCS$
-%        \EndIf
-%        \State $SCSNetlistArray \gets {SCSNetlistDW, SCSNetlistTW}$
-%        \State \Return SCSNetlistArray
-%        \EndFunction\\
-%    \end{algorithmic}
-%\end{algorithm}
-
-\begin{algorithm}[H]
-\caption[ic algo]{Integrated circuit SPICE netlist generation algorithm.}
+\begin{algorithm}[ht]
+\caption{Integrated circuit SPICE netlist generation algorithm.}
 \label{alg:icGen}
-\begin{algorithmic}
-    \Require SUBTYPE \Comment{IC substrate type: Dual-well, Triple-well, Mixed}
-    \Require TSUB \Comment{IC substrate thickness}
-    \Require ESUB \Comment{Elementary substrate block thickness}
-    \Require VPUU \Comment{Voltage pulse amplitude}
-    \Require PW \Comment{Voltage pulse width}
-    \Require TFR \Comment{Voltage pulse rise and fall times}
-    \Require SIMTIME \Comment{Simulation duration}
-    \Require SIMSTEP \Comment{Simulation time step}
-    \Require TEX \Comment{Desired X size (µm)}
-    \Require TEY \Comment{Desired Y size (µm)}
-    \State $RH \gets 2000$ \Comment{Elementary substrate up-down/front-rear resistor value}
-    \State $RL \gets 500$ \Comment{Elementary substrate left-right resistor value}
-    \State $WSEG \gets 30$
-    \State $HSEG \gets 5$
-    \State $W6SEG \gets 30 \div 6$
-    \State $nC \gets TEX \div WSEG$ \Comment{Number of column}
-    \State $nL \gets TEY \div HSEG$ \Comment{Number of lines}
-    \State $nH \gets TSUB \div ESUB$ \Comment{Number of substrate layers}
-    \Ensure nC, nL and nH are integers
-%    \State $RH, RL \gets \Call{subRHcalc}{ESUB, RH, RL}$
-    \State $RH \gets RH \times (ESUB \div 10)$ \Comment{Adjust RH value according to user defined variable}
-    \State $RL \gets RL \times (ESUB \div 10)$ \Comment{Adjust RL value according to user defined variable}
-    \ForAll{cY in [0; nL[}
-        \ForAll{cX in [0; nH[}
-            \State $\overrightarrow{X} \gets
-            \left[\begin{array}{r}
-                        cX \times WSEG\\
-                        cX \times WSEG + 1 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 3 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 5 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 7 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 9 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 11 \times (W6SEG \div 2)\\
-                        cX \times WSEG + 12 \times (W6SEG \div 2)\\
-                \end{array}\right]$
-            $;\overrightarrow{Y} \gets
-            \left[\begin{array}{r}
-                        cY \times HSEG\\
-                        (cY + \frac{1}{2}) \times HSEG\\
-                        (cY + 1) \times HSEG\\
-                \end{array}\right]$
-            \State $;\overrightarrow{P} \gets
-            \left[\begin{array}{r}
-                cY \times HSEG\\
-                (cY + \frac{1}{2}) \times HSEG\\
-                (cY + 1) \times HSEG\\
-            \end{array}\right]$
+    \begin{algorithmic}
+        \Require SUBTYPE \Comment{IC substrate type: Dual-well, Triple-well, Mixed}
+        \Require TSUB \Comment{IC substrate thickness}
+        \Require ESUB \Comment{Elementary substrate block thickness}
+        \Require VPUU \Comment{Voltage pulse amplitude}
+        \Require PW \Comment{Voltage pulse width}
+        \Require TFR \Comment{Voltage pulse rise and fall times}
+        \Require SIMTIME \Comment{Simulation duration}
+        \Require SIMSTEP \Comment{Simulation time step}
+        \Require TEX \Comment{Desired X size (µm)}
+        \Require TEY \Comment{Desired Y size (µm)}
+        \Require prbX \Comment{BBI probe X coordinate}
+        \Require prbY \Comment{BBI probe Y coordinate}
+        \State $RH \gets 2000$ \Comment{Elementary substrate up-down/front-rear resistor value}
+        \State $RL \gets 500$ \Comment{Elementary substrate left-right resistor value}
+        \State $WSEG \gets 30$
+        \State $HSEG \gets 5$
+        \State $W6SEG \gets 30 \div 6$
+        \State $nC \gets TEX \div WSEG$ \Comment{Number of column}
+        \State $nL \gets TEY \div HSEG$ \Comment{Number of lines}
+        \State $nH \gets TSUB \div ESUB$ \Comment{Number of substrate layers}
+        \Ensure nC, nL and nH are integers
+        \State \textbf{var} SCS[nL, nH] \Comment{Array containing each standard-cell properties}
+    %    \State $RH, RL \gets \Call{subRHcalc}{ESUB, RH, RL}$
+        \State $RH \gets RH \times (ESUB \div 10)$ \Comment{Adjust RH value according to user defined variable}
+        \State $RL \gets RL \times (ESUB \div 10)$ \Comment{Adjust RL value according to user defined variable}
+        \ForAll{cY in \textlbrackdbl 0 ; nL\textlbrackdbl}
+            \ForAll{cX in \textlbrackdbl 0 ; nH\textlbrackdbl}
+                \State $\overrightarrow{X} \gets
+                \left[\begin{array}{r}
+                            cX \times WSEG\\
+                            cX \times WSEG + 1 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 3 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 5 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 7 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 9 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 11 \times (W6SEG \div 2)\\
+                            cX \times WSEG + 12 \times (W6SEG \div 2)\\
+                    \end{array}\right]$
+                $;\overrightarrow{Y} \gets
+                \left[\begin{array}{r}
+                            cY \times HSEG\\
+                            (cY + \frac{1}{2}) \times HSEG\\
+                            (cY + 1) \times HSEG\\
+                    \end{array}\right]$
+                \If{$\overrightarrow{Y}[0] = 0 \lor \overrightarrow{Y}[0] = TEY$} \Comment{Determines if SCS has external power}
+                    \State SCS[cY, cX].power = True
+                \Else
+                    \State SCS[cY, cX].power = False
+                \EndIf
+                \If{$\overrightarrow{X}[0] = prbX \land \overrightarrow{X}[2] = prbX \land \overrightarrow{Y}[0] \leqslant (prbY + 15) \land \overrightarrow{Y}[0] \geqslant (prbY - 15)$}
+                    \State SCS[cY, cX].probe = True
+                \Else
+                    \State SCS[cY, cX].probe = False
+                \EndIf
+            \EndFor
         \EndFor
-    \EndFor
-    \State \textcolor{orange}{TO FINISH.}
-\end{algorithmic}
+    \end{algorithmic}
 \end{algorithm}
