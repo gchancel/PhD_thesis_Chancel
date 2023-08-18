@@ -2,18 +2,48 @@
 
 \section{Introduction \ddc}
 \label{chap:1;sect:intro}
-In our time, almost every business sector and every part of our surroundings, directly or indirectly use integrated electronics circuits.
+In our time, almost every business sector and every part of our surroundings, directly or indirectly, use integrated electronics circuits.
 It ranges from smart-cards to supercomputers, through military devices, cell-phones, Cyber-Physical Systems (CPS) and Internet-of-Things (IoT) objects to name but a few.
 
 Traditionally, integrated circuits design mainly focused on performance upgrades over the generations.
 Performance was measured thanks to two factors: computation speed and silicon surface.
 Within this context, power consumption was not a design constraint, therefore, integrated circuits became more and more energy-consuming.
-However, with the advent of portable devices, power consumption became a predominant design factor over speed and space and got included into the former design flows.
-Nevertheless, physically, less space and more speed does not equate with less energy.
+However, with the advent of portable devices, power consumption became a predominant design factor over speed, and space and got included into the former design flows.
+Nevertheless, less space and more speed does not physically equate with less energy.
 Alongside, new systems have emerged and have massively grown these past decades: IoT and CPS.
-On one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another. On the other hand, IoT systems have often less coordination between hardware and software, but are commonly more flexible.
+On one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another.
+On the other hand, IoT systems have often less coordination between hardware and software, but are commonly more flexible.
 Whatsoever, both of these systems have something strong in common: their security is fundamental.
 Therefore, in this context, as it has been proposed in \cite{securityInIcs}, and because security had been adopted as a countermeasure after the design flow, it has to enter as a fourth design rule when creating integrated circuits.
-This is required because a secure system as to ensure every data going in and out of it stays undiminished and integral, as well as being protected.
-%In the past decades, all devices have been computing more and more things in our lives in order to facilitate and speed up common tasks.
-%What has mainly blown up is dematerialized payments, allowing everyone carrying out transactions everywhere at every moment, personal data
+This is required because a secure system has to ensure that every data going in and out of it are subject to the following criteria:
+\begin{itemize}
+    \item Authenticity: data received have to come from the sender
+    \item Integrity: data cannot be altered in any way
+    \item Confidentiality: data cannot be accessed (read or written) by third-parties
+\end{itemize}
+%every data going in and out of it must stays undiminished and integral, as well as being protected.
+Therefore, it is imperative to study and comprehend the strategies for enhancing IC security in order to develop future integrated circuits that are designed with security in mind from the initial stages of development to its completion.
+
+Currently, electronic devices implement security in two distinct ways, namely from a software or hardware standpoint.
+To accomplish this objective, encryption algorithms have been integrated.
+It is possible to distinguish two distinct categories of encryption algorithms, namely symmetric and asymmetric algorithms.
+
+In short, symmetric cryptographic techniques use a unique key for encrypting and decrypting messages.
+The most popular algorithms are the AES (Advanced Encryption Standard), DES (Data Encryption Standard), IDEA (International Data Encryption Algorithm), RC5 (Rivest Cipher 5), and TDES (Triple DES) not to cite them all.
+The key must be kept confidential and only shared among parties in order to maintain a confidential connection between them.
+The requirement for a single key is the main drawback of symmetric encryption methods.
+As a result, every possible step must be taken to safeguard key secrecy, such as avoiding key exchanges on public networks.
+However, symmetric encryption has a clear advantage over asymmetric encryption.
+As a result of utilizing a single key, symmetric algorithms are typically simpler than asymmetric algorithms, resulting in a reduction in computing power required for encryption.
+It is therefore possible to encrypt a large amount of data in a short amount of time.
+
+In contrast, when it comes to symmetric cryptographic techniques, commonly referred to as public key cryptography techniques, a pair of keys is employed.
+The keys are usually referred to as public-key and private-key.
+The public key is used to encrypt a message, and anyone can use it.
+The private-key is, however, kept confidential to ensure that only authorized parties can decrypt a message that has been encrypted with the public-key.
+The primary motivation behind having two keys is that it is impracticable to reconstruct the public-key from the private-key.
+The most commonly employed asymmetric algorithms include the RSA (Rivest–Shamir–Adleman) algorithm, the ElGamal encryption system, the ECC (Elliptic-curve cryptography), and the Cramer-Shoup system, to name a few.
+The main drawback of symmetrical algorithms is that they involve large mathematical calculations, which implies a higher time complexity.
+Hence, these techniques are capable of encrypting a limited quantity of data.
+
+To achieve this objective, in the majority of systems, a hybrid approach is employed to employ both encryption methods, thereby ensuring optimal security and a brief calculation time.

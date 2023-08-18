@@ -67,7 +67,18 @@
 \mtcaddchapter
 \input{glossary}
 
-\cleardoublepage
+%\cleardoublepage
+\bibliographystyle{unsrt}
+\phantomsection
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{Publications}
+\chapter*{Publications \ddc}
+\markboth{}{}
+%\chaptermark{General introduction}
+\mtcaddchapter
+\input{publis}
+
+%\cleardoublepage
 \phantomsection
 \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{General introduction}
