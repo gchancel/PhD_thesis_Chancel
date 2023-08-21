@@ -13,11 +13,29 @@ Prasanna Ravi, Zakaria Najm, Shivam Bhasin, Mustafa Khairallah, Sourav~Sen
 \newblock Security is an architectural design constraint.
 \newblock {\em Microprocessors and Microsystems}, 68:17--27, 2019.
 
+\bibitem{pKocherTiming}
+Paul~C. Kocher.
+\newblock Timing attacks on implementations of diffie-hellman, rsa, dss, and
+  other systems.
+\newblock In Neal Koblitz, editor, {\em Advances in Cryptology --- CRYPTO '96},
+  pages 104--113, Berlin, Heidelberg, 1996. Springer Berlin Heidelberg.
+
+\bibitem{RSAorigin}
+A.~Shamir R.L.~Rivest and L.Adleman.
+\newblock A method for obtaining digital signatures and public-key
+  cryptosystems.
+\newblock In {\em Communications of the ACM}, volume~21, pages 120--126, 1978.
+
+\bibitem{pKocherDpa}
+Paul Kocher, Joshua Jaffe, and Benjamin Jun.
+\newblock Differential power analysis.
+\newblock In Michael Wiener, editor, {\em Advances in Cryptology --- CRYPTO'
+  99}, pages 388--397, Berlin, Heidelberg, 1999. Springer Berlin Heidelberg.
+
 \bibitem{giraudDfa}
 Christophe Giraud.
 \newblock Dfa on aes.
 \newblock Cryptology ePrint Archive, Paper 2003/008, 2003.
-\newblock \url{https://eprint.iacr.org/2003/008}.
 
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.

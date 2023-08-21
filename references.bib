@@ -134,9 +134,9 @@
     author = {Christophe Giraud},
     title = {DFA on AES},
     howpublished = {Cryptology ePrint Archive, Paper 2003/008},
-    year = {2003},
-    note = {\url{https://eprint.iacr.org/2003/008}},
-    url = {https://eprint.iacr.org/2003/008}
+    year = {2003}
+%    note = {\url{https://eprint.iacr.org/2003/008}},
+%    url = {https://eprint.iacr.org/2003/008}
 }
 
 @article{securityInIcs,
@@ -151,4 +151,44 @@
     author = {Prasanna Ravi and Zakaria Najm and Shivam Bhasin and Mustafa Khairallah and Sourav Sen Gupta and Anupam Chattopadhyay},
     keywords = {Digital systems, Design constraints, Security-efficiency trade-off, Security-aware design},
     abstract = {In state-of-the-art design paradigm, time, space and power efficiency are considered the primary design constraints. Quite often, this approach adversely impacts the security of the overall system, especially when security is adopted as a countermeasure after some vulnerability is identified. In this position paper, we motivate the idea that security should also be considered as an architectural design constraint in addition to time, space and power. We show that security and efficiency objectives along the three design axes of time, space and power are in fact tightly coupled while identifying that security stands in direct contrast with them across all layers of architectural design. We attempt to prove our case utilizing a proof-by-evidence approach wherein we refer to various works across literature that explicitly imply the eternal conflict between security and efficiency. Thus, security has to be treated as a design constraint from the very beginning. Additionally, we advocate a security-aware design flow starting from the choice of cryptographic primitives, protocols and system design.}
+}
+
+@InProceedings{pKocherDpa,
+    author="Kocher, Paul
+    and Jaffe, Joshua
+    and Jun, Benjamin",
+    editor="Wiener, Michael",
+    title="Differential Power Analysis",
+    booktitle="Advances in Cryptology --- CRYPTO' 99",
+    year="1999",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="388--397",
+    doi="10.1007/3-540-48405-1_25",
+    abstract="Cryptosystem designers frequently assume that secrets will be manipulated in closed, reliable computing environments. Unfortunately, actual computers and microchips leak information about the operations they process. This paper examines specific methods for analyzing power consumption measurements to find secret keys from tamper resistant devices. We also discuss approaches for building cryptosystems that can operate securely in existing hardware that leaks information.",
+    isbn="978-3-540-48405-9"
+}
+
+@InProceedings{pKocherTiming,
+    author="Kocher, Paul C.",
+    editor="Koblitz, Neal",
+    title="Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems",
+    booktitle="Advances in Cryptology --- CRYPTO '96",
+    year="1996",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="104--113",
+    doi="10.1007/3-540-68697-5_9",
+    abstract="By carefully measuring the amount of time required to perform private key operations, attackers may be able to find fixed Diffie-Hellman exponents, factor RSA keys, and break other cryptosystems. Against a vulnerable system, the attack is computationally inexpensive and often requires only known ciphertext. Actual systems are potentially at risk, including cryptographic tokens, network-based cryptosystems, and other applications where attackers can make reasonably accurate timing measurements. Techniques for preventing the attack for RSA and Diffie-Hellman are presented. Some cryptosystems will need to be revised to protect against the attack, and new protocols and algorithms may need to incorporate measures to prevent timing attacks.",
+    isbn="978-3-540-68697-2"
+}
+
+@InProceedings{RSAorigin,
+    author={R.L. Rivest, A. Shamir and L.Adleman},
+    title={A Method for Obtaining Digital Signatures and Public-Key Cryptosystems},
+    year={1978},
+    booktitle={Communications of the ACM},
+    volume={21},
+    pages={120-126},
+    doi={10.1145/359340.359342}
 }

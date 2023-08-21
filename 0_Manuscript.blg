@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: 0A_Abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: 0B_Acknowledgments.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: 1_intro/1_main.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
@@ -17,48 +19,56 @@ Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: 5_faultModel/5_main.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: 6_conclusion/6_main.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: unsrt.bst
+Illegal, another \bibstyle command---line 63 of file 0_Manuscript.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You've used 13 entries,
+I was expecting a `,' or a `}'---line 275 of file references.bib
+ : 
+ : %    note = {\url{https://eprint.iacr.org/2003/008}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 16 entries,
             1791 wiz_defined-function locations,
-            548 strings with 6590 characters,
-and the built_in function-call counts, 3989 in all, are:
-= -- 343
-> -- 191
-< -- 7
-+ -- 68
-- -- 55
-* -- 267
-:= -- 595
-add.period$ -- 41
-call.type$ -- 13
-change.case$ -- 13
+            571 strings with 7073 characters,
+and the built_in function-call counts, 5124 in all, are:
+= -- 458
+> -- 222
+< -- 11
++ -- 79
+- -- 63
+* -- 331
+:= -- 744
+add.period$ -- 51
+call.type$ -- 16
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 184
-empty$ -- 380
-format.name$ -- 55
-if$ -- 936
+cite$ -- 16
+duplicate$ -- 247
+empty$ -- 492
+format.name$ -- 63
+if$ -- 1218
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 12
-newline$ -- 69
-num.names$ -- 15
-pop$ -- 49
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 83
+num.names$ -- 22
+pop$ -- 64
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 113
+skip$ -- 160
 stack$ -- 0
-substring$ -- 279
-swap$ -- 71
-text.length$ -- 7
+substring$ -- 371
+swap$ -- 103
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 36
-width$ -- 15
-write$ -- 148
+while$ -- 49
+width$ -- 18
+write$ -- 184
+(There were 2 error messages)

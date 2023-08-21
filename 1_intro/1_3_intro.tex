@@ -2,6 +2,7 @@
 
 \section{Introduction \ddc}
 \label{chap:1;sect:intro}
+%BEGIN LanguageTool
 In our time, almost every business sector and every part of our surroundings, directly or indirectly, use integrated electronics circuits.
 It ranges from smart-cards to supercomputers, through military devices, cell-phones, Cyber-Physical Systems (CPS) and Internet-of-Things (IoT) objects to name but a few.
 
@@ -45,5 +46,67 @@ The primary motivation behind having two keys is that it is impracticable to rec
 The most commonly employed asymmetric algorithms include the RSA (Rivest–Shamir–Adleman) algorithm, the ElGamal encryption system, the ECC (Elliptic-curve cryptography), and the Cramer-Shoup system, to name a few.
 The main drawback of symmetrical algorithms is that they involve large mathematical calculations, which implies a higher time complexity.
 Hence, these techniques are capable of encrypting a limited quantity of data.
+Therefore, to achieve this objective, in the majority of systems, a hybrid approach is employed to employ both encryption methods, thereby ensuring optimal security and a brief calculation time.
 
-To achieve this objective, in the majority of systems, a hybrid approach is employed to employ both encryption methods, thereby ensuring optimal security and a brief calculation time.
+On the one hand, if all the previously mentioned algorithms are mathematically reliable, their reliability will decrease when they are implemented on actual integrated circuits.
+Indeed, every integrated circuit uses electrical energy to function.
+Therefore, when an electric current appears in a conductor, there is inevitably an electromagnetic field associated with this current.
+Moreover, every measurable physical quantity concerning the IC could be a point of information leakage.
+This is particularly true when considering the fact that these quantities will exhibit varying variations based on the calculations performed by the IC.
+When evaluating these quantities, it is possible to retrieve confidential information.
+We described what is called a \textbf{"side-channel attack" (SCA)} when considering cybersecurity.
+
+On the other hand, physical quantity measurement is not the only flaw in actual algorithm implementations.
+In fact, every physical IC has specifications under which it can execute its functions properly.
+It includes temperature, clock frequency, power supply voltage, and the electromagnetic environment.
+When pushed beyond its specifications, any integrated circuit will exhibit unpredictable behavior.
+However, it is still possible to control an IC's behavior outside its specifications with a certain degree of success.
+By doing so, it allows running the IC calculation incorrectly by finely controlling how much time and by which amount the IC is outside its specifications, thus enabling, with specific mathematical algorithms, to retrieve hidden data manipulated by the IC.
+This process is commonly referred to as a \textbf{"fault injection attack"}.
+
+We have identified two potential attacks on robust algorithms that have been implemented into actual integrated circuits.
+However, it is customary to categorize cyberattacks into three distinct categories based on their execution methods.
+
+Despite being technically advanced, noninvasive attacks are the most materially trivial.
+SCAs are included in this set, which do not require any hardware modification to the targeted ICs, even if there is no physical contact.
+It is a delicate task to detect them; hence, they are deemed to be highly dangerous and are commonly considered in the initial stages of designing integrated circuits.
+
+It is then possible to distinguish semi-invasive attacks.
+Systematically, they are accompanied by device physical preparation, which is entirely devoid of noninvasive attacks, but they are not accompanied by device physical modification.
+ICs integrity is therefore theoretically preserved.
+A typical IC modification involves the removal of the chip package.
+It enables access to either the front or back side of the integrated circuit, thereby facilitating micro-probing, laser injection, or substrate pulse injection.
+Furthermore, substrate thinning is also commonly considered and used, as it facilitates the fine-tuning of certain fault injection techniques, such as laser fault injection (LFI).
+These attacks necessitate specialized hardware, tools, and expertise and are frequently challenging to establish and execute.
+%END LanguageTool
+
+Eventually, there are invasive attacks.
+They imply further physical modifications to integrated circuits.
+For instance, it is common to eliminate the layers of a chip, thereby enabling the photographing of the various layers and the reverse engineering of the target.
+A focused ion beam (FIB) can also be used to change the IC target internally by making electric connections that did not exist before.
+Contrary to semi-invasive attacks, invasive attacks frequently involve the definitive destruction of the target, primarily due to the absence of physical integrity during the process.
+%END LanguageTool
+
+This doctoral thesis is dedicated to the study of a specific fault injection method: Body Biasing Injection (BBI).
+Within this context, we are going to study in this chapter the state-of-the-art concerning side-channel attacks as well as fault injection techniques described in the literature.
+This will allow us to explain the interests of the current work concerning hardware security.
+
+In the first place, we will briefly present side-channel attacks.
+Then, we are going to take a closer look at various fault injection platforms commonly described.
+Eventually, we will ponder the interests of BBI in this context.
+
+\section{Side-channel attacks \ddc}
+\label{chap:1;sect:sca}
+The most fundamental side-channel attack has been first introduced in 1996 \cite{pKocherTiming}.
+This attack consists in measuring the time duration required to perform cryptographic computations.
+By doing so, attackers were able to retrieve several algorithms keys, such as RSA.
+The calculation cost of this attack is light and allowed to perform fast attacks.
+Indeed, in RSA, as presented in \cite{RSAorigin}, encrypting a message consists in calculating the following relationship:
+\begin{equation}
+    C \equiv E(M) \equiv M^e (\bmod \; n)
+\end{equation}
+M being the message to be encrypted, C the ciphertext, and (e, n) the encryption key.
+
+Then, more elaborated side-channel attacks have been described in 1999 \cite{pKocherDpa}.
+This paper introduces simple power analysis (SPA) and differential power analysis (DPA).
+SPA consists in measuring and interpreting power consumption traces of a cryptographic IC.
