@@ -78,7 +78,6 @@ A typical IC modification involves the removal of the chip package.
 It enables access to either the front or back side of the integrated circuit, thereby facilitating micro-probing, laser injection, or substrate pulse injection.
 Furthermore, substrate thinning is also commonly considered and used, as it facilitates the fine-tuning of certain fault injection techniques, such as laser fault injection (LFI).
 These attacks necessitate specialized hardware, tools, and expertise and are frequently challenging to establish and execute.
-%END LanguageTool
 
 Eventually, there are invasive attacks.
 They imply further physical modifications to integrated circuits.
@@ -94,19 +93,3 @@ This will allow us to explain the interests of the current work concerning hardw
 In the first place, we will briefly present side-channel attacks.
 Then, we are going to take a closer look at various fault injection platforms commonly described.
 Eventually, we will ponder the interests of BBI in this context.
-
-\section{Side-channel attacks \ddc}
-\label{chap:1;sect:sca}
-The most fundamental side-channel attack has been first introduced in 1996 \cite{pKocherTiming}.
-This attack consists in measuring the time duration required to perform cryptographic computations.
-By doing so, attackers were able to retrieve several algorithms keys, such as RSA.
-The calculation cost of this attack is light and allowed to perform fast attacks.
-Indeed, in RSA, as presented in \cite{RSAorigin}, encrypting a message consists in calculating the following relationship:
-\begin{equation}
-    C \equiv E(M) \equiv M^e (\bmod \; n)
-\end{equation}
-M being the message to be encrypted, C the ciphertext, and (e, n) the encryption key.
-
-Then, more elaborated side-channel attacks have been described in 1999 \cite{pKocherDpa}.
-This paper introduces simple power analysis (SPA) and differential power analysis (DPA).
-SPA consists in measuring and interpreting power consumption traces of a cryptographic IC.

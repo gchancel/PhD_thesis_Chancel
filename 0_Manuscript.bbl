@@ -26,11 +26,37 @@ A.~Shamir R.L.~Rivest and L.Adleman.
   cryptosystems.
 \newblock In {\em Communications of the ACM}, volume~21, pages 120--126, 1978.
 
+\bibitem{timingCounterMeas}
+Boris Köpf and Markus Dürmuth.
+\newblock A provably secure and efficient countermeasure against timing
+  attacks.
+\newblock In {\em 2009 22nd IEEE Computer Security Foundations Symposium},
+  pages 324--335, 2009.
+
 \bibitem{pKocherDpa}
 Paul Kocher, Joshua Jaffe, and Benjamin Jun.
 \newblock Differential power analysis.
 \newblock In Michael Wiener, editor, {\em Advances in Cryptology --- CRYPTO'
   99}, pages 388--397, Berlin, Heidelberg, 1999. Springer Berlin Heidelberg.
+
+\bibitem{cpaOrig}
+Eric Brier, Christophe Clavier, and Francis Olivier.
+\newblock Correlation power analysis with a leakage model.
+\newblock In Marc Joye and Jean-Jacques Quisquater, editors, {\em Cryptographic
+  Hardware and Embedded Systems - CHES 2004}, pages 16--29, Berlin, Heidelberg,
+  2004. Springer Berlin Heidelberg.
+
+\bibitem{emfiOrig}
+Vincent Carlier, Hervé Chabanne, Emmanuelle Dottax, and Hervé Pelletier.
+\newblock Electromagnetic side channels of an fpga implementation of aes.
+\newblock Cryptology ePrint Archive, Paper 2004/145, 2004.
+\newblock \url{https://eprint.iacr.org/2004/145}.
+
+\bibitem{julienFdtc2021}
+J.~Toulemont, G.~Chancel, J.~M. Galliere, F.~Mailly, P.~Nouet, and P.~Maurine.
+\newblock On the scaling of emfi probes.
+\newblock In {\em 2021 Workshop on Fault Detection and Tolerance in
+  Cryptography (FDTC)}, pages 67--73, 2021.
 
 \bibitem{giraudDfa}
 Christophe Giraud.

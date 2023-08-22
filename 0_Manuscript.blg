@@ -30,45 +30,45 @@ I was expecting a `,' or a `}'---line 275 of file references.bib
  : %    note = {\url{https://eprint.iacr.org/2003/008}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 16 entries,
+You've used 20 entries,
             1791 wiz_defined-function locations,
-            571 strings with 7073 characters,
-and the built_in function-call counts, 5124 in all, are:
-= -- 458
-> -- 222
-< -- 11
-+ -- 79
-- -- 63
-* -- 331
-:= -- 744
-add.period$ -- 51
-call.type$ -- 16
-change.case$ -- 16
+            598 strings with 7955 characters,
+and the built_in function-call counts, 6404 in all, are:
+= -- 571
+> -- 283
+< -- 14
++ -- 100
+- -- 80
+* -- 403
+:= -- 925
+add.period$ -- 65
+call.type$ -- 20
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 247
-empty$ -- 492
-format.name$ -- 63
-if$ -- 1218
+cite$ -- 20
+duplicate$ -- 311
+empty$ -- 617
+format.name$ -- 80
+if$ -- 1530
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 15
-newline$ -- 83
-num.names$ -- 22
-pop$ -- 64
+int.to.str$ -- 20
+missing$ -- 18
+newline$ -- 104
+num.names$ -- 28
+pop$ -- 87
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 160
+skip$ -- 204
 stack$ -- 0
-substring$ -- 371
-swap$ -- 103
-text.length$ -- 11
+substring$ -- 443
+swap$ -- 132
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 49
-width$ -- 18
-write$ -- 184
+while$ -- 61
+width$ -- 22
+write$ -- 231
 (There were 2 error messages)
