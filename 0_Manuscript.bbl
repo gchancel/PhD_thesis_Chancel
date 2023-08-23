@@ -52,16 +52,53 @@ Vincent Carlier, Hervé Chabanne, Emmanuelle Dottax, and Hervé Pelletier.
 \newblock Cryptology ePrint Archive, Paper 2004/145, 2004.
 \newblock \url{https://eprint.iacr.org/2004/145}.
 
-\bibitem{julienFdtc2021}
-J.~Toulemont, G.~Chancel, J.~M. Galliere, F.~Mailly, P.~Nouet, and P.~Maurine.
-\newblock On the scaling of emfi probes.
-\newblock In {\em 2021 Workshop on Fault Detection and Tolerance in
-  Cryptography (FDTC)}, pages 67--73, 2021.
+\bibitem{ordasEmfi50um}
+Thomas Ordas, Mathieu Lisart, Etienne Sicard, Philippe Maurine, and Lionel
+  Torres.
+\newblock Near-field mapping system to scan in time domain the magnetic
+  emissions of integrated circuits.
+\newblock In Lars Svensson and Jos{\'e} Monteiro, editors, {\em Integrated
+  Circuit and System Design. Power and Timing Modeling, Optimization and
+  Simulation}, pages 229--236, Berlin, Heidelberg, 2009. Springer Berlin
+  Heidelberg.
+
+\bibitem{cozziEmfiTelephone}
+Aur\'{e}lien Vasselle, Philippe Maurine, and Maxime Cozzi.
+\newblock Breaking mobile firmware encryption through near-field side-channel
+  analysis.
+\newblock In {\em Proceedings of the 3rd ACM Workshop on Attacks and Solutions
+  in Hardware Security Workshop}, ASHES'19, page 23–32, New York, NY, USA,
+  2019. Association for Computing Machinery.
+
+\bibitem{Biham1997DifferentialFA}
+Eli Biham and Adi Shamir.
+\newblock Differential fault analysis of secret key cryptosystems.
+\newblock In {\em Annual International Cryptology Conference}, 1997.
+
+\bibitem{firstDfaMaybe}
+Dan Boneh, Richard~A. DeMillo, and Richard~J. Lipton.
+\newblock On the importance of checking cryptographic protocols for faults.
+\newblock In Walter Fumy, editor, {\em Advances in Cryptology --- EUROCRYPT
+  '97}, pages 37--51, Berlin, Heidelberg, 1997. Springer Berlin Heidelberg.
+
+\bibitem{ciet_elliptic_2005}
+Mathieu Ciet and Marc Joye.
+\newblock Elliptic curve cryptosystems in the presence of permanent and
+  transient faults.
+\newblock {\em Designs, Codes and Cryptography}, 36(1):33--43, July 2005.
+
+\bibitem{dfaEcc}
+Ingrid Biehl, Bernd Meyer, and Volker M{\"u}ller.
+\newblock Differential fault attacks on elliptic curve cryptosystems.
+\newblock In Mihir Bellare, editor, {\em Advances in Cryptology --- CRYPTO
+  2000}, pages 131--146, Berlin, Heidelberg, 2000. Springer Berlin Heidelberg.
 
 \bibitem{giraudDfa}
 Christophe Giraud.
 \newblock Dfa on aes.
-\newblock Cryptology ePrint Archive, Paper 2003/008, 2003.
+\newblock In Hans Dobbertin, Vincent Rijmen, and Aleksandra Sowa, editors, {\em
+  Advanced Encryption Standard -- AES}, pages 27--41, Berlin, Heidelberg, 2005.
+  Springer Berlin Heidelberg.
 
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.

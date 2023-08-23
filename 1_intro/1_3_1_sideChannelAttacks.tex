@@ -56,5 +56,8 @@ On the contrary, electromagnetic analysis attacks have multiple advantages over 
     \item Require only little equipment: probe and voltage amplifier
 \end{itemize}
 As we stated previously, power consumption analysis attacks target an entire IC, whereas electromagnetic analysis attacks allow having fine resolutions.
-Indeed, the attack resolution is tied to the probe size, and it has been demonstrated \cite{julienFdtc2021}.
-In addition to that,
+%Indeed, the attack resolution is tied to the probe size, as it has been demonstrated \cite{julienFdtc2021}.
+Indeed, very small probe with a size down to 50 µm have been proposed \cite{ordasEmfi50um}.
+Such small probes allow focusing the measurement on the cryptographic area of the IC, while excluding from the measurement, with a certain amount, any undesirable electromagnetic emission which could potentially harm the attack efficiency.
+In addition to that, electromagnetic probes, depending on their design, can have very high cutoff frequency.
+Therefore, it allows analyzing ICs running at high frequencies, enabling attacks on recent devices such as smartphones \cite{cozziEmfiTelephone}.

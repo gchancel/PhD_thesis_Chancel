@@ -1,6 +1,28 @@
 \section{Fault-injection attacks \ddc}
 \label{chap:1;sect:fattack}
-Now that we have seen the basics of side-channel attacks, we are going to study fault injection techniques commonly described in the literature.
-Eventually, we are going to analyze how body biasing fault injection fits into this field.
+%Now that we have seen the basics of side-channel attacks, we are going to study fault injection techniques commonly described in the literature.
+Fault injections are widely described in the literature and can be utilized for a variety of purposes.
+For instance, during integrated circuits testing, it is common to find fault injection susceptibility tests, allowing for engineers to test fault detection circuits, recovery capabilities and reconfiguration possibilities of ICs.
+In this work, we are going to take a closer look at hardware fault injections (HFI) techniques solely, which fall in two distinct categories, similar to side-channel attacks:
+\begin{itemize}
+    \item HFI with physical contact
+    \item Contactless HFI
+\end{itemize}
+For each kind of HFI, multiple outcomes are aimed.
+On the one hand, the HFI can produce, in the targeted IC, branching errors leading secret codes to be revealed or protected rights to be acquired by an attacker.
+On the other hand, HFI can produce incorrect behaviors, allowing to retrieve hidden and protected data thanks to mathematical tools.
+In that case, HFI targets are mostly cryptographic algorithms, and can be segmented in non-comprehensive set of categories.
+
+One of the oldest HFI are called differential fault attacks (DFA).
+The principle of DFA lies in inducing computation errors during the decryption process of cryptographic algorithm thanks to fault injection.
+Several DFAs were proposed on different algorithms \cite{Biham1997DifferentialFA, firstDfaMaybe, ciet_elliptic_2005, dfaEcc, giraudDfa}.
+
+%The simplest HFI consist in analyzing ICs susceptibility or sensitivity to fault injection \cite{yangLiFaultSensitivity}.
+%It has the great advantage to allow using the IC as a block box, without knowing the insights on the cryptographic algorithm parameters such as the faulted ciphertext or else the nature of the faults.
+
+%Fault injection attacks can be utilized for a variety of purposes.
+%In the first place, we are going to present laser fault injection, as they are very effective, despite being costly.
+%After that,
+%Eventually, we are going to analyze how body biasing fault injection fits into this field.
 
 %\subsection{}

@@ -25,50 +25,50 @@ Illegal, another \bibstyle command---line 63 of file 0_Manuscript.aux
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 275 of file references.bib
+You're missing a field part---line 505 of file references.bib
  : 
- : %    note = {\url{https://eprint.iacr.org/2003/008}},
+ : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 20 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            598 strings with 7955 characters,
-and the built_in function-call counts, 6404 in all, are:
-= -- 571
-> -- 283
-< -- 14
-+ -- 100
-- -- 80
-* -- 403
-:= -- 925
-add.period$ -- 65
-call.type$ -- 20
-change.case$ -- 20
+            637 strings with 9195 characters,
+and the built_in function-call counts, 8285 in all, are:
+= -- 766
+> -- 356
+< -- 18
++ -- 124
+- -- 99
+* -- 521
+:= -- 1192
+add.period$ -- 85
+call.type$ -- 25
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 311
-empty$ -- 617
-format.name$ -- 80
-if$ -- 1530
+cite$ -- 25
+duplicate$ -- 415
+empty$ -- 784
+format.name$ -- 99
+if$ -- 1984
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 18
-newline$ -- 104
-num.names$ -- 28
-pop$ -- 87
+int.to.str$ -- 25
+missing$ -- 24
+newline$ -- 129
+num.names$ -- 41
+pop$ -- 107
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 204
+skip$ -- 270
 stack$ -- 0
-substring$ -- 443
-swap$ -- 132
-text.length$ -- 14
+substring$ -- 568
+swap$ -- 177
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 61
-width$ -- 22
-write$ -- 231
+while$ -- 83
+width$ -- 27
+write$ -- 297
 (There were 2 error messages)

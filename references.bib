@@ -130,14 +130,23 @@
     DOI = {10.5194/ars-6-265-2008}
 }
 
-@misc{giraudDfa,
-    author = {Christophe Giraud},
-    title = {DFA on AES},
-    howpublished = {Cryptology ePrint Archive, Paper 2003/008},
-    year = {2003}
-%    note = {\url{https://eprint.iacr.org/2003/008}},
-%    url = {https://eprint.iacr.org/2003/008}
+@InProceedings{giraudDfa,
+    author="Giraud, Christophe",
+    editor="Dobbertin, Hans
+    and Rijmen, Vincent
+    and Sowa, Aleksandra",
+    title="DFA on AES",
+    booktitle="Advanced Encryption Standard -- AES",
+    year="2005",
+    doi="10.1007/11506447_4",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="27--41",
+    abstract="In this paper we describe two different DFA attacks on the AES. The first one uses a fault model that induces a fault on only one bit of an intermediate result, hence allowing us to obtain the key by using 50 faulty ciphertexts for an AES-128. The second attack uses a more realistic fault model: we assume that we may induce a fault on a whole byte. For an AES-128, this second attack provides the key by using less than 250 faulty ciphertexts.",
+    isbn="978-3-540-31840-8"
 }
+
+
 
 @article{securityInIcs,
     title = {Security is an architectural design constraint},
@@ -240,4 +249,121 @@
     volume={},
     number={},
     pages={67-73},
-    doi={10.1109/FDTC53659.2021.00019}}
+    doi={10.1109/FDTC53659.2021.00019}#
+}
+
+@InProceedings{ordasEmfi50um,
+    author="Ordas, Thomas
+    and Lisart, Mathieu
+    and Sicard, Etienne
+    and Maurine, Philippe
+    and Torres, Lionel",
+    editor="Svensson, Lars
+    and Monteiro, Jos{\'e}",
+    title="Near-Field Mapping System to Scan in Time Domain the Magnetic Emissions of Integrated Circuits",
+    booktitle="Integrated Circuit and System Design. Power and Timing Modeling, Optimization and Simulation",
+    year="2009",
+    doi="10.1007/978-3-540-95948-9_23",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="229--236",
+    abstract="This paper introduces a low cost near-field mapping system. This system scans automatically and dynamically, in the time domain, the magnetic field emitted by integrated circuits during the execution of a repetitive set of instructions. Application of this measurement system is given to an industrial chip designed with a 180nm CMOS process. This application demonstrates the efficiency of the system but also the helpfulness of the results obtained to identify paths followed by the current, enabling to locate the potential IR drop zones.",
+    isbn="978-3-540-95948-9"
+}
+
+@inproceedings{cozziEmfiTelephone,
+    author = {Vasselle, Aur\'{e}lien and Maurine, Philippe and Cozzi, Maxime},
+    title = {Breaking Mobile Firmware Encryption through Near-Field Side-Channel Analysis},
+    year = {2019},
+    doi={10.1145/3338508.3359571},
+    isbn = {9781450368391},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3338508.3359571},
+    doi = {10.1145/3338508.3359571},
+    abstract = {Physical attacks constitute a significant threat for any cryptosystem. Among them, Side-Channel Analysis (SCA) is a common practice to stress the security of embedded devices like smartcards or secure controllers. Nowadays, it has become more than relevant on mobile and connected devices requiring a high security level. Yet, their applicability to smartphones is not obvious, as the architecture of modern System-on-Chips (SoC) is becoming ever more complex.This paper describes how a secret AES key was retrieved from the hardware cryptoprocessor of a smartphone. It is part of an attack scenario targeting the bootloader decryption. The focus is on practical realization and the challenges it brings. In particular, catching meaningful signals emitted by the cryptoprocessor embedded in the main System-on-Chip can be troublesome. Indeed, the Package-on-Package technology makes access to the die problematic and prevents straightforward near-field electromagnetic measurements. The described scenario can apply to any device whose chain-of-trust relies on firmware encryption, such as many smartphones or Internet-of-Things nodes.},
+    booktitle = {Proceedings of the 3rd ACM Workshop on Attacks and Solutions in Hardware Security Workshop},
+    pages = {23–32},
+    numpages = {10},
+    keywords = {aes-cbc, cryptography, side-channel attack, hardware security, secure boot, firmware, smartphone, mobile phone},
+    location = {London, United Kingdom},
+    series = {ASHES'19}
+}
+
+@InProceedings{yangLiFaultSensitivity,
+    author="Li, Yang
+    and Sakiyama, Kazuo
+    and Gomisawa, Shigeto
+    and Fukunaga, Toshinori
+    and Takahashi, Junko
+    and Ohta, Kazuo",
+    editor="Mangard, Stefan
+    and Standaert, Fran{\c{c}}ois-Xavier",
+    title="Fault Sensitivity Analysis",
+    booktitle="Cryptographic Hardware and Embedded Systems, CHES 2010",
+    year="2010",
+    doi="10.1007/978-3-642-15031-9_22",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="320--334",
+    abstract="This paper proposes a new fault-based attack called the Fault Sensitivity Analysis (FSA) attack, which unlike most existing fault-based analyses including Differential Fault Analysis (DFA) does not use values of faulty ciphertexts. Fault sensitivity means the critical condition when a faulty output begins to exhibit some detectable characteristics, e.g., the clock frequency when fault operation begins to occur. We explain that the fault sensitivity exhibits sensitive-data dependency and can be used to retrieve the secret key. This paper presents two practical FSA attacks against two AES hardware implementations on SASEBO-R, PPRM1-AES and WDDL-AES. Different from previous work, we show that WDDL-AES is not perfectly secure against setup-time violation attacks.",
+    isbn="978-3-642-15031-9"
+}
+
+@InProceedings{dfaEcc,
+    author="Biehl, Ingrid
+    and Meyer, Bernd
+    and M{\"u}ller, Volker",
+    editor="Bellare, Mihir",
+    title="Differential Fault Attacks on Elliptic Curve Cryptosystems",
+    booktitle="Advances in Cryptology --- CRYPTO 2000",
+    year="2000",
+    doi="10.1007/3-540-44598-6_8",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="131--146",
+    abstract="In this paper we extend the ideas for differential fault attacks on the RSA cryptosystem (see [4]) to schemes using elliptic curves. We present three different types of attacks that can be used to derive information about the secret key if bit errors can be inserted into the elliptic curve computations in a tamper-proof device. The effectiveness of the attacks was proven in a software simulation of the described ideas.",
+    isbn="978-3-540-44598-2"
+}
+
+@inproceedings{Biham1997DifferentialFA,
+    title={Differential Fault Analysis of Secret Key Cryptosystems},
+    author={Eli Biham and Adi Shamir},
+    booktitle={Annual International Cryptology Conference},
+    year={1997},
+    url={https://api.semanticscholar.org/CorpusID:12376527}
+}
+
+@InProceedings{firstDfaMaybe,
+    author="Boneh, Dan
+    and DeMillo, Richard A.
+    and Lipton, Richard J.",
+    editor="Fumy, Walter",
+    title="On the Importance of Checking Cryptographic Protocols for Faults",
+    booktitle="Advances in Cryptology --- EUROCRYPT '97",
+    year="1997",
+    doi="10.1007/3-540-69053-0_4",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="37--51",
+    abstract="We present a theoretical model for breaking various cryptographic schemes by taking advantage of random hardware faults. We show how to attack certain implementations of RSA and Rabin signatures. We also show how various authentication protocols, such as Fiat-Shamir and Schnorr, can be broken using hardware faults.",
+    isbn="978-3-540-69053-5"
+}
+
+
+@article{ciet_elliptic_2005,
+    title = {Elliptic Curve Cryptosystems in the Presence of Permanent and Transient Faults},
+    volume = {36},
+    issn = {0925-1022, 1573-7586},
+    url = {http://link.springer.com/10.1007/s10623-003-1160-8},
+    doi = {10.1007/s10623-003-1160-8},
+    language = {en},
+    number = {1},
+    urldate = {2023-08-23},
+    journal = {Designs, Codes and Cryptography},
+    author = {Ciet, Mathieu and Joye, Marc},
+    month = jul,
+    year = {2005},
+    pages = {33--43},
+}
+
