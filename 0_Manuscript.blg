@@ -30,45 +30,45 @@ You're missing a field part---line 505 of file references.bib
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 25 entries,
+You've used 26 entries,
             1791 wiz_defined-function locations,
-            637 strings with 9195 characters,
-and the built_in function-call counts, 8285 in all, are:
-= -- 766
-> -- 356
-< -- 18
-+ -- 124
-- -- 99
-* -- 521
-:= -- 1192
-add.period$ -- 85
-call.type$ -- 25
-change.case$ -- 25
+            645 strings with 9494 characters,
+and the built_in function-call counts, 8750 in all, are:
+= -- 809
+> -- 384
+< -- 19
++ -- 133
+- -- 107
+* -- 554
+:= -- 1261
+add.period$ -- 89
+call.type$ -- 26
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 415
-empty$ -- 784
-format.name$ -- 99
-if$ -- 1984
+cite$ -- 26
+duplicate$ -- 436
+empty$ -- 821
+format.name$ -- 107
+if$ -- 2093
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 24
-newline$ -- 129
-num.names$ -- 41
-pop$ -- 107
+int.to.str$ -- 26
+missing$ -- 25
+newline$ -- 134
+num.names$ -- 44
+pop$ -- 112
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 270
+skip$ -- 285
 stack$ -- 0
-substring$ -- 568
-swap$ -- 177
-text.length$ -- 18
+substring$ -- 600
+swap$ -- 187
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 83
-width$ -- 27
-write$ -- 297
+while$ -- 88
+width$ -- 28
+write$ -- 310
 (There were 2 error messages)

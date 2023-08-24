@@ -100,6 +100,14 @@ Christophe Giraud.
   Advanced Encryption Standard -- AES}, pages 27--41, Berlin, Heidelberg, 2005.
   Springer Berlin Heidelberg.
 
+\bibitem{yangLiFaultSensitivity}
+Yang Li, Kazuo Sakiyama, Shigeto Gomisawa, Toshinori Fukunaga, Junko Takahashi,
+  and Kazuo Ohta.
+\newblock Fault sensitivity analysis.
+\newblock In Stefan Mangard and Fran{\c{c}}ois-Xavier Standaert, editors, {\em
+  Cryptographic Hardware and Embedded Systems, CHES 2010}, pages 320--334,
+  Berlin, Heidelberg, 2010. Springer Berlin Heidelberg.
+
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
 \newblock Body biasing injection: Impact of substrate types on the induced

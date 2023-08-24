@@ -2,11 +2,12 @@
 \label{chap:1;sect:sca}
 \subsection{Timing attacks \ddc}
 \label{chap:1;sect:sca;subsect:timingAttacks}
-The most fundamental side-channel attack has been first introduced in 1996 \cite{pKocherTiming}.
-This attack consists in measuring the time duration required to perform cryptographic computations.
-By doing so, attackers were able to retrieve several algorithms keys, such as RSA.
-The calculation cost of this attack is light and allowed to perform fast attacks.
-Indeed, in RSA, as presented in \cite{RSAorigin}, encrypting a message consists in calculating the following relationship:
+The most fundamental side-channel attack was initially introduced in 1996 \cite{pKocherTiming}.
+This attack involves determining the duration required to execute cryptographic computations.
+By executing this method, the adversaries were able to obtain a variety of algorithmic keys, specifically for the RSA algorithm.
+The computation cost of this attack is low, thereby enabling it to execute swift attacks.
+Indeed, according to the RSA algorithm, as presented in \cite{RSAorigin}, encrypting a message involves calculating the following relationship:
+%END LanguageTool
 \begin{equation}
     \label{eqn:rsa}
     C \equiv E(M) \equiv M^e (\bmod \; n)
