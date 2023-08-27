@@ -25,7 +25,9 @@ As every HFI, it is still required to have physical access to the device.
 FSA usefulness comes from the fact that alongside fault characteristics, other information can be used by attackers, in that case: the IC sensitivity to faults.
 As defined in \cite{yangLiFaultSensitivity}, fault sensitivity is a condition where the faulty output begins to show specific characteristics.
 Specifically, this work defines a critical condition, similar to the PLL capture ranges (lock-in, hold-in, pull-in, etc.), where the IC starts to exhibit a faulty behavior or when it stops this behavior.
-Then, to perform an attack with this information, the attacker has to know the relationship between the fault sensitivity and the computed data.
+Then, to perform an attack with this information, the attacker has to know the relationship between the fault sensitivity and the computed data, without knowing the insights of the cryptographic algorithm at work.
+It states that the algorithm will inevitably exhibit data-dependency of fault sensitivity.
+Hence, it allows using the IC as an almost black box.
 
 %The simplest HFI consist in analyzing ICs susceptibility or sensitivity to fault injection \cite{yangLiFaultSensitivity}.
 %It has the great advantage to allow using the IC as a block box, without knowing the insights on the cryptographic algorithm parameters such as the faulted ciphertext or else the nature of the faults.

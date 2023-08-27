@@ -108,6 +108,18 @@ Yang Li, Kazuo Sakiyama, Shigeto Gomisawa, Toshinori Fukunaga, Junko Takahashi,
   Cryptographic Hardware and Embedded Systems, CHES 2010}, pages 320--334,
   Berlin, Heidelberg, 2010. Springer Berlin Heidelberg.
 
+\bibitem{firstLfi}
+Sergei Skorobogatov and Ross Anderson.
+\newblock Optical fault induction attacks.
+\newblock volume 2523, pages 2--12, 08 2002.
+
+\bibitem{firstEmfi2002}
+David Samyde, Sergei~P. Skorobogatov, Ross~J. Anderson, and Jean-Jacques
+  Quisquater.
+\newblock On a new way to read data from memory.
+\newblock {\em First International IEEE Security in Storage Workshop, 2002.
+  Proceedings.}, pages 65--69, 2002.
+
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
 \newblock Body biasing injection: Impact of substrate types on the induced

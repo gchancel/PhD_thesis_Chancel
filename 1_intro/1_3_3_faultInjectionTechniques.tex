@@ -1,0 +1,29 @@
+\section{Fault-injection techniques \ddc}
+\label{chap:1;sect:fInjTech}
+
+\subsection{Glitch fault injection}
+\label{chap:1;sect:fInjTech;subsect:glitch}
+Glitch fault injection (GFI) are one of the first historical documented fault injection attacks.
+They are simple and require little equipment.
+For the most part, they are non-invasive, which means that they are reversible, physically speaking.
+Various physical quantities can be disturbed, but the power supply voltages (VDD or GND), and the IC clock are the most common.
+Each physical quantity can be modified at the attacker's discretion, with a certain amount.
+However, the disturbances have to be short enough to avoid IC shutdown concerning power supply glitches, but also not powerful enough to avoid the IC destruction.
+On the one hand, the main advantage of such attack is its easiness to set up compared to other methods.
+On the other hand, their main disadvantage is the complete lack of locality with the injection effects.
+Indeed, disturbing IC's macro-parameters interfere with the entire chip and does not guarantee a useful faulty behavior.
+In addition to that, every modern IC is prepared to detect such attacks and thus protect itself by resetting its electronics.
+
+\subsection{Laser fault injection}
+\label{chap:1;sect:fInjTech;subsect:lfi}
+Laser fault injection (LFI) has been introduced in 2002 \cite{firstLfi} and is a more complex technique than GFI.
+However, its precision is immensely better, at the cost of being semi-invasive, and sometimes invasive.
+LFI consists in targeting specific regions of the IC with laser beams of specific wavelengths.
+Several other parameters are involved for this method to succeed, such as the light emission duration and the area/volume of the targeted region.
+
+\subsection{Electromagnetic fault injection}
+\label{chap:1;sect:fInjTech;subsect:emfi}
+Electromagnetic fault injection (EMFI) is a more recent and more studied technique, introduced in 2002 \cite{firstEmfi2002}.
+Its principle is basic: an electric current in a wire (probe) near an IC creates a corresponding electric current in the IC power delivery network, similar to an electric transformer.
+Similar to GFI, the attack can be non-invasive, although this method yields better results while being semi-invasive.
+Indeed, the closer the probe to the IC, the better the coupling and the mutual inductance, which often required to remove the IC's plastic package.
