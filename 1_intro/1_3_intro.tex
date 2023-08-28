@@ -4,14 +4,14 @@
 \label{chap:1;sect:intro}
 %BEGIN LanguageTool
 In our time, almost every business sector and every part of our surroundings, directly or indirectly, use integrated electronics circuits.
-It ranges from smart-cards to supercomputers, through military devices, cell-phones, Cyber-Physical Systems (CPS) and Internet-of-Things (IoT) objects to name but a few.
+It ranges from smart-cards to supercomputers, through military devices, cell-phones, Cyber-Physical Systems (\cps) and Internet-of-Things (\iot) objects to name but a few.
 
 Traditionally, integrated circuits design mainly focused on performance upgrades over the generations.
 Performance was measured thanks to two factors: computation speed and silicon surface.
 Within this context, power consumption was not a design constraint, therefore, integrated circuits became more and more energy-consuming.
 However, with the advent of portable devices, power consumption became a predominant design factor over speed, and space and got included into the former design flows.
 Nevertheless, less space and more speed does not physically equate with less energy.
-Alongside, new systems have emerged and have massively grown these past decades: IoT and CPS.
+Alongside, new systems have emerged and have massively grown these past decades: \iot and \cps.
 On one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another.
 On the other hand, IoT systems have often less coordination between hardware and software, but are commonly more flexible.
 Whatsoever, both of these systems have something strong in common: their security is fundamental.
@@ -30,7 +30,7 @@ To accomplish this objective, encryption algorithms have been integrated.
 It is possible to distinguish two distinct categories of encryption algorithms, namely symmetric and asymmetric algorithms.
 
 In short, symmetric cryptographic techniques use a unique key for encrypting and decrypting messages.
-The most popular algorithms are the AES (Advanced Encryption Standard), DES (Data Encryption Standard), IDEA (International Data Encryption Algorithm), RC5 (Rivest Cipher 5), and TDES (Triple DES) not to cite them all.
+The most popular algorithms are the \aes (Advanced Encryption Standard), \des (Data Encryption Standard), IDEA (International Data Encryption Algorithm), RC5 (Rivest Cipher 5), and TDES (Triple DES) not to cite them all.
 The key must be kept confidential and only shared among parties in order to maintain a confidential connection between them.
 The requirement for a single key is the main drawback of symmetric encryption methods.
 As a result, every possible step must be taken to safeguard key secrecy, such as avoiding key exchanges on public networks.
@@ -54,7 +54,7 @@ Therefore, when an electric current appears in a conductor, there is inevitably 
 Moreover, every measurable physical quantity concerning the IC could be a point of information leakage.
 This is particularly true when considering the fact that these quantities will exhibit varying variations based on the calculations performed by the IC.
 When evaluating these quantities, it is possible to retrieve confidential information.
-We described what is called a \textbf{"side-channel attack" (SCA)} when considering cybersecurity.
+We described what is called a \textbf{"side-channel attack" (\sca)} when considering cybersecurity.
 
 On the other hand, physical quantity measurement is not the only flaw in actual algorithm implementations.
 In fact, every physical IC has specifications under which it can execute its functions properly.
@@ -68,7 +68,7 @@ We have identified two potential attacks on robust algorithms that have been imp
 However, it is customary to categorize cyberattacks into three distinct categories based on their execution methods.
 
 Despite being technically advanced, noninvasive attacks are the most materially trivial.
-SCAs are included in this set, which do not require any hardware modification to the targeted ICs, even if there is no physical contact.
+\sca are included in this set, which do not require any hardware modification to the targeted ICs, even if there is no physical contact.
 It is a delicate task to detect them; hence, they are deemed to be highly dangerous and are commonly considered in the initial stages of designing integrated circuits.
 
 It is then possible to distinguish semi-invasive attacks.
@@ -76,7 +76,7 @@ Systematically, they are accompanied by device physical preparation, which is en
 ICs integrity is therefore theoretically preserved.
 A typical IC modification involves the removal of the chip package.
 It enables access to either the front or back side of the integrated circuit, thereby facilitating micro-probing, laser injection, or substrate pulse injection.
-Furthermore, substrate thinning is also commonly considered and used, as it facilitates the fine-tuning of certain fault injection techniques, such as laser fault injection (LFI).
+Furthermore, substrate thinning is also commonly considered and used, as it facilitates the fine-tuning of certain fault injection techniques, such as laser fault injection (\lfi).
 These attacks necessitate specialized hardware, tools, and expertise and are frequently challenging to establish and execute.
 
 Eventually, there are invasive attacks.

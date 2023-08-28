@@ -25,6 +25,7 @@ The voltage pulse generator, at each edge of its pulse, injects and then extorts
 
 \subsection{Sequential logic operation and simple fault model \ddc}
 \label{chap5:sect:chargeExtortion:subsect:seqLogic}
+\input{5_faultModel/figures/bbiFaultSusceptibility}
 As sequential logic is ubiquitous in contemporary integrated circuits, we shall examine its fundamental workings in greater detail.
 Sequential logic relies on a core element: the edge-triggered D flip-flop (DFF).
 They are a memory component that is governed by a clock.
@@ -33,8 +34,10 @@ Between DFFs are placed the logic gates, which fulfill a specific logical functi
 Because of this, values in sequential logic circuits can only be changed at the clock edges.
 Hence, in the event that an adversary is able to alter a logical value for an extended period of time at the input of a DFF, the subsequent combinatorial logic will yield an incorrect value, which will propagate to the subsequent DFFs.
 
-\input{5_faultModel/figures/bbiFaultSusceptibility}
-This fault model we described previously is depicted in Fig. \ref{chap:5;fig:bbiSusc} and was first introduced in \cite{emfiFF} for EMFI.
+We are going to use this fault model, depicted in short in Fig. \ref{chap:5;fig:bbiSusc}, for the rest of this chapter.
+It is important to note that this model was first introduced for EMFI \cite{emfiFF}.
+%we described previously is depicted in Fig. \ref{chap:5;fig:bbiSusc} and was first introduced in \cite{emfiFF} for EMFI.
 
-\subsection{Charge extortion \ddc}
-\label{chap5:sect:chargeExtortion:subsect:chargeExtortion}
+%\subsection{Charge extortion \ddc}
+%\label{chap5:sect:chargeExtortion:subsect:chargeExtortion}
+%As stated in the fault model, it is required, to create faults into the IC, to disturb the transistors enough during a specific time, called the "BBI susceptibility period" (Fig. \ref{chap:5;fig:bbiSusc}).

@@ -18,6 +18,11 @@
 \backcite {yangLiFaultSensitivity}{{9}{1.4}{section.1.4}}
 \backcite {firstLfi}{{10}{1.5.2}{subsection.1.5.2}}
 \backcite {firstEmfi2002}{{11}{1.5.3}{subsection.1.5.3}}
+\backcite {mathieuEMFI}{{11}{1.5.3}{subsection.1.5.3}}
+\backcite {bbiOrigin}{{11}{1.5.4}{subsection.1.5.4}}
+\backcite {bbiSecond}{{11}{1.5.4}{subsection.1.5.4}}
+\backcite {bbiThird}{{11}{1.5.4}{subsection.1.5.4}}
+\backcite {bbiColin}{{11}{1.5.4}{subsection.1.5.4}}
 \backcite {giraudDfa}{{24}{2.4}{section.2.4}}
 \backcite {giraudDfa}{{26}{2.4}{table.caption.21}}
 \backcite {mybbiCosade}{{30}{3.1}{section.3.1}}

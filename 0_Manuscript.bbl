@@ -120,6 +120,39 @@ David Samyde, Sergei~P. Skorobogatov, Ross~J. Anderson, and Jean-Jacques
 \newblock {\em First International IEEE Security in Storage Workshop, 2002.
   Proceedings.}, pages 65--69, 2002.
 
+\bibitem{mathieuEMFI}
+M.~Lisart M.~Dumont and P.~Maurine.
+\newblock Modeling and simulating electromagnetic fault injection.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 40(4):680--693, 2021.
+
+\bibitem{bbiOrigin}
+Philippe Maurine, Karim Tobich, Thomas Ordas, and Pierre-Yvan Liardet.
+\newblock Yet another fault injection technique : by forward body biasing
+  injection.
+\newblock 09 2012.
+
+\bibitem{bbiSecond}
+K.~Tobich, P.~Maurine, P.-Y. Liardet, M.~Lisart, and T.~Ordas.
+\newblock Voltage spikes on the substrate to obtain timing faults.
+\newblock In {\em 2013 Euromicro Conference on Digital System Design}, pages
+  483--486, 2013.
+
+\bibitem{bbiThird}
+Noemie Beringuier-Boher, Marc Lacruche, David El-Baze, Jean-Max Dutertre,
+  Jean-Baptiste Rigaud, and Philippe Maurine.
+\newblock Body biasing injection attacks in practice.
+\newblock In {\em Proceedings of the Third Workshop on Cryptography and
+  Security in Computing Systems}, CS2 '16, page 49–54, New York, NY, USA,
+  2016. Association for Computing Machinery.
+
+\bibitem{bbiColin}
+Colin O'Flynn.
+\newblock Low-cost body biasing injection (bbi) attacks on wlcsp devices.
+\newblock In Pierre-Yvan Liardet and Nele Mentens, editors, {\em Smart Card
+  Research and Advanced Applications}, pages 166--180, Cham, 2021. Springer
+  International Publishing.
+
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
 \newblock Body biasing injection: Impact of substrate types on the induced
@@ -132,12 +165,6 @@ Mathieu Dumont, Philippe Maurine, and Mathieu Lisart.
 \newblock Modeling of electromagnetic fault injection.
 \newblock In {\em 2019 12th International Workshop on the Electromagnetic
   Compatibility of Integrated Circuits (EMC Compo)}, pages 246--248, 2019.
-
-\bibitem{mathieuEMFI}
-M.~Lisart M.~Dumont and P.~Maurine.
-\newblock Modeling and simulating electromagnetic fault injection.
-\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
-  Circuits and Systems}, 40(4):680--693, 2021.
 
 \bibitem{tripleWellDecoupling}
 Yasuhiro Ogasahara, Masanori Hashimoto, Toshiki Kanamoto, and Takao Onoye.
