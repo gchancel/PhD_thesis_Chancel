@@ -41,8 +41,10 @@ In 2020, a modeling workflow was proposed \cite{mathieuEMFI}, allowing to explai
 \label{chap:1;sect:fInjTech;subsect:bbi}
 Eventually, there is another fault injection method, less studied and more recent than the others, commonly called Body Biasing Injection (\bbi), which is the research topic of this thesis.
 This technique has been introduced in 2012 \cite{bbiOrigin}, and further studied in 2013 \cite{bbiSecond} and 2016 \cite{bbiThird}.
-At the beginning of this thesis, a fourth article was published \cite{bbiColin}, studying the interests of \bbi concerning Wafer-Level Chip-Scale Packaging (\wlcsp)
+At the beginning of this thesis, a fourth article was published \cite{bbiColin}, studying the interests of \bbi concerning Wafer-Level Chip-Scale Packaging (\wlcsp).
 The principle behind \bbi is fairly simple: applying voltage pulses directly onto the backside of IC targets, thanks to a metallic probe.
 On the one hand, despite this simple premise, in the vast majority of cases, \bbi is a semi-invasive method.
 Indeed, as most \ic are encapsulated in a ceramic or plastic package, it is required, to access to the substrate, to partially remove a piece of the package.
-On the other hand,
+On the other hand, building a BBI platform is not expensive and technically easier when compared to \lfi or \emfi.
+Indeed, a metallic probe with a custom armature costs around 10 euros at worst, and is easy to build at hand, while manufacturing a precise \emfi probe requires more knowledge to achieve good results.
+Considering that \emfi and \bbi both require similar voltage pulse generator, which is often the most expensive piece of equipment, the overall platform cost is lower concerning BBI.

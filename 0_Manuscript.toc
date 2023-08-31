@@ -12,58 +12,58 @@
 \contentsline {xchapter}{}{xvii}{chapter*.10}%
 \contentsline {chapter}{General introduction}{xvii}{section*.11}%
 \contentsline {xchapter}{}{xix}{chapter*.12}%
-\contentsline {chapter}{\numberline {1}Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Side-channel attacks \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Timing attacks \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{6}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Power analysis and electromagnetic analysis attacks \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{7}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Fault-injection attacks \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{8}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Fault-injection techniques \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{10}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Glitch fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{10}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Laser fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{10}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Electromagnetic fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{11}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Body biasing injection \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{11}{subsection.1.5.4}%
-\contentsline {chapter}{\numberline {2}Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{14}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Platform equipment \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{14}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}The hardware \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}The software \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{17}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Body Biasing Injection enhanced practice \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{18}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}BBI practice in the state of the art \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Enhanced BBI practice \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}BBI practices: a simple actual comparisons \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{22}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Giraud's differential fault attack \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{24}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{26}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Electrical models \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{31}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Standard-cell segment models \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{35}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Preliminary model validation \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{39}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Voltage pulse generator model and further validation \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{41}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Early generator models \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{41}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Further generator models and verification \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{42}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Experimental comparisons \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{43}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{43}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{48}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{48}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{49}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{49}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{53}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Models validation \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{55}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{55}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{56}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{58}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Fault model \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{59}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{60}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{60}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Charge extortion \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{61}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Sequential logic operation and simple fault model \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{61}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Silicon substrate charges propagation \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{62}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Logic gates simulation under BBI \textcolor {myCyan}{\footnotesize 2023-08-29 11:03:35+02:00}}{62}{section.5.5}%
+\contentsline {chapter}{\numberline {1}Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Side-channel attacks \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Timing attacks \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Power analysis and electromagnetic analysis attacks \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{7}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Fault-injection attacks \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Fault-injection techniques \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{10}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Glitch fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{10}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Laser fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{10}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Electromagnetic fault injection \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{11}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Body biasing injection \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{11}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {2}Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Platform equipment \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}The hardware \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The software \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{17}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Body Biasing Injection enhanced practice \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}BBI practice in the state of the art \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Enhanced BBI practice \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}BBI practices: a simple actual comparisons \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{22}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Giraud's differential fault attack \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{24}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{26}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Electrical models \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Standard-cell segment models \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{35}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Preliminary model validation \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{39}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Voltage pulse generator model and further validation \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Early generator models \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{41}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Further generator models and verification \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{42}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Experimental comparisons \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{43}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{43}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{53}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Models validation \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{55}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{55}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{56}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{58}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Fault model \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{59}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{60}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{60}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Charge extortion \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{61}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Sequential logic operation and simple fault model \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{61}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Silicon substrate charges propagation \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{62}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Logic gates simulation under BBI \textcolor {myCyan}{\footnotesize 2023-08-29 14:27:29+02:00}}{62}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Conclusion}{63}{chapter.6}%
 \contentsline {chapter}{Bibliography}{65}{section*.40}%
 \contentsline {xchapter}{}{65}{section*.40}%

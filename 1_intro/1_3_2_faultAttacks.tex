@@ -14,7 +14,7 @@ On the other hand, \hfi can produce incorrect behaviors, allowing to retrieve hi
 In that case, \hfi targets are mostly cryptographic algorithms, and can be segmented in non-comprehensive set of categories.
 
 One of the most performed \hfi is called differential fault attack/analysis (\dfa).
-The principle of DFA lies in inducing computation errors during the decryption process of cryptographic algorithm thanks to fault injection.
+The principle of \dfa lies in inducing computation errors during the decryption process of cryptographic algorithm thanks to fault injection.
 Several \dfa were proposed on different algorithms \cite{Biham1997DifferentialFA, firstDfaMaybe, ciet_elliptic_2005, dfaEcc, giraudDfa}.
 Every \dfa implies that the attacker has access to at least two ciphertexts, a correct one, denoted $C$, and a faulty one, denoted $C_F$.
 In addition to that, the attacker must also know the characteristics of the induced faults, such as the amount of faulted bits, in which operation they are faulted, etc.
@@ -28,6 +28,11 @@ Specifically, this work defines a critical condition, similar to the \pll captur
 Then, to perform an attack with this information, the attacker has to know the relationship between the fault sensitivity and the computed data, without knowing the insights of the cryptographic algorithm at work.
 It states that the algorithm will inevitably exhibit data-dependency of fault sensitivity.
 Hence, it allows using the IC as an almost black box.
+
+In the next paragraph, we are going to analyze deeper a specific fault attack and its implications
+
+\subsection{Giraud's differential fault attack \ddc}
+\label{chap:1;sect:fattack;subsect:giraud}
 
 %The simplest HFI consist in analyzing ICs susceptibility or sensitivity to fault injection \cite{yangLiFaultSensitivity}.
 %It has the great advantage to allow using the IC as a block box, without knowing the insights on the cryptographic algorithm parameters such as the faulted ciphertext or else the nature of the faults.

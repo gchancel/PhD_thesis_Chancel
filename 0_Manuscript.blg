@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: 0A_Abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: 0B_Acknowledgments.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: 1_intro/1_main.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
@@ -19,10 +17,8 @@ Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: 5_faultModel/5_main.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: 6_conclusion/6_main.aux
-Illegal, another \bibstyle command---line 63 of file 0_Manuscript.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
 You're missing a field part---line 501 of file references.bib
@@ -34,7 +30,7 @@ Warning--empty booktitle in firstLfi
 Warning--empty journal in bbiOrigin
 You've used 32 entries,
             1791 wiz_defined-function locations,
-            685 strings with 10673 characters,
+            685 strings with 10677 characters,
 and the built_in function-call counts, 10709 in all, are:
 = -- 988
 > -- 469
@@ -73,4 +69,4 @@ warning$ -- 2
 while$ -- 105
 width$ -- 34
 write$ -- 379
-(There were 2 error messages)
+(There was 1 error message)
