@@ -1,35 +1,77 @@
 % !TeX root = ../0_Manuscript.tex
 
+Over the past years, various fault injection methods, representing a significant threat for secure integrated circuits, have been extensively studied, like laser fault injection (\lfi), or more recently electromagnetic fault injection (\emfi).
+The purpose of these studies is to propose efficient countermeasures to the right cost.
+They have had multiple objectives, such as understanding the various phenomena at the origin of fault creation, or being able to simulate fault propagation over multiple abstraction levels...
+
+Voltage pulse substrate fault injection, commonly called Body Biasing Injection (\bbi), while being contemporary to \emfi, led to very few researches and studies in comparison. Up to the best of our knowledge, three scientific papers existed at the beginning of my thesis, back in 2020.
+
+The LIRMM (Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier: Computer Sciences, Robotics and Microelectronics Laboratory of Montpellier), inventor of this technique in 2011, proposed this thesis to answer various  questions such as:
+\begin{itemize}
+    \item What are the phenomena at work leading to fault injection?
+    \item What kind of spatial resolution does BBI offer?
+    \item What is the time resolution of this method?
+    \item Is it relevant to thin the silicon substrate of BBI target ICs?
+    \item Can constraining fault attacks be performed with this method?
+\end{itemize}
+These questions have guided my thesis work through the last three years.
+These works have led me to propose CMOS integrated circuits simulation models in a BBI context, in addition to proposing improvements for the practice of BBI.
+My thesis manuscript is structured in five chapters.
+Each one of them attempt to provide answers to the preceding interrogations.
+
+The \cRef{chap:1_stateOfTheArt}{first chapter} of this manuscript provides an overview of the existing fault injection techniques, with a particular emphasis on BBI.
+
+The \cRef{chap:2_goodPractices}{second chapter} describes improvements for the practice of BBI.
+These improvements have been conceived and obtained through my studies concerning BBI resolution and accuracy, both in time and space.
+Additionally, this \cRef{chap:2_goodPractices}{chapter} describes the practical results of a differential fault attack performed thanks to BBI and requiring single-bit faults.
+
+The \cRef{chap:3icModeling}{third chapter} is dedicated to CMOS integrated circuits modeling under BBI.
+It introduces the established simulation models, in addition the designed algorithms allowing to simulate circuits subjected to BBI.
+The models and methods introduced allow us to simulate circuit behavior in reasonable duration, which allows us to perform parametric analysis of BBI effects.
+
+The \cRef{chap:4thinning}{fourth chapter} discusses a common practice in fault injection methods: the thinning of integrated circuits' substrate.
+While this topic has been extensively addressed concerning \lfi, it is not the case for \bbi.
+It relates to studying IC behavioral differences and BBI efficiency on different substrate thicknesses circuits.
+Various models are introduced to get different approaches, allowing to predict differently electrical and physical phenomena at work.
+Mathematical models are also derived from the previous models, enabling the calculation of optimal experimental parameters, in addition to predicting circuit behavior.
+
+The \cRef{chap:5faultModel}{fifth} is dedicated to the understanding of fault creation in circuits subjected to BBI.
+It allows deriving a fault model from the simulations.
+
+Eventually, the \cRef{chap:6conclusion}{last chapter} presents a general conclusion of my thesis work.
+In addition to this, outlooks are provided.
+The latter are interrogations remaining unanswered by my thesis works, mostly concerning more specific BBI effects on integrated circuits.
+
 %\section*{\Huge General introduction \ddc}
 %\sectionmark{General introduction}
 %\textbf{\Huge General introduction \ddc}
 %\thispagestyle{}
 %\section{General introduction \ddc}
 %\textcolor{orange}{IN FIRST HERE WILL BE THE GENERAL INTRO* ABOUT SECURITY, FAULT INJECTION AND CRYPTO* IN ICs NOWADAYS.}
-Over the past twelve years, various fault injection methods have been extensively studied.
-The most noteworthy were Electromagnetic Fault Injection (EMFI) and Laser Fault Injection (LFI).
-Indeed,among all studies, elaborated models have been proposed to study and predict the effects of EMFI on integrated circuits (IC), and IC substrate thinning effects have been studied concerning LFI efficiency.
-However, Body Biasing Injection (BBI), although introduced in 2011, has been less documented than the above injection methods.
-Within this context, this work aims at tackling the interests of this technique over others, replacing them or
-
-The \cRef{chap:1_stateOfTheArt}{first chapter} of this manuscript presents the global fault injection and specific Body Biasing Injection state of the art, mainly concerning side-channel attacks.
-Various fault injection platforms are presented, ranging from electromagnetic fault injection to laser-fault injection, eventually introducing body-biasing injection.
-
-Then, the \cRef{chap:2_goodPractices}{second chapter} introduces new enhanced practices for body biasing injection.
-It aims at presenting the work concerning various improvements for the practice of BBI.
-These contributions aim, thanks to minor modifications and improvements of existing platforms, at improving body biasing injection efficiency.
-
-Afterward, the \cRef{chap:3icModeling}{third chapter} focuses on IC modeling specifically for the practice of BBI.
-It introduces electrical models and algorithms allowing to generate and simulate integrated circuits in a BBI context.
-The introduced models have the advantage to offer simulation duration on a human timescale, thus allowing to evaluate and study large circuits in short amount of time.
-
-Subsequently, the \cRef{chap:4thinning}{fourth chapter} discusses a common practice when performing fault injection: the thinning of integrated circuits' substrate.
-This topic has been addressed extensively concerning laser fault injection, and we present our contribution concerning BBI.
-It mainly relates to studying IC behavioral differences and BBI efficiency.
-Various models are proposed in order to get different approaches of the subject, allowing to predict differently electrical and physical phenomenons.
-Mathematical models are also derived from the previous models, allowing to calculate optimal experimental parameters in addition to predicting circuit behavior.
-
-Eventually, the \cRef{chap:5faultModel}{fifth and last chapter} introduces a fault model, allowing to explain at a circuit level and at a transistor level how faults are created under body biasing injection.
+%Over the past twelve years, various fault injection methods have been extensively studied.
+%The most noteworthy were Electromagnetic Fault Injection (EMFI) and Laser Fault Injection (LFI).
+%Indeed,among all studies, elaborated models have been proposed to study and predict the effects of EMFI on integrated circuits (IC), and IC substrate thinning effects have been studied concerning LFI efficiency.
+%However, Body Biasing Injection (BBI), although introduced in 2011, has been less documented than the above injection methods.
+%Within this context, this work aims at tackling the interests of this technique over others, replacing them or
+%
+%The \cRef{chap:1_stateOfTheArt}{first chapter} of this manuscript presents the global fault injection and specific Body Biasing Injection state of the art, mainly concerning side-channel attacks.
+%Various fault injection platforms are presented, ranging from electromagnetic fault injection to laser-fault injection, eventually introducing body-biasing injection.
+%
+%Then, the \cRef{chap:2_goodPractices}{second chapter} introduces new enhanced practices for body biasing injection.
+%It aims at presenting the work concerning various improvements for the practice of BBI.
+%These contributions aim, thanks to minor modifications and improvements of existing platforms, at improving body biasing injection efficiency.
+%
+%Afterward, the \cRef{chap:3icModeling}{third chapter} focuses on IC modeling specifically for the practice of BBI.
+%It introduces electrical models and algorithms allowing to generate and simulate integrated circuits in a BBI context.
+%The introduced models have the advantage to offer simulation duration on a human timescale, thus allowing to evaluate and study large circuits in short amount of time.
+%
+%Subsequently, the \cRef{chap:4thinning}{fourth chapter} discusses a common practice when performing fault injection: the thinning of integrated circuits' substrate.
+%This topic has been addressed extensively concerning laser fault injection, and we present our contribution concerning BBI.
+%It mainly relates to studying IC behavioral differences and BBI efficiency.
+%Various models are proposed in order to get different approaches of the subject, allowing to predict differently electrical and physical phenomenons.
+%Mathematical models are also derived from the previous models, allowing to calculate optimal experimental parameters in addition to predicting circuit behavior.
+%
+%Eventually, the \cRef{chap:5faultModel}{fifth and last chapter} introduces a fault model, allowing to explain at a circuit level and at a transistor level how faults are created under body biasing injection.
 
 %\clearpage
 %
