@@ -1,8 +1,25 @@
 % !TeX root = ../0_Manuscript.tex
 
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.7\textwidth, center]{2_goodPractices/figures/model0Probe.pdf}
+%    \caption{Simplified model of a \bbi platform in the state-of-the-art. The model represents the major tools involved in a \bbi platform, with the voltage pulse generator, the \bbi metal probe, the transmission line used to interconnect the generator to the probe, the IC, modeled with a 1 k\textOmega\xspace resistor, and the platform grounding impedance, represented with two 150 \textOmega\xspace resistors. This model allows for fast evaluation and prediction of the \bbi platform macro-behavior.}
+%    \label{fig:bbiPracticeBadGnd}
+%\end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth, center]{2_goodPractices/figures/model0Probe.pdf}
-    \caption{BBI platform example in the state of the art: schematic}
-    \label{fig:bbiPracticeBadGnd}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/model0Probe.pdf}
+        \caption{Simplified electrical model of a \bbi platform in the state-of-the-art. The model represents the major piece of equipment involved in a \bbi platform, with the voltage pulse generator, the \bbi metal probe, the transmission line used to interconnect the generator and the probe, the IC, modeled with a 1 k\textOmega\xspace resistor, and the platform grounding impedance, represented with two 150 \textOmega\xspace resistors. This model allows for fast evaluation and prediction of the \bbi platform macro-behavior.}
+        \label{fig:bbiPracticeBadGnd}
+    \end{subfigure}
+    \hspace{0.045\textwidth}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_0.pdf}
+        \caption{Simulation results of the simplified model. The waveform colors match the schematic colors' for better clarity. In blue is shown the ideal voltage pulse one might want to generate (voltage set point of -140 V, pulse width set point of 10 ns). In green is the effective signal received by the IC on its backside. In orange is the pulse observed at the generator output, and in purple is the IC ground current measurement. These results highlight the platform limitations, such as the obvious ringing, causing incorrect voltage amplitude and pulse width set point.}
+        \label{fig:bbiPracticeBadGndSignals}
+    \end{subfigure}
+    \caption{\bbi platform electrical model developed for my thesis to quickly evaluate various platform's parameters, alongside the model simulation results.}
+    \label{fig:bbiBadGndGlobalFig}
 \end{figure}

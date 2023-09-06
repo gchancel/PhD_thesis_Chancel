@@ -1,45 +1,44 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {xchapter}{}{x}{section*.4}%
-\contentsline {xchapter}{}{xi}{section*.5}%
-\contentsline {xchapter}{}{xiii}{section*.6}%
-\contentsline {xchapter}{}{xv}{section*.8}%
-\contentsline {xchapter}{}{xvii}{chapter*.10}%
-\contentsline {xchapter}{}{xix}{chapter*.12}%
+\contentsline {xchapter}{}{viii}{section*.4}%
+\contentsline {xchapter}{}{ix}{section*.5}%
+\contentsline {xchapter}{}{xi}{section*.6}%
+\contentsline {xchapter}{}{xiii}{section*.8}%
+\contentsline {xchapter}{}{xv}{chapter*.10}%
+\contentsline {xchapter}{}{xvii}{chapter*.12}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-09-05 19:56:23+02:00}}{1}{chapter.1}%
+\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-09-06 19:42:49+02:00}}{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-09-05 19:56:23+02:00}}{13}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Custom BBI probes photographs\relax }}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ChipSHOUTER\textregistered -PicoEMP from NewAE Technology Inc.: a low-cost alternative to fast high voltage pulse generator typically used in fault injection platforms. It provides much less instantaneous power than a typical generator (around 99 \% less power), has a long recovery time (from 1 to 4 seconds), has a lower maximum amplitude (250 V), is not calibrated, and has no controllable pulse width. However, it costs 94 \% less than a typical generator, giving it a considerable advantage when building low-cost \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace platforms.\relax }}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Front side of the Avtech Electrosystems Ltd. AVRK-4-B High Voltage Pulser, used during all my thesis experiments. \relax }}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces BBI platform example in the state of the art: schematic\relax }}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces BBI platform example in the state of the art: simulation\relax }}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The proposed enhanced BBI platform\relax }}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces BBI enhancements with actual measurements\relax }}{23}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Fault analysis mapping\relax }}{25}{figure.caption.20}%
+\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-09-06 19:42:49+02:00}}{11}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Custom BBI probes photographs\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ChipSHOUTER\textregistered -PicoEMP from NewAE Technology Inc.: a low-cost alternative to fast high voltage pulse generator typically used in fault injection platforms. It provides much less instantaneous power than a typical generator (around 99 \% less power), has a long recovery time (from 1 to 4 seconds), has a lower maximum amplitude (250 V), is not calibrated, and has no controllable pulse width. However, it costs 94 \% less than a typical generator, giving it a considerable advantage when building low-cost \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace platforms.\relax }}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Front side of the Avtech Electrosystems Ltd. AVRK-4-B High Voltage Pulser, used during all my thesis experiments. \relax }}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace platform electrical model developed for my thesis to quickly evaluate various platform's parameters, alongside the model simulation results.\relax }}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Platform simulation results with different IC load values.\relax }}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace platform enhanced electrical model developed for my thesis to quickly evaluate various platform's parameters, alongside the model simulation results.\relax }}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Simulation results of the enhanced platform with a 250 \textOmega \xspace IC load \ref {fig:bbiPracticeImpGndICLoad0} and a 2 k\textOmega \xspace IC load \ref {fig:bbiPracticeImpGndICLoad1}. The most obvious thing is the current increase in \ref {fig:bbiPracticeImpGndICLoad0}, which is natural due to the load impedance reduction. However, the effective pulse amplitude relative to the set point has only a -7 \% error, which is a drastic improvement over the previous -30 \%. Therefore, we can say that the set point is met. Then, in \ref {fig:bbiPracticeImpGndICLoad1}, there is an obvious current decrease, which once again, is logical given the higher impedance value. The effective pulse amplitude relative to the set point has only a 7 \% error, which is a drastic improvement over the previous 40 \%. In addition to this, the ringing almost disappeared in every case. It is caused by to the fact that the generator is not only loaded by the IC, but by the equivalent load composed of the IC and the compensation load, which reduces the effective load variation when changing the IC load value.\relax }}{21}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-09-05 19:56:23+02:00}}{29}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view\relax }}{31}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Surface subdivision improvement.\relax }}{33}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Three-dimensional Dual-Well and Triple-Well IC comprehensive standard-cell electrical schematic.\relax }}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Elementary substrate 3D netlist\relax }}{36}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Elementary substrate SPICE netlist\relax }}{36}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces SCS substrate layer SPICE netlist\relax }}{37}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Three-dimensional standard-cell segments interconnection example.\relax }}{38}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mixed substrates operating point.\relax }}{39}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Dual-well and triple-well cross-sectional current distribution view at the apex of the voltage pulse\relax }}{41}{figure.caption.32}%
+\contentsline {xchapter}{Integrated circuits modeling \textcolor {myCyan}{\footnotesize 2023-09-06 19:42:49+02:00}}{23}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dual-well and triple-well inverter silicon sectional view\relax }}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Surface subdivision improvement.\relax }}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Three-dimensional Dual-Well and Triple-Well IC comprehensive standard-cell electrical schematic.\relax }}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Elementary substrate 3D netlist\relax }}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Elementary substrate SPICE netlist\relax }}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SCS substrate layer SPICE netlist\relax }}{30}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Three-dimensional standard-cell segments interconnection example.\relax }}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mixed substrates operating point.\relax }}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Dual-well and triple-well cross-sectional current distribution view at the apex of the voltage pulse\relax }}{34}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-09-05 19:56:23+02:00}}{45}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{48}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{50}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{51}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Fault susceptibility maps\relax }}{53}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{53}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{53}{figure.caption.38}%
+\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-09-06 19:42:49+02:00}}{37}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{40}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{42}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{43}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Fault susceptibility maps\relax }}{45}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{45}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{45}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-09-05 19:56:23+02:00}}{57}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sequential logic operation and BBI sampling fault susceptibility\relax }}{59}{figure.caption.39}%
+\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-09-06 19:42:49+02:00}}{49}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sequential logic operation and BBI sampling fault susceptibility\relax }}{51}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{61}{chapter.6}%
-\contentsline {xchapter}{}{63}{section*.40}%
+\contentsline {xchapter}{Conclusion}{53}{chapter.6}%
+\contentsline {xchapter}{}{55}{section*.37}%

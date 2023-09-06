@@ -1,0 +1,19 @@
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf}
+        \caption{}
+        \label{fig:bbiPracticeImpGndICLoad0}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_2_0_IC2k.pdf}
+        \caption{}
+        \label{fig:bbiPracticeImpGndICLoad1}
+    \end{subfigure}
+    \caption{Simulation results of the enhanced platform with a 250 \textOmega\xspace IC load \ref{fig:bbiPracticeImpGndICLoad0} and a 2 k\textOmega\xspace IC load \ref{fig:bbiPracticeImpGndICLoad1}. The most obvious thing is the current increase in \ref{fig:bbiPracticeImpGndICLoad0}, which is natural due to the load impedance reduction. However, the effective pulse amplitude relative to the set point has only a -7 \% error, which is a drastic improvement over the previous -30 \%. Therefore, we can say that the set point is met. Then, in \ref{fig:bbiPracticeImpGndICLoad1}, there is an obvious current decrease, which once again, is logical given the higher impedance value. The effective pulse amplitude relative to the set point has only a 7 \% error, which is a drastic improvement over the previous 40 \%. In addition to this, the ringing almost disappeared in every case. It is caused by to the fact that the generator is not only loaded by the IC, but by the equivalent load composed of the IC and the compensation load, which reduces the effective load variation when changing the IC load value.}
+    \label{fig:bbiImpGndIcLoadVar}
+\end{figure}

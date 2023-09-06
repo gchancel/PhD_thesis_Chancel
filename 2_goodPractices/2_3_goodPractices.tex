@@ -1,81 +1,81 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{Body Biasing Injection enhanced practice \ddc}
-\label{chap:2_goodPractices;sect:goodPractices}
-With the platform thoroughly introduced,we can now discuss the BBI practice in the state of the art compared to the enhancements we propose.
-\subsection{BBI practice in the state of the art \ddc}
-\label{chap:2_goodPractices;sect:goodPractices;subsect:stateoftheart}
+%\section{Body Biasing Injection enhanced practice \ddc}
+%\label{chap:2_goodPractices;sect:goodPractices}
+%With the platform thoroughly introduced,we can now discuss the BBI practice in the state of the art compared to the enhancements we propose.
+%\subsection{BBI practice in the state of the art \ddc}
+%\label{chap:2_goodPractices;sect:goodPractices;subsect:stateoftheart}
 %\input{2_goodPractices/figures/bbiPracticeBadGnd}
-First and foremost, in order to introduce the proposed enhancements, we will explain the limitations of state of the art BBI practices.
-Fig. \ref{fig:bbiPracticeBadGnd} presents an example BBI platform as it is performed in the state of the art.
-This schematic only represents the main pieces of equipment, roughly composed of:
-\begin{itemize}
-    \item A voltage pulse generator
-    \item A transmission line
-    \item A BBI probe
-    \item An IC target
-    \item A grounding setup
-\end{itemize}
-In that case, we want to bring forward two limitations of the platform as it stands.
-The first one is that most commercially available high voltage generator require a very specific load impedance to be used in order to meet their specifications, thus the \mbox{50 \textOmega} transmission line.
-However, the vast majority of integrated circuits substrates do not present at all times and in every location the exact required impedance for a specific generator.
-\input{2_goodPractices/figures/bbiPracticeBadGndSignals}
-Therefore, impedance mismatch effects will inevitably show up, such as bounces in the transmission line.
-These effects are illustrated in Fig. \ref{fig:bbiPracticeBadGndSignals}.
-As one can notice, due to the bounces, there is a 25 \% undershoot on the pulse received by the target (green signal), in addition to a 100 V overshoot.
-It is directly echoed on the IC ground current measurement (purple signal).
-However, one might wonder why this can be a problem for the practice of BBI.
-The bounces in the transmission line, reflected in the IC current, are then propagated through the IC.
-Therefore, because the IC does not present in every substrate location a constant impedance, it is impossible to predict the bounces' shape.
-Thus, because an attacker has to achieve precise timing when injecting faults into an IC, and because of this impossibility to reach a certain degree of precision, it is highly problematic in a fault injection context.
-In order to mitigate this problem without increasing the platform's cost, we propose a very simple addition to the platform, consisting in connecting at the voltage pulse generator output a \mbox{50 \textOmega} resistor in order to place the generator closer to its specifications.
-
-The second limitation concerns the platform grounding.
-%The example platform of Fig. \ref{fig:bbiPracticeBadGnd}
-Contrary to impedance mismatching, it is a less predictable issue, as each platform will have very different grounding installation.
-Therefore, it is important to take measures to limit its side effects.
-In addition to worsening impedance mismatching, it can lead to a non-negligible limitation concerning energy transfer to the IC, by acting like a resistive voltage divider.
-Alleviating this limitation is simpler than matching the load impedance, as it only requires low-length, low-resistance ground interconnections to be made on top of the existing ones.
-
-\subsection{Enhanced BBI practice \ddc}
-\label{chap:2_goodPractices;sect:goodPractices;subsect:enhPractice}
-\input{2_goodPractices/figures/bbiBestPracticeDual}
-%\input{2_goodPractices/figures/bbiBestPractice}
-%\input{2_goodPractices/figures/bbiBestPracticeSignals}
-Fig. \ref{fig:bbiBestPracticeDual} illustrates the proposed improvements.
-The red nets on the schematic indicate the enhancements, and on the simulation results are shown in dotted lines the observed signals in the state of the art on top of the new signals in solid lines.
-What is important to remark here is first the significant bounces' reduction both on the IC received voltage pulse waveform and on the IC ground current waveform (which is an image of the received voltage due to the purely resistive nature of the simulated IC).
-Then, the effective injected current stays the same between both scenarios, which is expected.
-First because reducing the grounding impedance allows an increase in current, second because the approximate impedance matching reduces the injected current over time due to bounces' reduction.
-
-\subsection{BBI practices: a simple actual comparisons \ddc}
-\input{2_goodPractices/figures/bbiRealXp}
-Evaluating the effects of the proposed enhancements through coarse platform simulations is the first step.
-However, in order to verify the models' soundness, we will analyze here practical experiments studying both cases.
-The equipment used is the one previously described in section \ref{chap2:intro:platEquip:hardware}.
-Fig. \ref{fig:bbiRealXp} displays the experimental results.
-Each signal is labeled in red starting with the letter S, followed by a number indicating the scenario (1 for the state-of-the-art and 2 for the enhanced practice), eventually followed by a letter indicating the signal type (P for the voltage pulse, G for the IC ground current).
-At the top of the Figure are shown the state-of-the-art signals, while at the bottom are shown the enhanced practice signals.
-The voltage pulse generator settings are the following:
-\begin{itemize}
-    \item Required voltage set-point: -140 V
-    \item Required pulse width: 20 ns
-    \item Rise and fall times: 4 ns
-\end{itemize}
-The first interesting thing to notice here is that contrary to the voltage pulse generator, which is specified to deliver 4 ns rise and fall times, in both presented scenarios these measurements never reach the generator specifications.
-
-Concerning the state-of-the-art practice, it is easily explained thanks to the bounces due to impedance mismatch between the generator and the IC, which can be observed on S1P and S1G.
-It results in a longer pulse than expected, whose width may vary depending on the injection location due to IC impedance variations.
-Therefore, the voltage pulse width is wider than requested.
-In addition to that, the maximum absolute voltage undershoots by 108 \% compared to the requested set-point.
-Similar to the pulse width, voltage undershoot will greatly vary depending on the injection location.
-Eventually, when analyzing the current flowing out of the IC ground, it shows that the charges are going back and forth to between the IC and the generator, once again because of the bounces, which is an undesirable behavior when an attacker wants to create fast, short and precise disturbances into an IC.
-
-Concerning the proposed enhanced platform, the first remarkable information concerns the voltage pulse undershoot, which is reduced from 108 \% to 31 \%.
-It is mainly due to the approximate impedance matching, allowing the generator to work closer to its specifications.
-Then, even if the rise and fall times do not match the generator specifications, they are of equal length of 16 ns, which is more desirable than asymmetrical rise and fall times to produce precise pulses.
-The higher than expected value is mainly explained by the fact that the transmission line and the IC represent a far more complex impedance than a simple \fiftyOhms{50} termination resistor, especially when the IC impedance presents a large capacitive component.
-The IC ground current is sharper with fewer bounces and fewer overshoots while the amount of charges transferred stays roughly the same (going from $25.5 \; mA_{RMS}$ to $23 \; mA_{RMS}$).
+%First and foremost, in order to introduce the proposed enhancements, we will explain the limitations of state of the art BBI practices.
+%Fig. \ref{fig:bbiPracticeBadGnd} presents an example BBI platform as it is performed in the state of the art.
+%This schematic only represents the main pieces of equipment, roughly composed of:
+%\begin{itemize}
+%    \item A voltage pulse generator
+%    \item A transmission line
+%    \item A BBI probe
+%    \item An IC target
+%    \item A grounding setup
+%\end{itemize}
+%In that case, we want to bring forward two limitations of the platform as it stands.
+%The first one is that most commercially available high voltage generator require a very specific load impedance to be used in order to meet their specifications, thus the \mbox{50 \textOmega} transmission line.
+%However, the vast majority of integrated circuits substrates do not present at all times and in every location the exact required impedance for a specific generator.
+%\input{2_goodPractices/figures/bbiPracticeBadGndSignals}
+%Therefore, impedance mismatch effects will inevitably show up, such as bounces in the transmission line.
+%These effects are illustrated in Fig. \ref{fig:bbiPracticeBadGndSignals}.
+%As one can notice, due to the bounces, there is a 25 \% undershoot on the pulse received by the target (green signal), in addition to a 100 V overshoot.
+%It is directly echoed on the IC ground current measurement (purple signal).
+%However, one might wonder why this can be a problem for the practice of BBI.
+%The bounces in the transmission line, reflected in the IC current, are then propagated through the IC.
+%Therefore, because the IC does not present in every substrate location a constant impedance, it is impossible to predict the bounces' shape.
+%Thus, because an attacker has to achieve precise timing when injecting faults into an IC, and because of this impossibility to reach a certain degree of precision, it is highly problematic in a fault injection context.
+%In order to mitigate this problem without increasing the platform's cost, we propose a very simple addition to the platform, consisting in connecting at the voltage pulse generator output a \mbox{50 \textOmega} resistor in order to place the generator closer to its specifications.
+%
+%The second limitation concerns the platform grounding.
+%%The example platform of Fig. \ref{fig:bbiPracticeBadGnd}
+%Contrary to impedance mismatching, it is a less predictable issue, as each platform will have very different grounding installation.
+%Therefore, it is important to take measures to limit its side effects.
+%In addition to worsening impedance mismatching, it can lead to a non-negligible limitation concerning energy transfer to the IC, by acting like a resistive voltage divider.
+%Alleviating this limitation is simpler than matching the load impedance, as it only requires low-length, low-resistance ground interconnections to be made on top of the existing ones.
+%
+%\subsection{Enhanced BBI practice \ddc}
+%\label{chap:2_goodPractices;sect:goodPractices;subsect:enhPractice}
+%\input{2_goodPractices/figures/bbiBestPracticeDual}
+%%\input{2_goodPractices/figures/bbiBestPractice}
+%%\input{2_goodPractices/figures/bbiBestPracticeSignals}
+%Fig. \ref{fig:bbiBestPracticeDual} illustrates the proposed improvements.
+%The red nets on the schematic indicate the enhancements, and on the simulation results are shown in dotted lines the observed signals in the state of the art on top of the new signals in solid lines.
+%What is important to remark here is first the significant bounces' reduction both on the IC received voltage pulse waveform and on the IC ground current waveform (which is an image of the received voltage due to the purely resistive nature of the simulated IC).
+%Then, the effective injected current stays the same between both scenarios, which is expected.
+%First because reducing the grounding impedance allows an increase in current, second because the approximate impedance matching reduces the injected current over time due to bounces' reduction.
+%
+%\subsection{BBI practices: a simple actual comparisons \ddc}
+%\input{2_goodPractices/figures/bbiRealXp}
+%Evaluating the effects of the proposed enhancements through coarse platform simulations is the first step.
+%However, in order to verify the models' soundness, we will analyze here practical experiments studying both cases.
+%The equipment used is the one previously described in section \ref{chap2:intro:platEquip:hardware}.
+%Fig. \ref{fig:bbiRealXp} displays the experimental results.
+%Each signal is labeled in red starting with the letter S, followed by a number indicating the scenario (1 for the state-of-the-art and 2 for the enhanced practice), eventually followed by a letter indicating the signal type (P for the voltage pulse, G for the IC ground current).
+%At the top of the Figure are shown the state-of-the-art signals, while at the bottom are shown the enhanced practice signals.
+%The voltage pulse generator settings are the following:
+%\begin{itemize}
+%    \item Required voltage set-point: -140 V
+%    \item Required pulse width: 20 ns
+%    \item Rise and fall times: 4 ns
+%\end{itemize}
+%The first interesting thing to notice here is that contrary to the voltage pulse generator, which is specified to deliver 4 ns rise and fall times, in both presented scenarios these measurements never reach the generator specifications.
+%
+%Concerning the state-of-the-art practice, it is easily explained thanks to the bounces due to impedance mismatch between the generator and the IC, which can be observed on S1P and S1G.
+%It results in a longer pulse than expected, whose width may vary depending on the injection location due to IC impedance variations.
+%Therefore, the voltage pulse width is wider than requested.
+%In addition to that, the maximum absolute voltage undershoots by 108 \% compared to the requested set-point.
+%Similar to the pulse width, voltage undershoot will greatly vary depending on the injection location.
+%Eventually, when analyzing the current flowing out of the IC ground, it shows that the charges are going back and forth to between the IC and the generator, once again because of the bounces, which is an undesirable behavior when an attacker wants to create fast, short and precise disturbances into an IC.
+%
+%Concerning the proposed enhanced platform, the first remarkable information concerns the voltage pulse undershoot, which is reduced from 108 \% to 31 \%.
+%It is mainly due to the approximate impedance matching, allowing the generator to work closer to its specifications.
+%Then, even if the rise and fall times do not match the generator specifications, they are of equal length of 16 ns, which is more desirable than asymmetrical rise and fall times to produce precise pulses.
+%The higher than expected value is mainly explained by the fact that the transmission line and the IC represent a far more complex impedance than a simple \fiftyOhms{50} termination resistor, especially when the IC impedance presents a large capacitive component.
+%The IC ground current is sharper with fewer bounces and fewer overshoots while the amount of charges transferred stays roughly the same (going from $25.5 \; mA_{RMS}$ to $23 \; mA_{RMS}$).
 
 %The first noticeable one is the imperfect electrical grounding.
 %Indeed, on the example platform, one can note the 150 \textOmega ground impedance between each piece of equipment ground and the reference ground.
