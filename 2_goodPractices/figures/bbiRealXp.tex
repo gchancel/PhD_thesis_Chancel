@@ -2,7 +2,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth, center]{2_goodPractices/figures/realPulsesComparisons.pdf}
-    \caption{BBI enhancements with actual measurements}
+    \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/realPulsesComparisons.pdf}
+    \caption{\bbi platforms comparison: state-of-the-art (S1P and S1G) versus the proposed enhanced platform (S2P and S2G). These waveforms code names are used to quickly indicate which signal from which platform is talked about. "S" stands for "setup", the number indicates whether it is the default (1) or the enhanced (2) platform, and the last letter indicates whether it is the voltage pulse (P) or the IC ground current (G) waveform. Time scales are identical on each waveform, and voltage/current scales are waveform dependent. These measurements illustrate in practice the benefits of the proposed enhancements. The ideal voltage pulse has a negative amplitude of 140 V and a pulse width of 20 ns, with rise and fall times of 4 ns. On S1P there is a -108 \% voltage undershoot, which is too big not to be concerning. In addition to this, the pulse width is 275 \% too high with a 75 ns value. The fall time is 4 times higher than requested, and the rise time is more than 15 times higher. S1G highlight specifically the ringing, which could already be seen on S1P, with energy going back and forth multiple times during the pulse. On S2P, the voltage set point error goes from -108 \% to only -31 \%,. It is still not negligible but is far better than on S1P. The pulse width now perfectly matches the set point value of 20 ns. However, rise and fall times are 4 times higher than they should be, despite both being consistent. S2G helps us spot the significant ringing reduction, while maintaining the same amount of transferred energy into the IC.}
     \label{fig:bbiRealXp}
 \end{figure}

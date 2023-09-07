@@ -36,8 +36,23 @@ badGND['vPulse'] = np.load(pathBad + "vPulseData.npy", allow_pickle = True)
 
 impGND['iTime'] = np.load(pathGoodImp + "iGNDTime.npy", allow_pickle = True)
 impGND['vTime'] = np.load(pathGoodImp + "vPulseTime.npy", allow_pickle = True)
+
 impGND['iGND'] = np.load(pathGoodImp + "iGNDData.npy", allow_pickle = True) / 5.0
 impGND['vPulse'] = np.load(pathGoodImp + "vPulseData.npy", allow_pickle = True)
+
+###############################################################################################
+# # Reducing time axis for more space
+# # beginImpGndiTime = np.where(np.isclose(impGND['iTime'], 30e-9, atol = 100e-12))[0][0]
+# beginImpGndvTime = np.where(np.isclose(impGND['vTime'], 1e-9, atol = 100e-12))[0][0]
+# impGND['iTime'] = impGND['iTime'][beginImpGndvTime:]
+# # impGND['iTime'] = impGND['iTime'] - impGND['iTime'].min()
+
+# impGND['vTime'] = impGND['vTime'][beginImpGndvTime:]
+# # impGND['vTime'] = impGND['vTime'] - impGND['vTime'].min()
+
+# impGND['iGND'] = impGND['iGND'][beginImpGndvTime:]
+# impGND['vPulse'] = impGND['vPulse'][beginImpGndvTime:]
+###############################################################################################
 
 idealPulse = np.zeros(impGND['vTime'].shape)
 borneGauche = np.where(impGND['vTime'] > 14e-9)[0]
@@ -62,11 +77,32 @@ rmsBad = np.sqrt(np.mean(np.square(badGND['iGND'][beginBad:endBad])))
 # rmsGood = np.sqrt(np.mean(np.square(goodGND['iGND'])))
 rmsImp = np.sqrt(np.mean(np.square(impGND['iGND'])))
 
+# Original scale
+# scale = 1.0
+# lw = 2
+# labSize = 10
+# fSize = 12 * 0.9
+# ySize = 13 * scale
+# titleSize = 14 * scale
+# tPad = 15 * scale
+# tLoc0 = 'center'
+# tLoc1 = 'center'
+# tLoc2 = 'center'
+# yLabelPad = 15 * scale
+# tBox = dict(facecolor = 'yellow', pad = 4 * scale, alpha = 0.2)
+# sBox = dict(facecolor = 'blue', pad = 4 * scale, alpha = 0.2)
+# xBox = dict(facecolor = 'green', pad = 4 * scale, alpha = 0.2)
+# supSize = 20
+# yLabelRot = 90
+# textposX = 0.99
+# textposY = 0.01
+# offset = 0.18 / 2
 
+# New scale
 scale = 1.0
 lw = 2
 labSize = 10
-fSize = 12 * 0.9
+fSize = 12 * 1.05
 ySize = 13 * scale
 titleSize = 14 * scale
 tPad = 15 * scale
@@ -81,7 +117,7 @@ supSize = 20
 yLabelRot = 90
 textposX = 0.99
 textposY = 0.01
-offset = 0.18 / 2
+offset = 0.25 / 2
 
 # subAdj = {'top': 0.915,
 #           'bottom': 0.031,
@@ -91,8 +127,8 @@ offset = 0.18 / 2
 #           'wspace': 0.200}
 
 # fig, ax = plt.subplots(4, figsize = (5.0 * scale, 11 * 0.67 * scale), sharex = True)
-fig, ax = plt.subplots(2, 2, figsize = (12 * scale, 7 * scale), sharex = True)
-fig.suptitle("BBI practices comparison", size = supSize * scale, bbox = sBox, y = 0.99)
+fig, ax = plt.subplots(2, 2, figsize = (11.5 * scale, 5 * scale), sharex = True)
+# fig.suptitle("BBI practices comparison", size = supSize * scale, bbox = sBox, y = 0.99)
 
 ax[0, 1].plot(badGND['iTime'], badGND['iGND'][beginBad:endBad],
               lw = lw * scale)
@@ -106,14 +142,18 @@ ax[0, 1].text(textposX,
               fontsize = fSize * scale)
 ax[0, 1].set_ylabel('$I_{GND}(t)$', fontsize = ySize, labelpad = yLabelPad, bbox = tBox,
                     rotation = yLabelRot)
-ax[0, 1].set_title("State of the art grounding",
+# ax[0, 1].set_title("State of the art grounding",
+#                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc0)
+ax[0, 1].set_title("Default BBI platform (IC current)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc0)
 
 ax[0, 0].plot(badGND['vTime'], badGND['vPulse'][beginBad:endBad],
               lw = lw * scale)
 ax[0, 0].yaxis.set_major_formatter(form_volt)
 ax[0, 0].xaxis.set_major_formatter(form_sec)
-ax[0, 0].set_title("State of the art grounding",
+# ax[0, 0].set_title("State of the art grounding",
+#                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc0)
+ax[0, 0].set_title("Default BBI platform (Generator voltage)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc0)
 ax[0, 0].text(textposX,
               textposY,
@@ -224,14 +264,18 @@ ax[1, 1].text(textposX,
               fontsize = fSize * scale)
 ax[1, 1].set_ylabel('$I_{GND}(t)$', fontsize = ySize, labelpad = yLabelPad, bbox = tBox,
                     rotation = yLabelRot)
-ax[1, 1].set_title("Ground bypass and impedance matching",
+# ax[1, 1].set_title("Ground bypass and impedance matching",
+#                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc2)
+ax[1, 1].set_title("Enhanced BBI platform (IC current)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc2)
 
 ax[1, 0].plot(impGND['vTime'], impGND['vPulse'],
               lw = lw * scale)
 ax[1, 0].yaxis.set_major_formatter(form_volt)
 ax[1, 0].xaxis.set_major_formatter(form_sec)
-ax[1, 0].set_title("Ground bypass and impedance matching",
+# ax[1, 0].set_title("Ground bypass and impedance matching",
+#                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc2)
+ax[1, 0].set_title("Enhanced BBI platform (Generator voltage)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc2)
 ax[1, 0].text(textposX,
               textposY,

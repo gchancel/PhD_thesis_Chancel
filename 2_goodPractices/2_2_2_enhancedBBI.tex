@@ -61,3 +61,64 @@ We will then be able to draw conclusions on such improvements thanks to simulati
 \section{Actual enhanced BBI platform \ddc}
 The previous models being a useful tool to draw quick conclusions and predictions, it does not represent the reality.
 To that end, I set up the various presented enhancements in an actual \bbi platform in order to verify the soundness of all the outcomes.
+In the first place, we are going to discuss how to perform the approximate impedance matching.
+Then, I will explain how to set up an efficient grounding bypass.
+After that, we will take a look at actual measurements allowing to spot the improvements.
+
+    \subsection{Generator impedance matching in practice \ddc}
+    \textcolor{orange}{Add pictures of real platform impedance matching.}
+    An ideal impedance matching implementation should be adaptive and vary the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
+    It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to adapt the compensation load impedance value.
+    However, this is not the approach I have chosen.
+    Indeed, the goal here is to minimize financial cost and platform modification, while allowing for better control over the platform's parameters.
+
+    Another possibility would be to first measure the average IC backside impedance over its entire area or only the targeted area (such as the cryptographic core for instance).
+    Then, thanks to the average value, the compensation load impedance could be chosen to approximately match the required 50 \textOmega\xspace.
+
+    Eventually, the selected solution is the simplest one.
+    It consists in connecting a compensation load at the generator's output, consisting in a \fiftyOhms{50} SMA terminator.
+    It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
+    However, it is a solution requiring little to no changes to an existing platform and has proven to be good enough thanks to the previous models.
+
+    \subsection{Grounding installation bypass in practice \ddc}
+    \textcolor{orange}{Add pictures of real GND bypass.}
+    As we discussed previously, the grounding installation can drastically vary from one platform to another.
+    Its effective impedance can be very high, such as in our platform, where equipment is grounded thanks to the platform's earthing, with inter-equipment ground of around \fiftyOhms{150}.
+    To alleviate the effects of such ground impedance, I simply decided to shunt the existing earthing with short low-resistance copper wires.
+    To that end, I chose an arbitrary piece of equipment as the reference, and connected every other piece of equipment local ground to the reference.
+    It allowed reducing the effective platform ground impedance to a negligible value close to \fiftyOhms{0}.
+
+    \subsection{Practical analysis \ddc}
+    \input{2_goodPractices/figures/bbiRealXp.tex}
+    Now that I presented how to practically set up the enhancements, let us analyze actual measurements on the platform.
+    We will compare before and after results, allowing us to analyze each evaluation criterion.
+    As it was done for the simulations, we will observe the voltage pulse and the IC ground current.
+    Fig. \ref{fig:bbiRealXp} presents the various waveform results.
+    The voltage pulse was measured at the IC backside during the injection, and the IC ground current was measured using a current probe thanks to the IC PCB ground interconnection.
+    Therefore, the measured current is precisely the IC ground current, excluding any other equipment.
+    The four waveforms displayed in Fig. \ref{fig:bbiRealXp} are code named using three characters for clarity.
+    The first character is common to all waveforms, denoted "S" for "setup".
+    Then, the number indicates which platform is concerned, "1" being the default platform, "2" being the enhanced one.
+    Eventually, the last letter indicates which waveform is observed, "P" being the voltage pulse, "G" being the IC ground current.
+    Therefore, the default platform contains S1P and S1G waveforms, while the enhanced one contains S2P and S2G signals.
+    Fig. \ref{fig:bbiRealXp} also display the waveforms characteristics for more clarity.
+    The ideal voltage pulse applied has a maximum negative amplitude of 140 V, a pulse width of 20 ns, and 4 ns rise and fall times.
+
+    S1P shows a clear undershoot of -108 \% under the set point.
+    It is a clearly non-negligible value, which is far from desirable when performing fault injection, as most of the time , the voltage value has a great importance concerning efficiency and repeatability.
+    In addition to this, the pulse width is 275 \% higher than its set point.
+    It is an additional undesirable behavior, especially when one wants to inject precise disturbances into an IC under test.
+    Then, fall time is four times higher than requested, and rise time is more than fifteen times higher.
+    Put with the longer pulse width, it worsens the pulse accuracy.
+
+    S1G brings to light the obvious ringing issue, also observable to a lesser extent on S1P, which leads to longer than expected disturbance inside the IC.
+    Considering that the ringing is mainly caused by impedance mismatch between the generator and the IC, it will drastically change from one location to another, further reducing repeatability.
+
+    S2P, on the other hand, shows a better voltage amplitude, with a -31 \% undershoot.
+    It is far from perfect, but given the approximate nature of the proposed impedance matching, it is expected.
+    Concerning the pulse width, the set point value is perfectly respected, which is very important for precise disturbance duration.
+    However, rise and fall times are now consistent, but still four times higher than requested.
+    It can easily be explained by the fact that the transmission line, the probe, the IC and the power installation are not a purely resistive load.
+    Therefore, any capacitive element in the chain will inevitably reduce the system's response time, thus elongating rise and fall times, leading to a shorter pulse plateau.
+
+    Concerning S2G, the approximate impedance matching shows a clear ringing reduction, with a steep current pulse, leading to a precise disturbance.
