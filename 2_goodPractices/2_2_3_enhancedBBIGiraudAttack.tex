@@ -5,3 +5,19 @@
 Now that we have seen with simple actual experiments the benefits of the proposed enhanced \bbi platform, let us linger on further experiments to verify more thoroughly the soundness of these enhancements.
 To that end, I performed a differential fault attack on our IC target.
 More specifically, a constraining fault attack requiring single bit faults on one or more bytes working on an AES cryptographic core, introduced by C. Giraud \cite{giraudDfa} in 2004.
+In the first place, we are going to discuss in details the core of the attack.
+Afterward, I will describe the IC target, its characteristics, and its operating conditions for the experiments.
+Then, I will introduce experiments we developed to perform preliminary measurements to the attack, accelerating the search of points of interests on the IC.
+Next, we will discuss the practical attack results.
+Eventually, we will draw conclusions on the various observations.
+
+    \subsection{Giraud's DFA detailed description \ddc}
+    When Giraud's paper \cite{giraudDfa} was published in 2004, no existing DFA was capable of attacking an AES algorithm.
+    In this context, they proposed two types of DFA on AES, in order to cover various fault types one can induce on secured ICs.
+    In this thesis, I focused on the first fault model, consisting in inducing single bit faults, therefore, this is the one we are going to discuss.
+
+    As we said before, the attack requires single bit faults on AES computation.
+    More specifically, the fault has to appear at the beginning of the final AES round.
+    Because we are using an AES-128, we will describe everything with this in mind.
+
+    \subsection{Integrated circuits target characteristics \ddc}
