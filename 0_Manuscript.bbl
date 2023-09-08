@@ -153,6 +153,12 @@ Colin O'Flynn.
   Research and Advanced Applications}, pages 166--180, Cham, 2021. Springer
   International Publishing.
 
+\bibitem{aesRijndaelProp}
+C.~Sanchez-Avila and R.~Sanchez-Reillol.
+\newblock The rijndael block cipher (aes proposal) : a comparison with des.
+\newblock In {\em Proceedings IEEE 35th Annual 2001 International Carnahan
+  Conference on Security Technology (Cat. No.01CH37186)}, pages 229--234, 2001.
+
 \bibitem{mybbiFdtc2022}
 G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
 \newblock Body biasing injection: Impact of substrate types on the induced

@@ -16,8 +16,45 @@ Eventually, we will draw conclusions on the various observations.
     In this context, they proposed two types of DFA on AES, in order to cover various fault types one can induce on secured ICs.
     In this thesis, I focused on the first fault model, consisting in inducing single bit faults, therefore, this is the one we are going to discuss.
 
+    \input{2_goodPractices/figures/aesLastRound}
     As we said before, the attack requires single bit faults on AES computation.
     More specifically, the fault has to appear at the beginning of the final AES round.
     Because we are using an AES-128, we will describe everything with this in mind.
+    In addition to this, the various notations we will be using are the following:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item $P$ is the AES plaintext and $K$ the AES secret key
+        \item $P^i$ stands for the intermediate cipher result after the $i^{th}$ AES round
+        \item $P^i_j$ is the $j^{th}$ byte of $P^i$
+        \item $K^i$ represents the $i^{th}$ AES round key
+        \item As for $P$, $K^i_j$ is the $j^{th}$ byte of $K^i$
+        \item $C$ is the correct ciphertext, $C_j$ is the $j^{th}$ byte of C
+        \item Eventually, $CF$ stands for the faulty ciphertext, $CF_j$ is the $j^{th}$ byte of CF
+    \end{itemize}
+    Although the attack requires single bit faults on the final round, the attack is fairly simple and quick to perform with the right data at hand.
+    I will not describe how AES operates, as it is well described in \cite{giraudDfa, aesRijndaelProp}.
+    The final ciphertext is given thanks to the following equation:
+    \begin{equation}
+        C = ShiftRows(SubBytes(P^9)) \oplus K^{10}
+    \end{equation}
+    With $SubBytes(P^i_j)$ being the substitution table (S-box) result calculated on $M^i_j$ byte, and $ShiftRow(j)$ being the $j^{th}$ byte position of the temporary result of the $ShiftRows$ transform.
 
     \subsection{Integrated circuits target characteristics \ddc}
+    For the purpose of understanding clearly how we set up the previous attack, it is required to describe thoroughly the integrated circuit targeted.
+    The model is an STM32F439VIT6 32-bits ARM Cortex-M4 microcontroller from STMicroelectronics, available in a LQFP100 package.
+    The IC is manufactured using a 90 nm bulk technology.
+    Its main characteristics are the following:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item A core clock up to 180 MHz
+        \item Two 1 MB FLASH memory banks
+        \item 256 kB of RAM
+        \item Voltage supply allowed from 1.7 V to 3.6 V
+        \item A True Random Number Generator (TRNG)
+        \item A dedicated hardware cryptographic coprocessor, embedding AES (128, 192 and 256 bits), triple DES, and various HASH algorithms
+    \end{itemize}
+
+    \subsection{Preliminary attack experiments \ddc}
+    For the purpose of accelerating and simplifying the attack process, especially because creating single bit faults is a troublesome process, I designed experiments, to be conducted on the IC target, allowing me to spot interesting IC areas to perform the attack.
+    Because the attack targets the AES coprocessor, all the experiments described here are performed specifically on the AES core area.
+    \input{2_goodPractices/figures/giraudDFA_0}

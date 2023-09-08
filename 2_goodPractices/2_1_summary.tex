@@ -2,25 +2,27 @@
 
 \section{Introduction \ddc}
 \label{chap:2_goodPractices;sect:summaryIntro}
-The first part of this chapter introduces Body Biasing Injection platforms equipment,with a special focus on the metallic probe and the voltage pulse generator, two major tools in the practice of \bbi.
-Afterward, we are going to study \bbi in practice.
-In the first place, I introduce an electrical model describing a typical \bbi platform and how to evaluate \bbi platform characteristics.
-Then, we will analyze the results of such platform by highlighting its inherent flaws, such as:
+In the first place, we are going to introduce Body Biasing Injection platforms: in the state-of-the art and wat we use for our experiments.
+%The first part of this chapter introduces Body Biasing Injection platforms.
+%equipment, with a special focus on the metallic probe and the voltage pulse generator, two major tools in the practice of \bbi.
+%Afterward, we are going to study \bbi in practice.
+Afterward, I present a general \bbi platform with its electrical model, in addition to evaluating the platform characteristics.
+Thanks to the model, we are able to perform simulation, which we then to study, allowing us to highlight its inherent flaws, such as:
 \begin{itemize}
-    \item Poor control of the platform's characteristics
+    \item Poor control over the platform's characteristics
     \item Obvious ringing leading to poor temporal accuracy
     \item Platform dependent parameters such as the ground installation quality
     \item Main physical quantities, such as the voltage and the pulse width, set points not met
 \end{itemize}
-Thereafter, I propose enhancements to overcome \bbi platforms shortcomings:
+Thereafter, I propose enhancements to overcome the previous platform shortcomings, which are:
 \begin{itemize}
     \item Matching the output impedance of the generator to reduce the ringing and bring the measurements closer to the specifications and the set points
     \item Bypassing the grounding installation to minimize platform dependency
 \end{itemize}
-After that, we will evaluate the enhancements with further analysis, measuring ringing, set points accuracy, load and transmission line dependency.
-Then, we will study actual \bbi platforms while discussing various techniques allowing to match the generator's output impedance, in addition to introducing practical grounding installation bypass.
-Next, I will introduce actual measurements of such platforms, illustrating the enhancements in practice.
-Eventually, I will introduce a constraining differential fault attack set-up.
-It includes the attack description, followed by a thorough description of the IC target, sustained with experiments allowing me to perform the attack with more ease, ended up by the attack results.
+After that, I present a deeper analysis of these enhancements, including ringing, set points accuracy, and load and transmission line dependency.
+Then, I discuss various techniques allowing to match the generator's output impedance, in addition to introducing practical grounding installation bypass.
+Next, I perform actual experiments with our \bbi platform, including measurements of such platform, illustrating the enhancements in practice.
+Eventually, I will introduce a constraining differential fault attack set-up with our platform.
+It includes the attack description, followed by a thorough description of the IC target, sustained with experiments allowing me to perform the attack with more ease, with a comparison of a state-of-the-art platform with our enhanced platform, ended up by the attack results.
 
 Parts of this work were published in FDTC 2023. (\textcolor{orange}{Add reference.})
