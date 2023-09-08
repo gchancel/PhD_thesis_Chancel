@@ -66,12 +66,14 @@
 \usepackage{bibentry}
 \usepackage{csquotes}
 \usepackage{xspace}
+\usepackage{titlesec}
 %\showboxes
 %\showframe
 
 \definecolor{myCyan}{RGB}{59, 204, 255}
 \definecolor{myViolet}{RGB}{169, 0, 173}
 \definecolor{myViolet2}{RGB}{178, 32, 214}
+\definecolor{myGreenFlash}{RGB}{19, 237, 55}
 \newcommand{\cRef}[2]{\hyperref[#1]{\textcolor{myViolet}{#2}}}
 \newcommand{\fiftyOhms}[1]{\mbox{#1 \textOmega\xspace}}
 \newcommand{\cGood}{\rowcolor{green!25}}
@@ -91,13 +93,17 @@
 \newcommand{\ddc}{\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\DDCU}{\textcolor{myViolet2}{UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\ddcu}{\textcolor{myViolet2}{UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\DDCNEW}{\textcolor{myGreenFlash}{NEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddcnew}{\textcolor{myGreenFlash}{NEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 
 %% Uncomment the three next lines before compiling final build %%
 %\usepackage[final]{showlabels}
 %\newcommand{\DDC}{}
 %\newcommand{\ddc}{}
-%\newcommand{\DDCu}{}
+%\newcommand{\DDCU}{}
 %\newcommand{\ddcu}{}
+%\newcommand{\DDCNEW}{}
+%\newcommand{\ddcnew}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%----------------------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -152,10 +158,23 @@
 \setcounter{secnumdepth}{4}
 
 %\makeatletter
-%\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-5\p@}}}{}{}
+%% No extra space between chapter number and chapter header lines:
+%\patchcmd{\@makechapterhead} {\vskip 20}{\vskip 0} {}{}
+%% Reduce extra space between chapter header and section header lines by 50%:
+%\patchcmd{\@makechapterhead} {\vskip 80}{\vskip 40}{}{}
+%\patchcmd{\@makeschapterhead}{\vskip 80}{\vskip 40}{}{} % for unnumbered chapters
+%\makeatother
+
+%\makeatletter
+%\apptocmd{\chapter}{\vspace{-2cm}}
+%\makeatother
+
+%\makeatletter
+%\pretocmd
+%\pretocmd{\chapter}{\addtocontents{toc}{\vspace{-20cm}}}{}{}
 %\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{-10\p@}}}{}{}
 %\pretocmd{\subsection}{\addtocontents{toc}{\protect\addvspace{-10\p@}}}{}{}
-%%\pretocmd{\figure}{\addtocontents{tof}{\protect\addvspace{-10\p@}}}{}{}
+%\pretocmd{\figure}{\addtocontents{tof}{\protect\addvspace{-10\p@}}}{}{}
 %\makeatother
 
 %\renewcommand\cftbeforechapskip{\vskip7pt}

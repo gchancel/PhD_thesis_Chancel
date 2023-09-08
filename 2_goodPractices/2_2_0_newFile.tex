@@ -6,7 +6,7 @@
 
 \section{\bbi platforms in the state-of-the-art \ddcu}
 \label{chap:2_goodPractices;sect:bbiPlatforms}
-\subsection{Initial \bbi platforms \ddcu}
+    \subsection{Initial \bbi platforms \ddcu}
     First introduced in 2012 by P. Maurine et al. \cite{bbiOrigin}, further studied in 2013 by K. Tobick et al. \cite{bbiSecond}, the proposed \bbi platform in both papers is fairly simple, similar to \emfi platforms, composed of:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
@@ -18,11 +18,12 @@
     \end{itemize}
     It is important to remark that the probe is connected through a relatively long interconnection, acting as a transmission line.
 
-\subsection{C. O'Flynn \bbi platform \ddcu}
+    \subsection{C. O'Flynn \bbi platform \ddcu}
     The original platform had stayed identical in the literature \cite{bbiThird}, until C. O'Flynn published in 2020 \cite{bbiColin} practical examples of \bbi attacks on WLCSP integrated circuits.
     In this work, the platform is structured differently.
     There are common elements, such as:
     \begin{itemize}
+        \setlength\itemsep{-0.1em}
         \item An IC target with an accessible backside, in that case thanks to the WLCSP
         \item A positioning system
         \item Various acquisition tools
@@ -42,6 +43,33 @@
     The pulse generator used in this paper is a ChipWhisperer-Lite, an open-source tool created by NewAE Technology Inc.
     This tool can perform various tasks, such as pulse generation (as it is currently done), analog signals capture, or clock generation, enabling clock glitch fault injection.
     In addition to that, it can act as a simultaneous capture and target board, which is of great use in a \bbi context.
+
+    \subsection{Commercial platforms \ddcnew}
+    In addition to documented research \bbi platforms, there are multiple commercially available solutions.
+    We are going to address the most noteworthy in the current section.
+
+        \subsubsection{Langer EMV-Technik GmbH \bbi platform \ddcnew}
+        \input{2_goodPractices/figures/langerBBI}
+        The German society "Langer EMV-Technik GmbH" proposes a ready-to-use \bbi platform.
+        It is composed of two main hardware components:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item A \bbi current pulse generator, illustrated in Fig. \ref{fig:langerBBI}.
+            \item A "Burst Power Station", which is the combination of a power supply and a controller allowing to control and monitor every probe sold by the company, with a provided software.
+        \end{itemize}
+        The core design is similar to the state-of-the-art platform, the main difference being that the system commercialized by Langer contains a current source instead of a voltage source.
+        However, in practical operation, it does not represent a significant difference, as one can either perform the \bbi experiments with both electrical sources.
+        The probe is specified with the following characteristics:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item A maximum allowable current of 4 A in a 1 \textOmega\xspace load
+            \item A rise time inferior to 2 ns
+            \item A maximum pulse repetition frequency of 20 kHz
+            \item Positive and negative polarities
+            \item The possibility to delay the pulse command thanks to their control module
+        \end{itemize}
+        According to the product's datasheet, containing actual measurements of the probe, the minimal intensity allows injecting at peak approximately 2.4 A in 1 \textOmega\xspace.
+        However, contrary to the open-source ChipWhisperer-Lite, there is very little official documentation about their products, thus reducing the available knowledge.
 
 % PAS ENCORE RETOUCHÉ ICI - début
 {\color{orange}{NOTRE PLATEFORME APRÈS, structure à revoir.

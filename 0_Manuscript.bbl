@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{bbiColin}
+Colin O'Flynn.
+\newblock Low-cost body biasing injection ({BBI}) attacks on {WLCSP} devices.
+\newblock In Pierre-Yvan Liardet and Nele Mentens, editors, {\em Smart Card
+  Research and Advanced Applications}, pages 166--180, Cham, 2021. Springer
+  International Publishing.
+
 \bibitem{mybbiCosade}
 G.~Chancel, J.-M. Galliere, and P.~Maurine.
 \newblock Body biasing injection: To thin or not to thin the substrate?
@@ -145,13 +152,6 @@ Noemie Beringuier-Boher, Marc Lacruche, David El-Baze, Jean-Max Dutertre,
 \newblock In {\em Proceedings of the Third Workshop on Cryptography and
   Security in Computing Systems}, CS2 '16, page 49–54, New York, NY, USA,
   2016. Association for Computing Machinery.
-
-\bibitem{bbiColin}
-Colin O'Flynn.
-\newblock Low-cost body biasing injection ({BBI}) attacks on {WLCSP} devices.
-\newblock In Pierre-Yvan Liardet and Nele Mentens, editors, {\em Smart Card
-  Research and Advanced Applications}, pages 166--180, Cham, 2021. Springer
-  International Publishing.
 
 \bibitem{aesRijndaelProp}
 C.~Sanchez-Avila and R.~Sanchez-Reillol.
