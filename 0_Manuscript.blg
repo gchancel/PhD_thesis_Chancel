@@ -28,45 +28,45 @@ You're missing a field part---line 501 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in firstLfi
 Warning--empty journal in bbiOrigin
-You've used 33 entries,
+You've used 34 entries,
             1791 wiz_defined-function locations,
-            692 strings with 10933 characters,
-and the built_in function-call counts, 11057 in all, are:
-= -- 1021
-> -- 477
+            698 strings with 11170 characters,
+and the built_in function-call counts, 11195 in all, are:
+= -- 1034
+> -- 481
 < -- 26
-+ -- 166
-- -- 133
-* -- 683
-:= -- 1576
-add.period$ -- 112
-call.type$ -- 33
-change.case$ -- 33
++ -- 168
+- -- 134
+* -- 684
+:= -- 1598
+add.period$ -- 116
+call.type$ -- 34
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 566
-empty$ -- 1036
-format.name$ -- 133
-if$ -- 2661
+cite$ -- 36
+duplicate$ -- 571
+empty$ -- 1054
+format.name$ -- 134
+if$ -- 2694
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 34
 missing$ -- 32
-newline$ -- 169
-num.names$ -- 53
-pop$ -- 147
+newline$ -- 175
+num.names$ -- 54
+pop$ -- 153
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 383
+skip$ -- 385
 stack$ -- 0
 substring$ -- 737
-swap$ -- 250
+swap$ -- 251
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 108
-width$ -- 35
-write$ -- 390
+while$ -- 109
+width$ -- 36
+write$ -- 402
 (There was 1 error message)

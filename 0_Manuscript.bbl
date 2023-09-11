@@ -153,6 +153,13 @@ Noemie Beringuier-Boher, Marc Lacruche, David El-Baze, Jean-Max Dutertre,
   Security in Computing Systems}, CS2 '16, page 49–54, New York, NY, USA,
   2016. Association for Computing Machinery.
 
+\bibitem{colinFdtc2023}
+Colin O'Flynn.
+\newblock Picoemp: A low-cost emfi platform compared to bbi and voltage fault
+  injection using tdc and external vcc measurements.
+\newblock Cryptology ePrint Archive, Paper 2023/1195, 2023.
+\newblock \url{https://eprint.iacr.org/2023/1195}.
+
 \bibitem{aesRijndaelProp}
 C.~Sanchez-Avila and R.~Sanchez-Reillol.
 \newblock The rijndael block cipher (aes proposal) : a comparison with des.

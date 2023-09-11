@@ -38,6 +38,7 @@ Eventually, we will draw conclusions on the various observations.
         C = ShiftRows(SubBytes(P^9)) \oplus K^{10}
     \end{equation}
     With $SubBytes(P^i_j)$ being the substitution table (S-box) result calculated on $M^i_j$ byte, and $ShiftRow(j)$ being the $j^{th}$ byte position of the temporary result of the $ShiftRows$ transform.
+    \textcolor{orange}{To finish.}
 
     \subsection{Integrated circuits target characteristics \ddc}
     For the purpose of understanding clearly how we set up the previous attack, it is required to describe thoroughly the integrated circuit targeted.
@@ -58,3 +59,4 @@ Eventually, we will draw conclusions on the various observations.
     For the purpose of accelerating and simplifying the attack process, especially because creating single bit faults is a troublesome process, I designed experiments, to be conducted on the IC target, allowing me to spot interesting IC areas to perform the attack.
     Because the attack targets the AES coprocessor, all the experiments described here are performed specifically on the AES core area.
     \input{2_goodPractices/figures/giraudDFA_0}
+    \textcolor{orange}{To finish.}
