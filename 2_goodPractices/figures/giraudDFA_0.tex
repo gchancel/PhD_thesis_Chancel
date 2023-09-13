@@ -11,18 +11,19 @@
 %    \label{fig:giraudFSM}
 %\end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
-    \begin{subfigure}{0.49\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\textwidth, center,
         trim={14.9cm 0cm 0cm 0cm}, clip]{2_goodPractices/figures/aesFastGndOnly.pdf}
-        \caption{FAM: state-of-the-art}
+        \caption{FAM in a state-of-the-art \bbi platform. 70 \% of the tested locations exhibits an IC crash, and 15 \% exhibits multibytes-mutibits faults. No Giraud's criterion compatible fault is observed.}
         \label{fig:gndFSM}
     \end{subfigure}
-    \begin{subfigure}{0.49\textwidth}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\textwidth, center,
         trim={14.9cm 0cm 0cm 0cm}, clip]{2_goodPractices/figures/aesFastImpGnd.pdf}
-        \caption{FAM: enhanced}
+        \caption{FAM in an enhanced \bbi platform. 90 \% of the locations exhibits a correct behavior, while 10 \% shows Giraud's criterion incompatible behavior (multibyte faults). Five locations show single bit faults, useful for a Giraud single-bit fault attack.}
         \label{fig:giraudFSM}
     \end{subfigure}
     \caption{Fault analysis mapping}

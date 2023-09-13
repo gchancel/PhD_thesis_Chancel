@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  11 SEP 2023 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  13 SEP 2023 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1924,6 +1924,20 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen373
 \titlewidthlast=\dimen374
 \titlewidthfirst=\dimen375
+) (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.st
+y
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/showlabels\showlabels.
+sty
+Package: showlabels 2022/07/18 v1.9.2
+
+Package: `showlabels' v1.9.2 <2022/07/18>
+with amsmath equation tags
+\SL@labelposition=\count399
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz/libraries\tikzlibrarypositioning.code.tex
@@ -2036,8 +2050,8 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty
 Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count399
-\g_pbs_oc_int=\count400
+\g_pbs_page_int=\count400
+\g_pbs_oc_int=\count401
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
 se.sty
@@ -2045,19 +2059,19 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
 Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count401
+\g_ocgbase_nd_int=\count402
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count402
-\calc@Bcount=\count403
+\calc@Acount=\count403
+\calc@Bcount=\count404
 \calc@Adimen=\dimen376
 \calc@Bdimen=\dimen377
 \calc@Askip=\skip132
 \calc@Bskip=\skip133
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count404
+\calc@Ccount=\count405
 \calc@Cskip=\skip134
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/tikzpagenodes\tikzpage
@@ -2099,7 +2113,7 @@ Package zref Info: New property: posx on input line 81.
 Package zref Info: New property: posy on input line 82.
 )
 Package zref Info: New property: linegoal on input line 39.
-\LNGL@unique=\count405
+\LNGL@unique=\count406
 \LNGL@tempdim=\dimen378
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.st
@@ -2118,16 +2132,16 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 \tcb@upperbox=\box116
 \tcb@lowerbox=\box117
 \tcb@phantombox=\box118
-\c@tcbbreakpart=\count406
-\c@tcblayer=\count407
-\c@tcolorbox@number=\count408
+\c@tcbbreakpart=\count407
+\c@tcblayer=\count408
+\c@tcolorbox@number=\count409
 \tcb@temp=\box119
 \tcb@temp=\box120
 \tcb@temp=\box121
 \tcb@temp=\box122
 )
 \tiptext=\box123
-\c@tcnt=\count409
+\c@tcnt=\count410
 \whatsleft=\skip135
 \tipshift=\skip136
 )
@@ -2185,16 +2199,16 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
+\scratchcounter=\count411
 \scratchdimen=\dimen379
 \scratchbox=\box124
-\nofMPsegments=\count411
-\nofMParguments=\count412
+\nofMPsegments=\count412
+\nofMParguments=\count413
 \everyMPshowfont=\toks73
-\MPscratchCnt=\count413
+\MPscratchCnt=\count414
 \MPscratchDim=\dimen380
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
 \everyMPtoPDFconversion=\toks74
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
@@ -2247,12 +2261,12 @@ Package hyperref Info: Link coloring ON on input line 44.
 \@outlinefile=\write10
 \openout10 = `0_Manuscript.out'.
 
-\c@minilofdepth=\count416
-\c@minilotdepth=\count417
-\c@partlofdepth=\count418
-\c@partlotdepth=\count419
-\c@sectlofdepth=\count420
-\c@sectlotdepth=\count421
+\c@minilofdepth=\count417
+\c@minilotdepth=\count418
+\c@partlofdepth=\count419
+\c@partlotdepth=\count420
+\c@sectlofdepth=\count421
+\c@sectlotdepth=\count422
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -2326,13 +2340,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 6
+8.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 68.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 68.
-
 [1
 
 
@@ -2482,14 +2503,20 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 (1_intro/1_main.tex
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 \openout7 = `0_Manuscript.mtc'.
 
 \openout7 = `0_Manuscript.mtc'.
+
 
 (0_Manuscript.mtc7
 Overfull \hbox (14.8714pt too wide) in paragraph at lines 5--5
  [][] [][][]\T1/ppl/m/n/10 Power anal-y-sis and elec-tro-mag-netic anal-y-sis a
-t-tacks []\T1/ppl/m/n/9 2023-09-11 19:18:56+02:00[][][] []  
+t-tacks []\T1/ppl/m/n/9 2023-09-13 16:39:16+02:00[][][] []  
  []
 
 ) [1
@@ -2525,8 +2552,19 @@ Chapter 2.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc8) [11] (2_goodPractices/2_1_summary.tex)
-(2_goodPractices/2_2_0_newFile.tex
+(0_Manuscript.mtc8
+Overfull \hbox (7.67004pt too wide) in paragraph at lines 27--27
+ [][] [][][]\T1/ppl/m/n/10 Enhanced BBI plat-form in a fault at-tack con-text [
+]UP-DATED[] []\T1/ppl/m/n/9 2023-09-13 16:39:16+02:00[][][] []  
+ []
+
+
+Overfull \hbox (10.0904pt too wide) in paragraph at lines 29--29
+ [][] [][][]\T1/ppl/m/n/10 Integrated cir-cuits tar-get char-ac-ter-is-tics []U
+P-DATED[] []\T1/ppl/m/n/9 2023-09-13 16:39:16+02:00[][][] []  
+ []
+
+) [11] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_0_newFile.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\tooltip' on input line 7.
@@ -2541,7 +2579,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\tooltip' on input line 21.
 
 (2_goodPractices/figures/sondeBBIcolin.tex
-<2_goodPractices/figures/colinFigureBBI.png, id=1154, 1220.30907pt x 301.8778pt
+<2_goodPractices/figures/colinFigureBBI.png, id=1157, 1220.30907pt x 301.8778pt
 >
 File: 2_goodPractices/figures/colinFigureBBI.png Graphic file (type png)
 <use 2_goodPractices/figures/colinFigureBBI.png>
@@ -2550,7 +2588,7 @@ put line 4.
 (pdftex.def)             Requested size: 364.19667pt x 90.0942pt.
 ) [13 <./2_goodPractices/figures/colinFigureBBI.png>] (2_goodPractices/figures/
 langerBBI.tex
-<2_goodPractices/figures/langerBBI.jpg, id=1191, 645.41125pt x 889.3225pt>
+<2_goodPractices/figures/langerBBI.jpg, id=1194, 645.41125pt x 889.3225pt>
 File: 2_goodPractices/figures/langerBBI.jpg Graphic file (type jpg)
 <use 2_goodPractices/figures/langerBBI.jpg>
 Package pdftex.def Info: 2_goodPractices/figures/langerBBI.jpg  used on input l
@@ -2558,7 +2596,7 @@ ine 4.
 (pdftex.def)             Requested size: 91.04742pt x 125.4542pt.
 ) [14 <./2_goodPractices/figures/langerBBI.jpg>] (2_goodPractices/figures/riscu
 reBBI.tex
-<2_goodPractices/figures/em-fi-bbi-probe-20-black.jpg, id=1223, 1323.9864pt x 7
+<2_goodPractices/figures/em-fi-bbi-probe-20-black.jpg, id=1226, 1323.9864pt x 7
 95.9336pt>
 File: 2_goodPractices/figures/em-fi-bbi-probe-20-black.jpg Graphic file (type j
 pg)
@@ -2568,7 +2606,7 @@ used on input line 4.
 (pdftex.def)             Requested size: 159.33821pt x 95.78723pt.
 ) [15 <./2_goodPractices/figures/em-fi-bbi-probe-20-black.jpg>]
 (2_goodPractices/figures/chipshouter.tex
-<2_goodPractices/figures/chipshouter_upscaled.png, id=1259, 2063.71pt x 1473.50
+<2_goodPractices/figures/chipshouter_upscaled.png, id=1262, 2063.71pt x 1473.50
 5pt>
 File: 2_goodPractices/figures/chipshouter_upscaled.png Graphic file (type png)
 <use 2_goodPractices/figures/chipshouter_upscaled.png>
@@ -2577,7 +2615,7 @@ Package pdftex.def Info: 2_goodPractices/figures/chipshouter_upscaled.png  used
 (pdftex.def)             Requested size: 182.09486pt x 130.0016pt.
 )
 (2_goodPractices/figures/newAeChipShouter.tex
-<2_goodPractices/figures/picoemp-red.jpeg, id=1285, 240.9pt x 92.0238pt>
+<2_goodPractices/figures/picoemp-red.jpeg, id=1288, 240.9pt x 92.0238pt>
 File: 2_goodPractices/figures/picoemp-red.jpeg Graphic file (type jpg)
 <use 2_goodPractices/figures/picoemp-red.jpeg>
 Package pdftex.def Info: 2_goodPractices/figures/picoemp-red.jpeg  used on inpu
@@ -2590,14 +2628,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [17 <./2_goodPractices/figures/picoemp-red.jpeg>]
 (2_goodPractices/figures/pointBBI.tex
-<2_goodPractices/figures/sondeBBI_loin_raw.png, id=1336, 1397.22pt x 1254.18562
+<2_goodPractices/figures/sondeBBI_loin_raw.png, id=1339, 1397.22pt x 1254.18562
 pt>
 File: 2_goodPractices/figures/sondeBBI_loin_raw.png Graphic file (type png)
 <use 2_goodPractices/figures/sondeBBI_loin_raw.png>
 Package pdftex.def Info: 2_goodPractices/figures/sondeBBI_loin_raw.png  used on
  input line 21.
 (pdftex.def)             Requested size: 136.57462pt x 122.59358pt.
-<2_goodPractices/figures/pointeBBI2.png, id=1337, 862.9038pt x 773.7708pt>
+<2_goodPractices/figures/pointeBBI2.png, id=1340, 862.9038pt x 773.7708pt>
 File: 2_goodPractices/figures/pointeBBI2.png Graphic file (type png)
 <use 2_goodPractices/figures/pointeBBI2.png>
 Package pdftex.def Info: 2_goodPractices/figures/pointeBBI2.png  used on input 
@@ -2606,7 +2644,7 @@ line 30.
 ) [18 <./2_goodPractices/figures/sondeBBI_loin_raw.png> <./2_goodPractices/figu
 res/pointeBBI2.png>]
 (2_goodPractices/figures/avrk4b.tex
-<2_goodPractices/figures/avrk4b.pdf, id=1367, 1532.72626pt x 359.09157pt>
+<2_goodPractices/figures/avrk4b.pdf, id=1370, 1532.72626pt x 359.09157pt>
 File: 2_goodPractices/figures/avrk4b.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/avrk4b.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/avrk4b.pdf  used on input line
@@ -2623,7 +2661,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\tooltip' on input line 10.
 
 (2_goodPractices/figures/bbiPracticeBadGnd.tex
-<2_goodPractices/figures/model0Probe.pdf, id=1410, 369.88583pt x 199.1693pt>
+<2_goodPractices/figures/model0Probe.pdf, id=1413, 369.88583pt x 199.1693pt>
 File: 2_goodPractices/figures/model0Probe.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/model0Probe.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/model0Probe.pdf  used on input
@@ -2634,7 +2672,7 @@ Package pdftex.def Info: 2_goodPractices/figures/model0Probe.pdf  used on input
 LaTeX Font Warning: Font shape `LGR/ppl/m/sl' undefined
 (Font)              using `LGR/ppl/m/n' instead on input line 14.
 
-<2_goodPractices/figures/SIMPLE_BBI_0.pdf, id=1435, 505.89pt x 317.98799pt>
+<2_goodPractices/figures/SIMPLE_BBI_0.pdf, id=1438, 505.89pt x 317.98799pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_0.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_0.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_0.pdf  used on inpu
@@ -2642,14 +2680,14 @@ t line 19.
 (pdftex.def)             Requested size: 204.85846pt x 128.76987pt.
 ) [20 <./2_goodPractices/figures/model0Probe.pdf> <./2_goodPractices/figures/SI
 MPLE_BBI_0.pdf>] (2_goodPractices/figures/bbiPracticeBadGndDiffIcLoad.tex
-<2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf, id=1540, 505.89pt x 317.9879
+<2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf, id=1543, 505.89pt x 317.9879
 9pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf  used
  on input line 6.
 (pdftex.def)             Requested size: 218.51521pt x 137.35323pt.
-<2_goodPractices/figures/SIMPLE_BBI_0_0_IC2k.pdf, id=1541, 505.89pt x 317.98799
+<2_goodPractices/figures/SIMPLE_BBI_0_0_IC2k.pdf, id=1544, 505.89pt x 317.98799
 pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_0_0_IC2k.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_0_0_IC2k.pdf>
@@ -2662,7 +2700,7 @@ Underfull \vbox (badness 4621) has occurred while \output is active []
 
  [22 <./2_goodPractices/figures/SIMPLE_BBI_0_0_IC250.pdf> <./2_goodPractices/fi
 gures/SIMPLE_BBI_0_0_IC2k.pdf>] (2_goodPractices/figures/bbiPracticeImpGnd.tex
-<2_goodPractices/figures/model2ProbeManuscrit.pdf, id=1663, 369.88583pt x 199.1
+<2_goodPractices/figures/model2ProbeManuscrit.pdf, id=1666, 369.88583pt x 199.1
 693pt>
 File: 2_goodPractices/figures/model2ProbeManuscrit.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/model2ProbeManuscrit.pdf>
@@ -2674,7 +2712,7 @@ Underfull \hbox (badness 1137) in paragraph at lines 7--7
 \T1/ppl/m/sl/9 ments are: cre-at-ing an ap-prox-i-mate impedance
  []
 
-<2_goodPractices/figures/SIMPLE_BBI_2.pdf, id=1680, 505.89pt x 317.98799pt>
+<2_goodPractices/figures/SIMPLE_BBI_2.pdf, id=1683, 505.89pt x 317.98799pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_2.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_2.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_2.pdf  used on inpu
@@ -2686,14 +2724,14 @@ Underfull \vbox (badness 2781) has occurred while \output is active []
  [23 <./2_goodPractices/figures/model2ProbeManuscrit.pdf> <./2_goodPractices/fi
 gures/SIMPLE_BBI_2.pdf>] (2_goodPractices/figures/bbiPracticeImpGndDiffIcLoad.t
 ex
-<2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf, id=1782, 505.89pt x 317.9879
+<2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf, id=1785, 505.89pt x 317.9879
 9pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf  used
  on input line 6.
 (pdftex.def)             Requested size: 218.51521pt x 137.35323pt.
-<2_goodPractices/figures/SIMPLE_BBI_2_0_IC2k.pdf, id=1783, 505.89pt x 317.98799
+<2_goodPractices/figures/SIMPLE_BBI_2_0_IC2k.pdf, id=1786, 505.89pt x 317.98799
 pt>
 File: 2_goodPractices/figures/SIMPLE_BBI_2_0_IC2k.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/SIMPLE_BBI_2_0_IC2k.pdf>
@@ -2703,7 +2741,7 @@ on input line 13.
 ) [24]
 [25 <./2_goodPractices/figures/SIMPLE_BBI_2_0_IC250.pdf> <./2_goodPractices/fig
 ures/SIMPLE_BBI_2_0_IC2k.pdf>] (2_goodPractices/figures/bbiRealXp.tex
-<2_goodPractices/figures/realPulsesComparisons.pdf, id=1906, 831.105pt x 361.35
+<2_goodPractices/figures/realPulsesComparisons.pdf, id=1909, 831.105pt x 361.35
 pt>
 File: 2_goodPractices/figures/realPulsesComparisons.pdf Graphic file (type pdf)
 
@@ -2715,14 +2753,14 @@ d on input line 5.
 [27 <./2_goodPractices/figures/realPulsesComparisons.pdf>])
 (2_goodPractices/2_2_3_enhancedBBIGiraudAttack.tex
 (2_goodPractices/figures/aesLastRound.tex
-<2_goodPractices/figures/aesLastRounds.pdf, id=2008, 386.95747pt x 99.58464pt>
+<2_goodPractices/figures/aesLastRounds.pdf, id=2011, 386.95747pt x 99.58464pt>
 File: 2_goodPractices/figures/aesLastRounds.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/aesLastRounds.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/aesLastRounds.pdf  used on inp
 ut line 5.
 (pdftex.def)             Requested size: 364.19667pt x 93.73111pt.
 ) [28]
-Overfull \hbox (30.74274pt too wide) in paragraph at lines 39--42
+Overfull \hbox (30.74274pt too wide) in paragraph at lines 40--43
 \T1/ppl/m/n/10.95 With $\OML/lmm/m/it/10.95 SubBytes\OT1/lmr/m/n/10.95 (\OML/lm
 m/m/it/10.95 P[]\OT1/lmr/m/n/10.95 )$ \T1/ppl/m/n/10.95 be-ing the sub-sti-tu-t
 ion ta-ble (S-box) re-sult cal-cu-lated on $\OML/lmm/m/it/10.95 M[]$ \T1/ppl/m/
@@ -2730,24 +2768,25 @@ n/10.95 byte, and $\OML/lmm/m/it/10.95 ShiftRow\OT1/lmr/m/n/10.95 (\OML/lmm/m/i
 t/10.95 j\OT1/lmr/m/n/10.95 )$
  []
 
-(2_goodPractices/figures/giraudDFA_0.tex [29 <./2_goodPractices/figures/aesLast
-Rounds.pdf>]
-<2_goodPractices/figures/aesFastGndOnly.pdf, id=2084, 898.74484pt x 330.57877pt
+[29 <./2_goodPractices/figures/aesLastRounds.pdf>]
+(2_goodPractices/figures/giraudDFA_0.tex
+<2_goodPractices/figures/aesFastGndOnly.pdf, id=2096, 898.74484pt x 330.57877pt
 >
 File: 2_goodPractices/figures/aesFastGndOnly.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/aesFastGndOnly.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/aesFastGndOnly.pdf  used on in
 put line 18.
-(pdftex.def)             Requested size: 223.07211pt x 155.31151pt.
-<2_goodPractices/figures/aesFastImpGnd.pdf, id=2086, 894.61841pt x 330.63283pt>
+(pdftex.def)             Requested size: 204.85846pt x 142.63034pt.
+<2_goodPractices/figures/aesFastImpGnd.pdf, id=2106, 894.61841pt x 330.63283pt>
 
 File: 2_goodPractices/figures/aesFastImpGnd.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/aesFastImpGnd.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/aesFastImpGnd.pdf  used on inp
-ut line 24.
-(pdftex.def)             Requested size: 223.07211pt x 156.7041pt.
-)) (2_goodPractices/2_5_conclusion.tex)) [30 <./2_goodPractices/figures/aesFast
-GndOnly.pdf> <./2_goodPractices/figures/aesFastImpGnd.pdf>]
+ut line 25.
+(pdftex.def)             Requested size: 204.85846pt x 143.90987pt.
+) [30])
+(2_goodPractices/2_5_conclusion.tex [31 <./2_goodPractices/figures/aesFastGndOn
+ly.pdf> <./2_goodPractices/figures/aesFastImpGnd.pdf>])) [32]
 \openout2 = `3_modeling/3_main.aux'.
 
 
@@ -2757,30 +2796,30 @@ Chapter 3.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc9) [31
+(0_Manuscript.mtc9) [33
 
 
 
 
 ] (3_modeling/3_1_abstract.tex)
-(3_modeling/3_2_introduction.tex [32]) (3_modeling/3_3_electricalModels.tex
+(3_modeling/3_2_introduction.tex [34]) (3_modeling/3_3_electricalModels.tex
 (3_modeling/figures/dualTripleCoupe.tex
-<3_modeling/figures/DUAL.pdf, id=2272, 364.19528pt x 250.38426pt>
+<3_modeling/figures/DUAL.pdf, id=2323, 364.19528pt x 250.38426pt>
 File: 3_modeling/figures/DUAL.pdf Graphic file (type pdf)
 <use 3_modeling/figures/DUAL.pdf>
 Package pdftex.def Info: 3_modeling/figures/DUAL.pdf  used on input line 7.
 (pdftex.def)             Requested size: 223.07211pt x 153.36455pt.
-<3_modeling/figures/TRIPLE.pdf, id=2273, 364.19528pt x 250.38426pt>
+<3_modeling/figures/TRIPLE.pdf, id=2324, 364.19528pt x 250.38426pt>
 File: 3_modeling/figures/TRIPLE.pdf Graphic file (type pdf)
 <use 3_modeling/figures/TRIPLE.pdf>
 Package pdftex.def Info: 3_modeling/figures/TRIPLE.pdf  used on input line 13.
 (pdftex.def)             Requested size: 223.07211pt x 153.36455pt.
-) [33 <./3_modeling/figures/DUAL.pdf> <./3_modeling/figures/TRIPLE.pdf
+) [35 <./3_modeling/figures/DUAL.pdf> <./3_modeling/figures/TRIPLE.pdf
 
 pdfTeX warning: pdflatex.exe (file ./3_modeling/figures/TRIPLE.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >] (3_modeling/figures/substrateSubdivid.tex
-<3_modeling/figures/substrateSubdivision.pdf, id=2355, 1806.75pt x 1156.32pt>
+<3_modeling/figures/substrateSubdivision.pdf, id=2407, 1806.75pt x 1156.32pt>
 File: 3_modeling/figures/substrateSubdivision.pdf Graphic file (type pdf)
 <use 3_modeling/figures/substrateSubdivision.pdf>
 Package pdftex.def Info: 3_modeling/figures/substrateSubdivision.pdf  used on i
@@ -2788,28 +2827,28 @@ nput line 3.
 (pdftex.def)             Requested size: 341.43307pt x 218.5033pt.
 )
 (3_modeling/figures/dualTripleScs.tex
-<3_modeling/figures/dualWell_no_5e.pdf, id=2356, 1445.4pt x 1706.37512pt>
+<3_modeling/figures/dualWell_no_5e.pdf, id=2408, 1445.4pt x 1706.37512pt>
 File: 3_modeling/figures/dualWell_no_5e.pdf Graphic file (type pdf)
 <use 3_modeling/figures/dualWell_no_5e.pdf>
 Package pdftex.def Info: 3_modeling/figures/dualWell_no_5e.pdf  used on input l
 ine 7.
 (pdftex.def)             Requested size: 227.62206pt x 268.70343pt.
-<3_modeling/figures/tripleWell_no_5e.pdf, id=2357, 1445.4pt x 1706.37512pt>
+<3_modeling/figures/tripleWell_no_5e.pdf, id=2409, 1445.4pt x 1706.37512pt>
 File: 3_modeling/figures/tripleWell_no_5e.pdf Graphic file (type pdf)
 <use 3_modeling/figures/tripleWell_no_5e.pdf>
 Package pdftex.def Info: 3_modeling/figures/tripleWell_no_5e.pdf  used on input
  line 13.
 (pdftex.def)             Requested size: 227.62206pt x 268.70343pt.
-) [34 <./3_modeling/figures/substrateSubdivision.pdf>]
+) [36 <./3_modeling/figures/substrateSubdivision.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./3_modeling/figures/dualWell_no_5e.pdf> <./3_modeling/figures/tripleWell
+ [37 <./3_modeling/figures/dualWell_no_5e.pdf> <./3_modeling/figures/tripleWell
 _no_5e.pdf
 
 pdfTeX warning: pdflatex.exe (file ./3_modeling/figures/tripleWell_no_5e.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->] [36] (3_modeling/algorithms/figureHspiceGen.tex
-<3_modeling/figures/algoFigure5.png, id=2403, 1606.0pt x 1806.75pt>
+>] [38] (3_modeling/algorithms/figureHspiceGen.tex
+<3_modeling/figures/algoFigure5.png, id=2454, 1606.0pt x 1806.75pt>
 File: 3_modeling/figures/algoFigure5.png Graphic file (type png)
 <use 3_modeling/figures/algoFigure5.png>
 Package pdftex.def Info: 3_modeling/figures/algoFigure5.png  used on input line
@@ -2817,12 +2856,6 @@ Package pdftex.def Info: 3_modeling/figures/algoFigure5.png  used on input line
 (pdftex.def)             Requested size: 227.62206pt x 256.05855pt.
 )
 (3_modeling/algorithms/hspiceGen.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
-.
-
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 50.
 Package textcomp Info: Symbol \textlbrackdbl not provided by
@@ -2837,19 +2870,18 @@ Package textcomp Info: Symbol \textlbrackdbl not provided by
 Package textcomp Info: Symbol \textlbrackdbl not provided by
 (textcomp)             font family ppl in TS1 encoding.
 (textcomp)             Default family used instead on input line 79.
-)
-[37 <./3_modeling/figures/algoFigure5.png>] [38])
-(3_modeling/3_4_preliminaryValidation.tex
+) [39 <./3_modeling/figures/algoFigure5.png>] [40]) (3_modeling/3_4_preliminary
+Validation.tex
 (3_modeling/figures/surfaceSplitScs.tex
-<3_modeling/figures/IC_split.pdf, id=2418, 301.59921pt x 284.52756pt>
+<3_modeling/figures/IC_split.pdf, id=2468, 301.59921pt x 284.52756pt>
 File: 3_modeling/figures/IC_split.pdf Graphic file (type pdf)
 <use 3_modeling/figures/IC_split.pdf>
 Package pdftex.def Info: 3_modeling/figures/IC_split.pdf  used on input line 3.
 
 (pdftex.def)             Requested size: 227.62206pt x 214.74101pt.
-) [39 <./3_modeling/figures/IC_split.pdf>] (3_modeling/figures/simuCurrentMaps/
+) [41 <./3_modeling/figures/IC_split.pdf>] (3_modeling/figures/simuCurrentMaps/
 vddGndMixed.tex
-<3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf, id=2463, 794.97pt x 650.43p
+<3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf, id=2515, 794.97pt x 650.43p
 t>
 File: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf Graphic file (type pdf)
 
@@ -2857,7 +2889,7 @@ File: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf Graphic file (type pdf)
 Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf  use
 d on input line 8.
 (pdftex.def)             Requested size: 223.07211pt x 137.80524pt.
-<3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf, id=2465, 794.97pt x 650.43p
+<3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf, id=2517, 794.97pt x 650.43p
 t>
 File: 3_modeling/figures/simuCurrentMaps/vddMixedOp.pdf Graphic file (type pdf)
 
@@ -2869,20 +2901,20 @@ d on input line 14.
 (3_modeling/3_5_generatorModelingAndFurtherValidation.tex
 Overfull \hbox (25.20195pt too wide) in paragraph at lines 1--1
 |[]\T1/ppl/b/n/14.4 Voltage pulse gen-er-a-tor model and fur-ther val-i-da-tion
- []\T1/ppl/b/n/9 2023-09-11 19:19:09+02:00[]| 
+ []\T1/ppl/b/n/9 2023-09-13 16:39:25+02:00[]| 
  []
 
 
-LaTeX Warning: Reference `chap:2goodPractices' on page 40 undefined on input li
+LaTeX Warning: Reference `chap:2goodPractices' on page 42 undefined on input li
 ne 9.
 
-[40 <./3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf> <./3_modeling/figures
+[42 <./3_modeling/figures/simuCurrentMaps/gndMixedOp.pdf> <./3_modeling/figures
 /simuCurrentMaps/vddMixedOp.pdf>]
 
-LaTeX Warning: Reference `chap:1intro' on page 41 undefined on input line 28.
+LaTeX Warning: Reference `chap:1intro' on page 43 undefined on input line 28.
 
 (3_modeling/figures/simuCurrentMaps/coupeCourant.tex
-<3_modeling/figures/simuCurrentMaps/dualWellCross.pdf, id=2558, 1156.32pt x 433
+<3_modeling/figures/simuCurrentMaps/dualWellCross.pdf, id=2609, 1156.32pt x 433
 .62pt>
 File: 3_modeling/figures/simuCurrentMaps/dualWellCross.pdf Graphic file (type p
 df)
@@ -2890,7 +2922,7 @@ df)
 Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/dualWellCross.pdf  
 used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 129.71286pt.
-<3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf, id=2560, 1156.32pt x 4
+<3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf, id=2611, 1156.32pt x 4
 33.62pt>
 File: 3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf Graphic file (type
  pdf)
@@ -2899,9 +2931,9 @@ Package pdftex.def Info: 3_modeling/figures/simuCurrentMaps/tripleWellCross.pdf
   used on input line 16.
 (pdftex.def)             Requested size: 455.24411pt x 129.71286pt.
 ))
-(3_modeling/3_5_5_XPvalidCartoCurrent.tex [41]) (3_modeling/3_6_conclusion.tex
-[42 <./3_modeling/figures/simuCurrentMaps/dualWellCross.pdf> <./3_modeling/figu
-res/simuCurrentMaps/tripleWellCross.pdf>])) [43] [44{C:/Users/geoff2/AppData/Lo
+(3_modeling/3_5_5_XPvalidCartoCurrent.tex [43]) (3_modeling/3_6_conclusion.tex
+[44 <./3_modeling/figures/simuCurrentMaps/dualWellCross.pdf> <./3_modeling/figu
+res/simuCurrentMaps/tripleWellCross.pdf>])) [45] [46{C:/Users/geoff2/AppData/Lo
 cal/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 \openout2 = `4_thinning/4_main.aux'.
 
@@ -2911,21 +2943,21 @@ Chapter 4.
 
 \openout7 = `0_Manuscript.mtc'.
 
-(0_Manuscript.mtc10) [45
+(0_Manuscript.mtc10) [47
 
 
 
 
 ] (4_thinning/4_1_abstract.tex)
-(4_thinning/4_2_introduction.tex) (4_thinning/4_3_geomModel.tex [46]
+(4_thinning/4_2_introduction.tex) (4_thinning/4_3_geomModel.tex [48]
 (4_thinning/figures/geomCrossView.tex
-<4_thinning/figures/geomCrossViewNew.pdf, id=2696, 569.05513pt x 256.0748pt>
+<4_thinning/figures/geomCrossViewNew.pdf, id=2748, 569.05513pt x 256.0748pt>
 File: 4_thinning/figures/geomCrossViewNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/geomCrossViewNew.pdf  used on input
  line 11.
 (pdftex.def)             Requested size: 455.24411pt x 204.86792pt.
-<4_thinning/figures/geomCrossViewThinNew.pdf, id=2697, 569.05513pt x 256.0748pt
+<4_thinning/figures/geomCrossViewThinNew.pdf, id=2749, 569.05513pt x 256.0748pt
 >
 File: 4_thinning/figures/geomCrossViewThinNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewThinNew.pdf>
@@ -2936,16 +2968,16 @@ nput line 16.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [47]
+) [49]
 Underfull \vbox (badness 4752) has occurred while \output is active []
 
- [48 <./4_thinning/figures/geomCrossViewNew.pdf> <./4_thinning/figures/geomCros
+ [50 <./4_thinning/figures/geomCrossViewNew.pdf> <./4_thinning/figures/geomCros
 sViewThinNew.pdf
 
 pdfTeX warning: pdflatex.exe (file ./4_thinning/figures/geomCrossViewThinNew.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
->] [49] (4_thinning/figures/simuSubCoupe.tex
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=2815, 794.97
+>] [51] (4_thinning/figures/simuSubCoupe.tex
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=2865, 794.97
 pt x 650.43pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf Graphic fil
 e (type pdf)
@@ -2953,7 +2985,7 @@ e (type pdf)
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex14
 0um.pdf  used on input line 14.
 (pdftex.def)             Requested size: 455.24411pt x 129.0499pt.
-<4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf, id=2817, 794.9
+<4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf, id=2867, 794.9
 7pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex140um.pdf Graphic fi
 le (type pdf)
@@ -2961,7 +2993,7 @@ le (type pdf)
 Package pdftex.def Info: 4_thinning/figures/simuSubBottomVoltageTripleWellApex1
 40um.pdf  used on input line 20.
 (pdftex.def)             Requested size: 455.24411pt x 311.91382pt.
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=2819, 794.97p
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=2869, 794.97p
 t x 650.43pt>
 File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
  (type pdf)
@@ -2969,7 +3001,7 @@ File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
 Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60
 um.pdf  used on input line 33.
 (pdftex.def)             Requested size: 455.24411pt x 65.30862pt.
-<4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf, id=2821, 794.97
+<4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf, id=2871, 794.97
 pt x 650.43pt>
 File: 4_thinning/figures/simuSubBottomVoltageTripleWellApex60um.pdf Graphic fil
 e (type pdf)
@@ -2980,12 +3012,12 @@ Package pdftex.def Info: 4_thinning/figures/simuSubBottomVoltageTripleWellApex6
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf> <./4_thi
+ [52 <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf> <./4_thi
 nning/figures/simuSubBottomVoltageTripleWellApex140um.pdf>])
-(4_thinning/4_4_validation.tex [51 <./4_thinning/figures/simuSubCoupeVoltageTri
+(4_thinning/4_4_validation.tex [53 <./4_thinning/figures/simuSubCoupeVoltageTri
 pleWellApex60um.pdf> <./4_thinning/figures/simuSubBottomVoltageTripleWellApex60
 um.pdf>] (4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=3027, 1350.00356pt x 404.712pt>
+<4_thinning/figures/cartosFautesNew.pdf, id=3078, 1350.00356pt x 404.712pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -2993,7 +3025,7 @@ line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 )
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=3028, 1350.00356pt x 404.712p
+<4_thinning/figures/cartosFautesSpreading.pdf, id=3079, 1350.00356pt x 404.712p
 t>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
@@ -3003,21 +3035,21 @@ input line 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52])
+ [54])
 (4_thinning/figures/cartosFautesCouples.tex
-<4_thinning/figures/cartosCouples.pdf, id=3035, 1350.00356pt x 435.0654pt>
+<4_thinning/figures/cartosCouples.pdf, id=3086, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosCouples.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosCouples.pdf  used on input li
 ne 3.
 (pdftex.def)             Requested size: 455.24411pt x 146.70541pt.
-) [53 <./4_thinning/figures/cartosFautesNew.pdf> <./4_thinning/figures/cartosFa
+) [55 <./4_thinning/figures/cartosFautesNew.pdf> <./4_thinning/figures/cartosFa
 utesSpreading.pdf> <./4_thinning/figures/cartosCouples.pdf>]) (4_thinning/4_5_c
-onclusion.tex [54])) [55]
+onclusion.tex [56])) [57]
 \openout2 = `5_faultModel/5_main.aux'.
 
 
-(5_faultModel/5_main.tex [56
+(5_faultModel/5_main.tex [58
 
 
 
@@ -3031,13 +3063,13 @@ Chapter 5.
 (0_Manuscript.mtc11
 Overfull \hbox (4.66103pt too wide) in paragraph at lines 4--4
  [][] [][][]\T1/ppl/m/n/10 Sequential logic op-er-a-tion and sim-ple fault mode
-l []\T1/ppl/m/n/9 2023-09-11 19:18:56+02:00[][][] []  
+l []\T1/ppl/m/n/9 2023-09-13 16:39:16+02:00[][][] []  
  []
 
-) [57] (5_faultModel/5_1_summary.tex) (5_faultModel/5_2_introduction.tex)
+) [59] (5_faultModel/5_1_summary.tex) (5_faultModel/5_2_introduction.tex)
 (5_faultModel/5_3_chargeExtortion.tex
 (5_faultModel/figures/bbiFaultSusceptibility.tex
-<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=3259, 150.5625pt x 70.7643
+<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=3311, 150.5625pt x 70.7643
 7pt>
 File: 5_faultModel/figures/bbiFaultSusceptibility.pdf Graphic file (type pdf)
 <use 5_faultModel/figures/bbiFaultSusceptibility.pdf>
@@ -3047,13 +3079,13 @@ on input line 3.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58])
+ [60])
 (5_faultModel/5_4_subEpiCurrentSim.tex) (5_faultModel/5_5_simuLogicGates.tex))
-[59 <./5_faultModel/figures/bbiFaultSusceptibility.pdf>]
+[61 <./5_faultModel/figures/bbiFaultSusceptibility.pdf>]
 \openout2 = `6_conclusion/6_main.aux'.
 
 
-(6_conclusion/6_main.tex [60
+(6_conclusion/6_main.tex [62
 
 
 
@@ -3062,7 +3094,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 6.
 Package minitoc Info: I0006
 (minitoc)             0_Manuscript.mtc12 is empty on input line 6.
-[61]) [62
+[63]) [64
 
 
 
@@ -3070,9 +3102,9 @@ Package minitoc Info: I0006
 \tf@brf=\write15
 \openout15 = `0_Manuscript.brf'.
 
- [63
+ [65
 
-] [64] [65])
+] [66] [67])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 0_Manuscript.maf file.
@@ -3089,9 +3121,13 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 0_Manuscript.log file.
 
-[66] (0_Manuscript.aux (0A_Abstract.aux) (0B_Acknowledgments.aux)
+[68] (0_Manuscript.aux (0A_Abstract.aux) (0B_Acknowledgments.aux)
 (1_intro/1_main.aux) (2_goodPractices/2_main.aux) (3_modeling/3_main.aux)
 (4_thinning/4_main.aux) (5_faultModel/5_main.aux) (6_conclusion/6_main.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3104,19 +3140,19 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 6B5511DCFC0B9E7E259D57553743D610;24745
-(rerunfilecheck)             After:  6E1FAD03D267109E210AFC2050B18494;24745.
+(rerunfilecheck)             Before: 84963BA29168B9B2319570E171882DBC;24917
+(rerunfilecheck)             After:  B12329B25AAE97DCF746EDE15E3FBC83;24917.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
-(rerunfilecheck)             Checksum: EF9FC645065B94D86293A6D2478DD3C6;2930.
+(rerunfilecheck)             Checksum: AC5600B948EC96D8CF27CEECC2F02212;2930.
  ) 
 Here is how much of TeX's memory you used:
- 65374 strings out of 476411
- 1486152 string characters out of 5788662
- 2128726 words of memory out of 5000000
- 83918 multiletter control sequences out of 15000+600000
- 593039 words of font info for 136 fonts, out of 8000000 for 9000
+ 65805 strings out of 476411
+ 1492464 string characters out of 5788662
+ 2131716 words of memory out of 5000000
+ 84322 multiletter control sequences out of 15000+600000
+ 595292 words of font info for 146 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 130i,18n,123p,2281b,1116s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,18n,123p,2281b,1118s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/math
 pazo/fplmr.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -3132,16 +3168,17 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/geoff2/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/geoff2/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/geoff2/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/U
-sers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C
-:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pf
-b><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8
-a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/u
-plr8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
-no/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (86 pages, 25458076 bytes).
+sers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/hoekwater/stmary10
+.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucr
+r8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino
+/uplb8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
+tino/uplr8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
+palatino/uplr8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/palatino/uplri8a.pfb>
+Output written on 0_Manuscript.pdf (88 pages, 25475762 bytes).
 PDF statistics:
- 3518 PDF objects out of 3580 (max. 8388607)
- 2145 compressed objects within 22 object streams
- 247 named destinations out of 1000 (max. 500000)
- 1874 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3574 PDF objects out of 3580 (max. 8388607)
+ 2188 compressed objects within 22 object streams
+ 257 named destinations out of 1000 (max. 500000)
+ 1904 words of extra memory for PDF output out of 10000 (max. 10000000)
 
