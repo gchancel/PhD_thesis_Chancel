@@ -9,7 +9,7 @@
 }%
 \csgdef{bibdir}{bib/}% bst, bib files
 
-\documentclass[11pt]{book}
+\documentclass[table, dvipsnames, 11pt]{book}
 \pdfoutput=1
 
 %%% Styles
@@ -39,7 +39,6 @@
 \usepackage{subfloat}
 %\usepackage{subfig}
 \usepackage{tabularx}
-\usepackage{tikz}
 \usepackage[european, noarrowmos]{circuitikz}
 \usepackage{svg}
 \usepackage{import}
@@ -59,7 +58,8 @@
 %\usepackage{layouts}
 \usepackage[export]{adjustbox}
 %\usepackage[dvipsnames]{xcolor}
-\usepackage{colortbl}
+\usepackage{tikz}
+%\usepackage{colortbl}
 \usepackage{hhline}
 \usepackage{tabu}
 \usepackage{tabularx}
@@ -76,6 +76,7 @@
 \definecolor{myCyan}{RGB}{59, 204, 255}
 \definecolor{myViolet}{RGB}{169, 0, 173}
 \definecolor{myViolet2}{RGB}{178, 32, 214}
+\definecolor{myViolet3}{RGB}{242, 0, 255}
 \definecolor{myGreenFlash}{RGB}{19, 237, 55}
 \definecolor{myYellowNormal}{RGB}{156, 142, 5}
 \newcommand{\cRef}[2]{\hyperref[#1]{\textcolor{myViolet}{#2}}}
@@ -96,11 +97,13 @@
 \newcommand{\DDC}{\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\ddc}{\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\DDCU}{\textcolor{myViolet2}{UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
-\newcommand{\ddcu}{\textcolor{myViolet2}{UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddcu}{\textcolor{myViolet2}{\footnotesize UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\DDCNEW}{\textcolor{myGreenFlash}{NEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
-\newcommand{\ddcnew}{\textcolor{myGreenFlash}{NEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddcnew}{\textcolor{myGreenFlash}{\footnotesize NEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\DDCNO}{\textcolor{myYellowNormal}{NO CHANGES}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
-\newcommand{\ddcno}{\textcolor{myYellowNormal}{NO CHANGES}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddcno}{\textcolor{myYellowNormal}{\footnotesize NO CHANGES}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\DDCCPU}{\textcolor{myViolet3}{PART. UP.}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddcpu}{\textcolor{myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 
 %% Uncomment the three next lines before compiling final build %%
 %\usepackage[final]{showlabels}
@@ -237,7 +240,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{pdfbase}[2017/03/16]
 \usepackage{xparse,ocgbase}
-\usepackage{xcolor,calc}
+%\usepackage{xcolor,calc}
+\usepackage{calc}
 \usepackage{tikzpagenodes,linegoal}
 \usetikzlibrary{calc}
 \usepackage{tcolorbox}

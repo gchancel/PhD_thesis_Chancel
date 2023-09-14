@@ -1,34 +1,34 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{BBI in practice \ddcno}
+\section{BBI in practice \ddcpu}
 \label{chap:2_goodPractices;sect:bbiInPractice}
-With actual \bbi platform in mind, I am going to introduce a typical \bbi platform model that we are going to study in details.
+With actual \bbi platform in mind, let me introduce a typical \bbi platform model that we are going to study in details.
 %In this section, I am going to describe coarse electrical \bbi platform models.
 These models allow us to concisely understand, evaluate and simulate \bbi platforms behavior, limitations and room for improvement.
 We will therefore analyze the platform's performance and point out its weaknesses.
 
-    \subsection{Typical BBI platform model \ddcno}
+    \subsection{Typical BBI platform model \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:bbiPlatformModel}
     \input{2_goodPractices/figures/bbiPracticeBadGnd}
     To be able to quickly predict and analyze \bbi platforms, I developed a very simple electrical model, illustrated in Fig. \ref{fig:bbiPracticeBadGnd}.
     This model represents the key components of a \bbi platform, which are:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item The voltage pulse generator
-        \item The transmission line, used to connect the probe to the generator
-        \item The \bbi probe
-        \item The targeted IC, modeled by an electrical resistance
-        \item The grounding installation, consisting of electrical resistances connected between equipment grounding
+        \item The voltage pulse generator;
+        \item The transmission line, used to connect the probe to the generator;
+        \item The \bbi probe;
+        \item The targeted IC, modeled by an electrical resistance;
+        \item The grounding installation, consisting of electrical resistances connected between equipment grounding.
     \end{itemize}
 
 
-    \subsection{Platforms evaluation criteria \ddcno}
+    \subsection{Platforms evaluation criteria \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:platformEvalCrit}
     For the purpose of evaluating \bbi platforms, we decided to focus on two important criteria, allowing to represent the platform quality:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item The voltage pulse measured at the generator's output characteristics, allowing us to observe how the generator behave when loaded with the transmission line and the IC
-        \item The target ground current waveform characteristics, allowing to monitor exactly what is actually injected into the IC
+        \item The characteristics of the voltage pulse measured at the generator output, allowing to observe how the generator behave when loaded with the transmission line and the IC;
+        \item The characteristics of the target ground current waveform, allowing to monitor exactly what is actually injected into the IC.
     \end{itemize}
 
 %        \subsubsection{Voltage pulse generator output characteristics measurements \ddc}
@@ -37,7 +37,7 @@ We will therefore analyze the platform's performance and point out its weaknesse
 %        \subsubsection{IC target ground current measurements \ddc}
 %        \label{chap:2_goodPractices;sect:bbiInPractice;subsect:platformEvalCrit;subsubsect:icGndMeas}
 
-    \subsection{Raw results \ddcno}
+    \subsection{Raw results \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:rawRes}
     To that end, we will deeply analyze the platform's simulation results shown in Fig. \ref{fig:bbiPracticeBadGndSignals}.
     Four signals are displayed, with their colors matching the colors in Fig. \ref{fig:bbiPracticeBadGnd} for greater clarity.
@@ -46,26 +46,27 @@ We will therefore analyze the platform's performance and point out its weaknesse
     Its characteristics are the following: a voltage set point of -140 V and a pulse width set point of 10 ns.
     It is a steep, fast and precise pulse with controlled rise and fall times, pulse width and voltage.
     However, when performing real experiments, which the model allow us to evaluate, this ideal pulse falls apart.
-    It can be seen thanks to the orange and green waveforms, representing respectively the pulse observer at the generator's output and the pulse effectively applied onto the backside of the IC target.
+    It can be seen thanks to the orange and green waveforms, representing respectively the pulse observer at the generator output and the pulse effectively applied onto the backside of the IC target.
     There are multiple obvious observations that can be made concerning the received pulse (green) signal:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item The voltage set point is not respected, with a 23.5 \% undershoot and a 107 V overshoot
+        \item The voltage set point is not respected, with a 23.5 \% negative percentage overshoot (PO) on the falling edge, and a 107 \% positive percentage overshoot (PO);
         \item There is obvious ringing, causing the pulse width to be longer than expected in addition to damped oscillations
     \end{itemize}
-    These effects can also be observed on the IC ground current waveform (purple), as it is a mirror of the applied pulse due to the pure resistive nature of the IC in that model.
+    These effects can also be observed on the IC ground current waveform (\textcolor{Purple}{putple}), as it is a mirror of the applied pulse due to the pure resistive nature of the IC in that model.
 
-    \subsection{Analysis conclusions \ddcno}
+    \subsection{Analysis conclusions \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:analysConcl}
     In order to understand the implications of such observations, let us analyze each one of them.
 
-    The first important thing to note is that the various model's numeric values are extracted from our actual platform.
+    The first important thing to note is that the various model numeric values are extracted from our actual platform.
     Therefore, the 150 \textOmega\xspace grounding and the 1 k\textOmega\xspace IC are average measured values of actual devices.
     Thus, these parameters, in addition to the transmission line characteristics, will inevitably vary with a certain amount from one platform to another.
     \input{2_goodPractices/figures/bbiPracticeBadGndDiffIcLoad}
     Indeed, the backside surface of an IC does not equal to a constant load.
-    Therefore, depending on the probe location, the generator might not see the exact same load.
-    To illustrate the induced effects of such differences, I changed the IC load value when running the simulations, and the results are shown in Fig. \ref{fig:bbiBadGndIcLoadVar}, both for a 250 \textOmega\xspace load (Fig. \ref{fig:bbiPracticeBadGndICLoad0}), and a 2 k\textOmega\xspace load (Fig. \ref{fig:bbiPracticeBadGndICLoad1}).
+    In addition to this, if the IC substrate is thinned, these values will change even more.
+    Therefore, depending on the probe location and the IC substrate thickness, the generator might not see the exact same load.
+    To illustrate the induced effects of such differences, I performed simulations with various IC values, representing typical measured values for my IC target when thinned down to 50 µm, up to more than 700 µm, and the results are shown in Fig. \ref{fig:bbiBadGndIcLoadVar}, both for a 250 \textOmega\xspace load (Fig. \ref{fig:bbiPracticeBadGndICLoad0}), and a 2 k\textOmega\xspace load (Fig. \ref{fig:bbiPracticeBadGndICLoad1}).
     In both cases, due to the non-zero generator output impedance, the latter forms a voltage divider with the IC load.
     On the one hand, with an IC load value one quarter lower, there is more current in it, while the applied pulse amplitude is 30\% lower.
     On the other hand, with an IC load value two times higher, there is less current in it, while the applied pulse amplitude is 40\% higher.
@@ -75,8 +76,8 @@ We will therefore analyze the platform's performance and point out its weaknesse
     Eventually, all of these observations allow us to spot three major flaws of such platform:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item The platform parameters are difficult to control, leading to unknown values concerning pulse width, voltage set point, etc.
-        \item It leads to a poor temporal accuracy, thus minimizing the chances to perform a good quality fault injection.
+        \item The platform parameters are difficult to control, leading to unknown values concerning pulse width, voltage set point, etc.;
+        \item It leads to a poor temporal accuracy, thus minimizing the chances to perform a precise and repeatable fault injection;
         \item At last, all parameters are platform dependent, leading to a low reproducibility rate, thus lowering the credibility of experiments performed on such platforms.
     \end{itemize}
     In this context, I present in the next section various simple improvements to the \bbi state-of-the-art platform.

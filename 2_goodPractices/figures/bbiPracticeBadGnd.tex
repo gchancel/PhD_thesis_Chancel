@@ -7,17 +7,17 @@
 %    \label{fig:bbiPracticeBadGnd}
 %\end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/model0Probe.pdf}
-        \caption{Simplified electrical model of a typical \bbi platform in the state-of-the-art. The model represents the voltage pulse generator, the \bbi metal probe, the transmission line, the IC, modeled with a 1 k\textOmega\xspace resistor, and the platform grounding impedance, represented with two 150 \textOmega\xspace resistors. This model allows for fast evaluation and prediction of the \bbi platform macro-behavior.}
+        \caption{Model of a state-of-the-art \bbi setup. It consists of the voltage pulse generator, the \bbi metal probe, the transmission line, the IC (1 k\textOmega\xspace resistor), and the platform grounding (two 150 \textOmega\xspace resistors). This model allows for fast evaluation and prediction of the \bbi platform macro-behavior.}
         \label{fig:bbiPracticeBadGnd}
     \end{subfigure}
     \hspace{0.045\textwidth}
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_0.pdf}
-        \caption{Simulation results of the model on the left. The waveform colors match the schematic colors' for better clarity. In blue is the ideal voltage pulse (-140 V, 10 ns). In green is the effective signal received by the IC on its backside. In orange is the pulse observed at the generator output, and in purple is the IC ground current measurement. These results highlight the platform limitations, such as the obvious ringing, causing incorrect voltage amplitude and pulse width set point.}
+        \caption{Simulation results of the \bbi model. \textcolor{RoyalBlue}{Blue}: ideal voltage pulse (-140 V, 10 ns). \textcolor{OliveGreen}{Green}: effective signal applied on the IC backside. \textcolor{orange}{Orange}: generator output. \textcolor{Purple}{Purple}: IC ground current. These results highlight the platform limitations: ringing (impedance mismatch) and high ground impedance, leading to higher voltage.}
         \label{fig:bbiPracticeBadGndSignals}
     \end{subfigure}
     \caption{\bbi platform electrical model developed for my thesis to quickly evaluate various platform's parameters, alongside the model simulation results.}

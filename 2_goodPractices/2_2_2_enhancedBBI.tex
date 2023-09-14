@@ -1,36 +1,36 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{Enhanced BBI platform model and simulation \ddcno}
+\section{Enhanced BBI platform model and simulation \ddcpu}
 \label{chap:2_goodPractices;sect:enhancedBBIPlatforms}
 In this section, I propose platform enhancements over the state-of-the-art \bbi platform previously introduced.
-These improvements aim at being low-cost, fast and easy to set up, to represent an interesting addition without drastically increasing the platform's financial cost.
-We will then be able to draw conclusions on such improvements thanks to simulation results.
+These improvements aim at being low-cost, fast and easy to set up, to represent an interesting addition without drastically increasing the platform financial cost.
+Eventually, I am able to draw conclusions on such improvements thanks to simulation results.
 
-    \subsection{Matching the generator output impedance \ddcno}
+    \subsection{Matching the generator output impedance \ddcu}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGenImpMatch}
     \input{2_goodPractices/figures/bbiPracticeImpGnd}
     The first proposed improvement concerns the generated voltage pulse characteristics.
     As we observed previously, the various parameters set points were not met.
     In a fault injection context, it is an undesirable behavior, as it is required to finely control the generated pulse to produce controlled disturbances into ICs.
     Therefore, and because most high speed high voltage pulse generator are specified to be loaded with a precise impedance, I simply propose to connect a known load directly at the output of the generator model.
-    In my model's case, a \fiftyOhms{50} resistor is loaded at the generator's output, as illustrated in red in Fig. \ref{fig:bbiPracticeImpGnd}.
-    Thus, the generator will see the impedance network formed by the compensation load, the IC, the transmission line, and the grounding installation.
-    However, because the grounding installation is platform dependent, it is required, in order to perform a better impedance matching of the generator output, to improve the grounding, which leads us to the following section.
+    In my model, a \fiftyOhms{50} resistor is loaded at the generator output, as illustrated in red in Fig. \ref{fig:bbiPracticeImpGnd}.
+    Thus, the generator sees the impedance network formed by the compensation load, the IC, the transmission line, and the grounding installation.
+    However, because the grounding installation is platform dependent, it is required, in order to perform a better impedance matching of the generator output, to improve the grounding, which leads to the other platform enhancement described in the following section.
 
-    \subsection{Improving the grounding installation \ddcno}
+    \subsection{Improving the grounding installation \ddcu}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGndBetter}
     In many platforms, the grounding installation might be perfectly fine, and the following section may not apply to them.
     However, with our platform, we quickly observed that the grounding impedance was far from negligible.
     Indeed, with an average IC impedance around 1 k\textOmega\xspace, and inter-equipment ground impedance around 150 \textOmega\xspace, it represents a 15 \% increase in the total impedance seen by the generator.
-    Therefore, in order to transfer the maximum amount of energy into the IC, especially in areas where the IC impedance might be closer to the grounding impedance, it is required to cancel as much as possible the latter.
+    Therefore, in order to transfer a maximum amount of energy into the IC, especially in areas where the IC impedance might be closer to the grounding impedance, it is required to cancel as much as possible the latter.
 
     To that end, I propose a very simple setup modification.
     It consists in keeping the platform as is, and adding short copper wires between equipment grounds.
-    Therefore, it shunts the platform ground and creates a low-impedance path for electric charges, thus allowing the previous section approximate impedance matching to perform better.
+    Therefore, they shunt the platform ground and creates a low-impedance path for electric charges, thus allowing the previous section approximate impedance matching to perform better.
 
-    \subsection{Simulation results \ddcno}
+    \subsection{Simulation results \ddcu}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:simRes}
-    To verify the soundness of the previously proposed enhancements, I performed simulations thanks to the model presented in Fig. \ref{fig:bbiPracticeImpGnd}, and the simulation results are shown in Fig. \ref{fig:bbiPracticeImpGndSignals}.
+    To verify the soundness of the previously proposed enhancements, I performed simulations thanks to the model presented in Fig. \ref{fig:bbiPracticeImpGnd}. The simulation results are shown in Fig. \ref{fig:bbiPracticeImpGndSignals}.
 
     In that case, unlike in the state-of-the-art platform, the voltage set point is almost met concerning the received pulse (green waveform), with a slight undershoot of 6\%.
     It is mirrored on the IC ground current waveform, where the ringing is drastically reduced, which leads to a steeper and more accurate pulse.
@@ -40,53 +40,54 @@ We will then be able to draw conclusions on such improvements thanks to simulati
         \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:simRes;subsubsect:loadDep}
         To further analyze the benefits of the proposed improvements, I performed, as for the state-of-the-art platform, additional simulations with various loads.
         As before, 250 \textOmega\xspace and 2 k\textOmega\xspace were chosen to have a common point of comparison.
+        As I stated previously, these values are chosen to match the average typical value of my IC target when thinned down to 50 µ, up to 700 µm.
         \input{2_goodPractices/figures/bbiPracticeImpGndDiffIcLoad}
         Fig. \ref{fig:bbiImpGndIcLoadVar} presents the simulation results for such loads.
         For both loads, the measured voltage moves away from the set point by around 7 \% in each case.
         It represents a 14 \% range around the -140 V set point, which is immensely better than in the previous platform.
         It is still not perfect, but the platform is overall less dependent to the IC load, which is desirable in order to have repeatable voltage pulse across the entire IC backside.
 
-        Then, quite naturally, for the 250 \textOmega\xspace load, the current is higher than for the 1 k\textOmega\xspace, and with the 2 k\textOmega\xspace, the current is lower.
-        In addition to that, thanks to the 50 \textOmega\xspace resistor placed at the generator's output, it reduces the range in which the effective load (the compensation load in parallel with the IC) changes.
+        Then, quite naturally, for the 250 \textOmega\xspace load, the current is higher than for the 1 k\textOmega\xspace, and with the 2 k\textOmega\xspace, it is lower.
+        In addition to that, thanks to the 50 \textOmega\xspace resistor placed at the generator output, it reduces the range in which the effective load (the compensation load in parallel with the IC) changes.
         Indeed, it goes from around 42 \textOmega\xspace to about 49 \textOmega\xspace, instead of going from 250 \textOmega\xspace to 2 k\textOmega\xspace in the previous case.
         Eventually, in addition to all of the above, these enhancements have also drastically reduced ringing, which contributes to the applied pulse amplitude being closer to the set point.
 
     \subsection{Simulation conclusions \ddcno}
     All of this leads to better control over the various platform parameters, allowing for more accurate and shorter pulses, closer to the expectations.
     In addition to that, the platform is less design dependent thanks to the minimization of impedance mismatch and poor grounding installation.
-    It leads to a better time accuracy, leading to a potentially more controllable fault injection.
+    It leads to a better time accuracy, enabling potentially more controllable fault injections.
 %         the 250 \textOmega\xspace load
 %        Concerning the 250 \textOmega\xspace load results, displayed in Fig. \ref{fig:bbiPracticeImpGndICLoad0}.
 
-\section{Actual enhanced BBI platform \ddcno}
+\section{Actual enhanced BBI platform \ddcpu}
 The previous models being a useful tool to draw quick conclusions and predictions, it does not represent the reality.
 To that end, I set up the various presented enhancements in an actual \bbi platform in order to verify the soundness of all the outcomes.
 In the first place, we are going to discuss how to perform the approximate impedance matching.
 Then, I will explain how to set up an efficient grounding bypass.
 After that, we will take a look at actual measurements allowing to spot the improvements.
 
-    \subsection{Generator impedance matching in practice \ddcno}
+    \subsection{Generator impedance matching in practice \ddcu}
     \textcolor{orange}{Add pictures of real platform impedance matching.}
     An ideal impedance matching implementation should be adaptive and vary the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
     It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to adapt the compensation load impedance value.
     However, this is not the approach I have chosen.
-    Indeed, the goal here is to minimize financial cost and platform modification, while allowing for better control over the platform's parameters.
+    Indeed, the goal here is to minimize financial cost and platform modification, while allowing for better control over the platform parameters.
 
     Another possibility would be to first measure the average IC backside impedance over its entire area or only the targeted area (such as the cryptographic core for instance).
-    Then, thanks to the average value, the compensation load impedance could be chosen to approximately match the required 50 \textOmega\xspace.
+    Then, thanks to the average value, the compensation load impedance could be chosen to better match the required 50 \textOmega\xspace.
 
     Eventually, the selected solution is the simplest one.
-    It consists in connecting a compensation load at the generator's output, consisting in a \fiftyOhms{50} SMA terminator.
+    It consists in connecting a compensation load at the generator output, consisting in a \fiftyOhms{50} SMA terminator.
     It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
-    However, it is a solution requiring little to no changes to an existing platform and has proven to be good enough thanks to the previous models.
+    However, it is a solution requiring little to no change to an existing platform and has proven to be good enough thanks to the previous models.
 
-    \subsection{Grounding installation bypass in practice \ddcno}
+    \subsection{Grounding installation bypass in practice \ddcu}
     \textcolor{orange}{Add pictures of real GND bypass.}
     As we discussed previously, the grounding installation can drastically vary from one platform to another.
-    Its effective impedance can be very high, such as in our platform, where equipment is grounded thanks to the platform's earthing, with inter-equipment ground of around \fiftyOhms{150}.
+    Its effective impedance can be very high, such as in our platform, where equipment is grounded thanks to the platform earthing, with inter-equipment ground of around \fiftyOhms{150}.
     To alleviate the effects of such ground impedance, I simply decided to shunt the existing earthing with short low-resistance copper wires.
     To that end, I chose an arbitrary piece of equipment as the reference, and connected every other piece of equipment local ground to the reference.
-    It allowed reducing the effective platform ground impedance to a negligible value close to \fiftyOhms{0}.
+    It allowed reducing the effective platform ground impedance to a value close to \fiftyOhms{0}.
 
     \subsection{Practical analysis \ddcno}
     \input{2_goodPractices/figures/bbiRealXp.tex}
