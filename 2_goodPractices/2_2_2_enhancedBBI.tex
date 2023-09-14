@@ -1,12 +1,12 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{Enhanced BBI platform model and simulation \ddc}
+\section{Enhanced BBI platform model and simulation \ddcno}
 \label{chap:2_goodPractices;sect:enhancedBBIPlatforms}
 In this section, I propose platform enhancements over the state-of-the-art \bbi platform previously introduced.
 These improvements aim at being low-cost, fast and easy to set up, to represent an interesting addition without drastically increasing the platform's financial cost.
 We will then be able to draw conclusions on such improvements thanks to simulation results.
 
-    \subsection{Matching the generator output impedance \ddc}
+    \subsection{Matching the generator output impedance \ddcno}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGenImpMatch}
     \input{2_goodPractices/figures/bbiPracticeImpGnd}
     The first proposed improvement concerns the generated voltage pulse characteristics.
@@ -17,7 +17,7 @@ We will then be able to draw conclusions on such improvements thanks to simulati
     Thus, the generator will see the impedance network formed by the compensation load, the IC, the transmission line, and the grounding installation.
     However, because the grounding installation is platform dependent, it is required, in order to perform a better impedance matching of the generator output, to improve the grounding, which leads us to the following section.
 
-    \subsection{Improving the grounding installation \ddc}
+    \subsection{Improving the grounding installation \ddcno}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGndBetter}
     In many platforms, the grounding installation might be perfectly fine, and the following section may not apply to them.
     However, with our platform, we quickly observed that the grounding impedance was far from negligible.
@@ -28,7 +28,7 @@ We will then be able to draw conclusions on such improvements thanks to simulati
     It consists in keeping the platform as is, and adding short copper wires between equipment grounds.
     Therefore, it shunts the platform ground and creates a low-impedance path for electric charges, thus allowing the previous section approximate impedance matching to perform better.
 
-    \subsection{Simulation results \ddc}
+    \subsection{Simulation results \ddcno}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:simRes}
     To verify the soundness of the previously proposed enhancements, I performed simulations thanks to the model presented in Fig. \ref{fig:bbiPracticeImpGnd}, and the simulation results are shown in Fig. \ref{fig:bbiPracticeImpGndSignals}.
 
@@ -36,7 +36,7 @@ We will then be able to draw conclusions on such improvements thanks to simulati
     It is mirrored on the IC ground current waveform, where the ringing is drastically reduced, which leads to a steeper and more accurate pulse.
     It is especially noticeable when directly comparing the state-of-the-art waveforms in dotted lines.
     Concerning the generator pulse (orange waveform), it is still distorted as the ringing has not disappeared, but is less of a concern since the waveform of interest is the one effectively applied to the IC backside.
-        \subsubsection{Load dependency \ddc}
+        \subsubsection{Load dependency \ddcno}
         \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:simRes;subsubsect:loadDep}
         To further analyze the benefits of the proposed improvements, I performed, as for the state-of-the-art platform, additional simulations with various loads.
         As before, 250 \textOmega\xspace and 2 k\textOmega\xspace were chosen to have a common point of comparison.
@@ -51,21 +51,21 @@ We will then be able to draw conclusions on such improvements thanks to simulati
         Indeed, it goes from around 42 \textOmega\xspace to about 49 \textOmega\xspace, instead of going from 250 \textOmega\xspace to 2 k\textOmega\xspace in the previous case.
         Eventually, in addition to all of the above, these enhancements have also drastically reduced ringing, which contributes to the applied pulse amplitude being closer to the set point.
 
-    \subsection{Simulation conclusions \ddc}
+    \subsection{Simulation conclusions \ddcno}
     All of this leads to better control over the various platform parameters, allowing for more accurate and shorter pulses, closer to the expectations.
     In addition to that, the platform is less design dependent thanks to the minimization of impedance mismatch and poor grounding installation.
     It leads to a better time accuracy, leading to a potentially more controllable fault injection.
 %         the 250 \textOmega\xspace load
 %        Concerning the 250 \textOmega\xspace load results, displayed in Fig. \ref{fig:bbiPracticeImpGndICLoad0}.
 
-\section{Actual enhanced BBI platform \ddc}
+\section{Actual enhanced BBI platform \ddcno}
 The previous models being a useful tool to draw quick conclusions and predictions, it does not represent the reality.
 To that end, I set up the various presented enhancements in an actual \bbi platform in order to verify the soundness of all the outcomes.
 In the first place, we are going to discuss how to perform the approximate impedance matching.
 Then, I will explain how to set up an efficient grounding bypass.
 After that, we will take a look at actual measurements allowing to spot the improvements.
 
-    \subsection{Generator impedance matching in practice \ddc}
+    \subsection{Generator impedance matching in practice \ddcno}
     \textcolor{orange}{Add pictures of real platform impedance matching.}
     An ideal impedance matching implementation should be adaptive and vary the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
     It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to adapt the compensation load impedance value.
@@ -80,7 +80,7 @@ After that, we will take a look at actual measurements allowing to spot the impr
     It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
     However, it is a solution requiring little to no changes to an existing platform and has proven to be good enough thanks to the previous models.
 
-    \subsection{Grounding installation bypass in practice \ddc}
+    \subsection{Grounding installation bypass in practice \ddcno}
     \textcolor{orange}{Add pictures of real GND bypass.}
     As we discussed previously, the grounding installation can drastically vary from one platform to another.
     Its effective impedance can be very high, such as in our platform, where equipment is grounded thanks to the platform's earthing, with inter-equipment ground of around \fiftyOhms{150}.
@@ -88,7 +88,7 @@ After that, we will take a look at actual measurements allowing to spot the impr
     To that end, I chose an arbitrary piece of equipment as the reference, and connected every other piece of equipment local ground to the reference.
     It allowed reducing the effective platform ground impedance to a negligible value close to \fiftyOhms{0}.
 
-    \subsection{Practical analysis \ddc}
+    \subsection{Practical analysis \ddcno}
     \input{2_goodPractices/figures/bbiRealXp.tex}
     Now that I presented how to practically set up the enhancements, let us analyze actual measurements on the platform.
     We will compare before and after results, allowing us to analyze each evaluation criterion.
