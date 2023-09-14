@@ -72,6 +72,13 @@ Eventually, we will draw conclusions on the various observations.
         C_{ShiftRow(j)} \oplus CF_{ShiftRow(j)} = SubByte(P^9_j) \oplus SubByte(P^9_j \oplus e_j)
     \end{equation}
     Eventually, we have to first calculate ShiftRow(j), which gives us the location of the only non-zero byte of $C \oplus CF$, which in return gives us $j$.
+    We then need to find $P^9_j$: we look for the single bit fault $e_j$, and identify an ensemble of values of $P^9_j$ satisfying eqn. \ref{giraudFault}.
+    For each correct value, we increase a counter by 1.
+    Then, by taking another faulty ciphertext $CF$, and the correct value for $P^9_j$ should be counter more often than another incorrect value.
+    Therefore, we can identify the correct value thanks to that affirmation.
+    This process shall be repeated as much as needed to find every bytes of $P^9$.
+
+    Thanks to eqn. \ref{cipherGiraud1}, it is possible to retrieve the last round key $K^{10}$, which can be then converted to the AES secret key thanks to the inverse Key Scheduling applied on $K^{10}$.
     \textcolor{orange}{To finish.}
 
     \subsection{Integrated circuits target characteristics \ddcu}
