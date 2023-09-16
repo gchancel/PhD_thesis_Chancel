@@ -153,6 +153,13 @@ Noemie Beringuier-Boher, Marc Lacruche, David El-Baze, Jean-Max Dutertre,
   Security in Computing Systems}, CS2 '16, page 49–54, New York, NY, USA,
   2016. Association for Computing Machinery.
 
+\bibitem{mybbiFdtc2022}
+G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
+\newblock Body biasing injection: Impact of substrate types on the induced
+  disturbancesƒ.
+\newblock In {\em 2022 Workshop on Fault Detection and Tolerance in
+  Cryptography (FDTC)}, pages 50--60, 2022.
+
 \bibitem{colinFdtc2023}
 Colin O'Flynn.
 \newblock Picoemp: A low-cost emfi platform compared to bbi and voltage fault
@@ -160,18 +167,19 @@ Colin O'Flynn.
 \newblock Cryptology ePrint Archive, Paper 2023/1195, 2023.
 \newblock \url{https://eprint.iacr.org/2023/1195}.
 
+\bibitem{piretQuisquater}
+Gilles Piret and Jean-Jacques Quisquater.
+\newblock A differential fault attack technique against spn structures, with
+  application to the aes and khazad.
+\newblock In Colin~D. Walter, {\c{C}}etin~K. Ko{\c{c}}, and Christof Paar,
+  editors, {\em Cryptographic Hardware and Embedded Systems - CHES 2003}, pages
+  77--88, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
+
 \bibitem{aesRijndaelProp}
 C.~Sanchez-Avila and R.~Sanchez-Reillol.
 \newblock The rijndael block cipher (aes proposal) : a comparison with des.
 \newblock In {\em Proceedings IEEE 35th Annual 2001 International Carnahan
   Conference on Security Technology (Cat. No.01CH37186)}, pages 229--234, 2001.
-
-\bibitem{mybbiFdtc2022}
-G.~Chancel, Jean-Marc Gallière, and P.~Maurine.
-\newblock Body biasing injection: Impact of substrate types on the induced
-  disturbancesƒ.
-\newblock In {\em 2022 Workshop on Fault Detection and Tolerance in
-  Cryptography (FDTC)}, pages 50--60, 2022.
 
 \bibitem{mathieuEMFIFirst}
 Mathieu Dumont, Philippe Maurine, and Mathieu Lisart.

@@ -73,6 +73,33 @@ badGND['vTime'][:] -= badGND['vTime'].min()
 impGND['iTime'][:] -= impGND['iTime'].min()
 impGND['vTime'][:] -= impGND['vTime'].min()
 
+# ImpIdeal
+beginIdeal = np.where(np.isclose(impGND['vTime'], 50e-9, atol = 50e-12))[0][0]
+beginIdealFEdge = np.where(np.isclose(impGND['vTime'], 54e-9, atol = 50e-12))[0][0]
+endIdeal = np.where(np.isclose(impGND['vTime'], 70e-9, atol = 50e-12))[0][0]
+endIdealFEdge = np.where(np.isclose(impGND['vTime'], 74e-9, atol = 50e-12))[0][0]
+idealPulse = np.zeros(impGND['vTime'].shape)
+idealPulse[beginIdealFEdge:endIdeal] = -140
+idealPulse[beginIdeal:beginIdealFEdge] = np.linspace(0, -140, beginIdealFEdge - beginIdeal)
+idealPulse[endIdeal:endIdealFEdge] = np.linspace(-140, 0, endIdealFEdge - endIdeal)
+
+# BadIdeal
+beginIdeal = np.where(np.isclose(badGND['vTime'], 50e-9, atol = 50e-12))[0][0]
+beginIdealFEdge = np.where(np.isclose(badGND['vTime'], 54e-9, atol = 50e-12))[0][0]
+endIdeal = np.where(np.isclose(badGND['vTime'], 70e-9, atol = 50e-12))[0][0]
+endIdealFEdge = np.where(np.isclose(badGND['vTime'], 74e-9, atol = 50e-12))[0][0]
+idealPulseB = np.zeros(badGND['vTime'].shape)
+idealPulseB[beginIdealFEdge:endIdeal] = -140
+idealPulseB[beginIdeal:beginIdealFEdge] = np.linspace(0, -140, beginIdealFEdge - beginIdeal)
+idealPulseB[endIdeal:endIdealFEdge] = np.linspace(-140, 0, endIdealFEdge - endIdeal)
+
+# Voltage and current scale normalization
+voltMin = min(badGND['vPulse'].min(), impGND['vPulse'].min())
+voltMax = max(badGND['vPulse'].max(), impGND['vPulse'].max())
+currMin = min(badGND['iGND'].min(), impGND['iGND'].min())
+currMax = max(badGND['iGND'].max(), impGND['iGND'].max())
+
+#
 rmsBad = np.sqrt(np.mean(np.square(badGND['iGND'][beginBad:endBad])))
 # rmsGood = np.sqrt(np.mean(np.square(goodGND['iGND'])))
 rmsImp = np.sqrt(np.mean(np.square(impGND['iGND'])))
@@ -130,8 +157,9 @@ offset = 0.25 / 2
 fig, ax = plt.subplots(2, 2, figsize = (11.5 * scale, 5 * scale), sharex = True)
 # fig.suptitle("BBI practices comparison", size = supSize * scale, bbox = sBox, y = 0.99)
 
+ax[0, 1].set_ylim(currMin + 0.1 * currMin, currMax + 0.1 * currMax)
 ax[0, 1].plot(badGND['iTime'], badGND['iGND'][beginBad:endBad],
-              lw = lw * scale)
+              lw = lw * scale * 1.5)
 ax[0, 1].yaxis.set_major_formatter(form_amp)
 ax[0, 1].xaxis.set_major_formatter(form_sec)
 ax[0, 1].text(textposX,
@@ -147,8 +175,10 @@ ax[0, 1].set_ylabel('$I_{GND}(t)$', fontsize = ySize, labelpad = yLabelPad, bbox
 ax[0, 1].set_title("Default BBI platform (IC current)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc0)
 
+ax[0, 0].set_ylim(voltMin + 0.05 * voltMin, voltMax + 10)
+ax[0, 0].plot(badGND['vTime'], idealPulseB, lw = lw * scale, color = "blue")
 ax[0, 0].plot(badGND['vTime'], badGND['vPulse'][beginBad:endBad],
-              lw = lw * scale)
+              lw = lw * scale * 1.5)
 ax[0, 0].yaxis.set_major_formatter(form_volt)
 ax[0, 0].xaxis.set_major_formatter(form_sec)
 # ax[0, 0].set_title("State of the art grounding",
@@ -166,21 +196,22 @@ ax[0, 0].text(textposX,
               "Set-point voltage = -140 V",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[0, 0].transAxes,
-              fontsize = fSize * scale)
+              fontsize = fSize * scale,
+              color = "blue")
 ax[0, 0].text(textposX,
-              textposY + offset * 2.0,
+              textposY + offset * 3.0,
               r"Rise time $\approx$ 65 ns",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[0, 0].transAxes,
               fontsize = fSize * scale)
 ax[0, 0].text(textposX,
-              textposY + offset * 3.0,
+              textposY + offset * 4.0,
               r"Fall time $\approx$ 16 ns",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[0, 0].transAxes,
               fontsize = fSize * scale)
 ax[0, 0].text(textposX,
-              textposY + offset * 4.0,
+              textposY + offset * 2.0,
               r"Pulse width $\approx$ 75 ns",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[0, 0].transAxes,
@@ -252,8 +283,9 @@ ax[0, 0].set_ylabel('$V_{PULSE}(t)$', fontsize = ySize, labelpad = yLabelPad, bb
 #              color = 'red',
 #              lw = 1)
 
+ax[1, 1].set_ylim(currMin + 0.1 * currMin, currMax + 0.1 * currMax)
 ax[1, 1].plot(impGND['iTime'], impGND['iGND'],
-              lw = lw * scale)
+              lw = lw * scale * 1.5)
 ax[1, 1].yaxis.set_major_formatter(form_amp)
 ax[1, 1].xaxis.set_major_formatter(form_sec)
 ax[1, 1].text(textposX,
@@ -269,8 +301,10 @@ ax[1, 1].set_ylabel('$I_{GND}(t)$', fontsize = ySize, labelpad = yLabelPad, bbox
 ax[1, 1].set_title("Enhanced BBI platform (IC current)",
                    fontsize = titleSize, bbox = tBox, pad = tPad, loc = tLoc2)
 
+ax[1, 0].set_ylim(voltMin + 0.05 * voltMin, voltMax + 10)
+ax[1, 0].plot(impGND['vTime'], idealPulse, lw = lw * scale, color = "blue")
 ax[1, 0].plot(impGND['vTime'], impGND['vPulse'],
-              lw = lw * scale)
+              lw = lw * scale * 1.5)
 ax[1, 0].yaxis.set_major_formatter(form_volt)
 ax[1, 0].xaxis.set_major_formatter(form_sec)
 # ax[1, 0].set_title("Ground bypass and impedance matching",
@@ -288,10 +322,11 @@ ax[1, 0].text(textposX,
               "Set-point voltage = -140 V",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[1, 0].transAxes,
-              fontsize = fSize * scale)
+              fontsize = fSize * scale,
+              color = "blue")
 ax[1, 0].text(textposX,
               textposY + offset * 2.0,
-              r"Rise and fall time $\approx$ 16 ns",
+              r"Rise and fall times $\approx$ 16 ns",
               verticalalignment = 'bottom', horizontalalignment = 'right',
               transform = ax[1, 0].transAxes,
               fontsize = fSize * scale)

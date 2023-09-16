@@ -1,10 +1,19 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{Conclusion \ddc}
+\section{Conclusion \ddcu}
 \label{chap:2_goodPractices;sect:conclusion}
-In this chapter, we first discussed the hardware and software commonly used for the practice of BBI, as well as presenting our hardware and software.
-We then proposed an enhanced platform for the practice of BBI, consisting of reducing the ground impedance and approximating the voltage pulse generator impedance matching.
-We first studied these enhancements using a coarse platform.
-Furthermore, we then performed analog experiments using real hardware.
-In order to further verify the soundness of the BBI platform improvements, we set up and conducted a Giraud's differential fault attack.
-We observed that it would be impossible to conduct the attack without the aforementioned BBI platform enhancements, thus confirming their usefulness.
+In this chapter, I first introduced existing \bbi platforms both in the state-of-the-art and commercially available.
+We have seen that multiples solutions ranging from low prices to very high prices exist, each one having its own advantages and disadvantages concerning their characteristics.
+Thanks to this platform overview, I was able to enumerate the fundamental building block of a typical \bbi platform.
+After that, I presented the platform used during my thesis experiments, from the custom probe to the generator.
+Afterward, I introduced electrical models I designed to quickly compare and evaluate \bbi platforms.
+We studied the simulation results of such models, which allowed me to introduce enhancements to existing \bbi platforms, allowing for better accuracy and reproducibility.
+Thereafter, I presented experiments performed to verify the soundness of such models, comparing state-of-the-art platforms to the enhanced platform I propose.
+Eventually, to go further in the model validation, I described and performed a constraining differential fault attack on a hardware AES coprocessor, sustaining the usefulness of the proposed enhancements.
+
+%In this chapter, we first discussed the hardware and software commonly used for the practice of BBI, as well as presenting our hardware and software.
+%We then proposed an enhanced platform for the practice of BBI, consisting of reducing the ground impedance and approximating the voltage pulse generator impedance matching.
+%We first studied these enhancements using a coarse platform.
+%Furthermore, we then performed analog experiments using real hardware.
+%In order to further verify the soundness of the BBI platform improvements, we set up and conducted a Giraud's differential fault attack.
+%We observed that it would be impossible to conduct the attack without the aforementioned BBI platform enhancements, thus confirming their usefulness.

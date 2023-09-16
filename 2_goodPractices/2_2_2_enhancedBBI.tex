@@ -1,6 +1,6 @@
 % !TeX root = ../0_Manuscript.tex
 
-\section{Enhanced BBI platform model and simulation \ddcpu}
+\section{Enhanced BBI platform model and simulation \ddc}
 \label{chap:2_goodPractices;sect:enhancedBBIPlatforms}
 In this section, I propose platform enhancements over the state-of-the-art \bbi platform previously introduced.
 These improvements aim at being low-cost, fast and easy to set up, to represent an interesting addition without drastically increasing the platform financial cost.
@@ -89,11 +89,12 @@ After that, we will take a look at actual measurements allowing to spot the impr
     To that end, I chose an arbitrary piece of equipment as the reference, and connected every other piece of equipment local ground to the reference.
     It allowed reducing the effective platform ground impedance to a value close to \fiftyOhms{0}.
 
-    \subsection{Practical analysis \ddcno}
+    \subsection{Practical analysis \ddcu}
     \input{2_goodPractices/figures/bbiRealXp.tex}
     Now that I presented how to practically set up the enhancements, let us analyze actual measurements on the platform.
     We will compare before and after results, allowing us to analyze each evaluation criterion.
     As it was done for the simulations, we will observe the voltage pulse and the IC ground current.
+
     Fig. \ref{fig:bbiRealXp} presents the various waveform results.
     The voltage pulse was measured at the IC backside during the injection, and the IC ground current was measured using a current probe thanks to the IC PCB ground interconnection.
     Therefore, the measured current is precisely the IC ground current, excluding any other equipment.
@@ -102,7 +103,7 @@ After that, we will take a look at actual measurements allowing to spot the impr
     Then, the number indicates which platform is concerned, "1" being the default platform, "2" being the enhanced one.
     Eventually, the last letter indicates which waveform is observed, "P" being the voltage pulse, "G" being the IC ground current.
     Therefore, the default platform contains S1P and S1G waveforms, while the enhanced one contains S2P and S2G signals.
-    Fig. \ref{fig:bbiRealXp} also display the waveforms characteristics for more clarity.
+    Fig. \ref{fig:bbiRealXp} also displays the waveforms characteristics for more clarity.
     The ideal voltage pulse applied has a maximum negative amplitude of 140 V, a pulse width of 20 ns, and 4 ns rise and fall times.
 
     S1P shows a clear undershoot of -108 \% under the set point.
@@ -116,10 +117,10 @@ After that, we will take a look at actual measurements allowing to spot the impr
     Considering that the ringing is mainly caused by impedance mismatch between the generator and the IC, it will drastically change from one location to another, further reducing repeatability.
 
     S2P, on the other hand, shows a better voltage amplitude, with a -31 \% undershoot.
-    It is far from perfect, but given the approximate nature of the proposed impedance matching, it is expected.
+    It is far from perfect, but given the approximate nature of the proposed impedance matching, it was to be expected.
     Concerning the pulse width, the set point value is perfectly respected, which is very important for precise disturbance duration.
     However, rise and fall times are now consistent, but still four times higher than requested.
     It can easily be explained by the fact that the transmission line, the probe, the IC and the power installation are not a purely resistive load.
-    Therefore, any capacitive element in the chain will inevitably reduce the system's response time, thus elongating rise and fall times, leading to a shorter pulse plateau.
+    Therefore, any capacitive element in the chain will inevitably reduce the system response time, thus elongating rise and fall times, leading to a shorter pulse plateau.
 
     Concerning S2G, the approximate impedance matching shows a clear ringing reduction, with a steep current pulse, leading to a precise disturbance.

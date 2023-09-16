@@ -4,17 +4,18 @@
 \label{chap:2_goodPractices;sect:enhancedBBIGiraudAttack}
 Now that we have seen with simple actual experiments the benefits of the proposed enhanced \bbi platform, let us linger on further experiments to verify more thoroughly the soundness of these enhancements.
 To that end, I performed a differential fault attack on our IC target.
-More specifically, a constraining fault attack requiring single bit faults on one or more bytes working on an AES cryptographic core, introduced by C. Giraud \cite{giraudDfa} in 2004.
+More specifically, a constraining fault attack requiring single bit faults on one or more bytes working on an AES cryptographic core, introduced by C. Giraud \cite{giraudDfa} in 2002, submitted in April 2002 to CHES'02.
 In the first place, we are going to discuss in details the core of the attack.
 Afterward, I will describe the IC target, its characteristics, and its operating conditions for the experiments.
 Then, I will introduce experiments we developed to perform preliminary measurements to the attack, accelerating the search of points of interests on the IC.
 Next, we will discuss the practical attack results.
 Eventually, we will draw conclusions on the various observations.
 
-    \subsection{Giraud's DFA detailed description \ddcu}
-    When Giraud's paper \cite{giraudDfa} was published in 2004, no existing DFA was capable of attacking an AES algorithm.
+    \subsection{Giraud's DFA detailed description \ddcno}
+    When Giraud's paper \cite{giraudDfa} was published in 2002, no existing DFA was capable of attacking an AES algorithm.
     In this context, they proposed two types of DFA on AES, in order to cover various fault types one can induce on secured ICs.
     In this thesis, I focused on the first fault model, consisting in inducing single bit faults, therefore, this is the one we are going to discuss and describe in details in this section.
+    It is interesting to note that Piret and Quisquater published another DFA one year after Giraud to CHES'03 \cite{piretQuisquater}, but I focused on Giraud's DFA for my thesis.
 
     \input{2_goodPractices/figures/aesLastRound}
     As we said before, the attack requires single bit faults on AES computation.
@@ -88,22 +89,23 @@ Eventually, we will draw conclusions on the various observations.
     Its main characteristics are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item A core clock up to 180 MHz
-        \item Two 1 MB FLASH memory banks
-        \item 256 kB of RAM
-        \item Voltage supply allowed from 1.7 V to 3.6 V
-        \item A True Random Number Generator (TRNG)
-        \item A dedicated hardware cryptographic coprocessor, embedding AES (128, 192 and 256 bits), triple DES, and various HASH algorithms
+        \item A core clock up to 180 MHz;
+        \item Two 1 MB FLASH memory banks;
+        \item 256 kB of RAM;
+        \item Voltage supply allowed from 1.7 V to 3.6 V;
+        \item A True Random Number Generator (TRNG);
+        \item A dedicated hardware cryptographic coprocessor, embedding AES (128, 192 and 256 bits), triple DES, and various HASH algorithms;
+        \item A 700 µm substrate thickness.
     \end{itemize}
     For the purpose of every other experiment, the IC is clocked at 40 MHz thanks to an external 8 MHz crystal oscillator.
 
     \subsection{Preliminary attack experiments \ddcu}
-        \subsubsection{Fault analysis mapping description \ddcnew}
+        \subsubsection{Fault analysis mapping description \ddcu}
         For the purpose of accelerating and simplifying the attack process, especially because creating single bit faults is a troublesome process, I designed experiments to be conducted on the IC target, allowing me to spot interesting IC areas to perform the attack on.
         Because the attack targets the AES coprocessor, all the experiments described here are performed specifically on the AES core area.
         \input{2_goodPractices/figures/giraudDFA_0}
         These experiments are called "Fault Analysis Mapping" (FAM), and two results are shown in Fig.\ref{fig:fam}.
-        An FAM consists in performing \bbi on the cryptographic core of the IC and identifying its behavior.
+        An FAM consists in performing \bbi on the cryptographic core of the IC and trying to inject faults while identifying its behavior.
         We separated seven fault cases, described in Table \ref{table:faultType}.
         \begin{table}[H]
             \centering
@@ -126,8 +128,58 @@ Eventually, we will draw conclusions on the various observations.
         We performed these experiments on a state-of-the-art (default) platform and on our enhanced platform, with the exact same equipment on both platforms.
 
         \subsubsection{Fault analysis mapping comparison \ddcnew}
+        The FAMs I performed have the following parameters:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item A voltage pulse amplitude ranging from -150 V to -400 V with -5 V steps;
+            \item A fixed pulse width of 4.5 ns;
+            \item A fixed pulse delay of 150 ns + 553 ns allowing to target the penultimate AES round;
+            \item The mapping measures 2 mm by 2 mm, with an isotropic displacement step of 40 µm.
+        \end{itemize}
+        These experiments take from 16 hours at best, up to 36 hours at worst to perform.
+        It is quite long, however, compared to blindly looking for the correct location to perform the Giraud's attack, it is statistically much faster, especially when the AES approximate location is known to the user.
+        I performed two FAMs, on the same IC target, for a state-of-the-art platform and for the proposed enhanced platform.
         FAM results are shown for the default platform in Fig. \ref{fig:gndFSM} and for the enhanced platform in Fig. \ref{fig:giraudFSM}.
 
-        Concerning the state-of-the-art platform, where the FAM is shown in Fig. \ref{fig:gndFSM}, we can spot numerous locations where a microcontroller crash was observed, more specifically 70 \% of the tested locations.
+        On the one hand, concerning the state-of-the-art platform, where the FAM is shown in Fig. \ref{fig:gndFSM}, we can spot numerous locations where a microcontroller crash was observed, more specifically 70 \% of the tested locations.
+        It is problematic as this behavior cannot lead to any meaningful data to perform a fault attack.
+        Despite trying numerous experiment parameters, I was never able to obtain a single bit fault on any physical location on the AES core, even considering the ringing and reducing the voltage down to -20 V, to a point where the generator is not specified anymore to deliver consistent amplitudes.
+
+        On the other hand, without any tweaking, the FAM results show five single-bit faults.
+        In addition to this, the IC did not crash at any given moment, and eight multi-bit faults can be spotted.
+        It gives valuable information related to potentially interesting areas where the Giraud's DFA could be performed.
+        It does not mean that the attack can be performed entirely on a single location, but it is a great way to guide the attack process, knowing that the set of parameters used is sound.
+
+    \subsection{Attack results and analysis \ddcnew}
+    Thanks to the previous FAM results, I decided to perform the attack on every location candidate using the enhanced platform.
+    For each location above the AES core, a parameter sweep was performed, consisting in finding for each set of parameters, as much single bit faults as possible.
+    The test settings are the following:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item The voltage pulse set point ranging from -300 V to -600 V;
+        \item The pulse width ranging from 4.5 ns to 5.5 ns;
+        \item The injection delay ranging from $\pm$ 10 ns around the penultimate AES round.
+    \end{itemize}
+    For each set of parameter, I set a limit of 100 single bit faults.
+    However, this is an optimistic goal which, in some cases, can take a very long time to be achieved, and in other cases, cannot be achieved at all.
+    Therefore, I decided to limit the number of trials to 10000, allowing the test algorithm to be finite and quick to perform.
+    Then, with these results, I was able to perform the attack, where the result are shown in Table \ref{table:dfaResults}.
+    \begin{table}[H]
+        \centering
+        \includegraphics[width=\textwidth, center]{2_goodPractices/figures/giraud__7N.pdf}
+        \caption{Giraud's DFA results. In yellow are indicated the bytes retrieved with a brute-force method instead of the Giraud's bit fault attack.}
+        \label{table:dfaResults}
+    \end{table}
+    What is obvious at first glance is that I was not able to retrieve the 16 bytes of $K^{10}$.
+    Indeed, without further search for valid locations above the AES core, I was able to retrieve 14 out of 16 bytes.
+    It is a great result, as the attack took about 20 hours to perform, including the FAM, which was the longest experiment to set up the attack.
+    However, to retrieve the secret key, it is required to find all 16 bytes of $K^{10}$.
+    Because there are 16 bits left, it is not particularly relevant to try to find interesting locations to perform Giraud's DFA, as there are only 65536 combinations to blindly test at worst to find the correct last round key.
+    Considering the platform computer is able to perform approximately $188 \cdot 10^3$ encryptions per second, it would take $\frac{2^{16}}{188 \cdot 10^3} \approxeq 349 \cdot 10^{-3}$ seconds to perform the required calculation in the worst scenario.
+    I then blindly tested every possibility to find the last two bytes, and I was able to retrieve them, thus allowing me to retrieve the AES secret key.
+    These brute-forced bytes are shown in yellow in Table \ref{table:dfaResults}.
+
+    \subsection{Giraud's DFA conclusion \ddcnew}
+
 
     \textcolor{orange}{To finish.}
