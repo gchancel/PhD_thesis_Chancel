@@ -1,4 +1,4 @@
-\section{Voltage pulse generator model and further validation \ddc}
+\section{Voltage pulse generator model and further validation \ddcold}
 \label{section:genModel}
 
 Introducing the generator did not come without major problems.
@@ -9,7 +9,7 @@ These subtle differences in practice become major issues in simulation when not 
 Indeed, even considering the transmission line as it has been recommended in Chapter \ref{chap:2goodPractices}, most DC-coupled high voltage generators use a high-impedance mode to disconnect the load from the generator before and after the generated pulses.
 Therefore, one has to consider this specific aspect when designing a proper BBI electrical model, as we will explain in this section.
 
-\subsection{Early generator models \ddc}
+\subsection{Early generator models \ddcold}
 \label{subsection:earlyGenModel}
 
 The first models consisted in a PWL voltage source directly connected to the substrate of the IC, and we quickly observed abnormal operating point values.
@@ -20,7 +20,7 @@ To circumvent this issue, we chose to mimic the behavior of an actual high volta
 This allowed to observe correct operating points with the generator connected, as it is the case in a real experiment.
 \textcolor{orange}{Je rajouterai les figures.}
 
-\subsection{Further generator models and verification \ddc}
+\subsection{Further generator models and verification \ddcold}
 \label{subsection:furtherGenModel}
 
 Because the previously explained generator model is electrically perfect and does not include any impedance mismatching effects, we extended the model to include the generator output impedance and the transmission line.
