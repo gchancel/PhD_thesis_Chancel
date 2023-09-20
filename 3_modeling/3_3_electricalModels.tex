@@ -6,7 +6,7 @@ It involves analyzing the different structures composing an IC, such as:
     \setlength\itemsep{-0.1em}
     \item Its power supply plan, consisting in various metal levels stacked one on top of the others;
     \item The standard-cells: pre-characterized cells used as elementary building blocks;
-    \item The various substrate types, such as dual-well and triple-well not to cite them all.
+    \item The various substrate types, such as \dwF and \twF not to cite them all.
 \end{itemize}
 
     \subsection{Power supply rails \ddcnew}
@@ -40,15 +40,15 @@ It involves analyzing the different structures composing an IC, such as:
     Because there are various ways to lithograph transistors for a given technology, I decided to linger and analyze the differences of two substrate types commonly found in bulk technologies:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item Dual-well substrates, where NMOS transistors are lithographed directly into the P-doped silicon substrate;
-        \item Triple-well substrates, where the NMOS transistors are lithographed into a buried P-well inside the N-well where the PMOS are lithographed.
+        \item \dwF substrates, where NMOS transistors are lithographed directly into the P-doped silicon substrate;
+        \item \twF substrates, where the NMOS transistors are lithographed into a buried P-well inside the N-well where the PMOS are lithographed.
     \end{itemize}
-    For the purpose of illustrating the structural differences between those substrate types, I am going to use the schematics displayed in Fig. \ref{fig:dualTripleIvx} as a guide, illustrating the cross-sectional view of a logic inverter created in both a dual-well and a triple-well substrate.
+    For the purpose of illustrating the structural differences between those substrate types, I am going to use the schematics displayed in Fig. \ref{fig:dualTripleIvx} as a guide, illustrating the cross-sectional view of a logic inverter created in both a \dwF and a \twF substrate.
 
-        \subsubsection{Dual-well substrates \ddcnew}
-        To begin with, let us focus on dual-well substrates.
-        A schematic sectional view of a CMOS inverter manufactured in a dual-well substrate is shown in Fig. \ref{subfig:dualIvx}
-        Among moderately old ICs, it was common to find dual-well substrates.
+        \subsubsection{\dwF substrates \ddcnew}
+        To begin with, let us focus on \dwF substrates.
+        A schematic sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}
+        Among moderately old ICs, it was common to find \dwF substrates.
         In these substrates, NMOS transistors are lithographed directly into the P-doped silicon substrate, as we can see in Fig. \ref{subfig:dualIvx}.
         In addition to this, a N-doped silicon area is created inside the P-substrate, called the N-well, to lithograph the PMOS transistors.
         This results in a silicon junction, electrically represented by the N-well diode on the schematic, and called the epitaxy, highlighted in saturated blue.
@@ -59,14 +59,14 @@ It involves analyzing the different structures composing an IC, such as:
             \item $RC_{GND}$ is the access resistance measured between the epitaxy and the NMOS transistor through the P-substrate.
         \end{itemize}
 
-        \subsubsection{Triple-well substrates \ddcnew}
+        \subsubsection{\twF substrates \ddcnew}
         \textcolor{orange}{TW helps to reduce crosstalk noise.}
-        On the other hand, triple-well substrates are also commonly used, often in combination with dual-well on the same die, to provide an electrical isolation between NMOS and PMOS transistors.
+        On the other hand, \twF substrates are also commonly used, often in combination with \dwF on the same die, to provide an electrical isolation between NMOS and PMOS transistors.
         It is achieved by creating inside the N-well, another doped silicon area, inversely doped, called the P-well.
         Inside the latter are then lithographed the NMOS transistors, while the PMOS transistors are still lithographed inside the N-well.
 
 \section{Standard-Cell Segment (SCS) and their models \ddcnew}
-Thanks to what I have introduced in the previous section, that is, the Standard-Cell arrangement used to create IC architectures, alongside the two identified substrate types of interest: Dual-Well and Triple-Well, it is now possible to elaborate an electrical model for such integrated circuits.
+Thanks to what I have introduced in the previous section, that is, the Standard-Cell arrangement used to create IC architectures, alongside the two identified substrate types of interest: \dwF and \twF, it is now possible to elaborate an electrical model for such integrated circuits.
 Because I am differentiating \dwF and \twF substrates, I am introducing two separate models, even though they show some similarities.
 
 The models I developed are an improvement over the electrical models proposed by M. Dumont for \emfi \cite{mathieuEMFI}.
@@ -75,22 +75,82 @@ However, in my model is not represented the logic function of a Standard-Cell, r
 More specifically, the elementary building block of the proposed electrical model represents the average electrical behavior of several Standard-Cells, called Standard-Cell Segment (\scs).
 
 \input{3_modeling/figures/substrateSubdivid}
-Because I based my work on M. Dumont model \cite{mathieuEMFI}, I have made modifications to it.
-The major modification is displayed in Fig. \ref{fig:surfaceSubDivid}.
-In M. Dumont model, the silicon P-substrate is represented solely thanks to a network of 6 resistors.
+Because I based my work on M. Dumont model \cite{mathieuEMFI}, there is a common base to which I have made modifications.
+The major one consists in improving the model geometric accuracy in the case of \bbi studies.
+In M. Dumont model, the silicon P-substrate is represented solely thanks to a network of 6 resistors, 30 µm wide, 5 µm long, and $t_{Sub}$ deep, $t_{Sub}$ being the entire modeled IC substrate thickness.
 However, when performing \bbi, the substrate is the main physical environment where the electric charges travel.
-Therefore, as I describe in more details further, it is required to improve the spatial resolution of the model, as shown in Fig. \ref{fig:surfaceSubDivid}.
-This is done by splitting the substrate electric model in several 6-resistors networks interconnected with each other, thus aloowing for more precise analysis of the substrate charges.
+Therefore, as I describe in more details further, it is required to improve the spatial resolution of the model concerning the substrate, as shown in Fig. \ref{fig:surfaceSubDivid}.
+This is done by splitting the substrate electric model in several 6-resistors elementary networks interconnected with each other.
+It allows representing the same substrate with more resistors, thus enabling more precise analysis of the substrate charges distribution during \bbi.
 
 \input{3_modeling/figures/dualTripleScs}
-Fig. \ref{fig:dualTripleScs} shows the 3-dimensional view of the developed models for my thesis.
-The next subsections are dedicated to describing these models both for \dwF and \twF substrates.
+\input{3_modeling/figures/logicGatesModelMathieu}
+Fig. \ref{fig:dualTripleScs} shows the complete 3-dimensional schematics of the developed models for my thesis.
+An analog simplified schematic representing the top view of a Standard-Cell is shown in Fig. \ref{sfig_simpleSCS} for understanding and clarity purposes. It describes the two levels of metal considered in my modeling (in orange and red), alongside the internal Standard-Cell interconnections in blue, with its size annotated.
 
-    \subsection{The case of Dual-Well substrates \ddcnew}
+The next subsections are dedicated to describing these models both for \dwF and \twF substrates.
+Each SCS is 30 µm wide, 5 µm long and $t_{Sub}$ deep, the thickness of the power delivery network and the logic gates being ignored, as the substrate thickness is often big in front of the latter.
+In my models, an SCS represents about a hundred of logic gates, where half of their transistors are conducting.
+
+    \subsection{The case of \dwF substrates \ddcnew}
     Fig. \ref{subfig:dualScs} shows the electrical model of an SCS for \dwF substrates.
     Each SCS is delimited by the P-substrate at its bottom (\ovalbox{1}) and by the power rails at its top (\ovalbox{5}, \ovalbox{5'}).
+    The dotted wires at the bottom of the substrate indicates that each substrate layer can be repeated as required to form the correct $t_{Sub}$ thickness.
+    \dwF \scs are composed of six main regions, each one describing a part of an IC core sampling:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item Region \ovalbox{1} is the substrate resistive network, composed of several resistors, and being an isotropic environment;
+        \item Region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
+        \item Region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
+        \item Region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists in an access resistance RP from the VDD power-rail to the PMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+        \item Region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists in an access resistance RN from the GND power-rail to the NMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+        \item Region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
+        \item Eventually, region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
+    \end{itemize}
 
-    \subsection{The case of Triple-Well substrates \ddcnew}
+    \subsection{The case of \twF substrates \ddcnew}
+    Fig. \ref{subfig:tripleScs} illustrates the \scs model for \twF substrates.
+    The \scs are delimited, as before, by the P-substrate at their bottom and the power delivery network at their top.
+    As for the \dwF model, the bottom dotted wires indicate that each substrate layer is repeated as needed to create the correct thickness required.
+    The main difference between \dwF and \twF \scs models lies in the region \ovalbox{3}.
+    First, let me describe every region:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item As for the previous model, region \ovalbox{1} is the silicon P-doped substrate;
+        \item Region \ovalbox{2} is the N-well, created inside the P-substrate, with the junction (epitaxy) represented by a blue wire. It is composed of the diode DNW-PS, and its capacitance CNW-PS, alongside the N-well access resistance RNW from the epitaxy up to the VDD network;
+        \item Region \ovalbox{3} is where the \twF model drastically differ from the \dwF one. As I have explained before, in \twF substrates, the NMOS transistors are lithographed inside an isolated P-doped region called the P-well. Therefore, region \ovalbox{3} describes the P-well, with an additional silicon junction modeled with the diode DNW-PW connected backward compared to DNW-PS, its capacitance CNW-PW, and the P-well access resistance RPW to GND;
+        \item The three other regions are identical to the previous \dwF model.
+    \end{itemize}
+
+    \subsection{Writing the elementary models \ddcnew}
+    \input{3_modeling/algorithms/figureHspiceGen}
+    After having abstractly created the models, I decided to write them using SPICE (Simulation Program with Integrated Circuit Emphasis) language.
+    In addition to writing them, I calculated, thanks to the technology values of our IC targets, to calculate the substrate resistor values.
+    Considering the substrate resistivity being $\rho = 0.01 \; \Omega \cdot m$, and the elementary block size being $W = \; \mu m$; $L = 5 \; \mu m$; $D = 10 \; \mu m$, it is trivial to calculate each resistance value $R_i$ thanks to the following equation:
+    \begin{equation}
+        \label{eqn_resistivity}
+        R_i = \frac{\rho \cdot l}{S}
+    \end{equation}
+    Knowing that $L = W \equiv LW$ and that $D = LW$, we can first write that the vertical resistances will be four times the horizontal ones.
+    Therefore, calculating one value of them gives the six values.
+    Let us calculate the vertical resistances, which I will call $RH$:
+    \begin{equation}
+        RH = \frac{\rho \cdot \frac{D}{2}}{L \cdot W} = 2000 \; \Omega
+    \end{equation}
+    Therefore, the horizontal resistances are equal to $RL = 500 \; \Omega$.
+
+    Previously, I have stated that an \scs is 30 µm wide.
+    However, the elementary block I described is 5 µm wide.
+    To achieve a 30 µm width, it is simply required to connect six of these blocks together to form a $W = 30 \; \mu m \cdot L = 5 \; \mu m \cdot D = 10 \; \mu m$ substrate, as it can be seen in Fig. \ref{fig:dualTripleScs} models.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Electrical models \ddcold}
 \label{sect:elecModels}
@@ -101,18 +161,18 @@ On the other hand, when working with BBI, the context is different.
 Indeed, the energy is conveyed through electrical charges through the silicon substrate.
 Therefore, the carriers have to go through the metallic probe and the whole substrate to reach the logic gates and the power delivery network in order to disturb the IC operation.
 Thus, the substrate type and design could have a significant impact on BBI efficiency.
-As a result, we explored and studied BBI in two specific scenarios depending on the substrate types: dual-well and triple-well.
-Fig. \ref{fig:dualTripleIvx} shows the sectional views of two inverters manufactured in a dual-well and a triple-well substrate respectively.
+As a result, we explored and studied BBI in two specific scenarios depending on the substrate types: \dwF and \twF.
+Fig. \ref{fig:dualTripleIvx} shows the sectional views of two inverters manufactured in a \dwF and a \twF substrate respectively.
 These simple schematics are helpful in understanding the reasoning behind the design of the electrical models.
 
-Fig. \ref{subfig:dualIvx} depicts the cross-sectional view of a dual-well CMOS inverter.
+Fig. \ref{subfig:dualIvx} depicts the cross-sectional view of a \dwF CMOS inverter.
 The P-doped silicon substrate is colored in gray, with $RC_{GND}$ being the access resistance from the epitaxy layer to the NMOS bulk.
 This physical environment is the conducting support of electrical charges which flow up to the NMOS transistor.
 The orange region is the N-doped silicon well, located inside the P-substrate to manufacture the PMOS transistors.
 $RC_{VDD}$ is the access resistance from the epitaxy to the PMOS bulk inside the $N_{WELL}$.
 In addition to the P-substrate, the N-well is the last environment electrical charges have to go through before reaching the PMOS transistor.
 
-Fig. \ref{subfig:tripleIvx} shows the cross-sectional view of a triple-well CMOS inverter.
+Fig. \ref{subfig:tripleIvx} shows the cross-sectional view of a \twF CMOS inverter.
 As before, gray areas represent P-doped silicon, and orange areas N-doped silicon.
 $R_{NW}$ is the $N_{WELL}$ access resistance from the epitaxy to the PMOS bulk, and $R_{PW}$ is the $P_{WELL}$ access resistance from the $N_{WELL} - P_{WELL}$ junction to the NMOS bulk.
 In this case, two silicon junctions are present, represented by two independent diodes.
@@ -122,11 +182,11 @@ As discussed in Chapter \ref{chap:5faultModel}, this has a significant impact on
 However, these schematics are incomplete and do not allow simulating ICs behaviors under BBI.
 
 Therefore, as it has been done in \cite{mathieuEMFI}, ICs are spatially split in elementary sections called standard-cells segments (SCS).
-However, in addition to the improvement of the dual-well proposed model proposed in \cite{mathieuEMFI}, we also introduce a triple-well model in order to fully appreciate the behavioral differences of BBI applied to both substrate types.
+However, in addition to the improvement of the \dwF proposed model proposed in \cite{mathieuEMFI}, we also introduce a \twF model in order to fully appreciate the behavioral differences of BBI applied to both substrate types.
 
 %\input{3_modeling/figures/substrateSubdivid}
 %\input{3_modeling/figures/dualTripleScs}
-The main improvement over the dual-well model proposed in \cite{mathieuEMFI} concerns the substrate resistive network, as shown in Fig. \ref{fig:surfaceSubDivid}.
+The main improvement over the \dwF model proposed in \cite{mathieuEMFI} concerns the substrate resistive network, as shown in Fig. \ref{fig:surfaceSubDivid}.
 In \cite{mathieuEMFI}, the substrate network is coarse and only consists of six electrical resistances for each SCS.
 It means that they represent the entire SCS substrate thickness, width, and height (on the left in Fig \ref{fig:surfaceSubDivid}).
 Even though it is sufficient to appreciate the injection method effects while studying EMFI, mainly because the substrate is almost transparent when it comes to electromagnetic waves, but also because EMFI is mostly performed at the IC front side, it is not precise enough to model the spreading of he voltage pulse from the IC backside to the transistors.
@@ -144,18 +204,18 @@ Furthermore, as shown in Fig. \ref{fig:dualTripleScs}, both SCS models contain v
     \item Its power supply rails
 \end{itemize}
 These two models, while being close to each other, allow, thanks to their subtle differences, to properly consider the different behaviors each substrate type exhibits.
-In the next section, dual-well SCS model and triple-well SCS model are consecutively considered and analyzed.
+In the next section, \dwF SCS model and \twF SCS model are consecutively considered and analyzed.
 
-\subsection{Standard-cell segment models \ddc}
+\subsection{Standard-cell segment models \ddcold}
 \label{subSect:dualTripleWellScs}
-Historically, IC substrate was manufactured using an exclusive dual-well structure.
-However, nowadays, it is common to find on relatively modern ICs a mix of dual-well and triple-well structures on a monolithic die.
-Triple-well substrate structures bring significant advantages over dual-well substrates.
+Historically, IC substrate was manufactured using an exclusive \dwF structure.
+However, nowadays, it is common to find on relatively modern ICs a mix of \dwF and \twF structures on a monolithic die.
+\twF substrate structures bring significant advantages over \dwF substrates.
 In digital ICs, it is mainly used to body bias transistors to optimize their performance under power constraints.
 When used in analog or mixed designs, it gives two main advantages: substrate cross-talk and noise reduction, in addition to power supply decoupling thanks to the additional P-N junction capacitance \cite{tripleWellDecoupling}.
-This is why we decided to cover dual-well and triple-well structures in our models.
+This is why we decided to cover \dwF and \twF structures in our models.
 
-Fig. \ref{subfig:dualScs} depicts an SCS dual-well model.
+Fig. \ref{subfig:dualScs} depicts an SCS \dwF model.
 Each significant section of the SCS is gray-framed and numbered:
 \begin{itemize}
     \item The section \ovalbox{1} represents the substrate environment: resistive and isotropic.
@@ -166,14 +226,14 @@ Each significant section of the SCS is gray-framed and numbered:
     \item The section \ovalbox{6} is the decoupling between both $GND$ and $V_{DD}$ power networks.
 \end{itemize}
 
-Fig. \ref{subfig:tripleScs} depicts the SCS triple-well model as follows:
+Fig. \ref{subfig:tripleScs} depicts the SCS \twF model as follows:
 \begin{itemize}
     \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $R_{NW}$, being the N-well electrical resistance.
     \item The section \ovalbox{3} is the $N-P$ silicon junction between the N-well and the P-well, represented once again by a diode and its junction capacitance, in addition to an access resistance $R_{PW}$, being the P-well electrical resistance.
     \item The sections \ovalbox{1}, \ovalbox{4P}, \ovalbox{4N}, \ovalbox{5'} and \ovalbox{6} being the same as before.
 \end{itemize}
 
-\input{3_modeling/algorithms/figureHspiceGen}
+%\input{3_modeling/algorithms/figureHspiceGen}
 \input{3_modeling/algorithms/hspiceGen}
 Each area of the elementary SCS models were automatically generated using  a custom algorithm, shown in Alg. \ref{alg:icGen}.
 It was mainly designed in order to reduce as much as possible any human intervention to limit difficult to debug errors and inconsistencies.
@@ -188,7 +248,7 @@ On the contrary, the following is a non-exhaustive list of user-modifiable setti
 	\item Probe position.
 	\item IC global substrate thickness.
 	\item IC elementary substrate thickness.
-	\item Substrate type (dual-well, triple-well, or mixed).
+	\item Substrate type (\dwF, \twF, or mixed).
 	\item Voltage pulse amplitude.
 	\item Voltage pulse width.
 	\item Voltage pulse rise and fall times.

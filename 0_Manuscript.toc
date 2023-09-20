@@ -12,94 +12,95 @@
 \contentsline {xchapter}{}{xvii}{chapter*.7}%
 \contentsline {chapter}{General introduction}{xvii}{section*.8}%
 \contentsline {xchapter}{}{xix}{chapter*.9}%
-\contentsline {chapter}{\numberline {1}Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Side-channel attacks \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Timing attacks \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Power analysis and electromagnetic analysis attacks \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{5}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Fault-injection attacks \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Giraud's differential fault attack \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{8}{subsection.1.4.1}%
-\contentsline {section}{\numberline {1.5}Fault-injection techniques \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{8}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Glitch fault injection \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{8}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Laser fault injection \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{8}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Electromagnetic fault injection \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{9}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Body biasing injection \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{9}{subsection.1.5.4}%
-\contentsline {chapter}{\numberline {2}Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}BBI platforms in the state-of-the-art \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Initial BBI platforms \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}C. O'Flynn BBI platform \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{14}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Commercial platforms \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{15}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Langer EMV-Technik GmbH BBI platform \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{16}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Riscure BBI platform \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{17}{subsubsection.2.3.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3.3}NewAE Technology Inc. generators \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{18}{subsubsection.2.3.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}An overview about BBI platforms \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{19}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Our BBI platform \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{20}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}The probe \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{20}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}The generator \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{21}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}BBI in practice \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{22}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Typical BBI platform model \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{22}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Platforms evaluation criteria \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{22}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Raw results \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{23}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Analysis conclusions \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{23}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}Enhanced BBI platform model and simulation \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{25}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Matching the generator output impedance \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{25}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Improving the grounding installation \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{26}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Simulation results \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{26}{subsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.3.1}Load dependency \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{26}{subsubsection.2.6.3.1}%
-\contentsline {subsection}{\numberline {2.6.4}Simulation conclusions \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{27}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}Actual enhanced BBI platform \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{27}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Generator impedance matching in practice \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{28}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Grounding installation bypass in practice \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{28}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Practical analysis \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{28}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}Enhanced BBI platform in a fault attack context \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{30}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Giraud's DFA detailed description \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{30}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Integrated circuits target characteristics \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{32}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Preliminary attack experiments \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{33}{subsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.3.1}Fault analysis mapping description \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{33}{subsubsection.2.8.3.1}%
-\contentsline {subsubsection}{\numberline {2.8.3.2}Fault analysis mapping comparison \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{34}{subsubsection.2.8.3.2}%
-\contentsline {subsection}{\numberline {2.8.4}Attack results and analysis \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{34}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Giraud's DFA conclusion \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{35}{subsection.2.8.5}%
-\contentsline {section}{\numberline {2.9}Conclusion \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{35}{section.2.9}%
-\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {myRedG7}{\footnotesize IN PROGRESS}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Summary \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{38}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{38}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Integrated circuits structure \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{39}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Power supply rails \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{39}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Standard-Cell rows \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{40}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Various substrate types \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{40}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Dual-well substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{41}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Triple-well substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{42}{subsubsection.3.3.3.2}%
-\contentsline {section}{\numberline {3.4}Standard-Cell Segment (SCS) and their models \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{42}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}The case of Dual-Well substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{43}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}The case of Triple-Well substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{43}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Electrical models \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{43}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Standard-cell segment models \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{45}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Preliminary model validation \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{48}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Voltage pulse generator model and further validation \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{49}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Early generator models \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{50}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Further generator models and verification \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{50}{subsection.3.7.2}%
-\contentsline {section}{\numberline {3.8}Experimental comparisons \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{51}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Conclusion \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{51}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{56}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{56}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{57}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{57}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{60}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Models validation \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{62}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{62}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{63}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{64}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Fault model \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{67}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{68}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Charge extortion \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{68}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Sequential logic operation and simple fault model \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{69}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Silicon substrate charges propagation \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{69}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Logic gates simulation under BBI \textcolor {myCyan}{\footnotesize 2023-09-19 18:26:07+02:00}}{69}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{71}{chapter.6}%
-\contentsline {chapter}{Bibliography}{73}{section*.45}%
-\contentsline {xchapter}{}{73}{section*.45}%
+\contentsline {chapter}{\numberline {1}Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Side-channel attacks \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Timing attacks \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Power analysis and electromagnetic analysis attacks \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{5}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Fault-injection attacks \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Giraud's differential fault attack \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{8}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Fault-injection techniques \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Glitch fault injection \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Laser fault injection \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{8}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Electromagnetic fault injection \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{9}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Body biasing injection \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{9}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {2}Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}BBI platforms in the state-of-the-art \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Initial BBI platforms \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}C. O'Flynn BBI platform \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Commercial platforms \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{15}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Langer EMV-Technik GmbH BBI platform \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{16}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Riscure BBI platform \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{17}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}NewAE Technology Inc. generators \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{18}{subsubsection.2.3.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}An overview about BBI platforms \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{19}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Our BBI platform \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The probe \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The generator \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{21}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}BBI in practice \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{22}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Typical BBI platform model \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{22}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Platforms evaluation criteria \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{22}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Raw results \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{23}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Analysis conclusions \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{23}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Enhanced BBI platform model and simulation \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{25}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Matching the generator output impedance \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{25}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Improving the grounding installation \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{26}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Simulation results \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{26}{subsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.3.1}Load dependency \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{26}{subsubsection.2.6.3.1}%
+\contentsline {subsection}{\numberline {2.6.4}Simulation conclusions \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{27}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Actual enhanced BBI platform \textcolor {myViolet3}{\footnotesize PARTIALLY UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{27}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Generator impedance matching in practice \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{28}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Grounding installation bypass in practice \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{28}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Practical analysis \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{28}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}Enhanced BBI platform in a fault attack context \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{30}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Giraud's DFA detailed description \textcolor {myYellowNormal}{\footnotesize NO CHANGES}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{30}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Integrated circuits target characteristics \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{32}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Preliminary attack experiments \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{33}{subsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.3.1}Fault analysis mapping description \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{33}{subsubsection.2.8.3.1}%
+\contentsline {subsubsection}{\numberline {2.8.3.2}Fault analysis mapping comparison \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{34}{subsubsection.2.8.3.2}%
+\contentsline {subsection}{\numberline {2.8.4}Attack results and analysis \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{34}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}Giraud's DFA conclusion \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{35}{subsection.2.8.5}%
+\contentsline {section}{\numberline {2.9}Conclusion \textcolor {myViolet2}{\footnotesize UPDATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{35}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Integrated circuits modeling \textcolor {myRedG7}{\footnotesize IN PROGRESS}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{38}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Integrated circuits structure \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{39}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Power supply rails \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{39}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Standard-Cell rows \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{40}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Various substrate types \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{40}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Dual-Well\xspace substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{41}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Triple-Well\xspace substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{42}{subsubsection.3.3.3.2}%
+\contentsline {section}{\numberline {3.4}Standard-Cell Segment (SCS) and their models \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{42}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}The case of Dual-Well\xspace substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{44}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}The case of Triple-Well\xspace substrates \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{44}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Writing the elementary models \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{45}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Electrical models \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{46}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Standard-cell segment models \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{48}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Preliminary model validation \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{50}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Voltage pulse generator model and further validation \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{51}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Early generator models \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{52}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Further generator models and verification \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{52}{subsection.3.7.2}%
+\contentsline {section}{\numberline {3.8}Experimental comparisons \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{53}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Conclusion \textcolor {myRed8}{\footnotesize DEPRECATED}\xspace \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{53}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{57}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{58}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{58}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Geometric and electrical modeling \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{59}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Geometric modeling \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{59}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Electrical approach \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{62}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Models validation \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{64}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}IC substrate thinning quick look \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{64}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Experiments with thinned circuits \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{65}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusion \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{66}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Fault model \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{70}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{70}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Charge extortion \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{70}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Sequential logic operation and simple fault model \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{71}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Silicon substrate charges propagation \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{71}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Logic gates simulation under BBI \textcolor {myCyan}{\footnotesize 2023-09-20 16:44:04+02:00}}{71}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{73}{chapter.6}%
+\contentsline {chapter}{Bibliography}{75}{section*.45}%
+\contentsline {xchapter}{}{75}{section*.45}%
