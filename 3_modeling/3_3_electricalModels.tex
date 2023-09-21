@@ -138,122 +138,154 @@ In my models, an SCS represents about a hundred of logic gates, where half of th
         RH = \frac{\rho \cdot \frac{D}{2}}{L \cdot W} = 2000 \; \Omega
     \end{equation}
     Therefore, the horizontal resistances are equal to $RL = 500 \; \Omega$.
+    These calculations can be adapted as needed depending on the technology used.
+    In addition to that, a substrate with a given thickness $t_{Sub}$ can be represented with virtually any number of layers.
+    For example, one can reduce the number of layer by ten by adjusting the resistor values.
+    It has the advantage to provide a lighter simulation, which will be faster to perform, at the cost of less accuracy.
 
     Previously, I have stated that an \scs is 30 µm wide.
     However, the elementary block I described is 5 µm wide.
-    To achieve a 30 µm width, it is simply required to connect six of these blocks together to form a $W = 30 \; \mu m \cdot L = 5 \; \mu m \cdot D = 10 \; \mu m$ substrate, as it can be seen in Fig. \ref{fig:dualTripleScs} models.
+    To achieve a 30 µm wide \scs, it is simply required to connect six of these blocks together to form a $W = 30 \; \mu m \cdot L = 5 \; \mu m \cdot D = 10 \; \mu m$ substrate, as it can be seen in Fig. \ref{fig:dualTripleScs} models.
+    \input{3_modeling/figures/elemBlocX6.tex}
+    The resulting netlist is shown in Fig. \ref{fig_elemBlocX6}, and naturally instantiate six times the previous netlist shown in Fig. \ref{sfig_spiceNetSub}.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Electrical models \ddcold}
-\label{sect:elecModels}
-%\input{3_modeling/figures/dualTripleCoupe}
-On one hand, when performing EMFI (usually on the front side of the IC), air is the physical support to convey energy through electromagnetic waves.
-It is achieved by coupling the loop wire probe to the power delivery network loops.
-On the other hand, when working with BBI, the context is different.
-Indeed, the energy is conveyed through electrical charges through the silicon substrate.
-Therefore, the carriers have to go through the metallic probe and the whole substrate to reach the logic gates and the power delivery network in order to disturb the IC operation.
-Thus, the substrate type and design could have a significant impact on BBI efficiency.
-As a result, we explored and studied BBI in two specific scenarios depending on the substrate types: \dwF and \twF.
-Fig. \ref{fig:dualTripleIvx} shows the sectional views of two inverters manufactured in a \dwF and a \twF substrate respectively.
-These simple schematics are helpful in understanding the reasoning behind the design of the electrical models.
-
-Fig. \ref{subfig:dualIvx} depicts the cross-sectional view of a \dwF CMOS inverter.
-The P-doped silicon substrate is colored in gray, with $RC_{GND}$ being the access resistance from the epitaxy layer to the NMOS bulk.
-This physical environment is the conducting support of electrical charges which flow up to the NMOS transistor.
-The orange region is the N-doped silicon well, located inside the P-substrate to manufacture the PMOS transistors.
-$RC_{VDD}$ is the access resistance from the epitaxy to the PMOS bulk inside the $N_{WELL}$.
-In addition to the P-substrate, the N-well is the last environment electrical charges have to go through before reaching the PMOS transistor.
-
-Fig. \ref{subfig:tripleIvx} shows the cross-sectional view of a \twF CMOS inverter.
-As before, gray areas represent P-doped silicon, and orange areas N-doped silicon.
-$R_{NW}$ is the $N_{WELL}$ access resistance from the epitaxy to the PMOS bulk, and $R_{PW}$ is the $P_{WELL}$ access resistance from the $N_{WELL} - P_{WELL}$ junction to the NMOS bulk.
-In this case, two silicon junctions are present, represented by two independent diodes.
-In order to reach the PMOS transistors, charges have to go through the exact same environments as before.
-However, concerning NMOS transistors, they have to pass through two silicon junctions instead of none.
-As discussed in Chapter \ref{chap:5faultModel}, this has a significant impact on BBI induced effects.
-However, these schematics are incomplete and do not allow simulating ICs behaviors under BBI.
-
-Therefore, as it has been done in \cite{mathieuEMFI}, ICs are spatially split in elementary sections called standard-cells segments (SCS).
-However, in addition to the improvement of the \dwF proposed model proposed in \cite{mathieuEMFI}, we also introduce a \twF model in order to fully appreciate the behavioral differences of BBI applied to both substrate types.
-
-%\input{3_modeling/figures/substrateSubdivid}
-%\input{3_modeling/figures/dualTripleScs}
-The main improvement over the \dwF model proposed in \cite{mathieuEMFI} concerns the substrate resistive network, as shown in Fig. \ref{fig:surfaceSubDivid}.
-In \cite{mathieuEMFI}, the substrate network is coarse and only consists of six electrical resistances for each SCS.
-It means that they represent the entire SCS substrate thickness, width, and height (on the left in Fig \ref{fig:surfaceSubDivid}).
-Even though it is sufficient to appreciate the injection method effects while studying EMFI, mainly because the substrate is almost transparent when it comes to electromagnetic waves, but also because EMFI is mostly performed at the IC front side, it is not precise enough to model the spreading of he voltage pulse from the IC backside to the transistors.
-
-To that end, we decided to split as much as possible these resistors, as shown in Fig. \ref{fig:surfaceSubDivid}, to provide a precise enough substrate sub-model while keeping realistic computational workload.
-For the final models, it was decided to use an editable elementary thickness of $10 \; \mu m$, and fixed width and depth of $5 \; \mu m$ for each elementary six-resistors substrate models, according to the footprint of an SCS on the XY plane ($5 \; \mu m \; \times \; (6 \; \mu m \; \times \; 5 \; \mu m)$), resulting in a $30 \; \mu m$ wide and $5 \; \mu m$ deep SCS.
-One can remark that in Fig \ref{fig:dualTripleScs}, no number is given concerning the substrate thickness, as similar to LFI, it is an important parameter which does not have a fixed value.
-Indeed, an attacker may want to thin the substrate or not before performing BBI.
-
-Furthermore, as shown in Fig. \ref{fig:dualTripleScs}, both SCS models contain various electrical components describing the IC structure, roughly composed of:
+\section{Integrated circuit modeling: interconnecting Standard-Cell Segments together \ddcnew}
+Because the \scs I previously introduced only describe a portion of an integrated circuit, in order to model a complete one, it is required to instantiate several \scs and to connect them with each other in a mesh grid.
+\input{3_modeling/figures/surfaceSplitScs.tex}
+Fig. \ref{fig:surfaceSplitScs} is a coarse illustration of what is done.
+\scs are written, as the elementary substrate building blocks, in SPICE.
+The \scs elementary models were automatically generated instead of being written manually, to avoid errors and enabling fast modifications to the models when required.
+In addition to this, I decided to create an algorithm to connect as much \scs as needed to create a resulting IC.
+By doing so, the interconnection process is once again automated and free from human errors.
+A simple description of the algorithm is depicted in Alg. \ref{alg:icGen}
+Because I have designed two separate models, one for \dwF and another for \twF substrate types, in addition to the various dynamic parameters which are useful when modeling an IC, the algorithm offers a certain degree of flexibility.
+The actual program was written and implemented using Python, implementing procedural generation of integrated circuits according to the input parameters.
+Next is the list of user-modifiable input parameters of the algorithm:
 \begin{itemize}
-    \item Its substrate
-    \item Its silicon junction(s)
-    \item Its logic gates
-    \item Its power supply rails
+    \setlength\itemsep{-0.1em}
+    \item The resulting IC size;
+    \item The \bbi probe location;
+    \item The IC global substrate thickness;
+    \item The substrate sub-model thickness;
+    \item The substrate type: \dwF, \twF, or a mix of both, allowing to replicate actual IC architectures;
+    \item The voltage pulse amplitude, width, and rise and fall times;
+    \item Various SPICE simulation settings.
 \end{itemize}
-These two models, while being close to each other, allow, thanks to their subtle differences, to properly consider the different behaviors each substrate type exhibits.
-In the next section, \dwF SCS model and \twF SCS model are consecutively considered and analyzed.
+Eventually, the program incorporates a visual inspection tool in order to provide a quick verification of the generated IC structure to the end-user.
 
-\subsection{Standard-cell segment models \ddcold}
-\label{subSect:dualTripleWellScs}
-Historically, IC substrate was manufactured using an exclusive \dwF structure.
-However, nowadays, it is common to find on relatively modern ICs a mix of \dwF and \twF structures on a monolithic die.
-\twF substrate structures bring significant advantages over \dwF substrates.
-In digital ICs, it is mainly used to body bias transistors to optimize their performance under power constraints.
-When used in analog or mixed designs, it gives two main advantages: substrate cross-talk and noise reduction, in addition to power supply decoupling thanks to the additional P-N junction capacitance \cite{tripleWellDecoupling}.
-This is why we decided to cover \dwF and \twF structures in our models.
+%As each \scs has external connections
 
-Fig. \ref{subfig:dualScs} depicts an SCS \dwF model.
-Each significant section of the SCS is gray-framed and numbered:
-\begin{itemize}
-    \item The section \ovalbox{1} represents the substrate environment: resistive and isotropic.
-    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $RC-VDD$, being the N-well electrical resistance.
-    \item The section \ovalbox{3} is the substrate access resistance.
-    \item The sections \ovalbox{4P} and \ovalbox{4N} contain the average non-logical model of a hundred of logic gates.
-    \item The sections \ovalbox{5} and \ovalbox{5'} are the two levels of the power delivery network, which are low resistive metals.
-    \item The section \ovalbox{6} is the decoupling between both $GND$ and $V_{DD}$ power networks.
-\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Fig. \ref{subfig:tripleScs} depicts the SCS \twF model as follows:
-\begin{itemize}
-    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $R_{NW}$, being the N-well electrical resistance.
-    \item The section \ovalbox{3} is the $N-P$ silicon junction between the N-well and the P-well, represented once again by a diode and its junction capacitance, in addition to an access resistance $R_{PW}$, being the P-well electrical resistance.
-    \item The sections \ovalbox{1}, \ovalbox{4P}, \ovalbox{4N}, \ovalbox{5'} and \ovalbox{6} being the same as before.
-\end{itemize}
-
-%\input{3_modeling/algorithms/figureHspiceGen}
-\input{3_modeling/algorithms/hspiceGen}
-Each area of the elementary SCS models were automatically generated using  a custom algorithm, shown in Alg. \ref{alg:icGen}.
-It was mainly designed in order to reduce as much as possible any human intervention to limit difficult to debug errors and inconsistencies.
-Furthermore, it provides a degree of flexibility due to the ease of user modifications directly into the generation algorithm parameters, as opposed to netlist editing, thereby reducing errors further.
-These models only represent a section of an integrated circuit. For effective use and verification, it is necessary to replicate and interconnect these models spatially as much as possible.
-This was accomplished by utilizing customized Python scripts coupled with procedural generation.
-The IC generation algorithm enables the modification of multiple settings to produce the desired outcomes, albeit with certain inherent structural limitations.
-Two of the main limitations are the fixed width and depth of the elementary SCS models, and the fixed number of metal levels in the power delivery network.
-On the contrary, the following is a non-exhaustive list of user-modifiable settings:
-\begin{itemize}
-	\item Global IC size.
-	\item Probe position.
-	\item IC global substrate thickness.
-	\item IC elementary substrate thickness.
-	\item Substrate type (\dwF, \twF, or mixed).
-	\item Voltage pulse amplitude.
-	\item Voltage pulse width.
-	\item Voltage pulse rise and fall times.
-	\item Simulation time and step.
-\end{itemize}
-Eventually, the generator script incorporates a visual inspection tool in order to quickly verify the correctness of the generated netlist.
-Alg. \ref{alg:icGen} shows the IC generation algorithm main function, which is to create the coordinates for every net in the netlist.
-%Alg. \ref{alg:icGen} presents the IC generation algorithm, alongside Fig. \ref{fig:algo}.
+%\section{Electrical models \ddcold}
+%\label{sect:elecModels}
+%%\input{3_modeling/figures/dualTripleCoupe}
+%On one hand, when performing EMFI (usually on the front side of the IC), air is the physical support to convey energy through electromagnetic waves.
+%It is achieved by coupling the loop wire probe to the power delivery network loops.
+%On the other hand, when working with BBI, the context is different.
+%Indeed, the energy is conveyed through electrical charges through the silicon substrate.
+%Therefore, the carriers have to go through the metallic probe and the whole substrate to reach the logic gates and the power delivery network in order to disturb the IC operation.
+%Thus, the substrate type and design could have a significant impact on BBI efficiency.
+%As a result, we explored and studied BBI in two specific scenarios depending on the substrate types: \dwF and \twF.
+%Fig. \ref{fig:dualTripleIvx} shows the sectional views of two inverters manufactured in a \dwF and a \twF substrate respectively.
+%These simple schematics are helpful in understanding the reasoning behind the design of the electrical models.
+%
+%Fig. \ref{subfig:dualIvx} depicts the cross-sectional view of a \dwF CMOS inverter.
+%The P-doped silicon substrate is colored in gray, with $RC_{GND}$ being the access resistance from the epitaxy layer to the NMOS bulk.
+%This physical environment is the conducting support of electrical charges which flow up to the NMOS transistor.
+%The orange region is the N-doped silicon well, located inside the P-substrate to manufacture the PMOS transistors.
+%$RC_{VDD}$ is the access resistance from the epitaxy to the PMOS bulk inside the $N_{WELL}$.
+%In addition to the P-substrate, the N-well is the last environment electrical charges have to go through before reaching the PMOS transistor.
+%
+%Fig. \ref{subfig:tripleIvx} shows the cross-sectional view of a \twF CMOS inverter.
+%As before, gray areas represent P-doped silicon, and orange areas N-doped silicon.
+%$R_{NW}$ is the $N_{WELL}$ access resistance from the epitaxy to the PMOS bulk, and $R_{PW}$ is the $P_{WELL}$ access resistance from the $N_{WELL} - P_{WELL}$ junction to the NMOS bulk.
+%In this case, two silicon junctions are present, represented by two independent diodes.
+%In order to reach the PMOS transistors, charges have to go through the exact same environments as before.
+%However, concerning NMOS transistors, they have to pass through two silicon junctions instead of none.
+%As discussed in Chapter \ref{chap:5faultModel}, this has a significant impact on BBI induced effects.
+%However, these schematics are incomplete and do not allow simulating ICs behaviors under BBI.
+%
+%Therefore, as it has been done in \cite{mathieuEMFI}, ICs are spatially split in elementary sections called standard-cells segments (SCS).
+%However, in addition to the improvement of the \dwF proposed model proposed in \cite{mathieuEMFI}, we also introduce a \twF model in order to fully appreciate the behavioral differences of BBI applied to both substrate types.
+%
+%%\input{3_modeling/figures/substrateSubdivid}
+%%\input{3_modeling/figures/dualTripleScs}
+%The main improvement over the \dwF model proposed in \cite{mathieuEMFI} concerns the substrate resistive network, as shown in Fig. \ref{fig:surfaceSubDivid}.
+%In \cite{mathieuEMFI}, the substrate network is coarse and only consists of six electrical resistances for each SCS.
+%It means that they represent the entire SCS substrate thickness, width, and height (on the left in Fig \ref{fig:surfaceSubDivid}).
+%Even though it is sufficient to appreciate the injection method effects while studying EMFI, mainly because the substrate is almost transparent when it comes to electromagnetic waves, but also because EMFI is mostly performed at the IC front side, it is not precise enough to model the spreading of he voltage pulse from the IC backside to the transistors.
+%
+%To that end, we decided to split as much as possible these resistors, as shown in Fig. \ref{fig:surfaceSubDivid}, to provide a precise enough substrate sub-model while keeping realistic computational workload.
+%For the final models, it was decided to use an editable elementary thickness of $10 \; \mu m$, and fixed width and depth of $5 \; \mu m$ for each elementary six-resistors substrate models, according to the footprint of an SCS on the XY plane ($5 \; \mu m \; \times \; (6 \; \mu m \; \times \; 5 \; \mu m)$), resulting in a $30 \; \mu m$ wide and $5 \; \mu m$ deep SCS.
+%One can remark that in Fig \ref{fig:dualTripleScs}, no number is given concerning the substrate thickness, as similar to LFI, it is an important parameter which does not have a fixed value.
+%Indeed, an attacker may want to thin the substrate or not before performing BBI.
+%
+%Furthermore, as shown in Fig. \ref{fig:dualTripleScs}, both SCS models contain various electrical components describing the IC structure, roughly composed of:
+%\begin{itemize}
+%    \item Its substrate
+%    \item Its silicon junction(s)
+%    \item Its logic gates
+%    \item Its power supply rails
+%\end{itemize}
+%These two models, while being close to each other, allow, thanks to their subtle differences, to properly consider the different behaviors each substrate type exhibits.
+%In the next section, \dwF SCS model and \twF SCS model are consecutively considered and analyzed.
+%
+%\subsection{Standard-cell segment models \ddcold}
+%\label{subSect:dualTripleWellScs}
+%Historically, IC substrate was manufactured using an exclusive \dwF structure.
+%However, nowadays, it is common to find on relatively modern ICs a mix of \dwF and \twF structures on a monolithic die.
+%\twF substrate structures bring significant advantages over \dwF substrates.
+%In digital ICs, it is mainly used to body bias transistors to optimize their performance under power constraints.
+%When used in analog or mixed designs, it gives two main advantages: substrate cross-talk and noise reduction, in addition to power supply decoupling thanks to the additional P-N junction capacitance \cite{tripleWellDecoupling}.
+%This is why we decided to cover \dwF and \twF structures in our models.
+%
+%Fig. \ref{subfig:dualScs} depicts an SCS \dwF model.
+%Each significant section of the SCS is gray-framed and numbered:
+%\begin{itemize}
+%    \item The section \ovalbox{1} represents the substrate environment: resistive and isotropic.
+%    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $RC-VDD$, being the N-well electrical resistance.
+%    \item The section \ovalbox{3} is the substrate access resistance.
+%    \item The sections \ovalbox{4P} and \ovalbox{4N} contain the average non-logical model of a hundred of logic gates.
+%    \item The sections \ovalbox{5} and \ovalbox{5'} are the two levels of the power delivery network, which are low resistive metals.
+%    \item The section \ovalbox{6} is the decoupling between both $GND$ and $V_{DD}$ power networks.
+%\end{itemize}
+%
+%Fig. \ref{subfig:tripleScs} depicts the SCS \twF model as follows:
+%\begin{itemize}
+%    \item The section \ovalbox{2} is the $P-N$ silicon junction between the P-substrate and the N-well, represented by a diode and its junction capacitance, in addition to an access resistance $R_{NW}$, being the N-well electrical resistance.
+%    \item The section \ovalbox{3} is the $N-P$ silicon junction between the N-well and the P-well, represented once again by a diode and its junction capacitance, in addition to an access resistance $R_{PW}$, being the P-well electrical resistance.
+%    \item The sections \ovalbox{1}, \ovalbox{4P}, \ovalbox{4N}, \ovalbox{5'} and \ovalbox{6} being the same as before.
+%\end{itemize}
+%
+%%\input{3_modeling/algorithms/figureHspiceGen}
+%\input{3_modeling/algorithms/hspiceGen}
+%Each area of the elementary SCS models were automatically generated using  a custom algorithm, shown in Alg. \ref{alg:icGen}.
+%It was mainly designed in order to reduce as much as possible any human intervention to limit difficult to debug errors and inconsistencies.
+%Furthermore, it provides a degree of flexibility due to the ease of user modifications directly into the generation algorithm parameters, as opposed to netlist editing, thereby reducing errors further.
+%These models only represent a section of an integrated circuit. For effective use and verification, it is necessary to replicate and interconnect these models spatially as much as possible.
+%This was accomplished by utilizing customized Python scripts coupled with procedural generation.
+%The IC generation algorithm enables the modification of multiple settings to produce the desired outcomes, albeit with certain inherent structural limitations.
+%Two of the main limitations are the fixed width and depth of the elementary SCS models, and the fixed number of metal levels in the power delivery network.
+%On the contrary, the following is a non-exhaustive list of user-modifiable settings:
+%\begin{itemize}
+%	\item Global IC size.
+%	\item Probe position.
+%	\item IC global substrate thickness.
+%	\item IC elementary substrate thickness.
+%	\item Substrate type (\dwF, \twF, or mixed).
+%	\item Voltage pulse amplitude.
+%	\item Voltage pulse width.
+%	\item Voltage pulse rise and fall times.
+%	\item Simulation time and step.
+%\end{itemize}
+%Eventually, the generator script incorporates a visual inspection tool in order to quickly verify the correctness of the generated netlist.
+%Alg. \ref{alg:icGen} shows the IC generation algorithm main function, which is to create the coordinates for every net in the netlist.
+%%Alg. \ref{alg:icGen} presents the IC generation algorithm, alongside Fig. \ref{fig:algo}.

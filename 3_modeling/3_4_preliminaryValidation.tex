@@ -1,40 +1,20 @@
-\section{Preliminary model validation \ddcold}
-Because validating such models is a complex task, we chose to trim validation into elementary steps.
-As these models aim at modeling and report back average IC behaviors, it is required to verify their soundness in trivial scenarios.
-Specifically, two class of measurements are going to be discussed in this section:
+\section{Preliminary models validation \ddcnew}
+Designing and creating the models I previously described is the first step in practically implementing them.
+Afterward comes various validation to verify the soundness of such models.
+To that end, using the generation algorithm, I created various ICs with the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$.
+It is, according to our platform computational power, a reasonable size/calculation time ratio.
+Three ICs are generated:
 \begin{itemize}
-    \item Global quiescent leakage current evaluation
-    \item Quiescent power network IR drop verification
+    \setlength\itemsep{-0.1em}
+    \item An exclusive \dwF circuit, to isolate the \dwF specific \bbi effects with further simulations;
+    \item An exclusive \twF circuit, to isolate the \twF specific effects under \bbi;
+    \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically our platform microcontroller.
 \end{itemize}
-These are important parameters to verify before going any further because any inconsistent or unrealistic value would result in meaningless models and simulations.
+For each preliminary validation, the IC is simply powered thanks to its power inputs, and no \bbi probe is connected to any of them.
 
-\input{3_modeling/figures/surfaceSplitScs.tex}
-To that end, we decided, as stated previously, to create an IC composed of several SCS.
-Fig. \ref{fig:surfaceSplitScs} depicts in a general way how the various SCS required are spatially connected to each other.
-In blue is indicated the epitaxy layer, which is the junction between the highest substrate level and the top of the SCS.
-All SCS share the power delivery network at their top and the silicon substrate at their bottom.
-As mentioned earlier, each SCS represent the average behavior of about a hundred of logic gates.
-The resulting IC measurements are the following: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a thickness of $140 \; \mu m$.
-First, we will present the global leakage current, then, we will analyze mappings of the simulated ICs power distribution networks.
-Dual-well, triple-well and mixed substrates models are analyzed, and most importantly, the simulated circuits do not include the voltage pulse generator nor any other external component required to work with BBI as what we present here is the first validation step.
-They are proposed as is, and Table \ref{tab:basicOpPointScs} presents the operating point results for each substrate type.
-\begin{table}[htbp!]
-%    \footnotesize
-    \centering
-    \caption{Dual-well, triple-well and mixed substrates SCS operating point.}
-    \label{tab:basicOpPointScs}
-    \begin{tabular}{llrrr}
-        \hline
-        Measurement   	& Description               &  Dual-well 		&  Triple-well   	&  Mixed substrates	\\
-        $I_{GND}$     	& IC global ground current  &  1.92 nA   		&  1.94 nA        	&  3.4 nA          	\\
-        $I_{VDD}$     	& IC global VDD current     & -1.96 nA    		& -5.8 nA         	& -3.5 nA         	\\
-        $GND_{AVG}$     & Average GND voltage       & 1 nV    			&  1 nV         	&  1.75 nV         	\\
-        $VDD_{AVG}$     & Average VDD Voltage       & 1.2 V    			&  1.2 V         	&  1.2 V         	\\
-    \end{tabular}
-\end{table}
-
-Looking at Table \ref{tab:basicOpPointScs} indicates the absence of any significant leakage current and power supply voltage drop.
-However, to check the models relevance further and in a more reliable way, it is interesting to look at voltage mappings of the power delivery networks (VDD and GND), as shown in Fig. \ref{fig:opMixed}.
-\input{3_modeling/figures/simuCurrentMaps/vddGndMixed}
-Concerning both GND and VDD operating point maps, there is no significant voltage drop across both maps, which indicates further the absence of significant leakage current in the simulated IC.
-With this in mind, we then introduced the generator into the model.
+Then, for each generated IC, I defined validation criteria, consisting in:
+\begin{itemize}
+    \setlength\itemsep{-0.1em}
+    \item Measuring the global IC quiescent leakage current to verify any inconsistencies. Indeed, a steady should draw a reasonable amount of power. Therefore, verifying this criterion allows verifying if the model is flawed, specifically concerning the substrate blocks interconnections and the substrate connection to toe top of the \scs;
+    \item Measuring the power network IR drop. It is complementary to the previous measurement and allows spotting any inconsistencies in the power delivery network design or generation.
+\end{itemize}
