@@ -1,30 +1,31 @@
 
 \section{Integrated circuits structure \ddcnew}
-For the purpose of properly introducing the electrical models I developed for \bbi, it is required, in the first place, to have a look at how integrated circuits are structured.
-It involves analyzing the different structures composing an IC, such as:
+For the purpose of properly introducing the electrical models I developed for \bbi, it is required, in the first place, to linger on how integrated circuits are structured.
+It involves analyzing the main structures composing an IC, such as:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
-    \item Its power supply plan, consisting in various metal levels stacked one on top of the others;
-    \item The standard-cells: pre-characterized cells used as elementary building blocks;
-    \item The various substrate types, such as \dwF and \twF not to cite them all.
+    \item Its power supply network, consisting in various metal levels stacked one on top of the others;
+    \item The standard-cells: pre-characterized logic cells used as elementary building blocks;
+    \item The various substrate types, such as \dwF and \twF that I considered in my work, not to cite them all.
 \end{itemize}
 
     \subsection{Power supply rails \ddcnew}
     \input{3_modeling/figures/powerRails.tex}
     In most modern integrated circuits, power is brought to the transistors through various metal layers organized as meshes.
-    The resulting meshes bring the power to the transistors, aka the logic gates, aka the Standard-Cells.
-    There are one or more pads for each power signal (typically called VDD and GND), connecting to power rings, surrounding the IC silicon die, as shown in Fig. \ref{fig:icPowerRail}.
+%    The resulting meshes bring the power to the transistors, aka the logic gates, aka the Standard-Cells.
+    In digital ICs, there is typically two power delivery signals, commonly called VDD and GND, GND being the ground reference of the IC.
+    There are one or more pads for each power signal, connecting to power rings, surrounding the IC silicon die, as shown in Fig. \ref{fig:icPowerRail}.
     Then, power straps are created to mesh the rings and distribute evenly the power to the transistors.
     After that, rails are drawn to connect the power to the standard-cell segments, and vias are placed between rails and straps to wire them together.
 
     \subsection{Standard-Cell rows \ddcnew}
     \input{3_modeling/figures/stdCellsRows.tex}
-    As I have said previously, Standard-Cells are the elementary building blocks used to design ICs.
+    As previously mentioned, Standard-Cells are the elementary building blocks used to design ICs.
     They are pre-defined logic cells, fulfilling a specific logic function.
     Standard-Cells can then be connected together to form a complete logic function.
     They are usually organized in rows, with a fixed height and variable width depending on the function.
     This allows simple power connection to each Standard-Cell.
-    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cells are routed in an IC design.
+    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cells are connected to the power supply network in an IC design.
     At the top of the Standard-Cells is the VDD power input, and at the bottom the GND power input.
     Typically, without considering various technologies, between the power rails are trapped three main regions:
     \begin{itemize}
