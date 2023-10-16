@@ -81,6 +81,7 @@
 \definecolor{myYellowNormal}{RGB}{156, 142, 5}
 \definecolor{myRed8}{RGB}{210, 20, 20}
 \definecolor{myRedG7}{RGB}{210, 140, 20}
+\definecolor{myOrange0}{RGB}{255, 153, 0}
 \newcommand{\cRef}[2]{\hyperref[#1]{\textcolor{myViolet}{#2}}}
 \newcommand{\fiftyOhms}[1]{\mbox{#1 \textOmega\xspace}}
 \newcommand{\cGood}{\rowcolor{green!25}}
@@ -110,6 +111,8 @@
 \newcommand{\ddcold}{\textcolor{myRed8}{\footnotesize DEPRECATED}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\DDCIP}{\textcolor{myRedG7}{IN PROG.}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 \newcommand{\ddcip}{\textcolor{myRedG7}{\footnotesize IN PROGRESS}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\DDCTR}{\textcolor{myOrange0}{TO REV.}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
+\newcommand{\ddctr}{\textcolor{myOrange0}{\footnotesize TO REVIEW}\xspace\textcolor{myCyan}{\footnotesize \DTMnow}}
 
 %% Uncomment the three next lines before compiling final build %%
 %\usepackage[final]{showlabels}
@@ -168,7 +171,7 @@
 \selectcolormodel{RGB}
 \geometry{%
   a4paper, %body={150mm,220mm},
-  left=25mm,top=30mm,
+  left=25mm,top=30mm,bottom=15mm,
   headheight=7mm,
   headsep=14mm,
   marginparsep=4mm, marginparwidth=27mm

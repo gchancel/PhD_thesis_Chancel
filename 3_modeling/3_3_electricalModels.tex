@@ -11,122 +11,264 @@ It involves analyzing the main structures composing an IC, such as:
 
     \subsection{Power supply rails \ddcnew}
     \input{3_modeling/figures/powerRails.tex}
-    In most modern integrated circuits, power is brought to the transistors through various metal layers organized as meshes.
-%    The resulting meshes bring the power to the transistors, aka the logic gates, aka the Standard-Cells.
-    In digital ICs, there is typically two power delivery signals, commonly called VDD and GND, GND being the ground reference of the IC.
-    There are one or more pads for each power signal, connecting to power rings, surrounding the IC silicon die, as shown in Fig. \ref{fig:icPowerRail}.
-    Then, power straps are created to mesh the rings and distribute evenly the power to the transistors.
-    After that, rails are drawn to connect the power to the standard-cell segments, and vias are placed between rails and straps to wire them together.
+    In complex digital integrated circuits, power distribution is typically realized thanks to a grid structure on multiple levels, as illustrated in Fig. \ref{fig:icPowerRail} for two metal levels.
+    The upper layer forms a ring around the IC core.
+    Each layer of the grid is a set of constant width metal lines equally spaced.
+    The lines' direction is orthogonal between layers.
+    Then, vias are used to electrically connect the layers together at each overlap location.
+    Commonly, the lower the layer the thinner the lines are.
+    Thus, the lower grid brings the power close to each standard-cell segment.
+    This topology has the advantage to bring a robust power delivery network inside the IC silicon.
+    Indeed, there are multiple paths between power connections of each standard-cell segment, which leads to less power change sensitivity of the standard-cell segments.
+    However, the shortcoming of such architecture lies in the high amount of metal resources required to create the power grids.
+
+%    In most modern integrated circuits, power is brought to the transistors through various metal layers organized as meshes.
+%%    The resulting meshes bring the power to the transistors, aka the logic gates, aka the Standard-Cells.
+%    In digital ICs, there is typically two power delivery signals, commonly called VDD and GND, GND being the ground reference of the IC.
+%    There are one or more pads for each power signal, connecting to power rings, surrounding the IC core, as shown in Fig. \ref{fig:icPowerRail}.
+%    Then, power straps are created to mesh the rings and distribute evenly the power to the transistors.
+%    After that, rails are drawn to connect the power to the standard-cell segments, and vias are placed between rails and straps to wire them together.
 
     \subsection{Standard-Cell rows \ddcnew}
     \input{3_modeling/figures/stdCellsRows.tex}
-    As previously mentioned, Standard-Cells are the elementary building blocks used to design ICs.
+    As previously mentioned, Standard-Cell Segments (\scs) are the elementary building blocks used to design ICs.
     They are pre-defined logic cells, fulfilling a specific logic function.
-    Standard-Cells can then be connected together to form a complete logic function.
+    They are pre-characterized for each technology and are used as an abstraction layer when designing integrated circuits.
+    When used in conjunction with other \scs, they allow creating a complete logic function of a portion of an IC.
     They are usually organized in rows, with a fixed height and variable width depending on the function.
-    This allows simple power connection to each Standard-Cell.
-    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cells are connected to the power supply network in an IC design.
-    At the top of the Standard-Cells is the VDD power input, and at the bottom the GND power input.
-    Typically, without considering various technologies, between the power rails are trapped three main regions:
-    \begin{itemize}
-        \setlength\itemsep{-0.1em}
-        \item A N-doped silicon area, called the N-well, where the PMOS transistors are lithographed;
-        \item A metal area where the transistor gates are accessible;
-        \item A P-doped silicon area, called the P-well, where the NMOS transistors are lithographed.
-    \end{itemize}
-    Therefore, NMOS transistors are located in the bottom half of the standard-cell, and the PMOS are located in the top half.
+    This allows simple power connection to each Standard-Cell Segment.
+    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cell Segments are connected to the power supply network in an IC design.
+    At the top of the Standard-Cell Segment is located its VDD power input, and at the bottom its GND power input.
+%    Typically, without considering various technologies, between the power rails are trapped three main regions:
+%    \begin{itemize}
+%        \setlength\itemsep{-0.1em}
+%        \item A N-doped silicon area, called the N-well, where the PMOS transistors are lithographed;
+%        \item A metal area where the transistor gates are accessible;
+%        \item A P-doped silicon area, called the P-well, where the NMOS transistors are lithographed.
+%    \end{itemize}
+%    Therefore, NMOS transistors are located in the bottom half of the standard-cell, and the PMOS are located in the top half.
 
     \subsection{Various substrate types \ddcnew}
     \input{3_modeling/figures/dualTripleCoupe}
-    Because there are various ways to lithograph transistors for a given technology, I decided to linger and analyze the differences of two substrate types commonly found in bulk technologies:
+    During my work, I focused on bulk silicon substrate technologies.
+    In most cases, the base silicon is P-doped, and called the substrate, on which are stacked the transistors and the power delivery network.
+    In these structure, there are two typical ways of lithographing the transistors inside the silicon substrate.
+    Cross-sectional views of a logic inverter manufactured with both of these techniques are shown in Fig. \ref{fig:dualTripleIvx}, and are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item \dwF substrates, where NMOS transistors are lithographed directly into the P-doped silicon substrate;
-        \item \twF substrates, where the NMOS transistors are lithographed into a buried P-well inside the N-well where the PMOS are lithographed.
+        \item A \dwF substrate, where the NMOS transistors are lithographed into the P-doped silicon substrate, while a N-doped area called the N-well is created inside the substrate to lithograph the PMOS transistors;
+        \item A \twF substrate, where an additional buried P-doped area is manufactured inside the N-well, called the P-well, allowing to lithograph the NMOS transistors inside it instead of the substrate.
     \end{itemize}
-    For the purpose of illustrating the structural differences between those substrate types, I am going to use the schematics displayed in Fig. \ref{fig:dualTripleIvx} as a guide, illustrating the cross-sectional view of a logic inverter created in both a \dwF and a \twF substrate.
+%    Now, I am going to explain the differences between \dwF and \twF substrates when modeling ICs.
+%    \twF substrates offer many advantages over \dwF, such as
+
+%    Because there are various ways to lithograph transistors for a given technology, I decided to linger and analyze the differences of two substrate types commonly found in bulk technologies:
+%    \begin{itemize}
+%        \setlength\itemsep{-0.1em}
+%        \item \dwF substrates, where NMOS transistors are lithographed directly into the P-doped silicon substrate;
+%        \item \twF substrates, where the NMOS transistors are lithographed into a buried P-well inside the N-well where the PMOS are lithographed.
+%    \end{itemize}
+%    For the purpose of illustrating the structural differences between those substrate types, I am going to use the schematics displayed in Fig. \ref{fig:dualTripleIvx} as a guide, illustrating the cross-sectional view of a logic inverter created in both a \dwF and a \twF substrate.
 
         \subsubsection{\dwF substrates \ddcnew}
         To begin with, let us focus on \dwF substrates.
-        A schematic sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}
+        A cross-sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}
         Among moderately old ICs, it was common to find \dwF substrates.
-        In these substrates, NMOS transistors are lithographed directly into the P-doped silicon substrate, as we can see in Fig. \ref{subfig:dualIvx}.
+        As I have stated before, in \dwF substrates, NMOS transistors are lithographed directly into the P-doped silicon substrate, as it is shown in Fig. \ref{subfig:dualIvx}.
         In addition to this, a N-doped silicon area is created inside the P-substrate, called the N-well, to lithograph the PMOS transistors.
-        This results in a silicon junction, electrically represented by the N-well diode on the schematic, and called the epitaxy, highlighted in saturated blue.
+        This results in a silicon junction, electrically represented by the N-well diode on the schematic, highlighted in saturated yellow.
         Because doped silicon does have a non-zero resistivity, electrical resistances are represented to demonstrate this:
         \begin{itemize}
             \setlength\itemsep{-0.1em}
-            \item $RC_{VDD}$ represents the access resistance measured between the epitaxy and the PMOS transistor through the N-well;
+            \item $RC_{VDD}$ represents the access resistance measured between the substrate and the PMOS transistor through the N-well;
             \item $RC_{GND}$ is the access resistance measured between the epitaxy and the NMOS transistor through the P-substrate.
         \end{itemize}
 
         \subsubsection{\twF substrates \ddcnew}
-        \textcolor{orange}{TW helps to reduce crosstalk noise.}
-        On the other hand, \twF substrates are also commonly used, often in combination with \dwF on the same die, to provide an electrical isolation between NMOS and PMOS transistors.
-        It is achieved by creating inside the N-well, another doped silicon area, inversely doped, called the P-well.
-        Inside the latter are then lithographed the NMOS transistors, while the PMOS transistors are still lithographed inside the N-well.
+%        \textcolor{orange}{TW helps to reduce crosstalk noise.}
+        Let us now focus on \twF substrates, which are nowadays commonly used in modern ICs because such substrates offer interesting noise properties.
+        Indeed, thanks to an additional silicon well, it provides an electrical isolation between areas of the IC, thus reducing crosstalk noise.
 
-\section{Standard-Cell Segment (SCS) and their models \ddcnew}
+        As for \dwF substrates, the cross-sectional view of an inverter manufactured using a \twF substrate is shown in Fig. \ref{subfig:tripleIvx}.
+        Similar to \dwF substrates, the PMOS transistor is lithographed in a dedicated N-well, located in the P-substrate, which creates a first diode: the N-well diode.
+        Within the N-well, a P-well is created to lithograph the N-well transistor.
+        Due to the appearance of a second silicon junction, it creates a second diode, the P-well diode.
+        These two diodes, connected backwards relative to each other, isolate the PMOS and NMOS transistors from the rest of the substrate.
+        The access resistances of these areas are:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item $R_{NW}$ is the access resistance between the substrate and the PMOS transistor, measured through the N-well;
+            \item $R_{PW}$ is the access resistance between the N-well and the NMOS transistor, measured through the P-well.
+        \end{itemize}
+        It allows avoiding the propagation of switching noise from one part of the IC to another.
+
+        Generally, \dwF and \twF substrates are used in conjunction on an IC die, therefore being able to manufacture transistors both on \dwF and \twF substrates while taking advantages of the isolating properties of \twF.
+
+%        On the other hand, \twF substrates are also commonly used, often in combination with \dwF on the same die, to provide an electrical isolation between NMOS and PMOS transistors.
+%        Thus, it helps to reduce the crosstalk noise between various areas of the IC.
+%        Creating a \twF substrate is achieved by creating, inside the N-well, another doped silicon area, inversely doped, called the P-well.
+%        Inside the latter are then lithographed the NMOS transistors, while the PMOS transistors are still lithographed inside the N-well.
+%        This third doped area results in a second junction, which creates a second diode between the N-well and the P-well.
+
+\section{Standard-Cell Segment (SCS) and their models \ddcu}
 Thanks to what I have introduced in the previous section, that is, the Standard-Cell arrangement used to create IC architectures, alongside the two identified substrate types of interest: \dwF and \twF, it is now possible to elaborate an electrical model for such integrated circuits.
 Because I am differentiating \dwF and \twF substrates, I am introducing two separate models, even though they show some similarities.
-
 The models I developed are an improvement over the electrical models proposed by M. Dumont for \emfi \cite{mathieuEMFI}.
-Similar to \cite{mathieuEMFI} and to VLSI design, I am using the Standard-Cells as a basic building block.
-However, in my model is not represented the logic function of a Standard-Cell, rather its electrical behavior.
-More specifically, the elementary building block of the proposed electrical model represents the average electrical behavior of several Standard-Cells, called Standard-Cell Segment (\scs).
 
-\input{3_modeling/figures/substrateSubdivid}
-Because I based my work on M. Dumont model \cite{mathieuEMFI}, there is a common base to which I have made modifications.
-The major one consists in improving the model geometric accuracy in the case of \bbi studies.
-In M. Dumont model, the silicon P-substrate is represented solely thanks to a network of 6 resistors, 30 µm wide, 5 µm long, and $t_{Sub}$ deep, $t_{Sub}$ being the entire modeled IC substrate thickness.
-However, when performing \bbi, the substrate is the main physical environment where the electric charges travel.
-Therefore, as I describe in more details further, it is required to improve the spatial resolution of the model concerning the substrate, as shown in Fig. \ref{fig:surfaceSubDivid}.
-This is done by splitting the substrate electric model in several 6-resistors elementary networks interconnected with each other.
-It allows representing the same substrate with more resistors, thus enabling more precise analysis of the substrate charges distribution during \bbi.
+    \subsection{Former models \ddcnew}
+    \input{3_modeling/figures/mathieuFormerModels}
+    The original Standard-Cell Segment models for \dwF and \twF substrates proposed by M. Dumont are shown in Fig. \ref{fig:dualTripleScsEmfi}.
+    Let us now analyze their structure.
 
-\input{3_modeling/figures/dualTripleScs}
-\input{3_modeling/figures/logicGatesModelMathieu}
-Fig. \ref{fig:dualTripleScs} shows the complete 3-dimensional schematics of the developed models for my thesis.
-An analog simplified schematic representing the top view of a Standard-Cell is shown in Fig. \ref{sfig_simpleSCS} for understanding and clarity purposes. It describes the two levels of metal considered in my modeling (in orange and red), alongside the internal Standard-Cell interconnections in blue, with its size annotated.
+        \subsubsection{\dwF \scs \ddcnew}
+        Fig. \ref{subfig:dualScsEmfi} shows the electrical model of an SCS for \dwF substrates.
+        Each SCS is delimited by the P-substrate at its bottom (\ovalbox{1}) and by the power rails at its top (\ovalbox{5}, \ovalbox{5'}).
+        The dotted wires at the bottom of the substrate indicates that each substrate layer can be repeated as required to form the correct $t_{Sub}$ thickness.
+        \dwF \scs are composed of six main regions, each one describing a part of an IC core sampling:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item Region \ovalbox{1} is the \scs substrate resistive network, composed of six resistors;
+            \item Region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
+            \item Region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
+            \item Region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists in an access resistance RP from the VDD power-rail to the PMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+            \item Region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists in an access resistance RN from the GND power-rail to the NMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+            \item Region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
+            \item Eventually, region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
+        \end{itemize}
 
-The next subsections are dedicated to describing these models both for \dwF and \twF substrates.
-Each SCS is 30 µm wide, 5 µm long and $t_{Sub}$ deep, the thickness of the power delivery network and the logic gates being ignored, as the substrate thickness is often big in front of the latter.
-In my models, an SCS represents about a hundred of logic gates, where half of their transistors are conducting.
+        \subsubsection{\twF \scs \ddcnew}
+        Fig. \ref{subfig:tripleScsEmfi} illustrates the \scs model for \twF substrates.
+        The \scs are delimited, as before, by the P-substrate at their bottom and the power delivery network at their top.
+        As for the \dwF model, the bottom dotted wires indicate that each substrate layer is repeated as needed to create the correct thickness required.
+        The main difference between \dwF and \twF \scs models lies in the region \ovalbox{3}.
+        First, let me describe every region:
+        \begin{itemize}
+            \setlength\itemsep{-0.1em}
+            \item As for the previous model, region \ovalbox{1} is the silicon P-doped substrate;
+            \item Region \ovalbox{2} is the N-well, created inside the P-substrate, with the junction (epitaxy) represented by a blue wire. It is composed of the diode DNW-PS, and its capacitance CNW-PS, alongside the N-well access resistance RNW from the epitaxy up to the VDD network;
+            \item Region \ovalbox{3} is where the \twF model drastically differ from the \dwF one. As I have explained before, in \twF substrates, the NMOS transistors are lithographed inside an isolated P-doped region called the P-well. Therefore, region \ovalbox{3} describes the P-well, with an additional silicon junction modeled with the diode DNW-PW connected backward compared to DNW-PS, its capacitance CNW-PW, and the P-well access resistance RPW to GND;
+            \item The three other regions are identical to the previous \dwF model.
+        \end{itemize}
 
-    \subsection{The case of \dwF substrates \ddcnew}
-    Fig. \ref{subfig:dualScs} shows the electrical model of an SCS for \dwF substrates.
-    Each SCS is delimited by the P-substrate at its bottom (\ovalbox{1}) and by the power rails at its top (\ovalbox{5}, \ovalbox{5'}).
-    The dotted wires at the bottom of the substrate indicates that each substrate layer can be repeated as required to form the correct $t_{Sub}$ thickness.
-    \dwF \scs are composed of six main regions, each one describing a part of an IC core sampling:
+
+%Similar to \cite{mathieuEMFI} and to VLSI design, I am using the Standard-Cells as a basic building block.
+%However, in my model is not represented the logic function of a Standard-Cell, rather its electrical behavior.
+%More specifically, the elementary building block of the proposed electrical model represents the average electrical behavior of several Standard-Cells, called Standard-Cell Segment (\scs).
+
+    \subsection{Enhancing the substrate model \ddcnew}
+    \input{3_modeling/figures/substrateSubdivid}
+    In the model designed by M. Dumont, the substrate block at the \scs bottom is only modeled thanks to six resistors.
+    If it was enough to fully appreciate and simulate \emfi disturbances, it is not sufficient to model and simulate \bbi disturbances, for many reasons.
+
+    Among them, we can identify the coarse nature of the substrate model.
+    Indeed, the six resistors composing the model are sufficient in an \emfi context as the substrate acts as an almost transparent environment and is here only to create the substrate electrical interconnect between \scs.
+    However, in a \bbi context, the substrate is the physical environment used to convey the energy from the metal probe to the transistors.
+    In addition to this, the typical substrate thickness of ICs ranges from 10 µm to 700 µm, and using only two resistors to represent 700 µm of material is a too wide geometric step to fully appreciate the mechanisms at work during \bbi.
+    Furthermore, as the modeled \scs is 5 µm wide and 30 µm long, the spatial resolution of the substrate sub model is not the same in each direction.
+
+    Therefore, I decided to improve the former model to allow for finer geometry resolution.
+    My proposition consists in fixing the width and length of an elementary substrate sub model to a value of 5 µm, while allowing the user to have a certain degree of freedom concerning the elementary thickness value.
+    However, I chose a 10 µm default value for the elementary thickness as it is an optimal value, computationally speaking.
+    To achieve this, I split the former six-resistors sub model into many six-resistors blocks connected to each other, as it is shown in Fig. \ref{fig:surfaceSubDivid}.
+    These new substrate blocks then measure 5 µm by 5 µm by 10 µm.
+    As one can see, to preserve the higher part of the \scs model, I kept the \scs length of 30 µm, which results in a 6 by 1 array of elementary substrate blocks.
+    Eventually, these enhancements also allow me to analyze the effects of substrate thinning on the models, similar to what is done with actual ICs.
+
+    \subsection{The considered \scs for the rest of my work \ddcnew}
+    \input{3_modeling/figures/dualTripleScs}
+    Considering that the IC target I used for my experiments is the STM32F439VIT6, and because we have technical information concerning the inner structure of the target IC technology, I considered this information to calculate the various \scs model parameters.
+    Therefore, every simulation presented in this work relies on a model that is as close as possible from the actual microcontroller.
+    Fig. \ref{fig:dualTripleScs} presents the enhanced model used during my simulations, and Table \ref{tableValeurSimu} shows the components values calculated in accordance to the 90 nm technology.
+    \input{3_modeling/figures/tableSimuValeur}
+
+
+%%\input{3_modeling/figures/substrateSubdivid}
+%Because I based my work on M. Dumont model \cite{mathieuEMFI}, there is a common base to which I have made modifications.
+%The major one consists in improving the model geometric accuracy in the case of \bbi studies.
+%In M. Dumont model, the silicon P-substrate is represented solely thanks to a network of 6 resistors, 30 µm wide, 5 µm long, and $t_{Sub}$ deep, $t_{Sub}$ being the entire modeled IC substrate thickness.
+%However, when performing \bbi, the substrate is the main physical environment where the electric charges travel.
+%Therefore, as I describe in more details further, it is required to improve the spatial resolution of the model concerning the substrate, as shown in Fig. \ref{fig:surfaceSubDivid}.
+%This is done by splitting the substrate electric model in several 6-resistors elementary networks interconnected with each other.
+%It allows representing the same substrate with more resistors, thus enabling more precise analysis of the substrate charges distribution during \bbi.
+%
+%%\input{3_modeling/figures/dualTripleScs}
+%%\input{3_modeling/figures/logicGatesModelMathieu}
+%Fig. \ref{fig:dualTripleScs} shows the complete 3-dimensional schematics of the developed models for my thesis.
+%An analog simplified schematic representing the top view of a Standard-Cell is shown in Fig. \ref{sfig_simpleSCS} for understanding and clarity purposes. It describes the two levels of metal considered in my modeling (in orange and red), alongside the internal Standard-Cell interconnections in blue, with its size annotated.
+%
+%The next subsections are dedicated to describing these models both for \dwF and \twF substrates.
+%Each SCS is 30 µm wide, 5 µm long and $t_{Sub}$ deep, the thickness of the power delivery network and the logic gates being ignored, as the substrate thickness is often big in front of the latter.
+%In my models, an SCS represents about a hundred of logic gates, where half of their transistors are conducting.
+
+%    \subsection{The case of \dwF substrates \ddcnew}
+%    Fig. \ref{subfig:dualScs} shows the electrical model of an SCS for \dwF substrates.
+%    Each SCS is delimited by the P-substrate at its bottom (\ovalbox{1}) and by the power rails at its top (\ovalbox{5}, \ovalbox{5'}).
+%    The dotted wires at the bottom of the substrate indicates that each substrate layer can be repeated as required to form the correct $t_{Sub}$ thickness.
+%    \dwF \scs are composed of six main regions, each one describing a part of an IC core sampling:
+%    \begin{itemize}
+%        \setlength\itemsep{-0.1em}
+%        \item Region \ovalbox{1} is the substrate resistive network, composed of several resistors, and being an isotropic environment;
+%        \item Region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
+%        \item Region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
+%        \item Region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists in an access resistance RP from the VDD power-rail to the PMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+%        \item Region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists in an access resistance RN from the GND power-rail to the NMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
+%        \item Region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
+%        \item Eventually, region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
+%    \end{itemize}
+
+%    \subsection{The case of \twF substrates \ddcnew}
+%    Fig. \ref{subfig:tripleScs} illustrates the \scs model for \twF substrates.
+%    The \scs are delimited, as before, by the P-substrate at their bottom and the power delivery network at their top.
+%    As for the \dwF model, the bottom dotted wires indicate that each substrate layer is repeated as needed to create the correct thickness required.
+%    The main difference between \dwF and \twF \scs models lies in the region \ovalbox{3}.
+%    First, let me describe every region:
+%    \begin{itemize}
+%        \setlength\itemsep{-0.1em}
+%        \item As for the previous model, region \ovalbox{1} is the silicon P-doped substrate;
+%        \item Region \ovalbox{2} is the N-well, created inside the P-substrate, with the junction (epitaxy) represented by a blue wire. It is composed of the diode DNW-PS, and its capacitance CNW-PS, alongside the N-well access resistance RNW from the epitaxy up to the VDD network;
+%        \item Region \ovalbox{3} is where the \twF model drastically differ from the \dwF one. As I have explained before, in \twF substrates, the NMOS transistors are lithographed inside an isolated P-doped region called the P-well. Therefore, region \ovalbox{3} describes the P-well, with an additional silicon junction modeled with the diode DNW-PW connected backward compared to DNW-PS, its capacitance CNW-PW, and the P-well access resistance RPW to GND;
+%        \item The three other regions are identical to the previous \dwF model.
+%    \end{itemize}
+
+    \subsection{Interconnecting Standard-Cell Segments together \ddcpu}
+    The models I previously presented only describe a small portion of an integrated circuit.
+    Therefore, to be able to model an entire IC, it is required to instantiate several \scs and to connect them with each other in a mesh arrangement.
+%    Because the \scs I previously introduced only describe a portion of an integrated circuit, in order to model a complete one, it is required to instantiate several \scs and to connect them with each other in a mesh grid.
+    \input{3_modeling/figures/surfaceSplitScs.tex}
+    Fig. \ref{fig:surfaceSplitScs} shows coarsely how it is achieved.% is a coarse illustration of what is done.
+    I have chosen to work with the SPICE simulator to perform the simulations as it is a widely used software in electronics and is available in various flavors.
+    Therefore, \scs are written in SPICE language.
+    As I have said before, the very elementary building substrate blocks are written manually and verified before any usage.
+    Then, the \scs elementary models are automatically generated instead of being written manually.
+    It allows avoiding human errors and enabling fast modifications to the models when required.
+    Then comes the interconnection step.
+    To that end, it is needed to create a top SPICE file which instantiates every \scs required to form the IC and defines constant parameters in addition to simulation conditions.
+    I chose to use the Python language to do so as I use it for every tool I write my work, therefore enabling fast support and update, while ensuring cross-script compatibility.
+%    In addition to this, I decided to create an algorithm to connect as much \scs as needed to create a resulting IC.
+    By doing so, the interconnection process is automated and free from human errors.
+    A simple description of the algorithm is depicted in Alg. \ref{alg:icGen}, while the actual Python script is annexed to the manuscript (\textcolor{orange}{TO-DO}).
+    Because I have designed two separate models, one for \dwF and another for \twF substrate types, in addition to the various dynamic parameters which are useful when modeling an IC, the algorithm offers a certain degree of flexibility, allowing me to cover multiple use cases.
+    The actual generation script uses procedural generation according to the input parameters.
+    Various parameters are user-accessible and can be modified to fit the needs.
+    Next is the list of these settings:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
-        \item Region \ovalbox{1} is the substrate resistive network, composed of several resistors, and being an isotropic environment;
-        \item Region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
-        \item Region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
-        \item Region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists in an access resistance RP from the VDD power-rail to the PMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
-        \item Region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists in an access resistance RN from the GND power-rail to the NMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances. Fig. \ref{sfig_equivCMOS} shows the model principle;
-        \item Region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
-        \item Eventually, region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
+        \item The resulting IC size;
+        \item The \bbi probe location;
+        \item The IC global substrate thickness;
+        \item The substrate sub-model thickness;
+        \item The substrate type: \dwF, \twF, or a mix of both, allowing to replicate actual IC architectures;
+        \item The voltage pulse amplitude, width, and rise and fall times;
+        \item Various SPICE simulation settings.
     \end{itemize}
+    Eventually, the program incorporates a visual inspection tool in order to provide a quick verification of the generated IC structure to the end-user.
 
-    \subsection{The case of \twF substrates \ddcnew}
-    Fig. \ref{subfig:tripleScs} illustrates the \scs model for \twF substrates.
-    The \scs are delimited, as before, by the P-substrate at their bottom and the power delivery network at their top.
-    As for the \dwF model, the bottom dotted wires indicate that each substrate layer is repeated as needed to create the correct thickness required.
-    The main difference between \dwF and \twF \scs models lies in the region \ovalbox{3}.
-    First, let me describe every region:
-    \begin{itemize}
-        \setlength\itemsep{-0.1em}
-        \item As for the previous model, region \ovalbox{1} is the silicon P-doped substrate;
-        \item Region \ovalbox{2} is the N-well, created inside the P-substrate, with the junction (epitaxy) represented by a blue wire. It is composed of the diode DNW-PS, and its capacitance CNW-PS, alongside the N-well access resistance RNW from the epitaxy up to the VDD network;
-        \item Region \ovalbox{3} is where the \twF model drastically differ from the \dwF one. As I have explained before, in \twF substrates, the NMOS transistors are lithographed inside an isolated P-doped region called the P-well. Therefore, region \ovalbox{3} describes the P-well, with an additional silicon junction modeled with the diode DNW-PW connected backward compared to DNW-PS, its capacitance CNW-PW, and the P-well access resistance RPW to GND;
-        \item The three other regions are identical to the previous \dwF model.
-    \end{itemize}
-
-    \subsection{Writing the elementary models \ddcnew}
+    \subsection{Writing the elementary models \ddcu}
     \input{3_modeling/algorithms/figureHspiceGen}
-    After having abstractly created the models, I decided to write them using SPICE (Simulation Program with Integrated Circuit Emphasis) language.
-    In addition to writing them, I calculated, thanks to the technology values of our IC targets, to calculate the substrate resistor values.
+%    After having abstractly created the models, I decided to write them using SPICE (Simulation Program with Integrated Circuit Emphasis) language.
+    If the \scs models are automatically generated, I have written manually the substrate sub models.
+    Indeed, they are very simple and straightforward, and it allowed me to test them independently before incorporating them into the \scs models.
+    In addition to writing them, I calculated, thanks to the technology values of our IC targets, the effective substrate resistor values.
     Considering the substrate resistivity being $\rho = 0.01 \; \Omega \cdot m$, and the elementary block size being $W = \; \mu m$; $L = 5 \; \mu m$; $D = 10 \; \mu m$, it is trivial to calculate each resistance value $R_i$ thanks to the following equation:
     \begin{equation}
         \label{eqn_resistivity}
@@ -143,36 +285,13 @@ In my models, an SCS represents about a hundred of logic gates, where half of th
     In addition to that, a substrate with a given thickness $t_{Sub}$ can be represented with virtually any number of layers.
     For example, one can reduce the number of layer by ten by adjusting the resistor values.
     It has the advantage to provide a lighter simulation, which will be faster to perform, at the cost of less accuracy.
+    Eventually, this model gives us an electrically isotropic environment, as it should be.
 
     Previously, I have stated that an \scs is 30 µm wide.
     However, the elementary block I described is 5 µm wide.
     To achieve a 30 µm wide \scs, it is simply required to connect six of these blocks together to form a $W = 30 \; \mu m \cdot L = 5 \; \mu m \cdot D = 10 \; \mu m$ substrate, as it can be seen in Fig. \ref{fig:dualTripleScs} models.
     \input{3_modeling/figures/elemBlocX6.tex}
     The resulting netlist is shown in Fig. \ref{fig_elemBlocX6}, and naturally instantiate six times the previous netlist shown in Fig. \ref{sfig_spiceNetSub}.
-
-\section{Integrated circuit modeling: interconnecting Standard-Cell Segments together \ddcnew}
-Because the \scs I previously introduced only describe a portion of an integrated circuit, in order to model a complete one, it is required to instantiate several \scs and to connect them with each other in a mesh grid.
-\input{3_modeling/figures/surfaceSplitScs.tex}
-Fig. \ref{fig:surfaceSplitScs} is a coarse illustration of what is done.
-\scs are written, as the elementary substrate building blocks, in SPICE.
-The \scs elementary models were automatically generated instead of being written manually, to avoid errors and enabling fast modifications to the models when required.
-In addition to this, I decided to create an algorithm to connect as much \scs as needed to create a resulting IC.
-By doing so, the interconnection process is once again automated and free from human errors.
-A simple description of the algorithm is depicted in Alg. \ref{alg:icGen}
-Because I have designed two separate models, one for \dwF and another for \twF substrate types, in addition to the various dynamic parameters which are useful when modeling an IC, the algorithm offers a certain degree of flexibility.
-The actual program was written and implemented using Python, implementing procedural generation of integrated circuits according to the input parameters.
-Next is the list of user-modifiable input parameters of the algorithm:
-\begin{itemize}
-    \setlength\itemsep{-0.1em}
-    \item The resulting IC size;
-    \item The \bbi probe location;
-    \item The IC global substrate thickness;
-    \item The substrate sub-model thickness;
-    \item The substrate type: \dwF, \twF, or a mix of both, allowing to replicate actual IC architectures;
-    \item The voltage pulse amplitude, width, and rise and fall times;
-    \item Various SPICE simulation settings.
-\end{itemize}
-Eventually, the program incorporates a visual inspection tool in order to provide a quick verification of the generated IC structure to the end-user.
 
 %As each \scs has external connections
 

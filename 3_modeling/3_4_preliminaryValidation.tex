@@ -1,20 +1,38 @@
-\section{Preliminary models validation \ddcnew}
-Designing and creating the models I previously described is the first step in practically implementing them.
-Afterward comes various validation to verify the soundness of such models.
-To that end, using the generation algorithm, I created various ICs with the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$.
-It is, according to our platform computational power, a reasonable size/calculation time ratio.
-Three ICs are generated:
-\begin{itemize}
-    \setlength\itemsep{-0.1em}
-    \item An exclusive \dwF circuit, to isolate the \dwF specific \bbi effects with further simulations;
-    \item An exclusive \twF circuit, to isolate the \twF specific effects under \bbi;
-    \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically our platform microcontroller.
-\end{itemize}
-For each preliminary validation, the IC is simply powered thanks to its power inputs, and no \bbi probe is connected to any of them.
+    \subsection{Preliminary models validation: IC operating point \ddcpu}
+    Designing and creating the models I previously described is the first step in practically implementing them.
+    Afterward comes various validation to verify the soundness of such models.
+    Among these validations, studying the resulting IC operating point is the first step to verify inconsistencies concerning idle power draw, allowing me to spot undesirable short-circuits and bad interconnects, coming from the \scs generation algorithm or from the global generation algorithm.
+    To that end, using the generation algorithm, I created various ICs (a \dwF, a \twF, and a mixed substrate) with the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$.
+    It is, according to our platform computational power, an IC with a reasonable size/calculation time ratio.
+    I generated three ICs:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item An exclusive \dwF circuit, to isolate the \dwF specific \bbi effects and potential \dwF generation errors;
+        \item An exclusive \twF circuit, to isolate the \twF specific \bbi effects and potential \twF generation errors;
+        \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically our platform microcontroller.
+    \end{itemize}
+    As I stated before, I performed the operating point and measured key values for each IC, which are presented in Table \ref{tab:basicOpPointScs}.
+    \begin{table}[ht]
+        %    \footnotesize
+        \centering
+        \caption{Dual-well, triple-well and mixed substrates SCS operating point.}
+        \label{tab:basicOpPointScs}
+        \begin{tabular}{llrrr}
+            \hline
+            Measurement   	& Description               &  Dual-well 		&  Triple-well   	&  Mixed substrates	\\
+            $I_{GND}$     	& IC global ground current  &  1.92 nA   		&  1.94 nA        	&  3.4 nA          	\\
+            $I_{VDD}$     	& IC global VDD current     & -1.96 nA    		& -5.8 nA         	& -3.5 nA         	\\
+            $GND_{AVG}$     & Max. GND voltage       & 1 nV    			&  1 nV         	&  1.75 nV         	\\
+            $VDD_{AVG}$     & Min. VDD Voltage       & 1.2 V    			&  1.2 V         	&  1.2 V         	\\
+        \end{tabular}
+    \end{table}
+    We can observe very low steady current, which, according to the model, is consistent and should be expected.
+    Indeed, as the transistors are modeled thanks to resistors and capacitor in parallel, and because the diodes are not conducting, there is no path for DC current without further circuit bias.
+    Therefore, the power supply drop is negligible, with a uniform power delivery of 1.2 V everywhere.
 
-Then, for each generated IC, I defined validation criteria, consisting in:
-\begin{itemize}
-    \setlength\itemsep{-0.1em}
-    \item Measuring the global IC quiescent leakage current to verify any inconsistencies. Indeed, a steady should draw a reasonable amount of power. Therefore, verifying this criterion allows verifying if the model is flawed, specifically concerning the substrate blocks interconnections and the substrate connection to toe top of the \scs;
-    \item Measuring the power network IR drop. It is complementary to the previous measurement and allows spotting any inconsistencies in the power delivery network design or generation.
-\end{itemize}
+%    Then, for each generated IC, I defined validation criteria, consisting in:
+%    \begin{itemize}
+%        \setlength\itemsep{-0.1em}
+%        \item Measuring the global IC quiescent leakage current to verify any inconsistencies. Indeed, a steady should draw a reasonable amount of power. Therefore, verifying this criterion allows verifying if the model is flawed, specifically concerning the substrate blocks interconnections and the substrate connection to toe top of the \scs;
+%        \item Measuring the power network IR drop. It is complementary to the previous measurement and allows spotting any inconsistencies in the power delivery network design or generation.
+%    \end{itemize}
