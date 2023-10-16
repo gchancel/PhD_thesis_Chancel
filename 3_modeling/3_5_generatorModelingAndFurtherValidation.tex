@@ -10,6 +10,7 @@ Eventually, I analyze preliminary validation results including the new generator
 With a correct \scs model and a correct generator model, it is now possible to perform \bbi disturbances simulations.
 To that end, I distinguish \dwF and \twF substrates, to better analyze their differences, both in behavior and in structure.
 As for the previous section, the ICs have the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$, representing 1729 \scs connected to each other.
+There are two external power supply rails located at the top and at the bottom of each IC.
 The probe is a 30 µm square probe, placed at the IC center, and the generator settings are the following:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
@@ -26,13 +27,48 @@ For each considered IC, I present various signals, in a two-dimensional view to 
     \item The current distribution at the epitaxy level (top view);
     \item The power supply voltage distribution (top view);
 \end{itemize}
+
     \subsection{\dwF integrated circuits under \bbi \ddcnew}
     \input{3_modeling/figures/modelesSimusResul/SimuResultDualWell.tex}
+    Fig. \ref{fig_simuResDw} presents the simulation results for a \dwF substrate integrated circuit.
+
+    Sub-fig. \ref{subfig_iEpiDw} shows the epitaxy voltage distribution (view from above the IC) at the apex of the disturbance.
+    This layer consists in the higher substrate layer, in other words the substrate layer the closest to the top of the \scs.
+    Each spot represents the current flowing through the substrate to the top of the \scs.
+    What is interesting to remark here is the locality of the injection.
+    Indeed, the current distribution is mostly channeled above the probe (a.k.a at the center of the IC).
+    Therefore, by cross-comparing the power supply voltage distribution shown in sub-fig. \ref{subfig_vsupplyDw} with the epitaxy voltage distribution, we can see that the power supply disturbance is stronger at the center of the IC.
+    With this in mind, we can say that the logic gates located above the probe are more prone to malfunctioning due to the higher amount of energy transferred to them, compared to the others.
+
+    Then, sub-fig. \ref{subfig_vsubcDw} and sub-fig. \ref{subfig_isubcDw} show the current and voltage distribution across the voltage (viewed from the side for more clarity).
+    As the substrate is an electrically isotropic environment, it is natural to observe such distribution, with high current and voltage close to the probe, which then spreads evenly all cross its volume to finally reach the logic gates.
+
+    Eventually, an important thing to remark here is that  the voltage distribution in the substrate indicates a DC-coupling between the probe and the IC.
+    Indeed, the substrate and the top of the \scs act as a big resistor divider, thus explaining the lower voltage the further from the probe.
+    It is important to note as it means that this is possible, for an attacker, to continue injecting energy into the IC during the pulse plateau, which would be impossible in a capacitive coupling scenario.
 
     \subsection{\twF integrated circuits under \bbi \ddcnew}
+    \input{3_modeling/figures/modelesSimusResul/SimuResultTripleWell.tex}
+    Fig. \ref{fig_simuResTw} presents the simulation results for a \twF substrate integrated circuit.
+
+    Sub-fig. \ref{subfig_iEpiTw} shows the epitaxy voltage distribution (view from above the IC) at the apex of the disturbance.
+    The first thing to remark when compared to the \dwF results is the very low current all across the epitaxy layer.
+    Then, when observing the power supply voltage distribution, shown in sub-fig. \ref{subfig_vsupplyTw}, there are less spatial variation compared to the \dwF substrate, and the power supply voltage is lower at the center of the IC instead of being lower.
+
+    We can observe the same phenomenon on both substrate results (sub-fig. \ref{subfig_vsubcTw} and sub-fig. \ref{subfig_isubcTw}), where the current distribution shows a lower amount of current and the voltage distribution is almost uniform, as if the voltage stabilized itself during the pulse plateau.
+
+    It is explained thanks to the coupling existing between the probe and the top of the IC, which is, in that case, purely capacitive.
+    Therefore, it is impossible to continue injecting energy during the plateau, but only during pulse edges.
+    The circuits acts as a big capacitance, thus explaining the lower current at the apex of the disturbance and the voltage stabilization to the pulse plateau value, like it is observed in an electric capacitor.
 
     \subsection{Major differences between \dwF and \twF circuits \ddcnew}
-
+    The main behavioral differences between \dwF and \twF substrate types lie in the substrate structure, more precisely in the way transistors are lithographed.
+    Indeed, as I have stated previously, in \dwF substrates, NMOS are lithographed directly into the P-substrate, which allows a DC coupling between the backside of the IC and the NMOS.
+    On the other hand, in \twF substrates, as NMOS and PMOS are electrically isolated from the substrate thanks to the P-well and the N-well, there is no DC coupling possible with neither PMOS nor NMOS.
+    This is caused by the diodes bias, which act as capacitors.
+    Therefore, the substrate is capacitively coupled with the logic gates in a \twF substrate, while it is DC-coupled with the NMOS and capacitively coupled with the PMOS in a \dwF substrate.
+    These structural differences result in behavioral differences when performing \bbi, as I explained previously.
+    Therefore, it changes the way one can create faults in an IC, or an IC region, depending on the substrate type.
 
 %\section{Voltage pulse generator model and further validation \ddcold}
 %\label{section:genModel}
