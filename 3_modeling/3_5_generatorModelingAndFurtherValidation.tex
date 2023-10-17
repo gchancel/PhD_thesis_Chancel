@@ -1,15 +1,50 @@
-\section{Modeling the voltage pulse generator and the probe \ddcnew}
+\section{Modeling the voltage pulse generator and the probe}
 In this section, I describe the various steps I went through to properly model the voltage pulse generator and the problem it arises.
 In the first place, I present a very simple and naive way of modeling the generator, using an ideal voltage source.
 Then, after having analyzed the shortcomings of such model, I introduce a better model which better suits an actual generator.
 Eventually, I analyze preliminary validation results including the new generator model.
-    \subsection{Voltage pulse generator naive model \ddcnew}
-    First, let us consider a very simple voltage generator, an ideal voltage source, and a very simple probe, a perfect wire.
 
-\section{Modeling BBI disturbances: further model validation \ddcnew}
+    \subsection{Various generator architectures \ddcnew}
+    Because there are various generator architecture, whether they are voltage sources, current sources, or how their output stage is designed, it is important to first take a look at them.
+    We can distinguish pulse generator into two categories depending on their output stage coupling: DC-coupled and AC-coupled.
+    In my work, I use a voltage source DC-coupled generator, but it is not the case of all other works.
+    Therefore, I am going to cite various documented generators which have been used for the study of \bbi.
+
+    For instance, in \cite{japbbi} and \cite{japbbi2}, the authors used an \esd gun to create the pulses on their IC substrate.
+    These devices typically have a DC-coupled output, commonly feature an RCR output filter, and are designed to generate single pulses, very short and of very high voltage, without having a fine control over rise and fall times or pulse width.
+    Their output impedance is not finely controller when compared to high precision high voltage pulse generators.
+    Therefore, it is important to consider these parameters when elaborating an electrical model.
+
+    On the other hand, there are other works, such as \cite{bbiColin}, in which the generator output stage consists in a transformer.
+    Therefore, it is AC-coupled to the IC, which changes drastically the electrical behavior of such generator compared to a DC-coupled one.
+    For instance, it is not possible to inject energy into the IC outside of pulse edges, while on DC-coupled generators it is.
+
+    Eventually, like in my work, there are very high voltage high precision generators, which are DC-coupled and allow for precise pulse width and voltage set point.
+    Their output stage may vary unit to unit, but their output impedance is precisely controller.
+    In my case, the generator is specified to deliver its specifications into a \fiftyOhms{50} load.
+
+    With this in mind, let us jump into the next section.
+
+    \subsection{Voltage pulse generator naive model \ddcpu}
+    First, let us consider a very simple voltage generator, an ideal variable voltage source, and a very simple probe, a perfect wire.
+    In that scenario, as the generator is DC-coupled, it is biasing the substrate at 0 V at rest.
+    However, under normal conditions, an IC substrate should not be biased externally.
+    Indeed, whether in my model or in an actual IC, it can create unexpected behavior.
+    In addition to this, our AVTECH generator does not bias the IC at rest, even when the probe is connected.
+    Instead, it is placed in a high-impedance mode where its output presents a very high impedance to the IC backside, thus preventing any undesirable biasing.
+
+    \subsection{More elaborated generator model \ddcnew}
+    \input{3_modeling/figures/genModel}
+    In this context, I decided to mimic our actual generator structure in my models to properly appreciate its behavior in the simulations.
+    To do so, I chose to use a time-controlled resistor, which is a component available in SPICE.
+    It is very straightforward, and consists in dynamically defining the resistor value.
+    To that end, before the pulse, its value is high-impedance, during the pulse it is close to zero, and after the pulse it goes back to a high-impedance value.
+    By doing so, I am avoiding any bias which could cause unexpected behavior of the model, which then could invalidate the simulation conclusions.
+
+\section{Modeling BBI disturbances: further model validation}
 With a correct \scs model and a correct generator model, it is now possible to perform \bbi disturbances simulations.
 To that end, I distinguish \dwF and \twF substrates, to better analyze their differences, both in behavior and in structure.
-As for the previous section, the ICs have the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$, representing 1729 \scs connected to each other.
+As for the previous section, the ICs have the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$, representing 1729 \scs connected to each other in a mesh array.
 There are two external power supply rails located at the top and at the bottom of each IC.
 The probe is a 30 µm square probe, placed at the IC center, and the generator settings are the following:
 \begin{itemize}
