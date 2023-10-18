@@ -1,17 +1,20 @@
 
-\section{Geometric and electrical modeling \ddc}
+\section{Theoretical modeling and the effects of IC substrate thinning on \bbi \ddcpu}
 \label{chap4:sect:geomModel}
 %\input{4_thinning/figures/geomSubCurr}
-To begin with, we will address the geometric approach.
-It has been chosen thanks to the advantages it brings forward, such as the abstraction from electronics it enables, thus allowing easier and faster modeling.
-However, because this approach alone is insufficient, we will then study an analogous electrical one.
+In this section, I first present the geometric approach, allowing an abstraction from electronics, enabling faster and easier modeling at first.
+Then, and because this modeling alone is insufficient, I perform and analyze electric IC simulations to strengthen the geometric approach conclusions.
+%To begin with, we will address the geometric approach.
+%It has been chosen thanks to the advantages it brings forward, such as the abstraction from electronics it enables, thus allowing easier and faster modeling.
+%However, because this approach alone is insufficient, we will then study an analogous electrical one.
 
-\subsection{Geometric modeling \ddc}
+\subsection{Geometric modeling \ddcpu}
 \label{chap4:sect:geomModel:subsect:geomModel}
 \input{4_thinning/figures/geomCrossView}
-For the purpose of geometric modeling, let us consider two identical ICs.
+For the purpose of the geometric modeling, let us consider two identical ICs.
 A commercial one, with an arbitrary standard substrate thickness, and another one with its substrate thinned by a certain amount in order to perform fault injection.
-Fig. \ref{fig:geomCrossView} illustrates the two-dimensional cross-sectional views of the considered ICs substrates during an arbitrary BBI voltage pulse.
+Fig. \ref{fig:geomCrossView} illustrates the two-dimensional cross-sectional views of the considered ICs substrates during an arbitrary BBI voltage pulse of amplitude $V_{P_U}$.
+The probe is located at the center of the ICs at point $P_U$, and the targeted area in the logic is at point $P$.
 The silicon substrate being an isotropic resistive environment, it is quite natural to expect the electrical charges to flow and spread evenly when injected into it at any given time.
 Therefore, equipotentials form half-sphere surfaces inside the substrate volume.
 These surfaces are highlighted in two-dimensions as green half-circles in Fig. \ref{fig:geomCrossView}.
@@ -57,9 +60,10 @@ Eventually, this geometrical approach allows deducing three conclusions:
 \end{enumerate}
 
 \newpage
-\subsection{Electrical approach \ddc}
+\subsection{Electric approach \ddcpu}
 \label{chap4:sect:geomModel:subsect:elecApproach}
-\input{4_thinning/figures/simuSubCoupe}
+%\input{4_thinning/figures/simuSubCoupe}
+\input{4_thinning/figures/simuSubCoupe2}
 As stated previously, in order to verify the meaningfulness of the geometrical approach, we will complete it with an electrical modeling approach.
 For this purpose, the models introduced in Chapter \ref{chap:3icModeling} are reused.
 The electrical approach consists in generating ICs with different substrate thicknesses and simulating them during BBI.
@@ -75,7 +79,7 @@ The simulation parameters are the following:
     \item Required rise and fall times: 8 ns
 \end{itemize}
 
-Fig. \ref{fig:simuSubCoupeThick} and Fig. \ref{fig:simuSubCoupeThin} show, for each simulated IC, the voltage bias across the substrate through different point of view at the apex of the voltage pulse first edge.
+Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage bias across the substrate through a cross-sectional view at the apex of the voltage pulse first edge.
 For simplicity, results are shown in two dimensions and from two point of views: a cross-sectional view and a bottom view.
 The first interesting thing to note is that, as predicted thanks to the geometric model and as shown in Fig. \ref{fig:simuSubCoupeThick} and \ref{fig:simuSubCoupeThin}, equipotentials effectively form half-circles into the substrate (half-spheres in 3D).
 They can be first observed from the bottom, where the voltage is spreading across the backside surface of the IC.

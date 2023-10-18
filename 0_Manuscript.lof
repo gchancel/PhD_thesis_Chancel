@@ -1,15 +1,15 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {xchapter}{}{xi}{section*.1}%
+\contentsline {xchapter}{}{x}{section*.1}%
 \contentsline {xchapter}{}{xi}{section*.2}%
 \contentsline {xchapter}{}{xiii}{section*.3}%
 \contentsline {xchapter}{}{xv}{section*.5}%
 \contentsline {xchapter}{}{xvii}{chapter*.7}%
 \contentsline {xchapter}{}{xix}{chapter*.9}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-10-17 18:28:08+02:00}}{1}{chapter.1}%
+\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-10-18 11:21:52+02:00}}{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-10-17 18:28:08+02:00}}{11}{chapter.2}%
+\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-10-18 11:21:52+02:00}}{11}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic extracted from C. O'Flynn \cite {bbiColin}: \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace injection device proposed by C. O'Flynn \cite {bbiColin}, using a transformer to produce high voltage pulses from a low voltage power supply.\relax }}{14}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace probe proposed by the company Langer EMV-Technik GmbH.\relax }}{15}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace probe proposed by the company Riscure BV.\relax }}{16}{figure.caption.12}%
@@ -25,7 +25,7 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces The two last rounds of an AES-128\relax }}{29}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Fault analysis mapping\relax }}{32}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Integrated circuits modeling \textcolor {myRedG7}{\footnotesize IN PROGRESS}\xspace \textcolor {myCyan}{\footnotesize 2023-10-17 18:28:08+02:00}}{35}{chapter.3}%
+\contentsline {xchapter}{Integrated circuits modeling \textcolor {myRedG7}{\footnotesize IN PROGRESS}\xspace \textcolor {myCyan}{\footnotesize 2023-10-18 11:21:52+02:00}}{35}{chapter.3}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Typical integrated circuit power delivery network, with two metal levels, showing standard-cell rows and standard-cell segments (in yellow) sandwiched between GND and VDD power rails.\relax }}{38}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic view of a Standard Cell Segment, surrounded by its local power delivery.\relax }}{38}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Dual-well (\ref {subfig:dualIvx}) and triple-well (\ref {subfig:tripleIvx}) inverter silicon sectional view.\relax }}{39}{figure.caption.28}%
@@ -39,16 +39,15 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Dual-Well\xspace \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace simulation results at the apex of the pulse disturbance.\relax }}{50}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Triple-Well\xspace \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace simulation results at the apex of the pulse disturbance.\relax }}{51}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-10-17 18:28:08+02:00}}{53}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{56}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{58}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simulated thinned IC (60 µm) substrate voltage distribution: peak of the first voltage pulse edge\relax }}{59}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Fault susceptibility maps\relax }}{60}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Susceptibility area spreading\relax }}{61}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Fault susceptibility maps couples\relax }}{61}{figure.caption.45}%
+\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-10-18 11:21:52+02:00}}{53}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view at the peak of the first voltage pulse edge.\relax }}{58}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Fault susceptibility maps\relax }}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Susceptibility area spreading\relax }}{59}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fault susceptibility maps couples\relax }}{60}{figure.caption.44}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-10-17 18:28:08+02:00}}{63}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sequential logic operation and BBI sampling fault susceptibility\relax }}{65}{figure.caption.46}%
+\contentsline {xchapter}{Fault model \textcolor {myCyan}{\footnotesize 2023-10-18 11:21:52+02:00}}{63}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sequential logic operation and BBI sampling fault susceptibility\relax }}{65}{figure.caption.45}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusion}{67}{chapter.6}%
-\contentsline {xchapter}{}{69}{section*.47}%
+\contentsline {xchapter}{}{69}{section*.46}%
