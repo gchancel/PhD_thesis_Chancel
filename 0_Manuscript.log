@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  18 OCT 2023 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  18 OCT 2023 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2459,7 +2459,7 @@ Overfull \hbox (5.2392pt too wide) in paragraph at lines 81--81
 
 Overfull \hbox (12.56328pt too wide) in paragraph at lines 86--86
  [][] [][][]\T1/ppl/m/n/10.95 Voltage pulse gen-er-a-tor naive model []\T1/ppl/
-m/n/9 PAR-TIALLY UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+m/n/9 PAR-TIALLY UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 [6])
@@ -2532,7 +2532,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 (0_Manuscript.mtc7
 Overfull \hbox (14.8714pt too wide) in paragraph at lines 5--5
  [][] [][][]\T1/ppl/m/n/10 Power anal-y-sis and elec-tro-mag-netic anal-y-sis a
-t-tacks []\T1/ppl/m/n/9 2023-10-18 11:21:42+02:00[][][] []  
+t-tacks []\T1/ppl/m/n/9 2023-10-18 16:07:27+02:00[][][] []  
  []
 
 ) [1
@@ -2572,50 +2572,50 @@ Chapter 2.
 (0_Manuscript.mtc8
 Overfull \hbox (3.2054pt too wide) in paragraph at lines 3--3
  [][] [][][]\T1/ppl/m/n/10 BBI plat-forms in the state-of-the-art []\T1/ppl/m/n
-/9 PAR-TIALLY UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+/9 PAR-TIALLY UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (18.40244pt too wide) in paragraph at lines 20--20
  [][] [][][]\T1/ppl/m/n/10 Matching the gen-er-a-tor out-put impedance []\T1/pp
-l/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+l/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (19.45247pt too wide) in paragraph at lines 26--26
  [][] [][][]\T1/ppl/m/n/10 Generator impedance match-ing in prac-tice []\T1/ppl
-/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (13.65242pt too wide) in paragraph at lines 27--27
  [][] [][][]\T1/ppl/m/n/10 Grounding in-stal-la-tion by-pass in prac-tice []\T1
-/ppl/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+/ppl/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (2.81209pt too wide) in paragraph at lines 29--29
  [][] [][][]\T1/ppl/m/n/10 Enhanced BBI plat-form in a fault at-tack con-text [
-]\T1/ppl/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+]\T1/ppl/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (1.78369pt too wide) in paragraph at lines 30--30
  [][] [][][]\T1/ppl/m/n/10 Giraud's DFA de-tailed de-scrip-tion []\T1/ppl/m/n/9
- NO CHANGES[] []2023-10-18 11:21:42+02:00[][][] []  
+ NO CHANGES[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
 Overfull \hbox (5.23244pt too wide) in paragraph at lines 31--31
  [][] [][][]\T1/ppl/m/n/10 Integrated cir-cuits tar-get char-ac-ter-is-tics []\
-T1/ppl/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+T1/ppl/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 ) [11] (2_goodPractices/2_1_summary.tex) (2_goodPractices/2_2_0_newFile.tex
 [12]
 Overfull \hbox (11.83261pt too wide) in paragraph at lines 7--7
 |[]\T1/ppl/b/n/14.4 BBI plat-forms in the state-of-the-art []\T1/ppl/b/n/9 PAR-
-TIALLY UP-DATED[] []2023-10-18 11:21:52+02:00[]| 
+TIALLY UP-DATED[] []2023-10-18 16:07:37+02:00[]| 
  []
 
 (2_goodPractices/figures/sondeBBIcolin.tex [13]
@@ -2831,7 +2831,7 @@ Chapter 3.
 (0_Manuscript.mtc9
 Overfull \hbox (1.69238pt too wide) in paragraph at lines 9--9
  [][] [][][]\T1/ppl/m/n/10 Standard-Cell Seg-ment (SCS) and their mod-els []\T1
-/ppl/m/n/9 UP-DATED[] []2023-10-18 11:21:42+02:00[][][] []  
+/ppl/m/n/9 UP-DATED[] []2023-10-18 16:07:27+02:00[][][] []  
  []
 
 
@@ -2893,7 +2893,7 @@ ion: multiple pdfs with page group included in a single page
 >]
 Overfull \hbox (33.52208pt too wide) in paragraph at lines 113--113
 |[]\T1/ppl/b/n/14.4 Standard-Cell Seg-ment (SCS) and their mod-els []\T1/ppl/b/
-n/9 UP-DATED[] []2023-10-18 11:21:52+02:00[]| 
+n/9 UP-DATED[] []2023-10-18 16:07:37+02:00[]| 
  []
 
 (3_modeling/figures/mathieuFormerModels.tex
@@ -3157,6 +3157,33 @@ Underfull \vbox (badness 1831) has occurred while \output is active []
 
  [56{C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex
 .enc}]
+(4_thinning/figures/simuSubCoupe2.tex
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=4106, 867.24
+pt x 289.08pt>
+File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf Graphic fil
+e (type pdf)
+<use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf>
+Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex14
+0um.pdf  used on input line 7.
+(pdftex.def)             Requested size: 455.24411pt x 162.40419pt.
+<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=4108, 867.24p
+t x 178.47617pt>
+File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
+ (type pdf)
+<use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf>
+Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60
+um.pdf  used on input line 15.
+(pdftex.def)             Requested size: 455.24411pt x 100.26732pt.
+)
+
+LaTeX Warning: Reference `fig:simuSubCoupeThick' on page 57 undefined on input 
+line 84.
+
+
+LaTeX Warning: Reference `fig:simuSubCoupeThin' on page 57 undefined on input l
+ine 84.
+
+) (4_thinning/4_4_validation.tex
 
 Package fancyhdr Warning: \headheight is too small (19.91692pt): 
 (fancyhdr)                Make it at least 25.59138pt, for example:
@@ -3165,36 +3192,10 @@ Package fancyhdr Warning: \headheight is too small (19.91692pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-5.67447pt}.
 
-[57] (4_thinning/figures/simuSubCoupe2.tex
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf, id=4117, 794.97
-pt x 650.43pt>
-File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf Graphic fil
-e (type pdf)
-<use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf>
-Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex14
-0um.pdf  used on input line 6.
-(pdftex.def)             Requested size: 455.24411pt x 128.17908pt.
-<4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf, id=4119, 794.97p
-t x 650.43pt>
-File: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf Graphic file
- (type pdf)
-<use 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf>
-Package pdftex.def Info: 4_thinning/figures/simuSubCoupeVoltageTripleWellApex60
-um.pdf  used on input line 12.
-(pdftex.def)             Requested size: 455.24411pt x 65.30862pt.
-)
-
-LaTeX Warning: Reference `fig:simuSubCoupeThick' on page 58 undefined on input 
-line 84.
-
-
-LaTeX Warning: Reference `fig:simuSubCoupeThin' on page 58 undefined on input l
-ine 84.
-
-) (4_thinning/4_4_validation.tex [58 <./4_thinning/figures/simuSubCoupeVoltageT
-ripleWellApex140um.pdf> <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex
-60um.pdf>] (4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=4225, 1350.00356pt x 404.712pt>
+[57 <./4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf> <./4_thin
+ning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf>]
+(4_thinning/figures/cartosFautes.tex
+<4_thinning/figures/cartosFautesNew.pdf, id=4744, 1350.00356pt x 404.712pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -3202,31 +3203,34 @@ line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
 )
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=4226, 1350.00356pt x 404.712p
+<4_thinning/figures/cartosFautesSpreading.pdf, id=4745, 1350.00356pt x 404.712p
 t>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesSpreading.pdf  used on 
 input line 3.
 (pdftex.def)             Requested size: 455.24411pt x 136.47015pt.
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58])
 (4_thinning/figures/cartosFautesCouples.tex
-<4_thinning/figures/cartosCouples.pdf, id=4227, 1350.00356pt x 435.0654pt>
+<4_thinning/figures/cartosCouples.pdf, id=4752, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosCouples.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosCouples.pdf  used on input li
 ne 3.
 (pdftex.def)             Requested size: 455.24411pt x 146.70541pt.
 ) [59 <./4_thinning/figures/cartosFautesNew.pdf> <./4_thinning/figures/cartosFa
-utesSpreading.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+utesSpreading.pdf> <./4_thinning/figures/cartosCouples.pdf>]) (4_thinning/4_5_c
+onclusion.tex
+Underfull \vbox (badness 2111) has occurred while \output is active []
 
- [60 <./4_thinning/figures/cartosCouples.pdf>]) (4_thinning/4_5_conclusion.tex)
-) [61]
+ [60]))
+[61]
 \openout2 = `5_faultModel/5_main.aux'.
 
-
-(5_faultModel/5_main.tex [62
+ (5_faultModel/5_main.tex [62
 
 
 
@@ -3240,13 +3244,13 @@ Chapter 5.
 (0_Manuscript.mtc11
 Overfull \hbox (4.66103pt too wide) in paragraph at lines 4--4
  [][] [][][]\T1/ppl/m/n/10 Sequential logic op-er-a-tion and sim-ple fault mode
-l []\T1/ppl/m/n/9 2023-10-18 11:21:42+02:00[][][] []  
+l []\T1/ppl/m/n/9 2023-10-18 16:07:27+02:00[][][] []  
  []
 
 ) [63] (5_faultModel/5_1_summary.tex) (5_faultModel/5_2_introduction.tex)
 (5_faultModel/5_3_chargeExtortion.tex
 (5_faultModel/figures/bbiFaultSusceptibility.tex
-<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=4453, 150.5625pt x 70.7643
+<5_faultModel/figures/bbiFaultSusceptibility.pdf, id=4977, 150.5625pt x 70.7643
 7pt>
 File: 5_faultModel/figures/bbiFaultSusceptibility.pdf Graphic file (type pdf)
 <use 5_faultModel/figures/bbiFaultSusceptibility.pdf>
@@ -3317,15 +3321,15 @@ Package rerunfilecheck Warning: File `0_Manuscript.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `0_Manuscript.out':
-(rerunfilecheck)             Before: 207ACF06842CFE38C6DA95401DE9D2AE;32795
-(rerunfilecheck)             After:  83886AFEB49CD599FD6D15146B26322D;32795.
+(rerunfilecheck)             Before: 6929C3174707F7E207F80AC69EBBED9A;32764
+(rerunfilecheck)             After:  F8E3DDD83E1D50C2B6453C92BF4ACF29;32764.
 Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
-(rerunfilecheck)             Checksum: 3A107B50E3DC6A4B28E0370A941A63B7;3075.
+(rerunfilecheck)             Checksum: 6FE0801B6C060FC9F337D81F8953D70E;3075.
  ) 
 Here is how much of TeX's memory you used:
  66385 strings out of 476411
  1506489 string characters out of 5788662
- 2144201 words of memory out of 5000000
+ 2144207 words of memory out of 5000000
  84842 multiletter control sequences out of 15000+600000
  599777 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -3354,10 +3358,10 @@ pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/upl
 r8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino
 /uplr8a.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (92 pages, 45783572 bytes).
+Output written on 0_Manuscript.pdf (92 pages, 45797461 bytes).
 PDF statistics:
- 4738 PDF objects out of 5155 (max. 8388607)
- 2967 compressed objects within 30 object streams
+ 5262 PDF objects out of 6186 (max. 8388607)
+ 3365 compressed objects within 34 object streams
  287 named destinations out of 1000 (max. 500000)
  2539 words of extra memory for PDF output out of 10000 (max. 10000000)
 

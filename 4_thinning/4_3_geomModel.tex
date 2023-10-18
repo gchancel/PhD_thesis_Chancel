@@ -1,5 +1,5 @@
 
-\section{Theoretical modeling and the effects of IC substrate thinning on \bbi \ddcpu}
+\section{Theoretical modeling: the effects of substrate thickness on \bbi \ddcpu}
 \label{chap4:sect:geomModel}
 %\input{4_thinning/figures/geomSubCurr}
 In this section, I first present the geometric approach, allowing an abstraction from electronics, enabling faster and easier modeling at first.
@@ -12,7 +12,7 @@ Then, and because this modeling alone is insufficient, I perform and analyze ele
 \label{chap4:sect:geomModel:subsect:geomModel}
 \input{4_thinning/figures/geomCrossView}
 For the purpose of the geometric modeling, let us consider two identical ICs.
-A commercial one, with an arbitrary standard substrate thickness, and another one with its substrate thinned by a certain amount in order to perform fault injection.
+A commercial one, with an arbitrary standard substrate thickness, and another one with its substrate thinned by a certain amount in order to perform fault injection more easily.
 Fig. \ref{fig:geomCrossView} illustrates the two-dimensional cross-sectional views of the considered ICs substrates during an arbitrary BBI voltage pulse of amplitude $V_{P_U}$.
 The probe is located at the center of the ICs at point $P_U$, and the targeted area in the logic is at point $P$.
 The silicon substrate being an isotropic resistive environment, it is quite natural to expect the electrical charges to flow and spread evenly when injected into it at any given time.
@@ -34,7 +34,7 @@ The half-sphere equipotential radius relative to time can be determined thanks t
     r(t) = \frac{\rho_{SUB}}{\sqrt{2}} \cdot \frac{|I_G(t)|}{|V_{PU}(t) + V_F|}
 \end{equation}
 with $\rho_{SUB}$ the resistivity of the silicon substrate, $I_G(t)$ the instantaneous sum of the current distribution contained in the half-sphere, and $V_{PU}(t)$ the instantaneous voltage pulse applied on the backside of the IC.
-Then, logically, the BBI susceptibility area radius, denoted $\phi_r$, is described by:
+Then, logically, the BBI susceptibility area radius, denoted $\phi_r$, is given by:
 \begin{equation}
     \phi_r(t) = 2 \cdot \sqrt{r(t)^2 - t^2_{SUB}}
 \end{equation}
@@ -52,14 +52,14 @@ Therefore, in order to obtain the same susceptibility area with a thinner IC, it
     V_{PU}^* = \frac{t_{THIN}}{t_{THICK}} \cdot V_{PU} + V_F \cdot (1 - \frac{t_{THIN}}{t_{THICK}})
 \end{equation}
 
-Eventually, this geometrical approach allows deducing three conclusions:
+Eventually, this geometric approach allows deducing three related outcomes:
 \begin{enumerate}
     \item Thinning the substrate allows reducing the minimal voltage pulse amplitude required to induce a fault while keeping a constant susceptibility area.
     \item The BBI susceptibility area increases while the substrate thickness decreases while working at a constant voltage pulse $V_{PU}$.
     \item Thinning the substrate alone does not have an influence on BBI spatial resolution, as the susceptibility area depends on the couple $(t_{SUB}, V_{PU})$. Thus, similar spatial resolution could be obtained with different substrate thicknesses by changing $V_{PU}$.
 \end{enumerate}
 
-\newpage
+%\newpage
 \subsection{Electric approach \ddcpu}
 \label{chap4:sect:geomModel:subsect:elecApproach}
 %\input{4_thinning/figures/simuSubCoupe}
