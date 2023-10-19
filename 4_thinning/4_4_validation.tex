@@ -1,16 +1,23 @@
 
 \section{Models validation \ddc}
 \label{chap4:sect:modelValid}
-This section presents the conducted experiments allowing to validate the previously presented models.
-\subsection{IC substrate thinning quick look \ddc}
+%This section presents the conducted experiments allowing to validate the previously presented models.
+\subsection{A few words about IC substrate thinning \ddc}
 \label{chap4:sect:modelValid:subsect:thinQuick}
-As substrate thinning is quite widespread when performing fault injection, let us have a quick look on how it is performed.
-Commonly, It is done using Selected Area Preparation (SAP) or Focused Ion Beams (FIB) milling.
-SAP milling consists in a very precise mechanical milling tool, generally able to remove material with a precision down to a few micrometers.
-However, it can often lead to uneven surfaces.
-FIB milling consists in a physical milling which does not imply a mechanical contact with the material to be removed, and allows nanometer-level precision.
+As substrate thinning is quite widespread when performing fault injection, especially concerning \lfi, let me explain how it is commonly performed.
+The first step to thin the substrate of an IC is to get direct access of it.
+To do so, it is required to remove part of the plastic package of the IC.
+There are multiple ways of doing it, sometimes using chemical solutions do dissolve the material, but most commonly using milling processes.
+More specifically using Selected Area Preparation (SAP) or Focused Ion Beams (FIB) milling.
+
+On the one hand, SAP milling consists in a very precise mechanical milling tool, generally able to remove material with a precision down to a few micrometers.
+It is used to remove the package and at the same time thin the IC substrate.
+However, it can often lead to uneven surfaces, which then requires polishing.
+
+On the other hand, FIB milling consists in a physical milling which does not imply a mechanical contact with the material to be removed, and allows nanometer-level precision.
 For that purpose, FIB is commonly used in combination with SAP \cite{FIBthinning} to produce even substrate surfaces.
-In addition to substrate thinning, SAP milling machines allow removing the plastic package and eventual internal metallic heat-sinks of ICs prior to substrate thinning.
+
+In addition to substrate thinning and plastic package removal , SAP milling machines allow removing eventual internal metallic heat-sinks of ICs prior to substrate thinning.
 It has the advantage of providing low damage to thinned ICs, thanks to low spindle speed and low temperature rise compared to traditional high speed milling.
 
 \subsection{Experiments with thinned circuits \ddc}

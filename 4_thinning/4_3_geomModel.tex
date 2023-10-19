@@ -14,34 +14,36 @@ Then, and because this modeling alone is insufficient, I perform and analyze ele
 For the purpose of the geometric modeling, let us consider two identical ICs.
 A commercial one, with an arbitrary standard substrate thickness, and another one with its substrate thinned by a certain amount in order to perform fault injection more easily.
 Fig. \ref{fig:geomCrossView} illustrates the two-dimensional cross-sectional views of the considered ICs substrates during an arbitrary BBI voltage pulse of amplitude $V_{P_U}$.
-The probe is located at the center of the ICs at point $P_U$, and the targeted area in the logic is at point $P$.
+The probe is located at the center of the ICs at point $P_U$, and the targeted spot in the logic is at point $P$.
 The silicon substrate being an isotropic resistive environment, it is quite natural to expect the electrical charges to flow and spread evenly when injected into it at any given time.
 Therefore, equipotentials form half-sphere surfaces inside the substrate volume.
-These surfaces are highlighted in two-dimensions as green half-circles in Fig. \ref{fig:geomCrossView}.
+These surfaces are highlighted in two-dimensions as green half-circles in Fig. \ref{fig:geomCrossView}, for an arbitrary voltage $V_F$.
 
 In this scenario, an attacker wants to induce a fault in the logic gates, located at the top of each IC.
-To that end, they need to change the voltage enough at point $P$, called $V_P$, in order to disturb the transistors and change the logic gates behavior.
+To that end, they need to change the voltage enough at point $P$, called $V_P$, in order to disturb the transistors and change the logic gates behavior for a short amount of time.
 In addition to that, and for the sake of simplicity, let us assume that $P$ is the only location in the considered IC where faults can be injected.
 However, in order to observe faults at point $P$, $V_P$ needs to reach a minimal threshold voltage, called $V_F$.
 Because the attacker is working with BBI, a metallic probe is connected onto the backside of the IC, at point $P_U$, in order to inject energy into the IC.
-Depending on the amount of injected energy, in other words, the maximum amplitude of the voltage pulse because the substrate effective resistance is static, the voltage at $P$ might never reach $V_F$, therefore, no faults will be observed.
-Let us consider that the attacker chose an amplitude $V_{PU}$ big enough such that at a moment in the injection, $V_P$ reaches $V_F$ or more in each considered IC.
+Depending on the amount of injected energy, in other words, the maximum amplitude of the voltage pulse because the substrate effective electric resistance is static over time, the voltage at $P$ might never reach $V_F$, therefore, no faults will be observed.
+Let us consider that the attacker chose an amplitude $V_{PU}$ big enough such that at a given moment in the injection, $V_P$ reaches $V_F$ or more in each considered IC.
 In that scenario, the area on the IC front side where $V > V_F$ is a disk of radius $\phi$, centered in $P$, called the BBI susceptibility area radius.
 It means that the attacker can position the probe anywhere on the backside within this disk to reach $V_F$ at $P$, and therefore induce a fault at $P$.
 
+Let me introduce the various equations enabling the calculation of the various parameters I previously mentioned.
 The half-sphere equipotential radius relative to time can be determined thanks to the following formula:
 \begin{equation}
     r(t) = \frac{\rho_{SUB}}{\sqrt{2}} \cdot \frac{|I_G(t)|}{|V_{PU}(t) + V_F|}
 \end{equation}
 with $\rho_{SUB}$ the resistivity of the silicon substrate, $I_G(t)$ the instantaneous sum of the current distribution contained in the half-sphere, and $V_{PU}(t)$ the instantaneous voltage pulse applied on the backside of the IC.
+
 Then, logically, the BBI susceptibility area radius, denoted $\phi_r$, is given by:
 \begin{equation}
     \phi_r(t) = 2 \cdot \sqrt{r(t)^2 - t^2_{SUB}}
 \end{equation}
 with $t_{SUB}$ being the IC substrate thickness.
 
-As it is illustrated in Fig. \ref{fig:geomCrossView}, thinning the substrate inevitably increases the size of the susceptibility area if the experimental conditions are constant.
-It means that the susceptibility evolution ratio is always greater than 1 when thinning the substrate:
+As illustrated in Fig. \ref{fig:geomCrossView}, thinning the substrate inevitably increases the size of the susceptibility area if the experimental conditions are constant.
+It means that the susceptibility evolution ratio is always greater than 1 when thinning the substrate for a fixed disturbance:
 \begin{equation}
     \frac{\phi_r^{THIN}}{\phi_r^{THICK}} = \sqrt{\frac{r^2 - t^2_{THIN}}{r^2 - t^2_{THICK}}} > 1
 \end{equation}
@@ -64,24 +66,29 @@ Eventually, this geometric approach allows deducing three related outcomes:
 \label{chap4:sect:geomModel:subsect:elecApproach}
 %\input{4_thinning/figures/simuSubCoupe}
 \input{4_thinning/figures/simuSubCoupe2}
-As stated previously, in order to verify the meaningfulness of the geometrical approach, we will complete it with an electrical modeling approach.
-For this purpose, the models introduced in Chapter \ref{chap:3icModeling} are reused.
-The electrical approach consists in generating ICs with different substrate thicknesses and simulating them during BBI.
-The considered ICs are 550 µm wide and 450 µm deep.
+As I stated previously, in order to verify the meaningfulness of the geometrical approach, I complete it with an electrical modeling approach.
+This approach takes advantage of the models I previously introduced in Chapter \ref{chap:3icModeling}.
+Then, thanks to these models, I am able to generate identical ICs with different substrate thicknesses.
+After that, I simulate the circuits under \bbi and I am able to plot the voltage distribution inside the substrate for each simulated IC.
+%For this purpose, I reused the models I previously introduced in Chapter \ref{chap:3icModeling}.
+%The electrical approach consists in generating identical ICs with different substrate thicknesses and simulating them during BBI.
+%The considered ICs are 550 µm wide and 450 µm deep, similar to Chapter \ref{chap:3icModeling}.
 %It consists in utilizing the models presented in Chapter \ref{chap:3icModeling} with different substrate thicknesses.
 %To that end, the same IC will be used, with an 550 µm width and an 450 µm depth.
-Two substrate thicknesses are analyzed, 60 µm and 140 µm.
+
+I chose to study two distinct substrate thicknesses: 60 µm and 140 µm.
 The simulation parameters are the following:
 \begin{itemize}
-    \item Triple-well substrate
+    \setlength\itemsep{-0.1em}
+    \item \dwF exclusive substrate
     \item Required voltage pulse: -300 V
     \item Required pulse width: 20 ns
     \item Required rise and fall times: 8 ns
 \end{itemize}
 
-Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage bias across the substrate through a cross-sectional view at the apex of the voltage pulse first edge.
-For simplicity, results are shown in two dimensions and from two point of views: a cross-sectional view and a bottom view.
-The first interesting thing to note is that, as predicted thanks to the geometric model and as shown in Fig. \ref{fig:simuSubCoupeThick} and \ref{fig:simuSubCoupeThin}, equipotentials effectively form half-circles into the substrate (half-spheres in 3D).
-They can be first observed from the bottom, where the voltage is spreading across the backside surface of the IC.
-Second, in the cross-sectional view, as it was illustrated previously with the geometrical model...............
-\textcolor{orange}{IL Y A BEAUCOUP DE CHOSES À DIRE MAIS JE MANQUE D'INSPIRATION POUR CETTE PARTIE, JE REVIENDRAI PLUS TARD DESSUS.}
+Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage distribution across the substrate through a cross-sectional view at the apex of the voltage pulse first edge.
+For simplicity, the results are shown in two dimensions, and as the substrate is an isotropic environment, the propagation is equals in every direction.
+The first interesting thing to note is that, as predicted thanks to the geometric model and as shown in Fig. \ref{subFigThickIC} and \ref{subFigThinIC}, equipotentials effectively form half-circles into the substrate (which are effectively half-spheres in 3D).
+I annotated two equipotentials according to their voltage and annotated their size in Fig. \ref{figSimuSubCoupe2}.
+As one can see, the yellow half-circle (-140 V, 40 µm), formed close to the probe, is complete in each considered IC.
+However, similar to the geometric modeling, the blue half-circle (-28 V,  140 µm), is entirely included into the 140 µm IC (Fig. \ref{subFigThickIC}), while it is cut at the epitaxy level in the 60 µm IC.
