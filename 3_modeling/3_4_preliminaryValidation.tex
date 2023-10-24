@@ -11,7 +11,7 @@
         \item An exclusive \twF circuit, to isolate the \twF specific \bbi effects and potential \twF generation errors;
         \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically our platform microcontroller.
     \end{itemize}
-    As I stated before, I performed the operating point and measured key values for each IC, which are presented in Table \ref{tab:basicOpPointScs}.
+    For each generated IC, I simulated the operating point and identified the key values, which are presented in Table \ref{tab:basicOpPointScs}.
     \begin{table}[ht]
         %    \footnotesize
         \centering
@@ -22,8 +22,8 @@
             Measurement   	& Description               &  Dual-well 		&  Triple-well   	&  Mixed substrates	\\
             $I_{GND}$     	& IC global ground current  &  1.92 nA   		&  1.94 nA        	&  3.4 nA          	\\
             $I_{VDD}$     	& IC global VDD current     & -1.96 nA    		& -5.8 nA         	& -3.5 nA         	\\
-            $GND_{AVG}$     & Max. GND voltage       & 1 nV    			&  1 nV         	&  1.75 nV         	\\
-            $VDD_{AVG}$     & Min. VDD Voltage       & 1.2 V    			&  1.2 V         	&  1.2 V         	\\
+            $GND_{AVG}$     & Max. GND voltage          & 1 nV    			&  1 nV         	&  1.75 nV         	\\
+            $VDD_{AVG}$     & Min. VDD Voltage          & 1.2 V    			&  1.2 V         	&  1.2 V         	\\
         \end{tabular}
     \end{table}
     We can observe very low steady current, which, according to the model, is consistent and should be expected.

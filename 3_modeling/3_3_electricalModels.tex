@@ -14,10 +14,10 @@ It involves analyzing the main structures composing an IC, such as:
     In complex digital integrated circuits, power distribution is typically realized thanks to a grid structure on multiple levels, as illustrated in Fig. \ref{fig:icPowerRail} for two metal levels.
     The upper layer forms a ring around the IC core.
     Each layer of the grid is a set of constant width metal lines equally spaced.
-    The lines' direction is orthogonal between layers.
+    The lines direction is orthogonal between layers.
     Then, vias are used to electrically connect the layers together at each overlap location.
     Commonly, the lower the layer the thinner the lines are.
-    Thus, the lower grid brings the power close to each standard-cell segment.
+    Thus, the lower grid brings the power close to each standard-cell segment, one of them being highlighted in desaturated yellow in Fig. \ref{fig:icPowerRail}.
     This topology has the advantage to bring a robust power delivery network inside the IC silicon.
     Indeed, there are multiple paths between power connections of each standard-cell segment, which leads to less power change sensitivity of the standard-cell segments.
     However, the shortcoming of such architecture lies in the high amount of metal resources required to create the power grids.
@@ -31,14 +31,20 @@ It involves analyzing the main structures composing an IC, such as:
 
     \subsection{Standard-Cell Segments \ddcnew}
     \input{3_modeling/figures/stdCellsRows.tex}
-    As previously mentioned, Standard-Cell Segments (\scs) are the elementary building blocks used to design ICs.
-    They are pre-defined logic cells, fulfilling a specific logic function.
-    They are pre-characterized for each technology and are used as an abstraction layer when designing integrated circuits.
-    When used in conjunction with other \scs, they allow creating a complete logic function of a portion of an IC.
-    They are usually organized in rows, with a fixed height and variable width depending on the function.
-    This allows simple power connection to each Standard-Cell Segment.
-    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cell Segments are connected to the power supply network in an IC design.
-    At the top of the Standard-Cell Segment is located its VDD power input, and at the bottom its GND power input.
+    As I described above, the power planning of ICs creates standard-cell segments (\scs), delimited by power and ground rails.
+    They typically contain standard logic gates and power decoupling capacitors.
+    The standard logic gates are pre-defined and pre-characterized concerning their performance (both for timing and power), for each silicon technology node, by IC manufacturers.
+    They are standard in the way that their height is fixed, while their width vary according to their complexity.
+    It allows placing and routing them easily in rows, delimited by the power lines around them.
+    Fig. \ref{fig:istdCellRows} shows how a \scs is surrounded by VDD and GND power lines.
+%    As previously mentioned, Standard-Cell Segments (\scs) are the elementary building blocks used to design ICs.
+%    They are pre-defined logic cells, fulfilling a specific logic function.
+%    They are pre-characterized for each technology and are used as an abstraction layer when designing integrated circuits.
+%    When used in conjunction with other \scs, they allow creating a complete logic function of a portion of an IC.
+%    They are usually organized in rows, with a fixed height and variable width depending on the function.
+%    This allows simple power connection to each Standard-Cell Segment.
+%    Fig. \ref{fig:istdCellRows} illustrates how Standard-Cell Segments are connected to the power supply network in an IC design.
+%    At the top of the Standard-Cell Segment is located its VDD power input, and at the bottom its GND power input.
 %    Typically, without considering various technologies, between the power rails are trapped three main regions:
 %    \begin{itemize}
 %        \setlength\itemsep{-0.1em}
@@ -52,7 +58,7 @@ It involves analyzing the main structures composing an IC, such as:
     \input{3_modeling/figures/dualTripleCoupe}
     During my work, I focused on bulk silicon substrate technologies.
     In most cases, the base silicon is P-doped, and called the substrate, on which are stacked the transistors and the power delivery network.
-    In these structure, there are two typical ways of lithographing the transistors inside the silicon substrate.
+    In these structures, there are two typical ways of lithographing the transistors inside the silicon substrate.
     Cross-sectional views of a logic inverter manufactured with both of these techniques are shown in Fig. \ref{fig:dualTripleIvx}, and are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
@@ -72,7 +78,7 @@ It involves analyzing the main structures composing an IC, such as:
 
         \subsubsection{\dwF substrates \ddcnew}
         To begin with, let us focus on \dwF substrates.
-        A cross-sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}
+        A cross-sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}.
         Among moderately old ICs, it was common to find \dwF substrates.
         As I have stated before, in \dwF substrates, NMOS transistors are lithographed directly into the P-doped silicon substrate, as it is shown in Fig. \ref{subfig:dualIvx}.
         In addition to this, a N-doped silicon area is created inside the P-substrate, called the N-well, to lithograph the PMOS transistors.
@@ -87,7 +93,7 @@ It involves analyzing the main structures composing an IC, such as:
         \subsubsection{\twF substrates \ddcnew}
 %        \textcolor{orange}{TW helps to reduce crosstalk noise.}
         Let us now focus on \twF substrates, which are nowadays commonly used in modern ICs because such substrates offer interesting noise properties.
-        Indeed, thanks to an additional silicon well, it provides an electrical isolation between areas of the IC, thus reducing crosstalk noise.
+        Indeed, thanks to an additional silicon well, it provides an electrical isolation between areas of the IC, thus reducing substrate crosstalk noise.
 
         As for \dwF substrates, the cross-sectional view of an inverter manufactured using a \twF substrate is shown in Fig. \ref{subfig:tripleIvx}.
         Similar to \dwF substrates, the PMOS transistor is lithographed in a dedicated N-well, located in the P-substrate, which creates a first diode: the N-well diode.
@@ -117,7 +123,7 @@ The models I developed are an improvement over the electrical models proposed by
 
     \subsection{Former models \ddcnew}
     \input{3_modeling/figures/mathieuFormerModels}
-    The original Standard-Cell Segment models for \dwF and \twF substrates proposed by M. Dumont are shown in Fig. \ref{fig:dualTripleScsEmfi}.
+    The original Standard-Cell Segment models for \dwF and \twF substrates proposed by M. Dumont \cite{mathieuEMFI} are shown in Fig. \ref{fig:dualTripleScsEmfi}.
     Let us now analyze their structure.
 
         \subsubsection{\dwF \scs \ddcnew}
@@ -163,12 +169,12 @@ The models I developed are an improvement over the electrical models proposed by
     Among them, we can identify the coarse nature of the substrate model.
     Indeed, the six resistors composing the model are sufficient in an \emfi context as the substrate acts as an almost transparent environment and is here only to create the substrate electrical interconnect between \scs.
     However, in a \bbi context, the substrate is the physical environment used to convey the energy from the metal probe to the transistors.
-    In addition to this, the typical substrate thickness of ICs ranges from 10 µm to 700 µm, and using only two resistors to represent 700 µm of material is a too wide geometric step to fully appreciate the mechanisms at work during \bbi.
+    In addition to this, the typical substrate thickness of ICs ranges from 40 µm to 1 mm, and using only two resistors to represent 700 µm of material is a too wide geometric step to fully appreciate the mechanisms at work during \bbi.
     Furthermore, as the modeled \scs is 5 µm wide and 30 µm long, the spatial resolution of the substrate sub model is not the same in each direction.
 
     Therefore, I decided to improve the former model to allow for finer geometry resolution.
     My proposition consists in fixing the width and length of an elementary substrate sub model to a value of 5 µm, while allowing the user to have a certain degree of freedom concerning the elementary thickness value.
-    However, I chose a 10 µm default value for the elementary thickness as it is an optimal value, computationally speaking.
+    However, I chose a 10 µm default value for the elementary thickness as it is a good value, computationally speaking.
     To achieve this, I split the former six-resistors sub model into many six-resistors blocks connected to each other, as it is shown in Fig. \ref{fig:surfaceSubDivid}.
     These new substrate blocks then measure 5 µm by 5 µm by 10 µm.
     As one can see, to preserve the higher part of the \scs model, I kept the \scs length of 30 µm, which results in a 6 by 1 array of elementary substrate blocks.
@@ -231,22 +237,23 @@ The models I developed are an improvement over the electrical models proposed by
 %    \end{itemize}
 
     \subsection{Interconnecting Standard-Cell Segments together \ddcpu}
-    The models I previously presented only describe a small portion of an integrated circuit.
+    The models I previously presented only describe a small portion of an integrated circuit, this is to say an \scs.
     Therefore, to be able to model an entire IC, it is required to instantiate several \scs and to connect them with each other in a mesh arrangement.
 %    Because the \scs I previously introduced only describe a portion of an integrated circuit, in order to model a complete one, it is required to instantiate several \scs and to connect them with each other in a mesh grid.
     \input{3_modeling/figures/surfaceSplitScs.tex}
-    Fig. \ref{fig:surfaceSplitScs} shows coarsely how it is achieved.% is a coarse illustration of what is done.
+    Fig. \ref{fig:surfaceSplitScs} shows coarsely how it is achieved.
     I have chosen to work with the SPICE simulator to perform the simulations as it is a widely used software in electronics and is available in various flavors.
     Therefore, \scs are written in SPICE language.
     As I have said before, the very elementary building substrate blocks are written manually and verified before any usage.
     Then, the \scs elementary models are automatically generated instead of being written manually.
     It allows avoiding human errors and enabling fast modifications to the models when required.
+
     Then comes the interconnection step.
     To that end, it is needed to create a top SPICE file which instantiates every \scs required to form the IC and defines constant parameters in addition to simulation conditions.
     I chose to use the Python language to do so as I use it for every tool I write my work, therefore enabling fast support and update, while ensuring cross-script compatibility.
 %    In addition to this, I decided to create an algorithm to connect as much \scs as needed to create a resulting IC.
     By doing so, the interconnection process is automated and free from human errors.
-    A simple description of the algorithm is depicted in Alg. \ref{alg:icGen}, while the actual Python script is annexed to the manuscript (\textcolor{orange}{TO-DO}).
+    The actual generator Python script is annexed to the manuscript (\textcolor{orange}{TO-DO}).
     Because I have designed two separate models, one for \dwF and another for \twF substrate types, in addition to the various dynamic parameters which are useful when modeling an IC, the algorithm offers a certain degree of flexibility, allowing me to cover multiple use cases.
     The actual generation script uses procedural generation according to the input parameters.
     Various parameters are user-accessible and can be modified to fit the needs.

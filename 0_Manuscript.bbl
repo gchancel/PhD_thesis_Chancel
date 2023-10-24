@@ -7,6 +7,12 @@ Colin O'Flynn.
   Research and Advanced Applications}, pages 166--180, Cham, 2021. Springer
   International Publishing.
 
+\bibitem{mathieuEMFI}
+M.~Lisart M.~Dumont and P.~Maurine.
+\newblock Modeling and simulating electromagnetic fault injection.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 40(4):680--693, 2021.
+
 \bibitem{mybbiCosade}
 G.~Chancel, J.-M. Galliere, and P.~Maurine.
 \newblock Body biasing injection: To thin or not to thin the substrate?
@@ -127,12 +133,6 @@ David Samyde, Sergei~P. Skorobogatov, Ross~J. Anderson, and Jean-Jacques
 \newblock {\em First International IEEE Security in Storage Workshop, 2002.
   Proceedings.}, pages 65--69, 2002.
 
-\bibitem{mathieuEMFI}
-M.~Lisart M.~Dumont and P.~Maurine.
-\newblock Modeling and simulating electromagnetic fault injection.
-\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
-  Circuits and Systems}, 40(4):680--693, 2021.
-
 \bibitem{bbiOrigin}
 Philippe Maurine, Karim Tobich, Thomas Ordas, and Pierre-Yvan Liardet.
 \newblock Yet another fault injection technique : by forward body biasing
@@ -187,11 +187,13 @@ Mathieu Dumont, Philippe Maurine, and Mathieu Lisart.
 \newblock In {\em 2019 12th International Workshop on the Electromagnetic
   Compatibility of Integrated Circuits (EMC Compo)}, pages 246--248, 2019.
 
-\bibitem{tripleWellDecoupling}
-Yasuhiro Ogasahara, Masanori Hashimoto, Toshiki Kanamoto, and Takao Onoye.
-\newblock Supply noise suppression by triple-well structure.
-\newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
-  Systems}, 21(4):781--785, 2013.
+\bibitem{lfiSimu}
+Raphael A.~Camponogara Viera, Philippe Maurine, Jean-Max Dutertre, and Rodrigo
+  Possamai~Bastos.
+\newblock Simulation and experimental demonstration of the importance of
+  ir-drops during laser fault injection.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 39(6):1231--1244, 2020.
 
 \bibitem{japbbi}
 Takuya Wadatsumi, Kohei Kawai, Rikuu Hasegawa, Takuji Miki, Makoto Nagata,

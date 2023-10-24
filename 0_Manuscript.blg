@@ -30,24 +30,24 @@ Warning--empty booktitle in firstLfi
 Warning--empty journal in bbiOrigin
 You've used 35 entries,
             1791 wiz_defined-function locations,
-            706 strings with 11472 characters,
-and the built_in function-call counts, 11583 in all, are:
-= -- 1072
+            707 strings with 11462 characters,
+and the built_in function-call counts, 11601 in all, are:
+= -- 1074
 > -- 500
 < -- 27
 + -- 174
 - -- 139
-* -- 709
-:= -- 1655
+* -- 711
+:= -- 1657
 add.period$ -- 120
 call.type$ -- 35
 change.case$ -- 35
 chr.to.int$ -- 0
 cite$ -- 37
 duplicate$ -- 590
-empty$ -- 1088
+empty$ -- 1090
 format.name$ -- 139
-if$ -- 2787
+if$ -- 2791
 int.to.chr$ -- 0
 int.to.str$ -- 35
 missing$ -- 33
@@ -59,7 +59,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 397
 stack$ -- 0
-substring$ -- 761
+substring$ -- 767
 swap$ -- 259
 text.length$ -- 27
 text.prefix$ -- 0

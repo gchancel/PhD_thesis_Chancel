@@ -4,22 +4,24 @@ When evaluating and studying ICs under BBI, it is important to be able to fully 
 However, modeling and simulating integrated circuit behavior subject to fault injection is not an easy task.
 More specifically, simulating an entire IC at a transistor level under fault injection is unrealistic with current resources and technology.
 It is especially true when considering time cost, as most modern digital ICs are composed of billions of transistors.
-However, when considering microcontrollers, the transistor count is sensibly lower, in the order of the million of transistor.
+
+On the other hand, when considering microcontrollers, the transistor count is sensibly lower, in the order of the million of transistor.
 As no software nor algorithm is currently dedicated to simulate the functional, electrical behavior of millions of transistors at the same time while some of them are disrupted by strong and transient disturbances, I had to overcome this limitation.
 In addition to that, to be able to set up a reliable model, it is required to have knowledge relative to the detailed architecture of the considered IC, which is impossible in most cases, as the vast majority of digital IC architectures are proprietary and closed-source.
 Therefore, it is required to find alternative workarounds in order to be able to study IC behavior and their various responses to fault injection techniques.
 
-One of the first technique allowing to simulate entire ICs behavior under fault injection has been first proposed in 2019 concerning Electromagnetic Fault Injection (EMFI) \cite{mathieuEMFIFirst}, and further extended in 2021 \cite{mathieuEMFI}.
-More specifically in the latest work \cite{mathieuEMFI}, the proposed solution consists in establishing an equivalent non-logical model of an elementary section of the considered IC.
+One of the first technique allowing to simulate entire ICs behavior under fault injection has been first proposed in 2019 and 2020 concerning Electromagnetic Fault Injection (\emfi) \cite{mathieuEMFIFirst} and Laser Fault Injection (\lfi) \cite{lfiSimu}.
+It was further extended for EMFI in \cite{mathieuEMFI}.
+More specifically in the latest work, the proposed solution consists in establishing an equivalent non-logical model of an elementary section of the considered IC.
 Instead of modeling each logic gate with as many transistors as required to form a logic function, it was chosen to represent a hundred of logic gates in an average way, solely with a few resistors and capacitors, in addition to the power delivery network and the silicon substrate.
 It results in a transistor-less model, achieved using manufacturing data for the studied IC.
 The authors assumed that the first half of the transistors are conducting while the other half are blocking.
 Then, by repeating the model and interconnecting the various instances to one another, the authors managed to evaluate the IC power delivery network behavior under \emfi.
 %Then, two levels of power delivery network were added, simply modeled with electrical resistances.
 %Eventually, and because the modeled IC was manufactured using a dual-well substrate type, the silicon substrate and the P-N junction respectively are modeled by six resistors going in every direction in addition to a diode and its capacitance respectively.
-This clever design allows to drastically reduce the computing work required to analyze and predict behaviors of ICs subject to EMFI.
-Indeed, simulating the average behavior of a hundred of logic gates only with four resistors and four capacitors is immensely lighter and faster than simulating the equivalent with BSIM (Berkeley Short-channel IGFET Model) transistors.
-However, the main shortcoming being the lack of functionality with the produced ICs, it is therefore impossible to evaluate the consequences of \emfi concerning their functional behavior.
+This clever solution allows to drastically reduce the computing work required to analyze and predict behaviors of ICs subject to EMFI.
+Indeed, simulating the average behavior of a hundred of logic gates only with four resistors and four capacitors is immensely lighter and faster than simulating the equivalent with BSIM (Berkeley Short-channel IGFET Model) transistor models.
+However, the main shortcoming being the lack of functionality of the IC models, it is impossible to evaluate the consequences of \emfi concerning their functional behavior.
 
 Body biasing injection being less documented than EMFI, no distributed model has yet been proposed to simulate ICs under BBI.
 In this context, my motivations were to set up and evaluate electrical models being able to reliably predict both in time and space IC behavior in order to understand how BBI induced disturbances propagate and create faults inside ICs.
@@ -31,7 +33,7 @@ Then, and because such model cannot allow me to evaluate the consequences of \bb
 %This chapter begins with a general presentation of the enhanced models, followed by a closer look at each model and its specific features.
 %Eventually, various model validation are studied in order to verify their soundness.
 
-This chapter begins with a presentation of typical integrated circuits structure, including the power delivery networks and the logic gates layout, arranged in elementary blocks called Standard-Cell Segments (\scs).
+This chapter begins with a presentation of typical integrated circuits structure, including its power delivery network and the logic gates layout, arranged in elementary blocks called Standard-Cell Segments (\scs).
 Afterward, I introduce the electrical models allowing me to simulate ICs under \bbi, while verifying their soundness.
 Then, I present the importance of properly modeling the voltage generator when working with \bbi simulations.
 Eventually, I introduce the new workflow I designed, expected to be used in conjunction with the previous models, allowing me to evaluate the functional consequences of \bbi on integrated circuits.
