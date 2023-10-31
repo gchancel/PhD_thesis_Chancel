@@ -1,13 +1,28 @@
 \section{Conclusion \ddcu}
 In this chapter, I have introduced a modeling and simulation flow for Body Biasing Injection.
 The models are based on a typical integrated circuit structure, including the power delivery network, the logic gates and the silicon substrate.
-They consist of the elementary building blocks called Standard-Cell Segments, mostly used in digital IC design, which are a set of multiple logic gates assembled together to form a dedicated logic function.
-I started the modeling thanks to M. Dumont work on \emfi modeling and simulation \cite{mathieuEMFI}.
-Then, I improved and adapted these models to a \bbi context, by improving the silicon substrate sub models to fully appreciate its role during \bbi.
-In addition to this, I considered two types of substrate types commonly used in ICs: \dwF and \twF.
-This allowed me to analyze the key differences between those substrate types under \bbi.
-Then, I introduced the importance of the voltage pulse generator model, which, depending on the architecture of the actual generator, can have an impact on simulation results.
-Eventually, I presented various validation for the models, to verify their soundness and potential inconsistencies.
+They allowed me to simulate various IC structures under \bbi.
+The most important things they taught me are how energy is flowing inside the substrate to reach the logic gates.
+Thanks to an analysis of charges concentration in the substrate, I was able to observe that most of the energy flows below the \bbi probe.
+Therefore, it shows that \bbi seems to be a local fault injection method, such as \lfi, even if their precision is on different levels.
+Then, thanks to a deep study of two substrate types: \dwF and \twF, I was able to draw conclusions on how \bbi pulses impact the energy propagation inside ICs.
+I observed that for negative pulses, in \dwF substrates, ICs are DC-coupled with the probe, thus allowing for energy to flow during the entire duration of the pulse.
+On the other hand, in \twF substrates and negative pulses, ICs are entirely AC-coupled to the probe, thus allowing energy to only flow on the edges of the pulse.
+These differences mean that for a given disturbance, a lower amount of energy can be transferred into a \twF IC compared to a \dwF IC.
+Therefore, it is important to keep this in mind concerning the potential hazards \bbi practice on \dwF ICs could involve.
+
+%In this chapter, I have introduced a modeling and simulation flow for Body Biasing Injection.
+%The models are based on a typical integrated circuit structure, including the power delivery network, the logic gates and the silicon substrate.
+%They consist of the elementary building blocks called Standard-Cell Segments, mostly used in digital IC design, which are a set of multiple logic gates assembled together to form a dedicated logic function.
+%I started the modeling thanks to M. Dumont work on \emfi modeling and simulation \cite{mathieuEMFI}.
+%Then, I improved and adapted these models to a \bbi context, by improving the silicon substrate sub models to fully appreciate its role during \bbi.
+%In addition to this, I considered two types of substrate types commonly used in ICs: \dwF and \twF.
+%This allowed me to analyze the key differences between those substrate types under \bbi.
+%Then, I introduced the importance of the voltage pulse generator model, which, depending on the architecture of the actual generator, can have an impact on simulation results.
+%Eventually, I presented various validation for the models, to verify their soundness and potential inconsistencies.
+
+
+
 
 %In this chapter, we presented enhanced electrical models which can be utilized to simulate integrated circuits under body biasing fault injection.
 %These models, supported by older ones originally designed for ICs under EMFI, cover two substrate types commonly found in commercial ICs: dual-well and triple-well substrates.

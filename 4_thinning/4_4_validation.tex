@@ -53,6 +53,15 @@ Then, concerning the ST140 target, thanks to the thinner substrate, the voltage 
 Eventually, the ST50 target shows the largest fault area.
 These experiments help to sustain the second conclusion of section \ref{chap4:sect:geomModel}.
 
-Eventually, the last experiment consisted in finding, whenever possible, $(t_{SUB}, V_{PU})$ couples for which the susceptibility area is identical across all targets.
-The search for the couples of values was done by first choosing an arbitrary couple for ST200 target, and then calculating the correlation for each couple between the other two susceptibility areas and finding the highest correlation.
-Then, to confront the geometric modeling predictions, we calculated, thanks to equation \ref{chap4:sect:geomModel:eqnVpu*}, couples corresponding to
+Eventually, the last experiment, where the results are displayed in Fig. \ref{fig:fsm1couple}, consisted in finding, whenever possible, $(t_{SUB}, V_{PU})$ couples for which the susceptibility area is identical across all three targets.
+To do so, we chose the couple $(200 \; \mu m, -165 \; V)$ as the base search value.
+Afterward, we swept across every possible couple for ST140 and chose the one with the closest area and correlation to the base ST200 couple.
+Then, we did the same thing between ST140 and ST50, giving us the three following couples for each IC:
+\begin{itemize}
+    \setlength\itemsep{-0.1em}
+    \item ST50: $(50 \; \mu m, -85 \; V)$, with a fault susceptibility area of $0.3568 mm^2$;
+    \item ST140: $(140 \; \mu m, -140 \; V)$, with a fault susceptibility area of $0.3824 mm^2$;
+    \item ST200: $(200 \; \mu m, -165 \; V)$, with a fault susceptibility area of $0.3584 mm^2$.
+\end{itemize}
+%The search for the couples of values was done by first choosing an arbitrary couple for ST200 target, and then calculating the correlation for each couple between the other two susceptibility areas and finding the highest correlation.
+%Then, to confront the geometric modeling predictions, we calculated, thanks to equation \ref{chap4:sect:geomModel:eqnVpu*}, couples corresponding

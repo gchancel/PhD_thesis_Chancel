@@ -52,9 +52,8 @@
 \backcite {japbbi}{{48}{3.5.1}{subsection.3.5.1}}
 \backcite {japbbi2}{{48}{3.5.1}{subsection.3.5.1}}
 \backcite {bbiColin}{{48}{3.5.1}{subsection.3.5.1}}
-\backcite {mathieuEMFI}{{53}{3.7}{section.3.7}}
-\backcite {lfiThinning}{{56}{4.1}{section.4.1}}
-\backcite {lfiThinning}{{56}{4.2}{section.4.2}}
-\backcite {lfiThinning2}{{56}{4.2}{section.4.2}}
-\backcite {FIBthinning}{{60}{4.4.1}{subsection.4.4.1}}
-\backcite {emfiFF}{{67}{5.3.1}{figure.caption.45}}
+\backcite {emfiFF}{{59}{4.3.1}{figure.caption.41}}
+\backcite {lfiThinning}{{62}{5.1}{section.5.1}}
+\backcite {lfiThinning}{{62}{5.2}{section.5.2}}
+\backcite {lfiThinning2}{{62}{5.2}{section.5.2}}
+\backcite {FIBthinning}{{66}{5.4.1}{subsection.5.4.1}}

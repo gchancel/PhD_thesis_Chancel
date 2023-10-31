@@ -1,22 +1,35 @@
 %    trim={left lower right upper}
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}{\textwidth}
+    \begin{subfigure}[t]{0.46\textwidth}
         \centering
-%        \includegraphics[width=\textwidth, trim={1.1cm 0.8cm 0.9cm 1.5cm}, clip]{4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf}
-        \includegraphics[width=\textwidth, trim={1.1cm 0.0cm 0.9cm 0.0cm}, clip]{4_thinning/figures/simuSubCoupeVoltageTripleWellApex140um.pdf}
+        \includegraphics[width=\textwidth, center, trim={1.5cm 0.7cm 0.5cm 1.0cm}, clip]{4_thinning/figures/thinning140um.pdf}
         \caption{140 µm IC substrate voltage distribution cross-sectional view (Y-axis).}
         \label{subFigThickIC}
         %VepiCentre=-10.427V
     \end{subfigure}
-    \begin{subfigure}{\textwidth}
+    \hspace{0.035\textwidth}
+    \begin{subfigure}[t]{0.46\textwidth}
         \centering
-%        \includegraphics[width=\textwidth, trim={1.1cm 2.5cm 0.9cm 3.45cm}, clip]{4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf}
-        \includegraphics[width=\textwidth, trim={1.1cm 0.0cm 0.9cm 0.0cm}, clip]{4_thinning/figures/simuSubCoupeVoltageTripleWellApex60um.pdf}
+        \includegraphics[width=\textwidth, center, trim={1.5cm 2.7cm 0.5cm 3.0cm}, clip]{4_thinning/figures/thinning60um.pdf}
         \caption{60 µm IC substrate voltage distribution cross-sectional view (Y-axis).}
         \label{subFigThinIC}
         %VepiCentre=-34.86V
     \end{subfigure}
-    \caption{Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view at the peak of the first voltage pulse edge.}
+
+    \begin{subfigure}[t]{0.46\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, center, trim={0cm 0cm 0cm 0cm}, clip]{4_thinning/figures/VoltageDistributionNormT140eT10_ExcDw.pdf}
+        \caption{140 µm IC substrate per-layer normalized voltage concentration.}
+        \label{subFigThickICfocus}
+    \end{subfigure}
+    \hspace{0.035\textwidth}
+    \begin{subfigure}[t]{0.46\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, center, trim={0cm 0cm 0cm 0cm}, clip]{4_thinning/figures/VoltageDistributionNormT60eT10_ExcDw.pdf}
+        \caption{60 µm IC substrate per-layer normalized voltage concentration.}
+        \label{subFigThinICfocus}
+    \end{subfigure}
+    \caption{Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view and normalized voltage concentration at the peak amplitude of the first voltage pulse edge.}
     \label{figSimuSubCoupe2}
 \end{figure}

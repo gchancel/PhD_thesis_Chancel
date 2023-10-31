@@ -1,0 +1,19 @@
+% trim={left lower right upper}
+% STM32_DIE_ROTATED2
+\begin{figure}[ht]
+    \centering
+%    \includegraphics[width=0.7\textwidth, center, trim={14.0cm 0cm 0cm 0cm}, clip]{3_modeling/figures/pos_neg_IGND.pdf}
+    \begin{subfigure}[t]{0.52\textwidth}
+        \includegraphics[width=1.0\textwidth, center, trim={14.0cm 0cm 0cm 0cm}, clip]{3_modeling/figures/pos_neg_IGND.pdf}
+        \caption{IC ground current mapping of the entire STM32F439 IC target, allowing to spot \dwF and \twF areas depending on the amount of measured current.}
+        \label{cartoIgnd}
+    \end{subfigure}
+    \hspace{0.035\textwidth}
+    \begin{subfigure}[t]{0.40\textwidth}
+        \includegraphics[width=1.0\textwidth, center, trim={0cm 0cm 0cm 0cm}, clip]{3_modeling/figures/stmPhotoImshow.pdf}
+        \caption{IR photograph of the STM32F439 IC target.}
+        \label{photostm}
+    \end{subfigure}
+    \caption{IC ground Current mapping and IR photograph of our IC target.}
+    \label{cartoIgnd_photostm}
+\end{figure}
