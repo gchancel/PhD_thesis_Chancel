@@ -1,11 +1,29 @@
 
 \section{Introduction \ddc}
 \label{chap5:sect:intro}
-To further complete the understanding of BBI, in addition to having a reliable model to predict IC behavior, it is of great importance of having a precise fault model, in order to be able to set up countermeasures.
-Indeed, the main objective of studying fault injection techniques is to protect further secured ICs in order to consider during the design of new ICs, the implications and impacts of such countermeasures on the design.
-As it has been said in Chapter \ref{chap:3icModeling}, simulating at a transistor level an entire IC is unrealistic, at least computationally speaking.
-%Parler du fait qu'on a besoin de savoir exactement ce qu'il se passe dans le circuit pour mettre en place des contr-mesures.
-Therefore, and because the previous models do not represent the logical functions of the considered ICs, we propose an additional step to the simulation workflow proposed in Chapter \ref{chap:3icModeling}.
-This addition consists in extracting the propagated disturbances from standard-cell segments models, and injecting them into functioning logic gates.
-This method allows appreciating logic gates behavior under BBI in order to get a deeper and more precise understanding of both electrical and functional fault creation mechanisms.
-All of this is part of the required steps to set up efficient countermeasures, as we need to understand precisely the insights of fault creation.
+The simulation flow proposed in the previous chapter allowed me to finely analyze the effects of \bbi disturbances in IC substrates and power delivery networks.
+In addition to this, I was able to study the behavioral differences between \dwF and \twF substrate types ICs under \bbi.
+However, this approach alone does not give any insights on how fault occur inside logic gates.
+Indeed, the model represents a hundred of logic gates solely with two resistors and four capacitors.
+In a fault injection context, it is essential to appreciate the mechanisms at work inside the logic gates.
+It allows developing fault models and countermeasures, which are the main outcomes when studying fault injection techniques.
+Therefore, this chapter focus on additional steps I developed for the simulation flow to allow appreciating logic gates and transistors behavior under \bbi.
+%This is of great importance when studying fault injection mechanisms, as it allows developing countermeasures when understood correctly.
+
+The simulation flow extension is fairly straightforward......
+
+To that end, I extended the simulation flow with additional steps allowing me to get insights on fault creation inside ICs under \bbi.
+This chapter is thus dedicated to presenting this additional approach and its consequences.
+In the first place, I present in details the new modeling simulation steps and what they imply.
+Afterward, I introduce a known fault model which is typically used for \emfi.
+Then, I show the simulation results of the new approach.
+Eventually, I explain how this allows me to understand the mechanisms at work in Body Biasing Fault Injection.
+
+%To further complete the understanding of BBI, in addition to having a reliable model to predict IC behavior, it is of great importance of having a precise fault model, in order to be able to set up countermeasures.
+%Indeed, the main objective of studying fault injection techniques is to protect further secured ICs in order to consider during the design of new ICs, the implications and impacts of such countermeasures on the design.
+%As it has been said in Chapter \ref{chap:3icModeling}, simulating at a transistor level an entire IC is unrealistic, at least computationally speaking.
+%%Parler du fait qu'on a besoin de savoir exactement ce qu'il se passe dans le circuit pour mettre en place des contr-mesures.
+%Therefore, and because the previous models do not represent the logical functions of the considered ICs, we propose an additional step to the simulation workflow proposed in Chapter \ref{chap:3icModeling}.
+%This addition consists in extracting the propagated disturbances from standard-cell segments models, and injecting them into functioning logic gates.
+%This method allows appreciating logic gates behavior under BBI in order to get a deeper and more precise understanding of both electrical and functional fault creation mechanisms.
+%All of this is part of the required steps to set up efficient countermeasures, as we need to understand precisely the insights of fault creation.

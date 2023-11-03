@@ -1,9 +1,17 @@
 
 \section{Summary \ddc}
 \label{chap5:sect:summary}
-This chapter is dedicated to extend the simulation flow presented in the previous chapter.
-Indeed, as we have seen, the \scs models developed and used for the simulations do not consider the logic function of the simulated IC.
-Therefore, and because it is important in a fault injection context to understand how faults occur to be able to develop a fault model, I am going to extend the previous simulation flow to consider logic function behavior under \bbi.
+This chapter presents the extended simulation flow based on the one presented in the previous chapter.
+Indeed, the \scs models developed and used for \bbi simulation are not sufficient when it comes to explaining the mechanisms at work concerning fault creation.
+This is because these models do not include any logic function of the considered ICs.
+Their design is a compromise between electrical accuracy and time cost.
+Effectively, with the available technology, it is not possible, temporally speaking, to simulate millions of transistors while considering their electric and logic characteristics.
+%This chapter is dedicated to extend the simulation flow presented in the previous chapter.
+%Indeed, as we have seen, the \scs models developed and used for the simulations do not consider the logic function of the simulated IC.
+However, when working with fault injection mechanisms, it is fundamental to appreciate the logical behavior of an IC target to properly understand how faults occur.
+This allows developing a fault model and eventually designing countermeasures.
+In this context, I extend the previous simulation flow by adding additional steps to it.
+%Therefore, and because it is important in a fault injection context to understand how faults occur to be able to develop a fault model, I am going to extend the previous simulation flow to consider logic function behavior under \bbi.
 
 %In this chapter, we introduce a fault model for BBI.
 %It aims at explaining how and why faults occur in ICs subject to body biasing injection.
@@ -11,12 +19,12 @@ Therefore, and because it is important in a fault injection context to understan
 %Therefore, thanks to the ability to finely control the induced disturbances, it is possible to target critical time in the IC calculation.
 %Eventually, to verify the correctness of the proposed analysis, both substrate charges propagation and logic gates behavior studies are conducted.
 
-In this chapter, we present a fault model for BBI, extrapolated from a fault model used for EMFI.
-The objective of this chapter is to provide an explanation of the mechanisms and causes of faults in integrated circuits that are subjected to body biasing injection.
-Electrical models presented in the chapter \ref{chap:3icModeling} can be used to explain how electrical charge displacement in the IC during a BBI pulse allows changing some logic gates output values.
-Targeting an IC via BBI forces electric charges to be injected (resp. absorbed) with positive pulses (resp. negative).
-Therefore, it is possible to target a critical time in the IC calculation thanks to the ability to finely control the induced disturbances.
-Eventually, to verify the correctness of the proposed analysis, both substrate charge propagation and logic gate behavior studies will be conducted in parallel.
+%In this chapter, we present a fault model for BBI, extrapolated from a fault model used for EMFI.
+%The objective of this chapter is to provide an explanation of the mechanisms and causes of faults in integrated circuits that are subjected to body biasing injection.
+%Electrical models presented in the chapter \ref{chap:3icModeling} can be used to explain how electrical charge displacement in the IC during a BBI pulse allows changing some logic gates output values.
+%Targeting an IC via BBI forces electric charges to be injected (resp. absorbed) with positive pulses (resp. negative).
+%Therefore, it is possible to target a critical time in the IC calculation thanks to the ability to finely control the induced disturbances.
+%Eventually, to verify the correctness of the proposed analysis, both substrate charge propagation and logic gate behavior studies will be conducted in parallel.
 
 %This chapter introduces a fault model for BBI, explaining how and why faults occur in ICs subject to body biasing injection.
 %With chapter \ref{chap:3icModeling}'s electrical models as a basis, it allows explaining how electrical charges displacement in the IC during a BBI pulse allows changing logic gates output values.
