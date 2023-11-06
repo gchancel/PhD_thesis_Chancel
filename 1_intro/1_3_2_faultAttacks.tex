@@ -1,3 +1,4 @@
+
 \section{Fault-injection attacks \ddc}
 \label{chap:1;sect:fattack}
 %Now that we have seen the basics of side-channel attacks, we are going to study fault injection techniques commonly described in the literature.
@@ -5,8 +6,9 @@ Fault injections are widely described in the literature and can be utilized for 
 For instance, during integrated circuits testing, it is common to find fault injection susceptibility tests, allowing for engineers to test fault detection circuits, recovery capabilities and reconfiguration possibilities of ICs.
 In this work, we are going to take a closer look at hardware fault injections (\hfi) techniques solely, which fall in two distinct categories, similar to side-channel attacks:
 \begin{itemize}
-    \item \hfi with physical contact
-    \item Contactless \hfi
+    \setlength\itemsep{-0.1em}
+    \item \hfi with physical contact;
+    \item \hfi without physical contact.
 \end{itemize}
 For each kind of \hfi, multiple outcomes are aimed.
 On the one hand, the \hfi can produce, in the targeted \ic, branching errors leading secret codes to be revealed or protected rights to be acquired by an attacker.
@@ -17,7 +19,7 @@ One of the most performed \hfi is called differential fault attack/analysis (\df
 The principle of \dfa lies in inducing computation errors during the decryption process of cryptographic algorithm thanks to fault injection.
 Several \dfa were proposed on different algorithms \cite{Biham1997DifferentialFA, firstDfaMaybe, ciet_elliptic_2005, dfaEcc, giraudDfa}.
 Every \dfa implies that the attacker has access to at least two ciphertexts, a correct one, denoted $C$, and a faulty one, denoted $C_F$.
-In addition to that, the attacker must also know the characteristics of the induced faults, such as the amount of faulted bits, in which operation they are faulted, etc.
+In addition to that, the attacker must also know the characteristics of the induced faults, such as the amount of faulted bits and in which operation they are faulted.
 Eventually, it is needed to be able to induce the expected faults depending on the fault model required for the \dfa.
 
 Another common \hfi is the fault sensitivity analysis (\fsa) \cite{yangLiFaultSensitivity}.
@@ -29,10 +31,10 @@ Then, to perform an attack with this information, the attacker has to know the r
 It states that the algorithm will inevitably exhibit data-dependency of fault sensitivity.
 Hence, it allows using the IC as an almost black box.
 
-In the next paragraph, we are going to analyze deeper a specific fault attack and its implications
+In the next paragraph, we are going to analyze deeper a specific fault attack and its implications.
 
-\subsection{Giraud's differential fault attack \ddc}
-\label{chap:1;sect:fattack;subsect:giraud}
+%\subsection{Giraud's differential fault attack \ddc}
+%\label{chap:1;sect:fattack;subsect:giraud}
 
 %The simplest HFI consist in analyzing ICs susceptibility or sensitivity to fault injection \cite{yangLiFaultSensitivity}.
 %It has the great advantage to allow using the IC as a block box, without knowing the insights on the cryptographic algorithm parameters such as the faulted ciphertext or else the nature of the faults.

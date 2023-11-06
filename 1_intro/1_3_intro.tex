@@ -9,15 +9,23 @@ It ranges from smart-cards to supercomputers, through military devices, cell-pho
 Traditionally, integrated circuits design mainly focused on performance upgrades over the generations.
 Performance was measured thanks to two factors: computation speed and silicon surface.
 Within this context, power consumption was not a design constraint, therefore, integrated circuits became more and more energy-consuming.
-However, with the advent of portable devices, power consumption became a predominant design factor over speed, and space and got included into the former design flows.
+However, with the advent of portable devices, power consumption became a predominant design factor over speed and space, and it got included into the former design flows.
 Nevertheless, less space and more speed does not physically equate with less energy.
-Alongside, new systems have emerged and have massively grown these past decades: \iot and \cps.
-On one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another.
+Alongside, new systems have emerged and have massively grown these past decades: \cps and \iot.
+On the one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another.
 On the other hand, IoT systems have often less coordination between hardware and software, but are commonly more flexible.
 Whatsoever, both of these systems have something strong in common: their security is fundamental.
-Therefore, in this context, as it has been proposed in \cite{securityInIcs}, and because security had been adopted as a countermeasure after the design flow, it has to enter as a fourth design rule when creating integrated circuits.
+%In this context, the word security has several meanings:
+%\begin{itemize}
+%    \setlength\itemsep{-0.1em}
+%    \item Provide data confidentiality;
+%    \item Ensure data integrity;
+%    \item Guarantee data availability.
+%\end{itemize}
+Therefore, in this context, as it has been proposed in \cite{securityInIcs}, and because security had been adopted as a countermeasure after the design flow, it had to enter as a fourth design rule when creating integrated circuits.
 This is required because a secure system has to ensure that every data going in and out of it are subject to the following criteria:
 \begin{itemize}
+    \setlength\itemsep{-0.1em}
     \item Authenticity: data received have to come from the sender
     \item Integrity: data cannot be altered in any way
     \item Confidentiality: data cannot be accessed (read or written) by third-parties
@@ -26,7 +34,7 @@ This is required because a secure system has to ensure that every data going in 
 Therefore, it is imperative to study and comprehend the strategies for enhancing IC security in order to develop future integrated circuits that are designed with security in mind from the initial stages of development to its completion.
 
 Currently, electronic devices implement security in two distinct ways, namely from a software or hardware standpoint.
-To accomplish this objective, encryption algorithms have been integrated.
+To ensure security, encryption algorithms have been integrated in integrated circuits.
 It is possible to distinguish two distinct categories of encryption algorithms, namely symmetric and asymmetric algorithms.
 
 In short, symmetric cryptographic techniques use a unique key for encrypting and decrypting messages.
@@ -51,10 +59,10 @@ Therefore, to achieve this objective, in the majority of systems, a hybrid appro
 On the one hand, if all the previously mentioned algorithms are mathematically reliable, their reliability will decrease when they are implemented on actual integrated circuits.
 Indeed, every integrated circuit uses electrical energy to function.
 Therefore, when an electric current appears in a conductor, there is inevitably an electromagnetic field associated with this current.
-Moreover, every measurable physical quantity concerning the IC could be a point of information leakage.
+Moreover, every measurable physical quantity concerning the IC operation could be a point of information leakage.
 This is particularly true when considering the fact that these quantities will exhibit varying variations based on the calculations performed by the IC.
 When evaluating these quantities, it is possible to retrieve confidential information.
-We described what is called a \textbf{"side-channel attack" (\sca)} when considering cybersecurity.
+I described what is called a \textbf{"side-channel attack" (\sca)} when considering cybersecurity.
 
 On the other hand, physical quantity measurement is not the only flaw in actual algorithm implementations.
 In fact, every physical IC has specifications under which it can execute its functions properly.
@@ -64,15 +72,16 @@ However, it is still possible to control an IC's behavior outside its specificat
 By doing so, it allows running the IC calculation incorrectly by finely controlling how much time and by which amount the IC is outside its specifications, thus enabling, with specific mathematical algorithms, to retrieve hidden data manipulated by the IC.
 This process is commonly referred to as a \textbf{"fault injection attack"}.
 
-We have identified two potential attacks on robust algorithms that have been implemented into actual integrated circuits.
+I have identified two potential attacks on robust algorithms that have been implemented into actual integrated circuits.
 However, it is customary to categorize cyberattacks into three distinct categories based on their execution methods.
 
 Despite being technically advanced, noninvasive attacks are the most materially trivial.
-\sca are included in this set, which do not require any hardware modification to the targeted ICs, even if there is no physical contact.
+\sca are included in this set, which do not require any hardware modification to the targeted ICs.
+%, even if there is no physical contact.
 It is a delicate task to detect them; hence, they are deemed to be highly dangerous and are commonly considered in the initial stages of designing integrated circuits.
 
-It is then possible to distinguish semi-invasive attacks.
-Systematically, they are accompanied by device physical preparation, which is entirely devoid of noninvasive attacks, but they are not accompanied by device physical modification.
+Then, it is possible to distinguish semi-invasive attacks.
+Systematically, they are accompanied by device physical preparation, which was entirely devoid of noninvasive attacks, but they are not accompanied by device physical modification.
 ICs integrity is therefore theoretically preserved.
 A typical IC modification involves the removal of the chip package.
 It enables access to either the front or back side of the integrated circuit, thereby facilitating micro-probing, laser injection, or substrate pulse injection.
@@ -82,13 +91,14 @@ These attacks necessitate specialized hardware, tools, and expertise and are fre
 Eventually, there are invasive attacks.
 They imply further physical modifications to integrated circuits.
 For instance, it is common to eliminate the layers of a chip, thereby enabling the photographing of the various layers and the reverse engineering of the target.
-A focused ion beam (FIB) can also be used to change the IC target internally by making electric connections that did not exist before.
-Contrary to semi-invasive attacks, invasive attacks frequently involve the definitive destruction of the target, primarily due to the absence of physical integrity during the process.
+A focused ion beam (FIB) can also be used to change the IC target internally by making electric connections that did not exist before, or destroy existing ones.
+%Contrary to semi-invasive attacks, invasive attacks frequently involve the definitive destruction of the target, primarily due to the absence of physical integrity during the process.
+Invasive attacks often involve the definitive destruction of the target, primarily because physical integrity is not preserved during the process.
 
-This doctoral thesis is dedicated to the study of a specific fault injection method: Body Biasing Injection (BBI).
-In this particular context, we will examine in this chapter the current state of the art in relation to side-channel attacks and fault injection techniques as outlined in the literature.
-This allows us to explain the interests of the current work regarding hardware security.
+My doctoral thesis is dedicated to the study of a specific fault injection method: Body Biasing Injection.
+In this particular context, I examine in this chapter the current state of the art in relation to side-channel attacks and fault injection techniques, as outlined in the literature.
+This allows me to explain the interests of the current work regarding hardware security.
 
-In the first place, we will briefly discuss side-channel attacks.
-We will then examine the various fault injection platforms commonly described.
-Eventually, we will ponder the interests of BBI in this context.
+In the first place, I will briefly discuss side-channel attacks.
+Then, I will examine the various fault injection platforms commonly described.
+Eventually, I will ponder the interests of BBI in this context.

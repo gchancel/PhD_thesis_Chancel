@@ -1,50 +1,59 @@
-\section{Fault-injection techniques \ddc}
+
+\subsection{Fault-injection techniques \ddc}
 \label{chap:1;sect:fInjTech}
 
-\subsection{Glitch fault injection \ddc}
-\label{chap:1;sect:fInjTech;subsect:glitch}
-Glitch fault injection (\gfi) are one of the first historical documented fault injection attacks.
-They are simple and require little equipment.
-For the most part, they are non-invasive, which means that they are reversible, physically speaking.
-Various physical quantities can be disturbed, but the power supply voltages (VDD or GND), and the IC clock are the most common.
-Each physical quantity can be modified at the attacker's discretion, with a certain amount.
-However, the disturbances have to be short enough to avoid IC shutdown concerning power supply glitches, but also not powerful enough to avoid the IC destruction.
-On the one hand, the main advantage of such attack is its easiness to set up compared to other methods.
-On the other hand, their main disadvantage is the complete lack of locality with the injection effects.
-Indeed, disturbing \ic's macro-parameters interfere with the entire chip and does not guarantee a useful faulty behavior.
-In addition to that, every modern IC is prepared to detect such attacks and thus protect itself by resetting its electronics.
+    \subsubsection{Glitch fault injection \ddc}
+    \label{chap:1;sect:fInjTech;subsect:glitch}
+    Glitch fault injection (\gfi) are one of the first historical documented fault injection attacks.
+    They are simple and require little equipment.
+    For the most part, they are non-invasive, which means that they are physically reversible.
+    Various physical quantities can be disturbed, but the power supply voltages (VDD or GND), and the IC clock are the most common.
+    Each physical quantity can be modified at the attacker's discretion, with a certain amount.
+    However, the disturbances have to be short enough to avoid IC shutdown concerning power supply glitches, but also not powerful enough to avoid the IC destruction, which is very similar to \bbi.
+    On the one hand, the main advantage of such attack is its easiness to set up compared to other methods.
+    On the other hand, their main disadvantage is the complete lack of locality with the injection effects.
+    Indeed, disturbing \ic's macro-parameters interfere with the entire chip and does not guarantee a useful faulty behavior.
+    In addition to that, every modern IC is prepared to detect such attacks and thus protect itself by resetting its electronics.
 
-\subsection{Laser fault injection \ddc}
-\label{chap:1;sect:fInjTech;subsect:lfi}
-Laser fault injection (\lfi), sometimes called optical fault injection, has been introduced in 2002 \cite{firstLfi} and is a more complex technique than \gfi.
-However, its precision is immensely better, at the cost of being semi-invasive, and sometimes invasive.
-\lfi consists in targeting specific regions of the IC with laser beams of specific wavelengths.
-Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, the IC substrate thickness, etc.
-Although \lfi requires chip preparation, it is often minimal.
-\lfi works thanks to the fact that every silicon semiconductor device (diode, transistor...) is intrinsically sensitive to light, typically with wavelengths ranging from 400 nm to 1000 nm.
-Therefore, if the light conveys enough energy, it is possible to change the state of some transistors, thus affecting logical values.
-The main shortcoming of \lfi is the platform price.
-\textcolor{orange}{Add more details.}
+    \subsubsection{Laser fault injection \ddc}
+    \label{chap:1;sect:fInjTech;subsect:lfi}
+    Laser fault injection (\lfi), sometimes called optical fault injection, has been introduced in 2002 \cite{firstLfi} and is a more complex technique than \gfi.
+    However, its precision is immensely better, at the cost of being semi-invasive, and sometimes invasive.
+    \lfi consists in targeting specific regions of the IC with laser beams of specific wavelengths.
+    Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, the IC substrate thickness, etc.
+    Although \lfi requires chip preparation, it is often minimal.
+    \lfi works thanks to the fact that every silicon semiconductor device (diode, transistor...) is intrinsically sensitive to light, typically with wavelengths ranging from 400 nm to 1000 nm.
+    Therefore, if the light conveys enough energy, it is possible to change the state of some transistors, thus affecting logical values.
+    The main shortcoming of \lfi is the platform price.
+    \textcolor{orange}{Add more details.}
 
-\subsection{Electromagnetic fault injection \ddc}
-\label{chap:1;sect:fInjTech;subsect:emfi}
-Electromagnetic fault injection (\emfi) is a more recent and more studied technique, introduced in 2002 \cite{firstEmfi2002}.
-Its principle is basic: an electric current in a wire (probe) near an \ic creates a corresponding electric current in the IC power delivery network, similar to an electric transformer.
-Similar to \gfi, the attack can be non-invasive, although this method yields better results while being semi-invasive.
-Indeed, the closer the probe to the \ic, the better the coupling and the mutual inductance, which often required to remove the IC's plastic package.
-This injection technique efficiency greatly varies depending on the probe's characteristics, the \ic transistors size, the targeted location, the field duration, etc.
-Over the time, electromagnetic probes were constantly improved, and it is common to find probes with a ferrite core, allowing for better injection locality.
-In 2020, a modeling workflow was proposed \cite{mathieuEMFI}, allowing to explain how EM probe can couple to IC power delivery networks.
-\textcolor{orange}{Add more details.}
+    \subsubsection{Electromagnetic fault injection \ddc}
+    \label{chap:1;sect:fInjTech;subsect:emfi}
+    Electromagnetic fault injection (\emfi) is a more recent and more studied technique, introduced in 2002 \cite{firstEmfi2002}.
+    Its principle is basic: an electric current in a wire (probe) near an \ic creates a corresponding electric current in the IC power delivery network, like to an electric transformer.
+    Similar to \gfi, the attack can be non-invasive, although this method yields better results while being semi-invasive.
+    Indeed, the closer the probe is to the \ic, the better the coupling and the mutual inductance are, which often requires removing the IC's plastic package.
+    The method then consists in applying pulses into the probe, which will be mirrored by a certain amount in the IC power delivery network.
+    This injection technique efficiency greatly varies depending on the probe's characteristics, the \ic transistors size, clock frequency, the targeted location, or the pulse duration.
+    Over the time, electromagnetic probes were constantly improved, and for instance, it is now common to find probes with a ferrite core, allowing for better injection locality.
+    In 2020, a modeling workflow was proposed \cite{mathieuEMFI}, allowing to explain how EM probe can couple to IC power delivery networks.
+    When compared to \lfi, \emfi is a lot less expensive, and require less accuracy to yield good results.
+    Indeed, in an \emfi platform, the probe, if self-made, cost around €5 to €15 depending on the hardware used.
+    In addition to that, cheap pulse generator can be manufactured by hand, such as very simple high-voltage transformers driven with a transistor.
+    However, this method has shortcomings and compromises.
+    On the one hand, as the probe is coupled with the power delivery networks, the smaller these networks are, the more transistors are targeted.
+    On the other hand, the smaller the probe, the higher the voltage pulse has to be to produce a similar effect.
 
-\subsection{Body biasing injection \ddc}
-\label{chap:1;sect:fInjTech;subsect:bbi}
-Eventually, there is another fault injection method, less studied and more recent than the others, commonly called Body Biasing Injection (\bbi), which is the research topic of this thesis.
-This technique has been introduced in 2012 \cite{bbiOrigin}, and further studied in 2013 \cite{bbiSecond} and 2016 \cite{bbiThird}.
-At the beginning of this thesis, a fourth article was published \cite{bbiColin}, studying the interests of \bbi concerning Wafer-Level Chip-Scale Packaging (\wlcsp).
-The principle behind \bbi is fairly simple: applying voltage pulses directly onto the backside of IC targets, thanks to a metallic probe.
-On the one hand, despite this simple premise, in the vast majority of cases, \bbi is a semi-invasive method.
-Indeed, as most \ic are encapsulated in a ceramic or plastic package, it is required, to access to the substrate, to partially remove a piece of the package.
-On the other hand, building a BBI platform is not expensive and technically easier when compared to \lfi or \emfi.
-Indeed, a metallic probe with a custom armature costs around 10 euros at worst, and is easy to build at hand, while manufacturing a precise \emfi probe requires more knowledge to achieve good results.
-Considering that \emfi and \bbi both require similar voltage pulse generator, which is often the most expensive piece of equipment, the overall platform cost is lower concerning BBI.
+    \subsubsection{Body biasing injection \ddc}
+    \label{chap:1;sect:fInjTech;subsect:bbi}
+    Eventually, there is another fault injection method, less studied and more recent than the others, commonly called Body Biasing Injection (\bbi), which is the research topic of my thesis.
+    This technique has been introduced in 2012 \cite{bbiOrigin}, and further studied in 2013 \cite{bbiSecond} and 2016 \cite{bbiThird}.
+    At the beginning of my thesis, a fourth article was published \cite{bbiColin}, studying the interests of \bbi concerning Wafer-Level Chip-Scale Packaging (\wlcsp).
+    The principle behind \bbi is fairly simple: applying voltage pulses directly onto the backside of IC targets, thanks to a metallic probe.
+    The targets have to be prepared in a very similar way to \lfi, with a partial removal of the package on the backside to give access to the substrate, and a potential substrate thinning.
+    On the one hand, despite this simple premise, in the vast majority of cases, \bbi is a semi-invasive method.
+    Indeed, as most \ic are encapsulated in a ceramic or plastic package, and because the chip preparation is similar to \lfi, it is required, to access to the substrate, to partially remove a piece of the package.
+    However, in some rare cases where Wafer-Level Chip-Scale Packaging (WLCSP) is used, there is no need to remove the plastic package as there is none.
+    On the other hand, building a BBI platform is not expensive and technically easier when compared to \lfi or \emfi.
+    Indeed, a metallic probe with a custom armature costs around 10 euros at worst, and is easy to build at hand, while manufacturing a precise \emfi probe requires more knowledge to achieve good results, and often requires the use of flexible PCBs.
+    Considering that \emfi and \bbi both require similar voltage pulse generator, which is often the most expensive piece of equipment, the overall platform cost is lower concerning BBI.

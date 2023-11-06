@@ -7,9 +7,13 @@ This attack involves determining the duration required to execute cryptographic 
 By executing this method, the adversaries were able to obtain a variety of algorithmic keys, specifically for the RSA algorithm.
 The computation cost of this attack is low, thereby enabling it to execute swift attacks.
 Indeed, as per the RSA algorithm, as outlined in \cite{RSAorigin}, the encryption of a message necessitates the calculation of the following relationship:
+%\begin{equation}
+%    \label{eqn:rsa}
+%    C \equiv E(M) \equiv M^e (\bmod \; n)
+%\end{equation}
 \begin{equation}
     \label{eqn:rsa}
-    C \equiv E(M) \equiv M^e (\bmod \; n)
+    C \equiv M^e (\bmod \; n)
 \end{equation}
 M denotes the message to be encrypted, while C is the ciphertext and (e, n) the encryption key pair.
 The objective of the attack outlined in \cite{pKocherTiming} is to retrieve $e$.
@@ -34,7 +38,7 @@ The aforementioned variations are more subtle and frequently obscured by noise.
 Therefore, DPA proposes to use statistics tools to reveal hidden system information, specifically by computing the difference of means (DoM) between traces.
 Therefore, preventing DPA is more complicated than preventing SPA.
 % END LAnguageTool
-One of the simplest methods is to add electrical noise.
+One of the simplest methods is to add electrical noise, which acts as a masking layer.
 Another technique is to reduce measurable signal amplitude.
 It is done first by optimizing code execution, by finely choosing which operation is performed to reduce electromagnetic leakage.
 Second, it is also possible to shield the device, but it increases the IC's cost significantly.
@@ -53,9 +57,11 @@ Indeed, when measuring the entire power consumption of an IC, it is not possible
 It leads, especially with complex ICs and countermeasures, to an impossibility to perform such attacks.
 On the contrary, electromagnetic analysis attacks have multiple advantages over power consumption analysis attacks:
 \begin{itemize}
-    \item No sample preparation required
-    \item No physical contact with the target
-    \item It requires only little equipment: probe and voltage amplifier
+    \setlength\itemsep{-0.1em}
+    \item No sample preparation required;
+    \item No physical contact with the target;
+    \item It requires only little equipment: probe and voltage amplifier;
+    \item Targets specific area of the IC.
 \end{itemize}
 As we stated previously, power consumption analysis attacks target an entire IC, whereas electromagnetic analysis attacks allow having fine resolutions.
 %Indeed, the attack resolution is tied to the probe size, as it has been demonstrated \cite{julienFdtc2021}.
