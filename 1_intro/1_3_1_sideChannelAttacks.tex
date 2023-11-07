@@ -2,9 +2,9 @@
 \label{chap:1;sect:sca}
 \subsection{Timing attacks \ddc}
 \label{chap:1;sect:sca;subsect:timingAttacks}
-The most fundamental side-channel attack was initially introduced in 1996 \cite{pKocherTiming}.
+The first side-channel attack was initially introduced in 1996 \cite{pKocherTiming}.
 This attack involves determining the duration required to execute cryptographic computations.
-By executing this method, the adversaries were able to obtain a variety of algorithmic keys, specifically for the RSA algorithm.
+By executing this method, the adversaries are able to obtain a variety of algorithmic keys, specifically for the RSA and ECDSA \cite{johnson2001elliptic} algorithms.
 The computation cost of this attack is low, thereby enabling it to execute swift attacks.
 Indeed, as per the RSA algorithm, as outlined in \cite{RSAorigin}, the encryption of a message necessitates the calculation of the following relationship:
 %\begin{equation}
@@ -19,7 +19,7 @@ M denotes the message to be encrypted, while C is the ciphertext and (e, n) the 
 The objective of the attack outlined in \cite{pKocherTiming} is to retrieve $e$.
 To achieve this objective, the integrated circuit must perform multiple computations of the equation \ref{eqn:rsa} for varying values of $M$, while maintaining identical values of $e$.
 Subsequently, the attacker must evaluate the duration of each computation.
-If the value of $e$ differs for each operation, the attack cannot be executed.
+%If the value of $e$ differs for each operation, the attack cannot be executed.
 After the demonstration of this attack, countermeasures were implemented, including the implementation of constant-time cryptographic algorithms allowing the elimination of leaks through the utilization of timing analysis.
 More recently, other, more advanced countermeasures have also been proposed \cite{timingCounterMeas}.
 
@@ -38,14 +38,15 @@ The aforementioned variations are more subtle and frequently obscured by noise.
 Therefore, DPA proposes to use statistics tools to reveal hidden system information, specifically by computing the difference of means (DoM) between traces.
 Therefore, preventing DPA is more complicated than preventing SPA.
 % END LAnguageTool
-One of the simplest methods is to add electrical noise, which acts as a masking layer.
+One of the simplest methods, which is not sufficient, is to add electrical noise, which acts as a masking layer.
 Another technique is to reduce measurable signal amplitude.
 It is done first by optimizing code execution, by finely choosing which operation is performed to reduce electromagnetic leakage.
 Second, it is also possible to shield the device, but it increases the IC's cost significantly.
+Eventually, masking countermeasures are also employed, which consists in randomly splitting sensitive variables during the cryptographic process \cite{prouff2013masking}.
 
 In addition to these attacks, there is also another attack which is commonly studied: correlation power analysis (CPA) \cite{cpaOrig}.
 As well as DPA, CPA uses statistical tools.
-However, as opposite to computing the difference of means, it involves calculating the Pearson correlation coefficient (PCC), allowing to measure the linear correlation between different power consumption traces.
+However, as opposite to computing the difference of means, it involves calculating the Pearson or Spearman correlation coefficient (PCC), allowing to measure the linear monotonous correlation between different power consumption traces.
 
 It is important to note that SPA, DPA and CPA are historically performed using traces directly measured from the ICs power consumption.
 However, these attacks can also be performed thanks to IC electromagnetic radiation analysis \cite{emfiOrig}.
@@ -58,9 +59,9 @@ It leads, especially with complex ICs and countermeasures, to an impossibility t
 On the contrary, electromagnetic analysis attacks have multiple advantages over power consumption analysis attacks:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
-    \item No sample preparation required;
+    \item Reduced to no sample preparation;
     \item No physical contact with the target;
-    \item It requires only little equipment: probe and voltage amplifier;
+    \item It requires only little and low-cost equipment: a probe and a voltage amplifier;
     \item Targets specific area of the IC.
 \end{itemize}
 As we stated previously, power consumption analysis attacks target an entire IC, whereas electromagnetic analysis attacks allow having fine resolutions.

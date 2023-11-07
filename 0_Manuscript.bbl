@@ -26,6 +26,50 @@ Prasanna Ravi, Zakaria Najm, Shivam Bhasin, Mustafa Khairallah, Sourav~Sen
 \newblock Security is an architectural design constraint.
 \newblock {\em Microprocessors and Microsystems}, 68:17--27, 2019.
 
+\bibitem{aesRijndaelProp}
+C.~Sanchez-Avila and R.~Sanchez-Reillol.
+\newblock The rijndael block cipher (aes proposal) : a comparison with des.
+\newblock In {\em Proceedings IEEE 35th Annual 2001 International Carnahan
+  Conference on Security Technology (Cat. No.01CH37186)}, pages 229--234, 2001.
+
+\bibitem{desOrigin}
+National~Institute of~Standards and Technology.
+\newblock Fips-46: Data encryption standard (des). revised as fips 46-1:1988,
+  fips 46-2:1993, fips 46-3:1999.
+
+\bibitem{ideaOrigin}
+How-Shen Chang.
+\newblock International data encryption algorithm.
+\newblock {\em jmu. edu, googleusercontent. com, Fall}, 2004.
+
+\bibitem{tripleDes}
+D.~Coppersmith, D.~B. Johnson, and S.~M. Matyas.
+\newblock A proposed mode for triple-des encryption.
+\newblock {\em IBM Journal of Research and Development}, 40(2):253--262, 1996.
+
+\bibitem{RSAorigin}
+A.~Shamir R.L.~Rivest and L.Adleman.
+\newblock A method for obtaining digital signatures and public-key
+  cryptosystems.
+\newblock In {\em Communications of the ACM}, volume~21, pages 120--126, 1978.
+
+\bibitem{elgamal1985public}
+Taher ElGamal.
+\newblock A public key cryptosystem and a signature scheme based on discrete
+  logarithms.
+\newblock {\em IEEE transactions on information theory}, 31(4):469--472, 1985.
+
+\bibitem{kapoor2008elliptic}
+Vivek Kapoor, Vivek~Sonny Abraham, and Ramesh Singh.
+\newblock Elliptic curve cryptography.
+\newblock {\em Ubiquity}, 2008(May):1--8, 2008.
+
+\bibitem{cramer2000signature}
+Ronald Cramer and Victor Shoup.
+\newblock Signature schemes based on the strong rsa assumption.
+\newblock {\em ACM Transactions on Information and System Security (TISSEC)},
+  3(3):161--185, 2000.
+
 \bibitem{pKocherTiming}
 Paul~C. Kocher.
 \newblock Timing attacks on implementations of diffie-hellman, rsa, dss, and
@@ -33,11 +77,10 @@ Paul~C. Kocher.
 \newblock In Neal Koblitz, editor, {\em Advances in Cryptology --- CRYPTO '96},
   pages 104--113, Berlin, Heidelberg, 1996. Springer Berlin Heidelberg.
 
-\bibitem{RSAorigin}
-A.~Shamir R.L.~Rivest and L.Adleman.
-\newblock A method for obtaining digital signatures and public-key
-  cryptosystems.
-\newblock In {\em Communications of the ACM}, volume~21, pages 120--126, 1978.
+\bibitem{johnson2001elliptic}
+Don Johnson, Alfred Menezes, and Scott Vanstone.
+\newblock The elliptic curve digital signature algorithm (ecdsa).
+\newblock {\em International journal of information security}, 1:36--63, 2001.
 
 \bibitem{timingCounterMeas}
 Boris Köpf and Markus Dürmuth.
@@ -51,6 +94,12 @@ Paul Kocher, Joshua Jaffe, and Benjamin Jun.
 \newblock Differential power analysis.
 \newblock In Michael Wiener, editor, {\em Advances in Cryptology --- CRYPTO'
   99}, pages 388--397, Berlin, Heidelberg, 1999. Springer Berlin Heidelberg.
+
+\bibitem{prouff2013masking}
+Emmanuel Prouff and Matthieu Rivain.
+\newblock Masking against side-channel attacks: A formal security proof.
+\newblock In {\em Annual International Conference on the Theory and
+  Applications of Cryptographic Techniques}, pages 142--159. Springer, 2013.
 
 \bibitem{cpaOrig}
 Eric Brier, Christophe Clavier, and Francis Olivier.
@@ -82,6 +131,12 @@ Aur\'{e}lien Vasselle, Philippe Maurine, and Maxime Cozzi.
 \newblock In {\em Proceedings of the 3rd ACM Workshop on Attacks and Solutions
   in Hardware Security Workshop}, ASHES'19, page 23–32, New York, NY, USA,
   2019. Association for Computing Machinery.
+
+\bibitem{branchingHfi}
+Robert Schilling, Mario Werner, and Stefan Mangard.
+\newblock Securing conditional branches in the presence of fault attacks.
+\newblock In {\em 2018 Design, Automation and Test in Europe Conference and
+  Exhibition (DATE)}, pages 1586--1591, 2018.
 
 \bibitem{Biham1997DifferentialFA}
 Eli Biham and Adi Shamir.
@@ -175,12 +230,6 @@ Gilles Piret and Jean-Jacques Quisquater.
   editors, {\em Cryptographic Hardware and Embedded Systems - CHES 2003}, pages
   77--88, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
 
-\bibitem{aesRijndaelProp}
-C.~Sanchez-Avila and R.~Sanchez-Reillol.
-\newblock The rijndael block cipher (aes proposal) : a comparison with des.
-\newblock In {\em Proceedings IEEE 35th Annual 2001 International Carnahan
-  Conference on Security Technology (Cat. No.01CH37186)}, pages 229--234, 2001.
-
 \bibitem{mathieuEMFIFirst}
 Mathieu Dumont, Philippe Maurine, and Mathieu Lisart.
 \newblock Modeling of electromagnetic fault injection.
@@ -228,10 +277,5 @@ C.~Boit, R.~Schlangen, A.~Glowacki, U.~Kindereit, T.~Kiyan, U.~Kerst,
   T.~Lundquist, S.~Kasapi, and H.~Suzuki.
 \newblock Physical ic debug and - backside approach and nanoscale challenge.
 \newblock {\em Advances in Radio Science}, 6:265--272, 2008.
-
-\bibitem{emfiFF}
-S.~Ordas, L.~Guillaume-Sage, and P.~Maurine.
-\newblock Electromagnetic fault injection: the curse of flip-flops.
-\newblock {\em Journal of Cryptographic Engineering}, 7(3):183--197, Sep 2017.
 
 \end{thebibliography}

@@ -11,9 +11,10 @@ Performance was measured thanks to two factors: computation speed and silicon su
 Within this context, power consumption was not a design constraint, therefore, integrated circuits became more and more energy-consuming.
 However, with the advent of portable devices, power consumption became a predominant design factor over speed and space, and it got included into the former design flows.
 Nevertheless, less space and more speed does not physically equate with less energy.
-Alongside, new systems have emerged and have massively grown these past decades: \cps and \iot.
+Alongside, new systems have emerged and have massively grown these past decades: some fall in the field of \cps, while others lies in the field of \iot.
 On the one hand, CPS are often systems where hardware and software are interlaced and thought together, and can be drastically different from one application to another.
 On the other hand, IoT systems have often less coordination between hardware and software, but are commonly more flexible.
+
 Whatsoever, both of these systems have something strong in common: their security is fundamental.
 %In this context, the word security has several meanings:
 %\begin{itemize}
@@ -31,19 +32,19 @@ This is required because a secure system has to ensure that every data going in 
     \item Confidentiality: data cannot be accessed (read or written) by third-parties
 \end{itemize}
 %every data going in and out of it must stays undiminished and integral, as well as being protected.
-Therefore, it is imperative to study and comprehend the strategies for enhancing IC security in order to develop future integrated circuits that are designed with security in mind from the initial stages of development to its completion.
+Consequently, it is imperative to study and comprehend the strategies for enhancing IC security in order to develop future integrated circuits that are designed with security in mind from the initial stages of development to its completion.
 
 Currently, electronic devices implement security in two distinct ways, namely from a software or hardware standpoint.
 To ensure security, encryption algorithms have been integrated in integrated circuits.
 It is possible to distinguish two distinct categories of encryption algorithms, namely symmetric and asymmetric algorithms.
 
 In short, symmetric cryptographic techniques use a unique key for encrypting and decrypting messages.
-The most popular algorithms are the \aes (Advanced Encryption Standard), \des (Data Encryption Standard), IDEA (International Data Encryption Algorithm), RC5 (Rivest Cipher 5), and TDES (Triple DES) not to cite them all.
+The most popular algorithms are the \aes (Advanced Encryption Standard) \cite{aesRijndaelProp}, \des (Data Encryption Standard) \cite{desOrigin}, IDEA (International Data Encryption Algorithm) \cite{ideaOrigin}, RC5 (Rivest Cipher 5), and TDES (Triple DES) \cite{tripleDes}, not to cite them all.
 The key must be kept confidential and only shared among parties in order to maintain a confidential connection between them.
 The requirement for a single key is the main drawback of symmetric encryption methods.
 As a result, every possible step must be taken to safeguard key secrecy, such as avoiding key exchanges on public networks.
 However, symmetric encryption has a clear advantage over asymmetric encryption.
-As a result of utilizing a single key, symmetric algorithms are typically simpler than asymmetric algorithms, resulting in a reduction in computing power required for encryption.
+As a result of utilizing a single key, symmetric algorithms are typically simpler than asymmetric algorithms, resulting in a reduction in computing power required for encryption and decryption.
 It is therefore possible to encrypt a large amount of data in a short amount of time.
 
 In contrast, when it comes to symmetric cryptographic techniques, commonly referred to as public key cryptography techniques, a pair of keys is employed.
@@ -51,28 +52,36 @@ The keys are usually referred to as public-key and private-key.
 The public key is used to encrypt a message, and anyone can use it.
 The private-key is, however, kept confidential to ensure that only authorized parties can decrypt a message that has been encrypted with the public-key.
 The primary motivation behind having two keys is that it is impracticable to reconstruct the public-key from the private-key.
-The most commonly employed asymmetric algorithms include the RSA (Rivest–Shamir–Adleman) algorithm, the ElGamal encryption system, the ECC (Elliptic-curve cryptography), and the Cramer-Shoup system, to name a few.
+The most commonly employed asymmetric algorithms include the RSA (Rivest–Shamir–Adleman) \cite{RSAorigin} algorithm, the ElGamal encryption system \cite{elgamal1985public}, the ECC (Elliptic-curve cryptography) \cite{kapoor2008elliptic}, and the Cramer-Shoup system \cite{cramer2000signature}, to name a few.
 The main drawback of symmetrical algorithms is that they involve large mathematical calculations, which implies a higher time complexity.
 Hence, these techniques are capable of encrypting a limited quantity of data.
-Therefore, to achieve this objective, in the majority of systems, a hybrid approach is employed to employ both encryption methods, thereby ensuring optimal security and a brief calculation time.
+Therefore, to achieve this objective, in the majority of systems, a hybrid approach is employed, involving both encryption methods, thereby ensuring optimal security and brief ciphering times.
 
-On the one hand, if all the previously mentioned algorithms are mathematically reliable, their reliability will decrease when they are implemented on actual integrated circuits.
-Indeed, every integrated circuit uses electrical energy to function.
-Therefore, when an electric current appears in a conductor, there is inevitably an electromagnetic field associated with this current.
-Moreover, every measurable physical quantity concerning the IC operation could be a point of information leakage.
-This is particularly true when considering the fact that these quantities will exhibit varying variations based on the calculations performed by the IC.
-When evaluating these quantities, it is possible to retrieve confidential information.
-I described what is called a \textbf{"side-channel attack" (\sca)} when considering cybersecurity.
+On the one hand, if all the previously mentioned algorithms are mathematically reliable, their reliability decreases when they are implemented on actual integrated circuits.
+Indeed, when an IC operates, it alters the behavior of some physical quantities according to the data being processed.
+Thus, it inevitably and unintentionally communicates information to the surrounding environment through these quantities.
+Among them, one can identify the electric current, and therefore the resulting electromagnetic field.
+In a normal context, where the data is not secret, it is not a problem.
+However, as soon as the data security is a major concern, the IC communicates to its surrounding data information through the various physical quantities.
+This is called leakage.
+An adversary can therefore measure these leakages to retrieve confidential data thanks to mathematical and statistical tools.
+These methods are called \textbf{"side-channel attack" (\sca)}.
+%Indeed, every integrated circuit uses electrical energy to function.
+%Therefore, when an electric current appears in a conductor, there is inevitably an electromagnetic field associated with this current.
+%Moreover, every measurable physical quantity concerning the IC operation could be a point of information leakage.
+%This is particularly true when considering the fact that these quantities will exhibit varying variations based on the calculations performed by the IC.
+%When evaluating these quantities, it is possible to retrieve confidential information.
+%I described what is called a \textbf{"side-channel attack" (\sca)} when considering cybersecurity.
 
 On the other hand, physical quantity measurement is not the only flaw in actual algorithm implementations.
-In fact, every physical IC has specifications under which it can execute its functions properly.
+In fact, every physical IC has specifications under which it can operate properly.
 It includes temperature, clock frequency, power supply voltage, and the electromagnetic environment.
-When pushed beyond its specifications, any integrated circuit will exhibit unpredictable behavior.
-However, it is still possible to control an IC's behavior outside its specifications with a certain degree of success.
-By doing so, it allows running the IC calculation incorrectly by finely controlling how much time and by which amount the IC is outside its specifications, thus enabling, with specific mathematical algorithms, to retrieve hidden data manipulated by the IC.
+When pushed beyond its specifications, any integrated circuit exhibits unpredictable behavior.
+However, it is still possible to control the behavior of an IC outside its specifications with a certain degree of success.
+By doing so, it is possible to run the calculations incorrectly by finely controlling how much time and by which amount the IC is outside its specifications, thus enabling, with specific mathematical algorithms, to retrieve hidden data manipulated by the IC, like secret encryption keys or sensitive data.
 This process is commonly referred to as a \textbf{"fault injection attack"}.
 
-I have identified two potential attacks on robust algorithms that have been implemented into actual integrated circuits.
+I have identified two potential hardware threats on robust algorithms that have been implemented into actual integrated circuits.
 However, it is customary to categorize cyberattacks into three distinct categories based on their execution methods.
 
 Despite being technically advanced, noninvasive attacks are the most materially trivial.
@@ -82,7 +91,7 @@ It is a delicate task to detect them; hence, they are deemed to be highly danger
 
 Then, it is possible to distinguish semi-invasive attacks.
 Systematically, they are accompanied by device physical preparation, which was entirely devoid of noninvasive attacks, but they are not accompanied by device physical modification.
-ICs integrity is therefore theoretically preserved.
+ICs integrity is therefore fully preserved.
 A typical IC modification involves the removal of the chip package.
 It enables access to either the front or back side of the integrated circuit, thereby facilitating micro-probing, laser injection, or substrate pulse injection.
 Furthermore, substrate thinning is also commonly considered and used, as it facilitates the fine-tuning of certain fault injection techniques, such as laser fault injection (\lfi).
@@ -91,14 +100,14 @@ These attacks necessitate specialized hardware, tools, and expertise and are fre
 Eventually, there are invasive attacks.
 They imply further physical modifications to integrated circuits.
 For instance, it is common to eliminate the layers of a chip, thereby enabling the photographing of the various layers and the reverse engineering of the target.
-A focused ion beam (FIB) can also be used to change the IC target internally by making electric connections that did not exist before, or destroy existing ones.
+A focused ion beam (FIB) can also be used to change the IC target internally by creating electric connections that did not exist before, or destroy existing ones.
 %Contrary to semi-invasive attacks, invasive attacks frequently involve the definitive destruction of the target, primarily due to the absence of physical integrity during the process.
 Invasive attacks often involve the definitive destruction of the target, primarily because physical integrity is not preserved during the process.
 
 My doctoral thesis is dedicated to the study of a specific fault injection method: Body Biasing Injection.
-In this particular context, I examine in this chapter the current state of the art in relation to side-channel attacks and fault injection techniques, as outlined in the literature.
+In this particular context, I examine in the next paragraphs the current state of the art in relation to side-channel attacks and fault injection techniques, as outlined in the literature.
 This allows me to explain the interests of the current work regarding hardware security.
 
-In the first place, I will briefly discuss side-channel attacks.
-Then, I will examine the various fault injection platforms commonly described.
-Eventually, I will ponder the interests of BBI in this context.
+In the first place, I briefly discuss side-channel attacks.
+Then, I examine the various fault injection platforms commonly described.
+Eventually, I ponder the interests of BBI in this context.
