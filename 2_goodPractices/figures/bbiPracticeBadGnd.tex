@@ -11,15 +11,15 @@
     \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/model0Probe.pdf}
-        \caption{Model of a state-of-the-art \bbi setup. It consists of the voltage pulse generator, the \bbi metal probe, the transmission line, the IC (1 k\textOmega\xspace resistor), and the platform grounding (two 150 \textOmega\xspace resistors). This model allows for fast evaluation and prediction of the \bbi platform macro-behavior.}
+        \caption{Model of a state-of-the-art \bbi setup, with its key components.}
         \label{fig:bbiPracticeBadGnd}
     \end{subfigure}
     \hspace{0.045\textwidth}
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_0.pdf}
-        \caption{Simulation results of the \bbi model. \textcolor{RoyalBlue}{Blue}: ideal voltage pulse (-140 V, 10 ns). \textcolor{OliveGreen}{Green}: effective signal applied on the IC backside. \textcolor{orange}{Orange}: generator output. \textcolor{Purple}{Purple}: IC ground current. These results highlight the platform limitations: ringing (impedance mismatch) and high ground impedance, leading to higher voltage.}
+        \caption{Simulation results of the state-of-the-art \bbi platform model.}
         \label{fig:bbiPracticeBadGndSignals}
     \end{subfigure}
-    \caption{\bbi platform electrical model developed for my thesis to quickly evaluate various platform's parameters, alongside the model simulation results.}
+    \caption{State-of-the-art \bbi platform electrical model and its simulation results.}
     \label{fig:bbiBadGndGlobalFig}
 \end{figure}

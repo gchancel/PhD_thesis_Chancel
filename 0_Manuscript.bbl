@@ -188,6 +188,12 @@ David Samyde, Sergei~P. Skorobogatov, Ross~J. Anderson, and Jean-Jacques
 \newblock {\em First International IEEE Security in Storage Workshop, 2002.
   Proceedings.}, pages 65--69, 2002.
 
+\bibitem{emFaultModel}
+S.~Ordas, L.~Guillaume-Sage, and Philippe Maurine.
+\newblock Em injection: Fault model and locality.
+\newblock In {\em 2015 Workshop on Fault Diagnosis and Tolerance in
+  Cryptography (FDTC)}, pages 3--13, 2015.
+
 \bibitem{bbiOrigin}
 Philippe Maurine, Karim Tobich, Thomas Ordas, and Pierre-Yvan Liardet.
 \newblock Yet another fault injection technique : by forward body biasing

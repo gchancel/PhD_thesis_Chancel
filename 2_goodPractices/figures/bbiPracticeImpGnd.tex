@@ -4,15 +4,15 @@
     \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/model2ProbeManuscrit.pdf}
-        \caption{Enhanced \bbi platform model. It describes the generator, the \bbi probe, the transmission line, the IC (1 k\textomega\xspace resistor), the default platform grounding (both 150 \textOmega\xspace resistors), and the enhancements highlighted in red, which are: creating an approximate impedance matching for the generator, and bypassing the poor grounding with low impedance copper wires.}
+        \caption{The proposed enhanced \bbi platform model with its key components and upgrades.}
         \label{fig:bbiPracticeImpGnd}
     \end{subfigure}
     \hspace{0.045\textwidth}
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=1.0\textwidth, center]{2_goodPractices/figures/SIMPLE_BBI_2.pdf}
-        \caption{Simulation results of the enhanced \bbi model. \textcolor{RoyalBlue}{Blue}: ideal voltage pulse (-140 V, 10 ns). \textcolor{OliveGreen}{Green}: effective signal applied on the IC backside. \textcolor{orange}{Orange}: generator output. \textcolor{Purple}{Purple}: IC ground current. The dotted waveforms are those observed in Fig. \ref{fig:bbiPracticeBadGndSignals}. The most obvious observed improvements concern the set points, which are fully respected, in addition to the drastic ringing reduction, leading to better temporal control.}
+        \caption{Simulation results of the enhanced \bbi model.}
         \label{fig:bbiPracticeImpGndSignals}
     \end{subfigure}
-    \caption{\bbi platform enhanced electrical model developed for my thesis to quickly evaluate various platform parameters, alongside the model simulation results.}
+    \caption{Enhanced \bbi platform model, alongside its simulation results.}
     \label{fig:bbiImpGndGlobalFig}
 \end{figure}

@@ -23,52 +23,52 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You're missing a field part---line 567 of file references.bib
+You're missing a field part---line 589 of file references.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in firstLfi
 Warning--empty journal in bbiOrigin
-You've used 43 entries,
+You've used 44 entries,
             1791 wiz_defined-function locations,
-            751 strings with 12800 characters,
-and the built_in function-call counts, 13540 in all, are:
-= -- 1261
-> -- 565
-< -- 29
-+ -- 199
-- -- 156
-* -- 824
-:= -- 1939
-add.period$ -- 144
-call.type$ -- 43
-change.case$ -- 43
+            758 strings with 12993 characters,
+and the built_in function-call counts, 13834 in all, are:
+= -- 1285
+> -- 576
+< -- 30
++ -- 203
+- -- 159
+* -- 840
+:= -- 1979
+add.period$ -- 147
+call.type$ -- 44
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 683
-empty$ -- 1290
-format.name$ -- 156
-if$ -- 3242
+cite$ -- 46
+duplicate$ -- 700
+empty$ -- 1323
+format.name$ -- 159
+if$ -- 3316
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 40
-newline$ -- 219
-num.names$ -- 65
-pop$ -- 182
+int.to.str$ -- 44
+missing$ -- 41
+newline$ -- 224
+num.names$ -- 66
+pop$ -- 188
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 455
+skip$ -- 465
 stack$ -- 0
-substring$ -- 917
-swap$ -- 289
-text.length$ -- 29
+substring$ -- 932
+swap$ -- 296
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 135
-width$ -- 45
-write$ -- 499
+while$ -- 138
+width$ -- 46
+write$ -- 510
 (There was 1 error message)

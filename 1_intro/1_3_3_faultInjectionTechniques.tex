@@ -44,6 +44,12 @@
     On the one hand, as the probe is coupled with the power delivery networks, the smaller these networks are, the more transistors are targeted.
     On the other hand, the smaller the probe, the higher the voltage pulse has to be to produce a similar effect.
 
+    \input{1_intro/figures/emSamplingModel.tex}
+    A sampling fault model for \emfi was proposed in 2015 \cite{emFaultModel}.
+    It takes on the fact that \emfi allows modifying enough the amplitude at the inputs of multiple DFFs, such as the data input, the clock, the set or the reset signals, at a specific time: during the sampling pulse edge.
+    It means that either setup or hold timing constraint is violated, resulting in an incorrect data sampling from the input to the output.
+    A schematic explanation of the sampling fault model proposed in \cite{emFaultModel} is illustrated in Fig. \ref{fig_emSamplingFModel}.
+
     \subsubsection{Body biasing injection \ddc}
     \label{chap:1;sect:fInjTech;subsect:bbi}
     Eventually, there is another fault injection method, less studied and more recent than the others, commonly called Body Biasing Injection (\bbi), which is the research topic of my thesis.

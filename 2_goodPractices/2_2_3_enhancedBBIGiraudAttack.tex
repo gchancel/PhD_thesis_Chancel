@@ -121,7 +121,7 @@ Eventually, we will draw conclusions on the various observations.
                 Timeout              &  The microcontroller was unresponsive                        \\ \tabucline[2pt]{-}
             \end{tabu}
             %    \label{table:faultType}
-            \caption{FAM faults description}
+            \caption{FAM faults description.}
             \label{table:faultType}
         \end{table}
         Over the seven outcomes, only two of them can lead to potential exploitable fault according to Giraud's criterion: Monobit Monobyte and Monobit Multibyte.
@@ -151,8 +151,8 @@ Eventually, we will draw conclusions on the various observations.
         It does not mean that the attack can be performed entirely on a single location, but it is a great way to guide the attack process, knowing that the set of parameters used is sound.
 
     \subsection{Attack results and analysis \ddcnew}
-    Thanks to the previous FAM results, I decided to perform the attack on every location candidate using the enhanced platform.
-    For each location above the AES core, a parameter sweep was performed, consisting in finding for each set of parameters, as much single bit faults as possible.
+    Thanks to the previous FAM results, I decided to perform the attack on every candidate location using the enhanced platform as a target.
+    For each selected location above the AES core, a parameter sweep was performed, consisting in finding, for each set of parameters, as much single bit faults as possible.
     The test settings are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
@@ -160,16 +160,12 @@ Eventually, we will draw conclusions on the various observations.
         \item The pulse width ranging from 4.5 ns to 5.5 ns;
         \item The injection delay ranging from $\pm$ 10 ns around the penultimate AES round.
     \end{itemize}
+
     For each set of parameter, I set a limit of 100 single bit faults.
-    However, this is an optimistic goal which, in some cases, can take a very long time to be achieved, and in other cases, cannot be achieved at all.
-    Therefore, I decided to limit the number of trials to 10000, allowing the test algorithm to be finite and quick to perform.
+    However, this is an optimistic goal which, in some cases, can take a very long time to achieve, and in other cases, cannot be achieved at all.
+    Therefore, I decided to limit the number of trials to 10000, allowing the test algorithm to be finite and not too long to perform.
     Then, with these results, I was able to perform the attack, where the result are shown in Table \ref{table:dfaResults}.
-    \begin{table}[H]
-        \centering
-        \includegraphics[width=\textwidth, center]{2_goodPractices/figures/giraud__7N.pdf}
-        \caption{Giraud's DFA results. In yellow are indicated the bytes retrieved with a brute-force method instead of the Giraud's bit fault attack.}
-        \label{table:dfaResults}
-    \end{table}
+
     What is obvious at first glance is that I was not able to retrieve the 16 bytes of $K^{10}$.
     Indeed, without further search for valid locations above the AES core, I was able to retrieve 14 out of 16 bytes.
     It is a great result, as the attack took about 20 hours to perform, including the FAM, which was the longest experiment to set up the attack.
@@ -179,7 +175,14 @@ Eventually, we will draw conclusions on the various observations.
     I then blindly tested every possibility to find the last two bytes, and I was able to retrieve them, thus allowing me to retrieve the AES secret key.
     These brute-forced bytes are shown in yellow in Table \ref{table:dfaResults}.
 
-    \subsection{Giraud's DFA conclusion \ddcnew}
+    \begin{table}[t]
+        \centering
+        \includegraphics[width=\textwidth, center]{2_goodPractices/figures/giraud__7N.pdf}
+        \caption{Giraud's DFA results. In yellow are indicated the bytes retrieved with a brute-force method instead of the Giraud's bit fault attack.}
+        \label{table:dfaResults}
+    \end{table}
 
-
-    \textcolor{orange}{To finish.}
+%    \subsection{Giraud's DFA conclusion \ddcnew}
+%
+%
+%    \textcolor{orange}{To finish.}
