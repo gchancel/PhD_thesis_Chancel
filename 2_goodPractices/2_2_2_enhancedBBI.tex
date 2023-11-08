@@ -67,7 +67,8 @@ Then, I will explain how to set up an efficient grounding bypass.
 After that, we will take a look at actual measurements allowing to spot the improvements.
 
     \subsection{Generator impedance matching in practice \ddcu}
-    \textcolor{orange}{Add pictures of real platform impedance matching.}
+%    \textcolor{orange}{Add pictures of real platform impedance matching.}
+    \input{2_goodPractices/figures/impMatching.tex}
     An ideal impedance matching implementation should be adaptive and vary the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
     It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to adapt the compensation load impedance value.
     However, this is not the approach I have chosen.
@@ -76,10 +77,13 @@ After that, we will take a look at actual measurements allowing to spot the impr
     Another possibility would be to first measure the average IC backside impedance over its entire area or only the targeted area (such as the cryptographic core for instance).
     Then, thanks to the average value, the compensation load impedance could be chosen to better match the required 50 \textOmega\xspace.
 
-    Eventually, the selected solution is the simplest one.
-    It consists in connecting a compensation load at the generator output, consisting in a \fiftyOhms{50} SMA terminator.
+    Eventually, the solution I selected is fairly simple.
+    It consists in connecting a compensation load at the generator output, which is in a \fiftyOhms{50} SMA terminator.
+    The actual implementation is shown in Fig. \ref{fig:impMatchPhoto}.
     It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
     However, it is a solution requiring little to no change to an existing platform and has proven to be good enough thanks to the previous models.
+    A better approach would be to connect toe compensation load in parallel with the probe instead of the generator output.
+    I did not choose this option as it is probe dependent, while the generator option is universal and provides very good results.
 
     \subsection{Grounding installation bypass in practice \ddcu}
 %    \textcolor{orange}{Add pictures of real GND bypass.}

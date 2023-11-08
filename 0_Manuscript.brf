@@ -47,10 +47,10 @@
 \backcite {bbiColin}{{14}{2.3.2}{figure.caption.10}}
 \backcite {colinFdtc2023}{{17}{2.3.3.3}{figure.caption.14}}
 \backcite {giraudDfa}{{28}{2.8}{section.2.8}}
-\backcite {giraudDfa}{{28}{2.8.1}{subsection.2.8.1}}
-\backcite {piretQuisquater}{{28}{2.8.1}{subsection.2.8.1}}
-\backcite {giraudDfa}{{29}{2.8.1}{figure.caption.22}}
-\backcite {aesRijndaelProp}{{29}{2.8.1}{figure.caption.22}}
+\backcite {giraudDfa}{{29}{2.8.1}{subsection.2.8.1}}
+\backcite {piretQuisquater}{{29}{2.8.1}{subsection.2.8.1}}
+\backcite {giraudDfa}{{29}{2.8.1}{figure.caption.23}}
+\backcite {aesRijndaelProp}{{29}{2.8.1}{figure.caption.23}}
 \backcite {mybbiCosade}{{36}{3.1}{section.3.1}}
 \backcite {mybbiFdtc2022}{{36}{3.1}{section.3.1}}
 \backcite {mathieuEMFIFirst}{{36}{3.2}{section.3.2}}
@@ -58,8 +58,8 @@
 \backcite {mathieuEMFI}{{36}{3.2}{section.3.2}}
 \backcite {mathieuEMFI}{{37}{3.2}{section.3.2}}
 \backcite {mathieuEMFI}{{40}{3.4}{section.3.4}}
-\backcite {mathieuEMFI}{{41}{3.4.1}{figure.caption.29}}
-\backcite {mathieuEMFI}{{43}{3.5}{figure.caption.30}}
+\backcite {mathieuEMFI}{{41}{3.4.1}{figure.caption.30}}
+\backcite {mathieuEMFI}{{43}{3.5}{figure.caption.31}}
 \backcite {japbbi}{{48}{3.5.1}{subsection.3.5.1}}
 \backcite {japbbi2}{{48}{3.5.1}{subsection.3.5.1}}
 \backcite {bbiColin}{{48}{3.5.1}{subsection.3.5.1}}
