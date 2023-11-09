@@ -1,16 +1,30 @@
 
 \section{Summary \ddc}
 \label{chap5:sect:summary}
-This chapter presents the extended simulation flow based on the one presented in the previous chapter.
-Indeed, the \scs models developed and used for \bbi simulation are not sufficient when it comes to explaining the mechanisms at work concerning fault creation.
-This is because these models do not include any logic function of the considered ICs.
-Their design is a compromise between electrical accuracy and time cost.
-Effectively, with the available technology, it is not possible, temporally speaking, to simulate millions of transistors while considering their electric and logic characteristics.
-%This chapter is dedicated to extend the simulation flow presented in the previous chapter.
-%Indeed, as we have seen, the \scs models developed and used for the simulations do not consider the logic function of the simulated IC.
-However, when working with fault injection mechanisms, it is fundamental to appreciate the logical behavior of an IC target to properly understand how faults occur.
-This allows developing a fault model and eventually designing countermeasures.
-In this context, I extend the previous simulation flow by adding additional steps to it.
+This chapter presents an extended simulation flow, which adds up to the one presented in the previous chapter.
+This extension is designed to overcome the limitations of the previous \scs models.
+Indeed, as I have mentioned, they do not provide the logical behavior evaluation of the simulated ICs.
+However, they allow simulating large ICs in a reasonable amount of time.
+While this limitation is a design choice, which is to approximate the transistors with average equivalent models, it is not an insurmountable boundary.
+
+When studying fault injection methods, it is fundamental to understand the mechanisms at work in fault creation.
+It allows creating a fault model or associating an existing one to the fault injection technique.
+With this knowledge, it is then possible to set up countermeasures.
+In short, the extended simulation flow consists in extracting signals from the \scs models and injection them in functioning logic gates.
+
+%This chapter presents the extended simulation flow based on the one presented in the previous chapter.
+%Indeed, the \scs models developed and used for \bbi simulation are not sufficient when it comes to explaining the mechanisms at work concerning fault creation.
+%This is because these models do not include any logic function of the considered ICs.
+%Their design is a compromise between electrical accuracy and time cost.
+%Effectively, with the available technology, it is not possible, temporally speaking, to simulate millions of transistors while considering their electric and logic characteristics.
+%
+%%This chapter is dedicated to extend the simulation flow presented in the previous chapter.
+%%Indeed, as we have seen, the \scs models developed and used for the simulations do not consider the logic function of the simulated IC.
+%
+%However, when working with fault injection mechanisms, it is fundamental to appreciate the logical behavior of an IC target to properly understand how faults occur.
+%This allows developing a fault model and eventually designing countermeasures.
+%In this context, I extend the previous simulation flow by adding additional steps to it.
+
 %Therefore, and because it is important in a fault injection context to understand how faults occur to be able to develop a fault model, I am going to extend the previous simulation flow to consider logic function behavior under \bbi.
 
 %In this chapter, we introduce a fault model for BBI.

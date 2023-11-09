@@ -1,20 +1,46 @@
 
 \section{Simulation flow follow-up \ddcnew}
 \label{chap5_newFlow}
-\input{5_faultModel/figures/ivxNoSig.tex}
-The main shortcoming of the simulation flow presented in chapter \ref{chap:3icModeling} lies in the fact that the models do not consider the logic functions of the considered ICs.
-To that end, I introduce in this section a way to circumvent this limitation.
-As the \scs models are made for a specific technology, in that case for a 90 nm bulk silicon manufacturing process, the models parameters are calculated according to this technology node.
-In addition to this, a single \scs model represents a hundred of logic gates.
-Therefore, the disturbances observed in a \scs elementary block are the ones these logic gates would be subject to during \bbi.
-With this in mind, I chose a very simple method of using the data from \scs simulations.
-
-It consists in modeling actual transistors and logic gates with the considered technology and simulating them using the extracted disturbances from the \scs simulation results.
-For the purpose of this work, I chose to simulate inverters in two specific scenarios:
+Due to the shortcomings of the simulation flow presented in chapter \ref{chap:3icModeling}, which mainly lie in the fact that hundred transistors are approximated with two resistors and four capacitors, the simulation flow follow-up aims at considering the logical function of the transistors.
+To that end, one has to first choose a target \scs where they want to conduct the further analysis.
+Then, the \scs internal signals are extracted from the \scs simulation, and they can be injected into a logic gates model.
+The main signals of use are the following:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
-    \item A normally low inverter, fed with a logical high signal at its input;
-    \item A normally high inverter, fed with a logical low signal at its input.
+    \item VDD: the positive power supply net;
+    \item VSS: the negative power supply net;
+    \item VEPI: the voltage at the epitaxy level, also known as the junction between the substrate and the top of the \scs;
+    \item VNW (VGP): the N-well voltage, required in both \dwF and \twF substrates;
+    \item VPW: the P-well voltage, only required in a \twF substrate.
 \end{itemize}
+To have a comprehensive understanding of the various possible scenarios, in addition to keeping clarity, I present the results for logic inverters, composed of two transistors in the technology of the present work target microcontroller.
+\dwF and \twF substrates are presented, and for each substrate type, two inverters are simulated: a normally low and a normally high.
+The simulated schematic and their significant signals are shown in Fig. \ref{fig_ivxSim}.
+\input{5_faultModel/figures/ivxNoSig.tex}
+For each scenario, I present five signals of interest:
+\begin{itemize}
+    \setlength\itemsep{-0.1em}
+    \item The local power supply voltage seen by the transistors (in black);
+    \item The current sum of the inverter of interest (in green);
+    \item The load current of the inverter of interest (in magenta);
+    \item The output of the normally high inverter (in cyan);
+    \item The output of the normally low inverter (in dark blue);
+\end{itemize}
+Concerning the \twF substrate, the inverter of interest is the normally high one, while for the \dwF substrate, it is the normally low one.
 
-\input{5_faultModel/figures/ivxResults.tex}
+%The main shortcoming of the simulation flow presented in chapter \ref{chap:3icModeling} lies in the fact that the models do not consider the logic functions of the considered ICs.
+%To that end, I introduce in this section a way to circumvent this limitation.
+%As the \scs models are made for a specific technology, in that case for a 90 nm bulk silicon manufacturing process, the models parameters are calculated according to this technology node.
+%In addition to this, a single \scs model represents a hundred of logic gates.
+%Therefore, the disturbances observed in a \scs elementary block are the ones these logic gates would be subject to during \bbi.
+%With this in mind, I chose a very simple method of using the data from \scs simulations.
+%
+%It consists in modeling actual transistors and logic gates with the considered technology and simulating them using the extracted disturbances from the \scs simulation results.
+%For the purpose of this work, I chose to simulate inverters in two specific scenarios:
+%\begin{itemize}
+%    \setlength\itemsep{-0.1em}
+%    \item A normally low inverter, fed with a logical high signal at its input;
+%    \item A normally high inverter, fed with a logical low signal at its input.
+%\end{itemize}
+%
+%\input{5_faultModel/figures/ivxResults.tex}
