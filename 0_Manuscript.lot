@@ -1,25 +1,24 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {xchapter}{}{x}{section*.1}%
-\contentsline {xchapter}{}{xi}{section*.2}%
-\contentsline {xchapter}{}{xiii}{section*.3}%
-\contentsline {xchapter}{}{xv}{section*.5}%
-\contentsline {xchapter}{}{xvii}{chapter*.7}%
-\contentsline {xchapter}{}{xix}{chapter*.9}%
+\contentsline {xchapter}{}{x}{Doc-Start}%
+\contentsline {xchapter}{}{xi}{Doc-Start}%
+\contentsline {xchapter}{}{xiii}{Doc-Start}%
+\contentsline {xchapter}{}{xv}{chapter*.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction and state of the art \textcolor {myCyan}{\footnotesize 2023-11-09 19:26:18+01:00}}{1}{chapter.1}%
+\contentsline {xchapter}{Introduction and state of the art }{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Body Biasing Injection platforms and good practices \textcolor {myCyan}{\footnotesize 2023-11-09 19:26:18+01:00}}{11}{chapter.2}%
-\contentsline {table}{\numberline {2.1}{\ignorespaces FAM faults description.\relax }}{31}{table.caption.26}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Giraud's DFA results. In yellow are indicated the bytes retrieved with a brute-force method instead of the Giraud's bit fault attack.\relax }}{33}{table.caption.27}%
+\contentsline {xchapter}{Body Biasing Injection platforms and good practices }{11}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces FAM faults description.\relax }}{31}{table.caption.18}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Giraud's DFA results. In yellow are indicated the bytes retrieved with a brute-force method instead of the Giraud's bit fault attack.\relax }}{33}{table.caption.19}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Integrated circuits modeling \textcolor {myRedG7}{\footnotesize IN PROGRESS}\xspace \textcolor {myCyan}{\footnotesize 2023-11-09 19:26:18+01:00}}{35}{chapter.3}%
-\contentsline {table}{\numberline {3.1}{\ignorespaces \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace model numeric values.\relax }}{44}{table.caption.34}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Dual-well, triple-well and mixed substrates SCS operating point.\relax }}{47}{table.caption.38}%
+\contentsline {xchapter}{Integrated circuits modeling }{35}{chapter.3}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace model numeric values.\relax }}{44}{table.caption.26}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Dual-well, triple-well and mixed substrates SCS operating point.\relax }}{47}{table.caption.30}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{From more complete simulation models to fault model \textcolor {myGreenFlash}{\footnotesize NEW}\xspace \textcolor {myCyan}{\footnotesize 2023-11-09 19:26:18+01:00}}{55}{chapter.4}%
+\contentsline {xchapter}{From more complete simulation models to fault model }{55}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis \textcolor {myCyan}{\footnotesize 2023-11-09 19:26:18+01:00}}{59}{chapter.5}%
+\contentsline {xchapter}{Substrate thinning analysis }{61}{chapter.5}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{69}{chapter.6}%
-\contentsline {xchapter}{}{89}{section*.51}%
+\contentsline {xchapter}{Conclusion and perspectives}{71}{chapter.6}%
+\contentsline {xchapter}{}{73}{section*.42}%
+\contentsline {xchapter}{}{91}{section*.44}%

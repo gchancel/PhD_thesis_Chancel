@@ -1,0 +1,36 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Summary }{\reset@font\mtcSfont 12}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Introduction }{\reset@font\mtcSfont 12}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}BBI platforms in the state-of-the-art }{\reset@font\mtcSfont 13}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Initial BBI platforms }{\reset@font\mtcSSfont 13}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}C. O'Flynn BBI platform }{\reset@font\mtcSSfont 13}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Commercial platforms }{\reset@font\mtcSSfont 14}{subsection.2.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.3.1}Langer EMV-Technik GmbH BBI platform }{\reset@font\mtcSSSfont 14}{subsubsection.2.3.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.3.2}Riscure BBI platform }{\reset@font\mtcSSSfont 15}{subsubsection.2.3.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.3.3}NewAE Technology Inc. generators }{\reset@font\mtcSSSfont 16}{subsubsection.2.3.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.4}An overview about BBI platforms }{\reset@font\mtcSSfont 17}{subsection.2.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Our BBI platform }{\reset@font\mtcSfont 18}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}The probe }{\reset@font\mtcSSfont 18}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}The generator }{\reset@font\mtcSSfont 19}{subsection.2.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}BBI in practice }{\reset@font\mtcSfont 20}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Typical BBI platform model }{\reset@font\mtcSSfont 20}{subsection.2.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Platforms evaluation criteria }{\reset@font\mtcSSfont 21}{subsection.2.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Raw results }{\reset@font\mtcSSfont 21}{subsection.2.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.4}Analysis conclusions }{\reset@font\mtcSSfont 21}{subsection.2.5.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Enhanced BBI platform model and simulation }{\reset@font\mtcSfont 23}{section.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.1}Matching the generator output impedance }{\reset@font\mtcSSfont 23}{subsection.2.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.2}Improving the grounding installation }{\reset@font\mtcSSfont 23}{subsection.2.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.3}Simulation results }{\reset@font\mtcSSfont 24}{subsection.2.6.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.6.3.1}Load dependency }{\reset@font\mtcSSSfont 24}{subsubsection.2.6.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.6.4}Simulation conclusions }{\reset@font\mtcSSfont 25}{subsection.2.6.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Actual enhanced BBI platform }{\reset@font\mtcSfont 25}{section.2.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.1}Generator impedance matching in practice }{\reset@font\mtcSSfont 25}{subsection.2.7.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.2}Grounding installation bypass in practice }{\reset@font\mtcSSfont 26}{subsection.2.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.3}Practical analysis }{\reset@font\mtcSSfont 26}{subsection.2.7.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Enhanced BBI platform in a fault attack context }{\reset@font\mtcSfont 28}{section.2.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.8.1}Giraud's DFA detailed description }{\reset@font\mtcSSfont 28}{subsection.2.8.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.8.2}Integrated circuits target characteristics }{\reset@font\mtcSSfont 30}{subsection.2.8.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.8.3}Preliminary attack experiments }{\reset@font\mtcSSfont 30}{subsection.2.8.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.8.3.1}Fault analysis mapping description }{\reset@font\mtcSSSfont 30}{subsubsection.2.8.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.8.3.2}Fault analysis mapping comparison }{\reset@font\mtcSSSfont 31}{subsubsection.2.8.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.8.4}Attack results and analysis }{\reset@font\mtcSSfont 32}{subsection.2.8.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.9}Conclusion }{\reset@font\mtcSfont 33}{section.2.9}}

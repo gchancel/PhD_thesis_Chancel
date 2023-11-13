@@ -1,10 +1,24 @@
 
+\newpage
 \section{Conclusion \ddc}
-In this chapter, I introduced the interest of thinning the substrate of integrated circuits when performing Body Biasing Injection.
-In the first place, I presented a geometric approach which allowed me to take a step back from electric simulations.
-This approach brought mathematical relations allowing to evaluate preliminary the effects of thinning the substrate of a target IC.
-Thanks to this approach, I drew three conclusions on the implications of substrate thinning on \bbi.
-Then, thanks to the previous simulation flow introduced in Chapter \ref{chap:3icModeling}, I performed simulations allowing me to complete the geometric approach.
-This allowed me to verify the soundness of the geometric conclusions.
-After that, I introduced substrate thinning in practice, including a quick look of the tools commonly used.
-Eventually, I presented practical experiments on actual thinned ICs, and I was able to verify the soundness of both the geometric and electric approaches.
+In this chapter, I introduced the interest of thinning the substrate of integrated circuits in a body biasing injection context.
+Various works have studied this topic concerning laser fault injection \cite{lfiThinning}, and because the substrate is the physical environment where the energy is carried to the IC when performing \bbi, I decided to take a deep look on substrate thinning in this context.
+
+In the first place, I ideally analyzed theoretical \bbi effects thanks to a geometric model, which allowed me to conclude that the resolution of \bbi not only depends on the substrate thickness but on the couple thickness/voltage.
+On the one hand, thinning the substrate and reducing the voltage pulse amplitude should lead to identical results on a fixed target.
+On the other hand, thinning the substrate while keeping the same voltage leads to a spread out \bbi susceptibility area.
+Afterward, I conducted the same protocol using the electrical models presented in the chapter \ref{chap:3icModeling}.
+Using an analogous analysis as in that chapter, I observed that the thinner the IC, for a fixed set of parameters, the higher the voltage is focused under the probe.
+Therefore, the susceptibility area increases, which means that less voltage, therefore a less powerful generator, is required to create a very similar effect.
+These outcomes were verified thanks to actual experiments on three identical ICs with their substrate thinned to various levels.
+Eventually, the main thing to remember concerning substrate thinning and \bbi is that, as opposed to \lfi, thinning the substrate is not necessary while the attacker has a powerful enough generator.
+However, sometimes, thinning the substrate can financially be more interesting than purchasing a more powerful pulse generator.
+
+%In this chapter, I introduced the interest of thinning the substrate of integrated circuits when performing Body Biasing Injection.
+%In the first place, I presented a geometric approach which allowed me to take a step back from electric simulations.
+%This approach brought mathematical relations allowing to evaluate preliminary the effects of thinning the substrate of a target IC.
+%Thanks to this approach, I drew three conclusions on the implications of substrate thinning on \bbi.
+%Then, thanks to the previous simulation flow introduced in Chapter \ref{chap:3icModeling}, I performed simulations allowing me to complete the geometric approach.
+%This allowed me to verify the soundness of the geometric conclusions.
+%After that, I introduced substrate thinning in practice, including a quick look of the tools commonly used.
+%Eventually, I presented practical experiments on actual thinned ICs, and I was able to verify the soundness of both the geometric and electric approaches.

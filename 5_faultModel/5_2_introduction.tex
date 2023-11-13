@@ -2,15 +2,18 @@
 \section{Introduction \ddc}
 \label{chap5:sect:intro}
 As I have described in the first chapter for various fault injection techniques, various fault models exist and can be associated to these methods depending on their impact on IC targets.
-To identify the correct or develop a new one for \bbi, it is mandatory to simulate the logic behavior of transistors subjected to \bbi disturbances in an IC context.
+Among them, one can identify single-bit fault models, bit-flip fault models, or bit set/reset fault models.
+Depending on the model, the faults created are data-independent or data-dependent.
+While data-independent faults are easier to create, data-dependent one leak information about the data being processed by the target IC.
+To identify the correct one or develop a new one for \bbi, it is then mandatory to simulate the logic behavior of transistors subjected to \bbi disturbances in an IC context.
 
-To that end, I decided to extend the \scs simulation flow.
-Indeed, the simulation flow I proposed in the previous chapter allowed me to finely analyze the effects of \bbi disturbances in IC substrates and power delivery networks.
+To that end, I decided to extend the \scs simulation flow for it to consider the logical function of the simulated ICs.
+The one proposed in the previous chapter allowed me to finely analyze the effects of \bbi disturbances in IC substrates and power delivery networks.
 In addition to this, I was able to study the electrical differences between \dwF and \twF substrate types ICs under \bbi.
 However, this approach alone does not give any insights on how fault occur inside logic gates.
-Indeed, the model represents a hundred of logic gates solely with two resistors and four capacitors, which is their average electrical behavior.
+Indeed, the elementary \scs model represents a hundred of logic gates solely with two resistors and four capacitors, which is their average electrical behavior.
 
-The simulation flow follow-up consists in adding a few extra steps to the original flow, allowing to actually measure the impact on logic gates of \bbi.
+The simulation flow follow-up consists in adding a few extra steps to the original flow, allowing to actually measure the impact of \bbi on logic gates.
 In the first place, I introduce these new simulation steps.
 Then, I present the simulation results of such an addition.
 Afterward, and thanks to the simulation results, I introduce a fault model which could explain the origin of faults in ICs subjected to \bbi.

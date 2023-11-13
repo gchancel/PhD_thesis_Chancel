@@ -84,45 +84,45 @@
 \tableofcontents
 
 \cleardoublepage
-\phantomsection
+%\phantomsection
 \addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 \mtcaddchapter
 
 \cleardoublepage
-\phantomsection
+%\phantomsection
 \addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 \mtcaddchapter
 
-\cleardoublepage
-\phantomsection
-%\addcontentsline{toc}{chapter}{\listalgorithmcfname}
-\addcontentsline{toc}{chapter}{List of algorithms}
-\mtcaddchapter
-\listofalgorithms
+%\cleardoublepage
+%\phantomsection
+%%\addcontentsline{toc}{chapter}{\listalgorithmcfname}
+%\addcontentsline{toc}{chapter}{List of algorithms}
+%\mtcaddchapter
+%\listofalgorithms
 
 \cleardoublepage
-\phantomsection
-\thispagestyle{empty}
+%\phantomsection
+%\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{List of acronyms}
 \mtcaddchapter
 \input{glossary}
 
-%\cleardoublepage
-%\bibliographystyle{unsrt}
-\phantomsection
-\thispagestyle{empty}
-\addcontentsline{toc}{chapter}{Publications}
-\chapter*{Publications \ddc}
-\markboth{}{}
-%\chaptermark{General introduction}
-\mtcaddchapter
-\input{publis}
+%%\cleardoublepage
+%%\bibliographystyle{unsrt}
+%%\phantomsection
+%%\thispagestyle{empty}
+%\addcontentsline{toc}{chapter}{Publications}
+%\chapter*{Publications \ddc}
+%\markboth{}{}
+%%\chaptermark{General introduction}
+%\mtcaddchapter
+%\input{publis}
 
 %\cleardoublepage
-\phantomsection
-\thispagestyle{empty}
+%\phantomsection
+%\thispagestyle{empty}
 \addcontentsline{toc}{chapter}{General introduction}
 \chapter*{General introduction \ddc}
 \markboth{}{}
@@ -139,7 +139,16 @@
 \include{5_faultModel/5_main}
 \include{4_thinning/4_main}
 \include{6_conclusion/6_main}
-\include{_appendix}
+
+\phantomsection
+\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{Appendices}
+\mtcaddchapter
+\chapter*{Appendix \ddcnew}
+%\vspace{-3cm}
+\markboth{}{}
+%\mtcaddchapter
+\input{_appendix}
 
 %\nocite{*}
 \cleardoublepage

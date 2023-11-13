@@ -1,9 +1,9 @@
 
 \section{Simulation flow follow-up \ddcnew}
 \label{chap5_newFlow}
-Due to the shortcomings of the simulation flow presented in chapter \ref{chap:3icModeling}, which mainly lie in the fact that hundred transistors are approximated with two resistors and four capacitors, the simulation flow follow-up aims at considering the logical function of the transistors.
+Due to the shortcomings of the simulation flow presented in chapter \ref{chap:3icModeling}, which mainly lie in the fact that a hundred of transistors is approximated with two resistors and four capacitors, the simulation flow follow-up aims at considering the logical function of some of these transistors.
 To that end, one has to first choose a target \scs where they want to conduct the further analysis.
-Then, the \scs internal signals are extracted from the \scs simulation, and they can be injected into a logic gates model.
+Then, the \scs internal signals are extracted from the \scs simulation, and then they can be injected into simulated logic gates.
 The main signals of use are the following:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
@@ -13,18 +13,23 @@ The main signals of use are the following:
     \item VNW (VGP): the N-well voltage, required in both \dwF and \twF substrates;
     \item VPW: the P-well voltage, only required in a \twF substrate.
 \end{itemize}
-To have a comprehensive understanding of the various possible scenarios, in addition to keeping clarity, I present the results for logic inverters, composed of two transistors in the technology of the present work target microcontroller.
-\dwF and \twF substrates are presented, and for each substrate type, two inverters are simulated: a normally low and a normally high.
+The signals VEPI, VGP, VPW and VNW, depending on the substrate type, act as the bulk voltage of the simulated transistors.
+In line with VDD and VSS, the shape of these signals dynamically change the bias of the transistors, and therefore their temporal behavior.
+To have a comprehensive understanding of the various possible scenarios, in addition to keeping clarity, I present the results for logic inverters, composed of two transistors in the technology of my thesis target microcontroller: 90 nm bulk.
+\twF and \dwF substrates are presented in this order, and for each substrate type, two inverters are simulated: a normally low and a normally high.
 The simulated schematic and their significant signals are shown in Fig. \ref{fig_ivxSim}.
 \input{5_faultModel/figures/ivxNoSig.tex}
 For each scenario, I present five signals of interest:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
+    \item The voltage pulse at the IC backside, for reference purposes (in orange);
     \item The local power supply voltage seen by the transistors (in black);
-    \item The current sum of the inverter of interest (in green);
+    \item The current sum of the inverter of interest (in medium green);
     \item The load current of the inverter of interest (in magenta);
-    \item The output of the normally high inverter (in cyan);
+    \item The output of the normally high inverter (in light cyan);
     \item The output of the normally low inverter (in dark blue);
+    \item The P-well (otherwise epitaxy) voltage (in dark cyan);
+    \item The N-well (otherwise VGP) voltage (in dark yellow).
 \end{itemize}
 Concerning the \twF substrate, the inverter of interest is the normally high one, while for the \dwF substrate, it is the normally low one.
 

@@ -2,11 +2,29 @@
 \section{Simulation follow-up results and analysis \ddcnew}
 \label{chap5_simResAnalysis}
 \input{5_faultModel/figures/ivxResults.tex}
+The disturbances injected into the inverters are extracted from the previous chapter \scs simulations.
+The chosen \scs is the one located directly under the \bbi probe, in other words, at the center of the simulated IC.
+Therefore, according to the simulation flow follow-up and the accuracy of the \scs models, the hundred of logic gates modeled in that \scs are subject to the same disturbances.
 
 \subsection{\twF substrate results and analysis}
 In the first place, let me introduce the \twF results.
 The corresponding schematic is the one displayed in Fig. \ref{fig_ivxSig}, and its simulation results are shown in Fig. \ref{fig_ivxTriple}.
-The disturbance signals are extracted from the previous chapter \twF \scs simulation.
 Let us remember that the coupling between the probe and the modeled IC is purely capacitive in that scenario.
+Therefore, energy is only transferred at the edges of the voltage pulse.
+It can be observed in the normally high inverter current sum waveform (medium green).
+Concerning the inverters, on the one hand, the normally high inverter sees a change in its output logical value during 12 ns, and follows, with a slight amplitude reduction, the N-well voltage waveform (dark yellow).
+This is because the normally high inverter has its capacitive load $C_{L_1}$ drained out, which explains the voltage drop at its output.
+On the other hand, the normally low inverter sees a 500 mV voltage drop, which, in that case, does not change its output value.
+Therefore, the type of fault in that scenario is closer to a bit set/reset, which is data dependent.
+Thus, in some cases, it could result in no fault with these specific experimental conditions.
 
 \subsection{\dwF substrate results and analysis}
+Let us now focus on the \dwF results.
+The corresponding schematic is the one displayed in Fig. \ref{fig_ivxNoSig}, and its simulation results are shown in Fig. \ref{fig_ivxDual}.
+In that scenario, as I have stated before, the inverter of interest is the normally low one.
+Here, the coupling is both resistive and capacitive depending on the power supply side.
+It is resistive with the VSS network, and capacitive with the VDD network, due to the silicon junction between the P-substrate and the N-well.
+Overall, it results in a resistive coupling between the probe and the IC.
+In that case, the normally high inverter sees very little disturbance, therefore its output is unchanged.
+However, when analyzing the total current waveform (medium green) of the normally low inverter, we can see that the charges are injected into the inverter, which results in charging the output capacitor $C_{L_0}$, therefore setting to one the inverter output during about 10 ns.
+Once again, the faults are related to bit set/reset, which are data dependent.

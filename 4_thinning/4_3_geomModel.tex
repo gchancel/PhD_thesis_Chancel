@@ -86,9 +86,20 @@ The simulation parameters are the following:
     \item Required rise and fall times: 8 ns
 \end{itemize}
 
-Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage distribution across the substrate through a cross-sectional view at the apex of the voltage pulse first edge.
-For simplicity, the results are shown in two dimensions, and as the substrate is an isotropic environment, the propagation is equals in every direction.
+Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage distribution across the substrate through a cross-sectional view at the apex of the voltage pulse first edge, in addition to the per-layer voltage concentration.
+These last graphs allow me to spot more easily the way the voltage propagates and is distributed inside the substrate during \bbi.
+For simplicity, the results are shown in two dimensions, and as the substrate is an isotropic environment, the propagation is uniform in every direction.
+
 The first interesting thing to note is that, as predicted thanks to the geometric model and as shown in Fig. \ref{subFigThickIC} and \ref{subFigThinIC}, equipotentials effectively form half-circles into the substrate (which are effectively half-spheres in 3D).
-I annotated two equipotentials according to their voltage and annotated their size in Fig. \ref{figSimuSubCoupe2}.
-As one can see, the yellow half-circle (-140 V, 40 µm), formed close to the probe, is complete in each considered IC.
-However, similar to the geometric modeling, the blue half-circle (-28 V,  140 µm), is entirely included into the 140 µm IC (Fig. \ref{subFigThickIC}), while it is cut at the epitaxy level in the 60 µm IC.
+However, these figures alone do not say much, at least not very obviously, about the voltage spreading inside the substrate.
+Then, thanks to Fig. \ref{subFigThickICfocus} and \ref{subFigThinICfocus}, which represent, for each substrate layer (14 in number concerning the 140 µm IC, 6 for the 60 µm IC), the normalized voltage distribution.
+The lower the layer number (or the closer to the red color the line is), the deeper into the IC it is.
+Concerning the values in the X-axis, there are normalized voltage values calculated per-layer, and the closer to zero, the higher the concentration.
+What these figures show us is that for identical experimental parameters, when the substrate is thinned, the voltage concentration is higher in the highest substrate layer.
+It means that for a fixed $V_F$ voltage threshold, the \bbi susceptibility area is more spread out on a thinner IC.
+It is quite intuitive when looking at the simulation results.
+Indeed, if we simply remove the additional layers in Fig. \ref{subFigThickIC} and \ref{subFigThinIC} between the 60 µm and the 140 µm IC, the results look very similar.
+The same observation can be made concerning Fig. \ref{subFigThickICfocus} and \ref{subFigThinICfocus}.
+%I annotated two equipotentials according to their voltage and annotated their size in Fig. \ref{figSimuSubCoupe2}.
+%As one can see, the yellow half-circle (-140 V, 40 µm), formed close to the probe, is complete in each considered IC.
+%However, similar to the geometric modeling, the blue half-circle (-28 V,  140 µm), is entirely included into the 140 µm IC (Fig. \ref{subFigThickIC}), while it is cut at the epitaxy level in the 60 µm IC.

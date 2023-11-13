@@ -266,6 +266,16 @@ Takuya Wadatsumi, Kohei Kawai, Rikuu Hasegawa, Kazuki Monta, Takuji Miki, and
 \newblock In {\em 2023 IEEE International Reliability Physics Symposium
   2IRPS)}, pages 1--6, 2023.
 
+\bibitem{lfiFaultModel}
+Jean-Max Dutertre, Vincent Beroulle, Philippe Candelier, Stephan De~Castro,
+  Louis-Barthelemy Faber, Marie-Lise Flottes, Philippe Gendrier, David Hély,
+  Regis Leveugle, Paolo Maistri, Giorgio Di~Natale, Athanasios Papadimitriou,
+  and Bruno Rouzeyre.
+\newblock Laser fault injection at the cmos 28 nm technology node: an analysis
+  of the fault model.
+\newblock In {\em 2018 Workshop on Fault Diagnosis and Tolerance in
+  Cryptography (FDTC)}, pages 1--6, 2018.
+
 \bibitem{lfiThinning}
 Breier et~al.
 \newblock Extensive laser fault injection profiling of 65 nm fpga.
