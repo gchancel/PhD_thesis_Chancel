@@ -22,14 +22,17 @@
 
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}{0.32\textwidth}
-        \includegraphics[width=\textwidth]{3_modeling/figures/algoFigure8.pdf}
-        \caption{Elementary substrate block 3D schematic with the default values used for our technology and the SPICE in-out names.}
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+%        \includegraphics[width=\textwidth]{3_modeling/figures/algoFigure8.pdf}
+        \includegraphics[width=0.57\textwidth]{3_modeling/figures/ELEMSUB.png}
+        \caption{Elementary substrate block 3D schematic with the values used for our technology and the SPICE in-out names.}
         \label{sfig_elemSub}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.60\textwidth}
-        \begin{Verbatim}[frame=single]
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \begin{Verbatim}[frame=single,baselinestretch=1.15]
 .subckt elementary_bloc D F L R Re U
 R1 U N001 RH
 R2 N001 D RH

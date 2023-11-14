@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3.1}Langer EMV-Technik GmbH BBI platform }{14}{subsubsection.2.3.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.3.2}Riscure BBI platform }{15}{subsubsection.2.3.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3.3}NewAE Technology Inc. generators }{16}{subsubsection.2.3.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}An overview about BBI platforms }{17}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}An overview about BBI platforms }{18}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Our BBI platform }{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}The probe }{18}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}The generator }{19}{subsection.2.4.2}%
@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {2.5.1}Typical BBI platform model }{20}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Platforms evaluation criteria }{21}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Raw results }{21}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Analysis conclusions }{21}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.4}Analysis conclusions }{22}{subsection.2.5.4}%
 \contentsline {section}{\numberline {2.6}Enhanced BBI platform model and simulation }{23}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Matching the generator output impedance }{23}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Improving the grounding installation }{23}{subsection.2.6.2}%
@@ -48,7 +48,7 @@
 \contentsline {section}{\numberline {2.7}Actual enhanced BBI platform }{25}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Generator impedance matching in practice }{25}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Grounding installation bypass in practice }{26}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Practical analysis }{26}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.3}Practical analysis }{27}{subsection.2.7.3}%
 \contentsline {section}{\numberline {2.8}Enhanced BBI platform in a fault attack context }{28}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Giraud's DFA detailed description }{28}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Integrated circuits target characteristics }{30}{subsection.2.8.2}%
@@ -67,22 +67,22 @@
 \contentsline {subsubsection}{\numberline {3.3.3.1}Dual-Well\xspace substrates }{39}{subsubsection.3.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.3.2}Triple-Well\xspace substrates }{40}{subsubsection.3.3.3.2}%
 \contentsline {section}{\numberline {3.4}Standard-Cell Segment (SCS) and their models }{40}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Former models }{41}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Former models }{40}{subsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.1.1}Dual-Well\xspace \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace }{41}{subsubsection.3.4.1.1}%
 \contentsline {subsubsection}{\numberline {3.4.1.2}Triple-Well\xspace \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace }{42}{subsubsection.3.4.1.2}%
 \contentsline {subsection}{\numberline {3.4.2}Enhancing the substrate model }{42}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}The considered \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace for the rest of my work }{43}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Interconnecting Standard-Cell Segments together }{44}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Writing the elementary models }{45}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Preliminary models validation: IC operating point }{47}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}Modeling the voltage pulse generator and the probe}{48}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Various generator architectures }{48}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.4.6}Preliminary models validation: IC operating point }{46}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Modeling the voltage pulse generator and the probe}{47}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Various generator architectures }{47}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Voltage pulse generator naive model }{48}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}More elaborated generator model }{49}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}More elaborated generator model }{48}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Modeling BBI disturbances: further model validation}{49}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Dual-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{50}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Dual-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{49}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Triple-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{51}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Major differences between Dual-Well\xspace and Triple-Well\xspace circuits}{53}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Major differences between Dual-Well\xspace and Triple-Well\xspace circuits}{52}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}Dual-Well\xspace and Triple-Well\xspace circuits in practice }{53}{subsection.3.6.4}%
 \contentsline {section}{\numberline {3.7}Conclusion }{54}{section.3.7}%
 \contentsline {chapter}{\numberline {4}From more complete simulation models to fault model }{55}{chapter.4}%
@@ -108,7 +108,7 @@
 \contentsline {section}{\numberline {6.1}Contributions}{72}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Outlooks}{72}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Final remarks}{72}{section.6.3}%
-\contentsline {chapter}{Appendices}{73}{section*.42}%
-\contentsline {xchapter}{}{73}{section*.42}%
-\contentsline {chapter}{Bibliography}{91}{section*.44}%
-\contentsline {xchapter}{}{91}{section*.44}%
+\contentsline {chapter}{Appendices}{73}{section*.41}%
+\contentsline {xchapter}{}{73}{section*.41}%
+\contentsline {chapter}{Bibliography}{91}{section*.43}%
+\contentsline {xchapter}{}{91}{section*.43}%

@@ -10,9 +10,9 @@ Eventually, I am able to draw conclusions on such improvements thanks to simulat
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGenImpMatch}
     \input{2_goodPractices/figures/bbiPracticeImpGnd}
     The first proposed improvement concerns the generated voltage pulse characteristics.
-    As we observed previously, the various parameters set points were not met.
-    In a fault injection context, it is an undesirable behavior, as it is required to finely control the generated pulse to produce controlled disturbances into ICs.
-    Therefore, and because most high speed high voltage pulse generator are specified to be loaded with a precise impedance, I simply propose to connect a known load directly at the output of the generator model.
+    As I have shown previously, the various set point parameters are not met.
+    In a fault injection context, it is an undesirable behavior, as it is required to finely control the generated pulse to produce controlled disturbances into the targeted IC.
+    Therefore, and because most high speed high voltage pulse generator are specified to be loaded with a precise impedance, I simply propose to connect a known load directly at the output of the generator.
     In my model, a \fiftyOhms{50} resistor is loaded at the generator output, as illustrated in red in Fig. \ref{fig:bbiPracticeImpGnd}.
     Thus, the generator sees the impedance network formed by the compensation load, the IC, the transmission line, and the grounding installation.
     However, because the grounding installation is platform dependent, it is required, in order to perform a better impedance matching of the generator output, to improve the grounding, which leads to the other platform enhancement described in the following section.
@@ -69,21 +69,30 @@ After that, we will take a look at actual measurements allowing to spot the impr
     \subsection{Generator impedance matching in practice \ddcu}
 %    \textcolor{orange}{Add pictures of real platform impedance matching.}
     \input{2_goodPractices/figures/impMatching.tex}
-    An ideal impedance matching implementation should be adaptive and vary the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
-    It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to adapt the compensation load impedance value.
+    The impedance matching solution proposed and used during my experiments is shown in Fig. \ref{fig:impMatchPhoto}.
+    However, it is far from being perfect.
+    For instance, an ideal impedance matching implementation should be adaptive and dynamically change the impedance seen by the generator to perfectly match 50 \textOmega\xspace in every case.
+    It would require a system with feedback, capable of measuring in real time the impedance presented by the IC target, in addition to the transmission line characteristics, to be able to dynamically adapt the compensation load impedance value.
     However, this is not the approach I have chosen.
-    Indeed, the goal here is to minimize financial cost and platform modification, while allowing for better control over the platform parameters.
+    Indeed, the goal here is to minimize financial cost and platform modification, while allowing for better control over the platform parameters, whilst keeping a constant probe design.
+    However, there is a trivial improvement which can be done, and is shown in Fig. \ref{fig:impMatchPhotoNew}.
+    Instead of connecting the compensation load at the generator output, one can connect it at the transmission line output, also known as the probe input.
+    Although it was not used during my experiments, it is a solution which can be considered.
 
-    Another possibility would be to first measure the average IC backside impedance over its entire area or only the targeted area (such as the cryptographic core for instance).
-    Then, thanks to the average value, the compensation load impedance could be chosen to better match the required 50 \textOmega\xspace.
+    Another room for improvement would be to do a single and static measurement of the average IC backside impedance over its entire area, or over the targeted area (such as the cryptographic core for instance).
+    Then, thanks to this value, the compensation load impedance could be chosen to better match the required 50 \textOmega\xspace.
 
-    Eventually, the solution I selected is fairly simple.
-    It consists in connecting a compensation load at the generator output, which is in a \fiftyOhms{50} SMA terminator.
-    The actual implementation is shown in Fig. \ref{fig:impMatchPhoto}.
-    It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
-    However, it is a solution requiring little to no change to an existing platform and has proven to be good enough thanks to the previous models.
-    A better approach would be to connect toe compensation load in parallel with the probe instead of the generator output.
-    I did not choose this option as it is probe dependent, while the generator option is universal and provides very good results.
+    Eventually, other shortcomings that neither of these solutions consider are the exact nature of the IC load.
+    Indeed, the IC presents a complex impedance, which cannot be strictly approximated to a resistive load.
+    Due to its internal structure, its impedance also has capacitive and inductive components.
+    Therefore, considering them should lead to even better impedance matching.
+%    Eventually, the solution I selected is fairly simple.
+%    It consists in connecting a compensation load at the generator output, which is in a \fiftyOhms{50} SMA terminator.
+%    The actual implementation is shown in Fig. \ref{fig:impMatchPhoto}.
+%    It is far from ideal, as this solution does not consider the transmission line nor the IC effective load nor the capacitive and/or inductive nature of the IC in addition to its resistive nature.
+    However,because the chosen solution requires little to no change to an existing platform and has proven to be good enough thanks to the previous models and the following results, I decided to stick to it.
+%    A better approach would be to connect toe compensation load in parallel with the probe instead of the generator output.
+%    I did not choose this option as it is probe dependent, while the generator option is universal and provides very good results.
 
     \subsection{Grounding installation bypass in practice \ddcu}
 %    \textcolor{orange}{Add pictures of real GND bypass.}
