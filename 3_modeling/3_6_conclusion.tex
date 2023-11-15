@@ -6,10 +6,18 @@ The most important things they taught me are how energy is flowing inside the su
 Thanks to an analysis of charges concentration in the substrate, I was able to observe that most of the energy flows below the \bbi probe.
 Therefore, it shows that \bbi seems to be a local fault injection method, such as \lfi, even if their precision is on different levels.
 Then, thanks to a deep study of two substrate types: \dwF and \twF, I was able to draw conclusions on how \bbi pulses impact the energy propagation inside ICs.
-I observed that for negative pulses, in \dwF substrates, ICs are DC-coupled with the probe, thus allowing for energy to flow during the entire duration of the pulse.
+I observed that for negative pulses, in \dwF substrates, ICs are DC-coupled with the probe, thus allowing for energy to flow during the entire duration of the pulse, which lead to more effective energy being transferred into the IC.
+Therefore, it represents a potentially higher hazard concerning IC integrity.
 On the other hand, in \twF substrates and negative pulses, ICs are entirely AC-coupled to the probe, thus allowing energy to only flow on the edges of the pulse.
-These differences mean that for a given disturbance, a lower amount of energy can be transferred into a \twF IC compared to a \dwF IC.
-Therefore, it is important to keep this in mind concerning the potential hazards \bbi practice on \dwF ICs could involve.
+It means that less effective energy is transferred, leading to potentially less dangerous experiments.
+
+Then, I explained why I only considered negative pulses for my work.
+Because the pulse polarity has an impact on the coupling, and because positive pulses allow for more resistive paths for the charges, it is potentially more dangerous for the IC target.
+These difference in IC integrity hazard have been observed in actual experiments.
+Indeed, performing a single \gcfam such as it was presented in the second chapter led the target to cease to function.
+However, I did not conduct extensive testings concerning these hazards in an objective to preserve as much IC targets as possible for the success of my experiments.
+%These differences mean that for a given disturbance, a lower amount of energy can be transferred into a \twF IC compared to a \dwF IC.
+%Therefore, it is important to keep this in mind concerning the potential hazards \bbi practice on \dwF ICs could involve.
 
 %In this chapter, I have introduced a modeling and simulation flow for Body Biasing Injection.
 %The models are based on a typical integrated circuit structure, including the power delivery network, the logic gates and the silicon substrate.

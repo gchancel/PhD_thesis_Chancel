@@ -17,15 +17,23 @@
 
     \subsubsection{Laser fault injection \ddc}
     \label{chap:1;sect:fInjTech;subsect:lfi}
-    Laser fault injection (\lfi), sometimes called optical fault injection, has been introduced in 2002 \cite{firstLfi} and is a more complex technique than \gfi.
-    However, its precision is immensely better, at the cost of being semi-invasive, and in some cases invasive.
-    \lfi consists in targeting specific regions of the IC with laser beams of specific wavelengths.
-    Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, the IC substrate thickness, etc.
-    Although \lfi requires chip preparation, it is often minimal.
-    \lfi works thanks to the fact that every silicon semiconductor device (diode, transistor...) is intrinsically sensitive to light, typically with wavelengths ranging from 400 nm to 1000 nm.
-    Therefore, if the light conveys enough energy, it is possible to change the state of some transistors, thus affecting logical values.
-    The main shortcoming of \lfi is the platform price.
-    \textcolor{orange}{Add more details.}
+    Laser fault injection (\lfi), sometimes called optical fault injection, has been introduced in 2002 \cite{firstLfi}.
+    It is a more elaborated technique than \gfi.
+%    and is a more complex technique than \gfi.
+    However, its precision is immensely better, at the cost of being semi-invasive, and in some cases totally invasive.
+    \lfi consists in targeting specific regions of an IC with laser beams of specific wavelengths.
+    Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, or the IC substrate thickness not to cite them all.
+    Although \lfi requires chip preparation, most of the time it is minimal.
+    Indeed, very often, \lfi is done from the backside of the chip, therefore requiring the removal of the package.
+
+    Laser fault injection works thanks to the fact that silicon semiconductor devices, such as diodes or transistors, are intrinsically sensitive to light, typically with wavelengths ranging from 400 nm to 1000 nm.
+    This is caused by the photoelectric effect resulting from the light interaction with silicon.
+    Therefore, when the light that passes through silicon conveys more energy than the silicon bandgap, it creates electron-hole pairs (due to the photoelectric effect \cite{photoelec}).
+    Often, these carrier pairs recombine silently.
+    However, depending on where the laser beam travels, especially through one of the reverse biased PN junction of a transistor, where the electric field is naturally strong, the carriers deflect instead of recombining, which lead to the creation of an electric current.
+%    it is possible to change the state of some transistors, thus affecting logical values.
+    When compared to other fault injections techniques, the main shortcoming of \lfi is the total platform price.
+%    \textcolor{orange}{Add more details.}
 
     \subsubsection{Electromagnetic fault injection \ddc}
     \label{chap:1;sect:fInjTech;subsect:emfi}

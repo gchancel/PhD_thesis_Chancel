@@ -6,7 +6,7 @@
 \contentsline {xchapter}{}{xv}{chapter*.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction and state of the art }{1}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces PLACEHOLDER.\relax }}{9}{figure.caption.2}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \tooltip [black]{EMFI}[orange]{Electromagnetic Fault Injection}\xspace fault model.\relax }}{9}{figure.caption.2}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Body Biasing Injection platforms and good practices }{11}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic extracted from C. O'Flynn \cite {bbiColin}: \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace injection device proposed by C. O'Flynn \cite {bbiColin}, using a transformer to produce high voltage pulses from a low voltage power supply.\relax }}{14}{figure.caption.3}%
@@ -39,17 +39,17 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Triple-Well\xspace \tooltip [black]{SCS}[orange]{Standard-Cell Segment}\xspace simulation results at the apex of the pulse disturbance.\relax }}{51}{figure.caption.32}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces IC ground Current mapping and IR photograph of our IC target.\relax }}{53}{figure.caption.33}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{From more complete simulation models to fault model }{55}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated inverters under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace schematics.\relax }}{57}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Inverters under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace simulation results.\relax }}{58}{figure.caption.35}%
+\contentsline {xchapter}{From more complete simulation models to fault model }{57}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulated inverters under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace schematics.\relax }}{59}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Inverters under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace simulation results.\relax }}{60}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Substrate thinning analysis }{61}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{63}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view and normalized voltage concentration at the peak amplitude of the first voltage pulse edge.\relax }}{65}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fault susceptibility maps\relax }}{67}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Susceptibility area spreading\relax }}{67}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fault susceptibility maps couples\relax }}{67}{figure.caption.40}%
+\contentsline {xchapter}{Substrate thinning analysis }{63}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{65}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view and normalized voltage concentration at the peak amplitude of the first voltage pulse edge.\relax }}{67}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fault susceptibility maps\relax }}{69}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Susceptibility area spreading\relax }}{69}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fault susceptibility maps couples\relax }}{69}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and perspectives}{71}{chapter.6}%
-\contentsline {xchapter}{}{73}{section*.41}%
-\contentsline {xchapter}{}{91}{section*.43}%
+\contentsline {xchapter}{Conclusion and perspectives}{73}{chapter.6}%
+\contentsline {xchapter}{}{75}{section*.41}%
+\contentsline {xchapter}{}{93}{section*.43}%

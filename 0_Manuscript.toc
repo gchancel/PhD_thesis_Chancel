@@ -84,31 +84,32 @@
 \contentsline {subsection}{\numberline {3.6.2}Triple-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{51}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}Major differences between Dual-Well\xspace and Triple-Well\xspace circuits}{52}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}Dual-Well\xspace and Triple-Well\xspace circuits in practice }{53}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}A word on voltage pulses polarity }{54}{subsection.3.6.5}%
 \contentsline {section}{\numberline {3.7}Conclusion }{54}{section.3.7}%
-\contentsline {chapter}{\numberline {4}From more complete simulation models to fault model }{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary }{56}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction }{56}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Simulation flow follow-up }{57}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Simulation follow-up results and analysis }{58}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Triple-Well\xspace substrate results and analysis}{59}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Dual-Well\xspace substrate results and analysis}{59}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}A final word on the fault model for \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{59}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Conclusion }{60}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Substrate thinning analysis }{61}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary }{62}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction }{62}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Theoretical modeling: the effects of substrate thickness on \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{63}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Geometric modeling }{63}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Electric approach }{65}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Models validation }{66}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}A few words about IC substrate thinning }{66}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Experiments with thinned circuits }{67}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Conclusion }{69}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Conclusion and perspectives}{71}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Contributions}{72}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Outlooks}{72}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Final remarks}{72}{section.6.3}%
-\contentsline {chapter}{Appendices}{73}{section*.41}%
-\contentsline {xchapter}{}{73}{section*.41}%
-\contentsline {chapter}{Bibliography}{91}{section*.43}%
-\contentsline {xchapter}{}{91}{section*.43}%
+\contentsline {chapter}{\numberline {4}From more complete simulation models to fault model }{57}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary }{58}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction }{58}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Simulation flow follow-up }{59}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Simulation follow-up results and analysis }{60}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Triple-Well\xspace substrate results and analysis}{61}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Dual-Well\xspace substrate results and analysis}{61}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}A final word on the fault model for \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{61}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Conclusion }{62}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Substrate thinning analysis }{63}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary }{64}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction }{64}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Theoretical modeling: the effects of substrate thickness on \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{65}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Geometric modeling }{65}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Electric approach }{67}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Models validation }{68}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}A few words about IC substrate thinning }{68}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Experiments with thinned circuits }{69}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Conclusion }{71}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion and perspectives}{73}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Contributions}{74}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Outlooks and discussions}{74}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Final remarks}{74}{section.6.3}%
+\contentsline {chapter}{Appendices}{75}{section*.41}%
+\contentsline {xchapter}{}{75}{section*.41}%
+\contentsline {chapter}{Bibliography}{93}{section*.43}%
+\contentsline {xchapter}{}{93}{section*.43}%

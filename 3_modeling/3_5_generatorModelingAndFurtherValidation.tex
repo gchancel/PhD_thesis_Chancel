@@ -59,6 +59,11 @@ The probe is a 30 µm square probe, placed at the IC center, and the generator s
     \item Rise and fall times: 8 ns;
     \item Approximate impedance matching realized thanks to a \fiftyOhms{50} load, as described in the Chapter \ref{chap:2_goodPractices}.
 \end{itemize}
+
+An important thing to note here is the exclusive use of negative voltage pulses.
+As the further results illustrate the nature of the coupling between the probe and the IC targets depending on the substrate type, the polarity of the pulse also has an impact on the coupling, and therefore the amount of effective energy transferred into the target.
+I discuss deeper the actual impact of pulse polarity later on in this chapter.
+
 For each considered IC, we observe various signals in a two-dimensional view to fully appreciate the spatial behavior of the ICs under \bbi, at the apex of the disturbance:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
@@ -189,6 +194,30 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     On the other hand, glue logic, such as the CPU core and the cryptographic coprocessor are manufactured using \twF substrates, to take advantage of the isolation it provides.
     As expected, the measured current above the glue logic is lower compared to the analog or the FLASH control area.
 
+    \subsection{A word on voltage pulses polarity \ddcnew}
+    Eventually, let us linger on voltage pulses polarity.
+    As I have shown, for negative voltage pulses, the coupling are the following:
+    \begin{itemize}
+        \setlength\itemsep{-0.1em}
+        \item \dwF: resistive with the GND power rail, due to a direct contact with the probe through the substrate;
+        \item \dwF: capacitive with the VDD power rail, due to the N-well diode being blocked;
+        \item \twF: capacitive with both power rails, due to both N-well and P-well diode being blocked.
+    \end{itemize}
+    However, there are differences when using positive voltage pulses.
+    They are not covered by the simulations as I excluded them completely of the experiments for IC integrity preservation.
+    Indeed, experiments such as the \gcfam presented in the second chapter of my thesis were first conducted using both negative and positive pulses.
+    While giving similar results, a single experiment led to the destruction of the target.
+    It was repeated thrice, until I decided to definitely stop using positive pulses.
+    Effectively, preserving the IC targets is of great importance in this context, as opened and thinned ICs are not that easy to obtain.
+    Thanks to the models, I was able to determine the nature of the coupling for positive pulses:
+    \begin{itemize}
+    \setlength\itemsep{-0.1em}
+        \item \dwF: resistive with both GND and VDD rails, as the N-well diode becomes conducting due to the positive pulse;
+        \item \twF: resistive with the VDD power rail, due to the N-well diode being conducting, creating a resistive path towards VDD;
+        \item \twF: capacitive with the GND rail, as the P-well diode is still blocking.
+    \end{itemize}
+    Therefore, by creating a resistive coupling with both \dwF and \twF areas of the target, it allows for even more energy to effectively be transferred into it, leading to a higher chance of destruction compared to negative pulses.
+    It explains why I am only considering negative pulses in my work.
 %\section{Voltage pulse generator model and further validation \ddcold}
 %\label{section:genModel}
 %

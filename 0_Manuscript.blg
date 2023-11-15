@@ -28,45 +28,45 @@ You're missing a field part---line 589 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in firstLfi
 Warning--empty journal in bbiOrigin
-You've used 45 entries,
+You've used 47 entries,
             1791 wiz_defined-function locations,
-            762 strings with 13453 characters,
-and the built_in function-call counts, 14249 in all, are:
-= -- 1308
-> -- 617
+            777 strings with 13819 characters,
+and the built_in function-call counts, 14773 in all, are:
+= -- 1356
+> -- 638
 < -- 31
-+ -- 217
-- -- 172
-* -- 875
-:= -- 2048
-add.period$ -- 150
-call.type$ -- 45
-change.case$ -- 45
++ -- 225
+- -- 178
+* -- 920
+:= -- 2131
+add.period$ -- 156
+call.type$ -- 47
+change.case$ -- 47
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 717
-empty$ -- 1355
-format.name$ -- 172
-if$ -- 3408
+cite$ -- 49
+duplicate$ -- 735
+empty$ -- 1406
+format.name$ -- 178
+if$ -- 3521
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 42
-newline$ -- 229
-num.names$ -- 67
-pop$ -- 194
+int.to.str$ -- 47
+missing$ -- 44
+newline$ -- 239
+num.names$ -- 69
+pop$ -- 196
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 475
+skip$ -- 481
 stack$ -- 0
-substring$ -- 944
-swap$ -- 303
+substring$ -- 1002
+swap$ -- 305
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 141
-width$ -- 47
-write$ -- 521
+while$ -- 146
+width$ -- 49
+write$ -- 543
 (There was 1 error message)

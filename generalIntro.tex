@@ -1,10 +1,25 @@
+
 % !TeX root = ../0_Manuscript.tex
+My thesis is part of cybersecurity research, more specifically hardware security and fault injection methods.
+Cybersecurity is a broad term often used in many applications where its definition may greatly vary.
+However, hardware security and fault injection are well-defined.
 
-Over the past years, various fault injection methods, representing a significant threat for secure integrated circuits, have been extensively studied, like laser fault injection (\lfi), or more recently electromagnetic fault injection (\emfi).
-The purpose of these studies is to propose efficient countermeasures at the right cost.
-They have had multiple objectives, such as understanding the various phenomena at the origin of fault creation, or being able to simulate fault propagation over multiple abstraction levels.
+First, let us linger on the term "hardware".
+Hardware often refers to the foundation on which a computer system is built.
+Often, and from a software perspective, it is perceived as a black box running the instructions interpreted or compiled from the software layer.
+However, it is more than that.
+Indeed, hardware also includes the actual implementations of algorithms, for instance cryptographic algorithms, where they can be optimized both in performance, power efficiency, and security.
+Therefore, hardware security refers to the latter, from the testing of hardware solutions to formal verification.
 
-Voltage pulse substrate fault injection, commonly called Body Biasing Injection (\bbi), while being contemporary to \emfi, led to very few researches and studies in comparison. Up to the best of our knowledge, three scientific papers existed at the beginning of my thesis, back in 2020.
+On the other hand, the past few years have seen the emergence of fault injection.
+It refers to all the method and mechanisms employed to breach integrated circuits by disturbing their normal operation.
+Various fault injection methods, therefore representing a significant threat for secure integrated circuits, have been extensively studied, like laser fault injection (\lfi), or more recently electromagnetic fault injection (\emfi).
+Thus, fault injection became a central topic in hardware security, as understanding how these techniques affect integrated circuits allow proposing efficient countermeasures at the right cost.
+%The purpose of these studies is to propose efficient countermeasures at the right cost.
+It ranges from the understanding of the various phenomena at the origin of fault creation, to being able to simulate fault propagation over multiple abstraction levels.
+Nowadays, fault injection is a major threat for secure integrated circuits, for instance, in 2017, a study has demonstrated the feasibility of secure boot bypassing on an Android smartphone thanks to laser fault injection \cite{lfiSecureBootSmartphone}.
+
+On another scope, voltage pulse substrate fault injection, commonly called Body Biasing Injection (\bbi), while being contemporary to \emfi, led to very few researches and studies in comparison. Up to the best of our knowledge, three scientific papers existed at the beginning of my thesis, back in 2020.
 
 The LIRMM (Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier: Computer Sciences, Robotics and Microelectronics Laboratory of Montpellier), inventor of this technique in 2011, proposed this thesis to answer various  questions such as:
 \begin{itemize}
