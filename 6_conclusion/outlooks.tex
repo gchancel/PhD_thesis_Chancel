@@ -1,3 +1,18 @@
 
 \section{Outlooks and discussions}
 \label{concl_outlook}
+While I have brought new knowledge concerning body biasing injection, there is a lot of room for improvement and for additional work to be done.
+
+First, as I have mentioned in the second chapter, better impedance matching methods can be implemented.
+The simplest one is depicted in Fig. \ref{fig:impMatchPhotoNew}.
+We started using this implementation in the lab, and it has proven to be more efficient at matching the generator output impedance by providing less ringing and better voltage and pulse width set point values.
+Then, to even better provide impedance matching, an active system should be implemented, therefore allowing for adaptability over various pulse generators.
+
+Then, many other aspects can be explored using \bbi.
+For instance, RAM fault injection has not yet be studied, and similar to what has been done with \lfi \cite{lfiFaultModel}, memory elements behavior, both static and dynamic, under body biasing injection, could help having a better understanding of the mechanisms at work inside the integrated circuits.
+Afterward, FLASH memory modifications, if possible, should be investigated, as if such data modification is possible using \bbi, it could be very powerful.
+
+Concerning the modeling of \bbi, especially the simulation follow-up presented in the fourth chapter, deeper analysis of more complex logic IC have to be conducted to fully verify the soundness of my conclusions.
+For example, and as the substrate simulation is one of the heaviest calculation, computationally speaking, when performing \scs simulation, the two steps simulation flow I presented could be maintained, while simulation an equivalent logical circuit analogous to the \scs one.
+However, if by doing so, it eliminates the simultaneous calculation of substrate behavior and logic gates behavior, it still requires a lot of computational power.
+Nevertheless, a single \scs simulation data could be used in many logic gates simulations, thus reducing the total computing time.
