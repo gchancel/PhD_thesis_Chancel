@@ -1,9 +1,9 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {xchapter}{}{x}{Doc-Start}%
-\contentsline {xchapter}{}{xi}{Doc-Start}%
+\contentsline {xchapter}{}{xii}{Doc-Start}%
 \contentsline {xchapter}{}{xiii}{Doc-Start}%
-\contentsline {xchapter}{}{xv}{chapter*.1}%
+\contentsline {xchapter}{}{xv}{Doc-Start}%
+\contentsline {xchapter}{}{xvii}{chapter*.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction and state of the art }{1}{chapter.1}%
 \contentsline {figure}{\numberline {1.1}{\ignorespaces \tooltip [black]{EMFI}[orange]{Electromagnetic Fault Injection}\xspace fault model.\relax }}{9}{figure.caption.2}%
@@ -51,5 +51,5 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Fault susceptibility maps couples\relax }}{69}{figure.caption.40}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusion and perspectives}{73}{chapter.6}%
-\contentsline {xchapter}{}{76}{section*.41}%
+\contentsline {xchapter}{}{77}{section*.41}%
 \contentsline {xchapter}{}{95}{section*.43}%

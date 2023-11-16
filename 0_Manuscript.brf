@@ -1,7 +1,7 @@
-\backcite {bbiColin}{{ix}{(document)}{Doc-Start}}
-\backcite {bbiColin}{{ix}{(document)}{Doc-Start}}
-\backcite {mathieuEMFI}{{ix}{(document)}{Doc-Start}}
-\backcite {lfiSecureBootSmartphone}{{xv}{(document)}{Doc-Start}}
+\backcite {bbiColin}{{xi}{(document)}{Doc-Start}}
+\backcite {bbiColin}{{xi}{(document)}{Doc-Start}}
+\backcite {mathieuEMFI}{{xi}{(document)}{Doc-Start}}
+\backcite {lfiSecureBootSmartphone}{{xvii}{(document)}{Doc-Start}}
 \backcite {securityInIcs}{{2}{1.2}{section.1.2}}
 \backcite {aesRijndaelProp}{{3}{1.2}{section.1.2}}
 \backcite {desOrigin}{{3}{1.2}{section.1.2}}
@@ -72,6 +72,6 @@
 \backcite {lfiThinning2}{{64}{5.2}{section.5.2}}
 \backcite {FIBthinning}{{68}{5.4.1}{subsection.5.4.1}}
 \backcite {lfiThinning}{{71}{5.5}{section.5.5}}
-\backcite {lfiThinning}{{74}{6.1.4}{subsection.6.1.4}}
-\backcite {lfiThinning2}{{74}{6.1.4}{subsection.6.1.4}}
-\backcite {lfiFaultModel}{{75}{6.2}{section.6.2}}
+\backcite {lfiThinning}{{75}{6.2.4}{subsection.6.2.4}}
+\backcite {lfiThinning2}{{75}{6.2.4}{subsection.6.2.4}}
+\backcite {lfiFaultModel}{{75}{6.3}{section.6.3}}
