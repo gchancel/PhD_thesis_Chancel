@@ -3,18 +3,18 @@
 \label{concl_contrib}
 
     \subsection{Improvements of existing \bbi platforms}
-    Because \bbi was not a very much documented fault injection method prior to my thesis, the platforms as a whole were not optimized.
+    Because \bbi was not a very much documented fault injection method before my thesis, the platforms as a whole were not optimized.
     Indeed, most experiments were difficult to reproduce without major variability.
     In addition to this, with our original platform, the range between a normal behavior and a crash of the target was very tight, therefore preventing the execution of fault attacks.
     The goal of circumventing these limitations allowed me to set up enhancements for the practice of \bbi, at the same time efficient and easy to set up.
 
     \subsection{\bbi simulation flow}
-    To better understand the mechanisms at work in integrated circuits under body biasing injection, I developed a simulation flow allowing me to predict the various disturbances appearing inside the IC targets.
+    To better understand the mechanisms at work in integrated circuits under body biasing injection, I developed a simulation flow, allowing me to predict the various disturbances appearing inside the IC targets.
     The base models were extracted from previous works concerning \emfi simulation, and they were enhanced to match the needs of \bbi simulation.
     The models were developed for bulk technologies, considering both \dwF and \twF substrate types.
     However, these models were made to allow for fast simulation of relatively large circuits.
     Therefore, they did not include logic functions.
-    To that end, I extended the simulation flow to properly consider logic gates behavior under \bbi.
+    To that end, I extended the simulation flow to properly consider logic gates' behavior under \bbi.
     Eventually, these analyses allowed me to understand the mechanisms at work in fault creation under \bbi.
 
     \subsection{First documented differential fault attack using Giraud's criterion with \bbi}
@@ -23,7 +23,7 @@
     Therefore, by using single bit faults data obtained on my target AES coprocessor, I was able to conduct a Giraud's \dfa and retrieve 14 out of 16 bytes of the secret AES key.
 
     \subsection{Substrate thinning analysis and \bbi efficiency}
-    Similar to what has been done in the past for \lfi \cite{lfiThinning, lfiThinning2}, I conducted similar researches on \bbi concerning IC substrate thinning.
+    Similar to what has been done in the past for \lfi \cite{lfiThinning, lfiThinning2}, I conducted similar research on \bbi concerning IC substrate thinning.
     Because the substrate is the physical environment conveying the charge carriers, analyzing what happens, both with electric models and with actual circuits, when the substrate thickness changes, is fundamental.
     I observed that thinning the substrate is mainly useful when the generator power is not sufficient.
     Therefore, while there is enough generator power, increasing the voltage with the substrate thickness leads to very similar results.

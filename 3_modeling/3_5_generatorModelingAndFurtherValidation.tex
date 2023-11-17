@@ -1,36 +1,36 @@
 \section{Modeling the voltage pulse generator and the probe}
 In this section, I describe the various steps I went through to properly model the voltage pulse generator and the problem it arises.
-In the first place, I present a very simple and naive way of modeling the generator, using an ideal voltage source.
-Then, after having analyzed the shortcomings of such model, I introduce a better model which better suits an actual generator.
-Eventually, I analyze preliminary validation results including the new generator model.
+In the first place, I present an elementary and naive way of modeling the generator, using an ideal voltage source.
+Then, after having analyzed the shortcomings of such a model, I introduce a better model which better suits an actual generator.
+Eventually, I analyze preliminary validation results, including the new generator model.
 
     \subsection{Various generator architectures \ddcnew}
     There are several existing types of pulse generator.
     Some of them are designed as voltage sources, while others are current sources.
     In addition to this, the way their output stage is designed is also the origin of important behavioral differences.
-    It is then important to take a quick look at these architectural differences.
+    It is then important to take a brief look at these architectural differences.
 %    Because there are various generator architecture, whether they are voltage sources, current sources, or how their output stage is designed, it is important to first take a look at them.
-    We can distinguish pulse generator into two categories depending on their output stage coupling: DC-coupled and AC-coupled.
+    We can distinguish pulse generators into two categories depending on their output stage coupling: DC-coupled and AC-coupled.
     In my work, I use a voltage source DC-coupled generator, but it is not the case of all other works.
     Therefore, I am going to cite various documented generators which have been used for the study of \bbi.
 
     For instance, in \cite{japbbi} and \cite{japbbi2}, the authors used an \esd gun to create the pulses on their IC substrate.
     These devices typically have a DC-coupled output, commonly feature an RCR output filter, and are designed to generate single pulses, very short and of very high voltage, without having a fine control over rise and fall times or pulse width.
-    Their output impedance is not finely controller when compared to high precision high voltage pulse generators.
+    Their output impedance is not finely controller when compared to high-precision high voltage pulse generators.
     Therefore, it is important to consider these parameters when elaborating an electrical model.
 
-    On the other hand, there are other works, such as \cite{bbiColin}, in which the generator output stage consists in a transformer.
-    Therefore, it is AC-coupled to the IC, which changes drastically the electrical behavior of such generator compared to a DC-coupled one.
+    On the other hand, there are other works, such as \cite{bbiColin}, in which the generator output stage consists of a transformer.
+    Therefore, it is AC-coupled to the IC, which changes drastically the electrical behavior of such a generator compared to a DC-coupled one.
     For instance, it is not possible to inject energy into the IC outside of pulse edges, while on DC-coupled generators it is.
 
-    Eventually, like in my work, there are very high voltage high precision generators, which are DC-coupled and allow for precise pulse width and voltage set point.
+    Eventually, like in my work, there are very high voltage high-precision generators, which are DC-coupled and allow for precise pulse width and voltage set point.
     Their output stage may vary unit to unit, but their output impedance is precisely controller.
     In my case, the generator is specified to deliver its specifications into a \fiftyOhms{50} load.
 
     With this in mind, let us jump into the next section.
 
     \subsection{Voltage pulse generator naive model \ddcpu}
-    First, let us consider a very simple voltage generator, an ideal variable voltage source, and a very simple probe, a perfect wire.
+    First, let us consider a simple voltage generator, an ideal variable voltage source, a basic probe, and a perfect wire as a transmission line.
     In that scenario, as the generator is DC-coupled, it is biasing the substrate at 0 V at rest.
     However, under normal conditions, an IC substrate should not be biased externally.
     Indeed, whether in my model or in an actual IC, it can create unexpected behavior.
@@ -81,12 +81,12 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     Sub-fig. \ref{subfig_vsupplyDw} shows us the power supply differential voltage distribution across the entire IC (top-view).
     As mentioned before, the power rails are located at the top and bottom of the IC.
     Quite naturally, we can observe less deviation from the nominal 1.2 V value at these spots.
-    However, at the IC center, just below the probe, the power supply differential voltage rises up to 2.8 V.
+    However, at the IC center, just below the probe, the power supply differential voltage rises to 2.8 V.
     This represents a 133 \% increase over the nominal value.
     Fortunately, it lasts only a few dozen of nanoseconds.
 
     Sub-fig. \ref{subfig_iEpiDw} shows us the current distribution at the epitaxy level (the highest substrate layer), which represents the charges going from the substrate to the top of the \scs.
-    What is worth noting here is that most of the charges are flowing through the center of the IC (a.k.a below the probe).
+    What is worth noting here is that most of the charges are flowing through the center of the IC (a.k.a. below the probe).
     It is to be expected with an isotropic environment such as the substrate.
     It is also natural to observe when comparing with sub-fig. \ref{subfig_vsupplyDw}, where the power delivery deviation were stronger below the probe.
 
@@ -100,7 +100,7 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     As for sub-fig. \ref{subfig_vsubcDw} and \ref{subfig_isubcDw}, they represent respectively the voltage concentration and the current concentration.
     For each substrate layer (14 layers in that case as we simulated a 140 µm substrate), the voltage was normalized along the 3D Y-axis, thus allowing to grasp and compare each layer to the other.
     The higher the layer number, the closer to the probe, and the lower the normalized value, the higher the charge concentration.
-    What is very interesting to remark here is that on both sub-figures and for each layer, most charges are focused in the center of the layer.
+    What is noticeable here is that on both sub-figures and for each layer, most charges are focused in the center of the layer.
     Then, the deeper we go inside the substrate, the wider the focusing.
     This result is to be expected.
     Indeed, because the charges diffuse homogeneously inside the substrate, the further they are from the probe, the more they have diffused.
@@ -127,7 +127,7 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     Sub-fig. \ref{subfig_vsupplyTw} shows the power supply differential voltage distribution (top-view).
     As for the \dwF IC, the power rails are located at the top and bottom.
     What should be observed here is that there are less spatial variations compared to the \dwF substrate, and the power supply voltage is lower at the center of the IC instead of being higher.
-    In addition to this, the deviation is a lot less important on that case, with a voltage only down to 1.1 V from the nominal 1.2 V.
+    In addition to this, the deviation is a lot less important in that case, with a voltage only down to 1.1 V from the nominal 1.2 V.
 
     Sub-fig. \ref{subfig_iEpiTw} shows us some interesting results.
     At the peak of the disturbance, there is almost no current at the epitaxy level.
@@ -168,18 +168,18 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     Therefore, the substrate is AC-coupled with the logic gates in a \twF substrate, while it is DC-coupled with the NMOS and AC-coupled with the PMOS in a \dwF substrate.
     These structural differences result in behavioral differences when performing \bbi, as we have observed thanks to the simulations.
     Therefore, it changes the way one can create faults in an IC, or an IC region, depending on the substrate type.
-    In addition to this, because energy can only flow during voltage changes in an AC-coupled scenario, the effective current over a given injection with fixed parameters will always be lower on a \twF substrate compared to a \dwF substrate, where the DC-coupling allows for energy transfer during the pulse plateau.
+    In addition to this, and because energy can only flow during voltage changes in an AC-coupled scenario, the effective current over a given injection with fixed parameters will always be lower on a \twF substrate compared to a \dwF substrate, where the DC-coupling allows for energy transfer during the pulse plateau.
 
     \subsection{\dwF and \twF circuits in practice \ddcnew}
     \input{3_modeling/figures/modelesSimusResul/cartoIgnd.tex}
-    Thanks to the previous observations and conclusions, we can expect to observe such substrate structural differences on an actual IC.
+    Thanks to the previous observations and conclusions, we can expect to notice such substrate structural differences on an actual IC.
     Therefore, we can expect \dwF regions to exhibit a higher amount of measured RMS current over \twF for a fixed set of experimental parameters.
     To that end, we chose to use our STM32F439 IC target and perform straightforward experiments.
 
     We called these experiments IC ground current mapping, and consists in choosing an arbitrary set of fixed pulse parameters, and performing a spatial sweep of the entire IC backside while measuring the current going out of the target ground connector at each location.
     For clarity purposes, only the RMS current is displayed in the mapping results.
     It is important to remark that in these experiments, the IC is powered-off, but connected to its main power supply.
-    Fig. \ref{cartoIgnd} shows experimental results for a 50 µm thick IC, and Fig. \ref{photostm} shows an IR photograph of the exact same target for comparison purposes.
+    Fig. \ref{cartoIgnd} shows experimental results for a 50 µm thick IC, and Fig. \ref{photostm} shows an IR photograph of the same target for comparison purposes.
     The experimental parameters are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
@@ -195,7 +195,7 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     As expected, the measured current above the glue logic is lower compared to the analog or the FLASH control area.
 
     \subsection{A word on voltage pulses polarity \ddcnew}
-    Eventually, let us linger on voltage pulses polarity.
+    Eventually, let us linger on voltage pulses' polarity.
     As I have shown, for negative voltage pulses, the coupling are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
@@ -204,11 +204,11 @@ For each considered IC, we observe various signals in a two-dimensional view to 
         \item \twF: capacitive with both power rails, due to both N-well and P-well diode being blocked.
     \end{itemize}
     However, there are differences when using positive voltage pulses.
-    They are not covered by the simulations as I excluded them completely of the experiments for IC integrity preservation.
+    They are not covered by the simulations, as I excluded them completely from the experiments for IC integrity preservation.
     Indeed, experiments such as the \gcfam presented in the second chapter of my thesis were first conducted using both negative and positive pulses.
     While giving similar results, a single experiment led to the destruction of the target.
     It was repeated thrice, until I decided to definitely stop using positive pulses.
-    Effectively, preserving the IC targets is of great importance in this context, as opened and thinned ICs are not that easy to obtain.
+    Effectively, preserving the IC targets is of great importance in this context, as opened and thinned ICs are difficult to obtain.
     Thanks to the models, I was able to determine the nature of the coupling for positive pulses:
     \begin{itemize}
     \setlength\itemsep{-0.1em}

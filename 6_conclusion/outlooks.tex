@@ -9,10 +9,11 @@ We started using this implementation in the lab, and it has proven to be more ef
 Then, to even better provide impedance matching, an active system should be implemented, therefore allowing for adaptability over various pulse generators.
 
 Then, many other aspects can be explored using \bbi.
-For instance, RAM fault injection has not yet be studied, and similar to what has been done with \lfi \cite{lfiFaultModel}, memory elements behavior, both static and dynamic, under body biasing injection, could help having a better understanding of the mechanisms at work inside the integrated circuits.
-Afterward, FLASH memory modifications, if possible, should be investigated, as if such data modification is possible using \bbi, it could be very powerful.
+For instance, RAM fault injection has not yet be studied, and similar to what has been done with \lfi \cite{lfiFaultModel}, memory elements behavior, both static and dynamic, under body biasing injection, could help to have a more profound understanding of the mechanisms at work inside the integrated circuits.
+Afterward, FLASH memory modifications, if possible, should be investigated, as if such data modification is possible using \bbi, it could be compelling.
 
-Concerning the modeling of \bbi, especially the simulation follow-up presented in the fourth chapter, deeper analysis of more complex logic IC have to be conducted to fully verify the soundness of my conclusions.
-For example, and as the substrate simulation is one of the heaviest calculation, computationally speaking, when performing \scs simulation, the two steps simulation flow I presented could be maintained, while simulation an equivalent logical circuit analogous to the \scs one.
+Concerning the modeling of \bbi, especially the simulation follow-up presented in the fourth chapter, more in-depth analysis of more complex logic IC has to be conducted to fully verify the soundness of my conclusions.
+For example, and as the substrate simulation is one of the heaviest calculations, computationally speaking, when performing \scs simulation, the two steps simulation flow I presented could be maintained, while simulation an equivalent logical circuit analogous to the \scs one.
 However, if by doing so, it eliminates the simultaneous calculation of substrate behavior and logic gates behavior, it still requires a lot of computational power.
 Nevertheless, a single \scs simulation data could be used in many logic gates simulations, thus reducing the total computing time.
+Eventually, it could be interesting to further explore the geometric approach, especially when considering the various areas of an IC which I did not study, such as the FLASH or the RAM, and analyzing if the geometric approach still makes sense.

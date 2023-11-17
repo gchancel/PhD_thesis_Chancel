@@ -4,8 +4,8 @@
 This chapter first presents the various existing \bbi platforms in the state-of-the-art, in addition to introducing my thesis \bbi platform.
 Then, I introduce improvements over the traditional platform used, allowing for better reproducibility and control over \bbi parameters when compared to state-of-the-art platforms.
 At the beginning of this work, I was working with a state-of-the-art like platform, and quickly noticed how difficult it could be to conduct reproducible experiments in various cases.
-This led me to elaborating the enhancements I propose in this chapter, which helps in reducing the variability of some parameters.
-In the fist place, I present a theoretical explanation of how the modifications could improve the platform.
+This led me to elaborating the enhancements I propose in this chapter, which help in reducing the variability of some parameters.
+In the first place, I present a theoretical explanation of how the modifications could improve the platform.
 Thanks to these improvements, I was able to draw better experimental results and compare them to results obtained using state-of-the-art platforms, in addition to verifying the soundness of such platform modifications.
 These experimental results are presented in the last part of this chapter thanks to elementary electrical experiments, followed by a differential fault attack, that I managed to perform thanks to the enhancements on a hardware AES coprocessor.
 Parts of these works were published in FDTC 2022 \cite{mybbiFdtc2022} and FDTC 2023 [\textcolor{orange}{FDTC2023REF}].
@@ -19,7 +19,7 @@ In the first place, we are going to introduce Body Biasing Injection platforms:
     \item What I am using for my experiments
 \end{itemize}
 Afterward, I present a general \bbi platform with its electrical model, in addition to evaluating the platform characteristics.
-Thanks to the model, I can perform electric simulations, allowing me to study and highlight its inherent flaws, such as:
+Thanks to the model, I can perform electric simulations, allowing me to study and highlight its inherent flaws, such as the following:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
     \item Poor control over the characteristics of the platform
@@ -33,8 +33,8 @@ Thereafter, I propose enhancements to overcome the previous platform shortcoming
     \item Matching the output impedance of the generator to reduce the ringing and bring the measurements closer to the specifications and the set points
     \item Bypassing the grounding installation to minimize platform dependency
 \end{itemize}
-After that, I present a deeper analysis of these enhancements, including ringing, set points accuracy, and load and transmission line dependency.
-Then, I discuss various techniques allowing to match the generator output impedance, in addition to introducing practical grounding installation bypass.
-Next, I perform actual experiments with our \bbi platform, including measurements of such platform, illustrating the enhancements in practice.
-Eventually, I introduce a constraining differential fault attack set-up with our platform.
+After that, I will present a more in-depth analysis of these enhancements, including ringing, set points accuracy, and load and transmission line dependency.
+Then, I will discuss various techniques allowing to match the generator output impedance, in addition to introducing practical grounding installation bypass.
+Next, I will perform actual experiments with our \bbi platform, including measurements of such platform, illustrating the enhancements in practice.
+Eventually, I will introduce a constraining differential fault attack set-up with our platform.
 It includes the attack description, followed by a thorough description of the IC target, sustained with experiments allowing me to perform the attack with more ease, with a comparison of a state-of-the-art platform with our enhanced platform, ended up by the attack results.

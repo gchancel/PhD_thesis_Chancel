@@ -1,7 +1,7 @@
 
 \section{Charge extortion \ddc}
 \label{chap5:sect:chargeExtortion}
-This section explains the charge extortion mechanism at work during BBI which allows fault creation.
+This section explains the charge extortion mechanism at work during BBI, which allows fault creation.
 The voltage pulse generator, at each edge of its pulse, injects and then extorts electrical charges into and out of the IC.
 %\subsection{Logic considerations \ddc}
 %\label{chap5:sect:chargeExtortion:subsect:logicConsiderations}
@@ -32,7 +32,7 @@ They are a memory component that is governed by a clock.
 At each rising-edge or falling-edge (depending on the design) of the clock, DFFs sample their input and replicate it at their output.
 Between DFFs are placed the logic gates, which fulfill a specific logical function.
 Because of this, values in sequential logic circuits can only be changed at the clock edges.
-Hence, in the event that an adversary is able to alter a logical value for an extended period of time at the input of a DFF, the subsequent combinatorial logic will yield an incorrect value, which will propagate to the subsequent DFFs.
+Hence, if an adversary can alter a logical value for an extended period of time at the input of a DFF, the subsequent combinatorial logic will yield an incorrect value, which will propagate to the subsequent DFFs.
 
 We are going to use this fault model, depicted in short in Fig. \ref{chap:5;fig:bbiSusc}, for the rest of this chapter.
 It is important to note that this model was first introduced for EMFI \cite{emfiFF}.

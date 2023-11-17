@@ -1,10 +1,10 @@
 
 \section{Integrated circuits structure \ddcnew}
-For the purpose of properly introducing the electrical models I developed for \bbi, it is required, in the first place, to linger on how integrated circuits are structured.
+For the purpose of properly introducing the electrical models I developed for \bbi, it is required, in the first place, to focus on how integrated circuits are structured.
 It involves analyzing the main structures composing an IC, such as:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
-    \item Its power supply network, consisting in various metal levels stacked one on top of the others;
+    \item Its power supply network, consisting of various metal levels stacked one on top of the others;
     \item The standard-cells: pre-characterized logic cells used as elementary building blocks;
     \item The various substrate types, such as \dwF and \twF that I considered in my work, not to cite them all.
 \end{itemize}
@@ -13,12 +13,12 @@ It involves analyzing the main structures composing an IC, such as:
     \input{3_modeling/figures/powerRails.tex}
     In complex digital integrated circuits, power distribution is typically realized thanks to a grid structure on multiple levels, as illustrated in Fig. \ref{fig:icPowerRail} for two metal levels.
     The upper layer forms a ring around the IC core.
-    Each layer of the grid is a set of constant width metal lines equally spaced.
-    The lines direction is orthogonal between layers.
+    Each layer of the grid is a set of constant width metal lines, equally spaced.
+    The lines' direction is orthogonal between layers.
     Then, vias are used to electrically connect the layers together at each overlap location.
-    Commonly, the lower the layer the thinner the lines are.
+    Commonly, the lower the layer, the thinner the lines are.
     Thus, the lower grid brings the power close to each standard-cell segment, one of them being highlighted in desaturated yellow in Fig. \ref{fig:icPowerRail}.
-    This topology has the advantage to bring a robust power delivery network inside the IC silicon.
+    This topology has the advantage of bringing a robust power delivery network inside the IC silicon.
     Indeed, there are multiple paths between power connections of each standard-cell segment, which leads to less power change sensitivity of the standard-cell segments.
     However, the shortcoming of such architecture lies in the high amount of metal resources required to create the power grids.
 
@@ -78,7 +78,7 @@ It involves analyzing the main structures composing an IC, such as:
 
         \subsubsection{\dwF substrates \ddcnew}
         To begin with, let us focus on \dwF substrates.
-        A cross-sectional view of a CMOS inverter manufactured in a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}.
+        A cross-sectional view of a CMOS inverter manufactured on a \dwF substrate is shown in Fig. \ref{subfig:dualIvx}.
         Among moderately old ICs, it was common to find \dwF substrates.
         As I have stated before, in \dwF substrates, NMOS transistors are lithographed directly into the P-doped silicon substrate, as it is shown in Fig. \ref{subfig:dualIvx}.
         In addition to this, a N-doped silicon area is created inside the P-substrate, called the N-well, to lithograph the PMOS transistors.
@@ -93,7 +93,7 @@ It involves analyzing the main structures composing an IC, such as:
         \subsubsection{\twF substrates \ddcnew}
 %        \textcolor{orange}{TW helps to reduce crosstalk noise.}
         Let us now focus on \twF substrates, which are nowadays commonly used in modern ICs because such substrates offer interesting noise properties.
-        Indeed, thanks to an additional silicon well, it provides an electrical isolation between areas of the IC, thus reducing substrate crosstalk noise.
+        Indeed, thanks to an additional silicon well, it provides an electrical insulation between areas of the IC, thus reducing substrate crosstalk noise.
 
         As for \dwF substrates, the cross-sectional view of an inverter manufactured using a \twF substrate is shown in Fig. \ref{subfig:tripleIvx}.
         Similar to \dwF substrates, the PMOS transistor is lithographed in a dedicated N-well, located in the P-substrate, which creates a first diode: the N-well diode.
@@ -133,13 +133,13 @@ The models I developed are an improvement over the electrical models proposed by
         \dwF \scs are composed of six main regions, each one describing a part of an IC core sampling:
         \begin{itemize}
             \setlength\itemsep{-0.1em}
-            \item Region \ovalbox{1} is the \scs substrate resistive network, composed of six resistors;
-            \item Region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
-            \item Region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
-            \item Region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists in an access resistance RP from the VDD power-rail to the PMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances;
-            \item Region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists in an access resistance RN from the GND power-rail to the NMOS, and two capacitances, CGP being the load formed by the PMOS input capacitances, CGN the load formed by the NMOS input capacitances;
-            \item Region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
-            \item Eventually, region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
+            \item The region \ovalbox{1} is the \scs substrate resistive network, composed of six resistors;
+            \item The region \ovalbox{2} is the P-substrate/N-well junction, modeled by a diode (DNW-PS) and its capacitance (CNW-PS), and is called the epitaxy, represented thanks to the blue net on the schematic. In addition to this, there is an access resistance from the epitaxy to the top of the N-well (VDD), representing the non-zero electrical resistance of N-doped silicon;
+            \item The region \ovalbox{3} is the access resistance from the epitaxy up to the GND power rail, representing the non-zero electrical resistance of the P-doped substrate;
+            \item The region \ovalbox{4P} is the model of the PMOS transistors, half of them being conducting. It consists of an access resistance RP from the VDD power-rail to the PMOS, and two capacitors, CGP being the load formed by the PMOS input capacitance, CGN the load formed by the NMOS input capacitance;
+            \item The region \ovalbox{4N} is similar to \ovalbox{4P}: it is the model of the NMOS transistors, half of them being conducting. It consists of an access resistance RN from the GND power-rail to the NMOS, and two capacitors, CGP being the load formed by the PMOS input capacitors, CGN the load formed by the NMOS input capacitors;
+            \item The region \ovalbox{5} and \ovalbox{5'} are the power network interconnections, represented on two metal levels, the colored ones being the first metal levels, the gray being the top metal level.
+            \item Eventually, the region \ovalbox{6} is simply the decoupling existing between both GND and VDD power rails.
         \end{itemize}
 
         \subsubsection{\twF \scs \ddcnew}
@@ -169,7 +169,7 @@ The models I developed are an improvement over the electrical models proposed by
     Among them, we can identify the coarse nature of the substrate model.
     Indeed, the six resistors composing the model are sufficient in an \emfi context as the substrate acts as an almost transparent environment and is here only to create the substrate electrical interconnect between \scs.
     However, in a \bbi context, the substrate is the physical environment used to convey the energy from the metal probe to the transistors.
-    In addition to this, the typical substrate thickness of ICs ranges from 40 µm to 1 mm, and using only two resistors to represent 700 µm of material is a too wide geometric step to fully appreciate the mechanisms at work during \bbi.
+    In addition to this, the typical substrate thickness of ICs ranges from 40 µm to 1 mm, and using only two resistors to represent 700 µm of material is too wide geometric a step to fully appreciate the mechanisms at work during \bbi.
     Furthermore, as the modeled \scs is 5 µm wide and 30 µm long, the spatial resolution of the substrate sub model is not the same in each direction.
 
     Therefore, I decided to improve the former model to allow for finer geometry resolution.
@@ -268,13 +268,13 @@ The models I developed are an improvement over the electrical models proposed by
         \item The voltage pulse amplitude, width, and rise and fall times;
         \item Various SPICE simulation settings.
     \end{itemize}
-    Eventually, the program incorporates a visual inspection tool in order to provide a quick verification of the generated IC structure to the end-user.
+    Eventually, the program incorporates a visual inspection tool to provide a quick verification of the generated IC structure to the end-user.
 
     \subsection{Writing the elementary models \ddcu}
     \input{3_modeling/algorithms/figureHspiceGen}
 %    After having abstractly created the models, I decided to write them using SPICE (Simulation Program with Integrated Circuit Emphasis) language.
     If the \scs models are automatically generated, I have written manually the substrate sub models.
-    Indeed, they are very simple and straightforward, and it allowed me to test them independently before incorporating them into the \scs models.
+    Indeed, they are straightforward, and it allowed me to test them independently before incorporating them into the \scs models.
     In addition to writing them, I calculated, thanks to the technology values of our IC targets, the effective substrate resistor values.
     Considering the substrate resistivity being $\rho = 0.01 \; \Omega \cdot m$, and the elementary block size being $W = \; \mu m$; $L = 5 \; \mu m$; $D = 10 \; \mu m$, it is trivial to calculate each resistance value $R_i$ thanks to the following equation:
     \begin{equation}
@@ -290,8 +290,8 @@ The models I developed are an improvement over the electrical models proposed by
     Therefore, the horizontal resistances are equal to $RL = 500 \; \Omega$.
     These calculations can be adapted as needed depending on the technology used.
     In addition to that, a substrate with a given thickness $t_{Sub}$ can be represented with virtually any number of layers.
-    For example, one can reduce the number of layer by ten by adjusting the resistor values.
-    It has the advantage to provide a lighter simulation, which will be faster to perform, at the cost of less accuracy.
+    For example, one can reduce the number of layers by ten by adjusting the resistor values.
+    It provides the advantage of a lighter simulation, which will be faster to perform, at the cost of less accuracy.
     Eventually, this model gives us an electrically isotropic environment, as it should be.
 
     Previously, I have stated that an \scs is 30 µm wide.

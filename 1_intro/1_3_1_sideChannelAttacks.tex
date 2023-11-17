@@ -4,7 +4,7 @@
 \label{chap:1;sect:sca;subsect:timingAttacks}
 The first side-channel attack was initially introduced in 1996 \cite{pKocherTiming}.
 This attack involves determining the duration required to execute cryptographic computations.
-By executing this method, the adversaries are able to obtain a variety of algorithmic keys, specifically for the RSA and ECDSA \cite{johnson2001elliptic} algorithms.
+By executing this method, the adversaries can obtain various algorithmic keys, specifically for the RSA and ECDSA \cite{johnson2001elliptic} algorithms.
 The computation cost of this attack is low, thereby enabling it to execute swift attacks.
 Indeed, as per the RSA algorithm, as outlined in \cite{RSAorigin}, the encryption of a message necessitates the calculation of the following relationship:
 %\begin{equation}
@@ -42,7 +42,7 @@ One of the simplest methods, which is not sufficient, is to add electrical noise
 Another technique is to reduce measurable signal amplitude.
 It is done first by optimizing code execution, by finely choosing which operation is performed to reduce electromagnetic leakage.
 Second, it is also possible to shield the device, but it increases the IC's cost significantly.
-Eventually, masking countermeasures are also employed, which consists in randomly splitting sensitive variables during the cryptographic process \cite{prouff2013masking}.
+Eventually, masking countermeasures are also employed, which consist in randomly splitting sensitive variables during the cryptographic process \cite{prouff2013masking}.
 
 In addition to these attacks, there is also another attack which is commonly studied: correlation power analysis (CPA) \cite{cpaOrig}.
 As well as DPA, CPA uses statistical tools.

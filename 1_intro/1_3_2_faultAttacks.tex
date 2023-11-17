@@ -2,7 +2,7 @@
 \section{Fault-injection attacks \ddc}
 \label{chap:1;sect:fattack}
 %Now that we have seen the basics of side-channel attacks, we are going to study fault injection techniques commonly described in the literature.
-Fault injections are widely described in the literature and can be utilized for a variety of purposes.
+Fault injections are widely described in the literature and can be utilized for various purposes.
 For instance, during integrated circuits testing, it is common to find fault injection susceptibility tests, allowing for engineers to test fault detection circuits, recovery capabilities and reconfiguration possibilities of ICs.
 In this work, we are going to take a closer look at hardware fault injections (\hfi) techniques solely, which fall in two distinct categories, similar to side-channel attacks:
 \begin{itemize}
@@ -13,14 +13,14 @@ In this work, we are going to take a closer look at hardware fault injections (\
 For each kind of \hfi, multiple outcomes are aimed.
 On the one hand, the \hfi can produce, in the targeted IC, branching errors leading secret codes to be revealed or protected rights to be acquired by an attacker \cite{branchingHfi}.
 On the other hand, \hfi can produce incorrect behaviors, allowing to retrieve hidden and protected data thanks to mathematical tools.
-In that case, \hfi targets are mostly cryptographic algorithms, and can be segmented in non-comprehensive set of categories.
+In that case, \hfi targets are mostly cryptographic algorithms, and can be segmented into non-comprehensive set of categories.
 
 One of the most performed \hfi is called differential fault attack/analysis (\dfa).
 The principle of \dfa lies in inducing computation errors during the decryption process of cryptographic algorithm thanks to fault injection.
 Several \dfa were proposed on different algorithms \cite{Biham1997DifferentialFA, firstDfaMaybe, ciet_elliptic_2005, dfaEcc, giraudDfa}.
 Every \dfa implies that the attacker has access to at least two ciphertexts, a correct one, denoted $C$, and a faulty one, denoted $C_F$.
 In addition to that, the attacker must also control the characteristics of the induced faults, such as the amount of faulted bits and in which operation they are faulted.
-Eventually, it is needed to be able to induce the expected faults depending on the fault model required for the \dfa.
+Eventually, it is needed to be able to induce the expected faults, depending on the fault model required for the \dfa.
 
 Another common \hfi is the fault sensitivity analysis (\fsa) \cite{yangLiFaultSensitivity}.
 As every \hfi, it is still required to have physical access to the device.
@@ -28,7 +28,7 @@ FSA usefulness comes from the fact that alongside fault characteristics, other i
 As defined in \cite{yangLiFaultSensitivity}, fault sensitivity is a condition where the faulty output begins to show specific characteristics.
 Specifically, this work defines a critical condition, similar to the \pll capture ranges (lock-in, hold-in, pull-in, etc.), where the \ic starts to exhibit a faulty behavior or when it stops this behavior.
 Then, to perform an attack with this information, the attacker has to know the relationship between the fault sensitivity and the computed data, without knowing the insights of the cryptographic algorithm at work.
-It states that the algorithm will inevitably exhibit data-dependency of fault sensitivity.
+It states that the algorithm will inevitably exhibit data-dependency or fault sensitivity.
 Hence, it allows using the IC as an almost black box.
 
 %In the next paragraph, we are going to analyze deeper a specific fault attack and its implications.

@@ -1,10 +1,10 @@
 
 % !TeX root = ../0_Manuscript.tex
 My thesis is part of cybersecurity research, more specifically hardware security and fault injection methods.
-Cybersecurity is a broad term often used in many applications where its definition may greatly vary.
+Cybersecurity is a broad term often used in many applications, where its definition may greatly vary.
 However, hardware security and fault injection are well-defined.
 
-First, let us linger on the term "hardware".
+First, let us linger on the term “hardware”.
 Hardware often refers to the foundation on which a computer system is built.
 Often, and from a software perspective, it is perceived as a black box running the instructions interpreted or compiled from the software layer.
 However, it is more than that.
@@ -12,16 +12,16 @@ Indeed, hardware also includes the actual implementations of algorithms, for ins
 Therefore, hardware security refers to the latter, from the testing of hardware solutions to formal verification.
 
 On the other hand, the past few years have seen the emergence of fault injection.
-It refers to all the method and mechanisms employed to breach integrated circuits by disturbing their normal operation.
+It refers to all the methods and mechanisms employed to breach integrated circuits by disturbing their normal operation.
 Various fault injection methods, therefore representing a significant threat for secure integrated circuits, have been extensively studied, like laser fault injection (\lfi), or more recently electromagnetic fault injection (\emfi).
-Thus, fault injection became a central topic in hardware security, as understanding how these techniques affect integrated circuits allow proposing efficient countermeasures at the right cost.
+Thus, fault injection became a central topic in hardware security, as understanding how these techniques affect integrated circuits allows proposing efficient countermeasures at the right cost.
 %The purpose of these studies is to propose efficient countermeasures at the right cost.
 It ranges from the understanding of the various phenomena at the origin of fault creation, to being able to simulate fault propagation over multiple abstraction levels.
 Nowadays, fault injection is a major threat for secure integrated circuits, for instance, in 2017, a study has demonstrated the feasibility of secure boot bypassing on an Android smartphone thanks to laser fault injection \cite{lfiSecureBootSmartphone}.
 
-On another scope, voltage pulse substrate fault injection, commonly called Body Biasing Injection (\bbi), while being contemporary to \emfi, led to very few researches and studies in comparison. Up to the best of our knowledge, three scientific papers existed at the beginning of my thesis, back in 2020.
+On another scope, voltage pulse substrate fault injection, commonly called Body Biasing Injection (\bbi), while being contemporary to \emfi, led to very little research and studies in comparison. Up to the best of our knowledge, three scientific papers existed at the beginning of my thesis, back in 2020.
 
-The LIRMM (Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier: Computer Sciences, Robotics and Microelectronics Laboratory of Montpellier), inventor of this technique in 2011, proposed this thesis to answer various  questions such as:
+The LIRMM (Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier: Computer Sciences, Robotics, and Microelectronics Laboratory of Montpellier), inventor of this technique in 2011, proposed this thesis to answer various  questions such as:
 \begin{itemize}
     \item What are the phenomena at work leading to fault injection?
     \item What kind of spatial resolution does BBI offer?
@@ -35,23 +35,23 @@ This has led me to propose various improvements for the practice of \bbi, in add
 My thesis manuscript is structured in five chapters.
 Each one of them attempts to provide answers to the preceding interrogations.
 
-The \cRef{chap:1_stateOfTheArt}{first chapter} of this manuscript provides an overview of the existing fault injection techniques, such as power glitch fault injection, electromagnetic fault injection or esle laser fault injection, with a particular emphasis on body biasing injection.
+The \cRef{chap:1_stateOfTheArt}{first chapter} of this manuscript provides an overview of the existing fault injection techniques, such as power glitch fault injection, electromagnetic fault injection or else laser fault injection, with a particular emphasis on body biasing injection.
 
 The \cRef{chap:2_goodPractices}{second chapter} describes the improvements I propose for the practice of BBI.
 These improvements have been conceived and obtained through my studies concerning BBI resolution and accuracy, both in time and space.
 Additionally, this \cRef{chap:2_goodPractices}{chapter} describes the practical results of a differential fault attack requiring single-bit faults performed thanks to BBI and the platform improvements.
 
 The \cRef{chap:3icModeling}{third chapter} is dedicated to presenting a CMOS integrated circuits simulation flow under BBI.
-It introduces the established simulation models, in addition the designed algorithms allowing to simulate circuits subjected to BBI.
-The models and methods introduced allow me to simulate circuit behavior in reasonable duration, which allows me for instance to perform parametric analysis of BBI effects.
+It introduces the established simulation models, in addition to the designed algorithms, allowing to simulate circuits subjected to BBI.
+The models and methods introduced allow me to simulate circuit behavior in reasonable duration, which allows me, for instance, to perform parametric analysis of BBI effects.
 
 The \cRef{chap:5faultModel}{fourth} is dedicated to the understanding of fault creation in circuits subjected to BBI.
 It presents a follow-up of the simulation flow presented in the \cRef{chap:3icModeling}{third chapter}, allowing me to appreciate the actual \bbi effects on logic gates.
 Then, it allows deriving a fault model from the simulations.
 
-The \cRef{chap:4thinning}{fifth chapter} discusses a common practice in fault injection methods: the thinning of integrated circuits substrate.
+The \cRef{chap:4thinning}{fifth chapter} discusses a common practice in fault injection methods: the thinning of integrated circuits' substrate.
 While this topic has been extensively addressed concerning \lfi, it is not the case for \bbi.
-It relates to studying IC behavioral differences and BBI efficiency on different substrate thicknesses circuits.
+It relates to studying IC behavioral differences and BBI efficiency on their different substrate thicknesses.
 Various models are introduced to get different approaches, allowing to predict differently electrical and physical phenomena at work.
 Mathematical models are also derived from the previous models, enabling the calculation of optimal experimental parameters, in addition to predicting circuit behavior.
 

@@ -10,27 +10,27 @@
     Various physical quantities can be disturbed, but the power supply voltages (VDD or GND), and the IC clock are the most common.
     Each physical quantity can be modified at the attacker's discretion, with a certain amount.
     However, the disturbances have to be short enough to avoid IC shutdown concerning power supply glitches, but also not powerful enough to avoid the IC destruction, which is very similar to \bbi.
-    On the one hand, the main advantage of such attack is its easiness to set up compared to other methods.
+    On the one hand, the main advantage of such an attack is its easiness to set up compared to other methods.
     On the other hand, their main disadvantage is the complete lack of locality with the injection effects.
     Indeed, disturbing \ic's macro-parameters interfere with the entire chip and does not guarantee a useful faulty behavior.
     In addition to that, every modern IC is prepared to detect such attacks and thus protect itself by resetting its electronics.
 
     \subsubsection{Laser fault injection \ddc}
     \label{chap:1;sect:fInjTech;subsect:lfi}
-    Laser fault injection (\lfi), sometimes called optical fault injection, has been introduced in 2002 \cite{firstLfi}.
+    Laser fault injection (\lfi), sometimes called optical fault injection, was introduced in 2002 \cite{firstLfi}.
     It is a more elaborated technique than \gfi.
 %    and is a more complex technique than \gfi.
     However, its precision is immensely better, at the cost of being semi-invasive, and in some cases totally invasive.
     \lfi consists in targeting specific regions of an IC with laser beams of specific wavelengths.
-    Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, or the IC substrate thickness not to cite them all.
-    Although \lfi requires chip preparation, most of the time it is minimal.
+    Several other parameters are involved for this method to succeed, such as the light emission duration, the area/volume of the targeted region, or the IC substrate thickness, not to cite them all.
+    Although \lfi requires chip preparation, it is usually minimal.
     Indeed, very often, \lfi is done from the backside of the chip, therefore requiring the removal of the package.
 
     Laser fault injection works thanks to the fact that silicon semiconductor devices, such as diodes or transistors, are intrinsically sensitive to light, typically with wavelengths ranging from 400 nm to 1000 nm.
     This is caused by the photoelectric effect resulting from the light interaction with silicon.
     Therefore, when the light that passes through silicon conveys more energy than the silicon bandgap, it creates electron-hole pairs (due to the photoelectric effect \cite{photoelec}).
     Often, these carrier pairs recombine silently.
-    However, depending on where the laser beam travels, especially through one of the reverse biased PN junction of a transistor, where the electric field is naturally strong, the carriers deflect instead of recombining, which lead to the creation of an electric current.
+    However, depending on where the laser beam travels, especially through one of the reverse-biased PN junction of a transistor, where the electric field is naturally strong, the carriers deflect instead of recombining, which leads to the creation of an electric current.
 %    it is possible to change the state of some transistors, thus affecting logical values.
     When compared to other fault injections techniques, the main shortcoming of \lfi is the total platform price.
 %    \textcolor{orange}{Add more details.}
@@ -47,31 +47,31 @@
     In 2020, a modeling workflow was proposed \cite{mathieuEMFI}, allowing to explain how EM probe can couple to IC power delivery networks.
     When compared to \lfi, \emfi is a lot less expensive, and require less accuracy to yield good results.
     Indeed, in an \emfi platform, the probe, if self-made, cost around €5 to €15 depending on the hardware used.
-    In addition to that, cheap pulse generator can be manufactured by hand, such as very simple high-voltage transformers driven with a transistor.
+    In addition to that, cheap pulse generators can be manufactured manually, such as elementary high-voltage transformers driven with a transistor.
     However, this method has shortcomings and compromises.
     On the one hand, as the probe is coupled with the power delivery networks, the smaller these networks are, the more transistors are targeted.
     On the other hand, the smaller the probe, the higher the voltage pulse has to be to produce a similar effect.
 
     \input{1_intro/figures/emSamplingModel.tex}
     A sampling fault model for \emfi was proposed in 2015 \cite{emFaultModel}.
-    It takes on the fact that \emfi allows modifying enough the amplitude at the inputs of multiple DFFs, such as the data input, the clock, the set or the reset signals, at a specific time: during the sampling pulse edge.
+    It takes on the fact that \emfi allows modifying enough the amplitude at the inputs of multiple DFFs, such as the data input, the clock, the set, or the reset signals, at a specific time: during the sampling pulse edge.
     It means that either setup or hold timing constraint is violated, resulting in an incorrect data sampling from the input to the output.
     A schematic explanation of the sampling fault model proposed in \cite{emFaultModel} is illustrated in Fig. \ref{fig_emSamplingFModel}.
     According to this model, the faults appearing using \emfi are related to the IC clock, shown in black in Fig. \ref{fig_emSamplingFModel}.
-    In addition to this is shown the EM susceptibility over two clock periods, in cyan, which is, in that case, equivalent to the DFF susceptibility: the fault probability is higher during the rising edge, as it is the time when the DFF sample the input.
+    In addition to this, is shown the EM susceptibility over two clock periods, in cyan, which is, in that case, equivalent to the DFF susceptibility: the fault probability is higher during the rising edge, as it is the time when the DFF samples the input.
     Therefore, during the rising edges, less power is required to induce a fault, which leads to the EM power curve in purple, in between two thresholds: $V_{LOW}$ and $V_{HIGH}$.
     $V_{LOW}$ is the minimal voltage required to inject faults during the DFF switching process, and $V_{HIGH}$ is the threshold allowing to create bit set or reset, even outside the DFF susceptibility windows.
 
     \subsubsection{Body biasing injection \ddc}
     \label{chap:1;sect:fInjTech;subsect:bbi}
     Eventually, there is another fault injection method, less studied and more recent than the others, commonly called Body Biasing Injection (\bbi), which is the research topic of my thesis.
-    This technique has been introduced in 2012 \cite{bbiOrigin}, and further studied in 2013 \cite{bbiSecond} and 2016 \cite{bbiThird}.
+    This technique was introduced in 2012 \cite{bbiOrigin}, and further studied in 2013 \cite{bbiSecond} and 2016 \cite{bbiThird}.
     At the beginning of my thesis, a fourth article was published \cite{bbiColin}, studying the interests of \bbi concerning Wafer-Level Chip-Scale Packaging (\wlcsp).
     The principle behind \bbi is fairly simple: applying voltage pulses directly onto the backside of IC targets, thanks to a metallic probe.
-    The targets have to be prepared in a very similar way to \lfi, with a partial removal of the package on the backside to give access to the substrate, and a potential substrate thinning.
+    The targets have to be prepared in a very similar way to \lfi, with a partial removal of the package on the backside to provide access to the substrate, and a potential substrate thinning.
     On the one hand, despite this simple premise, in the vast majority of cases, \bbi is a semi-invasive method.
     Indeed, as most \ic are encapsulated in a ceramic or plastic package, and because the chip preparation is similar to \lfi, it is required, to access to the substrate, to partially remove a piece of the package.
     However, in some rare cases where Wafer-Level Chip-Scale Packaging (WLCSP) is used, there is no need to remove the plastic package as there is none.
     On the other hand, building a BBI platform is not expensive and technically easier when compared to \lfi or \emfi.
     Indeed, a metallic probe with a custom armature costs around 10 euros at worst, and is easy to build at hand, while manufacturing a precise \emfi probe requires more knowledge to achieve good results, and often requires the use of flexible PCBs.
-    Considering that \emfi and \bbi both require similar voltage pulse generator, which is often the most expensive piece of equipment, the overall platform cost is lower concerning BBI.
+    Considering that \emfi and \bbi both require a similar voltage pulse generator, which is often the most expensive piece of equipment, the overall platform cost is lower concerning BBI.
