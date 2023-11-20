@@ -72,6 +72,6 @@
 \backcite {lfiThinning2}{{64}{5.2}{section.5.2}}
 \backcite {FIBthinning}{{68}{5.4.1}{subsection.5.4.1}}
 \backcite {lfiThinning}{{71}{5.5}{section.5.5}}
-\backcite {lfiThinning}{{75}{6.2.4}{subsection.6.2.4}}
-\backcite {lfiThinning2}{{75}{6.2.4}{subsection.6.2.4}}
-\backcite {lfiFaultModel}{{75}{6.3}{section.6.3}}
+\backcite {lfiThinning}{{74}{6}{chapter.6}}
+\backcite {lfiThinning2}{{74}{6}{chapter.6}}
+\backcite {lfiFaultModel}{{75}{6}{chapter.6}}
