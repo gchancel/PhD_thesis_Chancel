@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  20 NOV 2023 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  28 NOV 2023 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,12 +1036,31 @@ File: fc-english.def 2016/01/12
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 12.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 18.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
+kerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 <NewLogoLIRMM.pdf, id=36, 549.7338pt x 199.4652pt>
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
 Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 18.
 (pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
-[1{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+ [1{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./NewLogoLIRMM.pdf>]
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
@@ -1051,26 +1070,6 @@ Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 24.
  [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
-
-
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
-
-
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 47.
-
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
-kerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
 Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 47.
@@ -1092,21 +1091,22 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22989 strings out of 476411
- 458914 string characters out of 5788662
+ 22991 strings out of 476411
+ 458941 string characters out of 5788662
  1863845 words of memory out of 5000000
- 42846 multiletter control sequences out of 15000+600000
- 519343 words of font info for 57 fonts, out of 8000000 for 9000
+ 42847 multiletter control sequences out of 15000+600000
+ 519637 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,992b,790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on 0_slides.pdf (3 pages, 132937 bytes).
+onts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on 0_slides.pdf (3 pages, 143451 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

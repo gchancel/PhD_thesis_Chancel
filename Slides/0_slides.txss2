@@ -1,0 +1,30 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "0_slides.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+            {
+                "bookmarkNumber": 1,
+                "fileName": "../2_goodPractices/figures/bbiPracticeImpGnd.tex",
+                "lineNumber": 6,
+                "text": "bbiPracticeImpGnd.tex\n\\caption{Enhanced simplified electrical model of a \\bbi platform. The model represents the major piece of equipment involved in a \\bbi platform, with improvements over state-of-the-art ones. There are the voltage pulse generator, the \\bbi probe, the transmission line, the IC (1 k\\textomega\\xspace resistor), the original platform grounding (both 150 \\textOmega\\xspace resistors), and the proposed enhancements highlighted in red. The enhancements consist in first, creating an approximate impedance matching for the generator, second, to bypass the poor grounding with low impedance copper wires.}"
+            }
+        ],
+        "CurrentFile": "0_slides.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 48,
+                "EditorGroup": 0,
+                "FileName": "0_slides.tex",
+                "FirstLine": 6,
+                "FoldedLines": "",
+                "Line": 11
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": false
+    }
+}
