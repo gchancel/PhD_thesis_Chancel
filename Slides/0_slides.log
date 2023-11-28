@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  28 NOV 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  28 NOV 2023 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,18 +776,18 @@ edefault.sty
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthem
 edefault.sty)))
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeJuan
-LesPins.sty
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeBerl
+in.sty
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthem
-esmoothtree.sty)
+eminiframes.sty)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthem
 ewhale.sty)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthem
 eorchid.sty)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthem
-erounded.sty))
+erectangles.sty))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthem
-eseagull.sty)
+edolphin.sty)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
@@ -851,32 +851,106 @@ LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks47
 \dt@b=\toks48
 )
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box76
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
+)
+\tikz@expandcount=\count368
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
-\l__pdf_internal_box=\box76
+\l__color_backend_stack_int=\count369
+\l__pdf_internal_box=\box81
 ) (0_slides.aux)
 \openout1 = `0_slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -916,93 +990,85 @@ LaTeX Font Info:    ... okay on input line 8.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen294
-\scratchbox=\box77
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen295
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count370
+\scratchdimen=\dimen307
+\scratchbox=\box82
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen308
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 11.
  (0_slides.out) (0_slides.out)
 \@outlinefile=\write5
 \openout5 = `0_slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 8.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 8.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 11.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
-.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 8.
+ut line 11.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-
 basic-dictionary-English.dict
@@ -1034,49 +1100,66 @@ File: fc-english.def 2016/01/12
 ) (0_slides.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 12.
+(hyperref)                setting the option has no effect on input line 15.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 18.
+ut line 28.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<NewLogoLIRMM.pdf, id=36, 549.7338pt x 199.4652pt>
+<NewLogoLIRMM.pdf, id=14, 549.7338pt x 199.4652pt>
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 18.
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 28.
 (pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [1{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+ [1
 
- <./NewLogoLIRMM.pdf>]
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
+RMM.pdf>]
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 24.
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
  [2
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+60.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+<8by9_PLACEHOLDER.pdf, id=78, 227.62204pt x 142.26378pt>
+File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
+<use 8by9_PLACEHOLDER.pdf>
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 60.
+(pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
+File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
+<use 8by9_PLACEHOLDER.pdf>
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 60.
+(pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 47.
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 60.
 (pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [3
 
-]
+[3
+
+ <./8by9_PLACEHOLDER.pdf>]
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -1091,22 +1174,23 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22991 strings out of 476411
- 458941 string characters out of 5788662
- 1863845 words of memory out of 5000000
- 42847 multiletter control sequences out of 15000+600000
- 519637 words of font info for 58 fonts, out of 8000000 for 9000
+ 26003 strings out of 476411
+ 531189 string characters out of 5788662
+ 1865845 words of memory out of 5000000
+ 45815 multiletter control sequences out of 15000+600000
+ 521616 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,992b,790s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (3 pages, 143451 bytes).
+ 128i,17n,122p,1009b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
+s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on 0_slides.pdf (3 pages, 93543 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

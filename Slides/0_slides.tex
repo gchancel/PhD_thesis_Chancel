@@ -1,9 +1,12 @@
 
 \documentclass[aspectratio=169]{beamer}
-\usetheme{JuanLesPins}
-\usecolortheme{seagull}
+%\usetheme{JuanLesPins}
+%\usecolortheme{seagull}
+\usetheme{Berlin}
+\usecolortheme{dolphin}
 
 \usepackage[yyyymmdd]{datetime}
+\usepackage{tikz}
 
 \begin{document}
 
@@ -11,39 +14,49 @@
     \subtitle{PhD thesis defense}
     \author{\textbf{\underline{Geoffrey Chancel}} \and Jean-Marc Gallière \and Philippe Maurine}
     \date{\today}
-    \logo{\includegraphics[width=3cm]{NewLogoLIRMM.pdf}}
+%    \logo{\includegraphics[width=3cm]{NewLogoLIRMM.pdf}}
+    \logo {
+        \begin{tikzpicture}[overlay,remember picture]
+            \node[left=0.2cm] at (current page.21){
+                \includegraphics[width=3cm]{NewLogoLIRMM.pdf}
+            };
+        \end{tikzpicture}
+    }
 
-    \begin{frame}
+    \begin{frame} % Title frame
         \titlepage
     \end{frame}
 
-    \begin{frame} % test frame
+    \begin{frame} % Test frame
         \frametitle{Title}
         \framesubtitle{Subtitle}
         Content.
     \end{frame}
 
-    \begin{frame} % test frame
-        \frametitle{Context}
-        \framesubtitle{State-of-the-art}
+    \begin{frame} % First frame
+        \frametitle{Introduction}
+        \framesubtitle{Context}
+
+        \begin{itemize}
+            \item Electronics systems are everywhere, from entertainment to business.
+            \item They embed cryptographic algorithms to ensure secure operation.
+            \item These implementations are fallible → they leak information.
+        \end{itemize}
+
         \begin{columns}
-            \begin{column}{0.5\textwidth}
-                \begin{itemize}
-                    \item jaaj
-                    \item jaaj
-                    \item jaaj
-                    \item jaaj
-                \end{itemize}
+            \begin{column}{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{8by9_PLACEHOLDER.pdf}
             \end{column}
-            \begin{column}{0.5\textwidth}
-                \begin{itemize}
-                    \item jaaj
-                    \item jaaj
-                    \item jaaj
-                    \item jaaj
-                \end{itemize}
+            \begin{column}{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{8by9_PLACEHOLDER.pdf}
             \end{column}
         \end{columns}
+
+%        \begin{center}
+%            Jeaj
+%        \end{center}
     \end{frame}
 
 \end{document}
