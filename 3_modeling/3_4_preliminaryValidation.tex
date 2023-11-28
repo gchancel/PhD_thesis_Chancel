@@ -3,15 +3,14 @@
     Thereafter, it comes to different validations to make sure that these models are sound.
     Among these validations, studying the resulting IC operating point is the first step to verify inconsistencies concerning idle power draw, allowing me to spot undesirable short-circuits and bad interconnects, coming from the \scs generation algorithm or from the global generation algorithm.
     To that end, using the generation algorithm, I created various ICs (a \dwF, a \twF, and a mixed substrate) with the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$.
-    It is, according to our platform computational power, an IC with a reasonable size/calculation time ratio.
+    It is, according to my platform computational power, an IC with a reasonable size/calculation time ratio.
     I generated three ICs:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
         \item An exclusive \dwF circuit, to isolate the \dwF specific \bbi effects and potential \dwF generation errors;
         \item An exclusive \twF circuit, to isolate the \twF specific \bbi effects and potential \twF generation errors;
-        \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically our platform microcontroller.
+        \item Eventually, a mixed substrate IC, comprising at the same time \dwF and \twF \scs, to mimic a real IC, more specifically my platform microcontroller.
     \end{itemize}
-    For each generated IC, I simulated the operating point and identified the key values, which are presented in Table \ref{tab:basicOpPointScs}.
     \begin{table}[ht]
         %    \footnotesize
         \centering
@@ -22,11 +21,12 @@
             Measurement   	& Description               &  Dual-well 		&  Triple-well   	&  Mixed substrates	\\
             $I_{GND}$     	& IC global ground current  &  1.92 nA   		&  1.94 nA        	&  3.4 nA          	\\
             $I_{VDD}$     	& IC global VDD current     & -1.96 nA    		& -5.8 nA         	& -3.5 nA         	\\
-            $GND_{AVG}$     & Max. GND voltage          & 1 nV    			&  1 nV         	&  1.75 nV         	\\
-            $VDD_{AVG}$     & Min. VDD Voltage          & 1.2 V    			&  1.2 V         	&  1.2 V         	\\
+            $GND_{AVG}$     & Max. GND voltage drop      & 1 nV    			&  1 nV         	&  1.75 nV         	\\
+            $VDD_{AVG}$     & Min. VDD Voltage drop      & 1.2 V    		&  1.2 V         	&  1.2 V         	\\
         \end{tabular}
     \end{table}
-    We can observe very low steady current, which, according to the model, is consistent and should be expected.
+    For each generated IC, I simulated the operating point and identified the key values, which are presented in Table \ref{tab:basicOpPointScs}.
+    One can observe very low steady current, which, according to the model, is consistent and should be expected.
     Indeed, as the transistors are modeled thanks to resistors and capacitors in parallel, and because the diodes are not conducting, there is no path for DC current without further circuit bias.
     Therefore, the power supply drop is negligible, with a uniform power delivery of 1.2 V everywhere.
 

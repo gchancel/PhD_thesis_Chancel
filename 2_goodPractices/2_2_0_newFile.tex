@@ -46,7 +46,7 @@
 
     \subsection{Commercial platforms \ddcpu}
     In addition to documented research \bbi platforms, there are multiple commercially available solutions.
-    We are going to address the most noteworthy in the current section.
+    I am addressing the most noteworthy in the current section.
 
         \subsubsection{Langer EMV-Technik GmbH BBI platform \ddcu}
         \input{2_goodPractices/figures/langerBBI}
@@ -152,27 +152,27 @@
     \end{itemize}
     Some of these tools are not necessary to constitute a \bbi platform, such as the positioning table, but they greatly simplify the platform reliability and reproducibility.
 
-\section{Our BBI platform \ddcpu}
-    With these tools in mind, we are describing in this section the platform we are using in our lab in detail.
+\section{My BBI platform \ddcpu}
+    With these tools in mind, I describe in the following section the platform we are using in my lab in detail.
     \subsection{The probe \ddcu}
     \label{chap:2_goodPractices;sect:bbiPlatforms;subsect:probes}
     \input{2_goodPractices/figures/pointBBI}
     The most distinctive piece of equipment when working with BBI compared to other fault injection methods is the electrical probe.
-    As we have seen before, it is commonly made with a metal tip, a connector of any sort and a mechanical support to hold the structure together.
+    As I have mentioned before, it is commonly made with a metal tip, a connector of any sort and a mechanical support to hold the structure together.
     Some can be active, while others are passive, and therefore less expensive.
     However, it is straightforward to build one, and any needle size available on the market can be used depending on the needs.
     In the case of \bbi, the probe is used to establish the electrical contact with the substrate of integrated circuits, the latter being poorly conductive, but not isolating.
-    For this work, we designed a custom probe, allowing us to control its characteristics, around three simple parts:
+    For this work, I designed a custom probe, allowing us to control its characteristics, around three simple parts:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
         \item An SMA connector, to have a low-cost, small and standard interconnection available with almost every high-speed equipment;
         \item A spring-loaded metallic tip soldered onto the SMA connector providing a better control over the applied pressure onto the backside;
-        \item A custom 3D-printed support holding the parts together, shaped to fit with our other tools.
+        \item A custom 3D-printed support holding the parts together, shaped to fit with my other tools.
     \end{itemize}
-    Fig. \ref{fig:sondePointeBBI} shows detailed pictures of the probe we designed, with a photograph in operation in Fig. \ref{subfig:sondeBBI}, and a photograph under a microscope of the probe tip-end in Fig. \ref{subfig:pointeBBI}, allowing to measure its actual size before its first usage.
-    The metallic probe we had chosen has a 0.635 mm diameter and is 16.35 mm long. The specified maximum nominal current of the probe is of 1.5 A, and the electrical contact resistance measures approximately 70 m\textOmega.
+    Fig. \ref{fig:sondePointeBBI} shows detailed pictures of the probe I designed, with a photograph in operation in Fig. \ref{subfig:sondeBBI}, and a photograph under a microscope of the probe tip-end in Fig. \ref{subfig:pointeBBI}, allowing to measure its actual size before its first usage.
+    The metallic probe I had chosen has a 0.635 mm diameter and is 16.35 mm long. The specified maximum nominal current of the probe is of 1.5 A, and the electrical contact resistance measures approximately 70 m\textOmega.
     The tip has a diameter roughly equal to 20 µm, and it is important to note that this value tends to increase when the probe is utilized, due to the physical contact and the pressure with the IC backside.
-    The bill-of-materials cost for our custom probe tool is roughly equal to 20 \$, ignoring manual labor to assemble everything together.
+    The bill-of-materials cost for my custom probe tool is roughly equal to 20 \$, ignoring manual labor to assemble everything together.
 %    {\color{orange}{
     \subsection{The generator \ddcu}
     \label{chap:2_goodPractices;sect:bbiPlatforms;subsect:generator}

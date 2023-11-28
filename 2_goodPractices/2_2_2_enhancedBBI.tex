@@ -20,7 +20,7 @@ Eventually, I am able to draw conclusions on such improvements thanks to simulat
     \subsection{Improving the grounding installation \ddcu}
     \label{chap:2_goodPractices;sect:enhancedBBIPlatforms;subsect:bbiGndBetter}
     In many platforms, the grounding installation might be perfectly fine, and the following section may not apply to them.
-    However, with our platform, we quickly observed that the grounding impedance was far from negligible.
+    However, with my platform, I quickly observed that the grounding impedance was far from negligible.
     Indeed, with an average IC impedance around 1 k\textOmega\xspace, and inter-equipment ground impedance around 150 \textOmega\xspace, it represents a 15 \% increase in the total impedance seen by the generator.
     Therefore, to transfer a maximum amount of energy into the IC, especially in areas where the IC impedance might be closer to the grounding impedance, it is required to cancel as much as possible the latter.
 
@@ -62,9 +62,9 @@ Eventually, I am able to draw conclusions on such improvements thanks to simulat
 \section{Actual enhanced BBI platform \ddcpu}
 The previous models being a useful tool to draw quick conclusions and predictions, it does not represent the reality.
 To that end, I set up the various presented enhancements in an actual \bbi platform to verify the soundness of all the outcomes.
-In the first place, we are going to discuss how to perform the approximate impedance matching.
+In the first place, I am going to discuss how to perform the approximate impedance matching.
 Then, I will explain how to set up an efficient grounding bypass.
-Thereafter, we will take a look at actual measurements, allowing to spot the improvements.
+Thereafter, I will take a look at actual measurements, allowing to spot the improvements.
 
     \subsection{Generator impedance matching in practice \ddcu}
 %    \textcolor{orange}{Add pictures of real platform impedance matching.}
@@ -96,8 +96,8 @@ Thereafter, we will take a look at actual measurements, allowing to spot the imp
 
     \subsection{Grounding installation bypass in practice \ddcu}
 %    \textcolor{orange}{Add pictures of real GND bypass.}
-    As we discussed previously, the grounding installation can drastically vary from one platform to another.
-    Its effective impedance can be very high, such as in our platform, where equipment is grounded thanks to the platform earthing, with inter-equipment ground of around \fiftyOhms{150}.
+    As I discussed previously, the grounding installation can drastically vary from one platform to another.
+    Its effective impedance can be very high, such as in my platform, where equipment is grounded thanks to the platform earthing, with inter-equipment ground of around \fiftyOhms{150}.
     To alleviate the effects of such ground impedance, I simply decided to shunt the existing earthing with short low-resistance copper wires.
     To that end, I chose an arbitrary piece of equipment as the reference, and connected every other piece of equipment's local ground to the reference.
     It allowed reducing the effective platform ground impedance to a value close to \fiftyOhms{0}.
@@ -105,8 +105,8 @@ Thereafter, we will take a look at actual measurements, allowing to spot the imp
     \subsection{Practical analysis \ddcu}
     \input{2_goodPractices/figures/bbiRealXp.tex}
     Now that I presented how to practically set up the enhancements, let us analyze actual measurements on the platform.
-    We will compare before and after results, allowing us to analyze each evaluation criterion.
-    As it was done for the simulations, we will observe the voltage pulse and the IC ground current.
+    I will compare before and after results, allowing us to analyze each evaluation criterion.
+    As it was done for the simulations, I will observe the voltage pulse and the IC ground current.
 
     Fig. \ref{fig:bbiRealXp} presents the various waveform results.
     The voltage pulse was measured at the IC backside during the injection, and the IC ground current was measured using a current probe thanks to the IC PCB ground interconnection.

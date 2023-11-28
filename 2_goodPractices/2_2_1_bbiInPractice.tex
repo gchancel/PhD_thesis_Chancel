@@ -2,10 +2,10 @@
 
 \section{BBI in practice \ddcpu}
 \label{chap:2_goodPractices;sect:bbiInPractice}
-With actual \bbi platform in mind, allow me to introduce a typical \bbi platform model that we are going to study in details.
+With actual \bbi platform in mind, allow me to introduce a typical \bbi platform model that I am going to study in details.
 %In this section, I am going to describe coarse electrical \bbi platform models.
 These models allow us to concisely understand, evaluate and simulate a \bbi platform's behavior, limitations, and room for improvement.
-We will therefore analyze the platform's performance and point out its weaknesses.
+I will therefore analyze the performance of the platform and point out its weaknesses.
 
     \subsection{Typical BBI platform model \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:bbiPlatformModel}
@@ -24,7 +24,7 @@ We will therefore analyze the platform's performance and point out its weaknesse
 
     \subsection{Platforms evaluation criteria \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:platformEvalCrit}
-    For the purpose of evaluating \bbi platforms, we decided to focus on two important criteria, allowing to represent the platform quality:
+    For the purpose of evaluating \bbi platforms, I decided to focus on two important criteria, allowing to represent the platform quality:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
         \item The characteristics of the voltage pulse measured at the generator output, allowing to observe how the generator behaves when loaded with the transmission line and the IC;
@@ -39,7 +39,7 @@ We will therefore analyze the platform's performance and point out its weaknesse
 
     \subsection{Raw results \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:rawRes}
-    To that end, we will deeply analyze the platform's simulation results shown in Fig. \ref{fig:bbiPracticeBadGndSignals}.
+    To that end, I will deeply analyze the platform's simulation results shown in Fig. \ref{fig:bbiPracticeBadGndSignals}.
     Four signals are displayed, with their colors matching the colors in Fig. \ref{fig:bbiPracticeBadGnd} for greater clarity.
     There are three voltage waveforms and a current waveform.
     The blue waveform is the ideal voltage pulse an attacker wants to apply to the backside of an IC during a body biasing injection.
@@ -57,9 +57,9 @@ We will therefore analyze the platform's performance and point out its weaknesse
 
     \subsection{Analysis conclusions \ddcu}
     \label{chap:2_goodPractices;sect:bbiInPractice;subsect:analysConcl}
-    To comprehend the implications of such observations, it is imperative that we thoroughly analyze each one of them.
+    To comprehend the implications of such observations, it is imperative that I thoroughly analyze each one of them.
 
-    The first important thing to note is that the various model numeric values are extracted from our actual platform.
+    The first important thing to note is that the various model numeric values are extracted from my actual platform.
     Therefore, the 150 \textOmega\xspace grounding and the 1 k\textOmega\xspace IC are average measured values of actual devices.
     Thus, these parameters, in addition to the transmission line characteristics, will inevitably vary with a certain amount from one platform to another.
     \input{2_goodPractices/figures/bbiPracticeBadGndDiffIcLoad}

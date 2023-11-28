@@ -31,7 +31,7 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Dual-well (\ref {subfig:dualIvx}) and triple-well (\ref {subfig:tripleIvx}) inverter silicon sectional view.\relax }}{39}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Original 3D Dual-Well\xspace and Triple-Well\xspace IC comprehensive Standard-Cell Segment electrical models.\relax }}{41}{figure.caption.23}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Standard-Cell Segment substrate sub model subdivision. It represents an improvement in geometric resolution over M. Dumont model for \tooltip [black]{EMFI}[orange]{Electromagnetic Fault Injection}\xspace \cite {mathieuEMFI}. The backside is the accessible substrate, and the epitaxy is the highest substrate level.\relax }}{42}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D Dual-Well\xspace and Triple-Well\xspace IC comprehensive Standard-Cell Segment electrical models.\relax }}{44}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D Dual-Well\xspace and Triple-Well\xspace IC comprehensive Standard-Cell Segment electrical models.\relax }}{43}{figure.caption.25}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Three-dimensional Standard-Cell Segments interconnection example.\relax }}{44}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Elementary substrate building block 3D schematic and its SPICE netlist.\relax }}{45}{figure.caption.28}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces SCS substrate layer SPICE netlist\relax }}{46}{figure.caption.29}%

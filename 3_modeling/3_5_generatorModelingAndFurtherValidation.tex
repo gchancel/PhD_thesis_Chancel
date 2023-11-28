@@ -30,16 +30,16 @@ Eventually, I analyze preliminary validation results, including the new generato
     With this in mind, let us jump into the next section.
 
     \subsection{Voltage pulse generator naive model \ddcpu}
-    First, let us consider a simple voltage generator, an ideal variable voltage source, a basic probe, and a perfect wire as a transmission line.
+    First, let us consider a simple voltage generator, an ideal controlled voltage source, a basic probe, and a perfect wire as a transmission line.
     In that scenario, as the generator is DC-coupled, it is biasing the substrate at 0 V at rest.
     However, under normal conditions, an IC substrate should not be biased externally.
     Indeed, whether in my model or in an actual IC, it can create unexpected behavior.
-    In addition to this, our AVTECH generator does not bias the IC at rest, even when the probe is connected.
+    In addition to this, my AVTECH generator does not bias the IC at rest, even when the probe is connected.
     Instead, it is operating in a high-impedance mode where its output presents a very high impedance to the IC backside, thus preventing any undesirable biasing.
 
     \subsection{More elaborated generator model \ddcnew}
 %    \input{3_modeling/figures/genModel}
-    In this context, I decided to mimic our actual generator structure in my model to properly appreciate its behavior in the simulations.
+    In this context, I decided to mimic my actual generator structure in my model to properly appreciate its behavior in the simulations.
 
     To do so, I chose to use a time-controlled resistor, which is a component available in SPICE.
     It is very straightforward, and consists in dynamically defining the resistor value.
@@ -47,8 +47,8 @@ Eventually, I analyze preliminary validation results, including the new generato
     By doing so, I am avoiding any bias which could cause unexpected behavior of the model, which then could invalidate the simulation conclusions.
 
 \section{Modeling BBI disturbances: further model validation}
-With correct \scs and generator models, it is now possible to simulate \bbi disturbances.
-To that end, we distinguish \dwF and \twF substrates, to better analyze their differences, both in behavior and in structure.
+With proper \scs and generator models, it is now possible to simulate \bbi disturbances.
+To that end, I distinguish \dwF and \twF substrates, to better analyze their differences, both in behavior and in structure.
 As for the previous section, the ICs have the following measurements: a width of $550 \; \mu m$, a depth of $450 \; \mu m$, and a substrate thickness of $140 \; \mu m$, representing 1620 \scs connected to each other in a mesh array.
 There are two external power supply rails located at the top and at the bottom of each IC.
 The probe is a 30 µm square probe, placed at the IC center, and the generator settings are the following:
@@ -57,14 +57,14 @@ The probe is a 30 µm square probe, placed at the IC center, and the generator s
     \item Voltage pulse maximum amplitude: -300 V;
     \item Voltage pulse width: 20 ns;
     \item Rise and fall times: 8 ns;
-    \item Approximate impedance matching realized thanks to a \fiftyOhms{50} load, as described in the Chapter \ref{chap:2_goodPractices}.
+    \item Approximate impedance matching done thanks to a \fiftyOhms{50} load, as described in Chapter \ref{chap:2_goodPractices}.
 \end{itemize}
 
 An important thing to note here is the exclusive use of negative voltage pulses.
 As the further results illustrate the nature of the coupling between the probe and the IC targets depending on the substrate type, the polarity of the pulse also has an impact on the coupling, and therefore the amount of effective energy transferred into the target.
 I discuss deeper the actual impact of pulse polarity later on in this chapter.
 
-For each considered IC, we observe various signals in a two-dimensional view to fully appreciate the spatial behavior of the ICs under \bbi, at the apex of the disturbance:
+For each considered IC, I observe various signals in a two-dimensional view to fully appreciate the spatial behavior of the ICs under \bbi, at the apex of the disturbance:
 \begin{itemize}
     \setlength\itemsep{-0.1em}
     \item The power supply voltage distribution (top view);
@@ -94,12 +94,12 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     These results are interesting as they show the homogeneous propagation of the energy through the substrate, with equipotentials forming half-circles.
     In addition to this, these results show a clear example of a DC-coupled probe with the IC.
     Indeed, the substrate acts as a voltage divider, and the further we are from the probe, the lower the voltage is.
-    However, these results are not practical enough to fully appreciate the concentration of charges inside the substrate.
+    However, these results are not practical enough to fully appreciate the density of charges inside the substrate.
     To that end, and to better show these results, let us analyze sub-fig. \ref{subfig_vsubConc} and \ref{subfig_isubConc}.
 
-    As for sub-fig. \ref{subfig_vsubcDw} and \ref{subfig_isubcDw}, they represent respectively the voltage concentration and the current concentration.
-    For each substrate layer (14 layers in that case as we simulated a 140 µm substrate), the voltage was normalized along the 3D Y-axis, thus allowing to grasp and compare each layer to the other.
-    The higher the layer number, the closer to the probe, and the lower the normalized value, the higher the charge concentration.
+    As for sub-fig. \ref{subfig_vsubcDw} and \ref{subfig_isubcDw}, they represent respectively the voltage density and the current density.
+    For each substrate layer (14 layers in that case as I simulated a 140 µm substrate), the voltage was normalized along the 3D Y-axis, thus allowing to grasp and compare each layer to the other.
+    The higher the layer number, the closer to the probe, and the lower the normalized value, the higher the charge density.
     What is noticeable here is that on both sub-figures and for each layer, most charges are focused in the center of the layer.
     Then, the deeper we go inside the substrate, the wider the focusing.
     This result is to be expected.
@@ -131,11 +131,11 @@ For each considered IC, we observe various signals in a two-dimensional view to 
 
     Sub-fig. \ref{subfig_iEpiTw} shows us some interesting results.
     At the peak of the disturbance, there is almost no current at the epitaxy level.
-    At first glance, it can seem odd, but we will explain why this is logical thanks to the substrate distribution results which follow.
+    At first glance, it can seem odd, but I will explain why this is logical thanks to the substrate distribution results which follow.
 
     Therefore, sub-fig. \ref{subfig_vsubcTw} and \ref{subfig_isubcTw} show the voltage and current distribution inside the substrate from a cross-sectional view.
     The results might seem similar to the ones of the \dwF substrate, but they are not.
-    Indeed, when looking at the voltage and current scales, we can remark two things:
+    Indeed, when looking at the voltage and current scales, one can remark two things:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
         \item The voltage distribution is extremely homogeneous, with an average value of -236 V;
@@ -147,8 +147,8 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     Then, similar to one side of a capacitor, the substrate charges up to the set-point value, if it has enough time to do so, or to a lower value (-236 V here) if it does not have enough time.
     Eventually, because only AC signals can pass through a capacitor, the current tends to be zero on the pulse plateau.
 
-    Sub-fig. \ref{subfig_vsubConcTW} and \ref{subfig_isubConcTW} show, as before, the normalized current concentration for each substrate layer.
-    Because the substrate network is identical in both simulated ICs, we observe the same result as before, with a strong concentration of charge below the probe, and a charge diffusion when going deeper into the substrate.
+    Sub-fig. \ref{subfig_vsubConcTW} and \ref{subfig_isubConcTW} show, as before, the normalized current density for each substrate layer.
+    Because the substrate network is identical in both simulated ICs, I observe the same result as before, with a strong density of charge below the probe, and a charge diffusion when going deeper into the substrate.
 %    Sub-fig. \ref{subfig_iEpiTw} shows the epitaxy voltage distribution (view from above the IC) at the apex of the disturbance.
 %    The first thing to remark when compared to the \dwF results is the very low current all across the epitaxy layer.
 %    Then, when observing the power supply voltage distribution, shown in sub-fig. \ref{subfig_vsupplyTw}, there are less spatial variation compared to the \dwF substrate, and the power supply voltage is lower at the center of the IC instead of being higher.
@@ -163,22 +163,22 @@ For each considered IC, we observe various signals in a two-dimensional view to 
     The main behavioral differences between \dwF and \twF substrate types lie in the substrate structure, more precisely in the way transistors are lithographed.
     Indeed, as I have stated previously, in \dwF substrates, NMOS are lithographed directly into the P-substrate, which allows a DC coupling between the backside of the IC and the NMOS.
     On the other hand, in \twF substrates, as NMOS and PMOS are electrically isolated from the substrate thanks to the P-well and the N-well.
-    Therefore, no DC coupling is possible between neither the PMOS nor the NMOS.
+    Consequently, no DC coupling is possible between neither the PMOS nor the NMOS.
     This is because silicon diodes are blocked, and thus act as capacitors.
     Therefore, the substrate is AC-coupled with the logic gates in a \twF substrate, while it is DC-coupled with the NMOS and AC-coupled with the PMOS in a \dwF substrate.
-    These structural differences result in behavioral differences when performing \bbi, as we have observed thanks to the simulations.
-    Therefore, it changes the way one can create faults in an IC, or an IC region, depending on the substrate type.
+    These structural differences result in behavioral differences when performing \bbi, as I have observed thanks to the simulations.
+    Eventually, it changes the way one can create faults in an IC, or an IC region, depending on the substrate type.
     In addition to this, and because energy can only flow during voltage changes in an AC-coupled scenario, the effective current over a given injection with fixed parameters will always be lower on a \twF substrate compared to a \dwF substrate, where the DC-coupling allows for energy transfer during the pulse plateau.
 
     \subsection{\dwF and \twF circuits in practice \ddcnew}
     \input{3_modeling/figures/modelesSimusResul/cartoIgnd.tex}
-    Thanks to the previous observations and conclusions, we can expect to notice such substrate structural differences on an actual IC.
-    Therefore, we can expect \dwF regions to exhibit a higher amount of measured RMS current over \twF for a fixed set of experimental parameters.
-    To that end, we chose to use our STM32F439 IC target and perform straightforward experiments.
+    Thanks to the previous observations and conclusions, I can expect to notice such substrate structural differences on an actual IC.
+    Therefore, I can expect \dwF regions to exhibit a higher amount of measured RMS current over \twF for a fixed set of experimental parameters.
+    To that end, I chose to use my STM32F439 IC target and perform straightforward experiments.
 
-    We called these experiments IC ground current mapping, and consists in choosing an arbitrary set of fixed pulse parameters, and performing a spatial sweep of the entire IC backside while measuring the current going out of the target ground connector at each location.
+    I called these experiments IC ground current mapping, and consists in choosing an arbitrary set of fixed pulse parameters, and performing a spatial sweep of the entire IC backside while measuring the current going out of the target ground connector at each location.
     For clarity purposes, only the RMS current is displayed in the mapping results.
-    It is important to remark that in these experiments, the IC is powered-off, but connected to its main power supply.
+%    It is important to remark that in these experiments, the IC is powered-off, but connected to its main power supply.
     Fig. \ref{cartoIgnd} shows experimental results for a 50 µm thick IC, and Fig. \ref{photostm} shows an IR photograph of the same target for comparison purposes.
     The experimental parameters are the following:
     \begin{itemize}
@@ -186,11 +186,11 @@ For each considered IC, we observe various signals in a two-dimensional view to 
         \item Voltage pulse amplitude: -70 V;
         \item Voltage pulse width: 20 ns;
     \end{itemize}
-    When analyzing the results, we can notice strong differences in the measured RMS current between various areas.
-    Therefore, we could suppose that the areas showing a bigger RMS current are composed of \dwF substrates, while the areas showing a lower current are composed of \twF substrates.
+    When analyzing the results,  can notice strong differences in the measured RMS current between various areas.
+    Therefore, I could suppose that the areas showing a bigger RMS current are composed of \dwF substrates, while the areas showing a lower current are composed of \twF substrates.
     It is indeed true.
     At the bottom-right are located the analog blocks, such as the voltage regulators and the PLLs.
-    On the one hand, concerning our target technology, analog areas are typically manufactured using \dwF substrate.
+    On the one hand, concerning my target technology, analog areas are typically manufactured using \dwF substrate.
     On the other hand, glue logic, such as the CPU core and the cryptographic coprocessor are manufactured using \twF substrates, to take advantage of the isolation it provides.
     As expected, the measured current above the glue logic is lower compared to the analog or the FLASH control area.
 

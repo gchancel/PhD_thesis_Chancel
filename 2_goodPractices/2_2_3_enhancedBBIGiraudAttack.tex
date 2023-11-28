@@ -2,26 +2,26 @@
 
 \section{Enhanced BBI platform in a fault attack context \ddcu}
 \label{chap:2_goodPractices;sect:enhancedBBIGiraudAttack}
-Now that we have seen with simple actual experiments the benefits of the proposed enhanced \bbi platform, let us linger on further experiments to verify more thoroughly the soundness of these enhancements.
-To that end, I performed a differential fault attack on our IC target.
+Now that I have introduced with simple actual experiments the benefits of the proposed enhanced \bbi platform, let us linger on further experiments to verify more thoroughly the soundness of these enhancements.
+To that end, I performed a differential fault attack on my IC target.
 More specifically, a constraining fault attack requiring single bit faults on one or more bytes working on an AES cryptographic core, introduced by C. Giraud \cite{giraudDfa} in 2002, submitted in April 2002 to CHES'02.
-In the first place, we are going to discuss in details the core of the attack.
+In the first place, I am going to discuss in details the core of the attack.
 Afterward, I will describe the IC target, its characteristics, and its operating conditions for the experiments.
-Then, I will introduce experiments we developed to perform preliminary measurements to the attack, accelerating the search of points of interests on the IC.
-Next, we will discuss the practical attack results.
-Eventually, we will draw conclusions on the various observations.
+Then, I will introduce experiments I developed to perform preliminary measurements to the attack, accelerating the search of points of interests on the IC.
+Next, I will discuss the practical attack results.
+Eventually, I will draw conclusions on the various observations.
 
     \subsection{Giraud's DFA detailed description \ddcno}
     When Giraud's paper \cite{giraudDfa} was published in 2002, no existing DFA was capable of attacking an AES algorithm.
     In this context, they proposed two types of DFA on AES, to cover various fault types one can induce on secured ICs.
-    In this thesis, I focused on the first fault model, consisting in inducing single bit faults; therefore, this is the one we are going to discuss and describe in details in this section.
+    In this thesis, I focused on the first fault model, consisting in inducing single bit faults; therefore, this is the one I am going to discuss and describe in details in this section.
     It is interesting to note that Piret and Quisquater published another DFA one year after Giraud to CHES'03 \cite{piretQuisquater}, but I focused on Giraud's DFA for my thesis.
 
     \input{2_goodPractices/figures/aesLastRound}
-    As we said before, the attack requires single bit faults on AES computation.
+    As I said before, the attack requires single bit faults on AES computation.
     More specifically, the fault has to appear at the beginning of the final AES round.
-    Because we are using an AES-128, we will describe everything with this in mind.
-    In addition to this, the various notations we will be using are the following:
+    Because I am using an AES-128, I will describe everything with this in mind.
+    In addition to this, the various notations I will be using are the following:
     \begin{itemize}
         \setlength\itemsep{-0.1em}
         \item $P$ is the AES plaintext and $K$ the AES secret key
@@ -40,7 +40,7 @@ Eventually, we will draw conclusions on the various observations.
         C = ShiftRows(SubBytes(P^9)) \oplus K^{10}
     \end{equation}
     With $SubBytes(P^i_j)$ being the substitution table (S-box) result calculated on $M^i_j$ byte, and $ShiftRow(j)$ being the $j^{th}$ byte position of the temporary result of the $ShiftRows$ transform.
-    Thanks to eqn. \ref{cipherGiraud1}, we can then deduce:
+    Thanks to eqn. \ref{cipherGiraud1}, I can then deduce:
     \begin{equation}
         \label{cipherGiraud2}
         C_{ShiftRow(i)} = SubByte(P_i^9) \oplus K^{10}_{ShiftRows(i)}, \forall \in \llbracket0, 15\rrbracket
@@ -62,28 +62,28 @@ Eventually, we will draw conclusions on the various observations.
         \label{faultyCipherGiraud2}
         CF_{ShiftRow(i)} = SubByte(P^9_i) \oplus K^{10}_{ShiftRow(i)}, \forall \in \llbracket0, 15\rrbracket
     \end{equation}
-    If there is no fault on the $i^{th}$ byte of $P^9$, thanks to eqns. \ref{cipherGiraud2} and \ref{faultyCipherGiraud2}, we have the following relation:
+    If there is no fault on the $i^{th}$ byte of $P^9$, thanks to eqns. \ref{cipherGiraud2} and \ref{faultyCipherGiraud2}, I have the following relation:
     \begin{equation}
         \label{griaudNoByteFault_ith}
         C_{ShiftRow(i)} \oplus CF_{ShiftRow(i)} = 0
     \end{equation}
-    If there is a fault on $P_j^9$, we have, thanks to eqns. \ref{cipherGiraud2} and \ref{faultyCipherGiraud1}:
+    If there is a fault on $P_j^9$, I have, thanks to eqns. \ref{cipherGiraud2} and \ref{faultyCipherGiraud1}:
     \begin{equation}
         \label{giraudFault}
         C_{ShiftRow(j)} \oplus CF_{ShiftRow(j)} = SubByte(P^9_j) \oplus SubByte(P^9_j \oplus e_j)
     \end{equation}
-    Eventually, we have to first calculate ShiftRow(j), which gives us the location of the only non-zero byte of $C \oplus CF$, which in return gives us $j$.
-    We then need to find $P^9_j$: we look for the single bit fault $e_j$, and identify an ensemble of values of $P^9_j$ satisfying eqn. \ref{giraudFault}.
-    For each correct value, we increase a counter by 1.
+    Eventually, I have to first calculate ShiftRow(j), which gives us the location of the only non-zero byte of $C \oplus CF$, which in return gives us $j$.
+    I then need to find $P^9_j$: I look for the single bit fault $e_j$, and identify an ensemble of values of $P^9_j$ satisfying eqn. \ref{giraudFault}.
+    For each correct value, I increase a counter by 1.
     Then, by taking another faulty ciphertext $CF$, and the correct value for $P^9_j$ should be counter more often than another incorrect value.
-    Therefore, we can identify the correct value thanks to that affirmation.
+    Therefore, I can identify the correct value thanks to that affirmation.
     This process shall be repeated as much as needed to find every byte of $P^9$.
 
     Thanks to eqn. \ref{cipherGiraud1}, it is possible to retrieve the last round key $K^{10}$, which can be then converted to the AES secret key thanks to the inverse Key Scheduling applied on $K^{10}$.
     % \textcolor{orange}{To finish.}
 
     \subsection{Integrated circuits target characteristics \ddcu}
-    For the purpose of understanding clearly how we set up the previous attack, it is required to describe thoroughly the integrated circuit targeted.
+    For the purpose of understanding clearly how I set up the previous attack, it is required to describe thoroughly the integrated circuit targeted.
     The model is an STM32F439VIT6 32-bits ARM Cortex-M4 microcontroller from STMicroelectronics, available in a LQFP100 package.
     The IC is manufactured using a 90 nm bulk technology.
     Its main characteristics are the following:
@@ -106,7 +106,7 @@ Eventually, we will draw conclusions on the various observations.
         \input{2_goodPractices/figures/giraudDFA_0}
         These experiments are called “Fault Analysis Mapping” (\gcfam), and two results are shown in Fig.\ref{fig:fam}.
         An FAM consists in performing \bbi on the cryptographic core of the IC and trying to inject faults while identifying its behavior.
-        We separated seven fault cases, described in Table \ref{table:faultType}.
+        I separated seven fault cases, described in Table \ref{table:faultType}.
         \begin{table}[H]
             \centering
             \begin{tabu}{|[2pt]l|[2pt]l|[2pt]}
@@ -125,7 +125,7 @@ Eventually, we will draw conclusions on the various observations.
             \label{table:faultType}
         \end{table}
         Over the seven outcomes, only two of them can lead to potential exploitable fault according to Giraud's criterion: Monobit Monobyte and Monobit Multibyte.
-        We performed these experiments on a state-of-the-art (default) platform and on our enhanced platform, with the same equipment on both platforms.
+        I performed these experiments on a state-of-the-art (default) platform and on my enhanced platform, with the same equipment on both platforms.
 
         \subsubsection{Fault analysis mapping comparison \ddcnew}
         The FAMs I performed have the following parameters:
@@ -141,7 +141,7 @@ Eventually, we will draw conclusions on the various observations.
         I performed two FAMs, on the same IC target, for a state-of-the-art platform and for the proposed enhanced platform.
         FAM results are shown for the default platform in Fig. \ref{fig:gndFSM} and for the enhanced platform in Fig. \ref{fig:giraudFSM}.
 
-        On the one hand, concerning the state-of-the-art platform, where the FAM is shown in Fig. \ref{fig:gndFSM}, we can spot numerous locations where a microcontroller crash was observed, more specifically 70 \% of the tested locations.
+        On the one hand, concerning the state-of-the-art platform, where the FAM is shown in Fig. \ref{fig:gndFSM}, I can spot numerous locations where a microcontroller crash was observed, more specifically 70 \% of the tested locations.
         It is problematic as this behavior cannot lead to any meaningful data to perform a fault attack.
         Despite trying numerous experiment parameters, I was never able to obtain a single bit fault on any physical location on the AES core, even considering the ringing and reducing the voltage down to -20 V, to a point where the generator is not specified anymore to deliver consistent amplitudes.
 

@@ -31,7 +31,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3.2}Riscure BBI platform }{15}{subsubsection.2.3.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3.3}NewAE Technology Inc. generators }{16}{subsubsection.2.3.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}An overview about BBI platforms }{18}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Our BBI platform }{18}{section.2.4}%
+\contentsline {section}{\numberline {2.4}My BBI platform }{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}The probe }{18}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}The generator }{19}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}BBI in practice }{20}{section.2.5}%
@@ -83,8 +83,8 @@
 \contentsline {subsection}{\numberline {3.6.1}Dual-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{49}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Triple-Well\xspace integrated circuits under \tooltip [black]{BBI}[orange]{Body Biasing Injection}\xspace }{51}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}Major differences between Dual-Well\xspace and Triple-Well\xspace circuits}{52}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Dual-Well\xspace and Triple-Well\xspace circuits in practice }{53}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}A word on voltage pulses polarity }{54}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.4}Dual-Well\xspace and Triple-Well\xspace circuits in practice }{52}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}A word on voltage pulses polarity }{53}{subsection.3.6.5}%
 \contentsline {section}{\numberline {3.7}Conclusion }{54}{section.3.7}%
 \contentsline {chapter}{\numberline {4}From more complete simulation models to fault model }{57}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Summary }{58}{section.4.1}%
