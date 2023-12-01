@@ -6,7 +6,7 @@
 \label{chap4:sect:modelValid:subsect:thinQuick}
 As substrate thinning is quite widespread when performing fault injection, especially concerning \lfi, let me explain how it is commonly performed.
 The first step to thin the substrate of an IC is to get direct access of it.
-To do so, it is required to remove part of the plastic package of the IC.
+To do so, it is required to remove part of the package of the IC.
 There are multiple ways of doing it, sometimes using chemical solutions do dissolve the material, but most commonly using milling processes.
 More specifically using Selected Area Preparation (SAP) or Focused Ion Beams (FIB) milling.
 
@@ -17,7 +17,7 @@ However, it can often lead to uneven surfaces, which then requires polishing.
 On the other hand, FIB milling consists in a physical milling which does not imply a mechanical contact with the material to be removed, and allows nanometer-level precision.
 For that purpose, FIB is commonly used in combination with SAP \cite{FIBthinning} to produce even substrate surfaces.
 
-In addition to substrate thinning and plastic package removal , SAP milling machines allow removing eventual internal metallic heat-sinks of ICs prior to substrate thinning.
+In addition to substrate thinning and package removal , SAP milling machines allow removing eventual internal metallic heat-sinks of ICs prior to substrate thinning.
 It has the advantage of providing low damage to thinned ICs, thanks to low spindle speed and low temperature rise compared to traditional high speed milling.
 
 \subsection{Experiments with thinned circuits \ddc}
@@ -26,7 +26,7 @@ It has the advantage of providing low damage to thinned ICs, thanks to low spind
 \input{4_thinning/figures/cartosFautesSpreading}
 \input{4_thinning/figures/cartosFautesCouples}
 With geometric and electrical modeling complete, it is now possible to conduct actual experiments in order to verify the meaningfulness of the previous approaches.
-In this context, three an STM32F439VIT6 LQFP100 identical targets were thinned to three different levels, from 750 µm to respectively 200 µm, 140 µm and 50 µm, respectively named ST200, ST140 and ST50 for the rest of this Chapter.
+In this context, three STM32F439VIT6 LQFP100 identical targets were thinned to three different levels, from 750 µm to respectively 200 µm, 140 µm and 50 µm, respectively named ST200, ST140 and ST50 for the rest of this Chapter.
 In order to verify the three conclusions extracted from the modeling section, three experiments are conducted for each target.
 
 The first experiment aims at measuring the minimal voltage pulse amplitude $V_{PU}^{MIN}$ required to induce a faulty behavior on an IC performing computations.

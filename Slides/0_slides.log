@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  28 NOV 2023 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  29 NOV 2023 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,28 +1138,42 @@ Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 34.
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-60.
+62.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<8by9_PLACEHOLDER.pdf, id=78, 227.62204pt x 142.26378pt>
+<8by9_PLACEHOLDER.pdf, id=79, 227.62204pt x 142.26378pt>
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 60.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 62.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 60.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 62.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 60.
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 62.
 (pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
 
 [3
 
  <./8by9_PLACEHOLDER.pdf>]
+File: NewLogoLIRMM.pdf Graphic file (type pdf)
+<use NewLogoLIRMM.pdf>
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 80.
+(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
+ [4
+
+]
+File: NewLogoLIRMM.pdf Graphic file (type pdf)
+<use NewLogoLIRMM.pdf>
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 111.
+(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
+ [5
+
+]
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -1174,11 +1188,11 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26003 strings out of 476411
- 531189 string characters out of 5788662
+ 26043 strings out of 476411
+ 532197 string characters out of 5788662
  1865845 words of memory out of 5000000
- 45815 multiletter control sequences out of 15000+600000
- 521616 words of font info for 65 fonts, out of 8000000 for 9000
+ 45851 multiletter control sequences out of 15000+600000
+ 521921 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,122p,1009b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
@@ -1188,9 +1202,9 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (3 pages, 93543 bytes).
+Output written on 0_slides.pdf (5 pages, 108398 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

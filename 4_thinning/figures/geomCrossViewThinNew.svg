@@ -25,12 +25,12 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="2.2952612"
-     inkscape:cx="462.25676"
-     inkscape:cy="198.6702"
+     inkscape:cx="562.02754"
+     inkscape:cy="138.54632"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="-1928"
-     inkscape:window-y="349"
+     inkscape:window-x="349"
+     inkscape:window-y="1432"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-text-baseline="true"
@@ -148,6 +148,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
+       style="fill:#ff7900;fill-opacity:0.50708216;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.88976;stroke-opacity:1"
+       id="rect1851"
+       width="190"
+       height="1.9999999"
+       x="5"
+       y="17" />
+    <rect
        style="opacity:0.97;fill:#fff30b;fill-opacity:0.167139;stroke:#ff7900;stroke-width:0.999993;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect865"
        width="190"
@@ -178,15 +185,20 @@
        id="path3602" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="156.7489"
-       y="18.663473"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="176.0388"
+       y="7.4423594"
        id="text2069"><tspan
          sodipodi:role="line"
          id="tspan2067"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke-width:0.264583"
-         x="156.7489"
-         y="18.663473">IC frontside</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ff7900;fill-opacity:1;stroke-width:0.264583"
+         x="176.0388"
+         y="7.4423594">IC frontside</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ff7900;fill-opacity:1;stroke-width:0.264583"
+         x="176.0388"
+         y="16.261808"
+         id="tspan2711">(SCS layer)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffb200;fill-opacity:1;stroke:#0095ff;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -242,28 +254,28 @@
          y="66.645836">IC backside</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="163.35136"
        y="75.790344"
        id="text2069-9-9"><tspan
          sodipodi:role="line"
          id="tspan2067-5-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke-width:0.264583"
          x="163.35136"
          y="75.790344">V<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan6879">SUB</tspan> &gt; V<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:65%;baseline-shift:sub;fill:#ff7900;fill-opacity:1"
+   id="tspan6879">SUB</tspan> = V<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#ff7900;fill-opacity:1"
    id="tspan8723">F</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="163.12146"
        y="86.645836"
        id="text2069-9-9-1"><tspan
          sodipodi:role="line"
          id="tspan2067-5-0-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7900;fill-opacity:1;stroke-width:0.264583"
          x="163.12146"
          y="86.645836">Substrate</tspan></text>
     <path
@@ -285,7 +297,7 @@
        transform="translate(1.2110404,0.22615515)"><tspan
          x="20"
          y="54.135736"
-         id="tspan2334">SUBSTRATE</tspan></text>
+         id="tspan4249">SUBSTRATE</tspan></text>
     <circle
        style="opacity:0.97;fill:#ffb200;fill-opacity:1;stroke:#ff7900;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path2716"

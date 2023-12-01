@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.6404834"
-     inkscape:cx="403.33524"
-     inkscape:cy="127.24943"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="3.7342074"
+     inkscape:cx="636.81519"
+     inkscape:cy="51.416533"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="349"
+     inkscape:window-y="1432"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-text-baseline="true"
@@ -120,6 +120,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
+       style="fill:#0095ff;fill-opacity:0.50999999;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.88976;stroke-opacity:1"
+       id="rect1851"
+       width="190"
+       height="1.9999999"
+       x="4.999999"
+       y="7" />
+    <rect
        style="opacity:0.97;fill:#fff30b;fill-opacity:0.167139;stroke:#0095ff;stroke-width:0.999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect865"
        width="190"
@@ -165,14 +172,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="155.7489"
-       y="8.6634741"
+       x="174"
+       y="8"
        id="text2069"><tspan
          sodipodi:role="line"
          id="tspan2067"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0095ff;fill-opacity:1;stroke-width:0.264583"
-         x="155.7489"
-         y="8.6634741">IC frontside</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#0095ff;fill-opacity:1;stroke-width:0.264583"
+         x="174"
+         y="8">IC frontside</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#0095ff;fill-opacity:1;stroke-width:0.264583"
+         x="174"
+         y="16.81945"
+         id="tspan1951">(SCS layer)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffb200;fill-opacity:1;stroke:#0095ff;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -238,7 +250,7 @@
          x="163.35136"
          y="75.790344">V<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6879">SUB</tspan> &gt; V<tspan
+   id="tspan6879">SUB</tspan> = V<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan8723">F</tspan></tspan></text>
     <text
@@ -270,7 +282,7 @@
        transform="translate(1.2110404,0.22615515)"><tspan
          x="6"
          y="16.135736"
-         id="tspan3772">SUBSTRATE</tspan></text>
+         id="tspan2961">SUBSTRATE</tspan></text>
     <circle
        style="opacity:0.97;fill:#ffb200;fill-opacity:1;stroke:#0095ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path2716"

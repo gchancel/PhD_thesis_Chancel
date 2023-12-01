@@ -45,7 +45,7 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Substrate thinning analysis }{63}{chapter.5}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces BBI susceptibility area cross-sectional 2D view\relax }}{65}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view and normalized voltage concentration at the peak amplitude of the first voltage pulse edge.\relax }}{67}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Simulated non-thinned IC (140 µm) and thinned IC (60 µm) substrate voltage distribution cross-sectional view and normalized voltage density at the peak amplitude of the first voltage pulse edge.\relax }}{67}{figure.caption.37}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Fault susceptibility maps\relax }}{69}{figure.caption.38}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Susceptibility area spreading\relax }}{69}{figure.caption.39}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Fault susceptibility maps couples\relax }}{69}{figure.caption.40}%

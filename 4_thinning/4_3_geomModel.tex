@@ -14,7 +14,7 @@ Then, and because this modeling alone is insufficient, I perform and analyze ele
 For the purpose of the geometric modeling, let us consider two identical ICs.
 A commercial one, with an arbitrary standard substrate thickness, and another one with its substrate thinned by a certain amount in order to perform fault injection more easily.
 Fig. \ref{fig:geomCrossView} illustrates the two-dimensional cross-sectional views of the considered ICs substrates during an arbitrary BBI voltage pulse of amplitude $V_{P_U}$.
-The probe is located at the center of the ICs at point $P_U$, and the targeted spot in the logic is at point $P$.
+The probe is located at the center of the ICs at point $P_U$, and the targeted spot in the SCS layer (logic gates) is at point $P$.
 The silicon substrate being an isotropic resistive environment, it is quite natural to expect the electrical charges to flow and spread evenly when injected into it at any given time.
 Therefore, equipotentials form half-sphere surfaces inside the substrate volume.
 These surfaces are highlighted in two-dimensions as green half-circles in Fig. \ref{fig:geomCrossView}, for an arbitrary voltage $V_F$.
@@ -87,7 +87,7 @@ The simulation parameters are the following:
     \item Required rise and fall times: 8 ns
 \end{itemize}
 
-Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage distribution across the substrate through a cross-sectional view at the apex of the voltage pulse first edge, in addition to the per-layer voltage concentration.
+Fig. \ref{figSimuSubCoupe2} shows, for each simulated IC, the voltage distribution across the substrate through a cross-sectional view at the apex of the voltage pulse first edge, in addition to the per-layer voltage density.
 These last graphs allow me to spot more easily the way the voltage propagates and is distributed inside the substrate during \bbi.
 For simplicity, the results are shown in two dimensions, and as the substrate is an isotropic environment, the propagation is uniform in every direction.
 
@@ -95,8 +95,8 @@ The first interesting thing to note is that, as predicted thanks to the geometri
 However, these figures alone do not say much, at least not very obviously, about the voltage spreading inside the substrate.
 Then, thanks to Fig. \ref{subFigThickICfocus} and \ref{subFigThinICfocus}, which represent, for each substrate layer (14 in number concerning the 140 µm IC, 6 for the 60 µm IC), the normalized voltage distribution.
 The lower the layer number (or the closer to the red color the line is), the deeper into the IC it is.
-Concerning the values in the X-axis, there are normalized voltage values calculated per-layer, and the closer to zero, the higher the concentration.
-What these figures show us is that for identical experimental parameters, when the substrate is thinned, the voltage concentration is higher in the highest substrate layer.
+Concerning the values in the X-axis, there are normalized voltage values calculated per-layer, and the closer to zero, the higher the density.
+What these figures show us is that for identical experimental parameters, when the substrate is thinned, the voltage density is higher in the highest substrate layer.
 It means that for a fixed $V_F$ voltage threshold, the \bbi susceptibility area is more spread out on a thinner IC.
 It is quite intuitive when looking at the simulation results.
 Indeed, if I simply remove the additional layers in Fig. \ref{subFigThickIC} and \ref{subFigThinIC} between the 60 µm and the 140 µm IC, the results look very similar.
