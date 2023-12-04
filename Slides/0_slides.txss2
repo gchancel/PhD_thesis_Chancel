@@ -12,16 +12,384 @@
                 "text": "bbiPracticeImpGnd.tex\n\\caption{Enhanced simplified electrical model of a \\bbi platform. The model represents the major piece of equipment involved in a \\bbi platform, with improvements over state-of-the-art ones. There are the voltage pulse generator, the \\bbi probe, the transmission line, the IC (1 k\\textomega\\xspace resistor), the original platform grounding (both 150 \\textOmega\\xspace resistors), and the proposed enhancements highlighted in red. The enhancements consist in first, creating an approximate impedance matching for the generator, second, to bypass the poor grounding with low impedance copper wires.}"
             }
         ],
-        "CurrentFile": "0_slides.tex",
+        "CurrentFile": "slide8.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 14,
+                "Col": 5,
                 "EditorGroup": 0,
                 "FileName": "0_slides.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 85
+                "Line": 29
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "testFrame.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 1
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide1.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 17,
+                "EditorGroup": 0,
+                "FileName": "slide2.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 4
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide3.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 36,
+                "EditorGroup": 0,
+                "FileName": "slide4.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 3
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide5.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 35,
+                "EditorGroup": 0,
+                "FileName": "slide6.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 20
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide7.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 30
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide8.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 29
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide9.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide10.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide11.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide12.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide13.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide14.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide15.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide16.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide17.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide18.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide19.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide20.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide21.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide22.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide23.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide24.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide25.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide26.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide27.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide28.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide29.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide30.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide31.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide32.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide33.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide34.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide35.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide36.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide37.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide38.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide39.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide40.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide41.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide42.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide43.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide44.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "slide45.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 6
             }
         ],
         "MasterFile": "",

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  29 NOV 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,80 +1100,229 @@ File: fc-english.def 2016/01/12
 ) (0_slides.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 15.
+(hyperref)                setting the option has no effect on input line 21.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 28.
+ut line 34.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-<NewLogoLIRMM.pdf, id=14, 549.7338pt x 199.4652pt>
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 28.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [1
+) [1
 
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
-RMM.pdf>]
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 34.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [2
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (testFrame.
+tex [2
 
-]
+]) (slide1.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-62.
+27.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<8by9_PLACEHOLDER.pdf, id=79, 227.62204pt x 142.26378pt>
+<8by9_PLACEHOLDER.pdf, id=131, 227.62204pt x 142.26378pt>
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 62.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 27.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 62.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 27.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 62.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
 
 [3
 
- <./8by9_PLACEHOLDER.pdf>]
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 80.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [4
+ <./8by9_PLACEHOLDER.pdf>]) (slide2.tex [4
 
-]
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 111.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
- [5
+]) (slide3.tex [5
 
-]
+]) (slide4.tex
+<langerBBI.jpg, id=276, 645.41125pt x 889.3225pt>
+File: langerBBI.jpg Graphic file (type jpg)
+<use langerBBI.jpg>
+Package pdftex.def Info: langerBBI.jpg  used on input line 22.
+(pdftex.def)             Requested size: 89.62556pt x 123.48654pt.
+<em-fi-bbi-probe-20-black.jpg, id=277, 1323.9864pt x 795.9336pt>
+File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
+<use em-fi-bbi-probe-20-black.jpg>
+Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 22.
+(pdftex.def)             Requested size: 179.25114pt x 107.75002pt.
+
+[6
+
+ <./langerBBI.jpg> <./em-fi-bbi-probe-20-black.jpg>]) (slide5.tex
+<chipshouter_upscaled.png, id=323, 2063.71pt x 1473.505pt>
+File: chipshouter_upscaled.png Graphic file (type png)
+<use chipshouter_upscaled.png>
+Package pdftex.def Info: chipshouter_upscaled.png  used on input line 26.
+(pdftex.def)             Requested size: 111.53261pt x 79.6153pt.
+<picoemp-red.jpeg, id=325, 240.9pt x 92.0238pt>
+File: picoemp-red.jpeg Graphic file (type jpg)
+<use picoemp-red.jpeg>
+Package pdftex.def Info: picoemp-red.jpeg  used on input line 26.
+(pdftex.def)             Requested size: 111.53261pt x 42.60527pt.
+<colinFigureBBI.png, id=326, 1220.30907pt x 301.8778pt>
+File: colinFigureBBI.png Graphic file (type png)
+<use colinFigureBBI.png>
+Package pdftex.def Info: colinFigureBBI.png  used on input line 26.
+(pdftex.def)             Requested size: 239.00558pt x 59.12158pt.
+ [7
+
+ <./chipshouter_upscaled.png> <./picoemp-red.jpeg> <./colinFigureBBI.png>]) (sl
+ide6.tex
+<sondeBBI_loin_raw.png, id=374, 1397.22pt x 1254.18562pt>
+File: sondeBBI_loin_raw.png Graphic file (type png)
+<use sondeBBI_loin_raw.png>
+Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 25.
+(pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
+<pointeBBI2.png, id=375, 862.9038pt x 773.7708pt>
+File: pointeBBI2.png Graphic file (type png)
+<use pointeBBI2.png>
+Package pdftex.def Info: pointeBBI2.png  used on input line 25.
+(pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
+
+[8
+
+ <./sondeBBI_loin_raw.png> <./pointeBBI2.png>]) (slide7.tex
+<model0Probe.pdf, id=422, 369.88583pt x 199.1693pt>
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 30.
+(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
+<SIMPLE_BBI_0.pdf, id=423, 505.89pt x 317.98799pt>
+File: SIMPLE_BBI_0.pdf Graphic file (type pdf)
+<use SIMPLE_BBI_0.pdf>
+Package pdftex.def Info: SIMPLE_BBI_0.pdf  used on input line 30.
+(pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
+ [9
+
+ <./model0Probe.pdf> <./SIMPLE_BBI_0.pdf>]) (slide8.tex
+<model2ProbeManuscrit.pdf, id=539, 369.88583pt x 199.1693pt>
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 36.
+(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
+<SIMPLE_BBI_2.pdf, id=540, 505.89pt x 317.98799pt>
+File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
+<use SIMPLE_BBI_2.pdf>
+Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 36.
+(pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
+<impMatchPicture.jpg, id=541, 1915.155pt x 2719.15875pt>
+File: impMatchPicture.jpg Graphic file (type jpg)
+<use impMatchPicture.jpg>
+Package pdftex.def Info: impMatchPicture.jpg  used on input line 36.
+(pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
+<sondeGndSource.jpg, id=542, 992.20688pt x 1407.75937pt>
+File: sondeGndSource.jpg Graphic file (type jpg)
+<use sondeGndSource.jpg>
+Package pdftex.def Info: sondeGndSource.jpg  used on input line 36.
+(pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
+ [10
+
+ <./model2ProbeManuscrit.pdf> <./SIMPLE_BBI_2.pdf> <./impMatchPicture.jpg> <./s
+ondeGndSource.jpg>]) (slide9.tex
+<realPulsesComparisons.pdf, id=662, 831.105pt x 361.35pt>
+File: realPulsesComparisons.pdf Graphic file (type pdf)
+<use realPulsesComparisons.pdf>
+Package pdftex.def Info: realPulsesComparisons.pdf  used on input line 8.
+(pdftex.def)             Requested size: 318.67209pt x 138.5495pt.
+
+[11
+
+ <./realPulsesComparisons.pdf>]) (slide10.tex [12
+
+]) (slide11.tex [13
+
+])
+(slide12.tex [14
+
+]) (slide13.tex [15
+
+]) (slide14.tex [16
+
+]) (slide15.tex [17
+
+])
+(slide16.tex [18
+
+]) (slide17.tex [19
+
+]) (slide18.tex [20
+
+]) (slide19.tex [21
+
+])
+(slide20.tex [22
+
+]) (slide21.tex [23
+
+]) (slide22.tex [24
+
+]) (slide23.tex [25
+
+])
+(slide24.tex [26
+
+]) (slide25.tex [27
+
+]) (slide26.tex [28
+
+]) (slide27.tex [29
+
+])
+(slide28.tex [30
+
+]) (slide29.tex [31
+
+]) (slide30.tex [32
+
+]) (slide31.tex [33
+
+])
+(slide32.tex [34
+
+]) (slide33.tex [35
+
+]) (slide34.tex [36
+
+]) (slide35.tex [37
+
+])
+(slide36.tex [38
+
+]) (slide37.tex [39
+
+]) (slide38.tex [40
+
+]) (slide39.tex [41
+
+])
+(slide40.tex [42
+
+]) (slide41.tex [43
+
+]) (slide42.tex [44
+
+]) (slide43.tex [45
+
+])
+(slide44.tex [46
+
+]) (slide45.tex [47
+
+])
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -1188,13 +1337,13 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26043 strings out of 476411
- 532197 string characters out of 5788662
- 1865845 words of memory out of 5000000
- 45851 multiletter control sequences out of 15000+600000
- 521921 words of font info for 66 fonts, out of 8000000 for 9000
+ 26542 strings out of 476411
+ 542806 string characters out of 5788662
+ 1862845 words of memory out of 5000000
+ 46114 multiletter control sequences out of 15000+600000
+ 520287 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,122p,1009b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1009b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
 s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1202,9 +1351,9 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (5 pages, 108398 bytes).
+Output written on 0_slides.pdf (47 pages, 16222904 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2434 PDF objects out of 2487 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

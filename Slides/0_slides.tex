@@ -9,6 +9,12 @@
 \usepackage{tikz}
 
 \begin{document}
+    \setbeamertemplate{caption}{\raggedright\insertcaption\par}
+%    \setbeamertemplate{footline}[frame number]
+    \setbeamertemplate{sidebar right}{}
+    \setbeamertemplate{footline}{%
+    \hfill\usebeamertemplate***{navigation symbols}
+    \hspace{1mm}\insertframenumber{}/\inserttotalframenumber\hspace{1mm}}
 
     \title{Body biasing fault injection: \par Enhancements, analysis, modeling, and simulation}
     \subtitle{PhD thesis defense}
@@ -27,87 +33,50 @@
         \titlepage
     \end{frame}
 
-    \begin{frame} % Test frame
-        \frametitle{Test frame title}
-        \framesubtitle{Test frame subtitle}
-        Test frame content.
-    \end{frame}
-
-    \begin{frame} % First frame
-        \frametitle{Introduction}
-        \framesubtitle{Context}
-
-        \begin{itemize}
-            \setlength\itemsep{1em}
-            \item Electronics systems are everywhere, from entertainment to business;
-            \item They embed cryptographic algorithms to ensure secure operation;
-            \item These implementations are fallible → they leak information.
-        \end{itemize}
-
-        \begin{columns}
-            \begin{column}{0.3\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{8by9_PLACEHOLDER.pdf}
-            \end{column}
-
-            \begin{column}{0.3\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{8by9_PLACEHOLDER.pdf}
-            \end{column}
-        \end{columns}
-
-%        \begin{center}
-%            Jeaj
-%        \end{center}
-    \end{frame}
-
-    \begin{frame}
-        \frametitle{Introduction}
-        \framesubtitle{Objectives}
-        \begin{itemize}
-            \setlength\itemsep{1em}
-            \item Fault injection...;
-            \item Side-channel attacks...;
-            \item Main target → Modeling body biasing injection:
-                \begin{itemize}
-                    \setlength\itemsep{1em}
-                    \item Characterize better practices for BBI;
-                    \item Define electrical models for BBI simulation;
-                    \item Understand the mechanisms at work;
-                    \item Bring insights on substrate thinning and BBI.
-                \end{itemize}
-        \end{itemize}
-    \end{frame}
-
-    \begin{frame}
-        \frametitle{Introduction}
-        \framesubtitle{State-of-the-art}
-        \begin{center}
-            Main flaws of algorithms implemented on actual circuits
-        \end{center}
-        \begin{columns}
-               \begin{column}{0.5\textwidth}
-                   \begin{center}
-                       LOCAL TITLE
-                   \end{center}
-                   content...\\
-                   content...\\
-                   content...
-               \end{column}
-
-               \begin{column}{0.02\textwidth}
-                   \rule{0.5mm}{0.7\textheight}
-               \end{column}
-
-               \begin{column}{0.5\textwidth}
-                   \begin{center}
-                       LOCAL TITLE
-                   \end{center}
-                   content...\\
-                   content...\\
-                   content...
-               \end{column}
-        \end{columns}
-    \end{frame}
-
+    \input{./testFrame.tex}
+    \input{./slide1.tex}
+    \input{./slide2.tex}
+    \input{./slide3.tex}
+    \input{./slide4.tex}
+    \input{./slide5.tex}
+    \input{./slide6.tex}
+    \input{./slide7.tex}
+    \input{./slide8.tex}
+    \input{./slide9.tex}
+    \input{./slide10.tex}
+    \input{./slide11.tex}
+    \input{./slide12.tex}
+    \input{./slide13.tex}
+    \input{./slide14.tex}
+    \input{./slide15.tex}
+    \input{./slide16.tex}
+    \input{./slide17.tex}
+    \input{./slide18.tex}
+    \input{./slide19.tex}
+    \input{./slide20.tex}
+    \input{./slide21.tex}
+    \input{./slide22.tex}
+    \input{./slide23.tex}
+    \input{./slide24.tex}
+    \input{./slide25.tex}
+    \input{./slide26.tex}
+    \input{./slide27.tex}
+    \input{./slide28.tex}
+    \input{./slide29.tex}
+    \input{./slide30.tex}
+    \input{./slide31.tex}
+    \input{./slide32.tex}
+    \input{./slide33.tex}
+    \input{./slide34.tex}
+    \input{./slide35.tex}
+    \input{./slide36.tex}
+    \input{./slide37.tex}
+    \input{./slide38.tex}
+    \input{./slide39.tex}
+    \input{./slide40.tex}
+    \input{./slide41.tex}
+    \input{./slide42.tex}
+    \input{./slide43.tex}
+    \input{./slide44.tex}
+    \input{./slide45.tex}
 \end{document}
