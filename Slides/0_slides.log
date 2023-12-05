@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  5 DEC 2023 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,24 +933,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (0_slides.aux)
 \openout1 = `0_slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1012,63 +1012,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 38.
  (0_slides.out) (0_slides.out)
 \@outlinefile=\write5
 \openout5 = `0_slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 11.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 11.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 11.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 11.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 11.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 11.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 11.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 11.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 11.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 11.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 11.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 38.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-1.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
-1.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 11.
+ut line 38.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-
 basic-dictionary-English.dict
@@ -1100,21 +1100,21 @@ File: fc-english.def 2016/01/12
 ) (0_slides.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 21.
+(hyperref)                setting the option has no effect on input line 48.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 34.
+ut line 61.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
@@ -1122,24 +1122,24 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 ) [1
 
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (testFrame.
-tex [2
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (slide1.tex
+ [2
 
-]) (slide1.tex
+]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-27.
+28.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<8by9_PLACEHOLDER.pdf, id=131, 227.62204pt x 142.26378pt>
+<8by9_PLACEHOLDER.pdf, id=348, 227.62204pt x 142.26378pt>
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 27.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 28.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 File: 8by9_PLACEHOLDER.pdf Graphic file (type pdf)
 <use 8by9_PLACEHOLDER.pdf>
-Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 27.
+Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 28.
 (pdftex.def)             Requested size: 119.50279pt x 74.68959pt.
 
 [3
@@ -1149,178 +1149,267 @@ Package pdftex.def Info: 8by9_PLACEHOLDER.pdf  used on input line 27.
 ]) (slide3.tex [5
 
 ]) (slide4.tex
-<langerBBI.jpg, id=276, 645.41125pt x 889.3225pt>
+<langerBBI.jpg, id=840, 645.41125pt x 889.3225pt>
 File: langerBBI.jpg Graphic file (type jpg)
 <use langerBBI.jpg>
-Package pdftex.def Info: langerBBI.jpg  used on input line 22.
+Package pdftex.def Info: langerBBI.jpg  used on input line 19.
 (pdftex.def)             Requested size: 89.62556pt x 123.48654pt.
-<em-fi-bbi-probe-20-black.jpg, id=277, 1323.9864pt x 795.9336pt>
+<em-fi-bbi-probe-20-black.jpg, id=841, 1323.9864pt x 795.9336pt>
 File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
 <use em-fi-bbi-probe-20-black.jpg>
-Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 22.
+Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 19.
 (pdftex.def)             Requested size: 179.25114pt x 107.75002pt.
 
 [6
 
  <./langerBBI.jpg> <./em-fi-bbi-probe-20-black.jpg>]) (slide5.tex
-<chipshouter_upscaled.png, id=323, 2063.71pt x 1473.505pt>
+<chipshouter_upscaled.png, id=988, 2063.71pt x 1473.505pt>
 File: chipshouter_upscaled.png Graphic file (type png)
 <use chipshouter_upscaled.png>
-Package pdftex.def Info: chipshouter_upscaled.png  used on input line 26.
+Package pdftex.def Info: chipshouter_upscaled.png  used on input line 23.
 (pdftex.def)             Requested size: 111.53261pt x 79.6153pt.
-<picoemp-red.jpeg, id=325, 240.9pt x 92.0238pt>
+<picoemp-red.jpeg, id=990, 240.9pt x 92.0238pt>
 File: picoemp-red.jpeg Graphic file (type jpg)
 <use picoemp-red.jpeg>
-Package pdftex.def Info: picoemp-red.jpeg  used on input line 26.
+Package pdftex.def Info: picoemp-red.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 111.53261pt x 42.60527pt.
-<colinFigureBBI.png, id=326, 1220.30907pt x 301.8778pt>
+<colinFigureBBI.png, id=991, 1220.30907pt x 301.8778pt>
 File: colinFigureBBI.png Graphic file (type png)
 <use colinFigureBBI.png>
-Package pdftex.def Info: colinFigureBBI.png  used on input line 26.
+Package pdftex.def Info: colinFigureBBI.png  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 59.12158pt.
  [7
 
  <./chipshouter_upscaled.png> <./picoemp-red.jpeg> <./colinFigureBBI.png>]) (sl
 ide6.tex
-<sondeBBI_loin_raw.png, id=374, 1397.22pt x 1254.18562pt>
+<sondeBBI_loin_raw.png, id=1140, 1397.22pt x 1254.18562pt>
 File: sondeBBI_loin_raw.png Graphic file (type png)
 <use sondeBBI_loin_raw.png>
-Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 25.
+Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 22.
 (pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
-<pointeBBI2.png, id=375, 862.9038pt x 773.7708pt>
+<pointeBBI2.png, id=1141, 862.9038pt x 773.7708pt>
 File: pointeBBI2.png Graphic file (type png)
 <use pointeBBI2.png>
-Package pdftex.def Info: pointeBBI2.png  used on input line 25.
+Package pdftex.def Info: pointeBBI2.png  used on input line 22.
 (pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
 
 [8
 
- <./sondeBBI_loin_raw.png> <./pointeBBI2.png>]) (slide7.tex
-<model0Probe.pdf, id=422, 369.88583pt x 199.1693pt>
+ <./sondeBBI_loin_raw.png> <./pointeBBI2.png>]) (slide7.tex [9
+
+]
+<model0Probe.pdf, id=1385, 369.88583pt x 199.1693pt>
 File: model0Probe.pdf Graphic file (type pdf)
 <use model0Probe.pdf>
-Package pdftex.def Info: model0Probe.pdf  used on input line 30.
+Package pdftex.def Info: model0Probe.pdf  used on input line 28.
 (pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
-<SIMPLE_BBI_0.pdf, id=423, 505.89pt x 317.98799pt>
+<SIMPLE_BBI_0.pdf, id=1386, 505.89pt x 317.98799pt>
 File: SIMPLE_BBI_0.pdf Graphic file (type pdf)
 <use SIMPLE_BBI_0.pdf>
-Package pdftex.def Info: SIMPLE_BBI_0.pdf  used on input line 30.
+Package pdftex.def Info: SIMPLE_BBI_0.pdf  used on input line 28.
 (pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
- [9
-
- <./model0Probe.pdf> <./SIMPLE_BBI_0.pdf>]) (slide8.tex
-<model2ProbeManuscrit.pdf, id=539, 369.88583pt x 199.1693pt>
-File: model2ProbeManuscrit.pdf Graphic file (type pdf)
-<use model2ProbeManuscrit.pdf>
-Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 36.
-(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
-<SIMPLE_BBI_2.pdf, id=540, 505.89pt x 317.98799pt>
-File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
-<use SIMPLE_BBI_2.pdf>
-Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 36.
-(pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
-<impMatchPicture.jpg, id=541, 1915.155pt x 2719.15875pt>
-File: impMatchPicture.jpg Graphic file (type jpg)
-<use impMatchPicture.jpg>
-Package pdftex.def Info: impMatchPicture.jpg  used on input line 36.
-(pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
-<sondeGndSource.jpg, id=542, 992.20688pt x 1407.75937pt>
-File: sondeGndSource.jpg Graphic file (type jpg)
-<use sondeGndSource.jpg>
-Package pdftex.def Info: sondeGndSource.jpg  used on input line 36.
-(pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
  [10
 
+ <./model0Probe.pdf> <./SIMPLE_BBI_0.pdf>]) (slide8.tex
+<model2ProbeManuscrit.pdf, id=1603, 369.88583pt x 199.1693pt>
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 33.
+(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
+<SIMPLE_BBI_2.pdf, id=1604, 505.89pt x 317.98799pt>
+File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
+<use SIMPLE_BBI_2.pdf>
+Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 33.
+(pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
+<impMatchPicture.jpg, id=1605, 1915.155pt x 2719.15875pt>
+File: impMatchPicture.jpg Graphic file (type jpg)
+<use impMatchPicture.jpg>
+Package pdftex.def Info: impMatchPicture.jpg  used on input line 33.
+(pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
+<sondeGndSource.jpg, id=1606, 992.20688pt x 1407.75937pt>
+File: sondeGndSource.jpg Graphic file (type jpg)
+<use sondeGndSource.jpg>
+Package pdftex.def Info: sondeGndSource.jpg  used on input line 33.
+(pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
+ [11
+
  <./model2ProbeManuscrit.pdf> <./SIMPLE_BBI_2.pdf> <./impMatchPicture.jpg> <./s
-ondeGndSource.jpg>]) (slide9.tex
-<realPulsesComparisons.pdf, id=662, 831.105pt x 361.35pt>
+ondeGndSource.jpg>])
+(slide9.tex
+<realPulsesComparisons.pdf, id=1827, 831.105pt x 361.35pt>
 File: realPulsesComparisons.pdf Graphic file (type pdf)
 <use realPulsesComparisons.pdf>
-Package pdftex.def Info: realPulsesComparisons.pdf  used on input line 8.
-(pdftex.def)             Requested size: 318.67209pt x 138.5495pt.
+Package pdftex.def Info: realPulsesComparisons.pdf  used on input line 20.
+(pdftex.def)             Requested size: 278.83578pt x 121.23082pt.
+ [12
 
-[11
+ <./realPulsesComparisons.pdf>]) (slide10.tex
+<aesFastGndOnly.pdf, id=2048, 466.74374pt x 323.70938pt>
+File: aesFastGndOnly.pdf Graphic file (type pdf)
+<use aesFastGndOnly.pdf>
+Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 12.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
+<aesFastImpGnd.pdf, id=2049, 466.74374pt x 323.70938pt>
+File: aesFastImpGnd.pdf Graphic file (type pdf)
+<use aesFastImpGnd.pdf>
+Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 12.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
 
- <./realPulsesComparisons.pdf>]) (slide10.tex [12
+Overfull \vbox (9.99785pt too high) detected at line 12
+ []
 
-]) (slide11.tex [13
+[13
+
+ <./aesFastGndOnly.pdf> <./aesFastImpGnd.pdf
+
+pdfTeX warning: pdflatex.exe (file ./aesFastImpGnd.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]) (slide11.tex
+<giraud__7N.pdf, id=2362, 489.40842pt x 44.7271pt>
+File: giraud__7N.pdf Graphic file (type pdf)
+<use giraud__7N.pdf>
+Package pdftex.def Info: giraud__7N.pdf  used on input line 8.
+(pdftex.def)             Requested size: 398.3386pt x 36.40413pt.
+ [14
+
+ <./giraud__7N.pdf>]) (slide12.tex [15
+
+]
+<psuNetworkNew.png, id=2775, 4818.0pt x 1631.09375pt>
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 12.
+(pdftex.def)             Requested size: 159.333pt x 53.93327pt.
+<std_cell_segment_principle.pdf, id=2776, 500.76851pt x 210.5504pt>
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 12.
+
+(pdftex.def)             Requested size: 159.333pt x 66.99197pt.
+ [16
+
+ <./psuNetworkNew.png> <./std_cell_segment_principle.pdf>]) (slide13.tex
+<DUAL.pdf, id=2937, 364.19528pt x 250.38426pt>
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 11.
+(pdftex.def)             Requested size: 159.333pt x 109.54283pt.
+<TRIPLE.pdf, id=2938, 364.19528pt x 250.38426pt>
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 11.
+(pdftex.def)             Requested size: 159.333pt x 109.54283pt.
+ [17
+
+ <./DUAL.pdf> <./TRIPLE.pdf
+
+pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>]) (slide14.tex
+<dualWellEmfi.png, id=3178, 1455.4375pt x 1656.1875pt>
+File: dualWellEmfi.png Graphic file (type png)
+<use dualWellEmfi.png>
+Package pdftex.def Info: dualWellEmfi.png  used on input line 11.
+(pdftex.def)             Requested size: 159.333pt x 181.29669pt.
+<tripleWellEmfi.png, id=3179, 1455.4375pt x 1656.1875pt>
+File: tripleWellEmfi.png Graphic file (type png)
+<use tripleWellEmfi.png>
+Package pdftex.def Info: tripleWellEmfi.png  used on input line 11.
+(pdftex.def)             Requested size: 159.333pt x 181.29669pt.
+ [18
+
+ <./dualWellEmfi.png> <./tripleWellEmfi.png>]) (slide15.tex
+<substrateSubdivision_88.png, id=3328, 2143.00626pt x 1204.5pt>
+File: substrateSubdivision_88.png Graphic file (type png)
+<use substrateSubdivision_88.png>
+Package pdftex.def Info: substrateSubdivision_88.png  used on input line 20.
+(pdftex.def)             Requested size: 139.42093pt x 78.35039pt.
+<dualWell_no_7c_Eevee.png, id=3329, 1455.4375pt x 1656.1875pt>
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 20.
+(pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
+<tripleWell_no_7c_Eevee.png, id=3330, 1455.4375pt x 1656.1875pt>
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 20.
+(pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
+[19
+
+ <./substrateSubdivision_88.png> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_
+7c_Eevee.png>]) (slide16.tex
+<resultingSimulated_ic.png, id=3481, 2569.6pt x 2044.63875pt>
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 7.
+(pdftex.def)             Requested size: 199.1693pt x 158.45786pt.
+ [20
+
+ <./resultingSimulated_ic.png>])
+(slide17.tex [21
+
+]) (slide18.tex [22
+
+]) (slide19.tex [23
+
+]) (slide20.tex [24
 
 ])
-(slide12.tex [14
+(slide21.tex [25
 
-]) (slide13.tex [15
+]) (slide22.tex [26
 
-]) (slide14.tex [16
+]) (slide23.tex [27
 
-]) (slide15.tex [17
-
-])
-(slide16.tex [18
-
-]) (slide17.tex [19
-
-]) (slide18.tex [20
-
-]) (slide19.tex [21
+]) (slide24.tex [28
 
 ])
-(slide20.tex [22
+(slide25.tex [29
 
-]) (slide21.tex [23
+]) (slide26.tex [30
 
-]) (slide22.tex [24
+]) (slide27.tex [31
 
-]) (slide23.tex [25
-
-])
-(slide24.tex [26
-
-]) (slide25.tex [27
-
-]) (slide26.tex [28
-
-]) (slide27.tex [29
+]) (slide28.tex [32
 
 ])
-(slide28.tex [30
+(slide29.tex [33
 
-]) (slide29.tex [31
+]) (slide30.tex [34
 
-]) (slide30.tex [32
+]) (slide31.tex [35
 
-]) (slide31.tex [33
-
-])
-(slide32.tex [34
-
-]) (slide33.tex [35
-
-]) (slide34.tex [36
-
-]) (slide35.tex [37
+]) (slide32.tex [36
 
 ])
-(slide36.tex [38
+(slide33.tex [37
 
-]) (slide37.tex [39
+]) (slide34.tex [38
 
-]) (slide38.tex [40
+]) (slide35.tex [39
 
-]) (slide39.tex [41
-
-])
-(slide40.tex [42
-
-]) (slide41.tex [43
-
-]) (slide42.tex [44
-
-]) (slide43.tex [45
+]) (slide36.tex [40
 
 ])
-(slide44.tex [46
+(slide37.tex [41
 
-]) (slide45.tex [47
+]) (slide38.tex [42
+
+]) (slide39.tex [43
+
+]) (slide40.tex [44
+
+])
+(slide41.tex [45
+
+]) (slide42.tex [46
+
+]) (slide43.tex [47
+
+]) (slide44.tex [48
+
+])
+(slide45.tex [49
 
 ])
 \tf@nav=\write6
@@ -1334,16 +1423,16 @@ Package pdftex.def Info: realPulsesComparisons.pdf  used on input line 8.
 
  (0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D75F55BBF981D25BE3D9FDAFD9FE109C;351.
  ) 
 Here is how much of TeX's memory you used:
- 26542 strings out of 476411
- 542806 string characters out of 5788662
- 1862845 words of memory out of 5000000
- 46114 multiletter control sequences out of 15000+600000
+ 26678 strings out of 476411
+ 545870 string characters out of 5788662
+ 1887845 words of memory out of 5000000
+ 46233 multiletter control sequences out of 15000+600000
  520287 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1009b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,122p,1009b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
 s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1351,9 +1440,9 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (47 pages, 16222904 bytes).
+Output written on 0_slides.pdf (49 pages, 32143225 bytes).
 PDF statistics:
- 2434 PDF objects out of 2487 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7848 PDF objects out of 8907 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{INTRODUCTION}{2}{0}{1}
+\beamer@sectionintoc {2}{BBI IN PRACTICE}{9}{0}{2}
+\beamer@sectionintoc {3}{BBI IC MODELING}{15}{0}{3}

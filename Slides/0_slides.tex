@@ -8,6 +8,33 @@
 \usepackage[yyyymmdd]{datetime}
 \usepackage{tikz}
 
+\newcommand{\barsep}
+{
+\begin{column}{0.02\textwidth}
+    \centering
+    \rule{0.5mm}{0.7\textheight}
+\end{column}
+}
+
+%\newcommand{\barhoriz}[1]
+%{
+%\begin{column}{0.02\textwidth}
+%    \centering
+%    \rule{#1}{0.5mm}
+%\end{column}
+%}
+
+\AtBeginSection[]{
+    \begin{frame}[plain, noframenumbering]
+        \vfill
+        \centering
+        \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+            \usebeamerfont{title}\insertsectionhead\par%
+        \end{beamercolorbox}
+        \vfill
+    \end{frame}
+}
+
 \begin{document}
     \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 %    \setbeamertemplate{footline}[frame number]
@@ -29,11 +56,11 @@
         \end{tikzpicture}
     }
 
-    \begin{frame} % Title frame
+    \begin{frame}[plain, noframenumbering] % Title frame
         \titlepage
     \end{frame}
 
-    \input{./testFrame.tex}
+%    \input{./testFrame.tex}
     \input{./slide1.tex}
     \input{./slide2.tex}
     \input{./slide3.tex}

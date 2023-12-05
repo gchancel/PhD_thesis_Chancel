@@ -12,56 +12,48 @@
                 "text": "bbiPracticeImpGnd.tex\n\\caption{Enhanced simplified electrical model of a \\bbi platform. The model represents the major piece of equipment involved in a \\bbi platform, with improvements over state-of-the-art ones. There are the voltage pulse generator, the \\bbi probe, the transmission line, the IC (1 k\\textomega\\xspace resistor), the original platform grounding (both 150 \\textOmega\\xspace resistors), and the proposed enhancements highlighted in red. The enhancements consist in first, creating an approximate impedance matching for the generator, second, to bypass the poor grounding with low impedance copper wires.}"
             }
         ],
-        "CurrentFile": "slide8.tex",
+        "CurrentFile": "slide14.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 5,
+                "Col": 25,
                 "EditorGroup": 0,
                 "FileName": "0_slides.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 29
+                "Line": 27
             },
             {
-                "Col": 0,
-                "EditorGroup": 0,
-                "FileName": "testFrame.tex",
-                "FirstLine": 0,
-                "FoldedLines": "",
-                "Line": 1
-            },
-            {
-                "Col": 0,
+                "Col": 23,
                 "EditorGroup": 0,
                 "FileName": "slide1.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 2
             },
             {
-                "Col": 17,
+                "Col": 25,
                 "EditorGroup": 0,
                 "FileName": "slide2.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 4
+                "Line": 2
             },
             {
-                "Col": 0,
+                "Col": 24,
                 "EditorGroup": 0,
                 "FileName": "slide3.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 2
             },
             {
-                "Col": 36,
+                "Col": 15,
                 "EditorGroup": 0,
                 "FileName": "slide4.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 3
+                "Line": 11
             },
             {
                 "Col": 0,
@@ -69,31 +61,31 @@
                 "FileName": "slide5.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 0
+                "Line": 22
             },
             {
-                "Col": 35,
+                "Col": 15,
                 "EditorGroup": 0,
                 "FileName": "slide6.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 20
+                "Line": 13
             },
             {
-                "Col": 0,
+                "Col": 12,
                 "EditorGroup": 0,
                 "FileName": "slide7.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 30
+                "Line": 1
             },
             {
-                "Col": 0,
+                "Col": 25,
                 "EditorGroup": 0,
                 "FileName": "slide8.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 29
+                "Line": 3
             },
             {
                 "Col": 0,
@@ -101,7 +93,7 @@
                 "FileName": "slide9.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 19
             },
             {
                 "Col": 0,
@@ -109,15 +101,15 @@
                 "FileName": "slide10.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 11
             },
             {
-                "Col": 0,
+                "Col": 17,
                 "EditorGroup": 0,
                 "FileName": "slide11.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 5
             },
             {
                 "Col": 0,
@@ -125,7 +117,7 @@
                 "FileName": "slide12.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 5
             },
             {
                 "Col": 0,
@@ -133,15 +125,15 @@
                 "FileName": "slide13.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 11
             },
             {
-                "Col": 0,
+                "Col": 48,
                 "EditorGroup": 0,
                 "FileName": "slide14.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 6
+                "Line": 7
             },
             {
                 "Col": 0,
