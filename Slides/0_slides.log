@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  5 DEC 2023 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  6 DEC 2023 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,68 +1348,89 @@ Package pdftex.def Info: resultingSimulated_ic.png  used on input line 7.
  <./resultingSimulated_ic.png>])
 (slide17.tex [21
 
-]) (slide18.tex [22
+]) (slide18.tex
+<vddMgndManuscrit.pdf, id=3775, 531.52023pt x 359.60652pt>
+File: vddMgndManuscrit.pdf Graphic file (type pdf)
+<use vddMgndManuscrit.pdf>
+Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 21.
+(pdftex.def)             Requested size: 159.333pt x 107.79498pt.
+<iSubcManuscrit.pdf, id=3776, 795.8413pt x 222.7218pt>
+File: iSubcManuscrit.pdf Graphic file (type pdf)
+<use iSubcManuscrit.pdf>
+Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 21.
+(pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=3777, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 21.
+(pdftex.def)             Requested size: 239.00558pt x 95.5996pt.
+ [22
 
-]) (slide19.tex [23
+ <./vddMgndManuscrit.pdf> <./iSubcManuscrit.pdf
 
-]) (slide20.tex [24
+pdfTeX warning: pdflatex.exe (file ./iSubcManuscrit.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./VoltageDistributionNormT140eT10_ExcDw.pdf>]) (slide19.tex [23
 
 ])
-(slide21.tex [25
+(slide20.tex [24
+
+]) (slide21.tex [25
 
 ]) (slide22.tex [26
 
 ]) (slide23.tex [27
 
-]) (slide24.tex [28
-
 ])
-(slide25.tex [29
+(slide24.tex [28
+
+]) (slide25.tex [29
 
 ]) (slide26.tex [30
 
 ]) (slide27.tex [31
 
-]) (slide28.tex [32
-
 ])
-(slide29.tex [33
+(slide28.tex [32
+
+]) (slide29.tex [33
 
 ]) (slide30.tex [34
 
 ]) (slide31.tex [35
 
-]) (slide32.tex [36
-
 ])
-(slide33.tex [37
+(slide32.tex [36
+
+]) (slide33.tex [37
 
 ]) (slide34.tex [38
 
 ]) (slide35.tex [39
 
-]) (slide36.tex [40
-
 ])
-(slide37.tex [41
+(slide36.tex [40
+
+]) (slide37.tex [41
 
 ]) (slide38.tex [42
 
 ]) (slide39.tex [43
 
-]) (slide40.tex [44
-
 ])
-(slide41.tex [45
+(slide40.tex [44
+
+]) (slide41.tex [45
 
 ]) (slide42.tex [46
 
 ]) (slide43.tex [47
 
-]) (slide44.tex [48
-
 ])
-(slide45.tex [49
+(slide44.tex [48
+
+]) (slide45.tex [49
 
 ])
 \tf@nav=\write6
@@ -1426,10 +1447,10 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D75F55BBF981D25BE3D9FDAFD9FE109C;351.
  ) 
 Here is how much of TeX's memory you used:
- 26678 strings out of 476411
- 545870 string characters out of 5788662
+ 26702 strings out of 476411
+ 546706 string characters out of 5788662
  1887845 words of memory out of 5000000
- 46233 multiletter control sequences out of 15000+600000
+ 46254 multiletter control sequences out of 15000+600000
  520287 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,1009b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1440,9 +1461,9 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (49 pages, 32143225 bytes).
+Output written on 0_slides.pdf (49 pages, 33050907 bytes).
 PDF statistics:
- 7848 PDF objects out of 8907 (max. 8388607)
+ 8076 PDF objects out of 8907 (max. 8388607)
  102 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
