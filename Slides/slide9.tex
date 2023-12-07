@@ -1,19 +1,30 @@
 
 \begin{frame}
     \frametitle{BBI in practice}
-    \framesubtitle{Actual results}
+    \framesubtitle{Actual results: voltage pulse and IC ground current}
 %    \centering
     \begin{columns}
-        \begin{column}{0.7\textwidth}
+        \begin{column}{0.6\textwidth}
             \centering
             \includegraphics[width=\textwidth]{realPulsesComparisons.pdf}
         \end{column}
 
-        \barsep
+%        \barsep
 
-        \begin{column}{0.3\textwidth}
+        \begin{column}{0.4\textwidth}
             \centering
-            je
+            Default platform:
+            \begin{itemize}
+                \item -108 \% pulse undershoot;
+                \item 275 \% pulse width overshoot;
+                \item Obvious ringing.
+            \end{itemize}
+            Enhanced platform:
+            \begin{itemize}
+                \item -31 \% undershoot;
+                \item Matched pulse width;
+                \item Less ringing.
+            \end{itemize}
         \end{column}
     \end{columns}
 

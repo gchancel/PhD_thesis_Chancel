@@ -1,3 +1,8 @@
 \beamer@sectionintoc {1}{INTRODUCTION}{2}{0}{1}
 \beamer@sectionintoc {2}{BBI IN PRACTICE}{9}{0}{2}
-\beamer@sectionintoc {3}{BBI IC MODELING}{15}{0}{3}
+\beamer@sectionintoc {3}{BBI IC SIMULATION FLOW}{15}{0}{3}
+\beamer@sectionintoc {4}{SIMULATION FLOW FOLLOW-UP}{25}{0}{4}
+\beamer@sectionintoc {5}{SUBSTRATE TINNING ANALYSIS}{29}{0}{5}
+\beamer@sectionintoc {6}{CONCLUSION}{37}{0}{6}
+\beamer@sectionintoc {7}{OUTLOOKS}{39}{0}{7}
+\beamer@sectionintoc {8}{PUBLICATIONS}{41}{0}{8}
