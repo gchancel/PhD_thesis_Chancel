@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  7 DEC 2023 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  7 DEC 2023 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,33 +1108,39 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 48.
 
 
-Overfull \hbox (91.50269pt too wide) detected at line 61
+Overfull \hbox (91.50269pt too wide) detected at line 62
   [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 61.
+ut line 62.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [1
+)
+<NewLogoLIRMM.pdf, id=187, 549.7338pt x 199.4652pt>
+File: NewLogoLIRMM.pdf Graphic file (type pdf)
+<use NewLogoLIRMM.pdf>
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 62.
+(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
+ [1
 
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (slide1.tex
-
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
+RMM.pdf>] (slide1.tex
 Overfull \hbox (91.50269pt too wide) detected at line 1
   [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
@@ -1194,12 +1200,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 25
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<langerBBI.jpg, id=956, 645.41125pt x 889.3225pt>
+<langerBBI.jpg, id=959, 645.41125pt x 889.3225pt>
 File: langerBBI.jpg Graphic file (type jpg)
 <use langerBBI.jpg>
 Package pdftex.def Info: langerBBI.jpg  used on input line 25.
 (pdftex.def)             Requested size: 89.62556pt x 123.48654pt.
-<em-fi-bbi-probe-20-black.jpg, id=957, 1323.9864pt x 795.9336pt>
+<em-fi-bbi-probe-20-black.jpg, id=960, 1323.9864pt x 795.9336pt>
 File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
 <use em-fi-bbi-probe-20-black.jpg>
 Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 25.
@@ -1218,17 +1224,17 @@ Overfull \hbox (91.50269pt too wide) detected at line 30
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<chipshouter_upscaled.png, id=1124, 2063.71pt x 1473.505pt>
+<chipshouter_upscaled.png, id=1127, 2063.71pt x 1473.505pt>
 File: chipshouter_upscaled.png Graphic file (type png)
 <use chipshouter_upscaled.png>
 Package pdftex.def Info: chipshouter_upscaled.png  used on input line 30.
 (pdftex.def)             Requested size: 95.60075pt x 68.23846pt.
-<picoemp-red.jpeg, id=1126, 240.9pt x 92.0238pt>
+<picoemp-red.jpeg, id=1129, 240.9pt x 92.0238pt>
 File: picoemp-red.jpeg Graphic file (type jpg)
 <use picoemp-red.jpeg>
 Package pdftex.def Info: picoemp-red.jpeg  used on input line 30.
 (pdftex.def)             Requested size: 111.53261pt x 42.60527pt.
-<colinFigureBBI.png, id=1127, 1220.30907pt x 301.8778pt>
+<colinFigureBBI.png, id=1130, 1220.30907pt x 301.8778pt>
 File: colinFigureBBI.png Graphic file (type png)
 <use colinFigureBBI.png>
 Package pdftex.def Info: colinFigureBBI.png  used on input line 30.
@@ -1252,17 +1258,17 @@ Overfull \hbox (91.50269pt too wide) detected at line 34
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<sondeBBI_loin_raw.png, id=1296, 1397.22pt x 1254.18562pt>
+<sondeBBI_loin_raw.png, id=1299, 1397.22pt x 1254.18562pt>
 File: sondeBBI_loin_raw.png Graphic file (type png)
 <use sondeBBI_loin_raw.png>
 Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 34.
 (pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
-<pointeBBI2.png, id=1297, 862.9038pt x 773.7708pt>
+<pointeBBI2.png, id=1300, 862.9038pt x 773.7708pt>
 File: pointeBBI2.png Graphic file (type png)
 <use pointeBBI2.png>
 Package pdftex.def Info: pointeBBI2.png  used on input line 34.
 (pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
-<avrk4b.pdf, id=1298, 1532.72626pt x 359.09157pt>
+<avrk4b.pdf, id=1301, 1532.72626pt x 359.09157pt>
 File: avrk4b.pdf Graphic file (type pdf)
 <use avrk4b.pdf>
 Package pdftex.def Info: avrk4b.pdf  used on input line 34.
@@ -1289,12 +1295,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 32
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<model0Probe.pdf, id=1575, 369.88583pt x 199.1693pt>
+<model0Probe.pdf, id=1578, 369.88583pt x 199.1693pt>
 File: model0Probe.pdf Graphic file (type pdf)
 <use model0Probe.pdf>
 Package pdftex.def Info: model0Probe.pdf  used on input line 32.
 (pdftex.def)             Requested size: 159.33604pt x 85.79611pt.
-<SIMPLE_BBI_0.pdf, id=1576, 505.89pt x 317.98799pt>
+<SIMPLE_BBI_0.pdf, id=1579, 505.89pt x 317.98799pt>
 File: SIMPLE_BBI_0.pdf Graphic file (type pdf)
 <use SIMPLE_BBI_0.pdf>
 Package pdftex.def Info: SIMPLE_BBI_0.pdf  used on input line 32.
@@ -1317,22 +1323,22 @@ Overfull \hbox (91.50269pt too wide) detected at line 33
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<model2ProbeManuscrit.pdf, id=1813, 369.88583pt x 199.1693pt>
+<model2ProbeManuscrit.pdf, id=1816, 369.88583pt x 199.1693pt>
 File: model2ProbeManuscrit.pdf Graphic file (type pdf)
 <use model2ProbeManuscrit.pdf>
 Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 33.
 (pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
-<SIMPLE_BBI_2.pdf, id=1814, 505.89pt x 317.98799pt>
+<SIMPLE_BBI_2.pdf, id=1817, 505.89pt x 317.98799pt>
 File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
 <use SIMPLE_BBI_2.pdf>
 Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 33.
 (pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
-<impMatchPicture.jpg, id=1815, 1915.155pt x 2719.15875pt>
+<impMatchPicture.jpg, id=1818, 1915.155pt x 2719.15875pt>
 File: impMatchPicture.jpg Graphic file (type jpg)
 <use impMatchPicture.jpg>
 Package pdftex.def Info: impMatchPicture.jpg  used on input line 33.
 (pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
-<sondeGndSource.jpg, id=1816, 992.20688pt x 1407.75937pt>
+<sondeGndSource.jpg, id=1819, 992.20688pt x 1407.75937pt>
 File: sondeGndSource.jpg Graphic file (type jpg)
 <use sondeGndSource.jpg>
 Package pdftex.def Info: sondeGndSource.jpg  used on input line 33.
@@ -1352,11 +1358,6 @@ Overfull \hbox (91.50269pt too wide) detected at line 31
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<realPulsesComparisons.pdf, id=2057, 831.105pt x 361.35pt>
-File: realPulsesComparisons.pdf Graphic file (type pdf)
-<use realPulsesComparisons.pdf>
-Package pdftex.def Info: realPulsesComparisons.pdf  used on input line 31.
-(pdftex.def)             Requested size: 239.00558pt x 103.91212pt.
 
 Overfull \hbox (91.50269pt too wide) has occurred while \output is active
   [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
@@ -1365,18 +1366,18 @@ Overfull \hbox (91.50269pt too wide) has occurred while \output is active
 
 [12
 
- <./realPulsesComparisons.pdf>]) (slide10.tex
+]) (slide10.tex
 Overfull \hbox (91.50269pt too wide) detected at line 12
   [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<aesFastGndOnly.pdf, id=2298, 466.74374pt x 323.70938pt>
+<aesFastGndOnly.pdf, id=2227, 466.74374pt x 323.70938pt>
 File: aesFastGndOnly.pdf Graphic file (type pdf)
 <use aesFastGndOnly.pdf>
 Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 12.
 (pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
-<aesFastImpGnd.pdf, id=2299, 466.74374pt x 323.70938pt>
+<aesFastImpGnd.pdf, id=2228, 466.74374pt x 323.70938pt>
 File: aesFastImpGnd.pdf Graphic file (type pdf)
 <use aesFastImpGnd.pdf>
 Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 12.
@@ -1403,7 +1404,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 8
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<giraud__7N.pdf, id=2632, 489.40842pt x 44.7271pt>
+<giraud__7N.pdf, id=2561, 489.40842pt x 44.7271pt>
 File: giraud__7N.pdf Graphic file (type pdf)
 <use giraud__7N.pdf>
 Package pdftex.def Info: giraud__7N.pdf  used on input line 8.
@@ -1430,12 +1431,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 26
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<psuNetworkNew.png, id=3075, 4818.0pt x 1631.09375pt>
+<psuNetworkNew.png, id=3004, 4818.0pt x 1631.09375pt>
 File: psuNetworkNew.png Graphic file (type png)
 <use psuNetworkNew.png>
 Package pdftex.def Info: psuNetworkNew.png  used on input line 26.
 (pdftex.def)             Requested size: 159.333pt x 53.93327pt.
-<std_cell_segment_principle.pdf, id=3076, 500.76851pt x 210.5504pt>
+<std_cell_segment_principle.pdf, id=3005, 500.76851pt x 210.5504pt>
 File: std_cell_segment_principle.pdf Graphic file (type pdf)
 <use std_cell_segment_principle.pdf>
 Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 26.
@@ -1455,12 +1456,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 11
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<DUAL.pdf, id=3257, 364.19528pt x 250.38426pt>
+<DUAL.pdf, id=3186, 364.19528pt x 250.38426pt>
 File: DUAL.pdf Graphic file (type pdf)
 <use DUAL.pdf>
 Package pdftex.def Info: DUAL.pdf  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 109.54283pt.
-<TRIPLE.pdf, id=3258, 364.19528pt x 250.38426pt>
+<TRIPLE.pdf, id=3187, 364.19528pt x 250.38426pt>
 File: TRIPLE.pdf Graphic file (type pdf)
 <use TRIPLE.pdf>
 Package pdftex.def Info: TRIPLE.pdf  used on input line 11.
@@ -1483,12 +1484,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 11
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<dualWellEmfi.png, id=3518, 1455.4375pt x 1656.1875pt>
+<dualWellEmfi.png, id=3447, 1455.4375pt x 1656.1875pt>
 File: dualWellEmfi.png Graphic file (type png)
 <use dualWellEmfi.png>
 Package pdftex.def Info: dualWellEmfi.png  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 181.29669pt.
-<tripleWellEmfi.png, id=3519, 1455.4375pt x 1656.1875pt>
+<tripleWellEmfi.png, id=3448, 1455.4375pt x 1656.1875pt>
 File: tripleWellEmfi.png Graphic file (type png)
 <use tripleWellEmfi.png>
 Package pdftex.def Info: tripleWellEmfi.png  used on input line 11.
@@ -1507,17 +1508,17 @@ Overfull \hbox (91.50269pt too wide) detected at line 20
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<substrateSubdivision_88.png, id=3688, 2143.00626pt x 1204.5pt>
+<substrateSubdivision_88.png, id=3617, 2143.00626pt x 1204.5pt>
 File: substrateSubdivision_88.png Graphic file (type png)
 <use substrateSubdivision_88.png>
 Package pdftex.def Info: substrateSubdivision_88.png  used on input line 20.
 (pdftex.def)             Requested size: 139.42093pt x 78.35039pt.
-<dualWell_no_7c_Eevee.png, id=3689, 1455.4375pt x 1656.1875pt>
+<dualWell_no_7c_Eevee.png, id=3618, 1455.4375pt x 1656.1875pt>
 File: dualWell_no_7c_Eevee.png Graphic file (type png)
 <use dualWell_no_7c_Eevee.png>
 Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 20.
 (pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
-<tripleWell_no_7c_Eevee.png, id=3690, 1455.4375pt x 1656.1875pt>
+<tripleWell_no_7c_Eevee.png, id=3619, 1455.4375pt x 1656.1875pt>
 File: tripleWell_no_7c_Eevee.png Graphic file (type png)
 <use tripleWell_no_7c_Eevee.png>
 Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 20.
@@ -1537,7 +1538,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 20
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<resultingSimulated_ic.png, id=3861, 2569.6pt x 2044.63875pt>
+<resultingSimulated_ic.png, id=3790, 2569.6pt x 2044.63875pt>
 File: resultingSimulated_ic.png Graphic file (type png)
 <use resultingSimulated_ic.png>
 Package pdftex.def Info: resultingSimulated_ic.png  used on input line 20.
@@ -1570,22 +1571,22 @@ Overfull \hbox (91.50269pt too wide) detected at line 23
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<vddMgndManuscrit.pdf, id=4195, 531.52023pt x 359.60652pt>
+<vddMgndManuscrit.pdf, id=4124, 531.52023pt x 359.60652pt>
 File: vddMgndManuscrit.pdf Graphic file (type pdf)
 <use vddMgndManuscrit.pdf>
 Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
-<iEpiDualWellManuscrit.pdf, id=4196, 556.98181pt x 359.60652pt>
+<iEpiDualWellManuscrit.pdf, id=4125, 556.98181pt x 359.60652pt>
 File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
 <use iEpiDualWellManuscrit.pdf>
 Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
-<iSubcManuscrit.pdf, id=4197, 795.8413pt x 222.7218pt>
+<iSubcManuscrit.pdf, id=4126, 795.8413pt x 222.7218pt>
 File: iSubcManuscrit.pdf Graphic file (type pdf)
 <use iSubcManuscrit.pdf>
 Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
-<CurrentDistributionNormT140eT10_ExcDw.pdf, id=4198, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcDw.pdf, id=4127, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcDw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcDw.pdf  used on inp
@@ -1613,22 +1614,22 @@ Overfull \hbox (91.50269pt too wide) detected at line 23
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<vddMgndManuscritTw.pdf, id=4683, 540.45763pt x 359.60652pt>
+<vddMgndManuscritTw.pdf, id=4612, 540.45763pt x 359.60652pt>
 File: vddMgndManuscritTw.pdf Graphic file (type pdf)
 <use vddMgndManuscritTw.pdf>
 Package pdftex.def Info: vddMgndManuscritTw.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 79.51424pt.
-<iEpiTripleWellManuscrit.pdf, id=4684, 547.76341pt x 359.60652pt>
+<iEpiTripleWellManuscrit.pdf, id=4613, 547.76341pt x 359.60652pt>
 File: iEpiTripleWellManuscrit.pdf Graphic file (type pdf)
 <use iEpiTripleWellManuscrit.pdf>
 Package pdftex.def Info: iEpiTripleWellManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 78.44972pt.
-<iSubcManuscritTws.pdf, id=4685, 800.029pt x 222.7218pt>
+<iSubcManuscritTws.pdf, id=4614, 800.029pt x 222.7218pt>
 File: iSubcManuscritTws.pdf Graphic file (type pdf)
 <use iSubcManuscritTws.pdf>
 Package pdftex.def Info: iSubcManuscritTws.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.53497pt.
-<CurrentDistributionNormT140eT10_ExcTw.pdf, id=4686, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcTw.pdf, id=4615, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcTw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcTw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcTw.pdf  used on inp
@@ -1656,12 +1657,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 21
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<pos_neg_IGND.pdf, id=5168, 366.70473pt x 230.1104pt>
+<pos_neg_IGND.pdf, id=5097, 366.70473pt x 230.1104pt>
 File: pos_neg_IGND.pdf Graphic file (type pdf)
 <use pos_neg_IGND.pdf>
 Package pdftex.def Info: pos_neg_IGND.pdf  used on input line 21.
 (pdftex.def)             Requested size: 199.1693pt x 124.97754pt.
-<stmPhotoImshow.pdf, id=5169, 293.59688pt x 234.8775pt>
+<stmPhotoImshow.pdf, id=5098, 293.59688pt x 234.8775pt>
 File: stmPhotoImshow.pdf Graphic file (type pdf)
 <use stmPhotoImshow.pdf>
 Package pdftex.def Info: stmPhotoImshow.pdf  used on input line 21.
@@ -1692,12 +1693,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 22
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<ivx3NewNoSignals.pdf, id=5474, 546.2929pt x 369.88583pt>
+<ivx3NewNoSignals.pdf, id=5403, 546.2929pt x 369.88583pt>
 File: ivx3NewNoSignals.pdf Graphic file (type pdf)
 <use ivx3NewNoSignals.pdf>
 Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 22.
 (pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
-<ivx3New.pdf, id=5475, 546.2929pt x 369.88583pt>
+<ivx3New.pdf, id=5404, 546.2929pt x 369.88583pt>
 File: ivx3New.pdf Graphic file (type pdf)
 <use ivx3New.pdf>
 Package pdftex.def Info: ivx3New.pdf  used on input line 22.
@@ -1720,12 +1721,12 @@ Overfull \hbox (91.50269pt too wide) detected at line 37
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<logic_gates_solo_M0_DW.pdf, id=5671, 674.17587pt x 1041.72035pt>
+<logic_gates_solo_M0_DW.pdf, id=5600, 674.17587pt x 1041.72035pt>
 File: logic_gates_solo_M0_DW.pdf Graphic file (type pdf)
 <use logic_gates_solo_M0_DW.pdf>
 Package pdftex.def Info: logic_gates_solo_M0_DW.pdf  used on input line 37.
 (pdftex.def)             Requested size: 119.50279pt x 184.64041pt.
-<logic_gates_solo_M0_TW.pdf, id=5672, 674.17587pt x 1041.72035pt>
+<logic_gates_solo_M0_TW.pdf, id=5601, 674.17587pt x 1041.72035pt>
 File: logic_gates_solo_M0_TW.pdf Graphic file (type pdf)
 <use logic_gates_solo_M0_TW.pdf>
 Package pdftex.def Info: logic_gates_solo_M0_TW.pdf  used on input line 37.
@@ -1774,7 +1775,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 9
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<geomCrossViewNew.pdf, id=6627, 569.05513pt x 256.0748pt>
+<geomCrossViewNew.pdf, id=6556, 569.05513pt x 256.0748pt>
 File: geomCrossViewNew.pdf Graphic file (type pdf)
 <use geomCrossViewNew.pdf>
 Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 9.
@@ -1793,7 +1794,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 8
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<geomCrossViewThinNew.pdf, id=6839, 569.05513pt x 256.0748pt>
+<geomCrossViewThinNew.pdf, id=6768, 569.05513pt x 256.0748pt>
 File: geomCrossViewThinNew.pdf Graphic file (type pdf)
 <use geomCrossViewThinNew.pdf>
 Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 8.
@@ -1812,23 +1813,23 @@ Overfull \hbox (91.50269pt too wide) detected at line 23
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<thinning140um.pdf, id=7052, 867.24pt x 289.08pt>
+<thinning140um.pdf, id=6981, 867.24pt x 289.08pt>
 File: thinning140um.pdf Graphic file (type pdf)
 <use thinning140um.pdf>
 Package pdftex.def Info: thinning140um.pdf  used on input line 23.
 (pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT140eT10_ExcDw.pdf, id=7053, 722.7pt x 289.08pt>
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=6982, 722.7pt x 289.08pt>
 File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
 <use VoltageDistributionNormT140eT10_ExcDw.pdf>
 Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
-<thinning60um.pdf, id=7054, 867.24pt x 289.08pt>
+<thinning60um.pdf, id=6983, 867.24pt x 289.08pt>
 File: thinning60um.pdf Graphic file (type pdf)
 <use thinning60um.pdf>
 Package pdftex.def Info: thinning60um.pdf  used on input line 23.
 (pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT60eT10_ExcDw.pdf, id=7055, 722.7pt x 289.08pt>
+<VoltageDistributionNormT60eT10_ExcDw.pdf, id=6984, 722.7pt x 289.08pt>
 File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
 <use VoltageDistributionNormT60eT10_ExcDw.pdf>
 Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
@@ -1867,7 +1868,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 7
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosFautesNew.pdf, id=7631, 1350.00356pt x 435.0654pt>
+<cartosFautesNew.pdf, id=7560, 1350.00356pt x 435.0654pt>
 File: cartosFautesNew.pdf Graphic file (type pdf)
 <use cartosFautesNew.pdf>
 Package pdftex.def Info: cartosFautesNew.pdf  used on input line 7.
@@ -1886,7 +1887,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 7
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosFautesSpreading.pdf, id=7868, 1350.00356pt x 435.0654pt>
+<cartosFautesSpreading.pdf, id=7797, 1350.00356pt x 435.0654pt>
 File: cartosFautesSpreading.pdf Graphic file (type pdf)
 <use cartosFautesSpreading.pdf>
 Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
@@ -1905,7 +1906,7 @@ Overfull \hbox (91.50269pt too wide) detected at line 7
 [][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosCouples.pdf, id=8103, 1350.00356pt x 465.4188pt>
+<cartosCouples.pdf, id=8032, 1350.00356pt x 465.4188pt>
 File: cartosCouples.pdf Graphic file (type pdf)
 <use cartosCouples.pdf>
 Package pdftex.def Info: cartosCouples.pdf  used on input line 7.
@@ -2167,10 +2168,10 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: AF9FF5B8678BA388F1879C91650A45C1;1021.
  ) 
 Here is how much of TeX's memory you used:
- 26907 strings out of 476411
- 552192 string characters out of 5788662
+ 26905 strings out of 476411
+ 552084 string characters out of 5788662
  1893845 words of memory out of 5000000
- 46424 multiletter control sequences out of 15000+600000
+ 46422 multiletter control sequences out of 15000+600000
  520287 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,1009b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2181,9 +2182,9 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (54 pages, 43210121 bytes).
+Output written on 0_slides.pdf (54 pages, 43159492 bytes).
 PDF statistics:
- 11128 PDF objects out of 12825 (max. 8388607)
+ 11057 PDF objects out of 12825 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
  362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
