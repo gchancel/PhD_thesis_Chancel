@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  7 DEC 2023 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  13 JAN 2024 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,9 +1098,9 @@ Dictionary: translator-theorem-dictionary, Language: English
 f
 File: fc-english.def 2016/01/12
 ) (0_slides.nav)
-Overfull \hbox (91.50269pt too wide) detected at line 38
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 38
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
@@ -1108,9 +1108,9 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 48.
 
 
-Overfull \hbox (91.50269pt too wide) detected at line 62
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 62
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
@@ -1132,252 +1132,311 @@ kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<NewLogoLIRMM.pdf, id=187, 549.7338pt x 199.4652pt>
+<NewLogoLIRMM.pdf, id=195, 715.17188pt x 180.675pt>
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
 Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 62.
-(pdftex.def)             Requested size: 85.35826pt x 30.97156pt.
+(pdftex.def)             Requested size: 85.35826pt x 21.56427pt.
  [1
 
 {C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
 RMM.pdf>] (slide1.tex
-Overfull \hbox (91.50269pt too wide) detected at line 1
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 1
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (91.50269pt too wide) detected at line 28
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 53
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-28.
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
-File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+<chipCard.pdf, id=427, 312.98033pt x 284.52756pt>
+File: chipCard.pdf Graphic file (type pdf)
+<use chipCard.pdf>
+Package pdftex.def Info: chipCard.pdf  used on input line 53.
+(pdftex.def)             Requested size: 159.333pt x 144.85098pt.
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [3
 
-]) (slide2.tex
-Overfull \hbox (91.50269pt too wide) detected at line 20
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ <./chipCard.pdf>]) (slide2.tex
+Overfull \hbox (208.05627pt too wide) detected at line 34
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+34.
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [4
 
 ]) (slide3.tex
-Overfull \hbox (91.50269pt too wide) detected at line 28
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 40
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [5
 
 ]) (slide4.tex
-Overfull \hbox (91.50269pt too wide) detected at line 25
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 40
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<langerBBI.jpg, id=959, 645.41125pt x 889.3225pt>
+<langerBBI.jpg, id=1016, 645.41125pt x 889.3225pt>
 File: langerBBI.jpg Graphic file (type jpg)
 <use langerBBI.jpg>
-Package pdftex.def Info: langerBBI.jpg  used on input line 25.
-(pdftex.def)             Requested size: 89.62556pt x 123.48654pt.
-<em-fi-bbi-probe-20-black.jpg, id=960, 1323.9864pt x 795.9336pt>
-File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
-<use em-fi-bbi-probe-20-black.jpg>
-Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 25.
-(pdftex.def)             Requested size: 179.25114pt x 107.75002pt.
+Package pdftex.def Info: langerBBI.jpg  used on input line 40.
+(pdftex.def)             Requested size: 71.69936pt x 98.78923pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [6
 
- <./langerBBI.jpg> <./em-fi-bbi-probe-20-black.jpg>]) (slide5.tex
-Overfull \hbox (91.50269pt too wide) detected at line 30
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ <./langerBBI.jpg>]) (slide5.tex
+Overfull \hbox (208.05627pt too wide) detected at line 47
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<chipshouter_upscaled.png, id=1127, 2063.71pt x 1473.505pt>
-File: chipshouter_upscaled.png Graphic file (type png)
-<use chipshouter_upscaled.png>
-Package pdftex.def Info: chipshouter_upscaled.png  used on input line 30.
-(pdftex.def)             Requested size: 95.60075pt x 68.23846pt.
-<picoemp-red.jpeg, id=1129, 240.9pt x 92.0238pt>
-File: picoemp-red.jpeg Graphic file (type jpg)
-<use picoemp-red.jpeg>
-Package pdftex.def Info: picoemp-red.jpeg  used on input line 30.
-(pdftex.def)             Requested size: 111.53261pt x 42.60527pt.
-<colinFigureBBI.png, id=1130, 1220.30907pt x 301.8778pt>
-File: colinFigureBBI.png Graphic file (type png)
-<use colinFigureBBI.png>
-Package pdftex.def Info: colinFigureBBI.png  used on input line 30.
-(pdftex.def)             Requested size: 239.00558pt x 59.12158pt.
+<em-fi-bbi-probe-20-black.jpg, id=1191, 1323.9864pt x 795.9336pt>
+File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
+<use em-fi-bbi-probe-20-black.jpg>
+Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 47.
+(pdftex.def)             Requested size: 159.333pt x 95.7751pt.
 
-Overfull \vbox (5.51968pt too high) detected at line 30
- []
-
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [7
 
- <./chipshouter_upscaled.png> <./picoemp-red.jpeg> <./colinFigureBBI.png>])
-(slide6.tex
-Overfull \hbox (91.50269pt too wide) detected at line 34
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ <./em-fi-bbi-probe-20-black.jpg>]
+Overfull \hbox (208.05627pt too wide) detected at line 70
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<sondeBBI_loin_raw.png, id=1299, 1397.22pt x 1254.18562pt>
+<picoemp-red.jpeg, id=1367, 240.9pt x 92.0238pt>
+File: picoemp-red.jpeg Graphic file (type jpg)
+<use picoemp-red.jpeg>
+Package pdftex.def Info: picoemp-red.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 95.60075pt x 36.5196pt.
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[8
+
+ <./picoemp-red.jpeg>]) (slide6.tex
+Overfull \hbox (208.05627pt too wide) detected at line 34
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+<sondeBBI_loin_raw.png, id=1542, 1397.22pt x 1254.18562pt>
 File: sondeBBI_loin_raw.png Graphic file (type png)
 <use sondeBBI_loin_raw.png>
 Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 34.
 (pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
-<pointeBBI2.png, id=1300, 862.9038pt x 773.7708pt>
+<pointeBBI2.png, id=1543, 862.9038pt x 773.7708pt>
 File: pointeBBI2.png Graphic file (type png)
 <use pointeBBI2.png>
 Package pdftex.def Info: pointeBBI2.png  used on input line 34.
 (pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
-<avrk4b.pdf, id=1301, 1532.72626pt x 359.09157pt>
+<avrk4b.pdf, id=1545, 1532.72626pt x 359.09157pt>
 File: avrk4b.pdf Graphic file (type pdf)
 <use avrk4b.pdf>
 Package pdftex.def Info: avrk4b.pdf  used on input line 34.
 (pdftex.def)             Requested size: 191.20518pt x 44.79318pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[8
-
- <./sondeBBI_loin_raw.png> <./pointeBBI2.png> <./avrk4b.pdf>]) (slide7.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [9
 
-]
-Overfull \hbox (91.50269pt too wide) detected at line 32
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<model0Probe.pdf, id=1578, 369.88583pt x 199.1693pt>
-File: model0Probe.pdf Graphic file (type pdf)
-<use model0Probe.pdf>
-Package pdftex.def Info: model0Probe.pdf  used on input line 32.
-(pdftex.def)             Requested size: 159.33604pt x 85.79611pt.
-<SIMPLE_BBI_0.pdf, id=1579, 505.89pt x 317.98799pt>
-File: SIMPLE_BBI_0.pdf Graphic file (type pdf)
-<use SIMPLE_BBI_0.pdf>
-Package pdftex.def Info: SIMPLE_BBI_0.pdf  used on input line 32.
-(pdftex.def)             Requested size: 139.4179pt x 87.63376pt.
-
-Overfull \vbox (9.01692pt too high) detected at line 32
+ <./sondeBBI_loin_raw.png> <./pointeBBI2.png> <./avrk4b.pdf>]
+Overfull \hbox (208.05627pt too wide) detected at line 46
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [10
 
- <./model0Probe.pdf> <./SIMPLE_BBI_0.pdf>]) (slide8.tex
-Overfull \hbox (91.50269pt too wide) detected at line 33
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]
+Overfull \hbox (208.05627pt too wide) detected at line 58
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<model2ProbeManuscrit.pdf, id=1816, 369.88583pt x 199.1693pt>
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[11
+
+]) (slide7.tex
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[12
+
+]
+Overfull \hbox (208.05627pt too wide) detected at line 15
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[13
+
+]
+Overfull \hbox (208.05627pt too wide) detected at line 54
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+<model0Probe.pdf, id=2358, 369.88583pt x 199.1693pt>
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 54.
+(pdftex.def)             Requested size: 155.35216pt x 83.65053pt.
+<S1P.pdf, id=2359, 404.51125pt x 178.6675pt>
+File: S1P.pdf Graphic file (type pdf)
+<use S1P.pdf>
+Package pdftex.def Info: S1P.pdf  used on input line 54.
+(pdftex.def)             Requested size: 129.45882pt x 57.1802pt.
+<S1G.pdf, id=2360, 411.5375pt x 178.6675pt>
+File: S1G.pdf Graphic file (type pdf)
+<use S1G.pdf>
+Package pdftex.def Info: S1G.pdf  used on input line 54.
+(pdftex.def)             Requested size: 129.45882pt x 56.20421pt.
+
+Overfull \vbox (19.39563pt too high) detected at line 54
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[14
+
+ <./model0Probe.pdf> <./S1P.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1P.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./S1G.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1G.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>]) (slide8.tex
+Overfull \hbox (208.05627pt too wide) detected at line 33
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+<model2ProbeManuscrit.pdf, id=2691, 369.88583pt x 199.1693pt>
 File: model2ProbeManuscrit.pdf Graphic file (type pdf)
 <use model2ProbeManuscrit.pdf>
 Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 33.
 (pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
-<SIMPLE_BBI_2.pdf, id=1817, 505.89pt x 317.98799pt>
+<SIMPLE_BBI_2.pdf, id=2692, 505.89pt x 317.98799pt>
 File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
 <use SIMPLE_BBI_2.pdf>
 Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 33.
 (pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
-<impMatchPicture.jpg, id=1818, 1915.155pt x 2719.15875pt>
+<impMatchPicture.jpg, id=2693, 1915.155pt x 2719.15875pt>
 File: impMatchPicture.jpg Graphic file (type jpg)
 <use impMatchPicture.jpg>
 Package pdftex.def Info: impMatchPicture.jpg  used on input line 33.
 (pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
-<sondeGndSource.jpg, id=1819, 992.20688pt x 1407.75937pt>
+<sondeGndSource.jpg, id=2694, 992.20688pt x 1407.75937pt>
 File: sondeGndSource.jpg Graphic file (type jpg)
 <use sondeGndSource.jpg>
 Package pdftex.def Info: sondeGndSource.jpg  used on input line 33.
 (pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[11
+[15
 
  <./model2ProbeManuscrit.pdf> <./SIMPLE_BBI_2.pdf> <./impMatchPicture.jpg> <./s
 ondeGndSource.jpg>]) (slide9.tex
-Overfull \hbox (91.50269pt too wide) detected at line 31
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 31
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[12
+[16
 
 ]) (slide10.tex
-Overfull \hbox (91.50269pt too wide) detected at line 12
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 12
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<aesFastGndOnly.pdf, id=2227, 466.74374pt x 323.70938pt>
+<aesFastGndOnly.pdf, id=3118, 466.74374pt x 323.70938pt>
 File: aesFastGndOnly.pdf Graphic file (type pdf)
 <use aesFastGndOnly.pdf>
 Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 12.
 (pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
-<aesFastImpGnd.pdf, id=2228, 466.74374pt x 323.70938pt>
+<aesFastImpGnd.pdf, id=3119, 466.74374pt x 323.70938pt>
 File: aesFastImpGnd.pdf Graphic file (type pdf)
 <use aesFastImpGnd.pdf>
 Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 12.
@@ -1387,218 +1446,218 @@ Overfull \vbox (9.99785pt too high) detected at line 12
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[13
+[17
 
  <./aesFastGndOnly.pdf> <./aesFastImpGnd.pdf
 
 pdfTeX warning: pdflatex.exe (file ./aesFastImpGnd.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]) (slide11.tex
-Overfull \hbox (91.50269pt too wide) detected at line 8
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 8
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<giraud__7N.pdf, id=2561, 489.40842pt x 44.7271pt>
+<giraud__7N.pdf, id=3459, 489.40842pt x 44.7271pt>
 File: giraud__7N.pdf Graphic file (type pdf)
 <use giraud__7N.pdf>
 Package pdftex.def Info: giraud__7N.pdf  used on input line 8.
 (pdftex.def)             Requested size: 398.3386pt x 36.40413pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[14
+[18
 
  <./giraud__7N.pdf>]) (slide12.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[15
+[19
 
 ]
-Overfull \hbox (91.50269pt too wide) detected at line 26
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 26
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<psuNetworkNew.png, id=3004, 4818.0pt x 1631.09375pt>
+<psuNetworkNew.png, id=3915, 4818.0pt x 1631.09375pt>
 File: psuNetworkNew.png Graphic file (type png)
 <use psuNetworkNew.png>
 Package pdftex.def Info: psuNetworkNew.png  used on input line 26.
 (pdftex.def)             Requested size: 159.333pt x 53.93327pt.
-<std_cell_segment_principle.pdf, id=3005, 500.76851pt x 210.5504pt>
+<std_cell_segment_principle.pdf, id=3916, 500.76851pt x 210.5504pt>
 File: std_cell_segment_principle.pdf Graphic file (type pdf)
 <use std_cell_segment_principle.pdf>
 Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 26.
 
 (pdftex.def)             Requested size: 159.333pt x 66.99197pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[16
+[20
 
  <./psuNetworkNew.png> <./std_cell_segment_principle.pdf>]) (slide13.tex
-Overfull \hbox (91.50269pt too wide) detected at line 11
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 11
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<DUAL.pdf, id=3186, 364.19528pt x 250.38426pt>
+<DUAL.pdf, id=4105, 364.19528pt x 250.38426pt>
 File: DUAL.pdf Graphic file (type pdf)
 <use DUAL.pdf>
 Package pdftex.def Info: DUAL.pdf  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 109.54283pt.
-<TRIPLE.pdf, id=3187, 364.19528pt x 250.38426pt>
+<TRIPLE.pdf, id=4106, 364.19528pt x 250.38426pt>
 File: TRIPLE.pdf Graphic file (type pdf)
 <use TRIPLE.pdf>
 Package pdftex.def Info: TRIPLE.pdf  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 109.54283pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[17
+[21
 
  <./DUAL.pdf> <./TRIPLE.pdf
 
 pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 >]) (slide14.tex
-Overfull \hbox (91.50269pt too wide) detected at line 11
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 11
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<dualWellEmfi.png, id=3447, 1455.4375pt x 1656.1875pt>
+<dualWellEmfi.png, id=4374, 1455.4375pt x 1656.1875pt>
 File: dualWellEmfi.png Graphic file (type png)
 <use dualWellEmfi.png>
 Package pdftex.def Info: dualWellEmfi.png  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 181.29669pt.
-<tripleWellEmfi.png, id=3448, 1455.4375pt x 1656.1875pt>
+<tripleWellEmfi.png, id=4375, 1455.4375pt x 1656.1875pt>
 File: tripleWellEmfi.png Graphic file (type png)
 <use tripleWellEmfi.png>
 Package pdftex.def Info: tripleWellEmfi.png  used on input line 11.
 (pdftex.def)             Requested size: 159.333pt x 181.29669pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[18
+[22
 
  <./dualWellEmfi.png> <./tripleWellEmfi.png>]) (slide15.tex
-Overfull \hbox (91.50269pt too wide) detected at line 20
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 20
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<substrateSubdivision_88.png, id=3617, 2143.00626pt x 1204.5pt>
+<substrateSubdivision_88.png, id=4552, 2143.00626pt x 1204.5pt>
 File: substrateSubdivision_88.png Graphic file (type png)
 <use substrateSubdivision_88.png>
 Package pdftex.def Info: substrateSubdivision_88.png  used on input line 20.
 (pdftex.def)             Requested size: 139.42093pt x 78.35039pt.
-<dualWell_no_7c_Eevee.png, id=3618, 1455.4375pt x 1656.1875pt>
+<dualWell_no_7c_Eevee.png, id=4553, 1455.4375pt x 1656.1875pt>
 File: dualWell_no_7c_Eevee.png Graphic file (type png)
 <use dualWell_no_7c_Eevee.png>
 Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 20.
 (pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
-<tripleWell_no_7c_Eevee.png, id=3619, 1455.4375pt x 1656.1875pt>
+<tripleWell_no_7c_Eevee.png, id=4554, 1455.4375pt x 1656.1875pt>
 File: tripleWell_no_7c_Eevee.png Graphic file (type png)
 <use tripleWell_no_7c_Eevee.png>
 Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 20.
 (pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[19
+[23
 
  <./substrateSubdivision_88.png> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_
 7c_Eevee.png>]) (slide16.tex
-Overfull \hbox (91.50269pt too wide) detected at line 20
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 20
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<resultingSimulated_ic.png, id=3790, 2569.6pt x 2044.63875pt>
+<resultingSimulated_ic.png, id=4732, 2569.6pt x 2044.63875pt>
 File: resultingSimulated_ic.png Graphic file (type png)
 <use resultingSimulated_ic.png>
 Package pdftex.def Info: resultingSimulated_ic.png  used on input line 20.
 (pdftex.def)             Requested size: 199.1693pt x 158.45786pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[20
+[24
 
  <./resultingSimulated_ic.png>]) (slide17.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[21
+[25
 
 ]) (slide18.tex
-Overfull \hbox (91.50269pt too wide) detected at line 23
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 23
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<vddMgndManuscrit.pdf, id=4124, 531.52023pt x 359.60652pt>
+<vddMgndManuscrit.pdf, id=5083, 531.52023pt x 359.60652pt>
 File: vddMgndManuscrit.pdf Graphic file (type pdf)
 <use vddMgndManuscrit.pdf>
 Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
-<iEpiDualWellManuscrit.pdf, id=4125, 556.98181pt x 359.60652pt>
+<iEpiDualWellManuscrit.pdf, id=5084, 556.98181pt x 359.60652pt>
 File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
 <use iEpiDualWellManuscrit.pdf>
 Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
-<iSubcManuscrit.pdf, id=4126, 795.8413pt x 222.7218pt>
+<iSubcManuscrit.pdf, id=5085, 795.8413pt x 222.7218pt>
 File: iSubcManuscrit.pdf Graphic file (type pdf)
 <use iSubcManuscrit.pdf>
 Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
-<CurrentDistributionNormT140eT10_ExcDw.pdf, id=4127, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcDw.pdf, id=5086, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcDw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcDw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 239.00558pt x 95.5996pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[22
+[26
 
  <./vddMgndManuscrit.pdf> <./iEpiDualWellManuscrit.pdf
 
@@ -1609,39 +1668,39 @@ pdfTeX warning: pdflatex.exe (file ./iEpiDualWellManuscrit.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./iSubcManuscrit.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 > <./CurrentDistributionNormT140eT10_ExcDw.pdf>]) (slide19.tex
-Overfull \hbox (91.50269pt too wide) detected at line 23
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 23
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<vddMgndManuscritTw.pdf, id=4612, 540.45763pt x 359.60652pt>
+<vddMgndManuscritTw.pdf, id=5579, 540.45763pt x 359.60652pt>
 File: vddMgndManuscritTw.pdf Graphic file (type pdf)
 <use vddMgndManuscritTw.pdf>
 Package pdftex.def Info: vddMgndManuscritTw.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 79.51424pt.
-<iEpiTripleWellManuscrit.pdf, id=4613, 547.76341pt x 359.60652pt>
+<iEpiTripleWellManuscrit.pdf, id=5580, 547.76341pt x 359.60652pt>
 File: iEpiTripleWellManuscrit.pdf Graphic file (type pdf)
 <use iEpiTripleWellManuscrit.pdf>
 Package pdftex.def Info: iEpiTripleWellManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 78.44972pt.
-<iSubcManuscritTws.pdf, id=4614, 800.029pt x 222.7218pt>
+<iSubcManuscritTws.pdf, id=5581, 800.029pt x 222.7218pt>
 File: iSubcManuscritTws.pdf Graphic file (type pdf)
 <use iSubcManuscritTws.pdf>
 Package pdftex.def Info: iSubcManuscritTws.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.53497pt.
-<CurrentDistributionNormT140eT10_ExcTw.pdf, id=4615, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcTw.pdf, id=5582, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcTw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcTw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcTw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 239.00558pt x 95.5996pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[23
+[27
 
  <./vddMgndManuscritTw.pdf> <./iEpiTripleWellManuscrit.pdf
 
@@ -1652,81 +1711,81 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./iSubcManuscritTws.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 > <./CurrentDistributionNormT140eT10_ExcTw.pdf>]) (slide20.tex
-Overfull \hbox (91.50269pt too wide) detected at line 21
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 21
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<pos_neg_IGND.pdf, id=5097, 366.70473pt x 230.1104pt>
+<pos_neg_IGND.pdf, id=6072, 366.70473pt x 230.1104pt>
 File: pos_neg_IGND.pdf Graphic file (type pdf)
 <use pos_neg_IGND.pdf>
 Package pdftex.def Info: pos_neg_IGND.pdf  used on input line 21.
 (pdftex.def)             Requested size: 199.1693pt x 124.97754pt.
-<stmPhotoImshow.pdf, id=5098, 293.59688pt x 234.8775pt>
+<stmPhotoImshow.pdf, id=6073, 293.59688pt x 234.8775pt>
 File: stmPhotoImshow.pdf Graphic file (type pdf)
 <use stmPhotoImshow.pdf>
 Package pdftex.def Info: stmPhotoImshow.pdf  used on input line 21.
 (pdftex.def)             Requested size: 169.2951pt x 135.43698pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[24
+[28
 
  <./pos_neg_IGND.pdf> <./stmPhotoImshow.pdf
 
 pdfTeX warning: pdflatex.exe (file ./stmPhotoImshow.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]) (slide21.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[25
+[29
 
 ]
-Overfull \hbox (91.50269pt too wide) detected at line 22
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 22
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<ivx3NewNoSignals.pdf, id=5403, 546.2929pt x 369.88583pt>
+<ivx3NewNoSignals.pdf, id=6389, 546.2929pt x 369.88583pt>
 File: ivx3NewNoSignals.pdf Graphic file (type pdf)
 <use ivx3NewNoSignals.pdf>
 Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 22.
 (pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
-<ivx3New.pdf, id=5404, 546.2929pt x 369.88583pt>
+<ivx3New.pdf, id=6390, 546.2929pt x 369.88583pt>
 File: ivx3New.pdf Graphic file (type pdf)
 <use ivx3New.pdf>
 Package pdftex.def Info: ivx3New.pdf  used on input line 22.
 (pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[26
+[30
 
  <./ivx3NewNoSignals.pdf> <./ivx3New.pdf
 
 pdfTeX warning: pdflatex.exe (file ./ivx3New.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >]) (slide22.tex
-Overfull \hbox (91.50269pt too wide) detected at line 37
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 37
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<logic_gates_solo_M0_DW.pdf, id=5600, 674.17587pt x 1041.72035pt>
+<logic_gates_solo_M0_DW.pdf, id=6594, 674.17587pt x 1041.72035pt>
 File: logic_gates_solo_M0_DW.pdf Graphic file (type pdf)
 <use logic_gates_solo_M0_DW.pdf>
 Package pdftex.def Info: logic_gates_solo_M0_DW.pdf  used on input line 37.
 (pdftex.def)             Requested size: 119.50279pt x 184.64041pt.
-<logic_gates_solo_M0_TW.pdf, id=5601, 674.17587pt x 1041.72035pt>
+<logic_gates_solo_M0_TW.pdf, id=6595, 674.17587pt x 1041.72035pt>
 File: logic_gates_solo_M0_TW.pdf Graphic file (type pdf)
 <use logic_gates_solo_M0_TW.pdf>
 Package pdftex.def Info: logic_gates_solo_M0_TW.pdf  used on input line 37.
@@ -1736,112 +1795,112 @@ Overfull \vbox (1.22746pt too high) detected at line 37
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[27
+[31
 
  <./logic_gates_solo_M0_DW.pdf> <./logic_gates_solo_M0_TW.pdf
 
 pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_TW.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]) (slide23.tex
-Overfull \hbox (91.50269pt too wide) detected at line 5
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 5
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[28
+[32
 
 ]) (slide24.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[29
+[33
 
 ]
-Overfull \hbox (91.50269pt too wide) detected at line 9
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 9
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<geomCrossViewNew.pdf, id=6556, 569.05513pt x 256.0748pt>
+<geomCrossViewNew.pdf, id=7571, 569.05513pt x 256.0748pt>
 File: geomCrossViewNew.pdf Graphic file (type pdf)
 <use geomCrossViewNew.pdf>
 Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 9.
 (pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[30
+[34
 
  <./geomCrossViewNew.pdf>]) (slide25.tex
-Overfull \hbox (91.50269pt too wide) detected at line 8
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 8
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<geomCrossViewThinNew.pdf, id=6768, 569.05513pt x 256.0748pt>
+<geomCrossViewThinNew.pdf, id=7791, 569.05513pt x 256.0748pt>
 File: geomCrossViewThinNew.pdf Graphic file (type pdf)
 <use geomCrossViewThinNew.pdf>
 Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 8.
 (pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[31
+[35
 
  <./geomCrossViewThinNew.pdf>]) (slide26.tex
-Overfull \hbox (91.50269pt too wide) detected at line 23
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 23
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<thinning140um.pdf, id=6981, 867.24pt x 289.08pt>
+<thinning140um.pdf, id=8011, 867.24pt x 289.08pt>
 File: thinning140um.pdf Graphic file (type pdf)
 <use thinning140um.pdf>
 Package pdftex.def Info: thinning140um.pdf  used on input line 23.
 (pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT140eT10_ExcDw.pdf, id=6982, 722.7pt x 289.08pt>
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=8012, 722.7pt x 289.08pt>
 File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
 <use VoltageDistributionNormT140eT10_ExcDw.pdf>
 Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
-<thinning60um.pdf, id=6983, 867.24pt x 289.08pt>
+<thinning60um.pdf, id=8013, 867.24pt x 289.08pt>
 File: thinning60um.pdf Graphic file (type pdf)
 <use thinning60um.pdf>
 Package pdftex.def Info: thinning60um.pdf  used on input line 23.
 (pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT60eT10_ExcDw.pdf, id=6984, 722.7pt x 289.08pt>
+<VoltageDistributionNormT60eT10_ExcDw.pdf, id=8014, 722.7pt x 289.08pt>
 File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
 <use VoltageDistributionNormT60eT10_ExcDw.pdf>
 Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
 t line 23.
 (pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[32
+[36
 
  <./thinning140um.pdf> <./VoltageDistributionNormT140eT10_ExcDw.pdf> <./thinnin
 g60um.pdf
@@ -1849,309 +1908,309 @@ g60um.pdf
 pdfTeX warning: pdflatex.exe (file ./thinning60um.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 > <./VoltageDistributionNormT60eT10_ExcDw.pdf>]) (slide27.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[33
+[37
 
 ]) (slide28.tex
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosFautesNew.pdf, id=7560, 1350.00356pt x 435.0654pt>
+<cartosFautesNew.pdf, id=8607, 1350.00356pt x 435.0654pt>
 File: cartosFautesNew.pdf Graphic file (type pdf)
 <use cartosFautesNew.pdf>
 Package pdftex.def Info: cartosFautesNew.pdf  used on input line 7.
 (pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[34
+[38
 
  <./cartosFautesNew.pdf>]) (slide29.tex
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosFautesSpreading.pdf, id=7797, 1350.00356pt x 435.0654pt>
+<cartosFautesSpreading.pdf, id=8852, 1350.00356pt x 435.0654pt>
 File: cartosFautesSpreading.pdf Graphic file (type pdf)
 <use cartosFautesSpreading.pdf>
 Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
 (pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-[35
+[39
 
  <./cartosFautesSpreading.pdf>]) (slide30.tex
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
-<cartosCouples.pdf, id=8032, 1350.00356pt x 465.4188pt>
+<cartosCouples.pdf, id=9095, 1350.00356pt x 465.4188pt>
 File: cartosCouples.pdf Graphic file (type pdf)
 <use cartosCouples.pdf>
 Package pdftex.def Info: cartosCouples.pdf  used on input line 7.
 (pdftex.def)             Requested size: 398.3386pt x 137.32576pt.
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[36
-
- <./cartosCouples.pdf>]) (slide31.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[37
-
-]
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[38
-
-]) (slide32.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[39
-
-]
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [40
 
-]) (slide33.tex
-Overfull \hbox (91.50269pt too wide) detected at line 2
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ <./cartosCouples.pdf>]) (slide31.tex
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [41
 
 ]
-Overfull \hbox (91.50269pt too wide) detected at line 7
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [42
 
-]) (slide34.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide32.tex
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [43
 
-]) (slide35.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [44
 
-]) (slide36.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide33.tex
+Overfull \hbox (208.05627pt too wide) detected at line 2
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [45
 
-]) (slide37.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]
+Overfull \hbox (208.05627pt too wide) detected at line 7
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [46
 
-]) (slide38.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide34.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [47
 
-]) (slide39.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide35.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [48
 
-]) (slide40.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide36.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [49
 
-]) (slide41.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide37.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [50
 
-]) (slide42.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide38.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [51
 
-]) (slide43.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide39.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [52
 
-]) (slide44.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide40.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [53
 
-]) (slide45.tex
-Overfull \hbox (91.50269pt too wide) detected at line 6
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+]) (slide41.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (91.50269pt too wide) has occurred while \output is active
-  [] [][][][][][][][] [][][][][][][] [][][][][][][][][][][] [][][][][] [][][][]
-[][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
  []
 
 [54
+
+]) (slide42.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[55
+
+]) (slide43.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[56
+
+]) (slide44.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[57
+
+]) (slide45.tex
+Overfull \hbox (208.05627pt too wide) detected at line 6
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (208.05627pt too wide) has occurred while \output is active
+  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
+[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
+ []
+
+[58
 
 ])
 \tf@nav=\write6
@@ -2165,26 +2224,27 @@ Overfull \hbox (91.50269pt too wide) has occurred while \output is active
 
  (0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: AF9FF5B8678BA388F1879C91650A45C1;1021.
+(rerunfilecheck)             Checksum: 20F993B03A0E219C5953A23EBEFDE6FD;1172.
  ) 
 Here is how much of TeX's memory you used:
- 26905 strings out of 476411
- 552084 string characters out of 5788662
- 1893845 words of memory out of 5000000
- 46422 multiletter control sequences out of 15000+600000
- 520287 words of font info for 60 fonts, out of 8000000 for 9000
+ 26923 strings out of 476411
+ 552048 string characters out of 5788662
+ 1895845 words of memory out of 5000000
+ 46431 multiletter control sequences out of 15000+600000
+ 520593 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,1009b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
 s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (54 pages, 43159492 bytes).
+ts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/geoff2/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on 0_slides.pdf (58 pages, 40170618 bytes).
 PDF statistics:
- 11057 PDF objects out of 12825 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 12261 PDF objects out of 12825 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

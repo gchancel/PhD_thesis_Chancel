@@ -1,31 +1,53 @@
 
-\section{BBI IN PRACTICE}
+\section{BODY BIASING INJECTION PLATFORM ENHANCEMENTS}
+\begin{frame}
+    \frametitle{Typical BBI platform}
+    \begin{itemize}
+        \setlength\itemsep{1em}
+        \item BBI introduced to perform Bellcore attack;
+        \item Demanding fault attacks difficult or impossible to perform;
+        \item Low experiment repeatability.
+    \end{itemize}
+    \vspace{1cm}
+    \begin{center}
+        \huge What are the limiting factors?
+    \end{center}
+\end{frame}
+
 \begin{frame}
     \frametitle{Typical BBI platform}
 %    \framesubtitle{Typical platform}
     \begin{columns}
-        \begin{column}{0.5\textwidth}
+        \begin{column}{0.65\textwidth}
             \centering
             \begin{figure}
-                \includegraphics[width=0.8\textwidth]{model0Probe.pdf}
+                \includegraphics[width=0.6\textwidth]{model0Probe.pdf}
             \end{figure}
-%            \par
+            \vspace{-0.5cm}
             \begin{figure}
-                \includegraphics[width=0.7\textwidth]{SIMPLE_BBI_0.pdf}
+                \includegraphics[width=0.5\textwidth]{S1P.pdf}
+                \includegraphics[width=0.5\textwidth]{S1G.pdf}
             \end{figure}
+%            \vspace{-0.5cm}
+%            \begin{figure}
+%                \includegraphics[width=0.8\textwidth]{S1G.pdf}
+%            \end{figure}
+%            \vspace{-0.5cm}
+%            \begin{figure}
+%                \includegraphics[width=0.7\textwidth]{SIMPLE_BBI_0.pdf}
+%            \end{figure}
         \end{column}
 
         \barsep
 
-        \begin{column}{0.5\textwidth}
+        \begin{column}{0.35\textwidth}
             \centering
             \begin{itemize}
                 \setlength\itemsep{1em}
-                \item Pulse generator;
-                \item Transmission line;
-                \item BBI probe;
-                \item IC target;
-                \item Platform ground.
+                \item Impedance mismatch;
+                \item Floating grounds;
+                \item Ringing;
+                \item Set-point error.
             \end{itemize}
         \end{column}
     \end{columns}
