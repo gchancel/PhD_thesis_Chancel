@@ -1,26 +1,105 @@
 
-\section{BBI IC SIMULATION FLOW}
-\begin{frame}
-    \frametitle{IC basic structure}
-%    \framesubtitle{SUBTITLE}
-    \begin{columns}
-        \begin{column}{0.4\textwidth}
-            \vfill
-            \includegraphics[width=\textwidth]{psuNetworkNew.png}
-            \vfill
-            \includegraphics[width=\textwidth]{std_cell_segment_principle.pdf}
-            \vfill
-        \end{column}
+%\section{BODY BIASING INJECTION SIMULATION MODELS}
+%\begin{frame}
+%    \frametitle{Simulation models}
+%    \begin{itemize}
+%        \setlength\itemsep{1em}
+%        \item What is interesting in developing simulation models?
+%        \vspace{0.2cm}
+%        \begin{itemize}
+%            \setlength\itemsep{0.9em}
+%            \item No dedicated CAD tools;
+%            \item Very difficult to physically observe the IC from the inside.
+%        \end{itemize}
+%        \item Therefore → mixed approach simulation/experiments.
+%    \end{itemize}
+%\end{frame}
 
-        \begin{column}{0.6\textwidth}
-            \begin{itemize}
-                \item Item1;
-                \item Item1;
-                \item Item1;
-                \item Item1;
-            \end{itemize}
-        \end{column}
-    \end{columns}
+\begin{frame}{Simulation models}
+    \begin{textblock*}{5cm}(5mm, 20mm)
+        \onslide<1-6>{\includegraphics[width=\textwidth]{psuNetworkNew.png}}
+    \end{textblock*}
 
+    \begin{textblock*}{2cm}(15mm, 38mm)
+        \onslide<2-6>{\begin{tikzpicture}
+            \draw[-Stealth, blue, thick] (0, 0) -- (0.5, -0.5);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{5cm}(12mm, 45mm)
+        \onslide<2-6>{\includegraphics[width=0.8\textwidth]{std_cell_segment_principle.pdf}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(15mm, 63mm)
+        \onslide<3-6>{\begin{tikzpicture}
+            \draw[-Stealth, blue, thick] (0, 0) -- (0.0, -0.5);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{3cm}(11mm, 68mm)
+        \onslide<3-6>{\includegraphics[width=0.8\textwidth]{DUAL.pdf}}
+    \end{textblock*}
+
+    \begin{textblock*}{3cm}(35mm, 68mm)
+        \onslide<3-6>{\includegraphics[width=0.8\textwidth]{TRIPLE.pdf}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(60mm, 72mm)
+        \onslide<4-6>{\begin{tikzpicture}
+            \draw[-Stealth, blue, thick] (0, 0) -- (0.5, 0.6);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(67mm, 57mm)
+        \onslide<4-6>{\begin{tikzpicture}
+            \draw[decorate, decoration={brace}, blue, thick] (0, 0) -- (0.0, 3.0);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{3cm}(70mm, 58.5mm)
+        \onslide<4-6>{\includegraphics[width=0.8\textwidth]{dualWell_no_7c_Eevee.png}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(96mm, 57.5mm)
+        \onslide<4-6>{\begin{tikzpicture}
+            \draw[-, black, thick] (0, 0) -- (0.0, 3.0);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{3cm}(98mm, 58.5mm)
+        \onslide<4-6>{\includegraphics[width=0.8\textwidth]{tripleWell_no_7c_Eevee.png}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(125mm, 55mm)
+        \onslide<5-6>{\begin{tikzpicture}
+%            \draw[-Stealth, blue, thick] (0, 0) -| (2.0, 0.6) -- (0.5, 2.5);
+            \draw[-Stealth, blue, thick] (0, 0) -| (1.7, 1.7);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{6cm}(110mm, 12mm)
+        \onslide<5-6>{\includegraphics[width=0.8\textwidth]{resultingSimulated_ic.png}}
+    \end{textblock*}
+
+    \begin{textblock*}{1.5cm}(73mm, 18mm)
+        \onslide<6-6>{\includegraphics[width=1.0\textwidth]{generatorModel.pdf}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(60mm, 30mm)
+        \onslide<6-6>{\begin{tikzpicture}
+            \draw[-Stealth, blue, thick] (0, 0) -- (1.0, 0.0);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(90mm, 30mm)
+        \onslide<6-6>{6\begin{tikzpicture}
+            \draw[-Stealth, blue, thick] (0, 0) -- (1.0, 0.0);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{8cm}(4cm, 1.75cm)
+        \centering
+        \onslide<7->{\includegraphics[width=1.0\textwidth]{resultingSimulated_ic.png}}
+    \end{textblock*}
 
 \end{frame}

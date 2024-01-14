@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  13 JAN 2024 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  14 JAN 2024 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,6 +788,23 @@ eorchid.sty)
 erectangles.sty))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthem
 edolphin.sty)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box76
+\TP@holdbox=\box77
+\TPHorizModule=\dimen294
+\TPVertModule=\dimen295
+\TP@margin=\dimen296
+\TP@absmargin=\dimen297
+
+Grid set 16 x 16 = 28.45274pt x 16.00467pt
+\TPboxrulesize=\dimen298
+\TP@ox=\dimen299
+\TP@oy=\dimen300
+\TP@tbargs=\toks45
+TextBlockOrigin set to 0pt x 0pt
+)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
@@ -802,8 +819,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks45
-\XKV@tempa@toks=\toks46
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
 )
 \XKV@depth=\count334
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -848,8 +865,8 @@ put line 308.
 \dayofyear=\count358
 \dayofweek=\count359
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks47
-\dt@b=\toks48
+\dt@a=\toks48
+\dt@b=\toks49
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
 .sty
@@ -859,7 +876,7 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box76
+\pgfnodeparttextbox=\box78
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eplot.code.tex
@@ -868,8 +885,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-1-18.sty
@@ -880,10 +897,10 @@ ty
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
 .code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz\tikz.code.tex
@@ -893,20 +910,20 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 raryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count360
-\pgfplotmarksize=\dimen298
+\pgfplotmarksize=\dimen305
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikz@lastmovetox=\dimen303
-\tikz@lastmovetoy=\dimen304
-\tikzleveldistance=\dimen305
-\tikzsiblingdistance=\dimen306
-\tikz@figbox=\box77
-\tikz@figbox@bg=\box78
-\tikz@tempbox=\box79
-\tikz@tempbox@bg=\box80
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
 \tikztreelevel=\count361
 \tikznumberofchildren=\count362
 \tikznumberofcurrentchild=\count363
@@ -925,32 +942,84 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 kz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/tikzmark\tikzlibraryti
+kzmark.code.tex
+File: tikzlibrarytikzmark.code.tex 2022/08/24 v1.15 TikZ library for marking po
+sitions in a document
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-05-15 L3 programming layer (loader) 
+
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count369
-\l__pdf_internal_box=\box81
-) (0_slides.aux)
+\l__pdf_internal_box=\box83
+))
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
+se.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+\l__sn_x_dim=\dimen314
+\l__sn_y_dim=\dimen315
+\l__sn_xa_dim=\dimen316
+\l__sn_ya_dim=\dimen317
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen318
+\pgfarrowlength=\dimen319
+\pgfarrowwidth=\dimen320
+\pgfarrowlinewidth=\dimen321
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+edecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen322
+\pgfdecoratedremainingdistance=\dimen323
+\pgfdecoratedinputsegmentcompleteddistance=\dimen324
+\pgfdecoratedinputsegmentremainingdistance=\dimen325
+\pgf@decorate@distancetomove=\dimen326
+\pgf@decorate@repeatstate=\count370
+\pgfdecorationsegmentamplitude=\dimen327
+\pgfdecorationsegmentlength=\dimen328
+)
+\tikz@lib@dec@box=\box84
+)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathreplacing.code.tex)) (0_slides.aux)
 \openout1 = `0_slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -990,17 +1059,17 @@ LaTeX Font Info:    ... okay on input line 38.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count370
-\scratchdimen=\dimen307
-\scratchbox=\box82
-\nofMPsegments=\count371
-\nofMParguments=\count372
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count373
-\MPscratchDim=\dimen308
-\MPnumerator=\count374
-\makeMPintoPDFobject=\count375
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count371
+\scratchdimen=\dimen329
+\scratchbox=\box85
+\nofMPsegments=\count372
+\nofMParguments=\count373
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count374
+\MPscratchDim=\dimen330
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
+\everyMPtoPDFconversion=\toks53
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -1012,63 +1081,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 52.
  (0_slides.out) (0_slides.out)
 \@outlinefile=\write5
 \openout5 = `0_slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 52.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 38.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 38.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 38.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 38.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 52.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-8.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
-8.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 5
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 38.
+ut line 52.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-
 basic-dictionary-English.dict
@@ -1098,566 +1167,354 @@ Dictionary: translator-theorem-dictionary, Language: English
 f
 File: fc-english.def 2016/01/12
 ) (0_slides.nav)
-Overfull \hbox (208.05627pt too wide) detected at line 38
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 48.
+(hyperref)                setting the option has no effect on input line 62.
 
+(slide12.tex
+<psuNetworkNew.png, id=43, 4818.0pt x 1631.09375pt>
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+<std_cell_segment_principle.pdf, id=45, 500.76851pt x 210.5504pt>
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+<DUAL.pdf, id=46, 364.19528pt x 250.38426pt>
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<TRIPLE.pdf, id=47, 364.19528pt x 250.38426pt>
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<dualWell_no_7c_Eevee.png, id=48, 1455.4375pt x 1656.1875pt>
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+<tripleWell_no_7c_Eevee.png, id=49, 1455.4375pt x 1656.1875pt>
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+<resultingSimulated_ic.png, id=50, 2569.6pt x 2044.63875pt>
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+<generatorModel.pdf, id=51, 79.66771pt x 116.6563pt>
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [1{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-Overfull \hbox (208.05627pt too wide) detected at line 62
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
+ <./psuNetworkNew.png> <./std_cell_segment_principle.pdf> <./DUAL.pdf
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+pdfTeX warning: pdflatex.exe (file ./DUAL.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./TRIPLE.pdf
+
+pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_7c_Eevee.png> <./resultingSimul
+ated_ic.png> <./generatorModel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./generatorModel.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [2
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [3
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [4
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [5
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [6
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [7
+
+]) (slide18.tex
+<vddMgndManuscrit.pdf, id=396, 531.52023pt x 359.60652pt>
+File: vddMgndManuscrit.pdf Graphic file (type pdf)
+<use vddMgndManuscrit.pdf>
+Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 23.
+(pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
+<iEpiDualWellManuscrit.pdf, id=397, 556.98181pt x 359.60652pt>
+File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
+<use iEpiDualWellManuscrit.pdf>
+Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 23.
+(pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 62.
+ut line 23.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<NewLogoLIRMM.pdf, id=195, 715.17188pt x 180.675pt>
-File: NewLogoLIRMM.pdf Graphic file (type pdf)
-<use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 62.
-(pdftex.def)             Requested size: 85.35826pt x 21.56427pt.
- [1
-
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
-RMM.pdf>] (slide1.tex
-Overfull \hbox (208.05627pt too wide) detected at line 1
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[2
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 53
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<chipCard.pdf, id=427, 312.98033pt x 284.52756pt>
-File: chipCard.pdf Graphic file (type pdf)
-<use chipCard.pdf>
-Package pdftex.def Info: chipCard.pdf  used on input line 53.
-(pdftex.def)             Requested size: 159.333pt x 144.85098pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[3
-
- <./chipCard.pdf>]) (slide2.tex
-Overfull \hbox (208.05627pt too wide) detected at line 34
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-34.
-(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
-File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[4
-
-]) (slide3.tex
-Overfull \hbox (208.05627pt too wide) detected at line 40
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[5
-
-]) (slide4.tex
-Overfull \hbox (208.05627pt too wide) detected at line 40
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<langerBBI.jpg, id=1016, 645.41125pt x 889.3225pt>
-File: langerBBI.jpg Graphic file (type jpg)
-<use langerBBI.jpg>
-Package pdftex.def Info: langerBBI.jpg  used on input line 40.
-(pdftex.def)             Requested size: 71.69936pt x 98.78923pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[6
-
- <./langerBBI.jpg>]) (slide5.tex
-Overfull \hbox (208.05627pt too wide) detected at line 47
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<em-fi-bbi-probe-20-black.jpg, id=1191, 1323.9864pt x 795.9336pt>
-File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
-<use em-fi-bbi-probe-20-black.jpg>
-Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 47.
-(pdftex.def)             Requested size: 159.333pt x 95.7751pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[7
-
- <./em-fi-bbi-probe-20-black.jpg>]
-Overfull \hbox (208.05627pt too wide) detected at line 70
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<picoemp-red.jpeg, id=1367, 240.9pt x 92.0238pt>
-File: picoemp-red.jpeg Graphic file (type jpg)
-<use picoemp-red.jpeg>
-Package pdftex.def Info: picoemp-red.jpeg  used on input line 70.
-(pdftex.def)             Requested size: 95.60075pt x 36.5196pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[8
-
- <./picoemp-red.jpeg>]) (slide6.tex
-Overfull \hbox (208.05627pt too wide) detected at line 34
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<sondeBBI_loin_raw.png, id=1542, 1397.22pt x 1254.18562pt>
-File: sondeBBI_loin_raw.png Graphic file (type png)
-<use sondeBBI_loin_raw.png>
-Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 34.
-(pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
-<pointeBBI2.png, id=1543, 862.9038pt x 773.7708pt>
-File: pointeBBI2.png Graphic file (type png)
-<use pointeBBI2.png>
-Package pdftex.def Info: pointeBBI2.png  used on input line 34.
-(pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
-<avrk4b.pdf, id=1545, 1532.72626pt x 359.09157pt>
-File: avrk4b.pdf Graphic file (type pdf)
-<use avrk4b.pdf>
-Package pdftex.def Info: avrk4b.pdf  used on input line 34.
-(pdftex.def)             Requested size: 191.20518pt x 44.79318pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[9
-
- <./sondeBBI_loin_raw.png> <./pointeBBI2.png> <./avrk4b.pdf>]
-Overfull \hbox (208.05627pt too wide) detected at line 46
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[10
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 58
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[11
-
-]) (slide7.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[12
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 15
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[13
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 54
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<model0Probe.pdf, id=2358, 369.88583pt x 199.1693pt>
-File: model0Probe.pdf Graphic file (type pdf)
-<use model0Probe.pdf>
-Package pdftex.def Info: model0Probe.pdf  used on input line 54.
-(pdftex.def)             Requested size: 155.35216pt x 83.65053pt.
-<S1P.pdf, id=2359, 404.51125pt x 178.6675pt>
-File: S1P.pdf Graphic file (type pdf)
-<use S1P.pdf>
-Package pdftex.def Info: S1P.pdf  used on input line 54.
-(pdftex.def)             Requested size: 129.45882pt x 57.1802pt.
-<S1G.pdf, id=2360, 411.5375pt x 178.6675pt>
-File: S1G.pdf Graphic file (type pdf)
-<use S1G.pdf>
-Package pdftex.def Info: S1G.pdf  used on input line 54.
-(pdftex.def)             Requested size: 129.45882pt x 56.20421pt.
-
-Overfull \vbox (19.39563pt too high) detected at line 54
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[14
-
- <./model0Probe.pdf> <./S1P.pdf
-
-pdfTeX warning: pdflatex.exe (file ./S1P.pdf): PDF inclusion: multiple pdfs wit
-h page group included in a single page
-> <./S1G.pdf
-
-pdfTeX warning: pdflatex.exe (file ./S1G.pdf): PDF inclusion: multiple pdfs wit
-h page group included in a single page
->]) (slide8.tex
-Overfull \hbox (208.05627pt too wide) detected at line 33
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<model2ProbeManuscrit.pdf, id=2691, 369.88583pt x 199.1693pt>
-File: model2ProbeManuscrit.pdf Graphic file (type pdf)
-<use model2ProbeManuscrit.pdf>
-Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 33.
-(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
-<SIMPLE_BBI_2.pdf, id=2692, 505.89pt x 317.98799pt>
-File: SIMPLE_BBI_2.pdf Graphic file (type pdf)
-<use SIMPLE_BBI_2.pdf>
-Package pdftex.def Info: SIMPLE_BBI_2.pdf  used on input line 33.
-(pdftex.def)             Requested size: 127.46687pt x 80.12271pt.
-<impMatchPicture.jpg, id=2693, 1915.155pt x 2719.15875pt>
-File: impMatchPicture.jpg Graphic file (type jpg)
-<use impMatchPicture.jpg>
-Package pdftex.def Info: impMatchPicture.jpg  used on input line 33.
-(pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
-<sondeGndSource.jpg, id=2694, 992.20688pt x 1407.75937pt>
-File: sondeGndSource.jpg Graphic file (type jpg)
-<use sondeGndSource.jpg>
-Package pdftex.def Info: sondeGndSource.jpg  used on input line 33.
-(pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[15
-
- <./model2ProbeManuscrit.pdf> <./SIMPLE_BBI_2.pdf> <./impMatchPicture.jpg> <./s
-ondeGndSource.jpg>]) (slide9.tex
-Overfull \hbox (208.05627pt too wide) detected at line 31
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[16
-
-]) (slide10.tex
-Overfull \hbox (208.05627pt too wide) detected at line 12
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<aesFastGndOnly.pdf, id=3118, 466.74374pt x 323.70938pt>
-File: aesFastGndOnly.pdf Graphic file (type pdf)
-<use aesFastGndOnly.pdf>
-Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 12.
-(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
-<aesFastImpGnd.pdf, id=3119, 466.74374pt x 323.70938pt>
-File: aesFastImpGnd.pdf Graphic file (type pdf)
-<use aesFastImpGnd.pdf>
-Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 12.
-(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
-
-Overfull \vbox (9.99785pt too high) detected at line 12
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[17
-
- <./aesFastGndOnly.pdf> <./aesFastImpGnd.pdf
-
-pdfTeX warning: pdflatex.exe (file ./aesFastImpGnd.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
->]) (slide11.tex
-Overfull \hbox (208.05627pt too wide) detected at line 8
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<giraud__7N.pdf, id=3459, 489.40842pt x 44.7271pt>
-File: giraud__7N.pdf Graphic file (type pdf)
-<use giraud__7N.pdf>
-Package pdftex.def Info: giraud__7N.pdf  used on input line 8.
-(pdftex.def)             Requested size: 398.3386pt x 36.40413pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[18
-
- <./giraud__7N.pdf>]) (slide12.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[19
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 26
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<psuNetworkNew.png, id=3915, 4818.0pt x 1631.09375pt>
-File: psuNetworkNew.png Graphic file (type png)
-<use psuNetworkNew.png>
-Package pdftex.def Info: psuNetworkNew.png  used on input line 26.
-(pdftex.def)             Requested size: 159.333pt x 53.93327pt.
-<std_cell_segment_principle.pdf, id=3916, 500.76851pt x 210.5504pt>
-File: std_cell_segment_principle.pdf Graphic file (type pdf)
-<use std_cell_segment_principle.pdf>
-Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 26.
-
-(pdftex.def)             Requested size: 159.333pt x 66.99197pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[20
-
- <./psuNetworkNew.png> <./std_cell_segment_principle.pdf>]) (slide13.tex
-Overfull \hbox (208.05627pt too wide) detected at line 11
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<DUAL.pdf, id=4105, 364.19528pt x 250.38426pt>
-File: DUAL.pdf Graphic file (type pdf)
-<use DUAL.pdf>
-Package pdftex.def Info: DUAL.pdf  used on input line 11.
-(pdftex.def)             Requested size: 159.333pt x 109.54283pt.
-<TRIPLE.pdf, id=4106, 364.19528pt x 250.38426pt>
-File: TRIPLE.pdf Graphic file (type pdf)
-<use TRIPLE.pdf>
-Package pdftex.def Info: TRIPLE.pdf  used on input line 11.
-(pdftex.def)             Requested size: 159.333pt x 109.54283pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[21
-
- <./DUAL.pdf> <./TRIPLE.pdf
-
-pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->]) (slide14.tex
-Overfull \hbox (208.05627pt too wide) detected at line 11
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<dualWellEmfi.png, id=4374, 1455.4375pt x 1656.1875pt>
-File: dualWellEmfi.png Graphic file (type png)
-<use dualWellEmfi.png>
-Package pdftex.def Info: dualWellEmfi.png  used on input line 11.
-(pdftex.def)             Requested size: 159.333pt x 181.29669pt.
-<tripleWellEmfi.png, id=4375, 1455.4375pt x 1656.1875pt>
-File: tripleWellEmfi.png Graphic file (type png)
-<use tripleWellEmfi.png>
-Package pdftex.def Info: tripleWellEmfi.png  used on input line 11.
-(pdftex.def)             Requested size: 159.333pt x 181.29669pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[22
-
- <./dualWellEmfi.png> <./tripleWellEmfi.png>]) (slide15.tex
-Overfull \hbox (208.05627pt too wide) detected at line 20
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<substrateSubdivision_88.png, id=4552, 2143.00626pt x 1204.5pt>
-File: substrateSubdivision_88.png Graphic file (type png)
-<use substrateSubdivision_88.png>
-Package pdftex.def Info: substrateSubdivision_88.png  used on input line 20.
-(pdftex.def)             Requested size: 139.42093pt x 78.35039pt.
-<dualWell_no_7c_Eevee.png, id=4553, 1455.4375pt x 1656.1875pt>
-File: dualWell_no_7c_Eevee.png Graphic file (type png)
-<use dualWell_no_7c_Eevee.png>
-Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 20.
-(pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
-<tripleWell_no_7c_Eevee.png, id=4554, 1455.4375pt x 1656.1875pt>
-File: tripleWell_no_7c_Eevee.png Graphic file (type png)
-<use tripleWell_no_7c_Eevee.png>
-Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 20.
-(pdftex.def)             Requested size: 119.50279pt x 135.98515pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[23
-
- <./substrateSubdivision_88.png> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_
-7c_Eevee.png>]) (slide16.tex
-Overfull \hbox (208.05627pt too wide) detected at line 20
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<resultingSimulated_ic.png, id=4732, 2569.6pt x 2044.63875pt>
-File: resultingSimulated_ic.png Graphic file (type png)
-<use resultingSimulated_ic.png>
-Package pdftex.def Info: resultingSimulated_ic.png  used on input line 20.
-(pdftex.def)             Requested size: 199.1693pt x 158.45786pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[24
-
- <./resultingSimulated_ic.png>]) (slide17.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[25
-
-]) (slide18.tex
-Overfull \hbox (208.05627pt too wide) detected at line 23
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<vddMgndManuscrit.pdf, id=5083, 531.52023pt x 359.60652pt>
-File: vddMgndManuscrit.pdf Graphic file (type pdf)
-<use vddMgndManuscrit.pdf>
-Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 23.
-(pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
-<iEpiDualWellManuscrit.pdf, id=5084, 556.98181pt x 359.60652pt>
-File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
-<use iEpiDualWellManuscrit.pdf>
-Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 23.
-(pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
-<iSubcManuscrit.pdf, id=5085, 795.8413pt x 222.7218pt>
+<iSubcManuscrit.pdf, id=398, 795.8413pt x 222.7218pt>
 File: iSubcManuscrit.pdf Graphic file (type pdf)
 <use iSubcManuscrit.pdf>
 Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
-<CurrentDistributionNormT140eT10_ExcDw.pdf, id=5086, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcDw.pdf, id=399, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcDw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcDw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 239.00558pt x 95.5996pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[26
+ [8
 
  <./vddMgndManuscrit.pdf> <./iEpiDualWellManuscrit.pdf
 
@@ -1668,39 +1525,28 @@ pdfTeX warning: pdflatex.exe (file ./iEpiDualWellManuscrit.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./iSubcManuscrit.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 > <./CurrentDistributionNormT140eT10_ExcDw.pdf>]) (slide19.tex
-Overfull \hbox (208.05627pt too wide) detected at line 23
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<vddMgndManuscritTw.pdf, id=5579, 540.45763pt x 359.60652pt>
+<vddMgndManuscritTw.pdf, id=769, 540.45763pt x 359.60652pt>
 File: vddMgndManuscritTw.pdf Graphic file (type pdf)
 <use vddMgndManuscritTw.pdf>
 Package pdftex.def Info: vddMgndManuscritTw.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 79.51424pt.
-<iEpiTripleWellManuscrit.pdf, id=5580, 547.76341pt x 359.60652pt>
+<iEpiTripleWellManuscrit.pdf, id=770, 547.76341pt x 359.60652pt>
 File: iEpiTripleWellManuscrit.pdf Graphic file (type pdf)
 <use iEpiTripleWellManuscrit.pdf>
 Package pdftex.def Info: iEpiTripleWellManuscrit.pdf  used on input line 23.
 (pdftex.def)             Requested size: 119.50279pt x 78.44972pt.
-<iSubcManuscritTws.pdf, id=5581, 800.029pt x 222.7218pt>
+<iSubcManuscritTws.pdf, id=771, 800.029pt x 222.7218pt>
 File: iSubcManuscritTws.pdf Graphic file (type pdf)
 <use iSubcManuscritTws.pdf>
 Package pdftex.def Info: iSubcManuscritTws.pdf  used on input line 23.
 (pdftex.def)             Requested size: 239.00558pt x 66.53497pt.
-<CurrentDistributionNormT140eT10_ExcTw.pdf, id=5582, 722.7pt x 289.08pt>
+<CurrentDistributionNormT140eT10_ExcTw.pdf, id=772, 722.7pt x 289.08pt>
 File: CurrentDistributionNormT140eT10_ExcTw.pdf Graphic file (type pdf)
 <use CurrentDistributionNormT140eT10_ExcTw.pdf>
 Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcTw.pdf  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 239.00558pt x 95.5996pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[27
+ [9
 
  <./vddMgndManuscritTw.pdf> <./iEpiTripleWellManuscrit.pdf
 
@@ -1711,508 +1557,42 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./iSubcManuscritTws.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 > <./CurrentDistributionNormT140eT10_ExcTw.pdf>]) (slide20.tex
-Overfull \hbox (208.05627pt too wide) detected at line 21
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<pos_neg_IGND.pdf, id=6072, 366.70473pt x 230.1104pt>
+<pos_neg_IGND.pdf, id=1138, 366.70473pt x 230.1104pt>
 File: pos_neg_IGND.pdf Graphic file (type pdf)
 <use pos_neg_IGND.pdf>
 Package pdftex.def Info: pos_neg_IGND.pdf  used on input line 21.
 (pdftex.def)             Requested size: 199.1693pt x 124.97754pt.
-<stmPhotoImshow.pdf, id=6073, 293.59688pt x 234.8775pt>
+<stmPhotoImshow.pdf, id=1139, 293.59688pt x 234.8775pt>
 File: stmPhotoImshow.pdf Graphic file (type pdf)
 <use stmPhotoImshow.pdf>
 Package pdftex.def Info: stmPhotoImshow.pdf  used on input line 21.
 (pdftex.def)             Requested size: 169.2951pt x 135.43698pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[28
+ [10
 
  <./pos_neg_IGND.pdf> <./stmPhotoImshow.pdf
 
 pdfTeX warning: pdflatex.exe (file ./stmPhotoImshow.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
->]) (slide21.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[29
+>]) (slide21.tex [11
 
 ]
-Overfull \hbox (208.05627pt too wide) detected at line 22
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<ivx3NewNoSignals.pdf, id=6389, 546.2929pt x 369.88583pt>
+<ivx3NewNoSignals.pdf, id=1269, 546.2929pt x 369.88583pt>
 File: ivx3NewNoSignals.pdf Graphic file (type pdf)
 <use ivx3NewNoSignals.pdf>
 Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 22.
 (pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
-<ivx3New.pdf, id=6390, 546.2929pt x 369.88583pt>
+<ivx3New.pdf, id=1270, 546.2929pt x 369.88583pt>
 File: ivx3New.pdf Graphic file (type pdf)
 <use ivx3New.pdf>
 Package pdftex.def Info: ivx3New.pdf  used on input line 22.
 (pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[30
+ [12
 
  <./ivx3NewNoSignals.pdf> <./ivx3New.pdf
 
 pdfTeX warning: pdflatex.exe (file ./ivx3New.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->]) (slide22.tex
-Overfull \hbox (208.05627pt too wide) detected at line 37
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<logic_gates_solo_M0_DW.pdf, id=6594, 674.17587pt x 1041.72035pt>
-File: logic_gates_solo_M0_DW.pdf Graphic file (type pdf)
-<use logic_gates_solo_M0_DW.pdf>
-Package pdftex.def Info: logic_gates_solo_M0_DW.pdf  used on input line 37.
-(pdftex.def)             Requested size: 119.50279pt x 184.64041pt.
-<logic_gates_solo_M0_TW.pdf, id=6595, 674.17587pt x 1041.72035pt>
-File: logic_gates_solo_M0_TW.pdf Graphic file (type pdf)
-<use logic_gates_solo_M0_TW.pdf>
-Package pdftex.def Info: logic_gates_solo_M0_TW.pdf  used on input line 37.
-(pdftex.def)             Requested size: 119.50279pt x 184.64041pt.
-
-Overfull \vbox (1.22746pt too high) detected at line 37
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[31
-
- <./logic_gates_solo_M0_DW.pdf> <./logic_gates_solo_M0_TW.pdf
-
-pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_TW.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->]) (slide23.tex
-Overfull \hbox (208.05627pt too wide) detected at line 5
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[32
-
-]) (slide24.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[33
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 9
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<geomCrossViewNew.pdf, id=7571, 569.05513pt x 256.0748pt>
-File: geomCrossViewNew.pdf Graphic file (type pdf)
-<use geomCrossViewNew.pdf>
-Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 9.
-(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[34
-
- <./geomCrossViewNew.pdf>]) (slide25.tex
-Overfull \hbox (208.05627pt too wide) detected at line 8
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<geomCrossViewThinNew.pdf, id=7791, 569.05513pt x 256.0748pt>
-File: geomCrossViewThinNew.pdf Graphic file (type pdf)
-<use geomCrossViewThinNew.pdf>
-Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 8.
-(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[35
-
- <./geomCrossViewThinNew.pdf>]) (slide26.tex
-Overfull \hbox (208.05627pt too wide) detected at line 23
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<thinning140um.pdf, id=8011, 867.24pt x 289.08pt>
-File: thinning140um.pdf Graphic file (type pdf)
-<use thinning140um.pdf>
-Package pdftex.def Info: thinning140um.pdf  used on input line 23.
-(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT140eT10_ExcDw.pdf, id=8012, 722.7pt x 289.08pt>
-File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
-<use VoltageDistributionNormT140eT10_ExcDw.pdf>
-Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
-ut line 23.
-(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
-<thinning60um.pdf, id=8013, 867.24pt x 289.08pt>
-File: thinning60um.pdf Graphic file (type pdf)
-<use thinning60um.pdf>
-Package pdftex.def Info: thinning60um.pdf  used on input line 23.
-(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT60eT10_ExcDw.pdf, id=8014, 722.7pt x 289.08pt>
-File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
-<use VoltageDistributionNormT60eT10_ExcDw.pdf>
-Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
-t line 23.
-(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[36
-
- <./thinning140um.pdf> <./VoltageDistributionNormT140eT10_ExcDw.pdf> <./thinnin
-g60um.pdf
-
-pdfTeX warning: pdflatex.exe (file ./thinning60um.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./VoltageDistributionNormT60eT10_ExcDw.pdf>]) (slide27.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[37
-
-]) (slide28.tex
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<cartosFautesNew.pdf, id=8607, 1350.00356pt x 435.0654pt>
-File: cartosFautesNew.pdf Graphic file (type pdf)
-<use cartosFautesNew.pdf>
-Package pdftex.def Info: cartosFautesNew.pdf  used on input line 7.
-(pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[38
-
- <./cartosFautesNew.pdf>]) (slide29.tex
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<cartosFautesSpreading.pdf, id=8852, 1350.00356pt x 435.0654pt>
-File: cartosFautesSpreading.pdf Graphic file (type pdf)
-<use cartosFautesSpreading.pdf>
-Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
-(pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[39
-
- <./cartosFautesSpreading.pdf>]) (slide30.tex
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-<cartosCouples.pdf, id=9095, 1350.00356pt x 465.4188pt>
-File: cartosCouples.pdf Graphic file (type pdf)
-<use cartosCouples.pdf>
-Package pdftex.def Info: cartosCouples.pdf  used on input line 7.
-(pdftex.def)             Requested size: 398.3386pt x 137.32576pt.
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[40
-
- <./cartosCouples.pdf>]) (slide31.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[41
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[42
-
-]) (slide32.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[43
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[44
-
-]) (slide33.tex
-Overfull \hbox (208.05627pt too wide) detected at line 2
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[45
-
-]
-Overfull \hbox (208.05627pt too wide) detected at line 7
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[46
-
-]) (slide34.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[47
-
-]) (slide35.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[48
-
-]) (slide36.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[49
-
-]) (slide37.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[50
-
-]) (slide38.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[51
-
-]) (slide39.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[52
-
-]) (slide40.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[53
-
-]) (slide41.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[54
-
-]) (slide42.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[55
-
-]) (slide43.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[56
-
-]) (slide44.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[57
-
-]) (slide45.tex
-Overfull \hbox (208.05627pt too wide) detected at line 6
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (208.05627pt too wide) has occurred while \output is active
-  [] [][][][][][][][][][][] [][][][][][][][] [][][][][][][][][][][] [][][][][] 
-[][][][][][][][][] [][][] [][][] [][][][][][][][][][][][][][][]  
- []
-
-[58
-
-])
+>])
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -2224,27 +1604,23 @@ Overfull \hbox (208.05627pt too wide) has occurred while \output is active
 
  (0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: 20F993B03A0E219C5953A23EBEFDE6FD;1172.
+(rerunfilecheck)             Checksum: 1995E7873891FF5FE4EF99FC1A6A8144;174.
  ) 
 Here is how much of TeX's memory you used:
- 26923 strings out of 476411
- 552048 string characters out of 5788662
- 1895845 words of memory out of 5000000
- 46431 multiletter control sequences out of 15000+600000
- 520593 words of font info for 61 fonts, out of 8000000 for 9000
+ 27317 strings out of 476411
+ 569595 string characters out of 5788662
+ 1872845 words of memory out of 5000000
+ 47046 multiletter control sequences out of 15000+600000
+ 519037 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,1009b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
-s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/geoff2/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on 0_slides.pdf (58 pages, 40170618 bytes).
+ 128i,19n,122p,1009b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmss8.pfb>
+Output written on 0_slides.pdf (12 pages, 17578807 bytes).
 PDF statistics:
- 12261 PDF objects out of 12825 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1349 PDF objects out of 1440 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

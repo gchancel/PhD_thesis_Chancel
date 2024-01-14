@@ -5,8 +5,22 @@
 \usetheme{Berlin}
 \usecolortheme{dolphin}
 
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
 \usepackage[yyyymmdd]{datetime}
 \usepackage{tikz}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{decorations.pathreplacing}
+
+%\setbeamertemplate{background}{\tikz[overlay, remember picture, help lines]{
+%    \foreach \x in {0,...,12} \path (current page.south west) +(\x,9.0) node {\small$\x$};
+%    \foreach \y in {0,...,9} \path (current page.south west) +(16.0,\y) node {\small$\y$};
+%    \foreach \x in {0,0.5,...,12.5} \draw (current page.south west) ++(\x,0) -- +(0,9.0);
+%    \foreach \y in {0,0.5,...,9.5} \draw (current page.south west) ++(0,\y) -- +(16.0,0);
+%    }
+%}
 
 \newcommand{\barsep}
 {
@@ -56,55 +70,59 @@
 %        \end{tikzpicture}
 %    }
 
-    \begin{frame}[plain, noframenumbering] % Title frame
-        \titlepage
-        Jean-Luc Danger \hfill Giorgio Di Natale \hfill Pascal Nouet \hfill Jean-Max Dutertre
-    \end{frame}
+%    \begin{frame}[plain, noframenumbering] % Title frame
+%        \titlepage
+%        Jean-Luc Danger \hfill Giorgio Di Natale \hfill Pascal Nouet \hfill Jean-Max Dutertre
+%    \end{frame}
 
 %    \input{./testFrame.tex}
-    \input{./slide1.tex}
-    \input{./slide2.tex}
-    \input{./slide3.tex}
-    \input{./slide4.tex}
-    \input{./slide5.tex}
-    \input{./slide6.tex}
-    \input{./slide7.tex}
-    \input{./slide8.tex}
-    \input{./slide9.tex}
-    \input{./slide10.tex}
-    \input{./slide11.tex}
-    \input{./slide12.tex}
-    \input{./slide13.tex}
-    \input{./slide14.tex}
-    \input{./slide15.tex}
-    \input{./slide16.tex}
-    \input{./slide17.tex}
+%    \input{./slide1.tex}
+%    \input{./slide2.tex}
+%    \input{./slide3.tex}
+%    \input{./slide4.tex}
+%    \input{./slide5.tex}
+%    \input{./slide6.tex}
+%    \input{./slide7.tex}
+%    \input{./slide8.tex}
+%    \input{./slide9.tex}
+%    \input{./slide10.tex}
+%    \input{./slide11.tex}
+%    \input{./slide12.tex}
+
+%    IGNORE FOLLOWING
+%    \input{./slide13.tex}
+%    \input{./slide14.tex}
+%    \input{./slide15.tex}
+%    \input{./slide16.tex}
+%    \input{./slide17.tex}
+%    IGNORE PREVIOUS
+
     \input{./slide18.tex}
     \input{./slide19.tex}
     \input{./slide20.tex}
     \input{./slide21.tex}
-    \input{./slide22.tex}
-    \input{./slide23.tex}
-    \input{./slide24.tex}
-    \input{./slide25.tex}
-    \input{./slide26.tex}
-    \input{./slide27.tex}
-    \input{./slide28.tex}
-    \input{./slide29.tex}
-    \input{./slide30.tex}
-    \input{./slide31.tex}
-    \input{./slide32.tex}
-    \input{./slide33.tex}
-    \input{./slide34.tex}
-    \input{./slide35.tex}
-    \input{./slide36.tex}
-    \input{./slide37.tex}
-    \input{./slide38.tex}
-    \input{./slide39.tex}
-    \input{./slide40.tex}
-    \input{./slide41.tex}
-    \input{./slide42.tex}
-    \input{./slide43.tex}
-    \input{./slide44.tex}
-    \input{./slide45.tex}
+%    \input{./slide22.tex}
+%    \input{./slide23.tex}
+%    \input{./slide24.tex}
+%    \input{./slide25.tex}
+%    \input{./slide26.tex}
+%    \input{./slide27.tex}
+%    \input{./slide28.tex}
+%    \input{./slide29.tex}
+%    \input{./slide30.tex}
+%    \input{./slide31.tex}
+%    \input{./slide32.tex}
+%    \input{./slide33.tex}
+%    \input{./slide34.tex}
+%    \input{./slide35.tex}
+%    \input{./slide36.tex}
+%    \input{./slide37.tex}
+%    \input{./slide38.tex}
+%    \input{./slide39.tex}
+%    \input{./slide40.tex}
+%    \input{./slide41.tex}
+%    \input{./slide42.tex}
+%    \input{./slide43.tex}
+%    \input{./slide44.tex}
+%    \input{./slide45.tex}
 \end{document}
