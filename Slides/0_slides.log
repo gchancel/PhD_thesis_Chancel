@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  15 JAN 2024 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  15 JAN 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,72 +1171,102 @@ File: fc-english.def 2016/01/12
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 62.
 
-(slide21.tex [1
+(slide24.tex [1
 
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<tripleWell_no_7c_Eevee.png, id=99, 1455.4375pt x 1656.1875pt>
-File: tripleWell_no_7c_Eevee.png Graphic file (type png)
-<use tripleWell_no_7c_Eevee.png>
-Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 31.
-(pdftex.def)             Requested size: 142.26378pt x 161.86302pt.
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
-Overfull \hbox (49.79208pt too wide) in paragraph at lines 31--31
-[][]  
- []
+]
+<geomCrossViewNew.pdf, id=183, 569.05513pt x 256.0748pt>
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+ [3
 
-<logicGates.pdf, id=101, 378.82796pt x 58.73418pt>
-File: logicGates.pdf Graphic file (type pdf)
-<use logicGates.pdf>
-Package pdftex.def Info: logicGates.pdf  used on input line 31.
-(pdftex.def)             Requested size: 142.26378pt x 22.05751pt.
+ <./geomCrossViewNew.pdf>]
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+ [4
 
-Overfull \hbox (91.62596pt too wide) in paragraph at lines 31--31
-[][]  
- []
+]) (slide25.tex
+<geomCrossViewThinNew.pdf, id=324, 569.05513pt x 256.0748pt>
+File: geomCrossViewThinNew.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew.pdf>
+Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 8.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+ [5
 
-<ivx3New.pdf, id=102, 546.2929pt x 369.88583pt>
-File: ivx3New.pdf Graphic file (type pdf)
-<use ivx3New.pdf>
-Package pdftex.def Info: ivx3New.pdf  used on input line 31.
-(pdftex.def)             Requested size: 142.26378pt x 96.32607pt.
-[2
+ <./geomCrossViewThinNew.pdf>]) (slide26.tex
+<thinning140um.pdf, id=432, 867.24pt x 289.08pt>
+File: thinning140um.pdf Graphic file (type pdf)
+<use thinning140um.pdf>
+Package pdftex.def Info: thinning140um.pdf  used on input line 23.
+(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=433, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 23.
+(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
- <./tripleWell_no_7c_Eevee.png> <./logicGates.pdf> <./ivx3New.pdf
 
-pdfTeX warning: pdflatex.exe (file ./ivx3New.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->]
-<ivx3NewNoSignals.pdf, id=172, 546.2929pt x 369.88583pt>
-File: ivx3NewNoSignals.pdf Graphic file (type pdf)
-<use ivx3NewNoSignals.pdf>
-Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 51.
-(pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
-
- (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 51.
+ut line 23.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-File: ivx3New.pdf Graphic file (type pdf)
-<use ivx3New.pdf>
-Package pdftex.def Info: ivx3New.pdf  used on input line 51.
-(pdftex.def)             Requested size: 199.1693pt x 134.85199pt.
- [3
+<thinning60um.pdf, id=434, 867.24pt x 289.08pt>
+File: thinning60um.pdf Graphic file (type pdf)
+<use thinning60um.pdf>
+Package pdftex.def Info: thinning60um.pdf  used on input line 23.
+(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
+<VoltageDistributionNormT60eT10_ExcDw.pdf, id=435, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT60eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
+t line 23.
+(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
+ [6
 
- <./ivx3NewNoSignals.pdf>])
+ <./thinning140um.pdf> <./VoltageDistributionNormT140eT10_ExcDw.pdf> <./thinnin
+g60um.pdf
+
+pdfTeX warning: pdflatex.exe (file ./thinning60um.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./VoltageDistributionNormT60eT10_ExcDw.pdf>]) (slide27.tex [7
+
+]) (slide28.tex
+<cartosFautesNew.pdf, id=804, 1350.00356pt x 435.0654pt>
+File: cartosFautesNew.pdf Graphic file (type pdf)
+<use cartosFautesNew.pdf>
+Package pdftex.def Info: cartosFautesNew.pdf  used on input line 7.
+(pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
+[8
+
+ <./cartosFautesNew.pdf>]) (slide29.tex
+<cartosFautesSpreading.pdf, id=938, 1350.00356pt x 435.0654pt>
+File: cartosFautesSpreading.pdf Graphic file (type pdf)
+<use cartosFautesSpreading.pdf>
+Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
+(pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
+ [9
+
+ <./cartosFautesSpreading.pdf>])
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -1246,24 +1276,27 @@ Package pdftex.def Info: ivx3New.pdf  used on input line 51.
 \tf@snm=\write8
 \openout8 = `0_slides.snm'.
 
- (0_slides.aux)
+
+(0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: 5A1C98CDE2CF5E26A87A7CD2A1467DA7;278.
+(rerunfilecheck)             Checksum: 629B30E81BE6CBF838AFC9134F51FBF5;179.
  ) 
 Here is how much of TeX's memory you used:
- 27137 strings out of 476411
- 564741 string characters out of 5788662
- 1862845 words of memory out of 5000000
- 46912 multiletter control sequences out of 15000+600000
- 519037 words of font info for 56 fonts, out of 8000000 for 9000
+ 27238 strings out of 476411
+ 567457 string characters out of 5788662
+ 1865845 words of memory out of 5000000
+ 46982 multiletter control sequences out of 15000+600000
+ 519343 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,1009b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,122p,1009b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmss8.pfb>
-Output written on 0_slides.pdf (3 pages, 2149348 bytes).
+/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmss9.pfb>
+Output written on 0_slides.pdf (9 pages, 595434 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1066 PDF objects out of 1200 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
