@@ -1,23 +1,50 @@
 
+\section{SIMULATION RESULTS}
+\begin{frame}{Simulation results}
+    What we observe:
+    \begin{itemize}
+        \item Dual-well;
+        \item Triple-well;
+        \item Picture at the apex of the pulse;
+        \item $550 \; \mu m \; (W) \; \times \; 450 \; \mu m \; (D) \; \times \; 140 \; \mu m \; (T)$: integrated circuit → 1620 SCS;
+    \end{itemize}
+    Simulation conditions:
+    \begin{itemize}
+        \item Voltage pulse amplitude: -300 V;
+        \item Voltage pulse width: 20 ns;
+        \item Rise and fall times: 8 ns;
+        \item Approximate impedance matching.
+    \end{itemize}
+\end{frame}
 \begin{frame}
+%    [trim={left bottom right top},clip]
     \frametitle{Simulation results: Dual-Well}
     %    \framesubtitle{SUBTITLE}
     \begin{columns}
         \begin{column}{0.3\textwidth}
+            \vspace{-1mm}
             \begin{figure}
                 \includegraphics[width=\textwidth]{vddMgndManuscrit.pdf}
-                \par
+                \caption{\centering PS voltage distribution}
+            \end{figure}
+            \vspace{-2mm}
+            \begin{figure}
                 \includegraphics[width=\textwidth]{iEpiDualWellManuscrit.pdf}
+                \caption{\centering Epitaxy current distribution}
             \end{figure}
         \end{column}
 
         \begin{column}{0.6\textwidth}
+            \vspace{-2mm}
             \begin{figure}
                 \includegraphics[width=\textwidth]{iSubcManuscrit.pdf}
-                \par
-                \includegraphics[width=\textwidth]{CurrentDistributionNormT140eT10_ExcDw.pdf}
+                \caption{Substrate current distribution}
+            \end{figure}
+            \vspace{-1mm}
+            \begin{figure}
+                \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{CurrentDistributionNormT140eT10_ExcDw.pdf}
+                \caption{Per-layer normalized substrate current density}
             \end{figure}
         \end{column}
     \end{columns}
-
 \end{frame}

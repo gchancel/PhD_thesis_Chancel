@@ -1,23 +1,46 @@
 
 \begin{frame}
+    %    [trim={left bottom right top},clip]
     \frametitle{Simulation results: Triple-Well}
-    %    \framesubtitle{SUBTITLE}
     \begin{columns}
         \begin{column}{0.3\textwidth}
+            \vspace{-1mm}
             \begin{figure}
                 \includegraphics[width=\textwidth]{vddMgndManuscritTw.pdf}
-                \par
+                \caption{\centering PS voltage distribution}
+            \end{figure}
+            \vspace{-2mm}
+            \begin{figure}
                 \includegraphics[width=\textwidth]{iEpiTripleWellManuscrit.pdf}
+                \caption{\centering Epitaxy current distribution}
             \end{figure}
         \end{column}
 
         \begin{column}{0.6\textwidth}
+            \vspace{-2mm}
             \begin{figure}
                 \includegraphics[width=\textwidth]{iSubcManuscritTws.pdf}
-                \par
-                \includegraphics[width=\textwidth]{CurrentDistributionNormT140eT10_ExcTw.pdf}
+                \caption{Substrate current distribution}
+            \end{figure}
+            \vspace{-1mm}
+            \begin{figure}
+                \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{CurrentDistributionNormT140eT10_ExcTw.pdf}
+                \caption{Per-layer normalized substrate current density}
             \end{figure}
         \end{column}
     \end{columns}
-
+\end{frame}
+\begin{frame}{Dual-well vs Triple-well}
+    Differences between Dual-well and Triple-well circuits:
+    \begin{itemize}
+        \item Dual-well → NMOS are DC-coupled | PMOS are AC-coupled;
+        \item Triple-well → entire IC is AC-coupled.
+    \end{itemize}
+    Implications:
+    \begin{itemize}
+        \item Dual-well → continuous energy flow during the pulse;
+        \item Triple-well → energy flow confined to the pulse edges;
+    \end{itemize}
+    \vspace{6mm}
+    \centering \textbf{For a given amount of time → less energy injected into TW compared to DW}
 \end{frame}
