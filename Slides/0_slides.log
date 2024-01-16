@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  15 JAN 2024 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  16 JAN 2024 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,106 +1167,823 @@ Dictionary: translator-theorem-dictionary, Language: English
 f
 File: fc-english.def 2016/01/12
 ) (0_slides.nav)
+Overfull \hbox (124.8869pt too wide) detected at line 52
+  [] [][][][][][][][][][][] [][][][][][][][][] [][][][][][][] [][][][][][][] []
+[][][][][][][][][][][][][][]  
+ []
+
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 62.
+(hyperref)                setting the option has no effect on input line 72.
 
-(slide24.tex [1
-
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
-
-]
-<geomCrossViewNew.pdf, id=183, 569.05513pt x 256.0748pt>
-File: geomCrossViewNew.pdf Graphic file (type pdf)
-<use geomCrossViewNew.pdf>
-Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
-(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
- [3
-
- <./geomCrossViewNew.pdf>]
-File: geomCrossViewNew.pdf Graphic file (type pdf)
-<use geomCrossViewNew.pdf>
-Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
-(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
- [4
-
-]) (slide25.tex
-<geomCrossViewThinNew.pdf, id=324, 569.05513pt x 256.0748pt>
-File: geomCrossViewThinNew.pdf Graphic file (type pdf)
-<use geomCrossViewThinNew.pdf>
-Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 8.
-(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
- [5
-
- <./geomCrossViewThinNew.pdf>]) (slide26.tex
-<thinning140um.pdf, id=432, 867.24pt x 289.08pt>
-File: thinning140um.pdf Graphic file (type pdf)
-<use thinning140um.pdf>
-Package pdftex.def Info: thinning140um.pdf  used on input line 23.
-(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT140eT10_ExcDw.pdf, id=433, 722.7pt x 289.08pt>
-File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
-<use VoltageDistributionNormT140eT10_ExcDw.pdf>
-Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
-ut line 23.
-(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
 
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 23.
+ut line 88.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<thinning60um.pdf, id=434, 867.24pt x 289.08pt>
+<NewLogoLIRMM.pdf, id=102, 715.17188pt x 180.675pt>
+File: NewLogoLIRMM.pdf Graphic file (type pdf)
+<use NewLogoLIRMM.pdf>
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 88.
+(pdftex.def)             Requested size: 85.35826pt x 21.56427pt.
+ [1
+
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
+RMM.pdf>] (slide1.tex [2
+
+]
+<chipCard.pdf, id=204, 312.98033pt x 284.52756pt>
+File: chipCard.pdf Graphic file (type pdf)
+<use chipCard.pdf>
+Package pdftex.def Info: chipCard.pdf  used on input line 53.
+(pdftex.def)             Requested size: 159.333pt x 144.85098pt.
+ [3
+
+ <./chipCard.pdf>]) (slide2.tex
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+34.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+[4
+
+]) (slide3.tex [5
+
+]) (slide4.tex
+<langerBBI.jpg, id=362, 645.41125pt x 889.3225pt>
+File: langerBBI.jpg Graphic file (type jpg)
+<use langerBBI.jpg>
+Package pdftex.def Info: langerBBI.jpg  used on input line 40.
+(pdftex.def)             Requested size: 71.69936pt x 98.78923pt.
+ [6
+
+ <./langerBBI.jpg>]) (slide5.tex
+<em-fi-bbi-probe-20-black.jpg, id=410, 1323.9864pt x 795.9336pt>
+File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
+<use em-fi-bbi-probe-20-black.jpg>
+Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 47.
+(pdftex.def)             Requested size: 159.333pt x 95.7751pt.
+ [7
+
+ <./em-fi-bbi-probe-20-black.jpg>]
+<picoemp-red.jpeg, id=459, 240.9pt x 92.0238pt>
+File: picoemp-red.jpeg Graphic file (type jpg)
+<use picoemp-red.jpeg>
+Package pdftex.def Info: picoemp-red.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 95.60075pt x 36.5196pt.
+<chipshouter_upscaled.png, id=460, 2063.71pt x 1473.505pt>
+File: chipshouter_upscaled.png Graphic file (type png)
+<use chipshouter_upscaled.png>
+Package pdftex.def Info: chipshouter_upscaled.png  used on input line 70.
+(pdftex.def)             Requested size: 95.60075pt x 68.23846pt.
+ [8
+
+ <./picoemp-red.jpeg> <./chipshouter_upscaled.png>]) (slide6.tex
+<sondeBBI_loin_raw.png, id=510, 1397.22pt x 1254.18562pt>
+File: sondeBBI_loin_raw.png Graphic file (type png)
+<use sondeBBI_loin_raw.png>
+Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 34.
+(pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
+<pointeBBI2.png, id=511, 862.9038pt x 773.7708pt>
+File: pointeBBI2.png Graphic file (type png)
+<use pointeBBI2.png>
+Package pdftex.def Info: pointeBBI2.png  used on input line 34.
+(pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
+<avrk4b.pdf, id=512, 1532.72626pt x 359.09157pt>
+File: avrk4b.pdf Graphic file (type pdf)
+<use avrk4b.pdf>
+Package pdftex.def Info: avrk4b.pdf  used on input line 34.
+(pdftex.def)             Requested size: 191.20518pt x 44.79318pt.
+ [9
+
+ <./sondeBBI_loin_raw.png> <./pointeBBI2.png> <./avrk4b.pdf>]
+[10
+
+] [11
+
+]) (slide7.tex [12
+
+] [13
+
+]
+<model0Probe.pdf, id=754, 369.88583pt x 199.1693pt>
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 43.
+(pdftex.def)             Requested size: 155.35216pt x 83.65053pt.
+<S1P.pdf, id=755, 404.51125pt x 178.6675pt>
+File: S1P.pdf Graphic file (type pdf)
+<use S1P.pdf>
+Package pdftex.def Info: S1P.pdf  used on input line 43.
+(pdftex.def)             Requested size: 116.51215pt x 51.46056pt.
+<S1G.pdf, id=756, 411.5375pt x 178.6675pt>
+File: S1G.pdf Graphic file (type pdf)
+<use S1G.pdf>
+Package pdftex.def Info: S1G.pdf  used on input line 43.
+(pdftex.def)             Requested size: 116.51215pt x 50.5827pt.
+ [14
+
+ <./model0Probe.pdf> <./S1P.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1P.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./S1G.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1G.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>]) (slide8.tex
+<model2ProbeManuscrit.pdf, id=960, 369.88583pt x 199.1693pt>
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 27.
+(pdftex.def)             Requested size: 127.46687pt x 68.63446pt.
+<S2P.pdf, id=961, 404.51125pt x 178.6675pt>
+File: S2P.pdf Graphic file (type pdf)
+<use S2P.pdf>
+Package pdftex.def Info: S2P.pdf  used on input line 27.
+(pdftex.def)             Requested size: 127.46687pt x 56.29964pt.
+<S2G.pdf, id=962, 411.5375pt x 178.6675pt>
+File: S2G.pdf Graphic file (type pdf)
+<use S2G.pdf>
+Package pdftex.def Info: S2G.pdf  used on input line 27.
+(pdftex.def)             Requested size: 127.46687pt x 55.33727pt.
+<impMatchPicture.jpg, id=963, 1915.155pt x 2719.15875pt>
+File: impMatchPicture.jpg Graphic file (type jpg)
+<use impMatchPicture.jpg>
+Package pdftex.def Info: impMatchPicture.jpg  used on input line 27.
+(pdftex.def)             Requested size: 95.60077pt x 135.71695pt.
+<sondeGndSource.jpg, id=964, 992.20688pt x 1407.75937pt>
+File: sondeGndSource.jpg Graphic file (type jpg)
+<use sondeGndSource.jpg>
+Package pdftex.def Info: sondeGndSource.jpg  used on input line 27.
+(pdftex.def)             Requested size: 95.60077pt x 135.62881pt.
+ [15
+
+ <./model2ProbeManuscrit.pdf> <./S2P.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S2P.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./S2G.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S2G.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./impMatchPicture.jpg> <./sondeGndSource.jpg>]) (slide9.tex
+File: S1P.pdf Graphic file (type pdf)
+<use S1P.pdf>
+Package pdftex.def Info: S1P.pdf  used on input line 37.
+(pdftex.def)             Requested size: 119.50279pt x 52.78278pt.
+File: S1G.pdf Graphic file (type pdf)
+<use S1G.pdf>
+Package pdftex.def Info: S1G.pdf  used on input line 37.
+(pdftex.def)             Requested size: 119.50279pt x 51.8804pt.
+File: S2P.pdf Graphic file (type pdf)
+<use S2P.pdf>
+Package pdftex.def Info: S2P.pdf  used on input line 37.
+(pdftex.def)             Requested size: 119.50279pt x 52.78278pt.
+File: S2G.pdf Graphic file (type pdf)
+<use S2G.pdf>
+Package pdftex.def Info: S2G.pdf  used on input line 37.
+(pdftex.def)             Requested size: 119.50279pt x 51.8804pt.
+ [16
+
+])
+(slide10.tex
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 41.
+(pdftex.def)             Requested size: 127.47125pt x 68.6375pt.
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 41.
+(pdftex.def)             Requested size: 127.47125pt x 68.6375pt.
+<aesFastGndOnly.pdf, id=1214, 466.74374pt x 323.70938pt>
+File: aesFastGndOnly.pdf Graphic file (type pdf)
+<use aesFastGndOnly.pdf>
+Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 41.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
+<aesFastImpGnd.pdf, id=1215, 466.74374pt x 323.70938pt>
+File: aesFastImpGnd.pdf Graphic file (type pdf)
+<use aesFastImpGnd.pdf>
+Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 41.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
+ [17
+
+ <./aesFastGndOnly.pdf> <./aesFastImpGnd.pdf
+
+pdfTeX warning: pdflatex.exe (file ./aesFastImpGnd.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]) (slide11.tex
+<giraud__7N.pdf, id=1427, 489.40842pt x 44.7271pt>
+File: giraud__7N.pdf Graphic file (type pdf)
+<use giraud__7N.pdf>
+Package pdftex.def Info: giraud__7N.pdf  used on input line 13.
+(pdftex.def)             Requested size: 398.3386pt x 36.40413pt.
+ [18
+
+ <./giraud__7N.pdf>]) (slide12.tex
+<psuNetworkNew.png, id=1645, 4818.0pt x 1631.09375pt>
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+<std_cell_segment_principle.pdf, id=1646, 500.76851pt x 210.5504pt>
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+<DUAL.pdf, id=1647, 364.19528pt x 250.38426pt>
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<TRIPLE.pdf, id=1648, 364.19528pt x 250.38426pt>
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<dualWell_no_7c_Eevee.png, id=1649, 1455.4375pt x 1656.1875pt>
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+<tripleWell_no_7c_Eevee.png, id=1650, 1455.4375pt x 1656.1875pt>
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+<resultingSimulated_ic.png, id=1651, 2569.6pt x 2044.63875pt>
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+<generatorModel.pdf, id=1652, 79.66771pt x 116.6563pt>
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [19
+
+ <./psuNetworkNew.png> <./std_cell_segment_principle.pdf> <./DUAL.pdf
+
+pdfTeX warning: pdflatex.exe (file ./DUAL.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./TRIPLE.pdf
+
+pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_7c_Eevee.png> <./resultingSimul
+ated_ic.png> <./generatorModel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./generatorModel.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [20
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [21
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [22
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [23
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [24
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 105
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 105.
+(pdftex.def)             Requested size: 68.28687pt x 77.68414pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 136.57373pt x 108.66484pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 105.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62204pt x 181.10808pt.
+ [25
+
+]) (slide18.tex [26
+
+] [27
+
+]
+<vddMgndManuscrit.pdf, id=2071, 531.52023pt x 359.60652pt>
+File: vddMgndManuscrit.pdf Graphic file (type pdf)
+<use vddMgndManuscrit.pdf>
+Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 51.
+(pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
+<iEpiDualWellManuscrit.pdf, id=2072, 556.98181pt x 359.60652pt>
+File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
+<use iEpiDualWellManuscrit.pdf>
+Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 51.
+(pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
+<iSubcManuscrit.pdf, id=2073, 795.8413pt x 222.7218pt>
+File: iSubcManuscrit.pdf Graphic file (type pdf)
+<use iSubcManuscrit.pdf>
+Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 51.
+(pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
+<CurrentDistributionNormT140eT10_ExcDw.pdf, id=2074, 722.7pt x 289.08pt>
+File: CurrentDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use CurrentDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 51.
+(pdftex.def)             Requested size: 239.00558pt x 83.36737pt.
+ [28
+
+ <./vddMgndManuscrit.pdf> <./iEpiDualWellManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iEpiDualWellManuscrit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./iSubcManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iSubcManuscrit.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./CurrentDistributionNormT140eT10_ExcDw.pdf>]) (slide19.tex
+<vddMgndManuscritTw.pdf, id=2442, 540.45763pt x 359.60652pt>
+File: vddMgndManuscritTw.pdf Graphic file (type pdf)
+<use vddMgndManuscritTw.pdf>
+Package pdftex.def Info: vddMgndManuscritTw.pdf  used on input line 32.
+(pdftex.def)             Requested size: 119.50279pt x 79.51424pt.
+<iEpiTripleWellManuscrit.pdf, id=2443, 547.76341pt x 359.60652pt>
+File: iEpiTripleWellManuscrit.pdf Graphic file (type pdf)
+<use iEpiTripleWellManuscrit.pdf>
+Package pdftex.def Info: iEpiTripleWellManuscrit.pdf  used on input line 32.
+(pdftex.def)             Requested size: 119.50279pt x 78.44972pt.
+<iSubcManuscritTws.pdf, id=2444, 800.029pt x 222.7218pt>
+File: iSubcManuscritTws.pdf Graphic file (type pdf)
+<use iSubcManuscritTws.pdf>
+Package pdftex.def Info: iSubcManuscritTws.pdf  used on input line 32.
+(pdftex.def)             Requested size: 239.00558pt x 66.53497pt.
+<CurrentDistributionNormT140eT10_ExcTw.pdf, id=2445, 722.7pt x 289.08pt>
+File: CurrentDistributionNormT140eT10_ExcTw.pdf Graphic file (type pdf)
+<use CurrentDistributionNormT140eT10_ExcTw.pdf>
+Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcTw.pdf  used on inp
+ut line 32.
+(pdftex.def)             Requested size: 239.00558pt x 83.36737pt.
+ [29
+
+ <./vddMgndManuscritTw.pdf> <./iEpiTripleWellManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iEpiTripleWellManuscrit.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./iSubcManuscritTws.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iSubcManuscritTws.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <./CurrentDistributionNormT140eT10_ExcTw.pdf>] [30
+
+]) (slide20.tex
+<pos_neg_IGND.pdf, id=2858, 366.70473pt x 230.1104pt>
+File: pos_neg_IGND.pdf Graphic file (type pdf)
+<use pos_neg_IGND.pdf>
+Package pdftex.def Info: pos_neg_IGND.pdf  used on input line 21.
+(pdftex.def)             Requested size: 199.1693pt x 124.97754pt.
+<stmPhotoImshow.pdf, id=2859, 293.59688pt x 234.8775pt>
+File: stmPhotoImshow.pdf Graphic file (type pdf)
+<use stmPhotoImshow.pdf>
+Package pdftex.def Info: stmPhotoImshow.pdf  used on input line 21.
+(pdftex.def)             Requested size: 169.2951pt x 135.43698pt.
+ [31
+
+ <./pos_neg_IGND.pdf> <./stmPhotoImshow.pdf
+
+pdfTeX warning: pdflatex.exe (file ./stmPhotoImshow.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]) (slide21.tex [32
+
+] [33
+
+] [34
+
+]
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 161.86302pt.
+
+Overfull \hbox (49.79208pt too wide) in paragraph at lines 39--39
+[][]  
+ []
+
+<logicGates.pdf, id=3061, 378.82796pt x 58.73418pt>
+File: logicGates.pdf Graphic file (type pdf)
+<use logicGates.pdf>
+Package pdftex.def Info: logicGates.pdf  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 22.05751pt.
+
+Overfull \hbox (91.62596pt too wide) in paragraph at lines 39--39
+[][]  
+ []
+
+<ivx3New.pdf, id=3062, 546.2929pt x 369.88583pt>
+File: ivx3New.pdf Graphic file (type pdf)
+<use ivx3New.pdf>
+Package pdftex.def Info: ivx3New.pdf  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 96.32607pt.
+[35
+
+ <./logicGates.pdf> <./ivx3New.pdf
+
+pdfTeX warning: pdflatex.exe (file ./ivx3New.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]) (slide22.tex
+<ivx3NewNoSignals.pdf, id=3124, 546.2929pt x 369.88583pt>
+File: ivx3NewNoSignals.pdf Graphic file (type pdf)
+<use ivx3NewNoSignals.pdf>
+Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 20.
+(pdftex.def)             Requested size: 127.47125pt x 86.30798pt.
+<logic_gates_solo_M0_DW.pdf, id=3125, 670.00313pt x 526.96875pt>
+File: logic_gates_solo_M0_DW.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_DW.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_DW.pdf  used on input line 20.
+(pdftex.def)             Requested size: 135.43365pt x 106.5176pt.
+<logic_gates_solo_M0_DW_n2.pdf, id=3126, 617.30624pt x 519.44063pt>
+File: logic_gates_solo_M0_DW_n2.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_DW_n2.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_DW_n2.pdf  used on input line 20.
+(pdftex.def)             Requested size: 135.43365pt x 113.96025pt.
+ [36
+
+ <./ivx3NewNoSignals.pdf> <./logic_gates_solo_M0_DW.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_DW.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./logic_gates_solo_M0_DW_n2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_DW_n2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+File: ivx3New.pdf Graphic file (type pdf)
+<use ivx3New.pdf>
+Package pdftex.def Info: ivx3New.pdf  used on input line 40.
+(pdftex.def)             Requested size: 127.47125pt x 86.30798pt.
+<logic_gates_solo_M0_TW.pdf, id=3935, 636.87938pt x 526.96875pt>
+File: logic_gates_solo_M0_TW.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_TW.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_TW.pdf  used on input line 40.
+(pdftex.def)             Requested size: 135.43365pt x 112.05777pt.
+<logic_gates_solo_M0_TW_n2.pdf, id=3936, 629.35126pt x 528.47438pt>
+File: logic_gates_solo_M0_TW_n2.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_TW_n2.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_TW_n2.pdf  used on input line 40.
+(pdftex.def)             Requested size: 135.43365pt x 113.7246pt.
+ [37
+
+ <./logic_gates_solo_M0_TW.pdf> <./logic_gates_solo_M0_TW_n2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_TW_n2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]) (slide23.tex [38
+
+]) (slide24.tex [39
+
+] [40
+
+]
+<geomCrossViewNew.pdf, id=4619, 569.05513pt x 256.0748pt>
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+ [41
+
+ <./geomCrossViewNew.pdf>]
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 22.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+
+[42
+
+]
+<geomCrossViewThinNew.pdf, id=4739, 569.05513pt x 256.0748pt>
+File: geomCrossViewThinNew.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew.pdf>
+Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 29.
+(pdftex.def)             Requested size: 398.3386pt x 179.25894pt.
+ [43
+
+ <./geomCrossViewThinNew.pdf>]) (slide25.tex
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 16.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+File: geomCrossViewThinNew.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew.pdf>
+Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 16.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+ [44
+
+]
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 32.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+<geomCrossViewThinNew2.pdf, id=4879, 569.05513pt x 256.0748pt>
+File: geomCrossViewThinNew2.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew2.pdf>
+Package pdftex.def Info: geomCrossViewThinNew2.pdf  used on input line 32.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+ [45
+
+ <./geomCrossViewThinNew2.pdf>] [46
+
+]) (slide26.tex [47
+
+]
+<thinning140um.pdf, id=5065, 867.24pt x 289.08pt>
+File: thinning140um.pdf Graphic file (type pdf)
+<use thinning140um.pdf>
+Package pdftex.def Info: thinning140um.pdf  used on input line 40.
+(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=5066, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 40.
+(pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
+<thinning60um.pdf, id=5067, 867.24pt x 289.08pt>
 File: thinning60um.pdf Graphic file (type pdf)
 <use thinning60um.pdf>
-Package pdftex.def Info: thinning60um.pdf  used on input line 23.
+Package pdftex.def Info: thinning60um.pdf  used on input line 40.
 (pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
-<VoltageDistributionNormT60eT10_ExcDw.pdf, id=435, 722.7pt x 289.08pt>
+<VoltageDistributionNormT60eT10_ExcDw.pdf, id=5068, 722.7pt x 289.08pt>
 File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
 <use VoltageDistributionNormT60eT10_ExcDw.pdf>
 Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
-t line 23.
+t line 40.
 (pdftex.def)             Requested size: 199.1693pt x 79.66705pt.
- [6
+ [48
 
  <./thinning140um.pdf> <./VoltageDistributionNormT140eT10_ExcDw.pdf> <./thinnin
 g60um.pdf
 
 pdfTeX warning: pdflatex.exe (file ./thinning60um.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
-> <./VoltageDistributionNormT60eT10_ExcDw.pdf>]) (slide27.tex [7
+> <./VoltageDistributionNormT60eT10_ExcDw.pdf>]) (slide27.tex [49
 
-]) (slide28.tex
-<cartosFautesNew.pdf, id=804, 1350.00356pt x 435.0654pt>
+])
+(slide28.tex [50
+
+]
+<cartosFautesNew.pdf, id=5454, 1350.00356pt x 435.0654pt>
 File: cartosFautesNew.pdf Graphic file (type pdf)
 <use cartosFautesNew.pdf>
-Package pdftex.def Info: cartosFautesNew.pdf  used on input line 7.
+Package pdftex.def Info: cartosFautesNew.pdf  used on input line 17.
 (pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
-[8
+ [51
 
  <./cartosFautesNew.pdf>]) (slide29.tex
-<cartosFautesSpreading.pdf, id=938, 1350.00356pt x 435.0654pt>
+<cartosFautesSpreading.pdf, id=5572, 1350.00356pt x 435.0654pt>
 File: cartosFautesSpreading.pdf Graphic file (type pdf)
 <use cartosFautesSpreading.pdf>
 Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
 (pdftex.def)             Requested size: 398.3386pt x 128.36972pt.
- [9
+ [52
 
- <./cartosFautesSpreading.pdf>])
+ <./cartosFautesSpreading.pdf>]) (slide30.tex
+<cartosCouples.pdf, id=5688, 1350.00356pt x 465.4188pt>
+File: cartosCouples.pdf Graphic file (type pdf)
+<use cartosCouples.pdf>
+Package pdftex.def Info: cartosCouples.pdf  used on input line 7.
+(pdftex.def)             Requested size: 398.3386pt x 137.32576pt.
+ [53
+
+ <./cartosCouples.pdf>])
 \tf@nav=\write6
 \openout6 = `0_slides.nav'.
 
@@ -1276,27 +1993,39 @@ Package pdftex.def Info: cartosFautesSpreading.pdf  used on input line 7.
 \tf@snm=\write8
 \openout8 = `0_slides.snm'.
 
-
-(0_slides.aux)
+ (0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: 629B30E81BE6CBF838AFC9134F51FBF5;179.
+(rerunfilecheck)             Checksum: 2B61D17A7C0E7E70581F2B3BE88C2721;971.
  ) 
 Here is how much of TeX's memory you used:
- 27238 strings out of 476411
- 567457 string characters out of 5788662
- 1865845 words of memory out of 5000000
- 46982 multiletter control sequences out of 15000+600000
- 519343 words of font info for 57 fonts, out of 8000000 for 9000
+ 28107 strings out of 476411
+ 587540 string characters out of 5788662
+ 1864845 words of memory out of 5000000
+ 47643 multiletter control sequences out of 15000+600000
+ 521282 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,1009b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on 0_slides.pdf (9 pages, 595434 bytes).
+ 128i,15n,122p,1009b,756s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation54} has been referenced but does not exis
+t, replaced by a fixed one
+
+ <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2
+074.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcsx1095.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\tcss1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/geoff2/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users
+/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb>
+<C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmssi10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 0_slides.pdf (53 pages, 39378138 bytes).
 PDF statistics:
- 1066 PDF objects out of 1200 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5865 PDF objects out of 6186 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
