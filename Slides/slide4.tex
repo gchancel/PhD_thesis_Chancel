@@ -1,41 +1,96 @@
-\begin{frame}
-    \frametitle{Body biasing injection: industrial and academic platforms}
-    \begin{columns}
-        \begin{column}{0.6\textwidth}
-            Langer EMV-Technik GmbH BBI platform
-            \begin{itemize}
-                \item All-in-one platform;
-                \item A power supply and controller combo called "Burst Power Station";
-                \item An active BBI probe: a current pulse generator, as shown on the right.
-                \item \textcolor{red}{Ajouter caractéristiques plateforme}
-            \end{itemize}
-        \end{column}
-        \barsep
-        \begin{column}{0.4\textwidth}
-            \begin{figure}
-                \includegraphics[width=0.45\textwidth]{langerBBI.jpg}
-                \caption{Active BBI probe by Langer EMV-Technik GmbH.}
-            \end{figure}
-        \end{column}
-    \end{columns}
 
+\begin{frame}{Body biasing injection: industrial and academic platforms}
+%    Langer
+    \begin{textblock*}{20mm}(20mm, 20mm)
+        \includegraphics[width=\textwidth]{langerBBI.jpg}
+    \end{textblock*}
+    \begin{textblock*}{35mm}(3mm, 32mm)
+        \underline{\textbf{Langer}}
+    \end{textblock*}
+    \begin{textblock*}{35mm}(45mm, 22mm)
+        Current source:\\
+        \begin{itemize}
+            \item $4\;A\;in\;1\;\Omega$
+            \item $\pm \; 1 \; ns$ jitter
+            \item $2 \; ns$ rise time
+        \end{itemize}
+    \end{textblock*}
+
+%    Riscure
+    \begin{textblock*}{30mm}(16mm, 58mm)
+        \includegraphics[width=\textwidth]{em-fi-bbi-probe-20-black.jpg}
+    \end{textblock*}
+    \begin{textblock*}{35mm}(3mm, 65mm)
+        \underline{\textbf{Riscure}}
+    \end{textblock*}
+    \begin{textblock*}{35mm}(45mm, 57mm)
+        Voltage source:\\
+        \begin{itemize}
+            \item Probe $64 \; A$
+            \item $450 \; V \; \pm \; 45 \; V$
+            \item Max. PW $50 \; ns$
+        \end{itemize}
+    \end{textblock*}
+
+%   Center blue line
+    \begin{textblock*}{1mm}(0.59\framewidth, 15mm)
+        \begin{tikzpicture}
+                \draw[-, blue, line width=1mm] (0, 0) -- (0., -7);
+        \end{tikzpicture}
+    \end{textblock*}
+
+%    NewAE ChipSHOUTER
+    \begin{textblock*}{35mm}(89mm, 42mm)
+        \underline{\textbf{ChipSHOUTER}}
+    \end{textblock*}
+    \begin{textblock*}{25mm}(90mm, 21mm)
+        \includegraphics[width=\textwidth]{chipshouter_upscaled.png}
+    \end{textblock*}
+    \begin{textblock*}{45mm}(116mm, 22mm)
+        Voltage source:
+        \begin{itemize}
+            \item 150 V to 450 V
+            \item PW: 15 ns to 480 ns
+            \item 220 ps jitter
+        \end{itemize}
+    \end{textblock*}
+
+%    NewAE Pico-EMP
+    \begin{textblock*}{35mm}(92mm, 74mm)
+        \underline{\textbf{Pico-EMP}}
+    \end{textblock*}
+    \begin{textblock*}{25mm}(88mm, 61mm)
+        \includegraphics[width=\textwidth]{picoemp-red.jpeg}
+    \end{textblock*}
+    \begin{textblock*}{45mm}(116mm, 57mm)
+        Voltage source (AC):
+        \begin{itemize}
+            \item Up to 250 V
+            \item PW: 85 ns in 50 \textOmega
+            \item Up to 200 mW
+        \end{itemize}
+    \end{textblock*}
+
+\end{frame}
+
+%\begin{frame}
+%    \frametitle{Body biasing injection: industrial and academic platforms}
 %    \begin{columns}
-%        \begin{column}{0.5\textwidth}
-%            \centering
+%        \begin{column}{0.6\textwidth}
+%            Langer EMV-Technik GmbH BBI platform
+%            \begin{itemize}
+%                \item All-in-one platform;
+%                \item A power supply and controller combo called "Burst Power Station";
+%                \item An active BBI probe: a current pulse generator, as shown on the right.
+%                \item \textcolor{red}{Ajouter caractéristiques plateforme}
+%            \end{itemize}
+%        \end{column}
+%        \barsep
+%        \begin{column}{0.4\textwidth}
 %            \begin{figure}
 %                \includegraphics[width=0.45\textwidth]{langerBBI.jpg}
-%                \caption{BBI probe proposed by Langer EMV-Technik GmbH.}
-%            \end{figure}
-%        \end{column}
-%
-%        \barsep
-%
-%        \begin{column}{0.5\textwidth}
-%            \centering
-%            \begin{figure}
-%                \includegraphics[width=0.9\textwidth]{em-fi-bbi-probe-20-black.jpg}
-%                \caption{BBI probe proposed by Riscure BV.}
+%                \caption{Active BBI probe by Langer EMV-Technik GmbH.}
 %            \end{figure}
 %        \end{column}
 %    \end{columns}
-\end{frame}
+%\end{frame}
