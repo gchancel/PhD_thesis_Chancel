@@ -3,5 +3,63 @@
     \frametitle{Substrate thinning in practice}
     \framesubtitle{Fault susceptibility maps couples}
     \includegraphics[width=\textwidth]{cartosCouples.pdf}
+\end{frame}
 
+\section{CONCLUSION AND PERSPECTIVES}
+\begin{frame}{Conclusion}
+    \begin{itemize}
+        \Large
+        \setlength\itemsep{1em}
+        \item Fault injection → breach IC security;
+        \item Various methods: LFI, EMFI, GFI, BBI;
+        \item BBI → very few works in the state-of-the-art:
+        \begin{itemize}
+            \large
+            \setlength\itemsep{1em}
+            \item Platforms not optimized;
+            \item Low repeatability;
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusion}
+    \begin{itemize}
+        \Large
+        \setlength\itemsep{0.7em}
+        \item Platform enhancements → successful DFA:
+        \begin{itemize}
+            \large
+            \setlength\itemsep{0.7em}
+            \item Impedance matching;
+            \item Low impedance grounding;
+        \end{itemize}
+        \item IC modeling under BBI:
+        \begin{itemize}
+            \large
+            \setlength\itemsep{0.7em}
+            \item Standard-cell segment approach → fast computation;
+            \item Limitations → no logic function;
+            \item Enhanced simulation flow → logic gates under BBI;
+        \end{itemize}
+        \item Substrate thinning and BBI:
+        \begin{itemize}
+            \large
+            \setlength\itemsep{0.7em}
+            \item Lowers generator power requirements;
+            \item Does not improve resolution.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Outlooks}
+    \Large
+    Further improvements:
+    \vspace{1mm}
+    \begin{itemize}
+        \Large
+        \setlength\itemsep{0.7em}
+        \item Adaptive impedance matching → increase repeatability;
+        \item Further study concerning logic gates disturbance;
+        \item Study BBI effects on memory elements (SRAM, FLASH).
+    \end{itemize}
 \end{frame}

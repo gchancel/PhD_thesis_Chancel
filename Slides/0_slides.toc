@@ -1,5 +1,7 @@
 \beamer@sectionintoc {1}{INTRODUCTION}{2}{0}{1}
 \beamer@sectionintoc {2}{BODY BIASING INJECTION PLATFORM ENHANCEMENTS}{12}{0}{2}
-\beamer@sectionintoc {3}{SIMULATION RESULTS}{26}{0}{3}
-\beamer@sectionintoc {4}{SIMULATION FLOW FOLLOW-UP: HOW FAULTS OCCUR?}{32}{0}{4}
-\beamer@sectionintoc {5}{SUBSTRATE TINNING ANALYSIS}{39}{0}{5}
+\beamer@sectionintoc {3}{BODY BIASING INJECTION SIMULATION MODELS}{19}{0}{3}
+\beamer@sectionintoc {4}{SIMULATION RESULTS}{27}{0}{4}
+\beamer@sectionintoc {5}{SIMULATION FLOW FOLLOW-UP: HOW FAULTS OCCUR?}{33}{0}{5}
+\beamer@sectionintoc {6}{SUBSTRATE TINNING ANALYSIS}{40}{0}{6}
+\beamer@sectionintoc {7}{CONCLUSION AND PERSPECTIVES}{55}{0}{7}
