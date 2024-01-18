@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  18 JAN 2024 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  18 JAN 2024 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2428,11 +2428,11 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: 076EF4746A9D909C801022364932FE11;1527.
  ) 
 Here is how much of TeX's memory you used:
- 29763 strings out of 476411
- 616084 string characters out of 5788662
+ 29764 strings out of 476411
+ 616103 string characters out of 5788662
  1865845 words of memory out of 5000000
- 49279 multiletter control sequences out of 15000+600000
- 527825 words of font info for 86 fonts, out of 8000000 for 9000
+ 49280 multiletter control sequences out of 15000+600000
+ 528119 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1009b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
@@ -2457,7 +2457,7 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/geoff
 sers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/g
 smn1095.pfb>
-Output written on 0_slides.pdf (45 pages, 38932765 bytes).
+Output written on 0_slides.pdf (45 pages, 38933187 bytes).
 PDF statistics:
  5423 PDF objects out of 6186 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
