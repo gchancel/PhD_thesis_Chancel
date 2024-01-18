@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  17 JAN 2024 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  18 JAN 2024 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,6 +804,27 @@ Grid set 16 x 16 = 28.45274pt x 16.00467pt
 \TP@oy=\dimen300
 \TP@tbargs=\toks45
 TextBlockOrigin set to 0pt x 0pt
+) (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.st
+y
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen301
+\ar@mcellbox=\box78
+\extrarowheight=\dimen302
+\NC@list=\toks46
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box79
+)
+\everycr=\toks47
+\minrowclearance=\skip67
+\rownum=\count334
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
@@ -819,10 +840,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count334
+\XKV@depth=\count335
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
@@ -831,42 +852,42 @@ Package: fcprefix 2012/09/28
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.s
 ty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count335
+\fc@digit@counter=\count336
 ))
-\c@padzeroesN=\count336
-\fc@tmpcatcode=\count337
-\@DT@modctr=\count338
-\@ordinalctr=\count339
-\@orgargctr=\count340
-\@strctr=\count341
-\@tmpstrctr=\count342
-\@DT@loopN=\count343
-\@DT@X=\count344
+\c@padzeroesN=\count337
+\fc@tmpcatcode=\count338
+\@DT@modctr=\count339
+\@ordinalctr=\count340
+\@orgargctr=\count341
+\@strctr=\count342
+\@tmpstrctr=\count343
+\@DT@loopN=\count344
+\@DT@X=\count345
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defa
 ults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count345
-\@month=\count346
-\@year=\count347
-\c@HOUR=\count348
-\c@HOURXII=\count349
-\c@MINUTE=\count350
-\c@TOHOUR=\count351
-\c@TOMINUTE=\count352
-\c@SECOND=\count353
-\currenthour=\count354
-\currentminute=\count355
-\currentsecond=\count356
+\@day=\count346
+\@month=\count347
+\@year=\count348
+\c@HOUR=\count349
+\c@HOURXII=\count350
+\c@MINUTE=\count351
+\c@TOHOUR=\count352
+\c@TOMINUTE=\count353
+\c@SECOND=\count354
+\currenthour=\count355
+\currentminute=\count356
+\currentsecond=\count357
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count357
-\dayofyear=\count358
-\dayofweek=\count359
+\@dtctr=\count358
+\dayofyear=\count359
+\dayofweek=\count360
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks48
-\dt@b=\toks49
+\dt@a=\toks50
+\dt@b=\toks51
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
 .sty
@@ -876,7 +897,7 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box78
+\pgfnodeparttextbox=\box80
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eplot.code.tex
@@ -885,8 +906,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen301
-\pgf@nodesepend=\dimen302
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-1-18.sty
@@ -897,10 +918,10 @@ ty
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
 .code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen303
-\pgffor@skip=\dimen304
-\pgffor@stack=\toks50
-\pgffor@toks=\toks51
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz\tikz.code.tex
@@ -909,34 +930,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
 raryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count360
-\pgfplotmarksize=\dimen305
+\pgf@plot@mark@count=\count361
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen306
-\tikz@lasty=\dimen307
-\tikz@lastxsaved=\dimen308
-\tikz@lastysaved=\dimen309
-\tikz@lastmovetox=\dimen310
-\tikz@lastmovetoy=\dimen311
-\tikzleveldistance=\dimen312
-\tikzsiblingdistance=\dimen313
-\tikz@figbox=\box79
-\tikz@figbox@bg=\box80
-\tikz@tempbox=\box81
-\tikz@tempbox@bg=\box82
-\tikztreelevel=\count361
-\tikznumberofchildren=\count362
-\tikznumberofcurrentchild=\count363
-\tikz@fig@count=\count364
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikz@lastmovetox=\dimen312
+\tikz@lastmovetoy=\dimen313
+\tikzleveldistance=\dimen314
+\tikzsiblingdistance=\dimen315
+\tikz@figbox=\box81
+\tikz@figbox@bg=\box82
+\tikz@tempbox=\box83
+\tikz@tempbox@bg=\box84
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 ematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count365
-\pgfmatrixcurrentcolumn=\count366
-\pgf@matrix@numberofcolumns=\count367
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
 )
-\tikz@expandcount=\count368
+\tikz@expandcount=\count369
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz/libraries\tikzlibrarytopaths.code.tex
@@ -1326,8 +1347,8 @@ Package: expl3 2023-05-15 L3 programming layer (loader)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count369
-\l__pdf_internal_box=\box83
+\l__color_backend_stack_int=\count370
+\l__pdf_internal_box=\box85
 ))
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
 keys2e.sty
@@ -1337,10 +1358,10 @@ Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 se.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
-\l__sn_x_dim=\dimen314
-\l__sn_y_dim=\dimen315
-\l__sn_xa_dim=\dimen316
-\l__sn_ya_dim=\dimen317
+\l__sn_x_dim=\dimen316
+\l__sn_y_dim=\dimen317
+\l__sn_xa_dim=\dimen318
+\l__sn_ya_dim=\dimen319
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz/libraries\tikzlibrarypositioning.code.tex
@@ -1349,10 +1370,10 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
 raryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen318
-\pgfarrowlength=\dimen319
-\pgfarrowwidth=\dimen320
-\pgfarrowlinewidth=\dimen321
+\pgfarrowinset=\dimen320
+\pgfarrowlength=\dimen321
+\pgfarrowwidth=\dimen322
+\pgfarrowlinewidth=\dimen323
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
@@ -1360,47 +1381,47 @@ kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 kz/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 edecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen322
-\pgfdecoratedremainingdistance=\dimen323
-\pgfdecoratedinputsegmentcompleteddistance=\dimen324
-\pgfdecoratedinputsegmentremainingdistance=\dimen325
-\pgf@decorate@distancetomove=\dimen326
-\pgf@decorate@repeatstate=\count370
-\pgfdecorationsegmentamplitude=\dimen327
-\pgfdecorationsegmentlength=\dimen328
+\pgfdecoratedcompleteddistance=\dimen324
+\pgfdecoratedremainingdistance=\dimen325
+\pgfdecoratedinputsegmentcompleteddistance=\dimen326
+\pgfdecoratedinputsegmentremainingdistance=\dimen327
+\pgf@decorate@distancetomove=\dimen328
+\pgf@decorate@repeatstate=\count371
+\pgfdecorationsegmentamplitude=\dimen329
+\pgfdecorationsegmentlength=\dimen330
 )
-\tikz@lib@dec@box=\box84
+\tikz@lib@dec@box=\box86
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
 tions\pgflibrarydecorations.pathreplacing.code.tex)) (0_slides.aux)
 \openout1 = `0_slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-3.
+5.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1440,17 +1461,17 @@ LaTeX Font Info:    ... okay on input line 53.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
-\scratchdimen=\dimen329
-\scratchbox=\box85
-\nofMPsegments=\count372
-\nofMParguments=\count373
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count374
-\MPscratchDim=\dimen330
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count372
+\scratchdimen=\dimen331
+\scratchbox=\box87
+\nofMPsegments=\count373
+\nofMParguments=\count374
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count375
+\MPscratchDim=\dimen332
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
+\everyMPtoPDFconversion=\toks55
 )
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -1462,63 +1483,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 55.
  (0_slides.out) (0_slides.out)
 \@outlinefile=\write5
 \openout5 = `0_slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 53.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 53.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 53.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 53.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 53.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 53.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 53.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 53.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 53.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 53.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 53.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 53.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 53.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 53.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 53.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 53.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 53.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 53.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 53.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 53.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 53.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 53.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 55.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-3.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 5
-3.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 53.
+ut line 55.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-
 basic-dictionary-English.dict
@@ -1548,11 +1569,16 @@ Dictionary: translator-theorem-dictionary, Language: English
 f
 File: fc-english.def 2016/01/12
 ) (0_slides.nav)
+Overfull \hbox (431.9429pt too wide) detected at line 55
+  [] [][][][][][] [][] [][] [][][][][][] [][][][][][][][][] [][][][][][] [][][]
+[][][][][][][][][] [][][][]  
+ []
+
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 73.
+(hyperref)                setting the option has no effect on input line 75.
 
-<NewLogoLIRMM.pdf, id=42, 715.17188pt x 180.675pt>
+<NewLogoLIRMM.pdf, id=112, 715.17188pt x 180.675pt>
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
 Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 96.
@@ -1573,6 +1599,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 54
+.
+
+(C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
 ut line 54.
 
@@ -1581,7 +1613,7 @@ kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<chipCard.pdf, id=97, 312.98033pt x 284.52756pt>
+<chipCard.pdf, id=167, 312.98033pt x 284.52756pt>
 File: chipCard.pdf Graphic file (type pdf)
 <use chipCard.pdf>
 Package pdftex.def Info: chipCard.pdf  used on input line 54.
@@ -1600,22 +1632,22 @@ File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ]) (slide3.tex [4
 
 ]) (slide4.tex
-<langerBBI.jpg, id=252, 645.41125pt x 889.3225pt>
+<langerBBI.jpg, id=325, 645.41125pt x 889.3225pt>
 File: langerBBI.jpg Graphic file (type jpg)
 <use langerBBI.jpg>
 Package pdftex.def Info: langerBBI.jpg  used on input line 74.
 (pdftex.def)             Requested size: 56.9055pt x 78.40717pt.
-<em-fi-bbi-probe-20-black.jpg, id=253, 1323.9864pt x 795.9336pt>
+<em-fi-bbi-probe-20-black.jpg, id=326, 1323.9864pt x 795.9336pt>
 File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
 <use em-fi-bbi-probe-20-black.jpg>
 Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 51.31242pt.
-<chipshouter_upscaled.png, id=254, 2063.71pt x 1473.505pt>
+<chipshouter_upscaled.png, id=327, 2063.71pt x 1473.505pt>
 File: chipshouter_upscaled.png Graphic file (type png)
 <use chipshouter_upscaled.png>
 Package pdftex.def Info: chipshouter_upscaled.png  used on input line 74.
 (pdftex.def)             Requested size: 71.13188pt x 50.76852pt.
-<picoemp-red.jpeg, id=256, 240.9pt x 92.0238pt>
+<picoemp-red.jpeg, id=329, 240.9pt x 92.0238pt>
 File: picoemp-red.jpeg Graphic file (type jpg)
 <use picoemp-red.jpeg>
 Package pdftex.def Info: picoemp-red.jpeg  used on input line 74.
@@ -1629,26 +1661,757 @@ File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
 
  <./langerBBI.jpg> <./em-fi-bbi-probe-20-black.jpg> <./chipshouter_upscaled.png
 > <./picoemp-red.jpeg>]) (slide6.tex
-<sondeBBI_loin_raw.png, id=307, 1397.22pt x 1254.18562pt>
-File: sondeBBI_loin_raw.png Graphic file (type png)
-<use sondeBBI_loin_raw.png>
-Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 35.
-(pdftex.def)             Requested size: 79.66649pt x 71.49698pt.
-<pointeBBI2.png, id=308, 862.9038pt x 773.7708pt>
-File: pointeBBI2.png Graphic file (type png)
-<use pointeBBI2.png>
-Package pdftex.def Info: pointeBBI2.png  used on input line 35.
-(pdftex.def)             Requested size: 79.66649pt x 71.43098pt.
-<avrk4b.pdf, id=309, 1532.72626pt x 359.09157pt>
+<avrk4b.pdf, id=380, 1532.72626pt x 359.09157pt>
 File: avrk4b.pdf Graphic file (type pdf)
 <use avrk4b.pdf>
-Package pdftex.def Info: avrk4b.pdf  used on input line 35.
-(pdftex.def)             Requested size: 191.20518pt x 44.79318pt.
- [6
+Package pdftex.def Info: avrk4b.pdf  used on input line 65.
+(pdftex.def)             Requested size: 113.81102pt x 26.66222pt.
 
- <./sondeBBI_loin_raw.png> <./pointeBBI2.png> <./avrk4b.pdf>] [7
+Overfull \hbox (4.20607pt too wide) in paragraph at lines 65--65
+[][]  
+ []
+
+<sondeBBI_loin_raw.png, id=381, 1397.22pt x 1254.18562pt>
+File: sondeBBI_loin_raw.png Graphic file (type png)
+<use sondeBBI_loin_raw.png>
+Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 65.
+(pdftex.def)             Requested size: 85.35826pt x 76.60663pt.
+
+Overfull \hbox (49.79236pt too wide) in paragraph at lines 65--65
+[][]  
+ []
+
+
+Overfull \hbox (12.8037pt too wide) in paragraph at lines 65--65
+[][]  
+ []
+
+<pointeBBI2.png, id=382, 862.9038pt x 773.7708pt>
+File: pointeBBI2.png Graphic file (type png)
+<use pointeBBI2.png>
+Package pdftex.def Info: pointeBBI2.png  used on input line 65.
+(pdftex.def)             Requested size: 85.35826pt x 76.53152pt.
+
+Overfull \hbox (146.77794pt too wide) in paragraph at lines 65--65
+[]$[]$  
+ []
+
+
+Overfull \hbox (188.43002pt too wide) in paragraph at lines 65--65
+ [] 
+ []
+
+[6
+
+ <./avrk4b.pdf> <./sondeBBI_loin_raw.png> <./pointeBBI2.png>] [7
 
 ] [8
+
+])
+(slide7.tex [9
+
+]
+<model0Probe.pdf, id=581, 369.88583pt x 199.1693pt>
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 43.
+(pdftex.def)             Requested size: 155.35216pt x 83.65053pt.
+<S1P.pdf, id=582, 404.51125pt x 178.6675pt>
+File: S1P.pdf Graphic file (type pdf)
+<use S1P.pdf>
+Package pdftex.def Info: S1P.pdf  used on input line 43.
+(pdftex.def)             Requested size: 116.51215pt x 51.46056pt.
+<S1G.pdf, id=583, 411.5375pt x 178.6675pt>
+File: S1G.pdf Graphic file (type pdf)
+<use S1G.pdf>
+Package pdftex.def Info: S1G.pdf  used on input line 43.
+(pdftex.def)             Requested size: 116.51215pt x 50.5827pt.
+ [10
+
+ <./model0Probe.pdf> <./S1P.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1P.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./S1G.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S1G.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>]) (slide8.tex
+<model2ProbeManuscrit.pdf, id=787, 369.88583pt x 199.1693pt>
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 68.
+(pdftex.def)             Requested size: 170.71652pt x 91.92592pt.
+
+Overfull \hbox (86.74994pt too wide) in paragraph at lines 68--68
+[][]  
+ []
+
+
+Overfull \hbox (86.74994pt too wide) in paragraph at lines 68--68
+[][]  
+ []
+
+<S2G.pdf, id=788, 411.5375pt x 178.6675pt>
+File: S2G.pdf Graphic file (type pdf)
+<use S2G.pdf>
+Package pdftex.def Info: S2G.pdf  used on input line 68.
+(pdftex.def)             Requested size: 170.71652pt x 74.11563pt.
+<S2P.pdf, id=789, 404.51125pt x 178.6675pt>
+File: S2P.pdf Graphic file (type pdf)
+<use S2P.pdf>
+Package pdftex.def Info: S2P.pdf  used on input line 68.
+(pdftex.def)             Requested size: 170.71652pt x 75.40515pt.
+<impMatchPicture.jpg, id=790, 1915.155pt x 2719.15875pt>
+File: impMatchPicture.jpg Graphic file (type jpg)
+<use impMatchPicture.jpg>
+Package pdftex.def Info: impMatchPicture.jpg  used on input line 68.
+(pdftex.def)             Requested size: 79.66771pt x 113.10437pt.
+
+Overfull \hbox (15.64915pt too wide) in paragraph at lines 68--68
+[][]  
+ []
+
+
+Overfull \hbox (21.33961pt too wide) in paragraph at lines 68--68
+[][]  
+ []
+
+[11
+
+ <./model2ProbeManuscrit.pdf> <./S2G.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S2G.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./S2P.pdf
+
+pdfTeX warning: pdflatex.exe (file ./S2P.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./impMatchPicture.jpg>]) (slide9.tex
+File: S1G.pdf Graphic file (type pdf)
+<use S1G.pdf>
+Package pdftex.def Info: S1G.pdf  used on input line 76.
+(pdftex.def)             Requested size: 170.71652pt x 74.11563pt.
+File: S1P.pdf Graphic file (type pdf)
+<use S1P.pdf>
+Package pdftex.def Info: S1P.pdf  used on input line 76.
+(pdftex.def)             Requested size: 170.71652pt x 75.40515pt.
+File: S2G.pdf Graphic file (type pdf)
+<use S2G.pdf>
+Package pdftex.def Info: S2G.pdf  used on input line 76.
+(pdftex.def)             Requested size: 170.71652pt x 74.11563pt.
+File: S2P.pdf Graphic file (type pdf)
+<use S2P.pdf>
+Package pdftex.def Info: S2P.pdf  used on input line 76.
+(pdftex.def)             Requested size: 170.71652pt x 75.40515pt.
+
+Overfull \hbox (98.16194pt too wide) in paragraph at lines 76--76
+[][]  
+ []
+
+
+Overfull \hbox (98.16194pt too wide) in paragraph at lines 76--76
+[][]  
+ []
+
+[12
+
+]) (slide10.tex
+File: model0Probe.pdf Graphic file (type pdf)
+<use model0Probe.pdf>
+Package pdftex.def Info: model0Probe.pdf  used on input line 47.
+(pdftex.def)             Requested size: 111.53432pt x 60.05515pt.
+File: model2ProbeManuscrit.pdf Graphic file (type pdf)
+<use model2ProbeManuscrit.pdf>
+Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 47.
+(pdftex.def)             Requested size: 111.53432pt x 60.05515pt.
+<aesFastGndOnly.pdf, id=1039, 466.74374pt x 323.70938pt>
+File: aesFastGndOnly.pdf Graphic file (type pdf)
+<use aesFastGndOnly.pdf>
+Package pdftex.def Info: aesFastGndOnly.pdf  used on input line 47.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
+<aesFastImpGnd.pdf, id=1040, 466.74374pt x 323.70938pt>
+File: aesFastImpGnd.pdf Graphic file (type pdf)
+<use aesFastImpGnd.pdf>
+Package pdftex.def Info: aesFastImpGnd.pdf  used on input line 47.
+(pdftex.def)             Requested size: 127.47125pt x 88.4054pt.
+ [13
+
+ <./aesFastGndOnly.pdf> <./aesFastImpGnd.pdf
+
+pdfTeX warning: pdflatex.exe (file ./aesFastImpGnd.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]) (slide12.tex [14
+
+] [15
+
+]
+<psuNetworkNew.png, id=1348, 4818.0pt x 1631.09375pt>
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+<std_cell_segment_principle.pdf, id=1349, 500.76851pt x 210.5504pt>
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+<DUAL.pdf, id=1350, 364.19528pt x 250.38426pt>
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<TRIPLE.pdf, id=1351, 364.19528pt x 250.38426pt>
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+<dualWell_no_7c_Eevee.png, id=1352, 1455.4375pt x 1656.1875pt>
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+<tripleWell_no_7c_Eevee.png, id=1353, 1455.4375pt x 1656.1875pt>
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+<resultingSimulated_ic.png, id=1354, 2569.6pt x 2044.63875pt>
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+<generatorModel.pdf, id=1355, 79.66771pt x 116.6563pt>
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+[16
+
+ <./psuNetworkNew.png> <./std_cell_segment_principle.pdf> <./DUAL.pdf
+
+pdfTeX warning: pdflatex.exe (file ./DUAL.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./TRIPLE.pdf
+
+pdfTeX warning: pdflatex.exe (file ./TRIPLE.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./dualWell_no_7c_Eevee.png> <./tripleWell_no_7c_Eevee.png> <./resultingSimul
+ated_ic.png> <./generatorModel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./generatorModel.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+[17
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+[18
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][][]  
+ []
+
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+[19
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][][]  
+ []
+
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][]  
+ []
+
+[20
+
+]
+File: psuNetworkNew.png Graphic file (type png)
+<use psuNetworkNew.png>
+Package pdftex.def Info: psuNetworkNew.png  used on input line 128.
+(pdftex.def)             Requested size: 142.26378pt x 48.15915pt.
+File: std_cell_segment_principle.pdf Graphic file (type pdf)
+<use std_cell_segment_principle.pdf>
+Package pdftex.def Info: std_cell_segment_principle.pdf  used on input line 128
+.
+(pdftex.def)             Requested size: 113.81145pt x 47.85048pt.
+File: DUAL.pdf Graphic file (type pdf)
+<use DUAL.pdf>
+Package pdftex.def Info: DUAL.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: TRIPLE.pdf Graphic file (type pdf)
+<use TRIPLE.pdf>
+Package pdftex.def Info: TRIPLE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 68.28687pt x 46.94693pt.
+File: dualWell_no_7c_Eevee.png Graphic file (type png)
+<use dualWell_no_7c_Eevee.png>
+Package pdftex.def Info: dualWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+
+Overfull \hbox (180.05234pt too wide) in paragraph at lines 128--128
+[][][][]  
+ []
+
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 128.
+(pdftex.def)             Requested size: 106.98268pt x 121.7321pt.
+File: resultingSimulated_ic.png Graphic file (type png)
+<use resultingSimulated_ic.png>
+Package pdftex.def Info: resultingSimulated_ic.png  used on input line 128.
+(pdftex.def)             Requested size: 113.81145pt x 90.53844pt.
+File: generatorModel.pdf Graphic file (type pdf)
+<use generatorModel.pdf>
+Package pdftex.def Info: generatorModel.pdf  used on input line 128.
+(pdftex.def)             Requested size: 42.67912pt x 62.49683pt.
+
+Overfull \hbox (7.11305pt too wide) in paragraph at lines 128--128
+[][][][]  
+ []
+
+[21
+
+]) (slide18.tex [22
+
+]
+<vddMgndManuscrit.pdf, id=1697, 531.52023pt x 359.60652pt>
+File: vddMgndManuscrit.pdf Graphic file (type pdf)
+<use vddMgndManuscrit.pdf>
+Package pdftex.def Info: vddMgndManuscrit.pdf  used on input line 52.
+(pdftex.def)             Requested size: 119.50279pt x 80.84761pt.
+<iEpiDualWellManuscrit.pdf, id=1698, 556.98181pt x 359.60652pt>
+File: iEpiDualWellManuscrit.pdf Graphic file (type pdf)
+<use iEpiDualWellManuscrit.pdf>
+Package pdftex.def Info: iEpiDualWellManuscrit.pdf  used on input line 52.
+(pdftex.def)             Requested size: 119.50279pt x 77.15475pt.
+<iSubcManuscrit.pdf, id=1699, 795.8413pt x 222.7218pt>
+File: iSubcManuscrit.pdf Graphic file (type pdf)
+<use iSubcManuscrit.pdf>
+Package pdftex.def Info: iSubcManuscrit.pdf  used on input line 52.
+(pdftex.def)             Requested size: 239.00558pt x 66.88501pt.
+<CurrentDistributionNormT140eT10_ExcDw.pdf, id=1700, 722.7pt x 289.08pt>
+File: CurrentDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use CurrentDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 52.
+(pdftex.def)             Requested size: 239.00558pt x 83.36737pt.
+ [23
+
+ <./vddMgndManuscrit.pdf> <./iEpiDualWellManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iEpiDualWellManuscrit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./iSubcManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iSubcManuscrit.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./CurrentDistributionNormT140eT10_ExcDw.pdf>]) (slide19.tex
+<vddMgndManuscritTw.pdf, id=2068, 540.45763pt x 359.60652pt>
+File: vddMgndManuscritTw.pdf Graphic file (type pdf)
+<use vddMgndManuscritTw.pdf>
+Package pdftex.def Info: vddMgndManuscritTw.pdf  used on input line 33.
+(pdftex.def)             Requested size: 119.50279pt x 79.51424pt.
+<iEpiTripleWellManuscrit.pdf, id=2069, 547.76341pt x 359.60652pt>
+File: iEpiTripleWellManuscrit.pdf Graphic file (type pdf)
+<use iEpiTripleWellManuscrit.pdf>
+Package pdftex.def Info: iEpiTripleWellManuscrit.pdf  used on input line 33.
+(pdftex.def)             Requested size: 119.50279pt x 78.44972pt.
+<iSubcManuscritTws.pdf, id=2070, 800.029pt x 222.7218pt>
+File: iSubcManuscritTws.pdf Graphic file (type pdf)
+<use iSubcManuscritTws.pdf>
+Package pdftex.def Info: iSubcManuscritTws.pdf  used on input line 33.
+(pdftex.def)             Requested size: 239.00558pt x 66.53497pt.
+<CurrentDistributionNormT140eT10_ExcTw.pdf, id=2071, 722.7pt x 289.08pt>
+File: CurrentDistributionNormT140eT10_ExcTw.pdf Graphic file (type pdf)
+<use CurrentDistributionNormT140eT10_ExcTw.pdf>
+Package pdftex.def Info: CurrentDistributionNormT140eT10_ExcTw.pdf  used on inp
+ut line 33.
+(pdftex.def)             Requested size: 239.00558pt x 83.36737pt.
+ [24
+
+ <./vddMgndManuscritTw.pdf> <./iEpiTripleWellManuscrit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iEpiTripleWellManuscrit.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./iSubcManuscritTws.pdf
+
+pdfTeX warning: pdflatex.exe (file ./iSubcManuscritTws.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <./CurrentDistributionNormT140eT10_ExcTw.pdf>] [25
+
+]) (slide20.tex
+<pos_neg_IGND.pdf, id=2484, 366.70473pt x 230.1104pt>
+File: pos_neg_IGND.pdf Graphic file (type pdf)
+<use pos_neg_IGND.pdf>
+Package pdftex.def Info: pos_neg_IGND.pdf  used on input line 22.
+(pdftex.def)             Requested size: 199.1693pt x 124.97754pt.
+<stmPhotoImshow.pdf, id=2485, 293.59688pt x 234.8775pt>
+File: stmPhotoImshow.pdf Graphic file (type pdf)
+<use stmPhotoImshow.pdf>
+Package pdftex.def Info: stmPhotoImshow.pdf  used on input line 22.
+(pdftex.def)             Requested size: 169.2951pt x 135.43698pt.
+ [26
+
+ <./pos_neg_IGND.pdf> <./stmPhotoImshow.pdf
+
+pdfTeX warning: pdflatex.exe (file ./stmPhotoImshow.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]) (slide21.tex [27
+
+]
+File: tripleWell_no_7c_Eevee.png Graphic file (type png)
+<use tripleWell_no_7c_Eevee.png>
+Package pdftex.def Info: tripleWell_no_7c_Eevee.png  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 161.86302pt.
+
+Overfull \hbox (49.79208pt too wide) in paragraph at lines 39--39
+[][]  
+ []
+
+<logicGates.pdf, id=2612, 378.82796pt x 58.73418pt>
+File: logicGates.pdf Graphic file (type pdf)
+<use logicGates.pdf>
+Package pdftex.def Info: logicGates.pdf  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 22.05751pt.
+
+Overfull \hbox (91.62596pt too wide) in paragraph at lines 39--39
+[][]  
+ []
+
+<ivx3New.pdf, id=2613, 546.2929pt x 369.88583pt>
+File: ivx3New.pdf Graphic file (type pdf)
+<use ivx3New.pdf>
+Package pdftex.def Info: ivx3New.pdf  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 96.32607pt.
+[28
+
+ <./logicGates.pdf> <./ivx3New.pdf
+
+pdfTeX warning: pdflatex.exe (file ./ivx3New.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]) (slide22.tex
+<ivx3NewNoSignals.pdf, id=2676, 546.2929pt x 369.88583pt>
+File: ivx3NewNoSignals.pdf Graphic file (type pdf)
+<use ivx3NewNoSignals.pdf>
+Package pdftex.def Info: ivx3NewNoSignals.pdf  used on input line 20.
+(pdftex.def)             Requested size: 127.47125pt x 86.30798pt.
+<logic_gates_solo_M0_DW.pdf, id=2677, 670.00313pt x 526.96875pt>
+File: logic_gates_solo_M0_DW.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_DW.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_DW.pdf  used on input line 20.
+(pdftex.def)             Requested size: 143.40213pt x 112.78145pt.
+<logic_gates_solo_M0_DW_n2.pdf, id=2678, 617.30624pt x 519.44063pt>
+File: logic_gates_solo_M0_DW_n2.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_DW_n2.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_DW_n2.pdf  used on input line 20.
+(pdftex.def)             Requested size: 127.47125pt x 107.25484pt.
+ [29
+
+ <./ivx3NewNoSignals.pdf> <./logic_gates_solo_M0_DW.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_DW.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./logic_gates_solo_M0_DW_n2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_DW_n2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+File: ivx3New.pdf Graphic file (type pdf)
+<use ivx3New.pdf>
+Package pdftex.def Info: ivx3New.pdf  used on input line 40.
+(pdftex.def)             Requested size: 127.47125pt x 86.30798pt.
+<logic_gates_solo_M0_TW.pdf, id=3487, 636.87938pt x 526.96875pt>
+File: logic_gates_solo_M0_TW.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_TW.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_TW.pdf  used on input line 40.
+(pdftex.def)             Requested size: 135.43365pt x 112.05777pt.
+<logic_gates_solo_M0_TW_n2.pdf, id=3488, 629.35126pt x 528.47438pt>
+File: logic_gates_solo_M0_TW_n2.pdf Graphic file (type pdf)
+<use logic_gates_solo_M0_TW_n2.pdf>
+Package pdftex.def Info: logic_gates_solo_M0_TW_n2.pdf  used on input line 40.
+(pdftex.def)             Requested size: 135.43365pt x 113.7246pt.
+ [30
+
+ <./logic_gates_solo_M0_TW.pdf> <./logic_gates_solo_M0_TW_n2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./logic_gates_solo_M0_TW_n2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]) (slide23.tex [31
+
+]) (slide24.tex [32
+
+] [33
+
+]) (slide25.tex
+<geomCrossViewNew.pdf, id=4173, 569.05513pt x 256.0748pt>
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 25.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+<geomCrossViewThinNew.pdf, id=4174, 569.05513pt x 256.0748pt>
+File: geomCrossViewThinNew.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew.pdf>
+Package pdftex.def Info: geomCrossViewThinNew.pdf  used on input line 25.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+ [34
+
+ <./geomCrossViewNew.pdf> <./geomCrossViewThinNew.pdf
+
+pdfTeX warning: pdflatex.exe (file ./geomCrossViewThinNew.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+File: geomCrossViewNew.pdf Graphic file (type pdf)
+<use geomCrossViewNew.pdf>
+Package pdftex.def Info: geomCrossViewNew.pdf  used on input line 47.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+<geomCrossViewThinNew2.pdf, id=4312, 569.05513pt x 256.0748pt>
+File: geomCrossViewThinNew2.pdf Graphic file (type pdf)
+<use geomCrossViewThinNew2.pdf>
+Package pdftex.def Info: geomCrossViewThinNew2.pdf  used on input line 47.
+(pdftex.def)             Requested size: 199.1693pt x 89.6236pt.
+ [35
+
+ <./geomCrossViewThinNew2.pdf>] [36
+
+]) (slide26.tex [37
+
+]
+<thinning140um.pdf, id=4501, 867.24pt x 289.08pt>
+File: thinning140um.pdf Graphic file (type pdf)
+<use thinning140um.pdf>
+Package pdftex.def Info: thinning140um.pdf  used on input line 67.
+(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
+<VoltageDistributionNormT140eT10_ExcDw.pdf, id=4502, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT140eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT140eT10_ExcDw.pdf  used on inp
+ut line 67.
+(pdftex.def)             Requested size: 199.1693pt x 74.04645pt.
+<thinning60um.pdf, id=4504, 867.24pt x 289.08pt>
+File: thinning60um.pdf Graphic file (type pdf)
+<use thinning60um.pdf>
+Package pdftex.def Info: thinning60um.pdf  used on input line 67.
+(pdftex.def)             Requested size: 199.1693pt x 66.38995pt.
+<VoltageDistributionNormT60eT10_ExcDw.pdf, id=4505, 722.7pt x 289.08pt>
+File: VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file (type pdf)
+<use VoltageDistributionNormT60eT10_ExcDw.pdf>
+Package pdftex.def Info: VoltageDistributionNormT60eT10_ExcDw.pdf  used on inpu
+t line 67.
+(pdftex.def)             Requested size: 199.1693pt x 74.04645pt.
+
+Overfull \hbox (18.4944pt too wide) in paragraph at lines 67--67
+[][]  
+ []
+
+[38
+
+ <./thinning140um.pdf> <./thinning60um.pdf
+
+pdfTeX warning: pdflatex.exe (file ./thinning60um.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./VoltageDistributionNormT140eT10_ExcDw.pdf> <./VoltageDistributionNormT60eT
+10_ExcDw.pdf>]) (slide28.tex [39
+
+]
+<TEST1.pdf, id=4847, 1736.64813pt x 559.36983pt>
+File: TEST1.pdf Graphic file (type pdf)
+<use TEST1.pdf>
+Package pdftex.def Info: TEST1.pdf  used on input line 21.
+(pdftex.def)             Requested size: 443.86299pt x 142.96602pt.
+ [40
+
+ <./TEST1.pdf>]) (slide29.tex
+<TEST2.pdf, id=4960, 1736.64813pt x 559.36983pt>
+File: TEST2.pdf Graphic file (type pdf)
+<use TEST2.pdf>
+Package pdftex.def Info: TEST2.pdf  used on input line 11.
+(pdftex.def)             Requested size: 443.86299pt x 142.96602pt.
+ [41
+
+ <./TEST2.pdf>]) (slide30.tex
+<TEST3.pdf, id=5075, 1736.64813pt x 597.6729pt>
+File: TEST3.pdf Graphic file (type pdf)
+<use TEST3.pdf>
+Package pdftex.def Info: TEST3.pdf  used on input line 11.
+(pdftex.def)             Requested size: 443.86299pt x 152.75568pt.
+ [42
+
+ <./TEST3.pdf>] [43
+
+] [44
+
+] [45
 
 ])
 \tf@nav=\write6
@@ -1662,29 +2425,41 @@ Package pdftex.def Info: avrk4b.pdf  used on input line 35.
 
  (0_slides.aux)
 Package rerunfilecheck Info: File `0_slides.out' has not changed.
-(rerunfilecheck)             Checksum: 1957596AB8CEC0D83D626396D039B141;103.
+(rerunfilecheck)             Checksum: 076EF4746A9D909C801022364932FE11;1527.
  ) 
 Here is how much of TeX's memory you used:
- 28655 strings out of 476411
- 594237 string characters out of 5788662
+ 29763 strings out of 476411
+ 616084 string characters out of 5788662
  1865845 words of memory out of 5000000
- 48374 multiletter control sequences out of 15000+600000
- 520731 words of font info for 60 fonts, out of 8000000 for 9000
+ 49279 multiletter control sequences out of 15000+600000
+ 527825 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,1009b,756s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1009b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
-s1095.pk><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmss10.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/geoff2/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/geoff2/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
-s/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/gsmn1095.pfb>
-
-Output written on 0_slides.pdf (8 pages, 19218870 bytes).
+s1440.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcss1200.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcss1000.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcsx1095.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/l
+jfour/public/wasy/dpi657\wasy10.pk> <C:\Users\geoff2\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><C:/Users/geoff2/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/geoff2/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/geoff2/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Use
+rs/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.p
+fb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmss17.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmss8.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmss9.pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/geoff2/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/geoff2/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/geoff
+2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/g
+smn1095.pfb>
+Output written on 0_slides.pdf (45 pages, 38932765 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5423 PDF objects out of 6186 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

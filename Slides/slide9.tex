@@ -2,36 +2,75 @@
 \begin{frame}
     \frametitle{Enhanced BBI platform}
     \framesubtitle{Summary}
+    %    Courant bad
+    \begin{textblock*}{60mm}(99mm, 24mm)
+        \includegraphics[width=\textwidth]{S1G.pdf}
+    \end{textblock*}
+    %    Pulse bad
+    \begin{textblock*}{60mm}(39mm, 24mm)
+        \includegraphics[width=\textwidth]{S1P.pdf}
+    \end{textblock*}
+    %    Courant good
+    \begin{textblock*}{60mm}(99mm, 50mm)
+        \includegraphics[width=\textwidth]{S2G.pdf}
+    \end{textblock*}
+    %    Pulse good
+    \begin{textblock*}{60mm}(39mm, 50mm)
+        \includegraphics[width=\textwidth]{S2P.pdf}
+    \end{textblock*}
+%    texte pulse undershoot bad
+    \begin{textblock*}{100mm}(5mm, 18mm)
+        275 \% PW overshoot\\
+        -108 \% pulse undershoot
+    \end{textblock*}
+%    texte pulse undershoot good
+    \begin{textblock*}{100mm}(5mm, 75mm)
+        -31 \% pulse undershoot\\
+        Matched pulse width
+    \end{textblock*}
+%    fleche pulse undershoot good
+    \begin{textblock*}{1mm}(25mm, 27mm)
+        \begin{tikzpicture}
+            \draw[-Stealth, black, line width=0.5mm] (0, 0) |- (3.5, -1.61);
+        \end{tikzpicture}
+    \end{textblock*}
+%    fleche pulse undershoot bad
+    \begin{textblock*}{1mm}(25mm, 63mm)
+        \begin{tikzpicture}
+            \draw[-Stealth, black, line width=0.5mm] (0, 0) |- (3.5, 1.);
+        \end{tikzpicture}
+    \end{textblock*}
+
 %    \centering
-    \begin{columns}
-        \begin{column}{0.3\textwidth}
-            \centering
-            \includegraphics[width=\textwidth]{S1P.pdf}
-            \includegraphics[width=\textwidth]{S1G.pdf}
-        \end{column}
-        \begin{column}{0.3\textwidth}
-            \centering
-            \includegraphics[width=\textwidth]{S2P.pdf}
-            \includegraphics[width=\textwidth]{S2G.pdf}
-        \end{column}
-
-        \barsep
-
-        \begin{column}{0.4\textwidth}
-            \centering
-            Default platform:
-            \begin{itemize}
-                \item -108 \% pulse undershoot;
-                \item 275 \% pulse width overshoot;
-                \item Obvious ringing.
-            \end{itemize}
-            Enhanced platform:
-            \begin{itemize}
-                \item -31 \% undershoot;
-                \item Matched pulse width;
-                \item Less ringing.
-            \end{itemize}
-        \end{column}
-    \end{columns}
+%    \begin{columns}
+%        \begin{column}{0.3\textwidth}
+%            \centering
+%            \includegraphics[width=\textwidth]{S1P.pdf}
+%            \includegraphics[width=\textwidth]{S1G.pdf}
+%        \end{column}
+%        \begin{column}{0.3\textwidth}
+%            \centering
+%            \includegraphics[width=\textwidth]{S2P.pdf}
+%            \includegraphics[width=\textwidth]{S2G.pdf}
+%        \end{column}
+%
+%        \barsep
+%
+%        \begin{column}{0.4\textwidth}
+%            \centering
+%            Default platform:
+%            \begin{itemize}
+%                \item -108 \% pulse undershoot;
+%                \item 275 \% pulse width overshoot;
+%                \item Obvious ringing.
+%            \end{itemize}
+%            Enhanced platform:
+%            \begin{itemize}
+%                \item -31 \% undershoot;
+%                \item Matched pulse width;
+%                \item Less ringing.
+%            \end{itemize}
+%        \end{column}
+%    \end{columns}
 
 \end{frame}

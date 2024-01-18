@@ -14,11 +14,11 @@
 %    \includegraphics[width=0.32\textwidth]{model2ProbeManuscrit.pdf}
 %    \includegraphics[width=0.32\textwidth]{aesFastImpGnd.pdf}
     \begin{columns}
-        \begin{column}{0.32\textwidth}
+        \begin{column}{0.28\textwidth}
             \includegraphics[width=\textwidth]{model0Probe.pdf}
-            \vspace{0.09cm}
+            \vspace{0.4cm}
             \par
-            \vspace{0.09cm}
+            \vspace{0.4cm}
             \includegraphics[width=\textwidth]{model2ProbeManuscrit.pdf}
         \end{column}
 
@@ -30,12 +30,18 @@
             \includegraphics[width=\textwidth]{aesFastImpGnd.pdf}
         \end{column}
 
-        \begin{column}{0.32\textwidth}
-            Unsuccessful Giraud's DFA
-            \vspace{1.3cm}
+        \begin{column}{0.36\textwidth}
+            \centering
+            Impossibility to perform the\\
+            Giraud's DFA\\
+            No single bit faults after\\
+            2601 tested locations
+            \vspace{0.9cm}
             \par
-            \vspace{1.3cm}
-            Successful Giraud's DFA
+            \vspace{0.9cm}
+            5 locations → single bit faults\\
+            14 secret-key bytes out of 16\\→ Giraud's DFA\\
+            2 remaining bytes\\→ brute force
         \end{column}
     \end{columns}
 \end{frame}

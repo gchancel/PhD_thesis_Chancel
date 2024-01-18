@@ -1,65 +1,71 @@
 
 \begin{frame}
     \frametitle{Substrate thinning in practice}
-    \framesubtitle{Fault susceptibility maps couples}
-    \includegraphics[width=\textwidth]{cartosCouples.pdf}
+    \framesubtitle{Fault susceptibility maps areas comparison}
+    \begin{textblock*}{156mm}(2mm, 16mm)
+        \includegraphics[width=\textwidth]{TEST3.pdf}
+        \centering
+        \textbf{Same susceptibility areas with correct couple: $(V_{P}, t_{SUB})$\\
+        No change in spatial resolution}
+    \end{textblock*}
 \end{frame}
 
-\section{CONCLUSION AND PERSPECTIVES}
-\begin{frame}{Conclusion}
-    \begin{itemize}
-        \Large
-        \setlength\itemsep{1em}
-        \item Fault injection → breach IC security;
-        \item Various methods: LFI, EMFI, GFI, BBI;
-        \item BBI → very few works in the state-of-the-art:
-        \begin{itemize}
-            \large
-            \setlength\itemsep{1em}
-            \item Platforms not optimized;
-            \item Low repeatability;
-        \end{itemize}
-    \end{itemize}
-\end{frame}
+\section{CONCLUSION AND OUTLOOKS}
+%\begin{frame}{Conclusion}
+%    \begin{itemize}
+%        \Large
+%        \setlength\itemsep{1em}
+%        \item Fault injection → breach IC security;
+%        \item Various methods: LFI, EMFI, GFI, BBI;
+%        \item BBI → very few works in the state-of-the-art:
+%        \begin{itemize}
+%            \large
+%            \setlength\itemsep{1em}
+%            \item Platforms not optimized;
+%            \item Low repeatability;
+%        \end{itemize}
+%    \end{itemize}
+%\end{frame}
 
 \begin{frame}{Conclusion}
     \begin{itemize}
-        \Large
+        \large
         \setlength\itemsep{0.7em}
-        \item Platform enhancements → successful DFA:
+        \item Better practices for BBI → successful DFA:
         \begin{itemize}
             \large
             \setlength\itemsep{0.7em}
-            \item Impedance matching;
-            \item Low impedance grounding;
+            \item Impedance matching
+            \item Low impedance grounding
         \end{itemize}
-        \item IC modeling under BBI:
+        \item Modeling and simulating BBI:
         \begin{itemize}
-            \large
+            \normalsize
             \setlength\itemsep{0.7em}
-            \item Standard-cell segment approach → fast computation;
-            \item Limitations → no logic function;
-            \item Enhanced simulation flow → logic gates under BBI;
+            \item Local effect on ICs → [100, 200] µm
+            \item Thanks to a DC or AC coupling with the probe
+            \item Data-dependent faults (bit set and bit reset)
+            \item DW substrate practice → dangerous
         \end{itemize}
         \item Substrate thinning and BBI:
         \begin{itemize}
-            \large
+            \normalsize
             \setlength\itemsep{0.7em}
-            \item Lowers generator power requirements;
-            \item Does not improve resolution.
+            \item Lowers generator power requirements
+            \item Does not change spatial resolution → depends on $(V_{P}, t_{SUB})$
         \end{itemize}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Outlooks}
-    \Large
+    \LARGE
     Further improvements:
     \vspace{1mm}
     \begin{itemize}
         \Large
         \setlength\itemsep{0.7em}
-        \item Adaptive impedance matching → increase repeatability;
-        \item Further study concerning logic gates disturbance;
-        \item Study BBI effects on memory elements (SRAM, FLASH).
+        \item Adaptive impedance matching → increase repeatability
+        \item Further study logic gates disturbance study → dynamic analysis
+        \item Study memory elements and analog blocks (SRAM, FLASH, PLL)
     \end{itemize}
 \end{frame}

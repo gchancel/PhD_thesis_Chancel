@@ -1,0 +1,5 @@
+\beamer@sectionintoc {4}{BETTER PRACTICES FOR BODY BIASING INJECTION}{9}{0}{1}
+\beamer@sectionintoc {5}{MODELING AND SIMULATING BODY BIASING INJECTION}{14}{0}{2}
+\beamer@sectionintoc {6}{SIMULATION FLOW FOLLOW-UP: HOW FAULTS OCCUR?}{27}{0}{3}
+\beamer@sectionintoc {7}{SUBSTRATE TINNING ANALYSIS}{32}{0}{4}
+\beamer@sectionintoc {8}{CONCLUSION AND OUTLOOKS}{43}{0}{5}

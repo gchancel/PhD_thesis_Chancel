@@ -1,27 +1,68 @@
 
 \begin{frame}
     \frametitle{Enhanced BBI platform}
+%    Schéma
+    \begin{textblock*}{60mm}(48mm, 12mm)
+        \includegraphics[width=\textwidth]{model2ProbeManuscrit.pdf}
+    \end{textblock*}
+%   Flèche gauche
+    \begin{textblock*}{1mm}(28mm, 20mm)
+        \begin{tikzpicture}
+                \draw[-Stealth, black, line width=0.5mm] (0, 0) -| (-3, -2.35);
+            \end{tikzpicture}
+    \end{textblock*}
+%   Flèche droite
+    \begin{textblock*}{1mm}(98mm, 33.8mm)
+        \begin{tikzpicture}
+            \draw[-Stealth, black, line width=0.5mm] (0, 0) -| (3, -1);
+        \end{tikzpicture}
+    \end{textblock*}
+%    Courant
+    \begin{textblock*}{60mm}(98mm, 45mm)
+        \includegraphics[width=\textwidth]{S2G.pdf}
+    \end{textblock*}
+%    Pulse
+    \begin{textblock*}{60mm}(2mm, 45mm)
+        \includegraphics[width=\textwidth]{S2P.pdf}
+    \end{textblock*}
+%    impMatchGen
+    \begin{textblock*}{28mm}(67mm, 47mm)
+        \includegraphics[width=\textwidth]{impMatchPicture.jpg}
+    \end{textblock*}
+%    cercle image
+    \begin{textblock*}{1mm}(75.3mm, 46mm)
+        \begin{tikzpicture}
+            \draw[line width=0.5mm, color=cyan] circle (0.3);
+        \end{tikzpicture}
+    \end{textblock*}
+%   Flèche image
+    \begin{textblock*}{1mm}(66mm, 30mm)
+        \begin{tikzpicture}
+            \draw[-Stealth, cyan, line width=0.5mm] (0, 0) |- (0.8, -1.9);
+        \end{tikzpicture}
+    \end{textblock*}
+
 %    \framesubtitle{Enhanced platform}
-    \begin{columns}
-        \begin{column}{0.4\textwidth}
-            \centering
-            \begin{figure}
-                \includegraphics[width=0.8\textwidth]{model2ProbeManuscrit.pdf}
-            \end{figure}
-%            \par
-            \vspace{-0.5cm}
-            \begin{figure}
-                \includegraphics[width=0.8\textwidth]{S2P.pdf}
-                \includegraphics[width=0.8\textwidth]{S2G.pdf}
-            \end{figure}
-        \end{column}
-        \barsep
-        \begin{column}{0.6\textwidth}
-            \centering
-            \begin{figure}
-                \includegraphics[width=0.4\textwidth]{impMatchPicture.jpg}
-                \includegraphics[width=0.4\textwidth]{sondeGndSource.jpg}
-            \end{figure}
-        \end{column}
-    \end{columns}
+%    \begin{columns}
+%        \begin{column}{0.4\textwidth}
+%            \centering
+%            \begin{figure}
+%                \includegraphics[width=0.8\textwidth]{model2ProbeManuscrit.pdf}
+%            \end{figure}
+%%            \par
+%            \vspace{-0.5cm}
+%            \begin{figure}
+%                \includegraphics[width=0.8\textwidth]{S2P.pdf}
+%                \includegraphics[width=0.8\textwidth]{S2G.pdf}
+%            \end{figure}
+%        \end{column}
+%        \barsep
+%        \begin{column}{0.6\textwidth}
+%            \centering
+%            \begin{figure}
+%                \includegraphics[width=0.4\textwidth]{impMatchPicture.jpg}
+%                \includegraphics[width=0.4\textwidth]{sondeGndSource.jpg}
+%            \end{figure}
+%        \end{column}
+%    \end{columns}
 \end{frame}

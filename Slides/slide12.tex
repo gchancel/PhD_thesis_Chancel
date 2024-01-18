@@ -1,5 +1,5 @@
 
-\section{BODY BIASING INJECTION SIMULATION MODELS}
+\section{MODELING AND SIMULATING BODY BIASING INJECTION}
 %\begin{frame}
 %    \frametitle{Simulation models}
 %    \begin{itemize}
@@ -15,6 +15,10 @@
 %    \end{itemize}
 %\end{frame}
 
+\begin{frame}{Why modeling and simulating BBI?}
+
+\end{frame}
+
 \begin{frame}{Simulation models}
     \begin{textblock*}{5cm}(5mm, 20mm)
         \onslide<1-6>{\includegraphics[width=\textwidth]{psuNetworkNew.png}}
@@ -26,7 +30,7 @@
         \end{tikzpicture}}
     \end{textblock*}
 
-    \begin{textblock*}{5cm}(12mm, 45mm)
+    \begin{textblock*}{5cm}(8mm, 45mm)
         \onslide<2-6>{\includegraphics[width=0.8\textwidth]{std_cell_segment_principle.pdf}}
     \end{textblock*}
 
@@ -44,62 +48,81 @@
         \onslide<3-6>{\includegraphics[width=0.8\textwidth]{TRIPLE.pdf}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(60mm, 72mm)
+    \begin{textblock*}{2cm}(60mm, 63.5mm)
         \onslide<4-6>{\begin{tikzpicture}
-            \draw[-Stealth, blue, thick] (0, 0) -- (0.5, 0.6);
+            \draw[-Stealth, blue, thick] (0, 0) -- (0.5, 1.2);
         \end{tikzpicture}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(67mm, 57mm)
+    \begin{textblock*}{2cm}(67mm, 41mm)
         \onslide<4-6>{\begin{tikzpicture}
-            \draw[decorate, decoration={brace}, blue, thick] (0, 0) -- (0.0, 3.0);
+            \draw[decorate, decoration={brace}, blue, thick] (0, 0) -- (0.0, 4.5);
         \end{tikzpicture}}
     \end{textblock*}
 
-    \begin{textblock*}{3cm}(70mm, 58.5mm)
+    \begin{textblock*}{4.7cm}(70mm, 42.5mm)
         \onslide<4-6>{\includegraphics[width=0.8\textwidth]{dualWell_no_7c_Eevee.png}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(96mm, 57.5mm)
+    \begin{textblock*}{4.7cm}(109.5mm, 41.5mm)
         \onslide<4-6>{\begin{tikzpicture}
-            \draw[-, black, thick] (0, 0) -- (0.0, 3.0);
+            \draw[-, black, line width=0.4mm] (0, 0) -- (0.0, 4.5);
         \end{tikzpicture}}
     \end{textblock*}
 
-    \begin{textblock*}{3cm}(98mm, 58.5mm)
+    \begin{textblock*}{4.7cm}(109.5mm, 32mm)
+        \onslide<4-6>{\begin{tikzpicture}
+            \draw[-Stealth, blue, line width=0.4mm] (0, 0) -- (0.5, 0.72);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(68mm, 40mm)
+        \onslide<4-6>{\begin{tikzpicture}
+                \draw[decorate, decoration={brace}, blue, thick] (0, 0) -- (8.3, 0.0);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+    \begin{textblock*}{4.7cm}(112mm, 42.5mm)
         \onslide<4-6>{\includegraphics[width=0.8\textwidth]{tripleWell_no_7c_Eevee.png}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(125mm, 55mm)
-        \onslide<5-6>{\begin{tikzpicture}
-%            \draw[-Stealth, blue, thick] (0, 0) -| (2.0, 0.6) -- (0.5, 2.5);
-            \draw[-Stealth, blue, thick] (0, 0) -| (1.7, 1.7);
-        \end{tikzpicture}}
-    \end{textblock*}
+%    \begin{textblock*}{2cm}(125mm, 55mm)
+%        \onslide<5-6>{\begin{tikzpicture}
+%%            \draw[-Stealth, blue, thick] (0, 0) -| (2.0, 0.6) -- (0.5, 2.5);
+%            \draw[-Stealth, blue, thick] (0, 0) -| (1.7, 1.7);
+%        \end{tikzpicture}}
+%    \end{textblock*}
 
-    \begin{textblock*}{6cm}(110mm, 12mm)
+    \begin{textblock*}{5cm}(110mm, 5mm)
         \onslide<5-6>{\includegraphics[width=0.8\textwidth]{resultingSimulated_ic.png}}
     \end{textblock*}
 
-    \begin{textblock*}{1.5cm}(73mm, 18mm)
+    \begin{textblock*}{1.5cm}(73mm, 12mm)
         \onslide<6-6>{\includegraphics[width=1.0\textwidth]{generatorModel.pdf}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(60mm, 30mm)
+    \begin{textblock*}{1.5cm}(72mm, 11mm)
+        \onslide<6-6>{
+        \begin{tikzpicture}
+            \draw[blue, line width=0.5mm] (0, 0) rectangle ++(1.7, 2.3);
+        \end{tikzpicture}}
+    \end{textblock*}
+
+%    \begin{textblock*}{2cm}(60mm, 30mm)
+%        \onslide<6-6>{\begin{tikzpicture}
+%            \draw[-Stealth, blue, thick] (0, 0) -- (1.0, 0.0);
+%        \end{tikzpicture}}
+%    \end{textblock*}
+
+    \begin{textblock*}{2cm}(95mm, 22.5mm)
         \onslide<6-6>{\begin{tikzpicture}
             \draw[-Stealth, blue, thick] (0, 0) -- (1.0, 0.0);
         \end{tikzpicture}}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(90mm, 30mm)
-        \onslide<6-6>{\begin{tikzpicture}
-            \draw[-Stealth, blue, thick] (0, 0) -- (1.0, 0.0);
-        \end{tikzpicture}}
-    \end{textblock*}
-
-    \begin{textblock*}{8cm}(4cm, 1.75cm)
-        \centering
-        \onslide<7->{\includegraphics[width=1.0\textwidth]{resultingSimulated_ic.png}}
-    \end{textblock*}
+%    \begin{textblock*}{8cm}(4cm, 1.75cm)
+%        \centering
+%        \onslide<7->{\includegraphics[width=1.0\textwidth]{resultingSimulated_ic.png}}
+%    \end{textblock*}
 
 \end{frame}

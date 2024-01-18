@@ -19,24 +19,51 @@
 \begin{frame}
     \frametitle{Simulation approach}
     %    \framesubtitle{SUBTITLE}
+    \vspace{-10mm}
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{figure}
+                Substrate voltage distribution (140 µm)
                 \includegraphics[width=\textwidth]{thinning140um.pdf}
                 \par
-                \includegraphics[width=\textwidth]{VoltageDistributionNormT140eT10_ExcDw.pdf}
+                \includegraphics[width=\textwidth, trim={13mm 0 0 12mm}, clip]{VoltageDistributionNormT140eT10_ExcDw.pdf}
+                \small Substrate normalized current density (140 µm)\\
+                Highest layer @ 0.5 density diameter: 180 µm
             \end{figure}
         \end{column}
 
         \begin{column}{0.5\textwidth}
             \begin{figure}
+                Substrate voltage distribution (60 µm)
                 \includegraphics[width=\textwidth]{thinning60um.pdf}
                 \par
-                \includegraphics[width=\textwidth]{VoltageDistributionNormT60eT10_ExcDw.pdf}
+                \includegraphics[width=\textwidth, trim={13mm 0 0 12mm}, clip]{VoltageDistributionNormT60eT10_ExcDw.pdf}
+                \small Substrate normalized current density (60 µm)\\
+                Highest layer @ 0.5 density diameter: 109 µm
             \end{figure}
         \end{column}
     \end{columns}
 
+    \begin{textblock*}{2cm}(28.5mm, 52.25mm)
+        \begin{tikzpicture}
+                \draw[Stealth-Stealth, magenta, line width=0.5mm] (0, 0) -- (2.60, 0.0);
+        \end{tikzpicture}
+    \end{textblock*}
+    \begin{textblock*}{2cm}(55mm, 55mm)
+        \textcolor{magenta}{180 µm}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(126.5mm, 55mm)
+        \textcolor{magenta}{109 µm}
+    \end{textblock*}
+
+    \begin{textblock*}{2cm}(110.5mm, 52.25mm)
+        \begin{tikzpicture}
+            \draw[Stealth-Stealth, magenta, line width=0.5mm] (0, 0) -- (1.53, 0.0);
+        \end{tikzpicture}
+    \end{textblock*}
+    \vspace{6mm}
+    \textbf{For half of the normalized density → lower diameter → greater current density}
 \end{frame}
 %VoltageDistributionNormT60eT10_ExcDw.pdf
 %VoltageDistributionNormT140eT10_ExcDw.pdf
