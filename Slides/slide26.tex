@@ -2,17 +2,17 @@
 \begin{frame}{Simulation approach}
     What we observe:
     \begin{itemize}
-        \item Dual-well substrate IC;
-        \item Picture at the apex of the pulse;
-        \item $550 \; \mu m \; (W) \; \times \; 450 \; \mu m \; (D)$: integrated circuit → 1620 SCS;
-        \item $140 \; \mu m \; (T)$ IC;
-        \item $60 \; \mu m \; (T)$ IC;
+        \item Dual-well substrate IC
+        \item Picture at the apex of the pulse
+        \item $550 \; \mu m \; (W) \; \times \; 450 \; \mu m \; (D)$: integrated circuit → 1620 SCS
+        \item $140 \; \mu m \; (T)$ IC
+        \item $60 \; \mu m \; (T)$ IC
     \end{itemize}
     Simulation conditions:
     \begin{itemize}
-        \item Voltage pulse amplitude: -300 V;
-        \item Voltage pulse width: 20 ns;
-        \item Rise and fall times: 8 ns.
+        \item Voltage pulse amplitude: -300 V
+        \item Voltage pulse width: 20 ns
+        \item Rise and fall times: 8 ns
     \end{itemize}
 \end{frame}
 
@@ -24,6 +24,7 @@
         \begin{column}{0.5\textwidth}
             \begin{figure}
                 Substrate voltage distribution (140 µm)
+                \vspace{-2mm}
                 \includegraphics[width=\textwidth]{thinning140um.pdf}
                 \par
                 \includegraphics[width=\textwidth, trim={13mm 0 0 12mm}, clip]{VoltageDistributionNormT140eT10_ExcDw.pdf}
@@ -35,6 +36,7 @@
         \begin{column}{0.5\textwidth}
             \begin{figure}
                 Substrate voltage distribution (60 µm)
+                \vspace{-2mm}
                 \includegraphics[width=\textwidth]{thinning60um.pdf}
                 \par
                 \includegraphics[width=\textwidth, trim={13mm 0 0 12mm}, clip]{VoltageDistributionNormT60eT10_ExcDw.pdf}
@@ -44,26 +46,27 @@
         \end{column}
     \end{columns}
 
-    \begin{textblock*}{2cm}(28.5mm, 52.25mm)
+    \begin{textblock*}{2cm}(28.5mm, 49.75mm)
         \begin{tikzpicture}
                 \draw[Stealth-Stealth, magenta, line width=0.5mm] (0, 0) -- (2.60, 0.0);
         \end{tikzpicture}
     \end{textblock*}
-    \begin{textblock*}{2cm}(55mm, 55mm)
+    \begin{textblock*}{2cm}(55mm, 52.5mm)
         \textcolor{magenta}{180 µm}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(126.5mm, 55mm)
+    \begin{textblock*}{2cm}(126.5mm, 52.5mm)
         \textcolor{magenta}{109 µm}
     \end{textblock*}
 
-    \begin{textblock*}{2cm}(110.5mm, 52.25mm)
+    \begin{textblock*}{2cm}(110.5mm, 49.75mm)
         \begin{tikzpicture}
             \draw[Stealth-Stealth, magenta, line width=0.5mm] (0, 0) -- (1.53, 0.0);
         \end{tikzpicture}
     \end{textblock*}
-    \vspace{6mm}
+    \vspace{4mm}
     \textbf{For half of the normalized density → lower diameter → greater current density}
+    \vspace{-5mm}
 \end{frame}
 %VoltageDistributionNormT60eT10_ExcDw.pdf
 %VoltageDistributionNormT140eT10_ExcDw.pdf

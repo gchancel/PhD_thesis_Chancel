@@ -1,40 +1,78 @@
 
 \begin{frame}{How faults occur under BBI?}{Dual-well inverters}
-    \begin{columns}
-        \begin{column}{0.32\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{ivx3NewNoSignals.pdf}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.36\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{logic_gates_solo_M0_DW.pdf}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.32\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{logic_gates_solo_M0_DW_n2.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
+%    VBBI
+    \begin{textblock*}{50mm}(55mm, 15mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/VBBI.pdf}
+    \end{textblock*}
+%    IVX HIGH
+    \begin{textblock*}{25mm}(20mm, 25mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/DW_ivx3New_HIGH.pdf}
+    \end{textblock*}
+%    VZ=1
+    \begin{textblock*}{55mm}(10mm, 65mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/VZ=1_DW.pdf}
+    \end{textblock*}
+%    IVX LOW
+    \begin{textblock*}{21.5mm}(115mm, 15mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/DW_ivx3New_LOW.pdf}
+    \end{textblock*}
+%    CURRENT SUM
+    \begin{textblock*}{57.3mm}(99.2mm, 47mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/i1_i2_i3_i4_DW.pdf}
+    \end{textblock*}
+%    VZ=0
+    \begin{textblock*}{50mm}(104mm, 60mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/VZ=0_DW.pdf}
+    \end{textblock*}
+%    ICL0
+    \begin{textblock*}{52.3mm}(100.5mm, 72.6mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/DW/iCL0_DW.pdf}
+    \end{textblock*}
+%    arrow left vbbi
+    \begin{textblock*}{1cm}(50mm, 25mm)
+        \tikz [line width=1mm]\draw [arrows = {-Stealth[length=10pt]}] (0,0) -- (-0.75,-0.75);
+    \end{textblock*}
+%    arrow right vbbi
+    \begin{textblock*}{1cm}(100mm, 25mm)
+        \tikz [line width=1mm]\draw [arrows = {-Stealth[length=10pt]}] (0,0) -- (0.75,-0.75);
+    \end{textblock*}
 \end{frame}
 
 \begin{frame}{How faults occur under BBI?}{Triple-well inverters}
-    \begin{columns}
-        \begin{column}{0.32\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{ivx3New.pdf}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.34\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{logic_gates_solo_M0_TW.pdf}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.34\textwidth}
-            \begin{figure}
-                \includegraphics[width=1.0\textwidth]{logic_gates_solo_M0_TW_n2.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
+%    VBBI
+    \begin{textblock*}{50mm}(55mm, 15mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/VBBI.pdf}
+    \end{textblock*}
+%    IVX LOW
+    \begin{textblock*}{25mm}(20mm, 25mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/TW_ivx3New_LOW.pdf}
+    \end{textblock*}
+%    VZ=0
+    \begin{textblock*}{55mm}(8mm, 65mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/VZ=0_TW.pdf}
+    \end{textblock*}
+%    IVX HIGH
+    \begin{textblock*}{25mm}(112mm, 10mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/TW_ivx3New_HIGH.pdf}
+    \end{textblock*}
+%    CURRENT SUM
+    \begin{textblock*}{57.3mm}(99.2mm, 43mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/i1_i2_i3_i4_TW.pdf}
+    \end{textblock*}
+%    VZ=1
+    \begin{textblock*}{52.2mm}(102mm, 57mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/VZ=1_TW.pdf}
+    \end{textblock*}
+%    ICL0
+    \begin{textblock*}{53.5mm}(99.6mm, 72.6mm)
+        \includegraphics[width=1.0\textwidth]{./logicGatesSoloSignals/TW/iCL1_TW.pdf}
+    \end{textblock*}
+%    arrow left vbbi
+    \begin{textblock*}{1cm}(50mm, 25mm)
+        \tikz [line width=1mm]\draw [arrows = {-Stealth[length=10pt]}] (0,0) -- (-0.75,-0.75);
+    \end{textblock*}
+%    arrow right vbbi
+    \begin{textblock*}{1cm}(100mm, 25mm)
+        \tikz [line width=1mm]\draw [arrows = {-Stealth[length=10pt]}] (0,0) -- (0.75,-0.75);
+    \end{textblock*}
 \end{frame}
