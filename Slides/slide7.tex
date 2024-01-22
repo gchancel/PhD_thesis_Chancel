@@ -17,27 +17,35 @@
 \begin{frame}
     \frametitle{State-of-the-art BBI platform: limiting factors}
     \begin{columns}
-        \begin{column}{0.65\textwidth}
+        \begin{column}{0.33\textwidth}
             \centering
             \begin{figure}
-                \includegraphics[width=0.6\textwidth]{model0Probe.pdf}
+                \includegraphics[width=1.0\textwidth]{model0Probe.pdf}
             \end{figure}
-%            \vspace{-0.5cm}
+            \vspace{-0.5cm}
             \begin{figure}
-                \includegraphics[width=0.45\textwidth]{S1P.pdf}
-                \includegraphics[width=0.45\textwidth]{S1G.pdf}
+                \includegraphics[width=0.9\textwidth]{S1P.pdf}\\
+                \includegraphics[width=0.9\textwidth]{S1G.pdf}
             \end{figure}
         \end{column}
         \barsep
-        \begin{column}{0.35\textwidth}
-            \centering
-            \begin{itemize}
-                \setlength\itemsep{1em}
-                \item Impedance mismatch
-                \item Floating grounds
-                \item Ringing
-                \item Set-point error
-            \end{itemize}
+        \begin{column}{0.67\textwidth}
+%            \centering
+%            \begin{itemize}
+%                \setlength\itemsep{1em}
+%                \item Impedance mismatch → Ringing and set-point error
+%                \item Floating grounds → Set-point error
+%            \end{itemize}
+            \begin{textblock*}{120mm}(65mm, 20mm)
+                • Impedance mismatch → Ringing and set-point error\\
+                • Floating grounds → Set-point error
+            \end{textblock*}
+            \begin{textblock*}{55mm}(60mm, 30mm)
+                \includegraphics[width=\textwidth]{probafautes0.png}
+            \end{textblock*}
+            \begin{textblock*}{55mm}(100mm, 55mm)
+                \includegraphics[width=\textwidth]{probafautes1.png}
+            \end{textblock*}
         \end{column}
     \end{columns}
 \end{frame}

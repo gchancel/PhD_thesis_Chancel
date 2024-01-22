@@ -28,20 +28,30 @@
             \par
             \vspace{0.02cm}
             \includegraphics[width=\textwidth]{aesFastImpGnd.pdf}
+            \begin{textblock*}{1.5cm}(64mm, 64mm)
+                \begin{tikzpicture}
+                        \draw[red, line width=0.5mm] (0, 0) rectangle ++(1.2, 1.4);
+                \end{tikzpicture}
+            \end{textblock*}
+            \begin{textblock*}{1.5cm}(64mm, 27.5mm)
+                \begin{tikzpicture}
+                        \draw[red, line width=0.5mm] (0, 0) rectangle ++(1.2, 1.4);
+                \end{tikzpicture}
+            \end{textblock*}
         \end{column}
 
         \begin{column}{0.36\textwidth}
             \centering
-            Impossibility to perform the\\
-            Giraud's DFA\\
-            No single bit faults after\\
+            \small
+            Giraud's DFA → impossible
+            No single bit faults\\
             2601 tested locations
-            \vspace{0.9cm}
+            \vspace{1.1cm}
             \par
-            \vspace{0.9cm}
+            \vspace{1.1cm}
             5 locations → single bit faults\\
-            14 secret-key bytes out of 16\\→ Giraud's DFA\\
-            2 remaining bytes\\→ brute force
+            14 secret-key bytes out of 16\\
+            2 remaining bytes → brute force
         \end{column}
     \end{columns}
 \end{frame}

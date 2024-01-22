@@ -1,0 +1,64 @@
+
+Envoyer simus à Philippe et Jean-Marc dès qu'elles sont prêtes.
+
+▲Diapo 10:
+	- Changer couleurs écritures
+	- Rajouter mesures ringing !!!!!!!!!!
+
+▲Diapo 3:
+	- Mettre sous forme de tableau
+	- Hardwear.io !!!!!
+	- Dire en 3 mots ce que c'est que la BBI
+	
+▲Diapo 5:
+	- Enlever recovery
+	- Jitter c'est en pourcentage du propag delay
+	- Propag delay 150 ns à 1 s
+	- Enlever courant probe
+	
+▲Diapo 8:
+	- Chronos de fautes non reproductibles (d'un jour à l'autre)
+	- Les mettre avant la slide 8 (NON DANS LA SLIDE 8 !!)
+	- Schéma tout noir
+	- Impedance mismatch → Ringing (et set-point)
+	- Floating ground → set-point
+
+▲Diopo 11:
+	- ▲Enlever Giraud DFA en bas à droite
+	- ▲Encadrer AES dans les cartos
+	- PARLER du fait qu'on a énormément de CRASH dans le premier cas → on cible BCP de clocks
+
+▲Diapo 13:
+	- Mettre sous les schémas inverseurs DUALWELL et TRIPLEWELL
+	- Flèche et accolade qui vont vers le gros bloc AVEC le gros bloc
+
+▲Diapo 14:
+	- Mettre techno 90 nm BULK (Comme la cible) !!!
+	- GIF ANIMATION INJECTION SUBSTRAT ET LE PLAN D'ALIM
+
+▲Diapo 15 et 16:
+	- PDN → VDD - GND (BIEN LE NOTER)
+
+▲Diapo 17:
+	- Faire tableau pour résumer les conclusions !!!
+	- DIRE QUE C'EST EXTREMEMENT DANGEREUX SUR DUAL-WELL
+	- DONC ON A EVITE DUAL WELL ET POSITIF TRIPLE-WELL !!!
+	- Mettre le niveau de desctruction dans le tableau
+	
+Diapo 18:
+	- ▲Ça ne SEMBLE pas confirmer, ça CONFIRME
+	- Mettre résultats circuits mixtes en simus en slide de backup
+
+▲Diapo 19:
+	- Faire sortir les courbes et montrer qu'on les injecte avec des flèches vers les signaux des inverseurs et ENLEVER accolade
+	
+▼Diapo 24: (FLEMME)
+	- VF = VFAULT !!!
+	- Regarder alignement des figures !!!
+	
+Diapo 30/31/32:
+	- Changer ordre courbes (plus épais → plus fin)
+	
+Diapo 33:
+	- DW + ou - → dangerous
+	- TW + → dangerous !!!!!!!!!!!!!!

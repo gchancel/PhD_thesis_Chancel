@@ -7,7 +7,7 @@
             \vspace{-1mm}
             \begin{figure}
                 \includegraphics[width=\textwidth]{vddMgndManuscritTw.pdf}
-                \caption{\centering PDN voltage distribution}
+                \caption{\centering PDN (VDD - GND)}
             \end{figure}
             \vspace{-2mm}
             \begin{figure}
@@ -31,18 +31,35 @@
         \end{column}
     \end{columns}
 \end{frame}
+
+%\begin{frame}{Dual-well vs Triple-well}
+%    Differences between Dual-well and Triple-well circuits:
+%    \begin{itemize}
+%        \item Dual-well → NMOS are \textcolor{blue}{DC-coupled} | PMOS are \textcolor{orange}{AC-coupled}
+%        \item Triple-well → entire IC is \textcolor{orange}{AC-coupled}
+%    \end{itemize}
+%    Implications:
+%    \begin{itemize}
+%        \item Dual-well → continuous energy flow during the pulse
+%        \item Triple-well → energy flow confined to the pulse edges
+%    \end{itemize}
+%    \vspace{6mm}
+%    \centering \textbf{For a given amount of time → less energy injected into TW compared to DW\\
+%    \hspace{10.54em} → less RMS current into TW compared to DW}
+%\end{frame}
+
 \begin{frame}{Dual-well vs Triple-well}
-    Differences between Dual-well and Triple-well circuits:
-    \begin{itemize}
-        \item Dual-well → NMOS are \textcolor{blue}{DC-coupled} | PMOS are \textcolor{orange}{AC-coupled}
-        \item Triple-well → entire IC is \textcolor{orange}{AC-coupled}
-    \end{itemize}
-    Implications:
-    \begin{itemize}
-        \item Dual-well → continuous energy flow during the pulse
-        \item Triple-well → energy flow confined to the pulse edges
-    \end{itemize}
-    \vspace{6mm}
-    \centering \textbf{For a given amount of time → less energy injected into TW compared to DW\\
-    \hspace{10.54em} → less RMS current into TW compared to DW}
+    \Large \textbf{Differences between Dual-well and Triple-well circuits:}
+    \begin{table}[]
+        \resizebox{\framewidth}{!}{
+        \begin{tabular}{|c|c|ccc|c|}
+            \hline
+            \cellcolor[HTML]{DAE8FC}                                     & \cellcolor[HTML]{DAE8FC}                                    & \multicolumn{3}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{Coupling}}                                                                                                     & \cellcolor[HTML]{DAE8FC}                                  \\ \cline{3-5}
+            \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Substrate}} & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Polarity}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FE996B}\textbf{NMOS}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFCC67}\textbf{PMOS}} & \cellcolor[HTML]{67FD9A}\textbf{Circuit} & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Danger}} \\ \hline
+            \textbf{Dual-well}                                           & \textbf{Negative}                                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \textbf{DC}                              & \textbf{+++}                                              \\ \hline
+            \textbf{Dual-well}                                           & \textbf{Positive}                                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \textbf{DC}                              & \textbf{++++}                                             \\ \hline
+            \textbf{Triple-well}                                         & \textbf{Negative}                                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \textbf{AC}                              & \textbf{+}                                                \\ \hline
+            \textbf{Triple-well}                                         & \textbf{Positive}                                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \textbf{DC}                              & \textbf{+++}                                              \\ \hline
+        \end{tabular}}
+    \end{table}
 \end{frame}

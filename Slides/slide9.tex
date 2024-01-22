@@ -20,24 +20,36 @@
     \end{textblock*}
 %    texte pulse undershoot bad
     \begin{textblock*}{100mm}(5mm, 18mm)
+        \textcolor{red}{
         275 \% PW overshoot\\
-        -108 \% pulse undershoot
+        -108 \% pulse undershoot}
     \end{textblock*}
 %    texte pulse undershoot good
     \begin{textblock*}{100mm}(5mm, 75mm)
+        \textcolor{red}{
         -31 \% pulse undershoot\\
-        Matched pulse width
+        Matched pulse width}
+    \end{textblock*}
+%    texte ringing s1g
+    \begin{textblock*}{100mm}(108.5mm, 20mm)
+        \textcolor{red}{
+        Ringing: more than 100 ns}
+    \end{textblock*}
+%    texte ringing s2g
+    \begin{textblock*}{100mm}(119mm, 77mm)
+        \textcolor{red}{
+        Ringing: 15 ns}
     \end{textblock*}
 %    fleche pulse undershoot good
-    \begin{textblock*}{1mm}(25mm, 27mm)
+    \begin{textblock*}{1mm}(25mm, 27.1mm)
         \begin{tikzpicture}
-            \draw[-Stealth, black, line width=0.5mm] (0, 0) |- (3.5, -1.61);
+            \draw[-Stealth, red, line width=0.25mm] (0, 0) |- (3.5, -1.61);
         \end{tikzpicture}
     \end{textblock*}
 %    fleche pulse undershoot bad
     \begin{textblock*}{1mm}(25mm, 63mm)
         \begin{tikzpicture}
-            \draw[-Stealth, black, line width=0.5mm] (0, 0) |- (3.5, 1.);
+            \draw[-Stealth, red, line width=0.25mm] (0, 0) |- (3.5, 1.);
         \end{tikzpicture}
     \end{textblock*}
 
