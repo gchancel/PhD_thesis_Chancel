@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  23 JAN 2024 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  24 JAN 2024 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1653,39 +1653,37 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 <NewLogoLIRMM.pdf, id=112, 715.17188pt x 180.675pt>
 File: NewLogoLIRMM.pdf Graphic file (type pdf)
 <use NewLogoLIRMM.pdf>
-Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 98.
+Package pdftex.def Info: NewLogoLIRMM.pdf  used on input line 119.
 (pdftex.def)             Requested size: 85.35826pt x 21.56427pt.
-[1
-
-{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
-RMM.pdf>] (slide1.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
-
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119
+.
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119
+.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 54
-.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
+9.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 54.
+ut line 119.
 
 (C:\Users\geoff2\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1math
 kerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-<chipCard.pdf, id=168, 312.98033pt x 284.52756pt>
+) [1
+
+{C:/Users/geoff2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./NewLogoLI
+RMM.pdf>] (slide1.tex
+<chipCard.pdf, id=169, 312.98033pt x 284.52756pt>
 File: chipCard.pdf Graphic file (type pdf)
 <use chipCard.pdf>
 Package pdftex.def Info: chipCard.pdf  used on input line 54.
@@ -1704,22 +1702,22 @@ File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ]) (slide3.tex [4
 
 ]) (slide4.tex
-<langerBBI.jpg, id=329, 645.41125pt x 889.3225pt>
+<langerBBI.jpg, id=330, 645.41125pt x 889.3225pt>
 File: langerBBI.jpg Graphic file (type jpg)
 <use langerBBI.jpg>
 Package pdftex.def Info: langerBBI.jpg  used on input line 74.
 (pdftex.def)             Requested size: 56.9055pt x 78.40717pt.
-<em-fi-bbi-probe-20-black.jpg, id=330, 1323.9864pt x 795.9336pt>
+<em-fi-bbi-probe-20-black.jpg, id=331, 1323.9864pt x 795.9336pt>
 File: em-fi-bbi-probe-20-black.jpg Graphic file (type jpg)
 <use em-fi-bbi-probe-20-black.jpg>
 Package pdftex.def Info: em-fi-bbi-probe-20-black.jpg  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 51.31242pt.
-<chipshouter_upscaled.png, id=331, 2063.71pt x 1473.505pt>
+<chipshouter_upscaled.png, id=332, 2063.71pt x 1473.505pt>
 File: chipshouter_upscaled.png Graphic file (type png)
 <use chipshouter_upscaled.png>
 Package pdftex.def Info: chipshouter_upscaled.png  used on input line 74.
 (pdftex.def)             Requested size: 71.13188pt x 50.76852pt.
-<picoemp-red.jpeg, id=333, 240.9pt x 92.0238pt>
+<picoemp-red.jpeg, id=334, 240.9pt x 92.0238pt>
 File: picoemp-red.jpeg Graphic file (type jpg)
 <use picoemp-red.jpeg>
 Package pdftex.def Info: picoemp-red.jpeg  used on input line 74.
@@ -1733,7 +1731,7 @@ File: lgrcmss.fd 2017/07/29 v1.2 Greek European Computer Sans Serif
 
  <./langerBBI.jpg> <./em-fi-bbi-probe-20-black.jpg> <./chipshouter_upscaled.png
 > <./picoemp-red.jpeg>]) (slide6.tex
-<avrk4b.pdf, id=385, 1532.72626pt x 359.09157pt>
+<avrk4b.pdf, id=386, 1532.72626pt x 359.09157pt>
 File: avrk4b.pdf Graphic file (type pdf)
 <use avrk4b.pdf>
 Package pdftex.def Info: avrk4b.pdf  used on input line 73.
@@ -1743,7 +1741,7 @@ Overfull \hbox (4.20607pt too wide) in paragraph at lines 73--73
 [][]  
  []
 
-<sondeBBI_loin_raw.png, id=386, 1397.22pt x 1254.18562pt>
+<sondeBBI_loin_raw.png, id=387, 1397.22pt x 1254.18562pt>
 File: sondeBBI_loin_raw.png Graphic file (type png)
 <use sondeBBI_loin_raw.png>
 Package pdftex.def Info: sondeBBI_loin_raw.png  used on input line 73.
@@ -1758,7 +1756,7 @@ Overfull \hbox (12.8037pt too wide) in paragraph at lines 73--73
 [][]  
  []
 
-<pointeBBI2.png, id=387, 862.9038pt x 773.7708pt>
+<pointeBBI2.png, id=388, 862.9038pt x 773.7708pt>
 File: pointeBBI2.png Graphic file (type png)
 <use pointeBBI2.png>
 Package pdftex.def Info: pointeBBI2.png  used on input line 73.
@@ -1783,27 +1781,27 @@ Overfull \hbox (188.43002pt too wide) in paragraph at lines 73--73
 (slide7.tex [9
 
 ]
-<model0Probe.pdf, id=591, 369.88583pt x 199.1693pt>
+<model0Probe.pdf, id=592, 369.88583pt x 199.1693pt>
 File: model0Probe.pdf Graphic file (type pdf)
 <use model0Probe.pdf>
 Package pdftex.def Info: model0Probe.pdf  used on input line 51.
 (pdftex.def)             Requested size: 131.45245pt x 70.78308pt.
-<S1P.pdf, id=592, 404.51125pt x 178.6675pt>
+<S1P.pdf, id=593, 404.51125pt x 178.6675pt>
 File: S1P.pdf Graphic file (type pdf)
 <use S1P.pdf>
 Package pdftex.def Info: S1P.pdf  used on input line 51.
 (pdftex.def)             Requested size: 118.3064pt x 52.25389pt.
-<S1G.pdf, id=593, 411.5375pt x 178.6675pt>
+<S1G.pdf, id=594, 411.5375pt x 178.6675pt>
 File: S1G.pdf Graphic file (type pdf)
 <use S1G.pdf>
 Package pdftex.def Info: S1G.pdf  used on input line 51.
 (pdftex.def)             Requested size: 118.3064pt x 51.36241pt.
-<probafautes0.png, id=594, 850.377pt x 426.8748pt>
+<probafautes0.png, id=595, 850.377pt x 426.8748pt>
 File: probafautes0.png Graphic file (type png)
 <use probafautes0.png>
 Package pdftex.def Info: probafautes0.png  used on input line 51.
 (pdftex.def)             Requested size: 156.49014pt x 78.55373pt.
-<probafautes1.png, id=595, 850.377pt x 426.8748pt>
+<probafautes1.png, id=596, 850.377pt x 426.8748pt>
 File: probafautes1.png Graphic file (type png)
 <use probafautes1.png>
 Package pdftex.def Info: probafautes1.png  used on input line 51.
@@ -1819,7 +1817,7 @@ h page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./S1G.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 > <./probafautes0.png> <./probafautes1.png>]) (slide8.tex
-<model2ProbeManuscrit.pdf, id=802, 369.88583pt x 199.1693pt>
+<model2ProbeManuscrit.pdf, id=803, 369.88583pt x 199.1693pt>
 File: model2ProbeManuscrit.pdf Graphic file (type pdf)
 <use model2ProbeManuscrit.pdf>
 Package pdftex.def Info: model2ProbeManuscrit.pdf  used on input line 68.
@@ -1834,17 +1832,17 @@ Overfull \hbox (86.74994pt too wide) in paragraph at lines 68--68
 [][]  
  []
 
-<S2G.pdf, id=803, 411.5375pt x 178.6675pt>
+<S2G.pdf, id=804, 411.5375pt x 178.6675pt>
 File: S2G.pdf Graphic file (type pdf)
 <use S2G.pdf>
 Package pdftex.def Info: S2G.pdf  used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 74.11563pt.
-<S2P.pdf, id=804, 404.51125pt x 178.6675pt>
+<S2P.pdf, id=805, 404.51125pt x 178.6675pt>
 File: S2P.pdf Graphic file (type pdf)
 <use S2P.pdf>
 Package pdftex.def Info: S2P.pdf  used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 75.40515pt.
-<impMatchPicture.jpg, id=805, 1915.155pt x 2719.15875pt>
+<impMatchPicture.jpg, id=806, 1915.155pt x 2719.15875pt>
 File: impMatchPicture.jpg Graphic file (type jpg)
 <use impMatchPicture.jpg>
 Package pdftex.def Info: impMatchPicture.jpg  used on input line 68.
@@ -7285,11 +7283,11 @@ Package rerunfilecheck Info: File `0_slides.out' has not changed.
 (rerunfilecheck)             Checksum: 10E76E8231C4A38D96B569B9E824B575;1532.
  ) 
 Here is how much of TeX's memory you used:
- 42449 strings out of 476411
- 953199 string characters out of 5788662
+ 42461 strings out of 476411
+ 953332 string characters out of 5788662
  1873845 words of memory out of 5000000
- 61191 multiletter control sequences out of 15000+600000
- 530282 words of font info for 95 fonts, out of 8000000 for 9000
+ 61198 multiletter control sequences out of 15000+600000
+ 532148 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1009b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\geoff2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcs
@@ -7314,7 +7312,7 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/geoff
 sers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/g
 smn1095.pfb>
-Output written on 0_slides.pdf (45 pages, 56214291 bytes).
+Output written on 0_slides.pdf (45 pages, 56215735 bytes).
 PDF statistics:
  9370 PDF objects out of 10688 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
