@@ -1,7 +1,5 @@
 
-\documentclass[aspectratio=169]{beamer}
-%\usetheme{JuanLesPins}
-%\usecolortheme{seagull}
+\documentclass[aspectratio=1610]{beamer}
 \usetheme{Berlin}
 \usecolortheme{dolphin}
 
@@ -14,18 +12,14 @@
 \usepackage[yyyymmdd]{datetime}
 \usepackage{tikz}
 \usepackage{textgreek}
+\usepackage{amsmath}
+\DeclareFontFamily{U}{skulls}{}
+\DeclareFontShape{U}{skulls}{m}{n}{ <-> skull }{}
+\newcommand{\skull}{\text{\usefont{U}{skulls}{m}{n}\symbol{'101}}}
 \usetikzlibrary{tikzmark}
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{decorations.pathreplacing}
-
-%\setbeamertemplate{background}{\tikz[overlay, remember picture, help lines]{
-%    \foreach \x in {0,...,12} \path (current page.south west) +(\x,9.0) node {\small$\x$};
-%    \foreach \y in {0,...,9} \path (current page.south west) +(16.0,\y) node {\small$\y$};
-%    \foreach \x in {0,0.5,...,12.5} \draw (current page.south west) ++(\x,0) -- +(0,9.0);
-%    \foreach \y in {0,0.5,...,9.5} \draw (current page.south west) ++(0,\y) -- +(16.0,0);
-%    }
-%}
 
 \newcommand{\barsep}
 {
@@ -34,14 +28,6 @@
     \rule{0.5mm}{0.7\textheight}
 \end{column}
 }
-
-%\newcommand{\barhoriz}[1]
-%{
-%\begin{column}{0.02\textwidth}
-%    \centering
-%    \rule{#1}{0.5mm}
-%\end{column}
-%}
 
 \AtBeginSection[]{
     \begin{frame}[plain, noframenumbering]
@@ -56,20 +42,19 @@
 
 \begin{document}
     \setbeamertemplate{caption}{\raggedright\insertcaption\par}
-%    \setbeamertemplate{footline}[frame number]
     \setbeamertemplate{sidebar right}{}
-    \setbeamertemplate{footline}{%
+    \setbeamertemplate{footline}{
     \hfill\usebeamertemplate***{navigation symbols}
     \hspace{1mm}\insertframenumber{}/\inserttotalframenumber\hspace{1mm}}
     \setbeamertemplate{headline}
-    {%
-        \leavevmode%
+    {
+        \leavevmode
         \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex]{section in head/foot}%
             \hbox to .5\paperwidth{\hfil\insertsectionhead\hfil}
-        \end{beamercolorbox}%
+        \end{beamercolorbox}
         \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex]{subsection in head/foot}%
             \hbox to .5\paperwidth{\hfil\insertsubsectionhead\hfil}
-        \end{beamercolorbox}%
+        \end{beamercolorbox}
     }
 
     \title{Body biasing fault injection: \par Enhancements, analysis, modeling, and simulation}
@@ -87,62 +72,52 @@
         \end{tikzpicture}
     }
 
-    \begin{frame}[plain, noframenumbering] % Title frame
-        \titlepage
-        \begin{columns}
-            \footnotesize
-            \begin{column}{0.35\textwidth}
-                \begin{center}
-                    Jean-Luc Danger (Examiner)\\
-                    Jean-Max Dutertre (Rapporteur)
-                \end{center}
-            \end{column}
-            \begin{column}{0.35\textwidth}
-                \begin{center}
-                    Giorgio Di Natale (Rapporteur)\\
-                    Jean-Marc Gallière (Co-supervisor)
-                \end{center}
-            \end{column}
-            \begin{column}{0.35\textwidth}
-                \begin{center}
-                    Philippe Maurine (Director)\\
-                    Pascal Nouet (President)
-                \end{center}
-            \end{column}
-        \end{columns}
-%        \begin{center}
-%            Jean-Luc Danger \hspace{10mm} Giorgio Di Natale \hspace{10mm} Pascal Nouet
-%        \end{center}
-%        \begin{center}
-%            Jean-Max Dutertre \hspace{10mm} Jean-Marc Gallière \hspace{10mm} Philippe Maurine
-%        \end{center}
-    \end{frame}
+%    \begin{frame}[plain, noframenumbering] % Title frame
+%        \titlepage
+%        \begin{columns}
+%            \footnotesize
+%            \begin{column}{0.35\textwidth}
+%                \begin{center}
+%                    Jean-Luc Danger (Examiner)\\
+%                    Jean-Max Dutertre (Rapporteur)
+%                \end{center}
+%            \end{column}
+%            \begin{column}{0.35\textwidth}
+%                \begin{center}
+%                    Giorgio Di Natale (Rapporteur)\\
+%                    Jean-Marc Gallière (Co-supervisor)
+%                \end{center}
+%            \end{column}
+%            \begin{column}{0.35\textwidth}
+%                \begin{center}
+%                    Philippe Maurine (Director)\\
+%                    Pascal Nouet (President)
+%                \end{center}
+%            \end{column}
+%        \end{columns}
+%    \end{frame}
 
-%    \input{./testFrame.tex}
-    \input{./slide1.tex}
-    \input{./slide2.tex}
-    \input{./slide3.tex}
-    \input{./slide4.tex}
-    \input{./slide6.tex}
-    \input{./slide7.tex}
-    \input{./slide8.tex}
-    \input{./slide9.tex}
-    \input{./slide10.tex}
-    \input{./slide12.tex}
-
-    \input{./slide18.tex}
-    \input{./slide19.tex}
-    \input{./slide20.tex}
-
-    \input{./slide21.tex}
+%    \input{./slide1.tex}
+%    \input{./slide2.tex}
+%    \input{./slide3.tex}
+%    \input{./slide4.tex}
+%    \input{./slide6.tex}
+%    \input{./slide7.tex}
+%    \input{./slide8.tex}
+%    \input{./slide9.tex}
+%    \input{./slide10.tex}
+%    \input{./slide12.tex}
+%    \input{./slide18.tex}
+%    \input{./slide19.tex}
+%    \input{./slide20.tex}
+%    \input{./slide21.tex}
     \input{./slide22.tex}
-    \input{./slide23.tex}
+%    \input{./slide23.tex}
+%    \input{./slide24.tex}
+%    \input{./slide25.tex}
+%    \input{./slide26.tex}
+%    \input{./slide28.tex}
+%    \input{./slide29.tex}
+%    \input{./slide30.tex}
 
-    \input{./slide24.tex}
-    \input{./slide25.tex}
-    \input{./slide26.tex}
-
-    \input{./slide28.tex}
-    \input{./slide29.tex}
-    \input{./slide30.tex}
 \end{document}

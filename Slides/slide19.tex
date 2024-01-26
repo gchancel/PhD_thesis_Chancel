@@ -22,44 +22,30 @@
                 \includegraphics[width=\textwidth]{iSubcManuscritTws.pdf}
                 \caption{Substrate current distribution}
             \end{figure}
-            \vspace{-1mm}
+            \vspace{2mm}
             \begin{figure}
                 \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{CurrentDistributionNormT140eT10_ExcTw.pdf}
                 \caption{Per-layer normalized substrate current density: }
             \end{figure}
-            \centering 186 µm diameter mid-height
+%            \centering 186 µm diameter mid-height
         \end{column}
     \end{columns}
 \end{frame}
 
-%\begin{frame}{Dual-well vs Triple-well}
-%    Differences between Dual-well and Triple-well circuits:
-%    \begin{itemize}
-%        \item Dual-well → NMOS are \textcolor{blue}{DC-coupled} | PMOS are \textcolor{orange}{AC-coupled}
-%        \item Triple-well → entire IC is \textcolor{orange}{AC-coupled}
-%    \end{itemize}
-%    Implications:
-%    \begin{itemize}
-%        \item Dual-well → continuous energy flow during the pulse
-%        \item Triple-well → energy flow confined to the pulse edges
-%    \end{itemize}
-%    \vspace{6mm}
-%    \centering \textbf{For a given amount of time → less energy injected into TW compared to DW\\
-%    \hspace{10.54em} → less RMS current into TW compared to DW}
-%\end{frame}
-
 \begin{frame}{Dual-well vs Triple-well}
-    \Large \textbf{Differences between Dual-well and Triple-well circuits:}
+    \Large Differences between Dual-well and Triple-well circuits:
     \begin{table}[]
         \resizebox{\framewidth}{!}{
-        \begin{tabular}{|c|c|ccc|c|}
-            \hline
-            \cellcolor[HTML]{DAE8FC}                                     & \cellcolor[HTML]{DAE8FC}                                    & \multicolumn{3}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{Coupling}}                                                                                                     & \cellcolor[HTML]{DAE8FC}                                  \\ \cline{3-5}
-            \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Substrate}} & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Polarity}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FE996B}\textbf{NMOS}} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFCC67}\textbf{PMOS}} & \cellcolor[HTML]{67FD9A}\textbf{Circuit} & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}\textbf{Danger}} \\ \hline
-            \textbf{Dual-well}                                           & \textbf{Negative}                                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \textbf{DC}                              & \textbf{+++}                                              \\ \hline
-            \textbf{Dual-well}                                           & \textbf{Positive}                                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \textbf{DC}                              & \textbf{++++}                                             \\ \hline
-            \textbf{Triple-well}                                         & \textbf{Negative}                                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \textbf{AC}                              & \textbf{+}                                                \\ \hline
-            \textbf{Triple-well}                                         & \textbf{Positive}                                           & \multicolumn{1}{c|}{\textbf{AC}}                           & \multicolumn{1}{c|}{\textbf{DC}}                           & \textbf{DC}                              & \textbf{+++}                                              \\ \hline
+        \begin{tabular}{
+                >{\columncolor[HTML]{EFEFEF}}c
+                >{\columncolor[HTML]{EFEFEF}}c cc
+                >{\columncolor[HTML]{FFFC9E}}c c}
+            \cellcolor[HTML]{DAE8FC}                            & \cellcolor[HTML]{DAE8FC}                           & \multicolumn{3}{c}{\cellcolor[HTML]{DAE8FC}Coupling}                                                                                    & \cellcolor[HTML]{DAE8FC}                           \\
+            \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}Substrate} & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}Polarity} & \cellcolor[HTML]{DAE8FC}NMOS                      & \cellcolor[HTML]{DAE8FC}PMOS                      & \cellcolor[HTML]{DAE8FC}Circuit & \multirow{-2}{*}{\cellcolor[HTML]{DAE8FC}Danger}   \\
+            Dual-well                                           & Negative                                           & \cellcolor[HTML]{FFFC9E}{\color[HTML]{000000} DC} & \cellcolor[HTML]{9AFF99}AC                        & {\color[HTML]{000000} DC}       & \cellcolor[HTML]{FFCCC9}{\color[HTML]{000000} \skull\skull\skull} \\
+            Dual-well                                           & Positive                                           & \cellcolor[HTML]{FFFC9E}{\color[HTML]{000000} DC} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{000000} DC} & {\color[HTML]{000000} DC}       & \cellcolor[HTML]{FD6864}\skull\skull\skull\skull        \\
+            Triple-well                                         & Negative                                           & \cellcolor[HTML]{9AFF99}AC                        & \cellcolor[HTML]{9AFF99}AC                        & \cellcolor[HTML]{9AFF99}AC      & \cellcolor[HTML]{96FFFB}\skull                          \\
+            Triple-well                                         & Positive                                           & \cellcolor[HTML]{9AFF99}AC                        & \cellcolor[HTML]{FFFC9E}{\color[HTML]{000000} DC} & {\color[HTML]{000000} DC}       & \cellcolor[HTML]{FFCCC9}{\color[HTML]{000000} \skull\skull\skull}
         \end{tabular}}
     \end{table}
 \end{frame}

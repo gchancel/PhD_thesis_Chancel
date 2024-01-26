@@ -1,48 +1,42 @@
+
 \begin{frame}
     \frametitle{Body biasing injection: LIRMM BBI platform}
 %    Generateur
-    \begin{textblock*}{40mm}(5mm, 20mm)
+    \begin{textblock*}{40mm}(5mm, 25mm)
         \includegraphics[width=\textwidth]{avrk4b.pdf}
     \end{textblock*}
 %    Fleche generateur bas
-    \begin{textblock*}{1mm}(24mm, 30mm)
+    \begin{textblock*}{1mm}(24mm, 35mm)
         \begin{tikzpicture}
-            \draw[-Stealth, blue, line width=0.5mm] (0, 0) -- (0, -1);
+            \draw[-Latex, red, line width=0.5mm] (0, 0) -- (0, -1);
         \end{tikzpicture}
     \end{textblock*}
 %    SOnde Loin
-    \begin{textblock*}{30mm}(10mm, 42mm)
+    \begin{textblock*}{30mm}(10mm, 47mm)
         \includegraphics[width=\textwidth]{sondeBBI_loin_raw.png}
     \end{textblock*}
 %    Fleche sonde loin droite
-    \begin{textblock*}{1mm}(25.7mm, 63mm)
+    \begin{textblock*}{1mm}(25.7mm, 68mm)
         \begin{tikzpicture}
-            \draw[-Stealth, blue, line width=0.5mm] (0, 0) -- (1.8, -1);
+            \draw[-Latex, red, line width=0.5mm] (0, 0) -- (1.8, -1);
         \end{tikzpicture}
     \end{textblock*}
 %    Cercle sonde loin
-    \begin{textblock*}{1mm}(21mm, 59mm)
+    \begin{textblock*}{1mm}(21mm, 64mm)
         \begin{tikzpicture}
-            \draw[line width=0.5mm, color=blue] circle (0.25);
+            \draw[line width=0.5mm, color=red] circle (0.25);
         \end{tikzpicture}
     \end{textblock*}
 %    SOnde proche
-    \begin{textblock*}{30mm}(47mm, 59mm)
+    \begin{textblock*}{30mm}(47mm, 64mm)
         \includegraphics[width=\textwidth]{pointeBBI2.png}
     \end{textblock*}
-%%    Fleche sonde proche droite/haut
-%    \begin{textblock*}{1mm}(90mm, 48.5mm)
-%        \begin{tikzpicture}
-%            \draw[-Stealth, blue, line width=0.5mm] (0, 0) -| (1, 1.5);
-%        \end{tikzpicture}
-%    \end{textblock*}
-
 %    Header Tableau
-    \begin{textblock*}{1mm}(85mm, 18mm)
+    \begin{textblock*}{1mm}(85mm, 23mm)
         \textbf{\underline{Main platform characteristics:}}
     \end{textblock*}
 %    Tableau
-    \begin{textblock*}{1mm}(85mm, 21mm)
+    \begin{textblock*}{1mm}(85mm, 26mm)
 %        Main platform characteristics
         \begin{table}[]
             \begin{tabular}{|
@@ -70,13 +64,21 @@
             \end{tabular}
         \end{table}
     \end{textblock*}
+%    Fleche generateur bas
+    \begin{textblock*}{1mm}(72mm, 77.5mm)
+        \begin{tikzpicture}
+            \draw[-Latex, red, line width=0.5mm] (0, 0) -- (-1.25, 0.3);
+        \end{tikzpicture}
+    \end{textblock*}
 \end{frame}
 
 \section*{THESIS OBJECTIVES}
 \begin{frame}
     \frametitle{Thesis objectives}
+    \vspace{5mm}
+    \Large
     \begin{itemize}
-        \setlength\itemsep{1em}
+        \setlength\itemsep{1.5em}
         \item What is the spatial resolution of BBI?
         \item What is the time resolution of BBI?
         \item Is thinning the substrate useful in any way?
@@ -88,12 +90,14 @@
 \section*{THESIS AGENDA}
 \begin{frame}
     \frametitle{Thesis agenda}
+    \vspace{5mm}
+    \Large
     \begin{itemize}
-        \setlength\itemsep{1em}
+        \setlength\itemsep{1.5em}
         \item Enhancing the practice of Body Biasing Injection
         \item Integrated circuits modeling for BBI
         \item Enhanced simulation flow
         \item Substrate thinning analysis in a BBI context
-        \item Conclusion and perspectives
+        \item Conclusion and outlooks
     \end{itemize}
 \end{frame}

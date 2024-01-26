@@ -3,86 +3,53 @@
     \frametitle{Enhanced BBI platform}
     \framesubtitle{Summary}
     %    Courant bad
-    \begin{textblock*}{60mm}(99mm, 24mm)
+    \begin{textblock*}{60mm}(99mm, 30mm)
         \includegraphics[width=\textwidth]{S1G.pdf}
     \end{textblock*}
     %    Pulse bad
-    \begin{textblock*}{60mm}(39mm, 24mm)
+    \begin{textblock*}{60mm}(39mm, 30mm)
         \includegraphics[width=\textwidth]{S1P.pdf}
     \end{textblock*}
     %    Courant good
-    \begin{textblock*}{60mm}(99mm, 50mm)
+    \begin{textblock*}{60mm}(99mm, 58mm)
         \includegraphics[width=\textwidth]{S2G.pdf}
     \end{textblock*}
     %    Pulse good
-    \begin{textblock*}{60mm}(39mm, 50mm)
+    \begin{textblock*}{60mm}(39mm, 58mm)
         \includegraphics[width=\textwidth]{S2P.pdf}
     \end{textblock*}
 %    texte pulse undershoot bad
-    \begin{textblock*}{100mm}(5mm, 18mm)
+    \begin{textblock*}{100mm}(5mm, 24mm)
         \textcolor{red}{
         275 \% PW overshoot\\
         -108 \% pulse undershoot}
     \end{textblock*}
 %    texte pulse undershoot good
-    \begin{textblock*}{100mm}(5mm, 75mm)
+    \begin{textblock*}{100mm}(5mm, 83mm)
         \textcolor{red}{
         -31 \% pulse undershoot\\
         Matched pulse width}
     \end{textblock*}
 %    texte ringing s1g
-    \begin{textblock*}{100mm}(108.5mm, 20mm)
+    \begin{textblock*}{100mm}(108.5mm, 28mm)
         \textcolor{red}{
         Ringing: more than 100 ns}
     \end{textblock*}
 %    texte ringing s2g
-    \begin{textblock*}{100mm}(119mm, 77mm)
+    \begin{textblock*}{100mm}(119mm, 85mm)
         \textcolor{red}{
         Ringing: 15 ns}
     \end{textblock*}
 %    fleche pulse undershoot good
-    \begin{textblock*}{1mm}(25mm, 27.1mm)
+    \begin{textblock*}{1mm}(25mm, 35.1mm)
         \begin{tikzpicture}
-            \draw[-Stealth, red, line width=0.25mm] (0, 0) |- (3.5, -1.61);
+            \draw[-Latex, red, line width=0.5mm] (0, 0) |- (3.5, -1.61);
         \end{tikzpicture}
     \end{textblock*}
 %    fleche pulse undershoot bad
-    \begin{textblock*}{1mm}(25mm, 63mm)
+    \begin{textblock*}{1mm}(25mm, 71mm)
         \begin{tikzpicture}
-            \draw[-Stealth, red, line width=0.25mm] (0, 0) |- (3.5, 1.);
+            \draw[-Latex, red, line width=0.5mm] (0, 0) |- (3.5, 1.);
         \end{tikzpicture}
     \end{textblock*}
-
-%    \centering
-%    \begin{columns}
-%        \begin{column}{0.3\textwidth}
-%            \centering
-%            \includegraphics[width=\textwidth]{S1P.pdf}
-%            \includegraphics[width=\textwidth]{S1G.pdf}
-%        \end{column}
-%        \begin{column}{0.3\textwidth}
-%            \centering
-%            \includegraphics[width=\textwidth]{S2P.pdf}
-%            \includegraphics[width=\textwidth]{S2G.pdf}
-%        \end{column}
-%
-%        \barsep
-%
-%        \begin{column}{0.4\textwidth}
-%            \centering
-%            Default platform:
-%            \begin{itemize}
-%                \item -108 \% pulse undershoot;
-%                \item 275 \% pulse width overshoot;
-%                \item Obvious ringing.
-%            \end{itemize}
-%            Enhanced platform:
-%            \begin{itemize}
-%                \item -31 \% undershoot;
-%                \item Matched pulse width;
-%                \item Less ringing.
-%            \end{itemize}
-%        \end{column}
-%    \end{columns}
-
 \end{frame}
