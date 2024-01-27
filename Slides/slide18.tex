@@ -20,7 +20,7 @@
     \vspace{2mm}
     Simulation conditions:
     \begin{itemize}
-        \item Voltage pulse amplitude: -300 V
+        \item Voltage pulse amplitude: $\pm \; 300 \; V$
         \item Voltage pulse width: 20 ns
         \item Rise and fall times: 8 ns
         \item Approximate impedance matching
@@ -29,7 +29,7 @@
 
 \begin{frame}
 %    [trim={left bottom right top},clip]
-    \frametitle{Simulation results: Dual-Well}
+    \frametitle{Simulation results: Dual-Well negative pulse}
     \begin{columns}
         \begin{column}{0.3\textwidth}
             \vspace{-1mm}
@@ -53,6 +53,39 @@
             \vspace{2mm}
             \begin{figure}
                 \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{CurrentDistributionNormT140eT10_ExcDw.pdf}
+                \caption{Per-layer normalized substrate current density}
+            \end{figure}
+%            \centering 180 µm diameter mid-height
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+%    [trim={left bottom right top},clip]
+    \frametitle{Simulation results: Dual-Well positive pulse}
+    \begin{columns}
+        \begin{column}{0.3\textwidth}
+            \vspace{-1mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./dualWellPositive/pdn_dw_positif300.pdf}
+                \caption{\centering PDN (VDD - GND)}
+            \end{figure}
+            \vspace{-2mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./dualWellPositive/iepi_dw_positif300.pdf}
+                \caption{\centering Epitaxy current distribution}
+            \end{figure}
+        \end{column}
+
+        \begin{column}{0.6\textwidth}
+            \vspace{-2mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./dualWellPositive/isub_dw_positif300.pdf}
+                \caption{Substrate current distribution}
+            \end{figure}
+            \vspace{2mm}
+            \begin{figure}
+                \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{./dualWellPositive/isubDensity_dw_positif300.pdf}
                 \caption{Per-layer normalized substrate current density}
             \end{figure}
 %            \centering 180 µm diameter mid-height

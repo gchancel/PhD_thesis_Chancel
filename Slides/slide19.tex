@@ -1,7 +1,7 @@
 
 \begin{frame}
     %    [trim={left bottom right top},clip]
-    \frametitle{Simulation results: Triple-Well}
+    \frametitle{Simulation results: Triple-Well negative pulse}
     \begin{columns}
         \begin{column}{0.3\textwidth}
             \vspace{-1mm}
@@ -25,7 +25,40 @@
             \vspace{2mm}
             \begin{figure}
                 \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{CurrentDistributionNormT140eT10_ExcTw.pdf}
-                \caption{Per-layer normalized substrate current density: }
+                \caption{Per-layer normalized substrate current density}
+            \end{figure}
+%            \centering 186 µm diameter mid-height
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    %    [trim={left bottom right top},clip]
+    \frametitle{Simulation results: Triple-Well positive pulse}
+    \begin{columns}
+        \begin{column}{0.3\textwidth}
+            \vspace{-1mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./tripleWellPositive/pdn_tw_positif300.pdf}
+                \caption{\centering PDN (VDD - GND)}
+            \end{figure}
+            \vspace{-2mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./tripleWellPositive/iepi_tw_positif300.pdf}
+                \caption{\centering Epitaxy current distribution}
+            \end{figure}
+        \end{column}
+
+        \begin{column}{0.6\textwidth}
+            \vspace{-2mm}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{./tripleWellPositive/isub_tw_positif300.pdf}
+                \caption{Substrate current distribution}
+            \end{figure}
+            \vspace{2mm}
+            \begin{figure}
+                \includegraphics[trim={0mm 0mm 0mm 13mm}, clip, width=\textwidth]{./tripleWellPositive/isubDensity_tw_positif300.pdf}
+                \caption{Per-layer normalized substrate current density}
             \end{figure}
 %            \centering 186 µm diameter mid-height
         \end{column}

@@ -21,6 +21,15 @@
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{decorations.pathreplacing}
 
+\newcommand{\backupbegin}{
+    \newcounter{framenumberappendix}
+    \setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+    \addtocounter{framenumberappendix}{-\value{framenumber}}
+    \addtocounter{framenumber}{\value{framenumberappendix}}
+}
+
 \newcommand{\barsep}
 {
 \begin{column}{0.02\textwidth}
@@ -72,52 +81,54 @@
         \end{tikzpicture}
     }
 
-%    \begin{frame}[plain, noframenumbering] % Title frame
-%        \titlepage
-%        \begin{columns}
-%            \footnotesize
-%            \begin{column}{0.35\textwidth}
-%                \begin{center}
-%                    Jean-Luc Danger (Examiner)\\
-%                    Jean-Max Dutertre (Rapporteur)
-%                \end{center}
-%            \end{column}
-%            \begin{column}{0.35\textwidth}
-%                \begin{center}
-%                    Giorgio Di Natale (Rapporteur)\\
-%                    Jean-Marc Gallière (Co-supervisor)
-%                \end{center}
-%            \end{column}
-%            \begin{column}{0.35\textwidth}
-%                \begin{center}
-%                    Philippe Maurine (Director)\\
-%                    Pascal Nouet (President)
-%                \end{center}
-%            \end{column}
-%        \end{columns}
-%    \end{frame}
+    % Title frame
+    \begin{frame}[plain, noframenumbering] % Title frame
+        \titlepage
+        \begin{columns}
+            \footnotesize
+            \begin{column}{0.35\textwidth}
+                \begin{center}
+                    Jean-Luc Danger (Examiner)\\
+                    Jean-Max Dutertre (Rapporteur)
+                \end{center}
+            \end{column}
+            \begin{column}{0.35\textwidth}
+                \begin{center}
+                    Giorgio Di Natale (Rapporteur)\\
+                    Jean-Marc Gallière (Co-supervisor)
+                \end{center}
+            \end{column}
+            \begin{column}{0.35\textwidth}
+                \begin{center}
+                    Philippe Maurine (Director)\\
+                    Pascal Nouet (President)
+                \end{center}
+            \end{column}
+        \end{columns}
+    \end{frame}
 
-%    \input{./slide1.tex}
-%    \input{./slide2.tex}
-%    \input{./slide3.tex}
-%    \input{./slide4.tex}
-%    \input{./slide6.tex}
-%    \input{./slide7.tex}
-%    \input{./slide8.tex}
-%    \input{./slide9.tex}
-%    \input{./slide10.tex}
-%    \input{./slide12.tex}
-%    \input{./slide18.tex}
-%    \input{./slide19.tex}
-%    \input{./slide20.tex}
-%    \input{./slide21.tex}
+    \input{./slide1.tex}
+    \input{./slide2.tex}
+    \input{./slide3.tex}
+    \input{./slide4.tex}
+    \input{./slide6.tex}
+    \input{./slide7.tex}
+    \input{./slide8.tex}
+    \input{./slide9.tex}
+    \input{./slide10.tex}
+    \input{./slide12.tex}
+    \input{./slide18.tex}
+    \input{./slide19.tex}
+    \input{./slide20.tex}
+    \input{./slide21.tex}
     \input{./slide22.tex}
-%    \input{./slide23.tex}
-%    \input{./slide24.tex}
-%    \input{./slide25.tex}
-%    \input{./slide26.tex}
-%    \input{./slide28.tex}
-%    \input{./slide29.tex}
-%    \input{./slide30.tex}
+    \input{./slide23.tex}
+    \input{./slide24.tex}
+    \input{./slide25.tex}
+    \input{./slide26.tex}
+    \input{./slide28.tex}
+    \input{./slide29.tex}
+    \input{./slide30.tex}
+%    \input{./slideAdditionals.tex}
 
 \end{document}
