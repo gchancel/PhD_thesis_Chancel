@@ -136,6 +136,7 @@ Eventually, I will draw conclusions on the various observations.
             \item A fixed pulse delay of 150 ns + 553 ns allowing to target the penultimate AES round;
             \item The mapping measures 2 mm by 2 mm, with an isotropic displacement step of 40 µm.
         \end{itemize}
+        The parameters have been chosen with the aim of minimizing the maximum voltage amplitude to avoid damaging the circuit.
         These experiments take from 16 hours at best, up to 36 hours at worst to perform.
         It is quite long, however, compared to blindly looking for the correct location to perform the Giraud's attack, it is statistically much faster, especially when the AES approximate location is known to the user.
         I performed two FAMs, on the same IC target, for a state-of-the-art platform and for the proposed enhanced platform.
@@ -172,7 +173,7 @@ Eventually, I will draw conclusions on the various observations.
     However, to retrieve the secret key, it is required to find all 16 bytes of $K^{10}$.
     Because there are 16 bits left, it is not particularly relevant to try to find interesting locations to perform Giraud's DFA, as there are only 65536 combinations to blindly test at worst to find the correct last round key.
     Considering the platform computer can perform approximately $188 \cdot 10^3$ encryptions per second, it would take $\frac{2^{16}}{188 \cdot 10^3} \approxeq 349 \cdot 10^{-3}$ seconds to perform the required calculation in the worst scenario.
-    I then blindly tested every possibility to find the last two bytes, and I was able to retrieve them, thus allowing me to retrieve the AES secret key.
+    I then blindly tested every possibility to find the last two bytes, without exploiting the knowledge of the correct positions of the other secret key bytes, and I was able to retrieve them, thus allowing me to retrieve the entire AES secret key.
     These brute-forced bytes are shown in yellow in Table \ref{table:dfaResults}.
 
     \begin{table}[t]

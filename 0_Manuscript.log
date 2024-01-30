@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  6 DEC 2023 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  30 JAN 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2788,7 +2788,7 @@ gures/aesFastImpGnd.pdf>] [32]
 File: 2_goodPractices/figures/giraud__7N.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/giraud__7N.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/giraud__7N.pdf  used on input 
-line 180.
+line 181.
 (pdftex.def)             Requested size: 483.69687pt x 44.20486pt.
 )
 (2_goodPractices/2_5_conclusion.tex)) [33 <./2_goodPractices/figures/giraud__7N
@@ -3369,7 +3369,7 @@ Package rerunfilecheck Info: File `0_Manuscript.brf' has not changed.
 Here is how much of TeX's memory you used:
  69809 strings out of 476411
  1569869 string characters out of 5788662
- 3234923 words of memory out of 5000000
+ 3235918 words of memory out of 5000000
  87155 multiletter control sequences out of 15000+600000
  595526 words of font info for 149 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -3396,7 +3396,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/geof
 f2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
 geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Us
 ers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (117 pages, 46662289 bytes).
+Output written on 0_Manuscript.pdf (117 pages, 46662427 bytes).
 PDF statistics:
  7386 PDF objects out of 7423 (max. 8388607)
  4993 compressed objects within 50 object streams
