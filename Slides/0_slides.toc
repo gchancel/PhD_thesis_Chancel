@@ -2,4 +2,3 @@
 \beamer@sectionintoc {5}{MODELING AND SIMULATING BODY BIASING INJECTION}{14}{0}{2}
 \beamer@sectionintoc {6}{SUBSTRATE THINNING ANALYSIS}{33}{0}{3}
 \beamer@sectionintoc {7}{CONCLUSION AND OUTLOOKS}{44}{0}{4}
-\beamer@sectionintoc {8}{Additional content}{47}{1}{5}
