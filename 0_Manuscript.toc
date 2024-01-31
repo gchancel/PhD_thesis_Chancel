@@ -52,9 +52,9 @@
 \contentsline {section}{\numberline {2.8}Enhanced BBI platform in a fault attack context }{28}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Giraud's DFA detailed description }{28}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Integrated circuits target characteristics }{30}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Preliminary attack experiments }{30}{subsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.3.1}Fault analysis mapping description }{30}{subsubsection.2.8.3.1}%
-\contentsline {subsubsection}{\numberline {2.8.3.2}Fault analysis mapping comparison }{31}{subsubsection.2.8.3.2}%
+\contentsline {subsection}{\numberline {2.8.3}Preliminary attack experiments }{31}{subsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.3.1}Fault analysis mapping description }{31}{subsubsection.2.8.3.1}%
+\contentsline {subsubsection}{\numberline {2.8.3.2}Fault analysis mapping comparison }{32}{subsubsection.2.8.3.2}%
 \contentsline {subsection}{\numberline {2.8.4}Attack results and analysis }{32}{subsection.2.8.4}%
 \contentsline {section}{\numberline {2.9}Conclusion }{33}{section.2.9}%
 \contentsline {chapter}{\numberline {3}Integrated circuits modeling }{35}{chapter.3}%

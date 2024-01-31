@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  30 JAN 2024 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  30 JAN 2024 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2766,24 +2766,24 @@ n/10.95 byte, and $\OML/lmm/m/it/10.95 ShiftRow\OT1/lmr/m/n/10.95 (\OML/lmm/m/i
 t/10.95 j\OT1/lmr/m/n/10.95 )$
  []
 
-[29 <./2_goodPractices/figures/aesLastRounds.pdf>]
+[29 <./2_goodPractices/figures/aesLastRounds.pdf>] [30]
 (2_goodPractices/figures/giraudDFA_0.tex
-<2_goodPractices/figures/aesFastGndOnly.pdf, id=2215, 902.06224pt x 330.63283pt
+<2_goodPractices/figures/aesFastGndOnly.pdf, id=2221, 902.06224pt x 330.63283pt
 >
 File: 2_goodPractices/figures/aesFastGndOnly.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/aesFastGndOnly.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/aesFastGndOnly.pdf  used on in
 put line 18.
 (pdftex.def)             Requested size: 227.3381pt x 157.2086pt.
-<2_goodPractices/figures/aesFastImpGnd.pdf, id=2225, 894.61841pt x 330.63283pt>
+<2_goodPractices/figures/aesFastImpGnd.pdf, id=2231, 894.61841pt x 330.63283pt>
 
 File: 2_goodPractices/figures/aesFastImpGnd.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/aesFastImpGnd.pdf>
 Package pdftex.def Info: 2_goodPractices/figures/aesFastImpGnd.pdf  used on inp
 ut line 25.
 (pdftex.def)             Requested size: 227.3381pt x 159.70087pt.
-) [30] [31 <./2_goodPractices/figures/aesFastGndOnly.pdf> <./2_goodPractices/fi
-gures/aesFastImpGnd.pdf>] [32]
+) [31 <./2_goodPractices/figures/aesFastGndOnly.pdf> <./2_goodPractices/figures
+/aesFastImpGnd.pdf>] [32]
 <2_goodPractices/figures/giraud__7N.pdf, id=2412, 489.40842pt x 44.7271pt>
 File: 2_goodPractices/figures/giraud__7N.pdf Graphic file (type pdf)
 <use 2_goodPractices/figures/giraud__7N.pdf>
@@ -3152,13 +3152,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\tooltip' on input line 2.
 
 (4_thinning/figures/geomCrossView.tex
-<4_thinning/figures/geomCrossViewNew.pdf, id=5051, 569.05513pt x 256.0748pt>
+<4_thinning/figures/geomCrossViewNew.pdf, id=5531, 569.05513pt x 256.0748pt>
 File: 4_thinning/figures/geomCrossViewNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/geomCrossViewNew.pdf  used on input
  line 11.
 (pdftex.def)             Requested size: 232.17242pt x 104.47556pt.
-<4_thinning/figures/geomCrossViewThinNew.pdf, id=5052, 569.05513pt x 256.0748pt
+<4_thinning/figures/geomCrossViewThinNew.pdf, id=5532, 569.05513pt x 256.0748pt
 >
 File: 4_thinning/figures/geomCrossViewThinNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/geomCrossViewThinNew.pdf>
@@ -3172,7 +3172,7 @@ pdfTeX warning: pdflatex.exe (file ./4_thinning/figures/geomCrossViewThinNew.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >] [66{C:/Users/geoff2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
 ex.enc}] (4_thinning/figures/simuSubCoupe2.tex
-<4_thinning/figures/thinning140um.pdf, id=5168, 867.24pt x 289.08pt>
+<4_thinning/figures/thinning140um.pdf, id=5648, 867.24pt x 289.08pt>
 File: 4_thinning/figures/thinning140um.pdf Graphic file (type pdf)
 <use 4_thinning/figures/thinning140um.pdf>
 Package pdftex.def Info: 4_thinning/figures/thinning140um.pdf  used on input li
@@ -3184,7 +3184,7 @@ Underfull \hbox (badness 1688) in paragraph at lines 7--7
 b-strate volt-age dis-tri-bu-tion cross-
  []
 
-<4_thinning/figures/thinning60um.pdf, id=5170, 867.24pt x 289.08pt>
+<4_thinning/figures/thinning60um.pdf, id=5650, 867.24pt x 289.08pt>
 File: 4_thinning/figures/thinning60um.pdf Graphic file (type pdf)
 <use 4_thinning/figures/thinning60um.pdf>
 Package pdftex.def Info: 4_thinning/figures/thinning60um.pdf  used on input lin
@@ -3196,7 +3196,7 @@ Underfull \hbox (badness 2529) in paragraph at lines 15--15
 -strate volt-age dis-tri-bu-tion cross-
  []
 
-<4_thinning/figures/VoltageDistributionNormT140eT10_ExcDw.pdf, id=5172, 722.7pt
+<4_thinning/figures/VoltageDistributionNormT140eT10_ExcDw.pdf, id=5652, 722.7pt
  x 289.08pt>
 File: 4_thinning/figures/VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file
  (type pdf)
@@ -3204,7 +3204,7 @@ File: 4_thinning/figures/VoltageDistributionNormT140eT10_ExcDw.pdf Graphic file
 Package pdftex.def Info: 4_thinning/figures/VoltageDistributionNormT140eT10_Exc
 Dw.pdf  used on input line 22.
 (pdftex.def)             Requested size: 222.5038pt x 89.00073pt.
-<4_thinning/figures/VoltageDistributionNormT60eT10_ExcDw.pdf, id=5174, 722.7pt 
+<4_thinning/figures/VoltageDistributionNormT60eT10_ExcDw.pdf, id=5654, 722.7pt 
 x 289.08pt>
 File: 4_thinning/figures/VoltageDistributionNormT60eT10_ExcDw.pdf Graphic file 
 (type pdf)
@@ -3216,7 +3216,7 @@ w.pdf  used on input line 29.
 <./4_thinning/figures/thinning60um.pdf> <./4_thinning/figures/VoltageDistributi
 onNormT140eT10_ExcDw.pdf> <./4_thinning/figures/VoltageDistributionNormT60eT10_
 ExcDw.pdf>] (4_thinning/figures/cartosFautes.tex
-<4_thinning/figures/cartosFautesNew.pdf, id=5392, 1350.00356pt x 435.0654pt>
+<4_thinning/figures/cartosFautesNew.pdf, id=5872, 1350.00356pt x 435.0654pt>
 File: 4_thinning/figures/cartosFautesNew.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesNew.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosFautesNew.pdf  used on input 
@@ -3227,7 +3227,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68])
 (4_thinning/figures/cartosFautesSpreading.tex
-<4_thinning/figures/cartosFautesSpreading.pdf, id=5399, 1350.00356pt x 435.0654
+<4_thinning/figures/cartosFautesSpreading.pdf, id=5879, 1350.00356pt x 435.0654
 pt>
 File: 4_thinning/figures/cartosFautesSpreading.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosFautesSpreading.pdf>
@@ -3236,7 +3236,7 @@ input line 3.
 (pdftex.def)             Requested size: 483.69687pt x 155.8799pt.
 )
 (4_thinning/figures/cartosFautesCouples.tex
-<4_thinning/figures/cartosCouples.pdf, id=5400, 1350.00356pt x 465.4188pt>
+<4_thinning/figures/cartosCouples.pdf, id=5880, 1350.00356pt x 465.4188pt>
 File: 4_thinning/figures/cartosCouples.pdf Graphic file (type pdf)
 <use 4_thinning/figures/cartosCouples.pdf>
 Package pdftex.def Info: 4_thinning/figures/cartosCouples.pdf  used on input li
@@ -3396,10 +3396,10 @@ ppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/geof
 f2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
 geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Us
 ers/geoff2/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 0_Manuscript.pdf (117 pages, 46662427 bytes).
+Output written on 0_Manuscript.pdf (117 pages, 46695531 bytes).
 PDF statistics:
- 7386 PDF objects out of 7423 (max. 8388607)
- 4993 compressed objects within 50 object streams
+ 7867 PDF objects out of 8907 (max. 8388607)
+ 5311 compressed objects within 54 object streams
  1341 named destinations out of 1440 (max. 500000)
  3288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
